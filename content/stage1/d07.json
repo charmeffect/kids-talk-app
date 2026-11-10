@@ -1,0 +1,69 @@
+{
+  "stage": 1,
+  "day": 7,
+  "topic": "ships",
+  "title_en": "A big ship at the harbor",
+  "title_ko": "항구의 큰 배",
+  "intro_ko": "항구에서 커다란 컨테이너선과 작은 예인선을 구경하는 장면입니다. 배 사진이나 장난감 배를 보여 주며 손가락으로 가리키면서 해 보세요.",
+  "expressions": [
+    { "en": "How big is it?", "ko": "그거 얼마나 커?", "tip": "크기를 물을 때 big 자리에 tall, long, fast를 넣어 응용할 수 있어요. big is it이 이어져 '하우 비기짓'처럼 들립니다.", "who": "both" },
+    { "en": "It's huge!", "ko": "엄청 크다!", "tip": "big보다 훨씬 큰 느낌이에요. 놀란 목소리로 '잇츠 휴지!'라고 크게 말해 주세요.", "who": "both" },
+    { "en": "Where is it going?", "ko": "그거 어디 가?", "tip": "움직이는 배·비행기·차를 볼 때 쓰기 좋아요. Where is it이 이어져 '웨어리짓 고잉'처럼 들립니다.", "who": "kid" },
+    { "en": "All aboard!", "ko": "모두 타세요!", "tip": "배나 기차에 탈 때 외치는 말이에요. 놀이에서 출발할 때도 써요. '올러보드'처럼 이어 말합니다.", "who": "both" },
+    { "en": "Check it out!", "ko": "이것 좀 봐!", "tip": "멋진 것을 보여 줄 때 쓰는 말이에요. Check it out이 이어지며 t가 약해져 '체키라웃'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Look at the harbor, buddy. Check it out!", "ko": "항구 좀 봐. 이것 좀 봐!" },
+    { "who": "kid", "en": "Whoa! What's that?", "ko": "우와! 저게 뭐야?" },
+    { "who": "parent", "en": "That's a container ship.", "ko": "저건 컨테이너선이야." },
+    { "who": "kid", "en": "How big is it?", "ko": "얼마나 커?", "practice": true },
+    { "who": "parent", "en": "It's longer than three soccer fields.", "ko": "축구장 세 개보다 더 길어." },
+    { "who": "kid", "en": "It's huge!", "ko": "엄청 크다!", "practice": true },
+    { "who": "parent", "en": "It sure is. See all those boxes?", "ko": "정말 그래. 저 상자들 보여?" },
+    { "who": "kid", "en": "What's in the boxes?", "ko": "상자 안에 뭐가 있어?" },
+    { "who": "parent", "en": "Lots of things. Toys, clothes, even bananas!", "ko": "여러 가지. 장난감, 옷, 바나나까지!" },
+    { "who": "kid", "en": "Where is it going?", "ko": "저 배는 어디 가?", "practice": true },
+    { "who": "parent", "en": "Maybe to another country, far across the ocean.", "ko": "아마 바다 건너 먼 다른 나라로." },
+    { "who": "kid", "en": "Who drives it?", "ko": "누가 운전해?" },
+    { "who": "parent", "en": "The captain. She steers it from way up high.", "ko": "선장님이. 저 높은 곳에서 배를 조종해." },
+    { "who": "kid", "en": "What's that little boat?", "ko": "저 작은 배는 뭐야?", "practice": true },
+    { "who": "parent", "en": "That's a tugboat. It helps push the big ship.", "ko": "예인선이야. 큰 배를 밀어 주는 배야." },
+    { "who": "kid", "en": "It's so strong!", "ko": "엄청 힘세다!", "practice": true },
+    { "who": "parent", "en": "Listen! That's the ship's horn.", "ko": "들어 봐! 배 경적 소리야." },
+    { "who": "kid", "en": "It's so loud!", "ko": "엄청 시끄러워!" },
+    { "who": "parent", "en": "It means the ship is leaving soon.", "ko": "배가 곧 떠난다는 뜻이야." },
+    { "who": "kid", "en": "Can we get on?", "ko": "우리도 타도 돼?" },
+    { "who": "parent", "en": "Not this one. But we can ride the ferry over there.", "ko": "이 배는 안 돼. 대신 저기 여객선은 탈 수 있어." },
+    { "who": "kid", "en": "Yay! All aboard!", "ko": "야호! 모두 타세요!", "practice": true },
+    { "who": "parent", "en": "Ha! You sound like a real captain.", "ko": "하하! 진짜 선장님 같네." }
+  ],
+  "talkMore": [
+    { "en": "If you had a big ship, what would you carry?", "ko": "너한테 큰 배가 있으면 뭘 싣고 갈래?", "sample_en": "Toys and ice cream!", "sample_ko": "장난감이랑 아이스크림!" },
+    { "en": "Where do you want to go by ship?", "ko": "배 타고 어디 가고 싶어?", "sample_en": "To a far island.", "sample_ko": "먼 섬에." },
+    { "en": "What would you name your ship?", "ko": "네 배 이름은 뭐라고 지을래?", "sample_en": "Super Star!", "sample_ko": "슈퍼 스타!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a ship?", "prompt_ko": "배는 어느 거야?", "options": [ { "e": "🚢", "en": "ship" }, { "e": "🚲", "en": "bike" }, { "e": "🏠", "en": "house" } ] },
+    { "prompt_en": "The ship is very, very big. What do you say?", "prompt_ko": "배가 아주아주 커. 뭐라고 해?", "options": [ { "e": "😲", "en": "It's huge!" }, { "e": "🐜", "en": "It's tiny!" }, { "e": "😴", "en": "I'm sleepy." } ] },
+    { "prompt_en": "What does the big ship carry?", "prompt_ko": "큰 배는 뭘 싣고 다녀?", "options": [ { "e": "📦", "en": "boxes" }, { "e": "☁️", "en": "clouds" }, { "e": "🌈", "en": "rainbows" } ] },
+    { "prompt_en": "Who drives the ship?", "prompt_ko": "배는 누가 운전해?", "options": [ { "e": "👩‍✈️", "en": "the captain" }, { "e": "👨‍🍳", "en": "a cook" }, { "e": "👶", "en": "a baby" } ] },
+    { "prompt_en": "Ships go on the…", "prompt_ko": "배는 어디 위로 다녀?", "options": [ { "e": "🌊", "en": "ocean" }, { "e": "🌳", "en": "tree" }, { "e": "🛏️", "en": "bed" } ] },
+    { "prompt_en": "You want to know where the ship goes. What do you ask?", "prompt_ko": "배가 어디 가는지 궁금해. 뭐라고 물어?", "options": [ { "e": "🗺️", "en": "Where is it going?" }, { "e": "🍪", "en": "Can I have a cookie?" }, { "e": "👋", "en": "Bye-bye." } ] },
+    { "prompt_en": "It's time to get on the boat! What do you say?", "prompt_ko": "배에 탈 시간이야! 뭐라고 외쳐?", "options": [ { "e": "🙌", "en": "All aboard!" }, { "e": "😴", "en": "Good night!" }, { "e": "🍽️", "en": "I'm full." } ] },
+    { "prompt_en": "What can be in the boxes?", "prompt_ko": "상자 안에 뭐가 들어 있을 수 있어?", "options": [ { "e": "🍌", "en": "bananas" }, { "e": "🐳", "en": "a whale" }, { "e": "☀️", "en": "the sun" } ] },
+    { "prompt_en": "Which one floats on water?", "prompt_ko": "물에 뜨는 건 어느 거야?", "options": [ { "e": "🛳️", "en": "a ship" }, { "e": "🔨", "en": "a hammer" }, { "e": "⚓", "en": "an anchor" } ] },
+    { "prompt_en": "You want to show a friend something cool. What do you say?", "prompt_ko": "친구에게 멋진 걸 보여 주고 싶어. 뭐라고 해?", "options": [ { "e": "👀", "en": "Check it out!" }, { "e": "😢", "en": "I'm sad." }, { "e": "🛌", "en": "Time for bed." } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Check it out!'의 뜻은?", "options": ["이것 좀 봐!", "계산해 줘!", "확인 끝났어!", "밖으로 나가!"], "explain": "멋지거나 신기한 것을 보라고 권할 때 쓰는 표현입니다." },
+    { "q": "'It's huge!'의 뜻은?", "options": ["엄청 크다!", "엄청 무겁다!", "엄청 빠르다!", "엄청 시끄럽다!"], "explain": "huge는 big보다 훨씬 큰 '거대한'이라는 뜻입니다." },
+    { "q": "'저 배 어디 가?'를 자연스럽게 말하면?", "options": ["Where is it going?", "Where it is going?", "Where does it going?", "Where is it go?"], "explain": "지금 움직이는 중이므로 be + -ing 의문문 Where is it going?을 씁니다." },
+    { "q": "빈칸에 알맞은 말은? — It's longer ___ three soccer fields.", "options": ["than", "then", "that", "as"], "explain": "비교급 longer 뒤에는 than(~보다)이 옵니다." },
+    { "q": "'All aboard!'를 쓰는 상황은?", "options": ["배나 기차에 모두 타라고 할 때", "배에서 내릴 때", "물에 빠졌을 때", "배가 고플 때"], "explain": "aboard는 '탑승한'이라는 뜻으로, 출발 전 '모두 타세요!'라는 외침입니다." },
+    { "q": "'Check it out'을 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["체키라웃", "체크 이트 아우트", "첵크 잇 아웃", "체킷 오트"], "explain": "check의 k가 it에, it의 t가 약해져 out에 붙어 '체키라웃'처럼 들립니다." },
+    { "q": "크기를 물을 때 알맞은 말은?", "options": ["How big is it?", "How many is it?", "How much big is it?", "What big is it?"], "explain": "'얼마나 ~해?'는 How + 형용사로 묻습니다: How big is it?" },
+    { "q": "빈칸에 알맞은 말은? — It ___ the ship is leaving soon.", "options": ["means", "mean", "meaning", "to mean"], "explain": "주어 It이 3인칭 단수이므로 means(~라는 뜻이다)를 씁니다." },
+    { "q": "'tugboat'는 무엇일까?", "options": ["큰 배를 밀고 끌어 주는 작은 배", "물고기를 잡는 배", "물속을 다니는 배", "사람을 태우는 큰 여객선"], "explain": "tugboat(예인선)는 항구에서 큰 배를 밀고 끌어 방향을 잡아 줍니다." },
+    { "q": "아이의 흉내를 보고 '진짜 선장님 같네!'라고 할 때 알맞은 말은?", "options": ["You sound like a real captain.", "You hear like a real captain.", "You listen like a real captain.", "You sound a real captain."], "explain": "말소리가 ~같이 들릴 때는 sound like + 명사를 씁니다." }
+  ]
+}

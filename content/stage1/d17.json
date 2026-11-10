@@ -1,0 +1,69 @@
+{
+  "stage": 1,
+  "day": 17,
+  "topic": "science",
+  "title_en": "Rainbows",
+  "title_ko": "무지개",
+  "intro_ko": "비가 갠 뒤 무지개를 발견하고, 집에서 분무기로 무지개를 만들어 보는 장면입니다. 햇빛 드는 날 해를 등지고 분무기를 뿌리면 실제로 작은 무지개를 볼 수 있어요.",
+  "expressions": [
+    { "en": "Look, a rainbow!", "ko": "봐, 무지개다!", "tip": "무지개를 발견했을 때 외치는 말이에요. Look, a가 이어져 '루커 레인보우'처럼 들립니다.", "who": "both" },
+    { "en": "How many colors?", "ko": "색깔이 몇 개야?", "tip": "개수를 물을 때 How many 뒤에 복수형을 붙여요. '하우메니 컬러즈'로 How many를 한 단어처럼 말해요.", "who": "both" },
+    { "en": "Let me see.", "ko": "어디 보자.", "tip": "무언가를 보여 달라거나 잠깐 생각할 때 쓰는 말이에요. '렛미 씨'로 Let me를 붙여 말합니다.", "who": "both" },
+    { "en": "So cool!", "ko": "정말 멋지다!", "tip": "아이가 신기한 걸 봤을 때 가장 많이 쓰는 감탄이에요. 끝을 올리며 신나게 말해 주세요.", "who": "kid" },
+    { "en": "How cool is that?", "ko": "정말 멋지지 않니?", "tip": "질문 모양이지만 대답을 기대하지 않는 감탄이에요. '하우 쿨 이즈댓'으로 cool에 힘을 줍니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "kid", "en": "Look, a rainbow!", "ko": "봐, 무지개다!", "practice": true },
+    { "who": "parent", "en": "A rainbow? Where?", "ko": "무지개? 어디?" },
+    { "who": "kid", "en": "Over there! Above the trees!", "ko": "저기! 나무 위에!" },
+    { "who": "parent", "en": "Let me see. Oh, it's beautiful!", "ko": "어디 보자. 와, 예쁘다!" },
+    { "who": "kid", "en": "How many colors?", "ko": "색깔이 몇 개야?", "practice": true },
+    { "who": "parent", "en": "Let's count them together.", "ko": "같이 세어 보자." },
+    { "who": "kid", "en": "Red, orange, yellow, green, blue!", "ko": "빨강, 주황, 노랑, 초록, 파랑!" },
+    { "who": "parent", "en": "And purple at the bottom. People say there are seven colors.", "ko": "아래쪽엔 보라색도 있어. 보통 일곱 색깔이라고 해." },
+    { "who": "kid", "en": "Seven colors? So cool!", "ko": "일곱 개? 정말 멋지다!", "practice": true },
+    { "who": "kid", "en": "Why is there a rainbow?", "ko": "무지개는 왜 생겨?" },
+    { "who": "parent", "en": "Look. The sun is out, but it's still raining a little.", "ko": "봐. 해가 났는데 비가 아직 조금 오지?" },
+    { "who": "kid", "en": "Sun and rain together?", "ko": "해랑 비가 같이?" },
+    { "who": "parent", "en": "Yes. Sunlight has many colors in it.", "ko": "응. 햇빛 안에는 여러 색깔이 들어 있어." },
+    { "who": "kid", "en": "Really? It looks white.", "ko": "진짜? 하얗게 보이는데." },
+    { "who": "parent", "en": "Raindrops split the light into colors. Then we see a rainbow.", "ko": "빗방울이 빛을 여러 색으로 나눠. 그래서 무지개가 보이는 거야." },
+    { "who": "kid", "en": "Can we make one?", "ko": "우리도 만들 수 있어?" },
+    { "who": "parent", "en": "Sure! Let's try with a spray bottle.", "ko": "그럼! 분무기로 해 보자." },
+    { "who": "parent", "en": "Stand with your back to the sun. Now spray!", "ko": "해를 등지고 서. 이제 뿌려!" },
+    { "who": "kid", "en": "Let me see! I made a rainbow!", "ko": "보여 줘! 나 무지개 만들었어!", "practice": true },
+    { "who": "parent", "en": "You made your own rainbow. How cool is that?", "ko": "네가 직접 무지개를 만들었네. 정말 멋지지 않니?" },
+    { "who": "kid", "en": "Is it magic?", "ko": "이거 마법이야?" },
+    { "who": "parent", "en": "It's not magic. It's science!", "ko": "마법이 아니야. 과학이야!" },
+    { "who": "kid", "en": "Science is so cool!", "ko": "과학 정말 멋지다!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What's your favorite rainbow color?", "ko": "무지개 색 중에 뭐가 제일 좋아?", "sample_en": "Blue! Like the sea.", "sample_ko": "파랑! 바다처럼." },
+    { "en": "Where else can you see a rainbow?", "ko": "또 어디에서 무지개를 볼 수 있을까?", "sample_en": "In the bubbles!", "sample_ko": "비눗방울 안에서!" },
+    { "en": "What would you paint with rainbow colors?", "ko": "무지개 색으로 뭘 칠하고 싶어?", "sample_en": "A rainbow rocket!", "sample_ko": "무지개 로켓!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a rainbow?", "prompt_ko": "무지개는 어느 거야?", "options": [ { "e": "🌈", "en": "rainbow" }, { "e": "☁️", "en": "cloud" }, { "e": "⭐", "en": "star" } ] },
+    { "prompt_en": "You see a rainbow in the sky. What do you say?", "prompt_ko": "하늘에 무지개가 보여. 뭐라고 해?", "options": [ { "e": "🌈", "en": "Look, a rainbow!" }, { "e": "😴", "en": "I'm sleepy." }, { "e": "🍕", "en": "Pizza!" } ] },
+    { "prompt_en": "A rainbow needs sunlight and…", "prompt_ko": "무지개가 생기려면 햇빛이랑 뭐가 필요해?", "options": [ { "e": "💧", "en": "raindrops" }, { "e": "🍪", "en": "cookies" }, { "e": "🧸", "en": "teddy bears" } ] },
+    { "prompt_en": "Which color is in a rainbow?", "prompt_ko": "무지개에 있는 색은 어느 거야?", "options": [ { "e": "🔴", "en": "red" }, { "e": "⚫", "en": "black" }, { "e": "🤎", "en": "brown" } ] },
+    { "prompt_en": "How many colors are in a rainbow?", "prompt_ko": "무지개는 몇 가지 색이야?", "options": [ { "e": "7️⃣", "en": "seven" }, { "e": "2️⃣", "en": "two" }, { "e": "1️⃣", "en": "one" } ] },
+    { "prompt_en": "You want to look closely. What do you say?", "prompt_ko": "가까이 보고 싶어. 뭐라고 해?", "options": [ { "e": "👀", "en": "Let me see." }, { "e": "🛏️", "en": "Good night." }, { "e": "👋", "en": "Bye-bye." } ] },
+    { "prompt_en": "Something is awesome! What do you say?", "prompt_ko": "뭔가 정말 멋져! 뭐라고 해?", "options": [ { "e": "😎", "en": "So cool!" }, { "e": "😢", "en": "I'm sad." }, { "e": "🤢", "en": "Yuck!" } ] },
+    { "prompt_en": "What can make a rainbow at home?", "prompt_ko": "집에서 무지개를 만들 수 있는 건 뭐야?", "options": [ { "e": "💦", "en": "water spray" }, { "e": "🍞", "en": "bread" }, { "e": "🧦", "en": "a sock" } ] },
+    { "prompt_en": "Which one is yellow?", "prompt_ko": "노란색은 어느 거야?", "options": [ { "e": "🍌", "en": "banana" }, { "e": "🍇", "en": "grapes" }, { "e": "🍓", "en": "strawberry" } ] },
+    { "prompt_en": "Which one is purple?", "prompt_ko": "보라색은 어느 거야?", "options": [ { "e": "🍇", "en": "grapes" }, { "e": "🍌", "en": "banana" }, { "e": "🥕", "en": "carrot" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'How cool is that?'의 뜻은?", "options": ["정말 멋지지 않니?", "그거 얼마나 차가워?", "얼마나 멋있어야 해?", "그게 왜 멋져?"], "explain": "질문 형태지만 '정말 멋지다!'라는 감탄을 강조하는 표현입니다." },
+    { "q": "'색깔이 몇 개야?'를 영어로 하면?", "options": ["How many colors?", "How much colors?", "How many color?", "What many colors?"], "explain": "셀 수 있는 것은 How many + 복수형으로 묻습니다." },
+    { "q": "'Let me see.'의 뜻으로 알맞은 것은?", "options": ["어디 보자.", "나 좀 봐.", "날 보내 줘.", "나 보여?"], "explain": "보여 달라고 하거나 잠깐 생각할 때 '어디 보자'라는 뜻으로 씁니다." },
+    { "q": "빈칸에 알맞은 말은? — Raindrops split the ___ into colors.", "options": ["light", "rain", "wind", "sound"], "explain": "빗방울이 햇빛(light)을 여러 색으로 나눠 무지개가 생깁니다." },
+    { "q": "빈칸에 알맞은 말은? — Stand with your ___ to the sun.", "options": ["back", "front", "face", "head"], "explain": "with your back to ~는 '~을 등지고'라는 뜻이고, 무지개는 해를 등져야 보입니다." },
+    { "q": "무지개를 볼 때 해는 보통 어디에 있을까?", "options": ["내 등 뒤", "무지개 바로 옆", "무지개 안쪽", "땅 아래"], "explain": "무지개는 해를 등지고 섰을 때 앞쪽 빗방울에서 보입니다." },
+    { "q": "'Look, a rainbow!'를 이어 말하면 어떻게 들릴까?", "options": ["루커 레인보우", "룩 아 레인보우", "로카 라인보", "루크 에이 레인보우"], "explain": "Look의 k와 a가 붙어 '루커'처럼 들립니다." },
+    { "q": "아이가 신기한 걸 보여 줄 때 맞장구로 알맞은 말은?", "options": ["So cool!", "So cold!", "Very cooling!", "Too cool down!"], "explain": "감탄할 때는 So cool!이라고 짧게 말합니다." },
+    { "q": "누군가 'How cool is that?'이라고 했을 때 알맞은 반응은?", "options": ["Super cool!", "It's 20 degrees.", "It's not hot.", "I don't know how."], "explain": "온도를 묻는 말이 아니라 감탄이라 같이 맞장구쳐 주면 됩니다." },
+    { "q": "'It's not magic. It's science!'의 뜻은?", "options": ["마법이 아니야. 과학이야!", "마법은 과학보다 세!", "과학으로 마법을 만들자!", "마법 과학 놀이를 하자!"], "explain": "신기한 현상에 원리가 있다고 알려 줄 때 쓰기 좋은 말입니다." }
+  ]
+}

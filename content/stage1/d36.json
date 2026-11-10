@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 36,
+  "topic": "daily",
+  "title_en": "Not feeling well",
+  "title_ko": "몸이 안 좋아",
+  "intro_ko": "아이가 배가 아프다고 할 때의 대화입니다. 아이는 소파나 이불에 눕고, 부모는 배를 살살 문질러 주며 연기해 보세요. 인형을 환자로 정해 아이가 돌봐 주게 해도 좋아요.",
+  "expressions": [
+    { "en": "Are you okay?", "ko": "괜찮아?", "tip": "누가 넘어지거나 표정이 안 좋을 때 바로 쓰는 말이에요. Are you가 이어져 '아유 오케이'처럼 들립니다.", "who": "both" },
+    { "en": "My tummy hurts.", "ko": "배가 아파.", "tip": "tummy는 아이들이 쓰는 '배'라는 말이에요. 머리가 아프면 My head hurts.라고 바꿔 말하면 됩니다.", "who": "kid" },
+    { "en": "Let me see.", "ko": "어디 보자.", "tip": "다친 곳이나 아이가 보여 주는 것을 살펴볼 때 써요. let의 t가 약해져 '레미 씨'처럼 들립니다.", "who": "parent" },
+    { "en": "You'll feel better soon.", "ko": "곧 나아질 거야.", "tip": "아픈 아이를 안심시키는 말이에요. better는 미국식으로 '베러'처럼 부드럽게 발음합니다.", "who": "parent" },
+    { "en": "Take it easy.", "ko": "푹 쉬어. / 무리하지 마.", "tip": "아프거나 지쳤을 때 '쉬엄쉬엄 해'라는 뜻이고, 헤어질 때 '잘 지내'라는 인사로도 써요. '테이키리지'처럼 이어 말합니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Sweetie, you look sad. Are you okay?", "ko": "얘야, 표정이 안 좋네. 괜찮아?" },
+    { "who": "kid", "en": "My tummy hurts.", "ko": "배가 아파.", "practice": true },
+    { "who": "parent", "en": "Oh no. Let me see.", "ko": "저런. 어디 보자." },
+    { "who": "kid", "en": "Right here.", "ko": "여기.", "practice": true },
+    { "who": "parent", "en": "Does it hurt a lot?", "ko": "많이 아파?" },
+    { "who": "kid", "en": "Just a little.", "ko": "조금." },
+    { "who": "parent", "en": "Did you eat your snack too fast?", "ko": "간식을 너무 빨리 먹었니?" },
+    { "who": "kid", "en": "Maybe. Why does it hurt?", "ko": "그런가 봐. 왜 아픈 거야?" },
+    { "who": "parent", "en": "Sometimes your tummy gets upset when you eat too fast.", "ko": "너무 빨리 먹으면 가끔 배가 탈이 나거든." },
+    { "who": "kid", "en": "Can I have medicine?", "ko": "약 먹어도 돼?" },
+    { "who": "parent", "en": "Let's try some warm water first.", "ko": "먼저 따뜻한 물부터 마셔 보자." },
+    { "who": "kid", "en": "Is it hot?", "ko": "뜨거워?" },
+    { "who": "parent", "en": "No, just warm. Sip it slowly.", "ko": "아니, 그냥 따뜻해. 천천히 조금씩 마셔." },
+    { "who": "kid", "en": "Can you rub my tummy?", "ko": "배 문질러 줄래?", "practice": true },
+    { "who": "parent", "en": "Sure. Lie down on the couch, buddy.", "ko": "그럼. 소파에 누워 봐." },
+    { "who": "kid", "en": "Can my bear lie down too?", "ko": "곰인형도 같이 누워도 돼?" },
+    { "who": "parent", "en": "Of course. Now take it easy.", "ko": "물론이지. 이제 푹 쉬어." },
+    { "who": "kid", "en": "Bear, are you okay?", "ko": "곰아, 괜찮아?", "practice": true },
+    { "who": "parent", "en": "Bear says, 'I'm okay.' And you'll feel better soon.", "ko": "곰이 '난 괜찮아'래. 그리고 너도 곧 나아질 거야." },
+    { "who": "kid", "en": "I feel a little better!", "ko": "조금 나아졌어!", "practice": true },
+    { "who": "parent", "en": "Good. Rest a little more, okay?", "ko": "다행이다. 조금만 더 쉬자, 알았지?" },
+    { "who": "kid", "en": "Okay. Thank you!", "ko": "알았어. 고마워!" }
+  ],
+  "talkMore": [
+    { "en": "What do you do when you feel sick?", "ko": "아플 때 너는 어떻게 해?", "sample_en": "I lie down.", "sample_ko": "누워 있어." },
+    { "en": "Who helps you when you're sick?", "ko": "아플 때 누가 도와줘?", "sample_en": "You do!", "sample_ko": "엄마(아빠)가!" },
+    { "en": "What can you say to a sick friend?", "ko": "아픈 친구한테 뭐라고 말해 줄 수 있어?", "sample_en": "Are you okay?", "sample_ko": "괜찮아?" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Your friend falls down. What do you say?", "prompt_ko": "친구가 넘어졌어. 뭐라고 해?", "options": [ { "e": "🤗", "en": "Are you okay?" }, { "e": "🎉", "en": "Hooray!" }, { "e": "😋", "en": "Yummy!" } ] },
+    { "prompt_en": "Your tummy hurts. What do you say?", "prompt_ko": "배가 아파. 뭐라고 해?", "options": [ { "e": "🤢", "en": "My tummy hurts." }, { "e": "😄", "en": "I'm happy." }, { "e": "🏃", "en": "Let's run!" } ] },
+    { "prompt_en": "Which one is medicine?", "prompt_ko": "약은 어느 거야?", "options": [ { "e": "💊", "en": "medicine" }, { "e": "🍭", "en": "candy" }, { "e": "⚽", "en": "ball" } ] },
+    { "prompt_en": "You feel sick. Where do you rest?", "prompt_ko": "몸이 아파. 어디서 쉬어?", "options": [ { "e": "🛏️", "en": "in bed" }, { "e": "🎢", "en": "on a roller coaster" }, { "e": "🏊", "en": "in the pool" } ] },
+    { "prompt_en": "Which one shows a sick face?", "prompt_ko": "아픈 얼굴은 어느 거야?", "options": [ { "e": "🤒", "en": "sick" }, { "e": "😆", "en": "laughing" }, { "e": "😎", "en": "cool" } ] },
+    { "prompt_en": "What did you drink for your tummy ache?", "prompt_ko": "배가 아플 때 뭘 마셨지?", "options": [ { "e": "💧", "en": "warm water" }, { "e": "🧃", "en": "juice" }, { "e": "🥤", "en": "soda" } ] },
+    { "prompt_en": "Who helps sick people?", "prompt_ko": "아픈 사람을 누가 도와줘?", "options": [ { "e": "🧑‍⚕️", "en": "a doctor" }, { "e": "🧑‍🚀", "en": "an astronaut" }, { "e": "🧑‍🍳", "en": "a cook" } ] },
+    { "prompt_en": "Your friend is sick. What do you say?", "prompt_ko": "친구가 아파. 뭐라고 해?", "options": [ { "e": "💖", "en": "Feel better soon!" }, { "e": "😝", "en": "Ha ha!" }, { "e": "👋", "en": "Go away!" } ] },
+    { "prompt_en": "You feel better now. How do you look?", "prompt_ko": "이제 나았어. 어떤 얼굴이야?", "options": [ { "e": "😊", "en": "happy" }, { "e": "😭", "en": "crying" }, { "e": "😠", "en": "angry" } ] },
+    { "prompt_en": "Which one is a teddy bear?", "prompt_ko": "곰인형은 어느 거야?", "options": [ { "e": "🧸", "en": "teddy bear" }, { "e": "🚂", "en": "train" }, { "e": "🪁", "en": "kite" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'My tummy hurts.'의 뜻은?", "options": ["배가 아파.", "배고파.", "배불러.", "배가 나왔어."], "explain": "tummy는 아이들이 쓰는 '배'이고, hurts는 '아프다'입니다." },
+    { "q": "아이가 다친 곳을 보여 줄 때 '어디 보자.'에 알맞은 말은?", "options": ["Let me see.", "Let me look it.", "Show me see.", "Let's watch."], "explain": "무언가를 살펴볼 때 Let me see.라고 합니다." },
+    { "q": "'Take it easy.'를 아픈 아이에게 할 때의 뜻은?", "options": ["푹 쉬어.", "쉽게 가져가.", "빨리 해.", "쉬운 걸 골라."], "explain": "Take it easy.는 '무리하지 말고 쉬엄쉬엄 해'라는 뜻입니다." },
+    { "q": "빈칸에 알맞은 말은? — You'll feel ___ soon.", "options": ["better", "best", "worse", "badly"], "explain": "'지금보다 나아진다'는 비교의 뜻이라 feel better를 씁니다." },
+    { "q": "아이 표정이 안 좋아 '괜찮아?'라고 물을 때 가장 자연스러운 말은?", "options": ["Are you okay?", "Are you fine thank you?", "Is it okay you?", "You are okay?"], "explain": "상대의 상태를 물을 때 가장 흔한 말은 Are you okay?입니다." },
+    { "q": "'Take it easy'를 이어 말하면 어떻게 들릴까?", "options": ["테이키리지", "테이크 잇 이지", "탁잇이지", "테이크이트이지"], "explain": "take의 k가 it과 붙고 it의 t가 부드러워져 '테이키리지'처럼 들립니다." },
+    { "q": "빈칸에 알맞은 말은? — Sometimes your tummy gets ___ when you eat too fast.", "options": ["upset", "angry", "sad", "broken"], "explain": "배탈이 나는 것을 upset stomach, 아이에게는 tummy gets upset라고 합니다." },
+    { "q": "'Sip it slowly.'의 뜻은?", "options": ["천천히 조금씩 마셔.", "천천히 씹어.", "빨리 마셔.", "천천히 걸어."], "explain": "sip은 '홀짝홀짝 조금씩 마시다'라는 뜻입니다." },
+    { "q": "'소파에 누워.'에 알맞은 말은?", "options": ["Lie down on the couch.", "Lay on the couch down.", "Sleep at the couch.", "Put down the couch."], "explain": "'눕다'는 lie down이고 소파 위이므로 on the couch입니다." },
+    { "q": "친구와 헤어지며 'Take it easy!'라고 하면 어떤 뜻일까?", "options": ["잘 지내!", "쉬운 거야!", "천천히 와!", "가져가!"], "explain": "Take it easy는 헤어질 때 '잘 지내, 무리하지 마'라는 가벼운 인사로도 씁니다." }
+  ]
+}

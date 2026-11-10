@@ -1,0 +1,69 @@
+{
+  "stage": 1,
+  "day": 27,
+  "topic": "science",
+  "title_en": "Shadows",
+  "title_ko": "그림자",
+  "intro_ko": "해가 낮게 뜬 늦은 오후에 산책하며 그림자를 관찰하는 상황입니다. 실내라면 손전등을 벽에 비추고 손으로 새 모양 그림자를 만들며 해 보세요.",
+  "expressions": [
+    { "en": "Look at my shadow.", "ko": "내 그림자 좀 봐.", "tip": "무언가를 보여 줄 때 Look at my …를 써요. look at이 이어져 '루캣 마이 섀도우'처럼 들립니다.", "who": "kid" },
+    { "en": "It's following me!", "ko": "나를 따라와!", "tip": "그림자가 졸졸 따라올 때 아이가 신나서 하는 말이에요. follow는 '따라오다'이고 '잇츠 팔로잉 미'로 말합니다.", "who": "kid" },
+    { "en": "Why is it so long?", "ko": "왜 이렇게 길어?", "tip": "long 대신 big, small, short를 넣어 응용할 수 있어요. is it이 붙어 '와이 이짓 쏘 롱'처럼 들립니다.", "who": "kid" },
+    { "en": "Let's figure it out.", "ko": "같이 알아내 보자.", "tip": "아이의 '왜?' 질문에 함께 생각해 보자고 할 때 좋아요. figure it out이 이어져 '피겨리라웃'처럼 들립니다.", "who": "parent" },
+    { "en": "Figure it out.", "ko": "(스스로) 알아내다, 해결하다.", "tip": "You can figure it out.(넌 알아낼 수 있어)처럼 아이가 스스로 생각하도록 격려할 때 써요. 생활 속 문제 해결에도 두루 쓰는 표현입니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Look, the sun is going down.", "ko": "봐, 해가 지고 있어." },
+    { "who": "kid", "en": "Look at my shadow!", "ko": "내 그림자 봐!", "practice": true },
+    { "who": "parent", "en": "Wow, it's so long today.", "ko": "우와, 오늘 정말 길다." },
+    { "who": "kid", "en": "It's following me!", "ko": "나를 따라와!", "practice": true },
+    { "who": "parent", "en": "Try to run away from it.", "ko": "도망가 봐." },
+    { "who": "kid", "en": "It's still there!", "ko": "아직 있어!" },
+    { "who": "parent", "en": "Ha! You can't run away from your shadow.", "ko": "하하! 그림자한테서는 도망 못 가." },
+    { "who": "kid", "en": "Why is it so long?", "ko": "왜 이렇게 길어?", "practice": true },
+    { "who": "parent", "en": "Good question. Let's figure it out.", "ko": "좋은 질문이야. 같이 알아내 보자." },
+    { "who": "parent", "en": "Where's the sun right now? Point to it.", "ko": "지금 해가 어디 있어? 손으로 가리켜 봐." },
+    { "who": "kid", "en": "Over there. It's low.", "ko": "저기. 낮게 있어." },
+    { "who": "parent", "en": "Right. When the sun is low, shadows get long.", "ko": "맞아. 해가 낮으면 그림자가 길어져." },
+    { "who": "kid", "en": "What about at lunchtime?", "ko": "점심때는?" },
+    { "who": "parent", "en": "The sun is high up. Then shadows are short.", "ko": "해가 높이 떠 있어. 그때는 그림자가 짧아." },
+    { "who": "kid", "en": "Why is my shadow dark?", "ko": "내 그림자는 왜 까매?", "practice": true },
+    { "who": "parent", "en": "Your body blocks the sunlight. The light can't get through.", "ko": "네 몸이 햇빛을 가려서 그래. 빛이 통과하지 못하거든." },
+    { "who": "kid", "en": "Can I make a bird?", "ko": "새 만들 수 있어?" },
+    { "who": "parent", "en": "Try it with your hands. You can figure it out.", "ko": "손으로 해 봐. 넌 알아낼 수 있어." },
+    { "who": "kid", "en": "Look! A bird!", "ko": "봐! 새야!", "practice": true },
+    { "who": "parent", "en": "Great job! Your shadow bird is flying.", "ko": "잘했어! 그림자 새가 날고 있네." },
+    { "who": "kid", "en": "Tweet tweet!", "ko": "짹짹!" },
+    { "who": "parent", "en": "Let's go home before it gets dark.", "ko": "어두워지기 전에 집에 가자." },
+    { "who": "kid", "en": "Bye-bye, shadow!", "ko": "안녕, 그림자야!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What other shadows can you make?", "ko": "또 어떤 그림자를 만들 수 있어?", "sample_en": "A dog! Woof!", "sample_ko": "강아지! 멍멍!" },
+    { "en": "Can you see your shadow at night?", "ko": "밤에도 그림자가 보일까?", "sample_en": "Only with a light.", "sample_ko": "불이 있을 때만." },
+    { "en": "Where does your shadow go on a cloudy day?", "ko": "흐린 날에는 그림자가 어디 갈까?", "sample_en": "It hides!", "sample_ko": "숨어!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "What do you need to make a shadow?", "prompt_ko": "그림자를 만들려면 뭐가 필요해?", "options": [ { "e": "☀️", "en": "light" }, { "e": "💧", "en": "water" }, { "e": "🍰", "en": "cake" } ] },
+    { "prompt_en": "Your shadow moves with you. What do you say?", "prompt_ko": "그림자가 나를 따라 움직여. 뭐라고 해?", "options": [ { "e": "👣", "en": "It's following me!" }, { "e": "🍎", "en": "An apple." }, { "e": "😴", "en": "I'm sleepy." } ] },
+    { "prompt_en": "Which one is the sun?", "prompt_ko": "해는 어느 거야?", "options": [ { "e": "☀️", "en": "sun" }, { "e": "🌙", "en": "moon" }, { "e": "☁️", "en": "cloud" } ] },
+    { "prompt_en": "You want to show your shadow. What do you say?", "prompt_ko": "내 그림자를 보여 주고 싶어. 뭐라고 해?", "options": [ { "e": "👀", "en": "Look at my shadow!" }, { "e": "🧼", "en": "Wash your hands." }, { "e": "🛏️", "en": "Time for bed." } ] },
+    { "prompt_en": "At lunchtime, where is the sun?", "prompt_ko": "점심때 해는 어디 있어?", "options": [ { "e": "⬆️", "en": "high up" }, { "e": "🌊", "en": "in the sea" }, { "e": "🛏️", "en": "in bed" } ] },
+    { "prompt_en": "What did we make with our hands?", "prompt_ko": "손으로 뭘 만들었지?", "options": [ { "e": "🐦", "en": "a bird" }, { "e": "🚂", "en": "a train" }, { "e": "🍩", "en": "a donut" } ] },
+    { "prompt_en": "What color is a shadow?", "prompt_ko": "그림자는 무슨 색이야?", "options": [ { "e": "⬛", "en": "dark" }, { "e": "🌈", "en": "rainbow" }, { "e": "💗", "en": "pink" } ] },
+    { "prompt_en": "You don't know why. What do you say?", "prompt_ko": "왜 그런지 모르겠어. 뭐라고 해?", "options": [ { "e": "🤔", "en": "Let's figure it out." }, { "e": "😡", "en": "Go away!" }, { "e": "🍦", "en": "Ice cream!" } ] },
+    { "prompt_en": "Which one can make a shadow?", "prompt_ko": "그림자를 만들 수 있는 건 어느 거야?", "options": [ { "e": "🧍", "en": "a person" }, { "e": "🌬️", "en": "the wind" }, { "e": "🎵", "en": "music" } ] },
+    { "prompt_en": "Which one makes light at night?", "prompt_ko": "밤에 불을 밝혀 주는 건 어느 거야?", "options": [ { "e": "🔦", "en": "flashlight" }, { "e": "🧦", "en": "sock" }, { "e": "🥄", "en": "spoon" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Let's figure it out.'의 뜻은?", "options": ["같이 알아내 보자.", "같이 그림 그리자.", "같이 밖에 나가자.", "같이 숫자를 세자."], "explain": "figure out은 '(생각해서) 알아내다, 해결하다'라는 뜻입니다." },
+    { "q": "아이가 혼자 해 보도록 '넌 알아낼 수 있어.'라고 격려하려면?", "options": ["You can figure it out.", "You can figure out it.", "You can figure it.", "You can out figure it."], "explain": "대명사 it은 figure와 out 사이에 와서 figure it out이 됩니다." },
+    { "q": "'It's following me!'는 어떤 뜻일까?", "options": ["나를 따라와!", "나를 보고 있어!", "나를 부르고 있어!", "나보다 빨라!"], "explain": "follow는 '따라오다, 따라가다'라는 뜻입니다." },
+    { "q": "'왜 이렇게 길어?'를 영어로 하면?", "options": ["Why is it so long?", "Why it is so long?", "Why so it is long?", "Why is so long it?"], "explain": "의문사 의문문은 Why + is + it 순서로 씁니다." },
+    { "q": "빈칸에 알맞은 말은? — When the sun is low, shadows ___ long.", "options": ["get", "take", "make", "go up"], "explain": "get + 형용사는 '~해지다'라는 뜻으로 get long은 '길어지다'입니다." },
+    { "q": "빈칸에 알맞은 말은? — Your body ___ the sunlight.", "options": ["blocks", "stops up", "closes", "covers up with"], "explain": "block은 '(빛을) 가리다, 막다'라는 뜻으로 그림자가 생기는 이유를 설명할 때 씁니다." },
+    { "q": "'Let's figure it out.'을 자연스럽게 이어 말하면?", "options": ["렛츠 피겨리라웃", "렛츠 피규어 잇 아웃", "렛 피구어 이타웃", "레츠 피거 잇 아우트"], "explain": "figure it out이 연음되고 t가 굴러 '피겨리라웃'처럼 들립니다." },
+    { "q": "아이에게 '손으로 가리켜 봐.'라고 할 때 알맞은 말은?", "options": ["Point to it.", "Finger to it.", "Show at it.", "Hand it."], "explain": "point to는 '~을 가리키다'라는 뜻입니다." },
+    { "q": "그림자에 대한 설명으로 맞는 것은?", "options": ["해가 낮을수록 그림자가 길어진다.", "점심때 그림자가 가장 길다.", "그림자는 빛이 없을 때 생긴다.", "그림자는 해 쪽으로 생긴다."], "explain": "해가 낮은 아침·저녁에 그림자가 길고, 해가 높은 한낮에 짧습니다." },
+    { "q": "'어두워지기 전에 집에 가자.'를 영어로 하면?", "options": ["Let's go home before it gets dark.", "Let's go home before it get dark.", "Let's go to home before dark get.", "Let's go home before it will be dark."], "explain": "before 뒤에는 현재형을 써서 before it gets dark가 됩니다." }
+  ]
+}

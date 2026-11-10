@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 9,
+  "topic": "planes",
+  "title_en": "At the airport",
+  "title_ko": "공항에서",
+  "intro_ko": "공항 창가에서 비행기를 구경하다가 직접 비행기에 타는 장면입니다. 의자 두 개를 나란히 놓고 가방끈을 안전벨트 삼아 '딸깍' 매는 흉내를 내 보세요.",
+  "expressions": [
+    { "en": "Here comes the plane!", "ko": "비행기 온다!", "tip": "다가오는 것을 볼 때 'Here comes + 명사'로 써요(Here comes the bus!). '히어컴즈더 플레인'처럼 이어 말합니다.", "who": "both" },
+    { "en": "It's taking off!", "ko": "이륙한다!", "tip": "take off는 비행기가 '이륙하다', 옷을 '벗다' 두 가지 뜻이에요. taking off가 이어져 '테이킹오프'처럼 들립니다.", "who": "kid" },
+    { "en": "Buckle up.", "ko": "안전벨트 매.", "tip": "비행기뿐 아니라 차를 탈 때마다 쓰는 말이에요. Buckle up이 이어져 '버클럽'처럼 들립니다.", "who": "parent" },
+    { "en": "Bye-bye!", "ko": "안녕!", "tip": "떠나는 비행기나 사람에게 손 흔들며 하는 말이에요. 아이 말투로 다정하게 '바이바이!'라고 해요.", "who": "kid" },
+    { "en": "Here we go!", "ko": "자, 간다!", "tip": "무언가가 막 시작될 때 신나게 외치는 말이에요. 물건 건넬 때 쓰는 'Here you go.'와 헷갈리지 마세요. '히어위고'처럼 말합니다.", "who": "both" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Look out the window, buddy. Lots of planes!", "ko": "창밖 좀 봐. 비행기 엄청 많다!" },
+    { "who": "kid", "en": "Whoa! So many!", "ko": "우와! 진짜 많다!" },
+    { "who": "parent", "en": "Which one do you think is ours?", "ko": "어느 게 우리 비행기일까?" },
+    { "who": "kid", "en": "That big white one?", "ko": "저 큰 하얀 거?" },
+    { "who": "parent", "en": "Hmm, I'm not sure. Keep watching.", "ko": "음, 잘 모르겠네. 계속 보자." },
+    { "who": "kid", "en": "Here comes the plane!", "ko": "비행기 온다!", "practice": true },
+    { "who": "parent", "en": "Yes! It's landing on the runway.", "ko": "맞아! 활주로에 내리고 있어." },
+    { "who": "kid", "en": "What's a runway?", "ko": "활주로가 뭐야?" },
+    { "who": "parent", "en": "It's a long road for planes.", "ko": "비행기가 다니는 긴 길이야." },
+    { "who": "kid", "en": "Look! That one is going fast!", "ko": "봐! 저건 빨리 달려!" },
+    { "who": "parent", "en": "It's speeding up to take off.", "ko": "이륙하려고 속도를 높이는 거야." },
+    { "who": "kid", "en": "It's taking off!", "ko": "날아오른다!", "practice": true },
+    { "who": "parent", "en": "Wow, look how high it's going!", "ko": "우와, 엄청 높이 올라간다!" },
+    { "who": "kid", "en": "Bye-bye, plane!", "ko": "비행기야, 안녕!", "practice": true },
+    { "who": "parent", "en": "Okay, it's our turn. Let's get on the plane.", "ko": "자, 이제 우리 차례야. 비행기 타자." },
+    { "who": "kid", "en": "Can I sit by the window?", "ko": "나 창가에 앉아도 돼?", "practice": true },
+    { "who": "parent", "en": "Sure. Sit down and buckle up.", "ko": "그럼. 앉아서 안전벨트 매." },
+    { "who": "kid", "en": "Click! Like this?", "ko": "딸깍! 이렇게?" },
+    { "who": "parent", "en": "Perfect. Is it nice and snug?", "ko": "완벽해. 딱 맞게 잘 맸어?" },
+    { "who": "kid", "en": "Yes! Are we going now?", "ko": "응! 이제 출발해?", "practice": true },
+    { "who": "parent", "en": "Yes. The plane is moving. Here we go!", "ko": "응. 비행기가 움직인다. 자, 간다!" },
+    { "who": "kid", "en": "Bye-bye, airport!", "ko": "공항아, 안녕!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "Where do you want to fly?", "ko": "비행기 타고 어디 가고 싶어?", "sample_en": "To Jeju Island!", "sample_ko": "제주도!" },
+    { "en": "What can you see from the plane window?", "ko": "비행기 창문으로 뭐가 보일까?", "sample_en": "Clouds and tiny houses.", "sample_ko": "구름이랑 작은 집들." },
+    { "en": "What do you pack in your bag for a trip?", "ko": "여행 갈 때 가방에 뭘 챙겨?", "sample_en": "My toy plane!", "sample_ko": "내 장난감 비행기!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a plane?", "prompt_ko": "비행기는 어느 거야?", "options": [ { "e": "✈️", "en": "plane" }, { "e": "🚢", "en": "ship" }, { "e": "🚲", "en": "bike" } ] },
+    { "prompt_en": "The plane goes up into the sky. What do you say?", "prompt_ko": "비행기가 하늘로 올라가. 뭐라고 해?", "options": [ { "e": "🛫", "en": "It's taking off!" }, { "e": "🛁", "en": "Bath time!" }, { "e": "🍕", "en": "Pizza, please!" } ] },
+    { "prompt_en": "You sit in your plane seat. What do you do?", "prompt_ko": "비행기 자리에 앉았어. 뭘 해야 해?", "options": [ { "e": "💺", "en": "Buckle up." }, { "e": "🤸", "en": "Jump around." }, { "e": "🏊", "en": "Go swimming." } ] },
+    { "prompt_en": "The plane flies away. What do you say?", "prompt_ko": "비행기가 날아가. 뭐라고 해?", "options": [ { "e": "👋", "en": "Bye-bye!" }, { "e": "🎂", "en": "Happy birthday!" }, { "e": "🍽️", "en": "Let's eat!" } ] },
+    { "prompt_en": "Where do planes take off?", "prompt_ko": "비행기는 어디서 이륙해?", "options": [ { "e": "🛣️", "en": "the runway" }, { "e": "🛁", "en": "the bathtub" }, { "e": "🛏️", "en": "the bed" } ] },
+    { "prompt_en": "You see a plane coming. What do you say?", "prompt_ko": "비행기가 오는 게 보여. 뭐라고 해?", "options": [ { "e": "👀", "en": "Here comes the plane!" }, { "e": "😴", "en": "I'm sleepy." }, { "e": "🧦", "en": "Where's my sock?" } ] },
+    { "prompt_en": "Where do you want to sit on the plane?", "prompt_ko": "비행기에서 어디 앉고 싶어?", "options": [ { "e": "🪟", "en": "by the window" }, { "e": "🏠", "en": "on the roof" }, { "e": "🌳", "en": "in a tree" } ] },
+    { "prompt_en": "Who flies the plane?", "prompt_ko": "비행기는 누가 조종해?", "options": [ { "e": "👩‍✈️", "en": "the pilot" }, { "e": "👨‍🌾", "en": "a farmer" }, { "e": "🧑‍🍳", "en": "a cook" } ] },
+    { "prompt_en": "The plane starts to move. What do you say?", "prompt_ko": "비행기가 움직이기 시작해. 뭐라고 해?", "options": [ { "e": "🎉", "en": "Here we go!" }, { "e": "😢", "en": "I'm sad." }, { "e": "🛌", "en": "Good night." } ] },
+    { "prompt_en": "What do you bring on a trip?", "prompt_ko": "여행 갈 때 뭘 가져가?", "options": [ { "e": "🧳", "en": "a suitcase" }, { "e": "🛁", "en": "a bathtub" }, { "e": "🚪", "en": "a door" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Buckle up.'의 뜻은?", "options": ["안전벨트 매.", "단추 잠가.", "신발 끈 묶어.", "일어나."], "explain": "buckle은 버클(잠금 고리)로, Buckle up은 안전벨트를 매라는 말입니다." },
+    { "q": "'Here we go!'의 뜻은?", "options": ["자, 간다!", "여기 있어.", "우리 여기 왔어.", "이리 와."], "explain": "무언가가 시작될 때 외치는 말이며, '여기 있어'는 Here you go.입니다." },
+    { "q": "비행기가 날아오르는 걸 보고 하는 말로 알맞은 것은?", "options": ["It's taking off!", "It's taking on!", "It's going off!", "It's taking out!"], "explain": "비행기가 이륙하는 것은 take off입니다." },
+    { "q": "빈칸에 알맞은 말은? — It's speeding up to take ___.", "options": ["off", "on", "up", "out"], "explain": "이륙하다는 take off이므로 off가 들어갑니다." },
+    { "q": "'저기 비행기 온다!'를 자연스럽게 말하면?", "options": ["Here comes the plane!", "Here the plane comes is!", "Comes here the plane!", "The plane here comes!"], "explain": "다가오는 것을 가리킬 때 'Here comes + 명사' 순서로 말합니다." },
+    { "q": "'take off'를 비행기가 아니라 옷에 쓰면 무슨 뜻일까?", "options": ["벗다", "입다", "빨다", "개다"], "explain": "Take off your jacket.처럼 옷에 쓰면 '벗다'라는 뜻입니다." },
+    { "q": "'Buckle up'을 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["버클럽", "버클 우프", "버켈 업프", "바클 아프"], "explain": "buckle의 l 소리가 up에 붙어 '버클럽'처럼 들립니다." },
+    { "q": "빈칸에 알맞은 말은? — It's a long road ___ planes.", "options": ["for", "to", "of", "with"], "explain": "'비행기를 위한 길'이므로 for를 씁니다." },
+    { "q": "'runway'의 뜻은?", "options": ["활주로", "비상구", "대합실", "탑승권"], "explain": "runway는 비행기가 달려서 이륙하고 착륙하는 긴 길(활주로)입니다." },
+    { "q": "아이에게 물건을 건네며 '여기 있어.'라고 할 때 알맞은 말은?", "options": ["Here you go.", "Here we go!", "Here I go.", "Here comes it."], "explain": "물건을 건넬 때는 Here you go.이고, Here we go!는 '자, 간다!'입니다." }
+  ]
+}

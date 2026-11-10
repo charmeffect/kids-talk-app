@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 10,
+  "topic": "space",
+  "title_en": "Rocket launch",
+  "title_ko": "로켓 발사",
+  "intro_ko": "소파나 상자를 로켓 삼아 아이는 선장, 부모는 승무원이 되어 달까지 날아가는 놀이입니다. 카운트다운은 손가락을 하나씩 접으며 같이 세고, 발사 때는 몸을 흔들어 주세요.",
+  "expressions": [
+    { "en": "Let's count down!", "ko": "카운트다운 하자!", "tip": "10부터 거꾸로 세는 것을 count down이라고 해요. count의 t가 약해져 '렛츠 카운다운'처럼 들립니다.", "who": "both" },
+    { "en": "Blast off!", "ko": "발사!", "tip": "로켓이 출발하는 순간 외치는 말이에요. '블래스토프'처럼 이어서 힘차게 말합니다.", "who": "kid" },
+    { "en": "Hold on tight!", "ko": "꽉 잡아!", "tip": "흔들리거나 빨리 움직일 때 쓰는 말이에요. Hold on만 쓰면 '잠깐만'이라는 뜻도 돼요. '홀돈 타잇'처럼 이어 말합니다.", "who": "parent" },
+    { "en": "We did it!", "ko": "우리가 해냈어!", "tip": "함께 무언가를 끝냈을 때 하이파이브하며 외치는 말이에요. did it이 이어져 '위디딧'처럼 들립니다.", "who": "both" },
+    { "en": "Piece of cake.", "ko": "식은 죽 먹기야.", "tip": "'아주 쉽다'는 뜻이에요. 아이가 해낸 뒤 자신 있게 말하게 해 주세요. of가 약해져 '피써케익'처럼 들립니다.", "who": "both" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Captain, is the rocket ready?", "ko": "선장님, 로켓 준비됐나요?" },
+    { "who": "kid", "en": "Yes! Rocket ready!", "ko": "네! 로켓 준비 완료!" },
+    { "who": "parent", "en": "Put on your helmet.", "ko": "헬멧 쓰세요." },
+    { "who": "kid", "en": "Helmet on!", "ko": "헬멧 썼어!", "practice": true },
+    { "who": "parent", "en": "Where are we going today?", "ko": "오늘은 어디로 가나요?" },
+    { "who": "kid", "en": "To the moon!", "ko": "달로!" },
+    { "who": "parent", "en": "Okay. Let's count down!", "ko": "좋아. 카운트다운 하자!" },
+    { "who": "kid", "en": "Ten, nine, eight, seven, six…", "ko": "십, 구, 팔, 칠, 육…" },
+    { "who": "parent", "en": "Five, four, three, two, one…", "ko": "오, 사, 삼, 이, 일…" },
+    { "who": "kid", "en": "Blast off!", "ko": "발사!", "practice": true },
+    { "who": "parent", "en": "Whoosh! Hold on tight!", "ko": "슈웅! 꽉 잡아!" },
+    { "who": "kid", "en": "Why is it shaking?", "ko": "왜 흔들려?", "practice": true },
+    { "who": "parent", "en": "The engines are pushing really hard to lift us up.", "ko": "엔진이 우리를 들어 올리려고 엄청 세게 밀고 있거든." },
+    { "who": "kid", "en": "I feel heavy!", "ko": "몸이 무거워!" },
+    { "who": "parent", "en": "That's because we're speeding up so fast.", "ko": "아주 빠르게 속도를 높이고 있어서 그래." },
+    { "who": "kid", "en": "Look! Earth is getting small.", "ko": "봐! 지구가 작아지고 있어.", "practice": true },
+    { "who": "parent", "en": "We're in space now. Everything is floating!", "ko": "이제 우주야. 모든 게 둥둥 떠다녀!" },
+    { "who": "kid", "en": "My toy is floating!", "ko": "내 장난감이 떠다녀!" },
+    { "who": "parent", "en": "There's the moon. Get ready to land.", "ko": "저기 달이다. 착륙 준비해." },
+    { "who": "kid", "en": "Slowly… slowly…", "ko": "천천히… 천천히…" },
+    { "who": "parent", "en": "Touchdown! We're on the moon.", "ko": "착륙! 우리 달에 왔어." },
+    { "who": "kid", "en": "We did it!", "ko": "우리가 해냈어!", "practice": true },
+    { "who": "parent", "en": "Great job, Captain. Was it hard?", "ko": "잘했어요, 선장님. 어려웠어요?" },
+    { "who": "kid", "en": "No! Piece of cake!", "ko": "아니! 식은 죽 먹기야!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What would you do on the moon?", "ko": "달에 가면 뭐 할 거야?", "sample_en": "Jump really high!", "sample_ko": "엄청 높이 점프할래!" },
+    { "en": "Who would you take in your rocket?", "ko": "네 로켓에 누구를 태우고 갈래?", "sample_en": "You and my teddy bear.", "sample_ko": "너랑 내 곰 인형." },
+    { "en": "What would you name your rocket?", "ko": "네 로켓 이름은 뭐라고 지을래?", "sample_en": "Super Rocket One!", "sample_ko": "슈퍼 로켓 1호!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a rocket?", "prompt_ko": "로켓은 어느 거야?", "options": [ { "e": "🚀", "en": "rocket" }, { "e": "🚌", "en": "bus" }, { "e": "🚂", "en": "train" } ] },
+    { "prompt_en": "The rocket goes up! What do you say?", "prompt_ko": "로켓이 올라가! 뭐라고 외쳐?", "options": [ { "e": "💥", "en": "Blast off!" }, { "e": "😴", "en": "Good night!" }, { "e": "🍽️", "en": "Let's eat!" } ] },
+    { "prompt_en": "Before blast off, what do we do?", "prompt_ko": "발사 전에 뭘 해?", "options": [ { "e": "🔢", "en": "count down" }, { "e": "🛁", "en": "take a bath" }, { "e": "🍳", "en": "cook eggs" } ] },
+    { "prompt_en": "The rocket is shaking. What do you say?", "prompt_ko": "로켓이 흔들려. 뭐라고 해?", "options": [ { "e": "✊", "en": "Hold on tight!" }, { "e": "🎂", "en": "Happy birthday!" }, { "e": "🛌", "en": "Time for bed!" } ] },
+    { "prompt_en": "Who rides in a rocket?", "prompt_ko": "로켓에는 누가 타?", "options": [ { "e": "👩‍🚀", "en": "an astronaut" }, { "e": "🐟", "en": "a fish" }, { "e": "🐄", "en": "a cow" } ] },
+    { "prompt_en": "Where are we going in our rocket?", "prompt_ko": "우리 로켓은 어디로 가?", "options": [ { "e": "🌙", "en": "the moon" }, { "e": "🏊", "en": "the pool" }, { "e": "🏫", "en": "school" } ] },
+    { "prompt_en": "We landed on the moon! What do you say?", "prompt_ko": "달에 착륙했어! 뭐라고 해?", "options": [ { "e": "🙌", "en": "We did it!" }, { "e": "😢", "en": "I'm sad." }, { "e": "🤧", "en": "Achoo!" } ] },
+    { "prompt_en": "In space, things…", "prompt_ko": "우주에서는 물건들이 어떻게 돼?", "options": [ { "e": "🎈", "en": "float" }, { "e": "🎤", "en": "sing" }, { "e": "💃", "en": "dance" } ] },
+    { "prompt_en": "Something is very easy. What do you say?", "prompt_ko": "아주 쉬운 일이야. 뭐라고 해?", "options": [ { "e": "🍰", "en": "Piece of cake!" }, { "e": "😫", "en": "Too hard!" }, { "e": "😴", "en": "I'm sleepy." } ] },
+    { "prompt_en": "Let's count down! Three, two…", "prompt_ko": "카운트다운! 삼, 이, 그다음은?", "options": [ { "e": "1️⃣", "en": "one" }, { "e": "🔟", "en": "ten" }, { "e": "5️⃣", "en": "five" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Piece of cake.'의 뜻은?", "options": ["식은 죽 먹기야.", "케이크 한 조각 줘.", "같이 나눠 먹자.", "배불러."], "explain": "케이크 한 조각 먹듯 아주 쉽다는 뜻의 관용 표현입니다." },
+    { "q": "'Hold on tight!'의 뜻은?", "options": ["꽉 잡아!", "잠깐만 기다려!", "꽉 묶어!", "숨 참아!"], "explain": "tight가 붙으면 '꽉 잡아'이고, Hold on만 쓰면 '잠깐만'이라는 뜻이 됩니다." },
+    { "q": "'Blast off!'를 외치는 순간은?", "options": ["로켓이 발사될 때", "로켓이 착륙할 때", "풍선이 터질 때", "불을 끌 때"], "explain": "blast off는 로켓이 땅을 박차고 '발사되다'라는 뜻입니다." },
+    { "q": "빈칸에 알맞은 말은? — The engines are pushing really hard to ___ us up.", "options": ["lift", "lifting", "lifted", "lifts"], "explain": "to 뒤에는 동사원형이 오므로 lift를 씁니다." },
+    { "q": "'We did it!'의 뜻은?", "options": ["우리가 해냈어!", "우리가 그랬잖아.", "우리가 할 거야.", "우리가 하는 중이야."], "explain": "함께 무언가를 성공했을 때 기뻐하며 외치는 말입니다." },
+    { "q": "'Let's count down'을 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["렛츠 카운다운", "렛츠 카운트 다운", "레트 카운트 도운", "렛 쿤트 다운"], "explain": "count의 t가 거의 소리 나지 않아 '카운다운'처럼 들립니다." },
+    { "q": "빈칸에 알맞은 말은? — Great job, Captain. Was it ___?", "options": ["hard", "hardly", "harder", "hardness"], "explain": "'어려웠어?'는 형용사 hard를 써서 Was it hard?라고 합니다." },
+    { "q": "'우리 달에 왔어.'를 자연스럽게 말하면?", "options": ["We're on the moon.", "We're in the moon.", "We're at moon.", "We on the moon."], "explain": "달 표면 위에 있으므로 on the moon이라고 합니다." },
+    { "q": "대본에서 로켓이 발사될 때 몸이 무겁게 느껴지는 이유는?", "options": ["아주 빠르게 속도를 높여서 몸이 의자에 눌리기 때문", "우주복이 무거워서", "달이 잡아당겨서", "로켓에 물이 차서"], "explain": "로켓이 아주 빠르게 속도를 높이면 몸이 의자 쪽으로 눌려 무겁게 느껴집니다." },
+    { "q": "아이에게 '헬멧 써.'라고 할 때 알맞은 말은?", "options": ["Put on your helmet.", "Wear on your helmet.", "Put in your helmet.", "Take on your helmet."], "explain": "모자·헬멧을 쓰는 동작도 put on으로 말합니다." }
+  ]
+}

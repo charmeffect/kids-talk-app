@@ -1,0 +1,69 @@
+{
+  "stage": 1,
+  "day": 33,
+  "topic": "ships",
+  "title_en": "Building a cardboard boat",
+  "title_ko": "종이 상자 배 만들기",
+  "intro_ko": "큰 택배 상자로 아이가 들어가 앉을 수 있는 배를 함께 만드는 대화입니다. 실제 상자와 테이프, 휴지심, 크레용을 준비해 서로 건네주며 해 보세요.",
+  "expressions": [
+    { "en": "Let's build a boat.", "ko": "배를 만들자.", "tip": "무언가를 함께 만들자고 할 때 build를 써요. build a가 이어져 '빌더 보웃'처럼 들립니다.", "who": "both" },
+    { "en": "Hand me the tape.", "ko": "테이프 좀 건네줘.", "tip": "가까이 있는 물건을 손으로 건네 달라고 할 때 써요. 끝에 please를 붙이면 더 공손해요. hand me가 '핸미'처럼 이어집니다.", "who": "both" },
+    { "en": "Hold this, please.", "ko": "이것 좀 잡아 줘.", "tip": "붙이거나 자르는 동안 잠깐 잡아 달라고 할 때 써요. '홀디스'처럼 이어서 말합니다.", "who": "both" },
+    { "en": "Almost done!", "ko": "거의 다 됐어!", "tip": "일이 거의 끝나 갈 때 써요. '올모슷던'처럼 almost의 t는 거의 들리지 않습니다.", "who": "both" },
+    { "en": "Hand it over.", "ko": "이리 줘.", "tip": "상대가 가진 물건을 돌려 달라고 할 때 쓰는 말이에요. 웃으며 장난스럽게 말하면 부드러워요. '핸디로버'처럼 이어집니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "kid", "en": "Look! A big box!", "ko": "봐! 큰 상자다!" },
+    { "who": "parent", "en": "Wow, it's huge. What should we make?", "ko": "우와, 엄청 크다. 뭘 만들까?" },
+    { "who": "kid", "en": "Let's build a boat!", "ko": "배를 만들자!", "practice": true },
+    { "who": "parent", "en": "Great idea. You can sit inside it.", "ko": "좋은 생각이야. 그 안에 앉을 수도 있겠다." },
+    { "who": "kid", "en": "I'm the captain!", "ko": "내가 선장이야!" },
+    { "who": "parent", "en": "Okay, Captain. Let's make a pointy front first.", "ko": "좋아요, 선장님. 먼저 앞쪽을 뾰족하게 만들자." },
+    { "who": "kid", "en": "Hand me the tape, please!", "ko": "테이프 좀 건네줘!", "practice": true },
+    { "who": "parent", "en": "Here you go. Now hold this, please.", "ko": "여기 있어. 이제 이것 좀 잡아 줘." },
+    { "who": "kid", "en": "Like this?", "ko": "이렇게?" },
+    { "who": "parent", "en": "Perfect. Don't let go.", "ko": "완벽해. 놓지 마." },
+    { "who": "kid", "en": "What's that tube for?", "ko": "그 통은 뭐 하는 거야?" },
+    { "who": "parent", "en": "It's the mast. The sail goes on it.", "ko": "돛대야. 거기에 돛을 달아." },
+    { "who": "kid", "en": "Can I draw the sail?", "ko": "돛은 내가 그려도 돼?", "practice": true },
+    { "who": "parent", "en": "Sure. Here are your crayons.", "ko": "그럼. 여기 크레용." },
+    { "who": "kid", "en": "Hold this, please.", "ko": "이것 좀 잡아 줘.", "practice": true },
+    { "who": "parent", "en": "Okay, I've got it. Nice sail!", "ko": "그래, 잡았어. 돛 멋지다!" },
+    { "who": "kid", "en": "Can it go in the bath?", "ko": "욕조에 띄워도 돼?" },
+    { "who": "parent", "en": "No. Cardboard gets soggy in water. It's a living room boat.", "ko": "아니. 종이 상자는 물에 젖으면 흐물흐물해져. 거실용 배야." },
+    { "who": "kid", "en": "Oh. Look, a tape bracelet!", "ko": "아. 봐, 테이프 팔찌!" },
+    { "who": "parent", "en": "Hey, silly, we need that tape. Hand it over.", "ko": "이 장난꾸러기, 그 테이프 필요해. 이리 줘." },
+    { "who": "kid", "en": "Here. Almost done!", "ko": "여기. 거의 다 됐어!", "practice": true },
+    { "who": "parent", "en": "Just one more piece. There! Climb in, Captain.", "ko": "한 조각만 더. 됐다! 타세요, 선장님." },
+    { "who": "kid", "en": "All aboard! To the ocean!", "ko": "모두 승선! 바다로!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What should we name your boat?", "ko": "네 배 이름은 뭐라고 할까?", "sample_en": "Super Star!", "sample_ko": "슈퍼 스타!" },
+    { "en": "Where will your boat go?", "ko": "네 배는 어디로 갈 거야?", "sample_en": "To a big island!", "sample_ko": "큰 섬으로!" },
+    { "en": "What else can we build with boxes?", "ko": "상자로 또 뭘 만들 수 있을까?", "sample_en": "A rocket!", "sample_ko": "로켓!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a box?", "prompt_ko": "상자는 어느 거야?", "options": [ { "e": "📦", "en": "box" }, { "e": "🍎", "en": "apple" }, { "e": "🐱", "en": "cat" } ] },
+    { "prompt_en": "You need the tape. What do you say?", "prompt_ko": "테이프가 필요해. 뭐라고 해?", "options": [ { "e": "🙏", "en": "Hand me the tape." }, { "e": "😴", "en": "Good night." }, { "e": "🍽️", "en": "I'm done." } ] },
+    { "prompt_en": "Who is the boss of a ship?", "prompt_ko": "배의 대장은 누구야?", "options": [ { "e": "🧑‍✈️", "en": "the captain" }, { "e": "👨‍🍳", "en": "a cook" }, { "e": "🧑‍🌾", "en": "a farmer" } ] },
+    { "prompt_en": "Which one is a sailboat?", "prompt_ko": "돛단배는 어느 거야?", "options": [ { "e": "⛵", "en": "sailboat" }, { "e": "✈️", "en": "airplane" }, { "e": "🚲", "en": "bike" } ] },
+    { "prompt_en": "What happens to cardboard in water?", "prompt_ko": "종이 상자가 물에 들어가면 어떻게 돼?", "options": [ { "e": "💦", "en": "It gets soggy." }, { "e": "🔥", "en": "It gets hot." }, { "e": "🎵", "en": "It sings." } ] },
+    { "prompt_en": "You are nearly finished. What do you say?", "prompt_ko": "거의 다 끝났어. 뭐라고 해?", "options": [ { "e": "🏁", "en": "Almost done!" }, { "e": "😋", "en": "I'm hungry." }, { "e": "👋", "en": "Bye-bye." } ] },
+    { "prompt_en": "What do we cut paper with?", "prompt_ko": "종이는 뭐로 잘라?", "options": [ { "e": "✂️", "en": "scissors" }, { "e": "🥄", "en": "spoon" }, { "e": "🧦", "en": "sock" } ] },
+    { "prompt_en": "Everyone, get on the boat! What do you say?", "prompt_ko": "모두 배에 타! 뭐라고 해?", "options": [ { "e": "🚢", "en": "All aboard!" }, { "e": "🛏️", "en": "Time for bed." }, { "e": "🍞", "en": "Bread, please." } ] },
+    { "prompt_en": "You need help holding paper. What do you say?", "prompt_ko": "종이를 잡아 줄 사람이 필요해. 뭐라고 해?", "options": [ { "e": "🤲", "en": "Hold this, please." }, { "e": "😢", "en": "I'm sad." }, { "e": "🙈", "en": "Don't look!" } ] },
+    { "prompt_en": "What do we draw with?", "prompt_ko": "그림은 뭐로 그려?", "options": [ { "e": "🖍️", "en": "crayon" }, { "e": "🍌", "en": "banana" }, { "e": "👟", "en": "shoe" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Hand it over.'의 뜻은?", "options": ["이리 줘.", "손 들어.", "넘어가자.", "손 씻어."], "explain": "상대가 가진 물건을 달라고 할 때 쓰는 말입니다." },
+    { "q": "'테이프 좀 건네줘.'를 자연스럽게 말하면?", "options": ["Hand me the tape.", "Hand the tape me.", "Give to me tape.", "Hand me to tape."], "explain": "hand + 사람 + 물건 순서로 Hand me the tape.라고 합니다." },
+    { "q": "'Hold this, please.'의 뜻은?", "options": ["이것 좀 잡아 줘.", "이것 좀 기다려 줘.", "이것 좀 버려 줘.", "이것 좀 숨겨 줘."], "explain": "hold는 '손으로 잡고 있다'는 뜻입니다." },
+    { "q": "'Almost done!'의 뜻은?", "options": ["거의 다 됐어!", "아직 시작도 안 했어!", "다시 하자!", "다 망했어!"], "explain": "almost는 '거의', done은 '끝난'이라는 뜻입니다." },
+    { "q": "빈칸에 알맞은 말은? — Okay, I've ___ it.", "options": ["got", "get", "getting", "gets"], "explain": "I've got it.은 '(잘) 잡았어 / 알았어'라는 뜻입니다." },
+    { "q": "빈칸에 알맞은 말은? — Perfect. Don't let ___.", "options": ["go", "away", "out", "off"], "explain": "let go는 '놓다'로, Don't let go.는 '놓지 마'입니다." },
+    { "q": "'Hand it over.'를 쓰기에 가장 알맞은 상황은?", "options": ["아이가 테이프를 갖고 장난칠 때 돌려 달라고", "아이에게 손을 흔들어 인사할 때", "아이가 높은 곳을 넘어갈 때", "아이에게 손을 씻으라고 할 때"], "explain": "상대가 가진 것을 넘겨 달라고 할 때 씁니다." },
+    { "q": "'Hand it over'를 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["핸디로버", "핸드 잇 오버", "한딧오브", "핸드이토버"], "explain": "d가 it과 이어지고 t가 모음 사이에서 부드러워져 '핸디로버'처럼 들립니다." },
+    { "q": "'Cardboard gets soggy in water.'에서 soggy의 뜻은?", "options": ["축축하게 흐물흐물해지는", "딱딱해지는", "뜨거워지는", "미끄러운"], "explain": "soggy는 물에 젖어 눅눅하고 흐물흐물해진 상태를 말합니다." },
+    { "q": "아이에게 '뭘 만들까?'라고 물을 때 알맞은 말은?", "options": ["What should we make?", "What should we making?", "What we should make?", "What do we should make?"], "explain": "의문사 + should + 주어 + 동사원형 순서로 말합니다." }
+  ]
+}

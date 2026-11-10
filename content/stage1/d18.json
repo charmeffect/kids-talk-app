@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 18,
+  "topic": "ships",
+  "title_en": "Submarine",
+  "title_ko": "잠수함",
+  "intro_ko": "상자나 이불 속을 잠수함 삼아 깊은 바다로 내려갔다가 다시 올라오는 놀이입니다. 손전등을 켜고 끄며 어두운 바다를 표현하고, 물고기 인형이나 그림을 '창밖'에 보여 주세요.",
+  "expressions": [
+    { "en": "Let's go down deep.", "ko": "깊이 내려가 보자.", "tip": "잠수함이나 수영장에서 깊이 들어가자고 할 때 써요. '렛츠 고 다운 딥'으로 down과 deep에 힘을 줍니다.", "who": "both" },
+    { "en": "It's dark down here.", "ko": "여기 아래는 어두워.", "tip": "down here는 '여기 아래', up there는 '저 위'라는 뜻이에요. dark down이 '다크다운'처럼 붙어 들려요.", "who": "kid" },
+    { "en": "What lives here?", "ko": "여기엔 뭐가 살아?", "tip": "바다, 숲, 연못 어디서든 쓸 수 있는 질문이에요. lives의 i는 짧게 '리브즈'로 말해요.", "who": "kid" },
+    { "en": "Let's go back up.", "ko": "다시 올라가자.", "tip": "go back up은 '원래 있던 위로 돌아가다'예요. back up이 이어져 '배컵'처럼 들립니다.", "who": "both" },
+    { "en": "Come on up.", "ko": "올라와.", "tip": "아래층이나 아래쪽에 있는 사람을 위로 부를 때 써요. on up이 이어져 '커머넙'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Welcome aboard our submarine, Captain!", "ko": "우리 잠수함에 탄 걸 환영해요, 선장님!" },
+    { "who": "kid", "en": "Close the door! Let's go!", "ko": "문 닫아! 출발!" },
+    { "who": "parent", "en": "Aye, aye! Where are we going?", "ko": "알겠습니다! 어디로 갈까요?" },
+    { "who": "kid", "en": "Let's go down deep!", "ko": "깊이 내려가 보자!", "practice": true },
+    { "who": "parent", "en": "Okay. We let water into the tanks. Now we sink slowly.", "ko": "좋아. 탱크에 물을 넣어. 이제 천천히 가라앉아." },
+    { "who": "kid", "en": "Why do we sink?", "ko": "왜 가라앉아?" },
+    { "who": "parent", "en": "The water makes us heavy. Down, down, down.", "ko": "물 때문에 무거워지거든. 아래로, 아래로." },
+    { "who": "kid", "en": "It's dark down here.", "ko": "여기 아래는 어두워.", "practice": true },
+    { "who": "parent", "en": "Sunlight can't reach this deep. Let's turn on the lights.", "ko": "햇빛이 이렇게 깊이까지는 못 와. 불을 켜자." },
+    { "who": "kid", "en": "Click! Lights on!", "ko": "딸깍! 불 켰다!" },
+    { "who": "parent", "en": "Look out the window. What do you see?", "ko": "창밖을 봐. 뭐가 보여?" },
+    { "who": "kid", "en": "What lives here?", "ko": "여기엔 뭐가 살아?", "practice": true },
+    { "who": "parent", "en": "Let's see. There's an octopus with eight arms.", "ko": "어디 보자. 다리가 여덟 개인 문어가 있네." },
+    { "who": "kid", "en": "Hi, octopus! What's that light?", "ko": "안녕, 문어야! 저 불빛은 뭐야?" },
+    { "who": "parent", "en": "That fish makes its own light. It glows in the dark.", "ko": "저 물고기는 스스로 빛을 내. 어둠 속에서 반짝여." },
+    { "who": "kid", "en": "Wow! A glowing fish!", "ko": "우와! 빛나는 물고기다!", "practice": true },
+    { "who": "parent", "en": "Captain, it's almost dinnertime.", "ko": "선장님, 곧 저녁 먹을 시간이에요." },
+    { "who": "kid", "en": "Okay. Let's go back up.", "ko": "알았어. 다시 올라가자.", "practice": true },
+    { "who": "parent", "en": "We push the water out. Now we're lighter.", "ko": "물을 밖으로 빼. 이제 가벼워졌어." },
+    { "who": "kid", "en": "Up, up, up!", "ko": "위로, 위로, 위로!" },
+    { "who": "parent", "en": "I can see the sun! We're at the top.", "ko": "해가 보인다! 물 위로 올라왔어." },
+    { "who": "kid", "en": "Open the door!", "ko": "문 열어!" },
+    { "who": "parent", "en": "Great job, Captain. Come on up. Dinner's ready.", "ko": "잘했어요, 선장님. 올라와. 저녁 다 됐어." },
+    { "who": "kid", "en": "Aye, aye!", "ko": "알겠습니다!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What sea animal do you want to see?", "ko": "어떤 바다 동물을 보고 싶어?", "sample_en": "A big whale!", "sample_ko": "커다란 고래!" },
+    { "en": "What would you take in your submarine?", "ko": "잠수함에 뭘 가져갈래?", "sample_en": "A flashlight and snacks.", "sample_ko": "손전등이랑 간식." },
+    { "en": "Would you like to live under the sea? Why?", "ko": "바닷속에서 살고 싶어? 왜?", "sample_en": "No! It's too dark.", "sample_ko": "아니! 너무 어두워." }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is an octopus?", "prompt_ko": "문어는 어느 거야?", "options": [ { "e": "🐙", "en": "octopus" }, { "e": "🦀", "en": "crab" }, { "e": "🐢", "en": "turtle" } ] },
+    { "prompt_en": "How many arms does an octopus have?", "prompt_ko": "문어는 다리가 몇 개야?", "options": [ { "e": "8️⃣", "en": "eight" }, { "e": "2️⃣", "en": "two" }, { "e": "1️⃣", "en": "one" } ] },
+    { "prompt_en": "Deep in the sea, it is very…", "prompt_ko": "깊은 바닷속은 아주 어때?", "options": [ { "e": "🌑", "en": "dark" }, { "e": "☀️", "en": "sunny" }, { "e": "🔥", "en": "hot" } ] },
+    { "prompt_en": "It's dark. What do you turn on?", "prompt_ko": "깜깜해. 뭘 켜야 해?", "options": [ { "e": "💡", "en": "the lights" }, { "e": "🚿", "en": "the shower" }, { "e": "🧊", "en": "the ice" } ] },
+    { "prompt_en": "You want to see sea animals. What do you ask?", "prompt_ko": "바다 동물이 궁금해. 뭐라고 물어?", "options": [ { "e": "🐠", "en": "What lives here?" }, { "e": "🎂", "en": "Happy birthday!" }, { "e": "😴", "en": "Good night." } ] },
+    { "prompt_en": "Let's go down deep. Which way do we go?", "prompt_ko": "깊이 내려가자. 어느 쪽으로 가?", "options": [ { "e": "⬇️", "en": "down" }, { "e": "⬆️", "en": "up" }, { "e": "➡️", "en": "right" } ] },
+    { "prompt_en": "You want to go back to the top. What do you say?", "prompt_ko": "다시 위로 올라가고 싶어. 뭐라고 해?", "options": [ { "e": "⬆️", "en": "Let's go back up." }, { "e": "🍕", "en": "Pizza, please." }, { "e": "🙈", "en": "Peekaboo!" } ] },
+    { "prompt_en": "Which one is a fish?", "prompt_ko": "물고기는 어느 거야?", "options": [ { "e": "🐟", "en": "fish" }, { "e": "🐦", "en": "bird" }, { "e": "🐱", "en": "cat" } ] },
+    { "prompt_en": "Which one lives in the sea?", "prompt_ko": "바다에 사는 건 어느 거야?", "options": [ { "e": "🐳", "en": "whale" }, { "e": "🦁", "en": "lion" }, { "e": "🐔", "en": "chicken" } ] },
+    { "prompt_en": "Which one is a crab?", "prompt_ko": "게는 어느 거야?", "options": [ { "e": "🦀", "en": "crab" }, { "e": "🐘", "en": "elephant" }, { "e": "🚗", "en": "car" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Come on up.'의 뜻은?", "options": ["올라와.", "어서 들어와.", "일어나 앉아.", "위로 던져."], "explain": "아래에 있는 사람을 위로 부를 때 쓰고, '어서 들어와'는 Come on in.입니다." },
+    { "q": "'깊이 내려가 보자.'를 영어로 하면?", "options": ["Let's go down deep.", "Let's going down deep.", "Let's down go deep.", "Let's go deep down to."], "explain": "Let's + 동사원형 go + down deep 순서로 말합니다." },
+    { "q": "빈칸에 알맞은 말은? — It's ___ down here.", "options": ["dark", "darkness", "darkly", "darken"], "explain": "It's 뒤에는 형용사 dark(어두운)가 옵니다." },
+    { "q": "'What lives here?'의 뜻은?", "options": ["여기엔 뭐가 살아?", "여기서 뭐 해?", "여기 살아도 돼?", "여긴 어디야?"], "explain": "live는 '살다'이고 What이 주어라 lives가 됩니다." },
+    { "q": "빈칸에 알맞은 말은? — That fish makes its ___ light.", "options": ["own", "one", "owner", "only"], "explain": "its own은 '자기 자신의'라는 뜻으로, 스스로 빛을 낸다는 말입니다." },
+    { "q": "깊은 바닷속이 어두운 이유로 알맞은 것은?", "options": ["햇빛이 깊은 곳까지 닿지 못해서", "바닷물이 검은색이라서", "물고기가 빛을 먹어서", "밤에만 내려가서"], "explain": "햇빛은 바닷물을 지나며 점점 약해져 깊은 곳까지 오지 못합니다." },
+    { "q": "'back up'을 이어 말하면 어떻게 들릴까?", "options": ["배컵", "바크 우프", "백푸", "배크 어프"], "explain": "back의 k가 up과 붙어 '배컵'처럼 들립니다." },
+    { "q": "'Welcome aboard!'의 뜻은?", "options": ["(배·비행기에) 탄 걸 환영해!", "해외에 온 걸 환영해!", "판자 위로 올라와!", "다시 돌아온 걸 환영해!"], "explain": "aboard는 '배·비행기에 탄'이라는 뜻이고, '해외'는 abroad입니다." },
+    { "q": "빈칸에 알맞은 말은? — Sunlight can't ___ this deep.", "options": ["reach", "arrive", "touch at", "go to"], "explain": "reach는 '~까지 닿다'라는 뜻으로 바로 목적어를 받습니다." },
+    { "q": "'Come on up.'을 쓰기 가장 알맞은 때는?", "options": ["아래층에 있는 아이를 위층으로 부를 때", "아이를 침대에서 내려오게 할 때", "아이에게 밖에 나가자고 할 때", "아이에게 앉으라고 할 때"], "explain": "위쪽으로 올라오라고 부를 때 쓰고, 내려오라고 할 때는 Come on down.입니다." }
+  ]
+}

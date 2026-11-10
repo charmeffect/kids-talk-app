@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 54,
+  "topic": "planes",
+  "title_en": "Waiting at the gate",
+  "title_ko": "탑승구에서 기다리기",
+  "intro_ko": "공항 탑승구 의자에 앉아 비행기 탈 시간을 기다리는 장면입니다. 의자 두 개를 나란히 놓고 창밖(또는 비행기 사진)을 보며 '아이 스파이' 놀이를 함께 해 보세요.",
+  "expressions": [
+    { "en": "How long?", "ko": "얼마나 걸려? / 얼마나 기다려?", "tip": "기다리는 시간을 묻는 짧은 말이에요. 완전한 문장은 How long do we have to wait?입니다.", "who": "kid" },
+    { "en": "Just a little longer.", "ko": "조금만 더.", "tip": "조금만 더 기다리자고 달랠 때 써요. Just a는 '저스터', little은 t가 굴러 '리를'처럼 들립니다.", "who": "parent" },
+    { "en": "Are we there yet?", "ko": "아직 멀었어? / 다 왔어?", "tip": "여행 중 아이들이 가장 많이 묻는 말이에요. Are는 약하게 '어'로 줄어 '어위 데어옛'처럼 들립니다.", "who": "kid" },
+    { "en": "Let's play a game.", "ko": "게임하자.", "tip": "심심할 때 놀이를 제안하는 말이에요. play a가 이어져 '플레이어 게임'처럼 들립니다.", "who": "both" },
+    { "en": "Pass the time.", "ko": "시간을 보내다(때우다).", "tip": "기다리는 동안 심심하지 않게 시간을 보낸다는 뜻이에요. 'Let's play a game to pass the time.'처럼 쓰고, Pass the는 '패스더'로 이어집니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Here's our gate. Let's sit down.", "ko": "여기가 우리 탑승구야. 앉자." },
+    { "who": "kid", "en": "Where's our plane?", "ko": "우리 비행기 어디 있어?" },
+    { "who": "parent", "en": "Look out the window. That's our plane!", "ko": "창밖을 봐. 저게 우리 비행기야!" },
+    { "who": "kid", "en": "Can we get on now?", "ko": "지금 타도 돼?" },
+    { "who": "parent", "en": "Not yet. We have to wait.", "ko": "아직 아니야. 기다려야 해." },
+    { "who": "kid", "en": "How long?", "ko": "얼마나?", "practice": true },
+    { "who": "parent", "en": "About thirty minutes.", "ko": "30분 정도." },
+    { "who": "kid", "en": "That's so long!", "ko": "너무 길어!" },
+    { "who": "parent", "en": "Let's play a game to pass the time.", "ko": "시간 보내게 게임하자." },
+    { "who": "kid", "en": "Okay! Let's play a game!", "ko": "좋아! 게임하자!", "practice": true },
+    { "who": "parent", "en": "I spy something blue.", "ko": "파란색인 뭔가가 보인다. 뭘까?" },
+    { "who": "kid", "en": "The sky?", "ko": "하늘?" },
+    { "who": "parent", "en": "No. Try again. It's on our plane.", "ko": "아니. 다시 맞혀 봐. 우리 비행기에 있어." },
+    { "who": "kid", "en": "The blue stripe on the tail!", "ko": "꼬리에 있는 파란 줄!" },
+    { "who": "parent", "en": "You got it! Your turn.", "ko": "맞혔어! 이제 네 차례야." },
+    { "who": "kid", "en": "I spy something with wheels!", "ko": "바퀴 달린 뭔가가 보인다!", "practice": true },
+    { "who": "parent", "en": "Hmm. That little truck with the bags?", "ko": "음. 가방 싣고 가는 저 작은 트럭?" },
+    { "who": "kid", "en": "Yes! Is it time now?", "ko": "맞아! 이제 시간 됐어?" },
+    { "who": "parent", "en": "Just a little longer.", "ko": "조금만 더 기다리자." },
+    { "who": "kid", "en": "Are we there yet?", "ko": "아직 멀었어?", "practice": true },
+    { "who": "parent", "en": "Ha! We're not even on the plane yet.", "ko": "하하! 아직 비행기도 안 탔는데." },
+    { "who": "kid", "en": "Oops! I forgot!", "ko": "아차! 깜빡했다!" },
+    { "who": "parent", "en": "Listen! They're calling us. It's time to board.", "ko": "들어 봐! 우리를 부르네. 탈 시간이야." },
+    { "who": "kid", "en": "Yay! Let's go!", "ko": "야호! 가자!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What else can we do while we wait?", "ko": "기다리는 동안 또 뭘 할 수 있을까?", "sample_en": "Read a book!", "sample_ko": "책 읽기!" },
+    { "en": "Where do you want to fly to?", "ko": "비행기 타고 어디에 가고 싶어?", "sample_en": "To Grandma's house!", "sample_ko": "할머니 집!" },
+    { "en": "What can you see at the airport?", "ko": "공항에서 뭐가 보여?", "sample_en": "Big planes and trucks!", "sample_ko": "큰 비행기랑 트럭!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "You want to know how much longer. What do you ask?", "prompt_ko": "얼마나 더 기다려야 하는지 알고 싶어. 뭐라고 물어?", "options": [ { "e": "⏰", "en": "How long?" }, { "e": "🎨", "en": "What color?" }, { "e": "🐶", "en": "Is it a dog?" } ] },
+    { "prompt_en": "You are bored. What do you say?", "prompt_ko": "심심해. 뭐라고 해?", "options": [ { "e": "🎲", "en": "Let's play a game." }, { "e": "😴", "en": "Good night." }, { "e": "🛁", "en": "Bath time!" } ] },
+    { "prompt_en": "Which one is a plane?", "prompt_ko": "비행기는 어느 거야?", "options": [ { "e": "✈️", "en": "plane" }, { "e": "🚂", "en": "train" }, { "e": "🚲", "en": "bike" } ] },
+    { "prompt_en": "Where does a plane fly?", "prompt_ko": "비행기는 어디로 날아?", "options": [ { "e": "☁️", "en": "in the sky" }, { "e": "🌊", "en": "under the sea" }, { "e": "🕳️", "en": "in a hole" } ] },
+    { "prompt_en": "I spy something blue. What color is it?", "prompt_ko": "파란색인 뭔가가 보인대. 무슨 색이야?", "options": [ { "e": "🔵", "en": "blue" }, { "e": "🔴", "en": "red" }, { "e": "🟡", "en": "yellow" } ] },
+    { "prompt_en": "Which one is a suitcase?", "prompt_ko": "여행 가방은 어느 거야?", "options": [ { "e": "🧳", "en": "suitcase" }, { "e": "🍔", "en": "burger" }, { "e": "🌵", "en": "cactus" } ] },
+    { "prompt_en": "Someone says, 'Just a little longer.' What does it mean?", "prompt_ko": "'Just a little longer.'는 무슨 뜻이야?", "options": [ { "e": "⏳", "en": "Wait a bit." }, { "e": "🏃", "en": "Run now!" }, { "e": "🍦", "en": "Ice cream!" } ] },
+    { "prompt_en": "Which one has wheels?", "prompt_ko": "바퀴가 있는 건 어느 거야?", "options": [ { "e": "🚗", "en": "car" }, { "e": "🐟", "en": "fish" }, { "e": "🌳", "en": "tree" } ] },
+    { "prompt_en": "On a long trip, what do kids ask again and again?", "prompt_ko": "긴 여행 중에 아이들이 자꾸 묻는 말은?", "options": [ { "e": "🤔", "en": "Are we there yet?" }, { "e": "🍌", "en": "Is it a banana?" }, { "e": "🐱", "en": "Where's the cat?" } ] },
+    { "prompt_en": "You sit down on the plane. What do you do first?", "prompt_ko": "비행기 자리에 앉았어. 먼저 뭘 해?", "options": [ { "e": "💺", "en": "Buckle up." }, { "e": "🏊", "en": "Go swimming." }, { "e": "🛌", "en": "Go to bed." } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Pass the time.'의 뜻은?", "options": ["시간을 보내다(때우다)", "시간이 다 됐다", "시간을 아끼다", "시간을 놓치다"], "explain": "기다리는 동안 심심하지 않게 무언가를 하며 시간을 보낸다는 뜻입니다." },
+    { "q": "'조금만 더 기다리자.'라고 달랠 때 알맞은 말은?", "options": ["Just a little longer.", "Just a little long.", "Only little more long.", "Just a few longer."], "explain": "'조금 더 오래'는 a little longer로 말합니다." },
+    { "q": "'Are we there yet?'은 보통 언제 쓸까?", "options": ["가는 길에 '아직 멀었어?' 하고 물을 때", "집에 도착해서 인사할 때", "길을 잃었다고 말할 때", "비행기에서 내린 뒤 감사할 때"], "explain": "여행 중 아이들이 '다 왔어? 아직 멀었어?'라고 조를 때 가장 많이 하는 말입니다." },
+    { "q": "빈칸에 알맞은 말은? — Not yet. We have ___ wait.", "options": ["to", "for", "at", "on"], "explain": "have to + 동사원형은 '~해야 한다'라는 뜻입니다." },
+    { "q": "빈칸에 알맞은 말은? — Let's play a game ___ pass the time.", "options": ["to", "for", "at", "by"], "explain": "'~하려고'라는 목적은 to + 동사원형으로 나타냅니다." },
+    { "q": "'Not yet.'의 뜻은?", "options": ["아직 아니야.", "벌써 했어.", "절대 안 돼.", "이제 됐어."], "explain": "yet은 부정문에서 '아직'이라는 뜻이라 Not yet은 '아직 아니야'입니다." },
+    { "q": "'이제 탈 시간이야.'를 영어로 하면?", "options": ["It's time to board.", "It's time to boarding.", "It's time for board.", "It's time to on board."], "explain": "It's time to 뒤에는 동사원형 board(탑승하다)가 옵니다." },
+    { "q": "'Are we there yet?'을 자연스럽게 말하면?", "options": ["어위 데어옛", "아르 위 데어 예트", "에어위테어옛", "아우이데레트"], "explain": "Are가 약하게 '어'로 줄고 there yet이 이어져 '어위 데어옛'처럼 들립니다." },
+    { "q": "놀이에서 아이가 정답을 맞혔을 때 'You got it!'의 뜻은?", "options": ["맞혔어!", "네가 받아!", "너 잡혔어!", "네가 가져가!"], "explain": "You got it!은 '맞았어, 바로 그거야!'라는 칭찬입니다." },
+    { "q": "'I spy something blue.'는 어떤 놀이의 말일까?", "options": ["파란 무언가가 보여, 맞혀 봐", "파란색 스파이가 있어", "파란색 옷을 입어", "파란색이 싫어"], "explain": "I spy 놀이는 눈에 보이는 것의 색이나 특징을 말하고 상대가 맞히는 놀이입니다." }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "stage": 1,
+  "day": 29,
+  "topic": "planes",
+  "title_en": "Birds and planes",
+  "title_ko": "새와 비행기",
+  "intro_ko": "하늘에 새와 비행기가 함께 날아가는 것을 보며 둘이 어떻게 같고 다른지 이야기합니다. 새 그림과 비행기 장난감을 나란히 놓고 날개를 손가락으로 가리키며 해 보세요.",
+  "expressions": [
+    { "en": "Do planes have feathers?", "ko": "비행기도 깃털이 있어?", "tip": "Do + 주어 + have …?로 '~가 있어?'를 물어요. planes have가 이어져 '플레인즈 해브'처럼 들리고, feathers의 th는 혀를 살짝 물고 소리 냅니다.", "who": "kid" },
+    { "en": "That's silly!", "ko": "그거 웃기다! / 말도 안 돼!", "tip": "엉뚱하고 우스운 말을 들었을 때 웃으며 하는 말이에요. 나쁜 뜻이 아니에요. '댓츠 실리'로 말합니다.", "who": "both" },
+    { "en": "They both have wings.", "ko": "둘 다 날개가 있어.", "tip": "both는 '둘 다'라는 뜻이에요. 공통점을 말할 때 They both …를 써요. both의 th는 혀끝을 이 사이에 두고 '보우th'처럼 발음합니다.", "who": "parent" },
+    { "en": "What's different?", "ko": "뭐가 달라?", "tip": "두 가지를 비교할 때 쓰는 질문이에요. 반대로 '뭐가 같아?'는 What's the same?이라고 해요. '왓츠 디프런트'로 말합니다.", "who": "both" },
+    { "en": "You're kidding!", "ko": "설마! / 농담이지!", "tip": "놀라운 말을 들었을 때 '진짜야?'라는 뜻으로 써요. kidding의 dd가 부드럽게 굴러 '유어 키링'처럼 들립니다.", "who": "both" }
+  ],
+  "script": [
+    { "who": "kid", "en": "Look! A bird and a plane!", "ko": "봐! 새랑 비행기야!" },
+    { "who": "parent", "en": "Wow, they're both flying.", "ko": "우와, 둘 다 날고 있네." },
+    { "who": "kid", "en": "Do planes have feathers?", "ko": "비행기도 깃털이 있어?", "practice": true },
+    { "who": "parent", "en": "Ha! No, planes don't have feathers.", "ko": "하하! 아니, 비행기는 깃털이 없어." },
+    { "who": "kid", "en": "A plane with feathers? That's silly!", "ko": "깃털 달린 비행기? 웃기다!", "practice": true },
+    { "who": "parent", "en": "But they're the same in one way. They both have wings.", "ko": "그런데 같은 점도 하나 있어. 둘 다 날개가 있어." },
+    { "who": "kid", "en": "They both have wings!", "ko": "둘 다 날개가 있어!", "practice": true },
+    { "who": "parent", "en": "Right. Wings help them fly.", "ko": "맞아. 날개가 날 수 있게 도와줘." },
+    { "who": "kid", "en": "What's different?", "ko": "뭐가 달라?", "practice": true },
+    { "who": "parent", "en": "Birds flap their wings. Plane wings don't flap.", "ko": "새는 날개를 파닥여. 비행기 날개는 안 파닥여." },
+    { "who": "kid", "en": "Then how does a plane go?", "ko": "그럼 비행기는 어떻게 가?" },
+    { "who": "parent", "en": "It has big engines. They push the plane forward.", "ko": "큰 엔진이 있어. 엔진이 비행기를 앞으로 밀어 줘." },
+    { "who": "kid", "en": "Do birds have engines?", "ko": "새도 엔진이 있어?" },
+    { "who": "parent", "en": "No! Birds use strong muscles to flap.", "ko": "아니! 새는 튼튼한 근육으로 날개를 파닥여." },
+    { "who": "kid", "en": "Do planes have legs?", "ko": "비행기는 다리가 있어?" },
+    { "who": "parent", "en": "No legs. But they have wheels for landing.", "ko": "다리는 없어. 대신 착륙할 때 쓰는 바퀴가 있어." },
+    { "who": "kid", "en": "Wheels! Like a car!", "ko": "바퀴! 자동차처럼!" },
+    { "who": "parent", "en": "And guess what? Some birds can't fly at all.", "ko": "그리고 있잖아. 아예 못 나는 새도 있어." },
+    { "who": "kid", "en": "You're kidding!", "ko": "설마!", "practice": true },
+    { "who": "parent", "en": "It's true. Penguins have wings, but they can't fly.", "ko": "정말이야. 펭귄은 날개가 있지만 못 날아." },
+    { "who": "kid", "en": "What do they do?", "ko": "그럼 뭐 해?" },
+    { "who": "parent", "en": "They use their wings to swim.", "ko": "날개로 헤엄을 쳐." },
+    { "who": "kid", "en": "Penguins swim? Cool!", "ko": "펭귄이 헤엄쳐? 멋지다!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "Would you rather be a bird or a plane?", "ko": "새가 되고 싶어, 비행기가 되고 싶어?", "sample_en": "A plane! Zoom!", "sample_ko": "비행기! 슝!" },
+    { "en": "What else has wings?", "ko": "또 뭐가 날개가 있지?", "sample_en": "Butterflies!", "sample_ko": "나비!" },
+    { "en": "Where do birds sleep?", "ko": "새는 어디서 자?", "sample_en": "In a nest!", "sample_ko": "둥지에서!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one has feathers?", "prompt_ko": "깃털이 있는 건 어느 거야?", "options": [ { "e": "🐦", "en": "bird" }, { "e": "✈️", "en": "plane" }, { "e": "🚌", "en": "bus" } ] },
+    { "prompt_en": "Which one can fly?", "prompt_ko": "날 수 있는 건 어느 거야?", "options": [ { "e": "✈️", "en": "plane" }, { "e": "🚂", "en": "train" }, { "e": "🚲", "en": "bike" } ] },
+    { "prompt_en": "A plane with feathers? What do you say?", "prompt_ko": "깃털 달린 비행기? 뭐라고 해?", "options": [ { "e": "😜", "en": "That's silly!" }, { "e": "😴", "en": "Good night." }, { "e": "🍽️", "en": "Let's eat." } ] },
+    { "prompt_en": "Which bird can't fly?", "prompt_ko": "날지 못하는 새는 어느 거야?", "options": [ { "e": "🐧", "en": "penguin" }, { "e": "🦅", "en": "eagle" }, { "e": "🦉", "en": "owl" } ] },
+    { "prompt_en": "Penguins can't fly. What can they do?", "prompt_ko": "펭귄은 못 날아. 대신 뭘 할 수 있어?", "options": [ { "e": "🏊", "en": "swim" }, { "e": "🚗", "en": "drive" }, { "e": "📖", "en": "read" } ] },
+    { "prompt_en": "Which one has wings?", "prompt_ko": "날개가 있는 건 어느 거야?", "options": [ { "e": "🦋", "en": "butterfly" }, { "e": "🐟", "en": "fish" }, { "e": "🐍", "en": "snake" } ] },
+    { "prompt_en": "You want to know how they are not the same. What do you ask?", "prompt_ko": "둘이 어떻게 다른지 알고 싶어. 뭐라고 물어?", "options": [ { "e": "🤔", "en": "What's different?" }, { "e": "👋", "en": "Bye-bye!" }, { "e": "🍪", "en": "Cookie, please." } ] },
+    { "prompt_en": "Your friend tells you something amazing. What do you say?", "prompt_ko": "친구가 깜짝 놀랄 이야기를 해. 뭐라고 해?", "options": [ { "e": "😲", "en": "You're kidding!" }, { "e": "😴", "en": "I'm sleepy." }, { "e": "🙅", "en": "No, thanks." } ] },
+    { "prompt_en": "Which one has a pilot?", "prompt_ko": "조종사가 있는 건 어느 거야?", "options": [ { "e": "✈️", "en": "plane" }, { "e": "🐦", "en": "bird" }, { "e": "🌳", "en": "tree" } ] },
+    { "prompt_en": "Which one lives in a nest?", "prompt_ko": "둥지에 사는 건 어느 거야?", "options": [ { "e": "🐦", "en": "bird" }, { "e": "🐟", "en": "fish" }, { "e": "🐄", "en": "cow" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'You're kidding!'의 뜻은?", "options": ["설마! / 농담이지!", "너는 아이야!", "너 장난꾸러기구나!", "너 정말 친절하다!"], "explain": "믿기 어려운 말을 들었을 때 '설마, 농담이지?'라는 뜻으로 씁니다." },
+    { "q": "'That's silly!'는 어떤 느낌의 말일까?", "options": ["웃기다, 엉뚱하다", "너무 무섭다", "정말 똑똑하다", "아주 슬프다"], "explain": "silly는 '우스꽝스러운, 엉뚱한'이라는 뜻으로 아이와 웃으며 자주 씁니다." },
+    { "q": "새와 비행기를 비교하며 '둘 다 날개가 있어.'라고 하려면?", "options": ["They both have wings.", "They have both wings.", "Both they have wings.", "They both has wings."], "explain": "both는 주어 뒤, 동사 앞에 와서 They both have …가 됩니다." },
+    { "q": "'뭐가 달라?'를 영어로 하면?", "options": ["What's different?", "What's difference?", "What different is?", "What's differ?"], "explain": "different는 형용사라서 What's different?가 자연스럽습니다." },
+    { "q": "빈칸에 알맞은 말은? — Birds ___ their wings. Plane wings don't.", "options": ["flap", "flip", "flop", "fly up"], "explain": "새가 날개를 '파닥이다'는 flap을 씁니다." },
+    { "q": "빈칸에 알맞은 말은? — It has big engines. They push the plane ___.", "options": ["forward", "front", "ahead of", "before"], "explain": "push … forward는 '앞으로 밀다'라는 뜻입니다." },
+    { "q": "'You're kidding!'을 자연스럽게 말하면 어떻게 들릴까?", "options": ["유어 키링", "유아 키딩그", "요 킫딩", "유어 키드잉"], "explain": "kidding의 d 소리가 모음 사이에서 굴러 '키링'처럼 들립니다." },
+    { "q": "비행기 이야기에서 알맞은 사실은?", "options": ["비행기 날개는 파닥이지 않고, 엔진이 앞으로 밀어 준다.", "비행기는 날개를 파닥여서 난다.", "펭귄은 날개가 없어서 못 난다.", "비행기는 착륙할 때 다리를 쓴다."], "explain": "비행기 날개는 고정되어 있고 엔진이 추진력을 냅니다. 펭귄은 날개가 있지만 날지 못해요." },
+    { "q": "놀라운 소식을 꺼내기 전에 '있잖아, 그거 알아?'라고 할 때 알맞은 말은?", "options": ["Guess what?", "Know what is?", "Think what?", "What guess?"], "explain": "Guess what?은 새 소식을 꺼낼 때 쓰는 말입니다." },
+    { "q": "'Penguins have wings, but they can't fly.'의 뜻은?", "options": ["펭귄은 날개가 있지만 못 날아.", "펭귄은 날개가 없어서 못 날아.", "펭귄은 날개로 높이 날아.", "펭귄은 날개를 가지고 싶어 해."], "explain": "but은 '하지만'으로, 날개는 있지만 날지 못한다는 뜻입니다." }
+  ]
+}

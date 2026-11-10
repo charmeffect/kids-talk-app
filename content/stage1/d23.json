@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 23,
+  "topic": "ships",
+  "title_en": "Sailboats and wind",
+  "title_ko": "돛단배와 바람",
+  "intro_ko": "대야나 욕조에 물을 받고 장난감 돛단배(또는 종이 돛을 꽂은 스티로폼 배)를 띄워, 입으로 바람을 불어 움직여 보며 하는 대화입니다. 세게 불기와 살살 불기를 번갈아 해 보세요.",
+  "expressions": [
+    { "en": "Blow on the sail.", "ko": "돛에 바람을 불어 봐.", "tip": "blow는 '입으로 불다'예요. blow on the가 이어져 '블로우온더 세일'처럼 들립니다.", "who": "parent" },
+    { "en": "It's moving!", "ko": "움직여!", "tip": "무언가 움직이기 시작할 때 신나서 외치는 말이에요. It's가 짧게 '잇츠'로 붙어 '잇츠무빙'처럼 들립니다.", "who": "kid" },
+    { "en": "Faster!", "ko": "더 빨리!", "tip": "놀이할 때 아이가 가장 좋아하는 말이에요. 두 번 반복해서 'Faster! Faster!'라고 외쳐도 좋아요.", "who": "kid" },
+    { "en": "Slow down.", "ko": "천천히 해. / 속도 줄여.", "tip": "너무 빨리 달리거나 서두를 때 쓰는 말이에요. 두 단어가 이어져 '슬로우다운'처럼 들립니다.", "who": "both" },
+    { "en": "Calm down.", "ko": "진정해.", "tip": "아이가 너무 흥분했을 때 부드럽게 말해 주세요. calm의 l은 소리 나지 않아 '캄다운'이라고 합니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Look at this sailboat. Can you find the sail?", "ko": "이 돛단배 좀 봐. 돛이 어디 있는지 찾을 수 있어?" },
+    { "who": "kid", "en": "This big triangle?", "ko": "이 큰 세모?", "practice": true },
+    { "who": "parent", "en": "Yes! The wind pushes the sail.", "ko": "맞아! 바람이 돛을 밀어 줘." },
+    { "who": "kid", "en": "But there's no wind here.", "ko": "근데 여긴 바람이 없잖아." },
+    { "who": "parent", "en": "You can make wind. Blow on the sail.", "ko": "네가 바람을 만들 수 있어. 돛에 바람을 불어 봐." },
+    { "who": "kid", "en": "Whoo! It's moving!", "ko": "후우! 움직여!", "practice": true },
+    { "who": "parent", "en": "Wow! Your breath made wind.", "ko": "우와! 네 입김이 바람을 만들었네." },
+    { "who": "kid", "en": "Faster! Faster!", "ko": "더 빨리! 더 빨리!", "practice": true },
+    { "who": "parent", "en": "Blow harder, and it goes faster.", "ko": "더 세게 불면 더 빨리 가." },
+    { "who": "kid", "en": "Whoooo! Look, it's racing!", "ko": "후우우! 봐, 쌩쌩 달려!" },
+    { "who": "parent", "en": "Careful! Slow down, or it'll hit the wall.", "ko": "조심! 속도 줄여, 벽에 부딪히겠다." },
+    { "who": "kid", "en": "Oops! It crashed!", "ko": "앗! 부딪혔어!" },
+    { "who": "parent", "en": "That's okay. Let's try again.", "ko": "괜찮아. 다시 해 보자." },
+    { "who": "kid", "en": "I want to blow really hard!", "ko": "진짜 세게 불고 싶어!" },
+    { "who": "parent", "en": "Whoa, you're splashing everywhere! Calm down, buddy.", "ko": "워워, 물이 사방으로 튀잖아! 진정해." },
+    { "who": "kid", "en": "Sorry. I'm too excited!", "ko": "미안. 너무 신나서!", "practice": true },
+    { "who": "parent", "en": "I know. Take a deep breath.", "ko": "알아. 숨 크게 한 번 쉬어 봐." },
+    { "who": "kid", "en": "How do big sailboats move?", "ko": "큰 돛단배는 어떻게 움직여?" },
+    { "who": "parent", "en": "The wind blows on their big sails.", "ko": "바람이 큰 돛에 불어서 가." },
+    { "who": "kid", "en": "What if there's no wind?", "ko": "바람이 없으면?" },
+    { "who": "parent", "en": "Then they wait, or they use a motor.", "ko": "그럼 기다리거나, 모터를 써." },
+    { "who": "kid", "en": "Slow down, little boat!", "ko": "작은 배야, 천천히 가!", "practice": true },
+    { "who": "parent", "en": "Perfect. You're a great sailor!", "ko": "완벽해. 너 훌륭한 선원이구나!" },
+    { "who": "kid", "en": "Can I sail a big boat someday?", "ko": "나중에 큰 배도 몰 수 있어?" }
+  ],
+  "talkMore": [
+    { "en": "Where do you want to sail?", "ko": "배를 타고 어디로 가고 싶어?", "sample_en": "To an island!", "sample_ko": "섬으로!" },
+    { "en": "What else does the wind push?", "ko": "바람이 또 뭘 밀어 줄까?", "sample_en": "Kites!", "sample_ko": "연!" },
+    { "en": "What color is your sail?", "ko": "네 배의 돛은 무슨 색이야?", "sample_en": "Red and white.", "sample_ko": "빨간색이랑 하얀색." }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a sailboat?", "prompt_ko": "돛단배는 어느 거야?", "options": [ { "e": "⛵", "en": "sailboat" }, { "e": "🚂", "en": "train" }, { "e": "🚲", "en": "bike" } ] },
+    { "prompt_en": "What pushes a sailboat?", "prompt_ko": "돛단배는 뭐가 밀어 줘?", "options": [ { "e": "🌬️", "en": "wind" }, { "e": "🍰", "en": "cake" }, { "e": "🧦", "en": "socks" } ] },
+    { "prompt_en": "You want the boat to go fast. What do you say?", "prompt_ko": "배가 빨리 가면 좋겠어. 뭐라고 해?", "options": [ { "e": "💨", "en": "Faster!" }, { "e": "😴", "en": "Sleep." }, { "e": "🍪", "en": "Cookie." } ] },
+    { "prompt_en": "The boat is going too fast. What do you say?", "prompt_ko": "배가 너무 빨리 가. 뭐라고 해?", "options": [ { "e": "🐢", "en": "Slow down." }, { "e": "🎉", "en": "Party!" }, { "e": "🍕", "en": "Pizza!" } ] },
+    { "prompt_en": "Your boat starts to go. What do you say?", "prompt_ko": "배가 가기 시작했어. 뭐라고 해?", "options": [ { "e": "😃", "en": "It's moving!" }, { "e": "🥱", "en": "I'm sleepy." }, { "e": "🍎", "en": "An apple." } ] },
+    { "prompt_en": "How do you make wind with your mouth?", "prompt_ko": "입으로 바람을 어떻게 만들어?", "options": [ { "e": "🌬️", "en": "blow" }, { "e": "👂", "en": "listen" }, { "e": "👃", "en": "smell" } ] },
+    { "prompt_en": "Where do sailboats sail?", "prompt_ko": "돛단배는 어디서 다녀?", "options": [ { "e": "🌊", "en": "on the sea" }, { "e": "🌳", "en": "in a tree" }, { "e": "☁️", "en": "on a cloud" } ] },
+    { "prompt_en": "What shape was our sail?", "prompt_ko": "우리 배의 돛은 무슨 모양이었지?", "options": [ { "e": "🔺", "en": "triangle" }, { "e": "⭕", "en": "circle" }, { "e": "❤️", "en": "heart" } ] },
+    { "prompt_en": "Your friend is too excited. What do you say?", "prompt_ko": "친구가 너무 흥분했어. 뭐라고 해?", "options": [ { "e": "😌", "en": "Calm down." }, { "e": "🏃", "en": "Run faster!" }, { "e": "📢", "en": "Shout louder!" } ] },
+    { "prompt_en": "Which one lives in the sea?", "prompt_ko": "바다에 사는 건 어느 거야?", "options": [ { "e": "🐬", "en": "dolphin" }, { "e": "🐒", "en": "monkey" }, { "e": "🐄", "en": "cow" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Calm down.'의 뜻은?", "options": ["진정해.", "천천히 내려와.", "따뜻하게 해.", "일어나."], "explain": "calm down은 흥분한 사람에게 '진정해'라고 할 때 씁니다." },
+    { "q": "'Slow down.'의 뜻은?", "options": ["천천히 해. / 속도 줄여.", "아래로 내려가.", "빨리 와.", "누워 있어."], "explain": "slow down은 속도를 줄이라는 말입니다." },
+    { "q": "아이에게 '돛에 바람을 불어 봐'라고 할 때 알맞은 말은?", "options": ["Blow on the sail.", "Blow the sail on.", "Blow at sail.", "Wind the sail."], "explain": "무언가에 대고 입김을 불 때는 blow on을 씁니다." },
+    { "q": "빈칸에 알맞은 말은? — The wind ___ the sail.", "options": ["pushes", "pulls", "eats", "sings"], "explain": "바람이 돛을 밀어서(push) 배가 앞으로 갑니다." },
+    { "q": "'Calm'은 어떻게 발음할까?", "options": ["캄 (l은 소리 내지 않음)", "칼름", "캘름", "컴"], "explain": "calm, palm, walk처럼 l이 묵음인 단어가 있어 '캄'이라고 합니다." },
+    { "q": "빈칸에 알맞은 말은? — Blow harder, and it goes ___.", "options": ["faster", "fast more", "fastest", "more fast"], "explain": "'더 빨리'는 비교급 faster입니다." },
+    { "q": "배가 움직이기 시작할 때 아이가 외칠 말로 알맞은 것은?", "options": ["It's moving!", "It's move!", "It moving!", "It's moved!"], "explain": "지금 움직이고 있으므로 be + -ing를 써서 It's moving!이라고 합니다." },
+    { "q": "아이가 너무 흥분해서 물을 사방에 튀길 때 알맞은 말은?", "options": ["Calm down, buddy.", "Cheer up, buddy.", "Hurry up, buddy.", "Speed up, buddy."], "explain": "cheer up은 '기운 내', hurry up은 '서둘러'라서 이 상황에 맞지 않습니다." },
+    { "q": "빈칸에 알맞은 말은? — Then they wait, or they use a ___.", "options": ["motor", "wheel", "wing", "tire"], "explain": "바람이 없을 때 돛단배는 기다리거나 모터(엔진)를 씁니다." },
+    { "q": "'Take a deep breath.'의 뜻은?", "options": ["숨을 크게 쉬어 봐.", "숨을 참아.", "깊이 잠들어.", "잠깐 쉬었다 하자."], "explain": "흥분하거나 속상한 아이를 진정시킬 때 함께 쓰기 좋은 말입니다." }
+  ]
+}

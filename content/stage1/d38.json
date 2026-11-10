@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 38,
+  "topic": "ships",
+  "title_en": "Ferry trip",
+  "title_ko": "페리 타기",
+  "intro_ko": "배(페리)를 타고 섬에 가는 상황입니다. 의자 두 개를 배로 정하고 손을 잡고 올라탔다가, 도착하면 함께 '내리는' 동작을 해 보세요.",
+  "expressions": [
+    { "en": "Let's take the ferry.", "ko": "페리 타자.", "tip": "탈것을 탈 때 take를 써요(take the bus, take the train). '렛츠 테익 더 페리'처럼 말합니다.", "who": "parent" },
+    { "en": "I see the waves.", "ko": "파도가 보여.", "tip": "보이는 것을 말할 때 I see…로 시작해요. waves는 '웨이브즈'로 끝의 z 소리를 살려 주세요.", "who": "kid" },
+    { "en": "Hold my hand.", "ko": "내 손 잡아.", "tip": "사람이 많거나 위험한 곳에서 꼭 쓰는 말이에요. hold의 d가 거의 안 들려 '홀마이 핸드'처럼 들립니다.", "who": "parent" },
+    { "en": "We're almost there.", "ko": "거의 다 왔어.", "tip": "이동 중에 아이가 '언제 도착해?' 하고 물을 때 쓰는 말이에요. '위어 올모스(트) 데어'처럼 t가 약해집니다.", "who": "both" },
+    { "en": "Get off.", "ko": "내려.", "tip": "배, 버스, 기차에서 내릴 때 get off, 탈 때는 get on이에요. 이어서 '게로프'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "We're going to the island today.", "ko": "오늘 우리 섬에 갈 거야." },
+    { "who": "kid", "en": "How do we get there?", "ko": "거기 어떻게 가?" },
+    { "who": "parent", "en": "Let's take the ferry.", "ko": "페리 타자." },
+    { "who": "kid", "en": "What's a ferry?", "ko": "페리가 뭐야?", "practice": true },
+    { "who": "parent", "en": "It's a boat that carries people and cars across the water.", "ko": "사람이랑 차를 싣고 물을 건너는 배야." },
+    { "who": "kid", "en": "Cars ride on a boat?", "ko": "차가 배를 타?" },
+    { "who": "parent", "en": "Yes! They drive right inside. Look, there it is.", "ko": "응! 안으로 바로 운전해서 들어가. 봐, 저기 있다." },
+    { "who": "kid", "en": "It's so big!", "ko": "엄청 크다!" },
+    { "who": "parent", "en": "There are a lot of people. Hold my hand.", "ko": "사람이 많네. 손 잡아." },
+    { "who": "kid", "en": "Okay. Can we go up top?", "ko": "알았어. 위에 올라가도 돼?" },
+    { "who": "parent", "en": "Sure. We can see the sea from there.", "ko": "그럼. 거기서 바다가 보여." },
+    { "who": "kid", "en": "I see the waves!", "ko": "파도가 보여!", "practice": true },
+    { "who": "parent", "en": "The wind makes the waves.", "ko": "바람이 파도를 만들어." },
+    { "who": "kid", "en": "Look! A seagull!", "ko": "봐! 갈매기다!", "practice": true },
+    { "who": "parent", "en": "It's following the ferry.", "ko": "페리를 따라오고 있네." },
+    { "who": "kid", "en": "Are we there yet?", "ko": "아직 멀었어?", "practice": true },
+    { "who": "parent", "en": "Not yet. Can you see the island?", "ko": "아직. 섬 보여?" },
+    { "who": "kid", "en": "Yes! We're almost there!", "ko": "응! 거의 다 왔다!", "practice": true },
+    { "who": "parent", "en": "The ferry stopped. Time to get off.", "ko": "페리가 멈췄어. 내릴 시간이야." },
+    { "who": "kid", "en": "Do the cars get off too?", "ko": "차들도 내려?" },
+    { "who": "parent", "en": "Yes, they drive off after us.", "ko": "응, 우리 다음에 운전해서 내려." },
+    { "who": "kid", "en": "Bye, ferry! Thank you!", "ko": "안녕, 페리! 고마워!" }
+  ],
+  "talkMore": [
+    { "en": "What would you bring on a ferry?", "ko": "페리에 뭘 가지고 탈래?", "sample_en": "My toy ship!", "sample_ko": "내 장난감 배!" },
+    { "en": "What can you see from a ferry?", "ko": "페리에서 뭘 볼 수 있어?", "sample_en": "Waves and birds.", "sample_ko": "파도랑 새." },
+    { "en": "Where do you want to go by ferry?", "ko": "페리 타고 어디 가고 싶어?", "sample_en": "A big island!", "sample_ko": "큰 섬!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a ferry?", "prompt_ko": "페리는 어느 거야?", "options": [ { "e": "⛴️", "en": "ferry" }, { "e": "✈️", "en": "plane" }, { "e": "🚲", "en": "bike" } ] },
+    { "prompt_en": "What does a ferry carry?", "prompt_ko": "페리는 뭘 싣고 가?", "options": [ { "e": "🚗", "en": "people and cars" }, { "e": "🌳", "en": "trees" }, { "e": "🏠", "en": "houses" } ] },
+    { "prompt_en": "There are lots of people. What do you say?", "prompt_ko": "사람이 아주 많아. 뭐라고 해?", "options": [ { "e": "🤝", "en": "Hold my hand." }, { "e": "🏃", "en": "Run away!" }, { "e": "😴", "en": "I'm sleepy." } ] },
+    { "prompt_en": "Which one is a wave?", "prompt_ko": "파도는 어느 거야?", "options": [ { "e": "🌊", "en": "wave" }, { "e": "🔥", "en": "fire" }, { "e": "🌵", "en": "cactus" } ] },
+    { "prompt_en": "Which bird flies over the sea?", "prompt_ko": "바다 위를 나는 새는?", "options": [ { "e": "🐦", "en": "seagull" }, { "e": "🐧", "en": "penguin" }, { "e": "🐔", "en": "chicken" } ] },
+    { "prompt_en": "You can see the island. What do you say?", "prompt_ko": "섬이 보여. 뭐라고 해?", "options": [ { "e": "😃", "en": "We're almost there!" }, { "e": "🍽️", "en": "I'm hungry." }, { "e": "🛌", "en": "Good night." } ] },
+    { "prompt_en": "Which one is an island?", "prompt_ko": "섬은 어느 거야?", "options": [ { "e": "🏝️", "en": "island" }, { "e": "🏙️", "en": "city" }, { "e": "🏔️", "en": "mountain" } ] },
+    { "prompt_en": "The ferry stops. What do we do?", "prompt_ko": "페리가 멈췄어. 우리 뭐 해?", "options": [ { "e": "🚶", "en": "Get off." }, { "e": "🏊", "en": "Swim." }, { "e": "🛁", "en": "Take a bath." } ] },
+    { "prompt_en": "What makes the waves?", "prompt_ko": "파도는 뭐가 만들어?", "options": [ { "e": "🌬️", "en": "the wind" }, { "e": "🐟", "en": "the fish" }, { "e": "⭐", "en": "the stars" } ] },
+    { "prompt_en": "Where does a ferry go?", "prompt_ko": "페리는 어디로 다녀?", "options": [ { "e": "🌊", "en": "on the water" }, { "e": "☁️", "en": "in the sky" }, { "e": "🛣️", "en": "on the road" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Let's take the ferry.'의 뜻은?", "options": ["페리 타자.", "페리를 가져가자.", "페리를 사자.", "페리 사진 찍자."], "explain": "탈것 앞의 take는 '타다'라는 뜻입니다(take the bus, take a taxi)." },
+    { "q": "배에서 내릴 때 알맞은 말은?", "options": ["Get off.", "Get out.", "Go down.", "Take off."], "explain": "배·버스·기차처럼 큰 탈것에서 내릴 때는 get off를 씁니다(승용차는 get out)." },
+    { "q": "'Get off'를 이어 말하면 어떻게 들릴까?", "options": ["게로프", "겟 오프", "게토프", "게트오프"], "explain": "get의 t가 모음 앞에서 부드러운 r처럼 되어 '게로프'처럼 들립니다." },
+    { "q": "아이가 '아직 멀었어?'라고 물을 때 '거의 다 왔어.'에 알맞은 말은?", "options": ["We're almost there.", "We're most there.", "We almost arrive there.", "We're nearly here."], "explain": "목적지에 거의 도착했을 때 We're almost there.라고 합니다." },
+    { "q": "'Are we there yet?'의 뜻은?", "options": ["아직 멀었어? / 다 왔어?", "우리 저기 있었어?", "벌써 갔어?", "저기 누가 있어?"], "explain": "여행 중 아이들이 자주 하는 '아직 멀었어?'라는 질문입니다." },
+    { "q": "빈칸에 알맞은 말은? — It's a boat that ___ people and cars across the water.", "options": ["carries", "brings up", "rides", "drives"], "explain": "carry는 '싣고 나르다'라는 뜻으로 배가 사람과 차를 실어 나를 때 씁니다." },
+    { "q": "'Hold my hand.'는 언제 쓰는 말일까?", "options": ["사람이 많거나 위험한 곳에서 손을 잡으라고 할 때", "손을 들라고 할 때", "손을 씻으라고 할 때", "박수를 치라고 할 때"], "explain": "Hold my hand.는 '내 손 잡아'라는 뜻입니다." },
+    { "q": "빈칸에 알맞은 말은? — The wind ___ the waves.", "options": ["makes", "does", "takes", "gets"], "explain": "'파도를 만든다'는 make를 씁니다: The wind makes the waves." },
+    { "q": "'Can we go up top?'의 뜻은?", "options": ["위층(갑판)에 올라가도 돼?", "꼭대기에서 뛰어내려도 돼?", "팽이 돌려도 돼?", "제일 먼저 가도 돼?"], "explain": "up top은 '위쪽에, 맨 위에'라는 뜻으로 배의 위 갑판을 말합니다." },
+    { "q": "'바다가 보여.'를 아이가 말할 때 가장 자연스러운 것은?", "options": ["I see the sea.", "I am seeing sea.", "I look the sea.", "I watch to the sea."], "explain": "눈에 보이는 것을 말할 때 I see…를 씁니다." }
+  ]
+}

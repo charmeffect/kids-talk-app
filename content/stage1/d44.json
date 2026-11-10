@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 44,
+  "topic": "planes",
+  "title_en": "Flying a kite",
+  "title_ko": "연날리기",
+  "intro_ko": "바람 부는 날 공원에서 연을 날리는 상황입니다. 집에서는 비닐봉지나 종이에 실을 달아 연 대신 쓰고, 부모가 연을 들고 아이가 실을 잡고 뛰는 흉내를 내 보세요.",
+  "expressions": [
+    { "en": "Let's fly a kite.", "ko": "연 날리자.", "tip": "'Let's + 동사'로 함께 하자고 제안하는 말이에요. fly a가 이어져 '플라이어 카잇'처럼 들립니다.", "who": "both" },
+    { "en": "Run, run!", "ko": "뛰어, 뛰어!", "tip": "달리기를 응원하거나 재촉할 때 짧게 반복해서 외치는 말이에요. 힘차게 '런, 런!' 하고 말해 주세요.", "who": "both" },
+    { "en": "Don't let go!", "ko": "놓치지 마! / 놓지 마!", "tip": "실, 손, 끈 등을 꼭 잡고 있으라는 말이에요. Don't let의 t들이 약해져 '돈 렛고'보다 '돈레고'처럼 들립니다.", "who": "both" },
+    { "en": "It's up in the sky!", "ko": "하늘 높이 올라갔어!", "tip": "연, 비행기, 풍선이 하늘에 떠 있을 때 쓰는 말이에요. up in이 이어져 '어핀 더 스카이'처럼 들립니다.", "who": "kid" },
+    { "en": "Let go.", "ko": "놔. / 놓아 줘.", "tip": "잡고 있던 것을 손에서 놓으라는 말이에요. 아이가 무언가를 꽉 잡고 있을 때 'Let go, please.'처럼 써요. t가 거의 안 들려 '레고'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "It's so windy today. Let's fly a kite.", "ko": "오늘 바람이 많이 부네. 연 날리자." },
+    { "who": "kid", "en": "Yay! Let's fly a kite!", "ko": "야호! 연 날리자!", "practice": true },
+    { "who": "parent", "en": "Here's the string. Hold it with both hands.", "ko": "여기 실이야. 두 손으로 잡아." },
+    { "who": "kid", "en": "What do I do?", "ko": "나는 뭐 해?" },
+    { "who": "parent", "en": "I'll hold the kite up. When I say go, you run.", "ko": "내가 연을 들고 있을게. 내가 '출발' 하면 뛰어." },
+    { "who": "kid", "en": "Okay! I'm ready!", "ko": "알았어! 준비됐어!" },
+    { "who": "parent", "en": "Ready, set, go! Run, run!", "ko": "준비, 시작! 뛰어, 뛰어!" },
+    { "who": "kid", "en": "Run, run, run!", "ko": "뛰어, 뛰어, 뛰어!", "practice": true },
+    { "who": "parent", "en": "Now I'll let go of the kite. Here it goes!", "ko": "이제 연을 놓을게. 간다!" },
+    { "who": "kid", "en": "Whoa! It's going up!", "ko": "우와! 올라간다!" },
+    { "who": "parent", "en": "Keep the string tight. Don't let go!", "ko": "실을 팽팽하게 잡고 있어. 놓치지 마!" },
+    { "who": "kid", "en": "Why does it go up?", "ko": "왜 위로 올라가?" },
+    { "who": "parent", "en": "The wind pushes it up, like a big invisible hand.", "ko": "바람이 밀어 올려 줘. 눈에 안 보이는 커다란 손처럼." },
+    { "who": "kid", "en": "Look! It's up in the sky!", "ko": "봐! 하늘 높이 올라갔어!", "practice": true },
+    { "who": "parent", "en": "So high! It looks like a little airplane.", "ko": "정말 높다! 작은 비행기 같아." },
+    { "who": "kid", "en": "Can you hold it? My arms are tired.", "ko": "잡아 줄래? 팔 아파." },
+    { "who": "parent", "en": "Sure. Let go. I'll hold it.", "ko": "그래. 놔. 내가 잡을게." },
+    { "who": "kid", "en": "Don't let go!", "ko": "놓치지 마!", "practice": true },
+    { "who": "parent", "en": "I won't. I've got it.", "ko": "안 놓쳐. 꽉 잡았어." },
+    { "who": "kid", "en": "Is it going to the clouds?", "ko": "구름까지 가?" },
+    { "who": "parent", "en": "Not that high. But it's higher than the trees!", "ko": "그렇게 높이는 아니야. 그래도 나무보다 높아!" },
+    { "who": "kid", "en": "My turn again!", "ko": "이제 또 내 차례!", "practice": true },
+    { "who": "parent", "en": "Here you go. Hold on tight, buddy.", "ko": "자, 여기. 꽉 잡아." },
+    { "who": "kid", "en": "I'm flying it all by myself!", "ko": "나 혼자 날리고 있어!" }
+  ],
+  "talkMore": [
+    { "en": "What shape kite do you want to make?", "ko": "어떤 모양 연을 만들고 싶어?", "sample_en": "A rocket kite!", "sample_ko": "로켓 모양 연!" },
+    { "en": "What else flies in the wind?", "ko": "바람 타고 나는 건 또 뭐가 있어?", "sample_en": "Leaves and balloons!", "sample_ko": "나뭇잎이랑 풍선!" },
+    { "en": "What happens if there's no wind?", "ko": "바람이 없으면 어떻게 될까?", "sample_en": "It falls down.", "sample_ko": "떨어져." }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a kite?", "prompt_ko": "연은 어느 거야?", "options": [ { "e": "🪁", "en": "kite" }, { "e": "🧺", "en": "basket" }, { "e": "🪑", "en": "chair" } ] },
+    { "prompt_en": "What pushes the kite up?", "prompt_ko": "연을 위로 밀어 올리는 건 뭐야?", "options": [ { "e": "🌬️", "en": "the wind" }, { "e": "🐟", "en": "a fish" }, { "e": "🍕", "en": "pizza" } ] },
+    { "prompt_en": "You want to fly a kite with a friend. What do you say?", "prompt_ko": "친구랑 연을 날리고 싶어. 뭐라고 해?", "options": [ { "e": "🪁", "en": "Let's fly a kite." }, { "e": "🛁", "en": "Let's take a bath." }, { "e": "😴", "en": "Let's go to sleep." } ] },
+    { "prompt_en": "Someone is holding the string for you. What do you say?", "prompt_ko": "누가 연줄을 잡아 주고 있어. 뭐라고 해?", "options": [ { "e": "✊", "en": "Don't let go!" }, { "e": "🍦", "en": "I want ice cream." }, { "e": "👋", "en": "Hello!" } ] },
+    { "prompt_en": "Where is the kite now?", "prompt_ko": "연은 지금 어디 있어?", "options": [ { "e": "☁️", "en": "in the sky" }, { "e": "🛏️", "en": "in bed" }, { "e": "🌊", "en": "in the sea" } ] },
+    { "prompt_en": "What do you hold to fly a kite?", "prompt_ko": "연을 날릴 때 뭘 잡아?", "options": [ { "e": "🧵", "en": "string" }, { "e": "🥄", "en": "spoon" }, { "e": "📱", "en": "phone" } ] },
+    { "prompt_en": "Listen: 'Run, run!' What do you do?", "prompt_ko": "'Run, run!' 들어 봐. 뭘 해?", "options": [ { "e": "🏃", "en": "run" }, { "e": "🪑", "en": "sit" }, { "e": "🛌", "en": "sleep" } ] },
+    { "prompt_en": "The kite looks like a little…", "prompt_ko": "연이 작은 뭐처럼 보였지?", "options": [ { "e": "✈️", "en": "airplane" }, { "e": "🚌", "en": "bus" }, { "e": "🐢", "en": "turtle" } ] },
+    { "prompt_en": "Which day is good for a kite?", "prompt_ko": "연 날리기 좋은 날은?", "options": [ { "e": "💨", "en": "a windy day" }, { "e": "⛈️", "en": "a stormy day" }, { "e": "🌑", "en": "a dark night" } ] },
+    { "prompt_en": "Which one is higher, the kite or the tree?", "prompt_ko": "연이랑 나무 중에 뭐가 더 높았어?", "options": [ { "e": "🪁", "en": "the kite" }, { "e": "🌳", "en": "the tree" }, { "e": "🐜", "en": "the ant" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Don't let go!'의 뜻으로 알맞은 것은?", "options": ["놓치지 마!", "가지 마!", "보내 줘!", "가자!"], "explain": "let go는 '손에서 놓다'라는 뜻이라 Don't let go!는 '놓지 마!'입니다." },
+    { "q": "아이가 장난감을 꽉 쥐고 안 놓을 때 '놔'라고 하는 말은?", "options": ["Let go.", "Let's go.", "Go let.", "Get go."], "explain": "Let go.(놔)와 Let's go.(가자)는 소리가 비슷하지만 뜻이 완전히 다릅니다." },
+    { "q": "빈칸에 알맞은 말은? — Now I'll let go ___ the kite.", "options": ["of", "to", "at", "from"], "explain": "무엇을 놓는지 말할 때는 let go of + 물건을 씁니다." },
+    { "q": "'Don't let go!'를 빠르게 말하면 어떻게 들릴까?", "options": ["돈레고", "돈트 렛트 고", "도운 레트 고우", "던 렛 가"], "explain": "Don't와 let의 t가 약해져 '돈레고'처럼 들립니다." },
+    { "q": "'바람이 많이 부네. 연 날리자.'를 영어로 하면?", "options": ["It's so windy today. Let's fly a kite.", "It's so wind today. Let's fly kite.", "It's so windy today. Let's flying a kite.", "It's very winding today. Let's fly the kite."], "explain": "'바람 부는'은 windy, 제안은 Let's + 동사원형입니다." },
+    { "q": "빈칸에 알맞은 말은? — Look! It's ___ in the sky!", "options": ["up", "on", "off", "over"], "explain": "하늘 높이 떠 있을 때는 up in the sky라고 합니다." },
+    { "q": "'I've got it.'은 이 대본에서 어떤 뜻일까?", "options": ["꽉 잡았어.", "이해했어.", "그거 샀어.", "그거 잃어버렸어."], "explain": "I've got it.은 상황에 따라 '잡았어' 또는 '알았어'인데, 여기서는 실을 잡았다는 뜻입니다." },
+    { "q": "아이가 넘어지지 않게 '꽉 잡아'라고 할 때 알맞은 말은?", "options": ["Hold on tight.", "Hold up tight.", "Hold it tightly on.", "Keep tight hold."], "explain": "Hold on tight.는 놓치지 말고 꽉 잡으라는 가장 흔한 말입니다." },
+    { "q": "연이 하늘로 올라가는 이유를 아이에게 쉽게 말한 것은?", "options": ["The wind pushes it up.", "The sun pulls it up.", "The kite has an engine.", "The string pushes it up."], "explain": "바람이 연을 밀어 올려 하늘에 떠 있게 합니다." },
+    { "q": "'My arms are tired.'의 뜻은?", "options": ["팔 아파(힘들어).", "팔이 짧아.", "팔이 따뜻해.", "팔을 다쳤어."], "explain": "tired는 피곤하다는 뜻으로, 팔이 힘들다고 말할 때 씁니다." }
+  ]
+}

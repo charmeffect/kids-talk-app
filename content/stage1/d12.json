@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 12,
+  "topic": "science",
+  "title_en": "Magnets",
+  "title_ko": "자석 놀이",
+  "intro_ko": "냉장고 자석이나 막대자석으로 집 안 물건이 붙는지 하나씩 실험해 보는 대화입니다. 클립, 플라스틱 숟가락, 종이배를 미리 준비하고, 자석 두 개로 밀고 당기는 것도 직접 보여 주세요.",
+  "expressions": [
+    { "en": "Let's try it.", "ko": "한번 해 보자.", "tip": "실험이나 새 놀이를 시작할 때 쓰는 말이에요. Let's try it이 이어져 '렛츠 트라이잇'처럼 들립니다.", "who": "both" },
+    { "en": "It sticks!", "ko": "붙는다!", "tip": "자석이나 스티커가 착 붙을 때 신나게 외치는 말이에요. It sticks가 이어져 '잇스틱스'처럼 들립니다.", "who": "kid" },
+    { "en": "It doesn't stick.", "ko": "안 붙어.", "tip": "붙지 않을 때는 doesn't를 넣어요. doesn't의 t는 거의 안 들려 '잇 더즌 스틱'처럼 말합니다.", "who": "kid" },
+    { "en": "What happens if …?", "ko": "…하면 어떻게 돼?", "tip": "호기심 많은 아이가 실험할 때 가장 많이 하는 질문이에요. What happens if가 이어져 '왓 해픈즈 이프'처럼 들리고, 뒤에 I use two magnets 같은 말을 붙이면 됩니다.", "who": "kid" },
+    { "en": "Try it out.", "ko": "직접 해 봐.", "tip": "새로운 것을 실제로 써 보라고 권할 때 써요. Try it out이 이어져 '트라이 이라웃'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Look what I have. It's a magnet.", "ko": "이거 봐. 자석이야." },
+    { "who": "kid", "en": "What's a magnet?", "ko": "자석이 뭐야?", "practice": true },
+    { "who": "parent", "en": "A magnet pulls some metal things toward it.", "ko": "자석은 어떤 쇠붙이들을 자기 쪽으로 끌어당겨." },
+    { "who": "kid", "en": "Can I hold it?", "ko": "내가 들어 봐도 돼?" },
+    { "who": "parent", "en": "Sure. Try it out on the fridge.", "ko": "그럼. 냉장고에 직접 해 봐." },
+    { "who": "kid", "en": "It sticks!", "ko": "붙는다!", "practice": true },
+    { "who": "parent", "en": "Yes! Magnets stick to iron and steel.", "ko": "맞아! 자석은 철에 붙어." },
+    { "who": "kid", "en": "What about this plastic spoon?", "ko": "이 플라스틱 숟가락은?" },
+    { "who": "parent", "en": "Hmm. Let's try it.", "ko": "음. 한번 해 보자." },
+    { "who": "kid", "en": "It doesn't stick.", "ko": "안 붙어.", "practice": true },
+    { "who": "parent", "en": "Right. Magnets don't pull plastic.", "ko": "맞아. 자석은 플라스틱은 안 당겨." },
+    { "who": "kid", "en": "What about the paper clip?", "ko": "클립은?" },
+    { "who": "parent", "en": "You hold the magnet this time.", "ko": "이번엔 네가 자석을 들어." },
+    { "who": "kid", "en": "Let's try it! Whoa, it jumped!", "ko": "해 보자! 우와, 튀어 올랐어!", "practice": true },
+    { "who": "parent", "en": "The magnet pulled it. Paper clips are made of steel.", "ko": "자석이 끌어당긴 거야. 클립은 철로 만들거든." },
+    { "who": "kid", "en": "What happens if I use two magnets?", "ko": "자석 두 개를 쓰면 어떻게 돼?", "practice": true },
+    { "who": "parent", "en": "Great question. Let's find out.", "ko": "좋은 질문이야. 알아보자." },
+    { "who": "kid", "en": "Hey! They're pushing away!", "ko": "어! 서로 밀어내!" },
+    { "who": "parent", "en": "Now turn one around. What happens?", "ko": "이제 하나를 뒤집어 봐. 어떻게 돼?" },
+    { "who": "kid", "en": "Click! They stick together!", "ko": "딱! 둘이 붙었어!" },
+    { "who": "parent", "en": "Magnets have two ends. Some ends pull, and some ends push.", "ko": "자석은 양쪽 끝이 있어. 어떤 끝끼리는 당기고, 어떤 끝끼리는 밀어내." },
+    { "who": "kid", "en": "Can I make a magnet ship?", "ko": "자석 배 만들어도 돼?", "practice": true },
+    { "who": "parent", "en": "Good idea! Put a clip on a paper boat.", "ko": "좋은 생각이야! 종이배에 클립을 붙여 봐." },
+    { "who": "kid", "en": "And pull it with the magnet!", "ko": "그리고 자석으로 끌고 가야지!" }
+  ],
+  "talkMore": [
+    { "en": "What else can we test with the magnet?", "ko": "자석으로 또 뭘 실험해 볼까?", "sample_en": "My toy car!", "sample_ko": "내 장난감 자동차!" },
+    { "en": "What happens if we put paper between them?", "ko": "자석이랑 클립 사이에 종이를 넣으면 어떻게 될까?", "sample_en": "It still sticks!", "sample_ko": "그래도 붙어!" },
+    { "en": "Where can you find magnets at home?", "ko": "집에서 자석을 어디서 찾을 수 있을까?", "sample_en": "On the fridge.", "sample_ko": "냉장고에." }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a magnet?", "prompt_ko": "자석은 어느 거야?", "options": [ { "e": "🧲", "en": "magnet" }, { "e": "🎈", "en": "balloon" }, { "e": "🍪", "en": "cookie" } ] },
+    { "prompt_en": "Which one sticks to a magnet?", "prompt_ko": "자석에 붙는 건 어느 거야?", "options": [ { "e": "📎", "en": "a paper clip" }, { "e": "🧸", "en": "a teddy bear" }, { "e": "🍎", "en": "an apple" } ] },
+    { "prompt_en": "Which one does not stick to a magnet?", "prompt_ko": "자석에 안 붙는 건 어느 거야?", "options": [ { "e": "🎈", "en": "a balloon" }, { "e": "📎", "en": "a paper clip" }, { "e": "🔩", "en": "a bolt" } ] },
+    { "prompt_en": "The clip jumps to the magnet. What do you say?", "prompt_ko": "클립이 자석에 착 붙었어. 뭐라고 해?", "options": [ { "e": "🤩", "en": "It sticks!" }, { "e": "😴", "en": "I'm sleepy." }, { "e": "👋", "en": "Goodbye!" } ] },
+    { "prompt_en": "The spoon does not move. What do you say?", "prompt_ko": "숟가락이 꿈쩍도 안 해. 뭐라고 해?", "options": [ { "e": "🙅", "en": "It doesn't stick." }, { "e": "🎉", "en": "Happy birthday!" }, { "e": "😋", "en": "Yummy!" } ] },
+    { "prompt_en": "You want to do a test. What do you say?", "prompt_ko": "실험을 해 보고 싶어. 뭐라고 해?", "options": [ { "e": "🔬", "en": "Let's try it." }, { "e": "🛌", "en": "Good night." }, { "e": "🙊", "en": "Be quiet." } ] },
+    { "prompt_en": "Which one can a magnet pull?", "prompt_ko": "자석이 끌어당길 수 있는 건 어느 거야?", "options": [ { "e": "🔩", "en": "a bolt" }, { "e": "🪶", "en": "a feather" }, { "e": "🍌", "en": "a banana" } ] },
+    { "prompt_en": "What did we put on the paper boat?", "prompt_ko": "종이배에 뭘 붙였지?", "options": [ { "e": "📎", "en": "a clip" }, { "e": "🍌", "en": "a banana" }, { "e": "🧦", "en": "a sock" } ] },
+    { "prompt_en": "Which one is a ship?", "prompt_ko": "배는 어느 거야?", "options": [ { "e": "🚢", "en": "ship" }, { "e": "🚁", "en": "helicopter" }, { "e": "🚂", "en": "train" } ] },
+    { "prompt_en": "Listen: 'What happens if…?' What is it?", "prompt_ko": "'What happens if…?'는 어떤 말일까?", "options": [ { "e": "❓", "en": "a question" }, { "e": "🎵", "en": "a song" }, { "e": "🐱", "en": "a cat" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'It doesn't stick.'의 뜻은?", "options": ["안 붙어.", "막대기가 아니야.", "끈적거리지 않아.", "움직이지 마."], "explain": "stick은 '붙다'라는 뜻이고 doesn't가 붙어 '안 붙어'가 됩니다." },
+    { "q": "'Try it out.'은 어떤 뜻일까?", "options": ["직접 해 봐.", "밖에 나가서 해.", "다시 꺼내 봐.", "그만해 봐."], "explain": "try out은 새로운 것을 실제로 써 보거나 시험해 본다는 뜻입니다." },
+    { "q": "아이와 실험을 시작하며 '한번 해 보자.'라고 할 때 알맞은 말은?", "options": ["Let's try it.", "Let's trying it.", "Let try it.", "Let's tried it."], "explain": "Let's 뒤에는 동사원형이 와서 Let's try it.이 됩니다." },
+    { "q": "'자석 두 개를 쓰면 어떻게 돼?'를 영어로 하면?", "options": ["What happens if I use two magnets?", "What happen if I use two magnets?", "What is happen if I use two magnets?", "What happening if I use two magnets?"], "explain": "주어가 What(단수)이므로 happens를 씁니다." },
+    { "q": "빈칸에 알맞은 말은? — Paper clips are made ___ steel.", "options": ["of", "by", "to", "in"], "explain": "재료를 말할 때 be made of를 씁니다." },
+    { "q": "빈칸에 알맞은 말은? — Magnets have two ends. Some ends pull, and some ends ___.", "options": ["push", "stick", "jump", "drop"], "explain": "자석의 같은 극끼리는 밀어내므로(push) 당기다(pull)와 짝을 이룹니다." },
+    { "q": "자석에 대한 설명으로 맞는 것은?", "options": ["철로 된 클립은 자석에 붙는다.", "플라스틱 숟가락은 자석에 붙는다.", "종이를 사이에 두면 무조건 안 붙는다.", "자석 두 개는 항상 서로 붙는다."], "explain": "자석은 철을 끌어당기고, 같은 극끼리는 밀어냅니다." },
+    { "q": "'Try it out'을 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["트라이 이라웃", "트라이 잇 아웃", "트리 잇트 아웃", "트라이토우트"], "explain": "it의 t가 모음 사이에서 부드럽게 바뀌어 '이라웃'처럼 이어집니다." },
+    { "q": "'Can I hold it?'에 대한 대답으로 가장 자연스러운 것은?", "options": ["Sure. Try it out.", "Yes, it holds.", "No, I'm not.", "It's a hold."], "explain": "허락을 구하는 말에는 Sure.(그럼)로 답하고 직접 해 보라고 권하면 자연스럽습니다." },
+    { "q": "Try it out을 쓰기에 가장 알맞은 상황은?", "options": ["아이가 새 장난감을 처음 써 보려 할 때", "아이가 장난감을 정리할 때", "아이가 밖으로 나가려 할 때", "아이가 장난감을 버리려 할 때"], "explain": "새로운 것을 직접 써 보라고 권할 때 Try it out이라고 합니다." }
+  ]
+}

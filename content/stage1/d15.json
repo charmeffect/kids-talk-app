@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 15,
+  "topic": "space",
+  "title_en": "Planets",
+  "title_ko": "행성",
+  "intro_ko": "태양계 그림책이나 행성 포스터를 함께 보며 제일 좋아하는 행성을 고르는 대화입니다. 그림이 없으면 크기가 다른 공이나 과일로 행성을 늘어놓고 손가락으로 짚어 가며 이야기해 보세요.",
+  "expressions": [
+    { "en": "Which one is your favorite?", "ko": "어느 게 제일 좋아?", "tip": "여러 개 중 가장 좋아하는 것을 물을 때 써요. Which one이 이어져 '위치원', is your가 '이쥬어'처럼 들립니다.", "who": "both" },
+    { "en": "Mine is …", "ko": "내 건 …야.", "tip": "'내가 제일 좋아하는 건 …야'라고 짧게 답할 때 써요. Mine is가 이어져 '마이니즈'처럼 들리고, 뒤에 Saturn 같은 이름을 넣습니다.", "who": "both" },
+    { "en": "It's far away.", "ko": "아주 멀리 있어.", "tip": "멀리 있는 것을 가리킬 때 써요. far away가 이어져 '파러웨이'처럼 들립니다.", "who": "parent" },
+    { "en": "How far?", "ko": "얼마나 멀어?", "tip": "거리를 묻는 짧은 질문이에요. 끝을 올려서 '하우 파?'라고 하면 됩니다.", "who": "kid" },
+    { "en": "Pick one.", "ko": "하나 골라 봐.", "tip": "아이가 고르지 못하고 망설일 때 '하나만 골라'라고 해요. Pick one이 이어져 '피권'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Look at this poster. There are eight planets.", "ko": "이 포스터 봐. 행성이 여덟 개 있어." },
+    { "who": "kid", "en": "Eight? Wow!", "ko": "여덟 개? 우와!" },
+    { "who": "parent", "en": "Which one is your favorite?", "ko": "어느 게 제일 좋아?" },
+    { "who": "kid", "en": "Hmm. I like them all!", "ko": "음. 다 좋아!" },
+    { "who": "parent", "en": "Just pick one, sweetie.", "ko": "하나만 골라 봐." },
+    { "who": "kid", "en": "Mine is Saturn!", "ko": "내 건 토성이야!", "practice": true },
+    { "who": "parent", "en": "Why Saturn?", "ko": "왜 토성이야?" },
+    { "who": "kid", "en": "It has pretty rings!", "ko": "예쁜 고리가 있어!", "practice": true },
+    { "who": "parent", "en": "Its rings are made of ice and rock.", "ko": "토성 고리는 얼음이랑 돌로 되어 있어." },
+    { "who": "kid", "en": "Can I go there?", "ko": "나 거기 갈 수 있어?" },
+    { "who": "parent", "en": "Not yet. It's far away.", "ko": "아직은 안 돼. 아주 멀리 있거든." },
+    { "who": "kid", "en": "How far?", "ko": "얼마나 멀어?", "practice": true },
+    { "who": "parent", "en": "Very, very far. A rocket takes years to get there.", "ko": "아주아주 멀어. 로켓으로도 몇 년이 걸려." },
+    { "who": "kid", "en": "Years? That's so long!", "ko": "몇 년? 엄청 오래 걸리네!" },
+    { "who": "kid", "en": "Which one is your favorite?", "ko": "엄마(아빠)는 어느 게 제일 좋아?", "practice": true },
+    { "who": "parent", "en": "Mine is Earth. It's our home.", "ko": "나는 지구. 우리 집이잖아." },
+    { "who": "kid", "en": "Which one is closest to the sun?", "ko": "태양에 제일 가까운 건 어느 거야?", "practice": true },
+    { "who": "parent", "en": "Mercury. It's the smallest planet.", "ko": "수성. 제일 작은 행성이야." },
+    { "who": "kid", "en": "Which one is the biggest?", "ko": "제일 큰 건 어느 거야?" },
+    { "who": "parent", "en": "Jupiter. It's much, much bigger than Earth.", "ko": "목성. 지구보다 훨씬 훨씬 커." },
+    { "who": "kid", "en": "Is the sun a planet?", "ko": "태양도 행성이야?" },
+    { "who": "parent", "en": "No, the sun is a star. The planets go around it.", "ko": "아니, 태양은 별이야. 행성들이 태양 주위를 돌아." },
+    { "who": "kid", "en": "Let's draw Saturn!", "ko": "토성 그리자!", "practice": true },
+    { "who": "parent", "en": "Great idea! Pick one crayon for the rings.", "ko": "좋아! 고리 칠할 크레용 하나 골라 봐." }
+  ],
+  "talkMore": [
+    { "en": "If you could visit a planet, which one would you pick?", "ko": "행성 하나에 가 볼 수 있다면 어디를 고를래?", "sample_en": "Mars! It's red.", "sample_ko": "화성! 빨간색이잖아." },
+    { "en": "What would you take on your rocket?", "ko": "로켓에 뭘 가져갈래?", "sample_en": "Snacks and my teddy.", "sample_ko": "간식이랑 곰 인형." },
+    { "en": "Why do you think Earth is special?", "ko": "지구는 왜 특별할까?", "sample_en": "We live here!", "sample_ko": "우리가 여기 살잖아!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which planet has big rings?", "prompt_ko": "큰 고리가 있는 행성은 어느 거야?", "options": [ { "e": "🪐", "en": "Saturn" }, { "e": "🌍", "en": "Earth" }, { "e": "🌙", "en": "the moon" } ] },
+    { "prompt_en": "Which one is our home planet?", "prompt_ko": "우리가 사는 행성은 어느 거야?", "options": [ { "e": "🌍", "en": "Earth" }, { "e": "☀️", "en": "the sun" }, { "e": "⭐", "en": "a star" } ] },
+    { "prompt_en": "The sun is a…", "prompt_ko": "태양은 뭐야?", "options": [ { "e": "⭐", "en": "star" }, { "e": "🍎", "en": "apple" }, { "e": "🚗", "en": "car" } ] },
+    { "prompt_en": "You want to know a friend's favorite. What do you ask?", "prompt_ko": "친구가 제일 좋아하는 게 궁금해. 뭐라고 물어?", "options": [ { "e": "🤔", "en": "Which one is your favorite?" }, { "e": "👋", "en": "Bye-bye!" }, { "e": "😴", "en": "I'm sleepy." } ] },
+    { "prompt_en": "Someone asks, 'Which one is your favorite?' What do you say?", "prompt_ko": "'어느 게 제일 좋아?'라고 물으면 뭐라고 해?", "options": [ { "e": "🪐", "en": "Mine is Saturn!" }, { "e": "😢", "en": "I feel sad." }, { "e": "🛁", "en": "Bath time!" } ] },
+    { "prompt_en": "You want to know the distance. What do you ask?", "prompt_ko": "얼마나 먼지 궁금해. 뭐라고 물어?", "options": [ { "e": "📏", "en": "How far?" }, { "e": "🍽️", "en": "How yummy?" }, { "e": "🎂", "en": "How old?" } ] },
+    { "prompt_en": "What takes people to space?", "prompt_ko": "사람을 우주로 데려가는 건 뭐야?", "options": [ { "e": "🚀", "en": "a rocket" }, { "e": "🚲", "en": "a bike" }, { "e": "🛶", "en": "a canoe" } ] },
+    { "prompt_en": "Which one is a planet?", "prompt_ko": "행성은 어느 거야?", "options": [ { "e": "🪐", "en": "planet" }, { "e": "🌵", "en": "cactus" }, { "e": "🐟", "en": "fish" } ] },
+    { "prompt_en": "What did we use to color the rings?", "prompt_ko": "고리는 뭘로 칠했지?", "options": [ { "e": "🖍️", "en": "a crayon" }, { "e": "🥄", "en": "a spoon" }, { "e": "🧦", "en": "a sock" } ] },
+    { "prompt_en": "How many planets are there?", "prompt_ko": "행성은 몇 개야?", "options": [ { "e": "8️⃣", "en": "eight" }, { "e": "2️⃣", "en": "two" }, { "e": "1️⃣", "en": "one" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Pick one.'의 뜻은?", "options": ["하나 골라 봐.", "하나 주워 봐.", "하나만 먹어.", "하나 뽑아서 버려."], "explain": "pick은 '고르다'라는 뜻으로, 여러 개 중 하나를 고르라고 할 때 씁니다." },
+    { "q": "'It's far away.'는 어떤 뜻일까?", "options": ["아주 멀리 있어.", "멀리 가 버렸어.", "곧 사라질 거야.", "아주 가까워."], "explain": "far away는 '멀리 떨어져 있는'이라는 뜻입니다." },
+    { "q": "아이에게 '어느 게 제일 좋아?'라고 물을 때 알맞은 말은?", "options": ["Which one is your favorite?", "What one is your favorite?", "Which one your favorite is?", "Which is one your favorite?"], "explain": "여러 개 중에서 고르게 할 때는 Which one을 씁니다." },
+    { "q": "'내가 제일 좋아하는 건 토성이야.'를 짧게 말하면?", "options": ["Mine is Saturn.", "My is Saturn.", "Me is Saturn.", "I'm is Saturn."], "explain": "mine은 '내 것'이라는 뜻이라 Mine is Saturn.처럼 짧게 답할 수 있습니다." },
+    { "q": "빈칸에 알맞은 말은? — Very, very far. A rocket takes years to ___ there.", "options": ["get", "go to", "come at", "reach to"], "explain": "get there는 '거기에 도착하다'라는 뜻입니다." },
+    { "q": "빈칸에 알맞은 말은? — No, the sun is a star. The planets go ___ it.", "options": ["around", "into", "under", "through"], "explain": "행성은 태양 주위를 돌므로 go around를 씁니다." },
+    { "q": "아이에게 알려 줄 내용으로 맞는 것은?", "options": ["Jupiter is the biggest planet.", "The sun is a planet.", "Saturn is closest to the sun.", "Earth is the biggest planet."], "explain": "가장 큰 행성은 목성이고, 태양은 별, 태양에 가장 가까운 행성은 수성입니다." },
+    { "q": "'Pick one'을 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["피권", "픽 원", "피크 원", "핀권"], "explain": "pick의 k와 one이 이어져 '피권'처럼 들립니다." },
+    { "q": "아이가 'It's far away.'를 듣고 이어서 할 질문으로 알맞은 것은?", "options": ["How far?", "How many?", "How old?", "How much?"], "explain": "거리를 물을 때는 How far?라고 합니다." },
+    { "q": "Pick one을 쓰기에 가장 알맞은 상황은?", "options": ["아이가 간식 두 개 중에 못 고르고 망설일 때", "아이가 장난감을 떨어뜨렸을 때", "아이가 잠자리에 들 때", "아이가 다쳐서 울 때"], "explain": "고르지 못하고 망설이는 아이에게 '하나만 골라'라고 할 때 씁니다." }
+  ]
+}

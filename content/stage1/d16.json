@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 16,
+  "topic": "daily",
+  "title_en": "Playground",
+  "title_ko": "놀이터에서",
+  "intro_ko": "놀이터에 가서 미끄럼틀, 그네, 해적선 놀이기구를 타는 장면입니다. 실제 놀이터에서 하거나, 집에서 의자를 그네 삼아 차례 지키기 놀이를 하며 읽어 보세요.",
+  "expressions": [
+    { "en": "Can I play too?", "ko": "나도 같이 놀아도 돼?", "tip": "친구들 놀이에 끼고 싶을 때 아이가 쓰는 가장 기본 문장이에요. Can I가 이어져 '캐나이 플레이 투'처럼 들립니다.", "who": "kid" },
+    { "en": "My turn!", "ko": "내 차례야!", "tip": "차례가 왔을 때 외치는 말이에요. 상대 차례는 'Your turn!'이라고 하면 됩니다.", "who": "both" },
+    { "en": "Let's take turns.", "ko": "차례대로 하자.", "tip": "물건이 하나뿐일 때 번갈아 쓰자는 말이에요. turns처럼 꼭 s를 붙이고, '렛츠 테익 턴즈'로 이어 말해요.", "who": "both" },
+    { "en": "Be careful!", "ko": "조심해!", "tip": "위험해 보일 때 바로 쓰는 말이에요. 짧게 'Careful!'만 해도 됩니다. '비 케어풀'로 care에 힘을 줘요.", "who": "parent" },
+    { "en": "Play nice.", "ko": "사이좋게 놀아.", "tip": "친구들과 놀러 보낼 때 당부하는 말이에요. 문법상 nicely지만 일상에서는 'Play nice.'라고 흔히 말합니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Here we are at the playground! What do you want to do?", "ko": "놀이터 도착! 뭐 하고 싶어?" },
+    { "who": "kid", "en": "The slide! Can I go first?", "ko": "미끄럼틀! 내가 먼저 타도 돼?" },
+    { "who": "parent", "en": "Sure. Hold the railing and climb up.", "ko": "그래. 손잡이 잡고 올라가." },
+    { "who": "kid", "en": "Wheee! That was fast!", "ko": "야호! 엄청 빨랐어!" },
+    { "who": "parent", "en": "Look, some kids are playing on the pirate ship.", "ko": "저기 봐, 아이들이 해적선에서 놀고 있네." },
+    { "who": "kid", "en": "I want to go there!", "ko": "나 저기 가고 싶어!" },
+    { "who": "parent", "en": "Go and ask them nicely.", "ko": "가서 친구들한테 예쁘게 물어봐." },
+    { "who": "kid", "en": "Hi! Can I play too?", "ko": "안녕! 나도 같이 놀아도 돼?", "practice": true },
+    { "who": "parent", "en": "They said yes! Have fun, buddy.", "ko": "좋대! 재미있게 놀아." },
+    { "who": "kid", "en": "I'm the captain! Turn left!", "ko": "내가 선장이야! 왼쪽으로!", "practice": true },
+    { "who": "parent", "en": "Great job, Captain. Now let's go to the swings.", "ko": "잘했어, 선장님. 이제 그네 타러 가자." },
+    { "who": "kid", "en": "My turn! My turn!", "ko": "내 차례! 내 차례!", "practice": true },
+    { "who": "parent", "en": "Wait, sweetie. That girl was here first.", "ko": "잠깐만. 저 여자아이가 먼저 와 있었어." },
+    { "who": "kid", "en": "But I want to swing.", "ko": "그래도 나 그네 타고 싶어." },
+    { "who": "parent", "en": "There's only one swing. Let's take turns.", "ko": "그네가 하나뿐이네. 차례대로 하자." },
+    { "who": "kid", "en": "Okay. Let's take turns.", "ko": "알았어. 차례대로 하자.", "practice": true },
+    { "who": "parent", "en": "Thank you for waiting. Now it's your turn.", "ko": "기다려 줘서 고마워. 이제 네 차례야." },
+    { "who": "kid", "en": "Yay! Push me higher!", "ko": "야호! 더 높이 밀어 줘!" },
+    { "who": "parent", "en": "Hold on with both hands. Be careful!", "ko": "두 손으로 꽉 잡아. 조심해!" },
+    { "who": "kid", "en": "I'm flying like a plane!", "ko": "나 비행기처럼 날고 있어!", "practice": true },
+    { "who": "parent", "en": "You're playing so well with everyone today.", "ko": "오늘 친구들이랑 정말 잘 노네." },
+    { "who": "kid", "en": "Can we come back tomorrow?", "ko": "내일 또 와도 돼?", "practice": true },
+    { "who": "parent", "en": "Sure. Just remember to play nice.", "ko": "그럼. 사이좋게 노는 것만 잊지 마." },
+    { "who": "kid", "en": "I will!", "ko": "그럴게!" }
+  ],
+  "talkMore": [
+    { "en": "What's your favorite thing at the playground?", "ko": "놀이터에서 제일 좋아하는 게 뭐야?", "sample_en": "The slide!", "sample_ko": "미끄럼틀!" },
+    { "en": "What can you do when a friend wants your toy?", "ko": "친구가 네 장난감을 갖고 싶어 하면 어떻게 할 수 있어?", "sample_en": "We can take turns.", "sample_ko": "차례대로 쓰면 돼." },
+    { "en": "If the playground had a ship, what would you do?", "ko": "놀이터에 배가 있으면 뭐 하고 놀래?", "sample_en": "I'd be the captain!", "sample_ko": "내가 선장 할래!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "You want to join a game. What do you say?", "prompt_ko": "친구들 놀이에 끼고 싶어. 뭐라고 해?", "options": [ { "e": "🙋", "en": "Can I play too?" }, { "e": "😴", "en": "Good night." }, { "e": "🍎", "en": "An apple." } ] },
+    { "prompt_en": "Now it's your turn. What do you say?", "prompt_ko": "이제 네 차례야. 뭐라고 해?", "options": [ { "e": "☝️", "en": "My turn!" }, { "e": "🛏️", "en": "Time for bed." }, { "e": "🤧", "en": "Achoo!" } ] },
+    { "prompt_en": "Two kids want one swing. What should they do?", "prompt_ko": "그네는 하나인데 두 명이 타고 싶어. 어떻게 해야 할까?", "options": [ { "e": "🤝", "en": "Take turns." }, { "e": "😠", "en": "Fight." }, { "e": "😭", "en": "Cry." } ] },
+    { "prompt_en": "Your friend climbs up very high. What do you say?", "prompt_ko": "친구가 아주 높이 올라가. 뭐라고 해?", "options": [ { "e": "⚠️", "en": "Be careful!" }, { "e": "😋", "en": "Yummy!" }, { "e": "🎂", "en": "Happy birthday!" } ] },
+    { "prompt_en": "Which one is a pirate flag?", "prompt_ko": "해적 깃발은 어느 거야?", "options": [ { "e": "🏴‍☠️", "en": "pirate flag" }, { "e": "🚗", "en": "car" }, { "e": "🍰", "en": "cake" } ] },
+    { "prompt_en": "Which one is a ship?", "prompt_ko": "배는 어느 거야?", "options": [ { "e": "🚢", "en": "ship" }, { "e": "🚲", "en": "bike" }, { "e": "🏠", "en": "house" } ] },
+    { "prompt_en": "Who flies a plane?", "prompt_ko": "비행기는 누가 조종해?", "options": [ { "e": "🧑‍✈️", "en": "a pilot" }, { "e": "👶", "en": "a baby" }, { "e": "🐶", "en": "a dog" } ] },
+    { "prompt_en": "A friend asks, 'Can I play too?' What do you say?", "prompt_ko": "친구가 '나도 놀아도 돼?' 하고 물어. 뭐라고 해?", "options": [ { "e": "😊", "en": "Sure, come on!" }, { "e": "🍌", "en": "A banana." }, { "e": "🌙", "en": "The moon." } ] },
+    { "prompt_en": "Which one can you play with at the playground?", "prompt_ko": "놀이터에서 갖고 놀 수 있는 건 어느 거야?", "options": [ { "e": "⚽", "en": "a ball" }, { "e": "🛁", "en": "a bathtub" }, { "e": "🛏️", "en": "a bed" } ] },
+    { "prompt_en": "You swing so high. You feel like a…", "prompt_ko": "그네를 아주 높이 타. 뭐가 된 것 같아?", "options": [ { "e": "✈️", "en": "plane" }, { "e": "🐌", "en": "snail" }, { "e": "🐢", "en": "turtle" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Let's take turns.'의 뜻은?", "options": ["차례대로 하자.", "같이 한 바퀴 돌자.", "방향을 바꾸자.", "이제 그만하자."], "explain": "take turns는 '번갈아 하다, 차례를 지키다'라는 뜻입니다." },
+    { "q": "아이가 친구들 놀이에 끼고 싶을 때 쓰는 자연스러운 말은?", "options": ["Can I play too?", "Can I playing too?", "Do I can play too?", "Can I play also with?"], "explain": "Can I + 동사원형 + too?로 '나도 ~해도 돼?'를 말합니다." },
+    { "q": "'Play nice.'의 뜻은?", "options": ["사이좋게 놀아.", "연주를 잘해.", "멋지게 이겨.", "조용히 놀아."], "explain": "친구들과 다투지 말고 잘 놀라고 당부할 때 쓰는 말입니다." },
+    { "q": "빈칸에 알맞은 말은? — There's only one swing. Let's take ___.", "options": ["turns", "turn", "turned", "turning"], "explain": "'차례를 지키다'는 항상 복수형으로 take turns라고 합니다." },
+    { "q": "아이가 그네를 너무 높이 타려고 할 때 하는 말은?", "options": ["Be careful!", "Be carefully!", "Do careful!", "Careful be!"], "explain": "Be 뒤에는 형용사 careful이 와서 Be careful!이 됩니다." },
+    { "q": "'Can I'를 이어 말하면 어떻게 들릴까?", "options": ["캐나이", "캔 아이", "카니", "케이나이"], "explain": "can의 n이 뒤의 I와 붙어 '캐나이'처럼 들립니다." },
+    { "q": "'My turn!'의 뜻은?", "options": ["내 차례야!", "내가 돌릴게!", "나 돌아갈래!", "내가 이겼어!"], "explain": "turn은 여기서 '차례'라는 뜻입니다." },
+    { "q": "빈칸에 알맞은 말은? — Hold on with both ___.", "options": ["hands", "hand", "handing", "handed"], "explain": "both(둘 다) 뒤에는 복수형 hands가 옵니다." },
+    { "q": "'That girl was here first.'의 뜻은?", "options": ["저 여자아이가 먼저 와 있었어.", "저 여자아이가 1등 했어.", "저 아이는 여기 처음 왔어.", "저 아이가 먼저 가야 해."], "explain": "was here first는 '먼저 와 있었다'는 뜻으로 차례를 설명할 때 씁니다." },
+    { "q": "'Play nice.'를 쓰기 가장 알맞은 때는?", "options": ["친구들과 놀러 보내며 당부할 때", "피아노 연주를 칭찬할 때", "게임에서 이긴 걸 축하할 때", "놀이를 끝내고 집에 갈 때"], "explain": "놀기 전에 '친구랑 사이좋게 놀아'라고 당부하는 말입니다." }
+  ]
+}

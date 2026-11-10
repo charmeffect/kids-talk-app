@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 49,
+  "topic": "planes",
+  "title_en": "Folding a better plane",
+  "title_ko": "더 잘 나는 종이비행기 접기",
+  "intro_ko": "종이비행기를 함께 접으며 잘 나는 비결을 알아보는 상황입니다. A4 종이를 한 장씩 들고 대사에 맞춰 실제로 접은 뒤, 마지막에 날려 보세요.",
+  "expressions": [
+    { "en": "Fold it in half.", "ko": "반으로 접어.", "tip": "만들기를 할 때 자주 쓰는 지시예요. it in이 이어지며 t가 부드러워져 '폴디린 해프'처럼 들립니다.", "who": "parent" },
+    { "en": "Like this?", "ko": "이렇게?", "tip": "아이가 따라 하다가 맞는지 확인할 때 써요. 끝을 올려 묻고, '라익디스'처럼 붙여 말합니다.", "who": "kid" },
+    { "en": "Not quite.", "ko": "거의 맞았는데 조금 달라.", "tip": "'틀렸어' 대신 부드럽게 고쳐 줄 때 써요. Not의 t는 거의 소리 나지 않아 '나(ㅅ) 콰잇'처럼 들립니다.", "who": "parent" },
+    { "en": "Perfect!", "ko": "완벽해!", "tip": "아이가 해냈을 때 크게 칭찬해 주세요. 강세는 앞에 있어 '퍼-펙트'로 말합니다.", "who": "both" },
+    { "en": "You got it!", "ko": "바로 그거야! / 해냈구나!", "tip": "아이가 방법을 이해하거나 성공했을 때 쓰는 칭찬이에요. got it의 t가 부드러워져 '유 가릿'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Let's make a paper plane that flies far.", "ko": "멀리 나는 종이비행기를 만들어 보자." },
+    { "who": "kid", "en": "Yay! Can I fold it?", "ko": "신난다! 내가 접어도 돼?" },
+    { "who": "parent", "en": "Sure. First, fold it in half the long way.", "ko": "그럼. 먼저 길쭉하게 반으로 접어." },
+    { "who": "kid", "en": "Like this?", "ko": "이렇게?", "practice": true },
+    { "who": "parent", "en": "Not quite. Match the corners first.", "ko": "조금 달라. 먼저 모서리를 맞춰." },
+    { "who": "kid", "en": "Oh, I see. Now?", "ko": "아, 알겠다. 이제 됐어?" },
+    { "who": "parent", "en": "Yes! Now press the fold flat.", "ko": "응! 이제 접은 선을 꾹 눌러." },
+    { "who": "kid", "en": "What's next?", "ko": "다음엔 뭐 해?", "practice": true },
+    { "who": "parent", "en": "Open it. Fold the top corners to the middle.", "ko": "펼쳐. 위쪽 모서리를 가운데로 접어." },
+    { "who": "kid", "en": "It looks like a triangle!", "ko": "세모 모양 같아!" },
+    { "who": "parent", "en": "That's the nose. A pointy nose cuts through the air.", "ko": "그게 비행기 코야. 뾰족한 코가 공기를 가르고 나가." },
+    { "who": "kid", "en": "Why pointy?", "ko": "왜 뾰족해야 해?" },
+    { "who": "parent", "en": "So the air moves around it easily.", "ko": "그래야 공기가 쉽게 옆으로 지나가거든." },
+    { "who": "kid", "en": "Now the wings?", "ko": "이제 날개야?" },
+    { "who": "parent", "en": "Yes. Fold each side down to make wings.", "ko": "응. 양쪽을 아래로 접어서 날개를 만들어." },
+    { "who": "kid", "en": "Like this?", "ko": "이렇게?", "practice": true },
+    { "who": "parent", "en": "Let's check. Both wings are the same. Perfect!", "ko": "어디 보자. 양쪽 날개가 똑같네. 완벽해!" },
+    { "who": "kid", "en": "Can I throw it now?", "ko": "이제 날려도 돼?" },
+    { "who": "parent", "en": "Hold it under the wings. Throw it gently and straight.", "ko": "날개 아래를 잡아. 살살, 똑바로 던져." },
+    { "who": "kid", "en": "Whoosh! Look, it's flying!", "ko": "슝! 봐, 날아간다!", "practice": true },
+    { "who": "parent", "en": "Wow, that went far!", "ko": "우와, 정말 멀리 갔다!" },
+    { "who": "kid", "en": "I did it! Perfect!", "ko": "내가 해냈어! 완벽해!", "practice": true },
+    { "who": "parent", "en": "You got it! Great job, buddy.", "ko": "해냈구나! 정말 잘했어." },
+    { "who": "kid", "en": "Let's make another one!", "ko": "하나 더 만들자!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "How can we make it fly even farther?", "ko": "어떻게 하면 더 멀리 날아갈까?", "sample_en": "Make the nose pointy!", "sample_ko": "코를 뾰족하게 해!" },
+    { "en": "What color plane do you want to make next?", "ko": "다음엔 무슨 색 비행기를 만들고 싶어?", "sample_en": "A blue one!", "sample_ko": "파란색!" },
+    { "en": "Where would your plane fly to?", "ko": "네 비행기는 어디로 날아갈까?", "sample_en": "Over the sea!", "sample_ko": "바다 위로!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a plane?", "prompt_ko": "비행기는 어느 거야?", "options": [ { "e": "✈️", "en": "plane" }, { "e": "🚢", "en": "ship" }, { "e": "🚌", "en": "bus" } ] },
+    { "prompt_en": "What do we fold to make a paper plane?", "prompt_ko": "종이비행기는 뭘 접어서 만들어?", "options": [ { "e": "📄", "en": "paper" }, { "e": "🍕", "en": "pizza" }, { "e": "🧱", "en": "a brick" } ] },
+    { "prompt_en": "You want to check your work. What do you ask?", "prompt_ko": "맞게 했는지 물어보고 싶어. 뭐라고 해?", "options": [ { "e": "🤔", "en": "Like this?" }, { "e": "😴", "en": "Good night!" }, { "e": "🙅", "en": "No way!" } ] },
+    { "prompt_en": "Which shape is the plane's nose?", "prompt_ko": "비행기 코는 무슨 모양이었지?", "options": [ { "e": "🔺", "en": "a triangle" }, { "e": "⭕", "en": "a circle" }, { "e": "❤️", "en": "a heart" } ] },
+    { "prompt_en": "Your friend's plane looks great. What do you say?", "prompt_ko": "친구 비행기가 정말 멋져. 뭐라고 해?", "options": [ { "e": "👌", "en": "Perfect!" }, { "e": "😢", "en": "I'm sad." }, { "e": "🤧", "en": "Achoo!" } ] },
+    { "prompt_en": "Planes have wings. Which one has wings, too?", "prompt_ko": "비행기는 날개가 있어. 날개가 있는 건 또 뭘까?", "options": [ { "e": "🦋", "en": "a butterfly" }, { "e": "🐍", "en": "a snake" }, { "e": "🐟", "en": "a fish" } ] },
+    { "prompt_en": "How do you throw a paper plane?", "prompt_ko": "종이비행기는 어떻게 던져?", "options": [ { "e": "🪶", "en": "gently" }, { "e": "💥", "en": "very hard" }, { "e": "⬇️", "en": "down to the floor" } ] },
+    { "prompt_en": "Listen: 'Fold it in half.' What do you do?", "prompt_ko": "'Fold it in half.'라고 하면 어떻게 해?", "options": [ { "e": "📄", "en": "fold the paper" }, { "e": "✂️", "en": "cut the paper" }, { "e": "🖍️", "en": "draw a picture" } ] },
+    { "prompt_en": "What do we use to cut paper?", "prompt_ko": "종이를 자를 때 뭘 써?", "options": [ { "e": "✂️", "en": "scissors" }, { "e": "🍴", "en": "a fork" }, { "e": "🪥", "en": "a toothbrush" } ] },
+    { "prompt_en": "You did it! What does your parent say?", "prompt_ko": "네가 해냈어! 엄마(아빠)는 뭐라고 할까?", "options": [ { "e": "👍", "en": "You got it!" }, { "e": "😠", "en": "Stop it!" }, { "e": "🙈", "en": "Where are you?" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Not quite.'의 뜻은?", "options": ["거의 맞았는데 조금 달라.", "전혀 조용하지 않아.", "완전히 틀렸어.", "아주 조용해."], "explain": "Not quite.는 '딱 맞지는 않아'라는 부드러운 교정 표현입니다." },
+    { "q": "'You got it!'은 언제 쓰는 말일까?", "options": ["아이가 이해하거나 해냈을 때", "아이가 물건을 잃어버렸을 때", "아이에게 선물을 줄 때만", "아이가 아플 때"], "explain": "You got it!은 '바로 그거야, 해냈구나'라는 칭찬입니다." },
+    { "q": "'종이를 반으로 접어'를 영어로 하면?", "options": ["Fold it in half.", "Fold it on half.", "Fold it to half.", "Fold half it."], "explain": "'반으로'는 in half를 씁니다." },
+    { "q": "빈칸에 알맞은 말은? — A pointy nose cuts ___ the air.", "options": ["through", "over", "into of", "across of"], "explain": "공기를 가르고 지나간다는 뜻으로 cut through를 씁니다." },
+    { "q": "'You got it!'을 자연스럽게 말하면 어떻게 들릴까?", "options": ["유 가릿", "유 갓 잇", "유 고트 이트", "유 겟잇"], "explain": "got it의 t가 모음 사이에서 부드러워져 '가릿'처럼 들립니다." },
+    { "q": "아이가 접은 것을 보여 주며 '이렇게?'라고 물을 때 알맞은 말은?", "options": ["Like this?", "Same this?", "Like it this?", "This like?"], "explain": "확인을 구할 때는 Like this?라고 짧게 묻습니다." },
+    { "q": "빈칸에 알맞은 말은? — Throw it ___ and straight.", "options": ["gently", "gentle", "gentlely", "gentleness"], "explain": "동사 throw를 꾸미므로 부사 gently를 씁니다." },
+    { "q": "'Press the fold flat.'의 뜻은?", "options": ["접은 선을 꾹 눌러.", "종이를 펼쳐.", "접은 걸 다 펴.", "평평한 데 놓아."], "explain": "fold(접은 자국)를 flat(납작하게) 누르라는 뜻입니다." },
+    { "q": "아이의 작품이 아주 잘 됐을 때 한 단어로 칭찬하면?", "options": ["Perfect!", "Perfectly!", "Perfection!", "Perfects!"], "explain": "감탄할 때는 형용사 Perfect!를 단독으로 씁니다." },
+    { "q": "빈칸에 알맞은 말은? — Fold the top corners to the ___.", "options": ["middle", "medium", "center of", "between"], "explain": "'가운데로'는 to the middle(또는 to the center)로 말합니다." }
+  ]
+}

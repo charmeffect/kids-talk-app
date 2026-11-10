@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 20,
+  "topic": "space",
+  "title_en": "Astronaut food",
+  "title_ko": "우주비행사의 음식",
+  "intro_ko": "우주정거장에 있는 척하며 우주비행사처럼 밥을 먹는 놀이입니다. 지퍼백에 간식을 담고 빨대 꽂은 음료를 준비해 '둥둥 떠다니는' 몸짓을 하며 식사 시간에 해 보세요.",
+  "expressions": [
+    { "en": "What do astronauts eat?", "ko": "우주비행사는 뭘 먹어?", "tip": "'What do ~ eat?'에 동물, 친구 등을 넣어 질문을 늘려 보세요. What do가 빠르게 '워루'처럼 들립니다.", "who": "kid" },
+    { "en": "Let's pretend.", "ko": "~인 척 놀이하자.", "tip": "역할 놀이를 시작할 때 쓰는 말이에요. 뒤에 'we're astronauts'처럼 붙일 수 있어요. '렛츠 프리텐드'로 tend에 힘을 줍니다.", "who": "both" },
+    { "en": "That's yummy.", "ko": "그거 맛있다.", "tip": "yummy는 아이들이 자주 쓰는 '맛있어'예요. 어른끼리는 delicious나 good을 더 많이 써요. That's가 '댓츠'로 짧게 들려요.", "who": "kid" },
+    { "en": "I'm full.", "ko": "배불러.", "tip": "그만 먹고 싶을 때 쓰는 기본 표현이에요. full의 l을 혀끝으로 살짝 마무리해 '풀'로 말해요.", "who": "both" },
+    { "en": "I'm stuffed.", "ko": "배 터지겠어.", "tip": "I'm full보다 더 꽉 찬 느낌의 일상 표현이에요. '암 스터프트'처럼 ed를 '트'로 짧게 말해요.", "who": "both" }
+  ],
+  "script": [
+    { "who": "kid", "en": "What do astronauts eat?", "ko": "우주비행사는 뭘 먹어?", "practice": true },
+    { "who": "parent", "en": "Good question. They eat food from little bags.", "ko": "좋은 질문이야. 작은 봉지에 든 음식을 먹어." },
+    { "who": "kid", "en": "Bags? Why?", "ko": "봉지? 왜?" },
+    { "who": "parent", "en": "In space, things float. Food could fly away!", "ko": "우주에서는 물건이 둥둥 떠. 음식이 날아갈 수도 있어!" },
+    { "who": "kid", "en": "Flying food! Ha ha!", "ko": "날아다니는 음식! 하하!" },
+    { "who": "parent", "en": "Let's pretend we're on a space station.", "ko": "우리가 우주정거장에 있다고 해 보자." },
+    { "who": "kid", "en": "Let's pretend! I'm the astronaut!", "ko": "좋아! 내가 우주비행사야!", "practice": true },
+    { "who": "parent", "en": "Okay, astronaut. Here's your lunch bag.", "ko": "좋아요, 우주비행사님. 점심 봉지 여기 있어요." },
+    { "who": "kid", "en": "What's inside?", "ko": "안에 뭐 있어?" },
+    { "who": "parent", "en": "Dry noodles. We add water, then squeeze.", "ko": "마른 국수야. 물을 넣고 꾹꾹 주물러." },
+    { "who": "kid", "en": "Squeeze, squeeze! Mmm, that's yummy.", "ko": "꾹꾹! 음, 맛있다.", "practice": true },
+    { "who": "parent", "en": "Here's a tortilla, too. Astronauts don't eat much bread.", "ko": "또띠아도 있어. 우주비행사는 빵을 잘 안 먹어." },
+    { "who": "kid", "en": "Why not bread?", "ko": "빵은 왜 안 돼?" },
+    { "who": "parent", "en": "Bread makes crumbs. Crumbs can float into machines and eyes.", "ko": "빵은 부스러기가 생겨. 부스러기가 기계랑 눈에 둥둥 들어갈 수 있어." },
+    { "who": "kid", "en": "Uh-oh! No crumbs!", "ko": "어머! 부스러기는 안 돼!" },
+    { "who": "parent", "en": "Want some juice? Drink it with a straw.", "ko": "주스 마실래? 빨대로 마셔." },
+    { "who": "kid", "en": "Slurp! Can I have more?", "ko": "쭉! 더 먹어도 돼?" },
+    { "who": "parent", "en": "Sure. Here's some pudding for dessert.", "ko": "그럼. 후식으로 푸딩 여기 있어." },
+    { "who": "kid", "en": "I'm full.", "ko": "배불러.", "practice": true },
+    { "who": "parent", "en": "Me too. I'm stuffed!", "ko": "나도. 배 터지겠다!" },
+    { "who": "kid", "en": "What's stuffed?", "ko": "stuffed가 뭐야?" },
+    { "who": "parent", "en": "It means really, really full.", "ko": "아주아주 배부르다는 뜻이야." },
+    { "who": "kid", "en": "I'm stuffed too!", "ko": "나도 배 터지겠어!", "practice": true },
+    { "who": "parent", "en": "Now, astronaut, let's brush our teeth!", "ko": "자, 우주비행사님, 이제 이 닦자!" }
+  ],
+  "talkMore": [
+    { "en": "What food would you take to space?", "ko": "우주에 어떤 음식을 가져가고 싶어?", "sample_en": "Rice balls!", "sample_ko": "주먹밥!" },
+    { "en": "What food would be hard to eat in space?", "ko": "우주에서 먹기 어려운 음식은 뭘까?", "sample_en": "Soup! It floats.", "sample_ko": "국! 둥둥 떠." },
+    { "en": "What's the yummiest food you ate today?", "ko": "오늘 먹은 것 중에 제일 맛있었던 건 뭐야?", "sample_en": "Fried chicken.", "sample_ko": "치킨." }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Who goes to space?", "prompt_ko": "우주에 가는 사람은 누구야?", "options": [ { "e": "👩‍🚀", "en": "an astronaut" }, { "e": "👨‍🍳", "en": "a cook" }, { "e": "👩‍🌾", "en": "a farmer" } ] },
+    { "prompt_en": "In space, food can…", "prompt_ko": "우주에서 음식은 어떻게 될 수 있어?", "options": [ { "e": "🎈", "en": "float" }, { "e": "🎤", "en": "sing" }, { "e": "💃", "en": "dance" } ] },
+    { "prompt_en": "You ate a lot. What do you say?", "prompt_ko": "많이 먹었어. 뭐라고 해?", "options": [ { "e": "😌", "en": "I'm full." }, { "e": "🚀", "en": "Blast off!" }, { "e": "👋", "en": "Hello!" } ] },
+    { "prompt_en": "The food tastes good! What do you say?", "prompt_ko": "음식이 맛있어! 뭐라고 해?", "options": [ { "e": "😋", "en": "That's yummy!" }, { "e": "🤢", "en": "Yuck!" }, { "e": "😴", "en": "Good night." } ] },
+    { "prompt_en": "You want to play make-believe. What do you say?", "prompt_ko": "역할 놀이를 하고 싶어. 뭐라고 해?", "options": [ { "e": "🎭", "en": "Let's pretend!" }, { "e": "🛁", "en": "Bath time." }, { "e": "🤧", "en": "Achoo!" } ] },
+    { "prompt_en": "Where do astronauts live in space?", "prompt_ko": "우주비행사는 우주에서 어디에 살아?", "options": [ { "e": "🛰️", "en": "space station" }, { "e": "🏫", "en": "school" }, { "e": "🏥", "en": "hospital" } ] },
+    { "prompt_en": "How do astronauts drink juice?", "prompt_ko": "우주비행사는 주스를 어떻게 마셔?", "options": [ { "e": "🥤", "en": "with a straw" }, { "e": "🍴", "en": "with a fork" }, { "e": "🧤", "en": "with a glove" } ] },
+    { "prompt_en": "Which one is noodles?", "prompt_ko": "국수는 어느 거야?", "options": [ { "e": "🍜", "en": "noodles" }, { "e": "🍞", "en": "bread" }, { "e": "🍎", "en": "apple" } ] },
+    { "prompt_en": "Which one makes crumbs?", "prompt_ko": "부스러기가 생기는 건 어느 거야?", "options": [ { "e": "🍞", "en": "bread" }, { "e": "💧", "en": "water" }, { "e": "🧃", "en": "juice" } ] },
+    { "prompt_en": "After eating, astronauts…", "prompt_ko": "밥 먹고 나서 우주비행사는 뭘 해?", "options": [ { "e": "🪥", "en": "brush their teeth" }, { "e": "🏊", "en": "go swimming" }, { "e": "🌳", "en": "climb a tree" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'I'm stuffed.'의 뜻은?", "options": ["배 터지겠어.", "코가 꽉 막혔어.", "짐을 다 쌌어.", "인형처럼 굳었어."], "explain": "stuffed는 '속이 꽉 찬'이라는 뜻으로, 아주 배부를 때 씁니다." },
+    { "q": "'Let's pretend.'의 뜻은?", "options": ["~인 척 놀이하자.", "준비하자.", "연습하자.", "숨자."], "explain": "pretend는 '~인 척하다'로, 역할 놀이를 시작할 때 씁니다." },
+    { "q": "'우주비행사는 뭘 먹어?'를 영어로 하면?", "options": ["What do astronauts eat?", "What does astronauts eat?", "What astronauts eat?", "What do astronauts eating?"], "explain": "주어가 복수(astronauts)라 do를 쓰고 동사원형 eat이 옵니다." },
+    { "q": "빈칸에 알맞은 말은? — In space, things ___.", "options": ["float", "sink", "melt", "grow"], "explain": "우주정거장에서는 물건이 아래로 떨어지지 않고 둥둥 떠다닙니다." },
+    { "q": "빈칸에 알맞은 말은? — We add water, then ___.", "options": ["squeeze", "squeezed", "squeezing", "to squeeze"], "explain": "add와 나란히 쓰는 동작이라 같은 형태인 squeeze가 됩니다." },
+    { "q": "우주비행사가 빵보다 또띠아를 먹는 이유로 알맞은 것은?", "options": ["빵 부스러기가 떠다니며 기계나 눈에 들어갈 수 있어서", "빵이 우주에서 녹아서", "또띠아가 더 빨리 날아서", "빵은 우주에서 맛이 없어서"], "explain": "무중력에서는 부스러기가 떠다니기 때문에 부스러기가 적은 또띠아를 씁니다." },
+    { "q": "'That's yummy.'와 비슷한 뜻의 어른스러운 표현은?", "options": ["That's delicious.", "That's delicate.", "That's yucky.", "That's tasty-less."], "explain": "yummy는 아이 말투이고, 어른은 delicious나 good을 주로 씁니다." },
+    { "q": "'배불러.'를 영어로 하면?", "options": ["I'm full.", "I'm fully.", "I full.", "I'm fill."], "explain": "be동사 + 형용사 full로 I'm full.이라고 합니다." },
+    { "q": "'What do'를 빠르게 말하면 어떻게 들릴까?", "options": ["워루", "왓 도", "와트 두", "워드"], "explain": "What의 t가 약해지고 do와 붙어 '워루'처럼 들립니다." },
+    { "q": "'I'm stuffed.'와 'I'm full.'의 차이로 알맞은 것은?", "options": ["stuffed가 더 꽉 찬, 강한 느낌이다", "둘은 반대 뜻이다", "stuffed는 배고프다는 뜻이다", "stuffed는 격식 있는 말이다"], "explain": "둘 다 배부르다는 뜻이지만 I'm stuffed.가 '배 터지겠다'처럼 더 강합니다." }
+  ]
+}

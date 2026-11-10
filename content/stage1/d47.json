@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 47,
+  "topic": "science",
+  "title_en": "Rainy day",
+  "title_ko": "비 오는 날",
+  "intro_ko": "창밖 먹구름을 보며 비가 어떻게 내리는지 이야기하는 상황입니다. 우산과 장화를 꺼내 두고, 손가락으로 창문을 톡톡 두드리며 빗소리를 흉내 내 보세요.",
+  "expressions": [
+    { "en": "Is it going to rain?", "ko": "비 올까?", "tip": "날씨를 물을 때 매일 쓸 수 있어요. 말할 때는 going to가 gonna로 줄어 '이짓 거너 레인'처럼 들립니다.", "who": "both" },
+    { "en": "Take your umbrella.", "ko": "우산 챙겨.", "tip": "외출 전에 챙길 물건을 말할 때 'Take your ~'를 써요. Take your가 이어져 '테이큐어'처럼 들립니다.", "who": "parent" },
+    { "en": "It's pouring!", "ko": "비가 쏟아져!", "tip": "비가 아주 세차게 올 때 써요. 약하게 올 때는 It's drizzling(이슬비가 와)이라고 합니다.", "who": "both" },
+    { "en": "Let's stay inside.", "ko": "안에 있자.", "tip": "날씨가 나쁠 때 집에 있자고 할 때 써요. Let's stay가 이어져 '렛스테이'처럼 들립니다.", "who": "both" },
+    { "en": "Stay dry.", "ko": "비 맞지 마. / 젖지 않게 조심해.", "tip": "비 오는 날 헤어질 때 인사처럼 쓰는 말이에요. dry의 dr은 '쥬'에 가까워 '스테이 쥬라이'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Look outside. See those dark clouds?", "ko": "밖에 봐. 저 먹구름 보여?" },
+    { "who": "kid", "en": "Is it going to rain?", "ko": "비 올까?", "practice": true },
+    { "who": "parent", "en": "Maybe. Dark clouds often bring rain.", "ko": "아마도. 먹구름이 끼면 비가 올 때가 많아." },
+    { "who": "kid", "en": "Why are they dark?", "ko": "구름이 왜 까매?" },
+    { "who": "parent", "en": "They're full of water drops. They block the sunlight.", "ko": "물방울이 가득 차 있어서 햇빛을 가리거든." },
+    { "who": "kid", "en": "How does the rain come down?", "ko": "비는 어떻게 내려와?" },
+    { "who": "parent", "en": "Tiny drops join together. When they get heavy, they fall.", "ko": "작은 물방울들이 뭉쳐. 무거워지면 떨어지는 거야." },
+    { "who": "kid", "en": "Whoa! Can we still go out?", "ko": "우와! 그래도 나갈 수 있어?" },
+    { "who": "parent", "en": "Let's try. Take your umbrella.", "ko": "한번 나가 보자. 우산 챙겨." },
+    { "who": "kid", "en": "You take your umbrella, too!", "ko": "엄마(아빠)도 우산 챙겨!", "practice": true },
+    { "who": "parent", "en": "Ha, thanks. Wait. Do you hear that?", "ko": "하하, 고마워. 잠깐. 저 소리 들려?" },
+    { "who": "kid", "en": "It's pouring!", "ko": "비가 쏟아져!", "practice": true },
+    { "who": "parent", "en": "Wow, it's raining really hard now.", "ko": "우와, 이제 비가 정말 세게 온다." },
+    { "who": "kid", "en": "Let's stay inside.", "ko": "그냥 안에 있자.", "practice": true },
+    { "who": "parent", "en": "Good idea. We can go out later.", "ko": "좋은 생각이야. 나중에 나가면 돼." },
+    { "who": "kid", "en": "What was that flash?", "ko": "방금 번쩍한 거 뭐야?" },
+    { "who": "parent", "en": "That was lightning. Thunder comes next.", "ko": "그건 번개야. 이제 천둥이 칠 거야." },
+    { "who": "kid", "en": "Boom! I heard it!", "ko": "쾅! 들었어!" },
+    { "who": "parent", "en": "Thunder is the sound lightning makes.", "ko": "천둥은 번개가 내는 소리야." },
+    { "who": "kid", "en": "I'm not scared!", "ko": "나 안 무서워!", "practice": true },
+    { "who": "parent", "en": "Good. We're safe in here. Let's watch from the window.", "ko": "좋아. 여긴 안전해. 창문으로 구경하자." },
+    { "who": "kid", "en": "Look! The rain stopped!", "ko": "봐! 비 그쳤어!" },
+    { "who": "parent", "en": "Okay, let's go. Put on your boots and stay dry.", "ko": "좋아, 나가자. 장화 신고, 젖지 않게 조심해." },
+    { "who": "kid", "en": "Puddle time!", "ko": "물웅덩이 놀이 시간이다!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What do you like to do on rainy days?", "ko": "비 오는 날엔 뭐 하는 게 좋아?", "sample_en": "Jump in puddles!", "sample_ko": "물웅덩이에서 점프하기!" },
+    { "en": "Where does the rain go after it falls?", "ko": "비는 내리고 나서 어디로 갈까?", "sample_en": "Into the ground!", "sample_ko": "땅속으로!" },
+    { "en": "What do you need on a rainy day?", "ko": "비 오는 날엔 뭐가 필요해?", "sample_en": "An umbrella and boots.", "sample_ko": "우산이랑 장화." }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is an umbrella?", "prompt_ko": "우산은 어느 거야?", "options": [ { "e": "☂️", "en": "umbrella" }, { "e": "🎈", "en": "balloon" }, { "e": "🧢", "en": "cap" } ] },
+    { "prompt_en": "What do dark clouds bring?", "prompt_ko": "먹구름은 뭘 가져올까?", "options": [ { "e": "🌧️", "en": "rain" }, { "e": "🍦", "en": "ice cream" }, { "e": "🎁", "en": "presents" } ] },
+    { "prompt_en": "It's raining very hard. What do you say?", "prompt_ko": "비가 아주 세게 와. 뭐라고 해?", "options": [ { "e": "🌧️", "en": "It's pouring!" }, { "e": "☀️", "en": "It's sunny!" }, { "e": "😋", "en": "It's yummy!" } ] },
+    { "prompt_en": "Which one is lightning?", "prompt_ko": "번개는 어느 거야?", "options": [ { "e": "⚡", "en": "lightning" }, { "e": "🌈", "en": "rainbow" }, { "e": "⭐", "en": "star" } ] },
+    { "prompt_en": "You're going out in the rain. What do you take?", "prompt_ko": "비 오는데 나가. 뭘 챙길까?", "options": [ { "e": "☂️", "en": "an umbrella" }, { "e": "🕶️", "en": "sunglasses" }, { "e": "🏖️", "en": "a beach chair" } ] },
+    { "prompt_en": "What makes the 'boom' sound?", "prompt_ko": "'쾅' 소리는 뭐가 내는 거야?", "options": [ { "e": "⛈️", "en": "thunder" }, { "e": "🐱", "en": "a cat" }, { "e": "🌸", "en": "a flower" } ] },
+    { "prompt_en": "You want to know about rain. What do you ask?", "prompt_ko": "비가 올지 궁금해. 뭐라고 물어?", "options": [ { "e": "☁️", "en": "Is it going to rain?" }, { "e": "🍕", "en": "Is it pizza?" }, { "e": "🐶", "en": "Is it a dog?" } ] },
+    { "prompt_en": "It's a big storm. What do you say?", "prompt_ko": "폭풍이 심해. 뭐라고 할까?", "options": [ { "e": "🏠", "en": "Let's stay inside." }, { "e": "🏊", "en": "Let's go swim." }, { "e": "🪁", "en": "Let's fly a kite." } ] },
+    { "prompt_en": "What do you wear on your feet in the rain?", "prompt_ko": "비 올 때 발에 뭘 신어?", "options": [ { "e": "👢", "en": "boots" }, { "e": "🧤", "en": "gloves" }, { "e": "🎩", "en": "a hat" } ] },
+    { "prompt_en": "After the rain, what can you jump in?", "prompt_ko": "비 그친 뒤에 어디서 점프할 수 있어?", "options": [ { "e": "💧", "en": "puddles" }, { "e": "🔥", "en": "fire" }, { "e": "🛏️", "en": "a bed" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'It's pouring!'의 뜻은?", "options": ["비가 쏟아져!", "물을 붓고 있어!", "가루가 날려!", "구름이 걷혔어!"], "explain": "pour는 '쏟아붓다'로, 비가 세차게 올 때 It's pouring!이라고 합니다." },
+    { "q": "아이에게 '우산 챙겨'라고 할 때 가장 자연스러운 말은?", "options": ["Take your umbrella.", "Bring up your umbrella.", "Have your umbrella on.", "Catch your umbrella."], "explain": "외출할 때 가져가라는 말은 Take your ~를 씁니다." },
+    { "q": "'Stay dry.'는 언제 쓰는 말일까?", "options": ["비 오는 날 젖지 않게 조심하라고 할 때", "목이 마를 때", "빨래를 말릴 때", "물을 마시지 말라고 할 때"], "explain": "비 오는 날 헤어질 때 '젖지 않게 조심해'라는 인사로 씁니다." },
+    { "q": "빈칸에 알맞은 말은? — Tiny drops join together. When they get ___, they fall.", "options": ["heavy", "hungry", "happy", "hot"], "explain": "작은 물방울이 뭉쳐 무거워지면(heavy) 떨어집니다." },
+    { "q": "'Is it going to rain?'을 빠르게 말하면 어떻게 들릴까?", "options": ["이짓 거너 레인", "이즈 잇 고잉 투 레인", "이스 고잉 레인", "잇츠 고 레인"], "explain": "is it은 '이짓', going to는 gonna(거너)로 줄어듭니다." },
+    { "q": "'날씨가 안 좋으니 안에 있자'에 알맞은 말은?", "options": ["Let's stay inside.", "Let's stay in out.", "Let's keep inside out.", "Let's be in the inside."], "explain": "집 안에 있자는 Let's stay inside.가 자연스럽습니다." },
+    { "q": "빈칸에 알맞은 말은? — Thunder is the ___ lightning makes.", "options": ["sound", "light", "rain", "cloud"], "explain": "천둥(thunder)은 번개(lightning)가 내는 소리입니다." },
+    { "q": "비가 약하게 부슬부슬 올 때 쓰는 말은?", "options": ["It's drizzling.", "It's pouring.", "It's freezing.", "It's boiling."], "explain": "drizzle은 이슬비가 내린다는 뜻으로 pouring의 반대 느낌입니다." },
+    { "q": "'We can go out later.'의 뜻은?", "options": ["나중에 나가면 돼.", "늦게 나갔어.", "밖에서 늦게 와.", "나중에 꺼내자."], "explain": "later는 '나중에'로, 지금 말고 나중에 나가자는 뜻입니다." },
+    { "q": "빈칸에 알맞은 말은? — That was lightning. Thunder comes ___.", "options": ["next", "last", "first", "never"], "explain": "번개가 친 뒤 천둥이 이어서(next) 들립니다." }
+  ]
+}

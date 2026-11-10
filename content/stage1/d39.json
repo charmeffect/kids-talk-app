@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 39,
+  "topic": "planes",
+  "title_en": "Fast jets",
+  "title_ko": "빠른 제트기",
+  "intro_ko": "에어쇼에서 제트기를 구경하는 상황입니다. 종이비행기나 장난감 비행기를 휙 날리며 '쌩!' 소리를 내고, 시끄러울 때 함께 귀를 막는 동작을 해 보세요.",
+  "expressions": [
+    { "en": "It's so loud!", "ko": "엄청 시끄러워!", "tip": "소리가 클 때 쓰는 말이에요. so를 길게 강조하면 더 실감 나요. '잇츠 쏘우 라우드'처럼 말합니다.", "who": "kid" },
+    { "en": "Cover your ears.", "ko": "귀 막아.", "tip": "큰 소리가 날 때 아이에게 하는 말이에요. 눈을 가릴 때는 Cover your eyes.라고 해요. '커버유어 이어즈'처럼 이어집니다.", "who": "parent" },
+    { "en": "How fast is it?", "ko": "얼마나 빨라?", "tip": "How fast/big/tall is it?으로 크기·속도를 물을 수 있어요. fast is it이 이어져 '하우 패스티짓'처럼 들립니다.", "who": "kid" },
+    { "en": "Super fast!", "ko": "엄청 빨라!", "tip": "super는 아이들이 즐겨 쓰는 '엄청'이라는 뜻이에요. super big, super cool처럼 써 보세요.", "who": "both" },
+    { "en": "Speed up.", "ko": "속도를 높여. / 더 빨리.", "tip": "탈것이 빨라지거나 '더 빨리 해'라고 할 때 써요. 반대는 slow down이에요. '스피덥'처럼 이어 말합니다.", "who": "both" }
+  ],
+  "script": [
+    { "who": "parent", "en": "We're at the air show. Look up!", "ko": "에어쇼에 왔어. 위를 봐!" },
+    { "who": "kid", "en": "What's that?", "ko": "저게 뭐야?", "practice": true },
+    { "who": "parent", "en": "Those are jets. Here they come!", "ko": "제트기야. 온다!" },
+    { "who": "kid", "en": "Whoa! It's so loud!", "ko": "우와! 엄청 시끄러워!", "practice": true },
+    { "who": "parent", "en": "Cover your ears, buddy.", "ko": "귀 막아." },
+    { "who": "kid", "en": "Why is it so loud?", "ko": "왜 이렇게 시끄러워?" },
+    { "who": "parent", "en": "Jet engines push hot air out very fast. That's noisy.", "ko": "제트 엔진이 뜨거운 공기를 아주 빠르게 뒤로 내뿜거든. 그래서 시끄러워." },
+    { "who": "kid", "en": "How fast is it?", "ko": "얼마나 빨라?", "practice": true },
+    { "who": "parent", "en": "Super fast! Faster than a race car.", "ko": "엄청 빨라! 경주용 차보다 빨라." },
+    { "who": "kid", "en": "Faster than a train?", "ko": "기차보다 빨라?" },
+    { "who": "parent", "en": "Yes! Some jets can fly faster than sound.", "ko": "응! 어떤 제트기는 소리보다 빨리 날 수 있어." },
+    { "who": "kid", "en": "Wow! Look, they're turning!", "ko": "우와! 봐, 돌고 있어!" },
+    { "who": "parent", "en": "They're flying side by side.", "ko": "나란히 날고 있네." },
+    { "who": "kid", "en": "What's the white line?", "ko": "저 하얀 줄은 뭐야?" },
+    { "who": "parent", "en": "It's smoke for the show. It makes pretty lines.", "ko": "에어쇼용 연기야. 예쁜 선을 그려 줘." },
+    { "who": "kid", "en": "Now they're going faster!", "ko": "이제 더 빨리 간다!" },
+    { "who": "parent", "en": "Yes, they speed up before they climb.", "ko": "응, 위로 올라가기 전에 속도를 높여." },
+    { "who": "kid", "en": "Up, up, up!", "ko": "위로, 위로, 위로!" },
+    { "who": "parent", "en": "Do you want to fly a jet someday?", "ko": "언젠가 제트기 조종하고 싶어?" },
+    { "who": "kid", "en": "Yes! I'm a pilot! Speed up!", "ko": "응! 나는 조종사야! 속도 올려!", "practice": true },
+    { "who": "parent", "en": "Whoosh! How fast are you going?", "ko": "쌩! 얼마나 빨리 가고 있어?" },
+    { "who": "kid", "en": "Super fast!", "ko": "엄청 빨리!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What color jet do you want to fly?", "ko": "무슨 색 제트기를 조종하고 싶어?", "sample_en": "A blue one!", "sample_ko": "파란 거!" },
+    { "en": "What's faster, a jet or a car?", "ko": "제트기랑 자동차 중에 뭐가 더 빨라?", "sample_en": "A jet!", "sample_ko": "제트기!" },
+    { "en": "What do you do when something is too loud?", "ko": "너무 시끄러우면 어떻게 해?", "sample_en": "I cover my ears.", "sample_ko": "귀를 막아." }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a jet?", "prompt_ko": "제트기는 어느 거야?", "options": [ { "e": "✈️", "en": "jet" }, { "e": "🚜", "en": "tractor" }, { "e": "🛶", "en": "canoe" } ] },
+    { "prompt_en": "It's very loud. What do you do?", "prompt_ko": "아주 시끄러워. 어떻게 해?", "options": [ { "e": "🙉", "en": "Cover your ears." }, { "e": "🍦", "en": "Eat ice cream." }, { "e": "🧦", "en": "Put on socks." } ] },
+    { "prompt_en": "Which one is the fastest?", "prompt_ko": "제일 빠른 건 뭐야?", "options": [ { "e": "✈️", "en": "jet" }, { "e": "🐢", "en": "turtle" }, { "e": "🐌", "en": "snail" } ] },
+    { "prompt_en": "You hear a big noise. What do you say?", "prompt_ko": "큰 소리가 났어. 뭐라고 해?", "options": [ { "e": "😲", "en": "It's so loud!" }, { "e": "😋", "en": "It's yummy!" }, { "e": "🥶", "en": "It's cold!" } ] },
+    { "prompt_en": "You want to know the speed. What do you ask?", "prompt_ko": "속도가 궁금해. 뭐라고 물어?", "options": [ { "e": "❓", "en": "How fast is it?" }, { "e": "🎂", "en": "How old are you?" }, { "e": "🍽️", "en": "What's for lunch?" } ] },
+    { "prompt_en": "Who flies a jet?", "prompt_ko": "제트기는 누가 조종해?", "options": [ { "e": "🧑‍✈️", "en": "a pilot" }, { "e": "🧑‍🌾", "en": "a farmer" }, { "e": "🧑‍🎨", "en": "an artist" } ] },
+    { "prompt_en": "Which one is an ear?", "prompt_ko": "귀는 어느 거야?", "options": [ { "e": "👂", "en": "ear" }, { "e": "👄", "en": "mouth" }, { "e": "🦵", "en": "leg" } ] },
+    { "prompt_en": "Which one is slow?", "prompt_ko": "느린 건 어느 거야?", "options": [ { "e": "🐢", "en": "turtle" }, { "e": "🚀", "en": "rocket" }, { "e": "🏎️", "en": "race car" } ] },
+    { "prompt_en": "How fast is a jet?", "prompt_ko": "제트기는 얼마나 빨라?", "options": [ { "e": "⚡", "en": "Super fast!" }, { "e": "🐌", "en": "Very slow." }, { "e": "🛑", "en": "It doesn't move." } ] },
+    { "prompt_en": "Where do jets fly?", "prompt_ko": "제트기는 어디서 날아?", "options": [ { "e": "☁️", "en": "in the sky" }, { "e": "🌊", "en": "under the sea" }, { "e": "🕳️", "en": "in a hole" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Cover your ears.'의 뜻은?", "options": ["귀 막아.", "귀 기울여 들어.", "귀 닦아.", "귀걸이 해."], "explain": "cover는 '덮다, 가리다'라서 Cover your ears.는 '귀 막아'입니다." },
+    { "q": "아이가 '얼마나 빨라?'라고 물을 때 알맞은 말은?", "options": ["How fast is it?", "How much fast is it?", "What fast is it?", "How is it fast?"], "explain": "속도는 How fast…?로 묻습니다." },
+    { "q": "'How fast is it?'을 이어 말하면 어떻게 들릴까?", "options": ["하우 패스티짓", "하우 패스트 이즈 잇", "하우패스이스잇", "하우 파스트 이트"], "explain": "fast의 t가 is와, is의 s가 it과 이어져 '패스티짓'처럼 들립니다." },
+    { "q": "'Speed up.'의 반대말로 알맞은 것은?", "options": ["Slow down.", "Speed down.", "Slow up.", "Stop up."], "explain": "속도를 높이는 것은 speed up, 줄이는 것은 slow down입니다." },
+    { "q": "빈칸에 알맞은 말은? — Some jets can fly faster ___ sound.", "options": ["than", "then", "as", "to"], "explain": "비교급 뒤에는 than을 써서 faster than sound(소리보다 빠른)가 됩니다." },
+    { "q": "'It's so loud!'의 뜻은?", "options": ["엄청 시끄러워!", "엄청 높아!", "엄청 멀어!", "엄청 커다래!"], "explain": "loud는 '소리가 큰, 시끄러운'이라는 뜻입니다." },
+    { "q": "빈칸에 알맞은 말은? — They're flying side ___ side.", "options": ["by", "to", "and", "of"], "explain": "side by side는 '나란히'라는 뜻의 굳은 표현입니다." },
+    { "q": "아이와 놀며 '더 빨리!'라고 신나게 외칠 때 알맞은 말은?", "options": ["Speed up!", "Fast up!", "Quick down!", "More speed go!"], "explain": "탈것 놀이에서 '속도 올려!'는 Speed up!이 자연스럽습니다." },
+    { "q": "'Here they come!'의 뜻은?", "options": ["온다!", "여기 있었네!", "이리 와!", "저기 간다!"], "explain": "다가오는 것을 보며 '온다!'라고 할 때 Here they come!이라고 합니다." },
+    { "q": "'Look up!'은 이 장면에서 어떤 뜻일까?", "options": ["위를 봐!", "찾아봐!", "고개 숙여!", "조심해!"], "explain": "하늘의 제트기를 보라는 말이라 '위를 봐!'입니다." }
+  ]
+}

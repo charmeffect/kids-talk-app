@@ -1,0 +1,69 @@
+{
+  "stage": 1,
+  "day": 5,
+  "topic": "space",
+  "title_en": "Good night, Moon",
+  "title_ko": "달님, 잘 자",
+  "intro_ko": "잠들기 전 창밖이나 베란다에서 함께 달을 보는 장면입니다. 달이 안 보이는 날은 그림책이나 사진 속 달을 손가락으로 가리키며 해 보세요.",
+  "expressions": [
+    { "en": "Look up!", "ko": "위를 봐!", "tip": "하늘이나 높은 곳을 가리키며 써요. Look up이 이어져 '루컵'처럼 들립니다.", "who": "both" },
+    { "en": "What's that up there?", "ko": "저 위에 저건 뭐야?", "tip": "높은 곳에 있는 것을 물을 때 써요. that up이 이어져 '왓츠 대럽 데어'처럼 들립니다.", "who": "kid" },
+    { "en": "The moon is so bright.", "ko": "달이 정말 밝다.", "tip": "so는 '정말'이라는 뜻으로 느낌을 강조해요. moon 대신 sun, star를 넣어 바꿔 말할 수 있어요.", "who": "both" },
+    { "en": "Time for bed.", "ko": "잘 시간이야.", "tip": "It's time for bed.를 줄인 말로 매일 밤 쓸 수 있어요. '타임포베드'처럼 끊지 않고 말해요.", "who": "parent" },
+    { "en": "Sleep tight.", "ko": "잘 자.", "tip": "'푹 잘 자'라는 다정한 밤 인사예요. Good night, sleep tight.처럼 이어서 많이 써요.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Look up, sweetie!", "ko": "위를 봐!" },
+    { "who": "kid", "en": "What's that up there?", "ko": "저 위에 저건 뭐야?", "practice": true },
+    { "who": "parent", "en": "That's the moon.", "ko": "그건 달이야." },
+    { "who": "kid", "en": "The moon is so bright!", "ko": "달이 정말 밝다!", "practice": true },
+    { "who": "parent", "en": "It is. But the moon doesn't make its own light.", "ko": "그렇지. 그런데 달은 스스로 빛을 내지 않아." },
+    { "who": "kid", "en": "Really? Then why is it bright?", "ko": "정말? 그럼 왜 밝아?" },
+    { "who": "parent", "en": "The sun shines on it. Then the light bounces to us.", "ko": "햇빛이 달을 비춰. 그 빛이 튕겨서 우리한테 오는 거야." },
+    { "who": "kid", "en": "Wow! Is the moon far away?", "ko": "우와! 달은 멀리 있어?" },
+    { "who": "parent", "en": "Very far. Astronauts took three days to get there.", "ko": "아주 멀어. 우주비행사들이 거기 가는 데 3일 걸렸어." },
+    { "who": "kid", "en": "Three days? In a rocket?", "ko": "3일이나? 로켓 타고?" },
+    { "who": "parent", "en": "Yes, in a big rocket.", "ko": "응, 커다란 로켓 타고." },
+    { "who": "kid", "en": "I want to go to the moon!", "ko": "나 달에 가고 싶어!", "practice": true },
+    { "who": "parent", "en": "Maybe someday. Look, it's round tonight.", "ko": "언젠가는 갈지도 몰라. 봐, 오늘은 동그랗네." },
+    { "who": "kid", "en": "Why was it like a banana before?", "ko": "전에는 왜 바나나 같았어?" },
+    { "who": "parent", "en": "We could only see a little of its sunny side.", "ko": "그때는 햇빛 받는 쪽이 조금만 보였거든." },
+    { "who": "kid", "en": "Look up! A star!", "ko": "위를 봐! 별이야!", "practice": true },
+    { "who": "parent", "en": "Yes. Stars are like the sun, but very far away.", "ko": "맞아. 별은 해 같은 건데 아주 멀리 있어." },
+    { "who": "kid", "en": "Good night, moon! Good night, stars!", "ko": "달님 잘 자! 별님 잘 자!" },
+    { "who": "parent", "en": "Okay, buddy. Time for bed.", "ko": "자, 이제 잘 시간이야." },
+    { "who": "kid", "en": "Five more minutes?", "ko": "5분만 더?" },
+    { "who": "parent", "en": "Not tonight. You can see the moon again tomorrow.", "ko": "오늘은 안 돼. 내일 또 달 볼 수 있어." },
+    { "who": "kid", "en": "Okay. Good night!", "ko": "알았어. 잘 자!", "practice": true },
+    { "who": "parent", "en": "Good night. Sleep tight.", "ko": "잘 자. 푹 자." }
+  ],
+  "talkMore": [
+    { "en": "What can you see in the sky at night?", "ko": "밤하늘에서 뭘 볼 수 있어?", "sample_en": "The moon and stars.", "sample_ko": "달이랑 별." },
+    { "en": "What would you do on the moon?", "ko": "달에 가면 뭐 할 거야?", "sample_en": "Jump really high!", "sample_ko": "엄청 높이 뛸 거야!" },
+    { "en": "What do you want to dream about?", "ko": "무슨 꿈 꾸고 싶어?", "sample_en": "A big spaceship!", "sample_ko": "커다란 우주선!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is the moon?", "prompt_ko": "달은 어느 거야?", "options": [ { "e": "🌙", "en": "moon" }, { "e": "☀️", "en": "sun" }, { "e": "☁️", "en": "cloud" } ] },
+    { "prompt_en": "Which one is a star?", "prompt_ko": "별은 어느 거야?", "options": [ { "e": "⭐", "en": "star" }, { "e": "🌳", "en": "tree" }, { "e": "🏠", "en": "house" } ] },
+    { "prompt_en": "You see something in the sky. What do you ask?", "prompt_ko": "하늘에 뭔가 보여. 뭐라고 물어?", "options": [ { "e": "🤔", "en": "What's that up there?" }, { "e": "😋", "en": "I'm hungry." }, { "e": "👋", "en": "Bye-bye." } ] },
+    { "prompt_en": "Where is the moon? Look…", "prompt_ko": "달은 어디 있어? 어디를 봐?", "options": [ { "e": "⬆️", "en": "up" }, { "e": "⬇️", "en": "down" }, { "e": "🛏️", "en": "under the bed" } ] },
+    { "prompt_en": "What do you say before you go to sleep?", "prompt_ko": "자기 전에 뭐라고 해?", "options": [ { "e": "😴", "en": "Good night!" }, { "e": "🌅", "en": "Good morning!" }, { "e": "🎂", "en": "Happy birthday!" } ] },
+    { "prompt_en": "How can you go to the moon?", "prompt_ko": "달에는 뭘 타고 갈 수 있어?", "options": [ { "e": "🚀", "en": "rocket" }, { "e": "🚲", "en": "bike" }, { "e": "🚌", "en": "bus" } ] },
+    { "prompt_en": "It's late at night. What does the parent say?", "prompt_ko": "밤이 늦었어. 엄마 아빠는 뭐라고 할까?", "options": [ { "e": "🛏️", "en": "Time for bed." }, { "e": "🍦", "en": "Let's get ice cream!" }, { "e": "🏃", "en": "Let's run outside!" } ] },
+    { "prompt_en": "Where do you sleep?", "prompt_ko": "너는 어디에서 자?", "options": [ { "e": "🛏️", "en": "bed" }, { "e": "🛁", "en": "bathtub" }, { "e": "🚗", "en": "car" } ] },
+    { "prompt_en": "What makes the moon look bright?", "prompt_ko": "달을 밝게 비춰 주는 건 뭐야?", "options": [ { "e": "☀️", "en": "the sun" }, { "e": "💡", "en": "a lamp" }, { "e": "🔥", "en": "a fire" } ] },
+    { "prompt_en": "Which one is awake at night?", "prompt_ko": "밤에 깨어 있는 동물은 어느 거야?", "options": [ { "e": "🦉", "en": "owl" }, { "e": "🐔", "en": "chicken" }, { "e": "🦋", "en": "butterfly" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Sleep tight.'의 뜻은?", "options": ["잘 자.", "꽉 끼게 자.", "깊이 생각해.", "일찍 일어나."], "explain": "tight는 여기서 '푹, 깊이'라는 느낌으로, Sleep tight.는 다정한 밤 인사입니다." },
+    { "q": "'저 위에 저건 뭐야?'를 영어로 하면?", "options": ["What's that up there?", "What's that over up?", "What is up that there?", "What's there that up?"], "explain": "'저 위에'는 up there이고, 문장 끝에 둡니다." },
+    { "q": "빈칸에 알맞은 말은? — The moon is so ___.", "options": ["bright", "brightly", "brighten", "brightness"], "explain": "be동사 뒤에는 형용사가 오므로 bright입니다." },
+    { "q": "'이제 잘 시간이야.'를 짧게 말하면?", "options": ["Time for bed.", "Time to bed.", "Time of bed.", "Bed for time."], "explain": "Time for + 명사이므로 Time for bed.입니다(Time to go to bed.도 가능)." },
+    { "q": "아이가 '달은 왜 밝아?'라고 물을 때 맞는 설명은?", "options": ["The sun shines on it.", "It makes its own light.", "It's on fire.", "It has lamps inside."], "explain": "달은 스스로 빛을 내지 않고 햇빛을 받아 밝게 보입니다." },
+    { "q": "'What's that up there?'를 자연스럽게 말하면 어떻게 들릴까?", "options": ["왓츠 대럽 데어", "왓 이즈 댓 업 데어", "왓츠 댓트 업프 데어", "와츠 다 우프 데레"], "explain": "that의 t가 약해지며 up과 이어져 '대럽'처럼 들립니다." },
+    { "q": "'Look up!'은 하늘을 가리키며 말할 때 어떤 뜻일까?", "options": ["위를 봐!", "아래를 봐!", "뒤를 봐!", "일어나!"], "explain": "look up은 '위를 올려다보다'입니다." },
+    { "q": "아이가 'Five more minutes?'라고 할 때의 뜻은?", "options": ["5분만 더요?", "5분 걸려요?", "5분 전이에요?", "5분 늦었어요?"], "explain": "더 놀거나 깨어 있고 싶을 때 '5분만 더'라고 조르는 말입니다." },
+    { "q": "빈칸에 알맞은 말은? — We could only see a ___ of its sunny side.", "options": ["little", "few", "small", "less"], "explain": "a little of는 '~의 조금'이라는 뜻으로, 셀 수 없는 양에 씁니다." },
+    { "q": "'Sleep tight.'는 언제 쓸까?", "options": ["아이를 재우며 마지막에 하는 인사", "아침에 깨울 때 하는 인사", "잘못을 사과할 때", "잘했다고 칭찬할 때"], "explain": "Good night, sleep tight.처럼 잠자리에서 하는 인사입니다." }
+  ]
+}

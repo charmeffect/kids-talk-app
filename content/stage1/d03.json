@@ -1,0 +1,69 @@
+{
+  "stage": 1,
+  "day": 3,
+  "topic": "ships",
+  "title_en": "Boats in the bath",
+  "title_ko": "욕조 속 배 (뜰까, 가라앉을까?)",
+  "intro_ko": "목욕하면서 장난감 배, 고무 오리, 숟가락 등을 물에 넣어 뜨는지 가라앉는지 실험해 보는 장면입니다. 넣기 전에 아이에게 먼저 예상해 보게 하세요.",
+  "expressions": [
+    { "en": "Does it float?", "ko": "물에 떠?", "tip": "물건을 물에 넣기 전에 물어보는 말이에요. Does it이 이어져 '더짓'처럼 들립니다.", "who": "both" },
+    { "en": "It sinks!", "ko": "가라앉아!", "tip": "float(뜨다)의 반대말이 sink(가라앉다)예요. 끝의 s를 살려 '잇 씽스'라고 말해요.", "who": "kid" },
+    { "en": "Let's find out.", "ko": "알아보자. / 어떻게 되나 보자.", "tip": "모르는 것을 직접 해 보거나 찾아볼 때 쓰는 말이에요. find out이 이어져 '파인다웃'처럼 들립니다.", "who": "both" },
+    { "en": "Look at that!", "ko": "저것 좀 봐!", "tip": "신기한 것을 함께 보자고 할 때 써요. Look at that이 이어져 '루캐댓'처럼 들립니다.", "who": "both" },
+    { "en": "Let's give it a shot.", "ko": "한번 해 보자.", "tip": "shot은 '시도'라는 뜻이라 처음 해 보는 일에 도전할 때 써요. give it a가 이어져 '기비러'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Bath time! Let's play a float-or-sink game.", "ko": "목욕 시간! 뜰까 가라앉을까 놀이 하자." },
+    { "who": "kid", "en": "How do we play?", "ko": "어떻게 하는 거야?" },
+    { "who": "parent", "en": "We put things in the water. Some float, and some sink.", "ko": "물에 물건을 넣어 보는 거야. 뜨는 것도 있고 가라앉는 것도 있어." },
+    { "who": "kid", "en": "My duck! Does it float?", "ko": "내 오리! 이거 떠?", "practice": true },
+    { "who": "parent", "en": "Let's find out. Put it in.", "ko": "알아보자. 넣어 봐." },
+    { "who": "kid", "en": "Look at that! It floats!", "ko": "저거 봐! 떠!", "practice": true },
+    { "who": "parent", "en": "Yes! It stays on top of the water.", "ko": "맞아! 물 위에 떠 있네." },
+    { "who": "kid", "en": "Now the spoon! Does it float?", "ko": "이번엔 숟가락! 이건 떠?" },
+    { "who": "parent", "en": "What do you think?", "ko": "너는 어떨 것 같아?" },
+    { "who": "kid", "en": "It floats, I think.", "ko": "뜰 것 같아." },
+    { "who": "parent", "en": "Okay, let's give it a shot. Drop it in.", "ko": "좋아, 한번 해 보자. 떨어뜨려 봐." },
+    { "who": "kid", "en": "Oh! It sinks!", "ko": "어! 가라앉아!", "practice": true },
+    { "who": "parent", "en": "Right. It went down to the bottom.", "ko": "그렇지. 바닥까지 내려갔네." },
+    { "who": "kid", "en": "Why?", "ko": "왜?" },
+    { "who": "parent", "en": "It's small, but it's heavy for its size.", "ko": "작지만 크기에 비해 무겁거든." },
+    { "who": "kid", "en": "What about my boat?", "ko": "내 배는?" },
+    { "who": "parent", "en": "Let's find out!", "ko": "알아보자!" },
+    { "who": "kid", "en": "It floats! Toot toot!", "ko": "떠! 뿌뿌!", "practice": true },
+    { "who": "parent", "en": "Boats are made to float. Even big ships float.", "ko": "배는 뜨도록 만들어져. 큰 배도 떠." },
+    { "who": "kid", "en": "But big ships are heavy!", "ko": "근데 큰 배는 무겁잖아!" },
+    { "who": "parent", "en": "Yes, but their shape helps them float.", "ko": "맞아, 그런데 배 모양 덕분에 뜰 수 있어." },
+    { "who": "kid", "en": "Wow! Let's try my toy car!", "ko": "우와! 내 장난감 자동차도 해 보자!", "practice": true },
+    { "who": "parent", "en": "Okay, one more. Then it's time to wash your hair.", "ko": "좋아, 하나만 더. 그다음엔 머리 감을 시간이야." }
+  ],
+  "talkMore": [
+    { "en": "What else floats?", "ko": "또 뭐가 물에 뜰까?", "sample_en": "A leaf!", "sample_ko": "나뭇잎!" },
+    { "en": "What else sinks?", "ko": "또 뭐가 가라앉을까?", "sample_en": "A rock!", "sample_ko": "돌!" },
+    { "en": "What kind of boat do you want to build?", "ko": "어떤 배를 만들고 싶어?", "sample_en": "A big ship!", "sample_ko": "큰 배!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one floats?", "prompt_ko": "물에 뜨는 건 어느 거야?", "options": [ { "e": "🦆", "en": "duck" }, { "e": "🪨", "en": "rock" }, { "e": "🔑", "en": "key" } ] },
+    { "prompt_en": "Which one sinks?", "prompt_ko": "가라앉는 건 어느 거야?", "options": [ { "e": "🪨", "en": "rock" }, { "e": "⛵", "en": "sailboat" }, { "e": "🦆", "en": "duck" } ] },
+    { "prompt_en": "You see something cool. What do you say?", "prompt_ko": "멋진 걸 봤어. 뭐라고 해?", "options": [ { "e": "👀", "en": "Look at that!" }, { "e": "😴", "en": "I'm sleepy." }, { "e": "🙅", "en": "No, thanks." } ] },
+    { "prompt_en": "You want to know if it floats. What do you ask?", "prompt_ko": "물에 뜨는지 궁금해. 뭐라고 물어?", "options": [ { "e": "🤔", "en": "Does it float?" }, { "e": "😋", "en": "I'm hungry." }, { "e": "👋", "en": "Bye-bye." } ] },
+    { "prompt_en": "The spoon goes down to the bottom. What do you say?", "prompt_ko": "숟가락이 바닥으로 내려갔어. 뭐라고 해?", "options": [ { "e": "⬇️", "en": "It sinks!" }, { "e": "🚀", "en": "Blast off!" }, { "e": "🎂", "en": "Happy birthday!" } ] },
+    { "prompt_en": "Where do boats go?", "prompt_ko": "배는 어디에 다녀?", "options": [ { "e": "🌊", "en": "on the water" }, { "e": "🌳", "en": "in a tree" }, { "e": "🛣️", "en": "on the road" } ] },
+    { "prompt_en": "Which one is a ship?", "prompt_ko": "배는 어느 거야?", "options": [ { "e": "🚢", "en": "ship" }, { "e": "🚂", "en": "train" }, { "e": "🚲", "en": "bike" } ] },
+    { "prompt_en": "You don't know. You want to try it. What do you say?", "prompt_ko": "모르겠어. 직접 해 보고 싶어. 뭐라고 해?", "options": [ { "e": "🔍", "en": "Let's find out!" }, { "e": "🛏️", "en": "Time for bed." }, { "e": "😢", "en": "I'm sad." } ] },
+    { "prompt_en": "Which one floats on the water?", "prompt_ko": "물 위에 뜨는 건 어느 거야?", "options": [ { "e": "🍃", "en": "leaf" }, { "e": "🔨", "en": "hammer" }, { "e": "🪙", "en": "coin" } ] },
+    { "prompt_en": "Where do you take a bath?", "prompt_ko": "목욕은 어디에서 해?", "options": [ { "e": "🛁", "en": "bathtub" }, { "e": "🚗", "en": "car" }, { "e": "⛺", "en": "tent" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Let's give it a shot.'의 뜻은?", "options": ["한번 해 보자.", "사진 한 장 찍자.", "주사 맞으러 가자.", "이제 그만하자."], "explain": "shot은 '시도'라는 뜻으로, give it a shot은 '한번 해 보다'입니다." },
+    { "q": "'Does it float?'의 뜻은?", "options": ["물에 떠?", "날 수 있어?", "물에 녹아?", "그거 무거워?"], "explain": "float는 '물에 뜨다'라는 뜻입니다." },
+    { "q": "'어떻게 되는지 알아보자.'를 영어로 하면?", "options": ["Let's find out.", "Let's find up.", "Let's look out.", "Let's know out."], "explain": "find out은 '알아내다, 알아보다'라는 뜻입니다. look out은 '조심해'입니다." },
+    { "q": "빈칸에 알맞은 말은? — Oh! It ___!", "options": ["sinks", "sinking", "sink", "to sink"], "explain": "주어가 It이므로 동사에 s를 붙여 It sinks!라고 합니다." },
+    { "q": "빈칸에 알맞은 말은? — It's small, but it's heavy for its ___.", "options": ["size", "big", "tall", "large"], "explain": "heavy for its size는 '크기에 비해 무겁다'라는 뜻입니다." },
+    { "q": "'Look at that!'을 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["루캐댓", "룩 아트 댓", "로오크 앳", "룩크 앳트 댓트"], "explain": "Look의 k가 at과 이어지고 t가 약해져 '루캐댓'처럼 들립니다." },
+    { "q": "'Let's give it a shot.'은 언제 쓸까?", "options": ["해 본 적 없는 일을 시도해 볼 때", "병원에서 주사를 맞을 때만", "사진을 찍을 때", "하던 일을 포기할 때"], "explain": "결과를 모르지만 한번 시도해 보자고 할 때 씁니다." },
+    { "q": "아이가 '큰 배는 무거운데 왜 떠?'라고 물을 때 알맞은 설명은?", "options": ["Their shape helps them float.", "They are made of paper.", "They are lighter than a duck.", "The wind holds them up."], "explain": "큰 배는 무겁지만 넓고 속이 빈 모양 덕분에 물에 뜹니다." },
+    { "q": "'바닥까지 내려갔네.'를 영어로 하면?", "options": ["It went down to the bottom.", "It goed down the bottom.", "It went under to bottom.", "It went down at bottom."], "explain": "go의 과거는 went이고, '바닥까지'는 to the bottom입니다." },
+    { "q": "빈칸에 알맞은 말은? — Yes! It stays on ___ of the water.", "options": ["top", "up", "over", "high"], "explain": "on top of the water는 '물 위에'라는 뜻입니다." }
+  ]
+}

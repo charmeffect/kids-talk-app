@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 59,
+  "topic": "planes",
+  "title_en": "Block airplane",
+  "title_ko": "블록 비행기",
+  "intro_ko": "블록으로 함께 비행기를 만들며 하는 대화입니다. 일부러 날개를 빼고 몸통만 만들어 둔 뒤 '뭐가 빠졌지?' 하고 아이가 찾게 해 보세요.",
+  "expressions": [
+    { "en": "What's missing?", "ko": "뭐가 빠졌지?", "tip": "그림이나 만들기에서 빠진 부분을 찾게 할 때 좋아요. What's missing이 이어져 '왓츠미싱'처럼 들립니다.", "who": "parent" },
+    { "en": "It needs wings.", "ko": "날개가 필요해.", "tip": "It needs + 물건으로 '~이 필요해'라고 말해요. needs wings가 '니즈윙즈'로 붙습니다.", "who": "kid" },
+    { "en": "Good idea!", "ko": "좋은 생각이야!", "tip": "아이가 의견을 낼 때 바로 칭찬해 주는 말이에요. idea는 '아이디어'가 아니라 '아이디아'에 가깝게 말합니다.", "who": "both" },
+    { "en": "Let's fly it.", "ko": "날려 보자.", "tip": "비행기, 연, 드론 무엇이든 쓸 수 있어요. fly it이 이어져 '플라이잇'처럼 들립니다.", "who": "both" },
+    { "en": "Good thinking!", "ko": "생각 잘했다!", "tip": "아이가 스스로 문제를 풀었을 때 생각한 과정을 칭찬하는 말이에요. '굿띵킹'처럼 th를 살짝 물고 말합니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Let's build an airplane with blocks.", "ko": "블록으로 비행기 만들자." },
+    { "who": "kid", "en": "Yes! A big one!", "ko": "응! 큰 거!", "practice": true },
+    { "who": "parent", "en": "Here's the body. Hmm, what's missing?", "ko": "여기 몸통이야. 음, 뭐가 빠졌지?" },
+    { "who": "kid", "en": "It needs wings!", "ko": "날개가 필요해!", "practice": true },
+    { "who": "parent", "en": "Right. Why does a plane need wings?", "ko": "맞아. 비행기는 왜 날개가 필요할까?" },
+    { "who": "kid", "en": "To fly?", "ko": "날려고?" },
+    { "who": "parent", "en": "Yes. The wings help it stay up in the air.", "ko": "응. 날개가 비행기를 하늘에 떠 있게 도와줘." },
+    { "who": "kid", "en": "I'll put long wings here.", "ko": "여기 긴 날개 달게.", "practice": true },
+    { "who": "parent", "en": "Nice. Now look at the back. What's missing?", "ko": "멋지다. 이제 뒤를 봐. 뭐가 빠졌지?" },
+    { "who": "kid", "en": "A tail!", "ko": "꼬리!" },
+    { "who": "parent", "en": "Good thinking! The tail keeps the plane steady.", "ko": "생각 잘했다! 꼬리는 비행기가 흔들리지 않게 해 줘." },
+    { "who": "kid", "en": "Can we add windows?", "ko": "창문도 달아도 돼?", "practice": true },
+    { "who": "parent", "en": "Good idea! Then the people can see outside.", "ko": "좋은 생각이야! 그럼 사람들이 밖을 볼 수 있겠다." },
+    { "who": "kid", "en": "Who's the pilot?", "ko": "조종사는 누구야?" },
+    { "who": "parent", "en": "This little block person. Is it ready?", "ko": "이 작은 블록 사람. 다 됐어?" },
+    { "who": "kid", "en": "Ready! Let's fly it!", "ko": "준비 완료! 날려 보자!", "practice": true },
+    { "who": "parent", "en": "Hold it up high. Here we go!", "ko": "높이 들어. 간다!" },
+    { "who": "kid", "en": "Zoom! It's flying!", "ko": "슝! 날고 있어!" },
+    { "who": "parent", "en": "Careful! Don't let the wings fall off.", "ko": "조심! 날개 떨어지지 않게 해." },
+    { "who": "kid", "en": "Oops! Okay. I'll hold them.", "ko": "앗! 알았어. 내가 잡을게." },
+    { "who": "parent", "en": "Now it's landing. Nice and slow.", "ko": "이제 착륙한다. 천천히 살살." },
+    { "who": "kid", "en": "Let's build a rocket next!", "ko": "다음엔 로켓 만들자!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "Where is your airplane flying to?", "ko": "네 비행기는 어디로 날아가?", "sample_en": "To the beach!", "sample_ko": "바닷가로!" },
+    { "en": "What else does a plane need?", "ko": "비행기한테 또 뭐가 필요할까?", "sample_en": "Wheels!", "sample_ko": "바퀴!" },
+    { "en": "What will you build next?", "ko": "다음엔 뭘 만들 거야?", "sample_en": "A big ship.", "sample_ko": "큰 배." }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is an airplane?", "prompt_ko": "비행기는 어느 거야?", "options": [ { "e": "✈️", "en": "airplane" }, { "e": "🚢", "en": "ship" }, { "e": "🚲", "en": "bike" } ] },
+    { "prompt_en": "What helps a plane stay up in the air?", "prompt_ko": "비행기가 하늘에 떠 있게 도와주는 건?", "options": [ { "e": "🕊️", "en": "wings" }, { "e": "🧦", "en": "socks" }, { "e": "🍕", "en": "pizza" } ] },
+    { "prompt_en": "Your plane has no wings. What do you say?", "prompt_ko": "비행기에 날개가 없어. 뭐라고 해?", "options": [ { "e": "🔧", "en": "It needs wings." }, { "e": "😴", "en": "Good night." }, { "e": "😋", "en": "I'm hungry." } ] },
+    { "prompt_en": "Who flies an airplane?", "prompt_ko": "비행기는 누가 조종해?", "options": [ { "e": "🧑‍✈️", "en": "a pilot" }, { "e": "👨‍🍳", "en": "a cook" }, { "e": "👩‍🌾", "en": "a farmer" } ] },
+    { "prompt_en": "What did we use to build the plane?", "prompt_ko": "비행기를 뭘로 만들었지?", "options": [ { "e": "🧱", "en": "blocks" }, { "e": "🍞", "en": "bread" }, { "e": "💧", "en": "water" } ] },
+    { "prompt_en": "Your friend says, 'Let's add windows!' What do you say?", "prompt_ko": "친구가 '창문 달자!'라고 해. 뭐라고 해?", "options": [ { "e": "💡", "en": "Good idea!" }, { "e": "😢", "en": "I'm sad." }, { "e": "👋", "en": "Bye-bye." } ] },
+    { "prompt_en": "The plane is ready. What do you say?", "prompt_ko": "비행기가 다 됐어. 뭐라고 해?", "options": [ { "e": "✈️", "en": "Let's fly it!" }, { "e": "🛁", "en": "Bath time!" }, { "e": "🍎", "en": "An apple." } ] },
+    { "prompt_en": "Which one is a window?", "prompt_ko": "창문은 어느 거야?", "options": [ { "e": "🪟", "en": "window" }, { "e": "🚪", "en": "door" }, { "e": "🛏️", "en": "bed" } ] },
+    { "prompt_en": "Where do airplanes fly?", "prompt_ko": "비행기는 어디서 날아?", "options": [ { "e": "☁️", "en": "in the sky" }, { "e": "🌊", "en": "under the sea" }, { "e": "🕳️", "en": "in a hole" } ] },
+    { "prompt_en": "Which one goes to space?", "prompt_ko": "우주에 가는 건 어느 거야?", "options": [ { "e": "🚀", "en": "rocket" }, { "e": "🚌", "en": "bus" }, { "e": "🚜", "en": "tractor" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'What's missing?'의 뜻은?", "options": ["뭐가 빠졌지?", "뭘 잃어버렸어?", "뭐가 보고 싶어?", "뭐가 틀렸어?"], "explain": "있어야 할 것이 빠졌을 때 '뭐가 빠졌지?'라고 묻는 말입니다." },
+    { "q": "'Good thinking!'은 언제 쓰는 말일까?", "options": ["아이가 스스로 좋은 해결책을 떠올렸을 때", "아이가 생각에 잠겨 조용할 때", "아이가 잠을 잘 잤을 때", "아이가 밥을 다 먹었을 때"], "explain": "똑똑하게 생각해 낸 것을 칭찬할 때 씁니다." },
+    { "q": "'날개가 필요해.'를 자연스러운 영어로 하면?", "options": ["It needs wings.", "It need wings.", "It's need wings.", "It needing wings."], "explain": "주어 It 뒤라서 needs를 씁니다." },
+    { "q": "빈칸에 알맞은 말은? — The wings help it stay ___ in the air.", "options": ["up", "on", "at", "over"], "explain": "stay up은 '(공중에) 떠 있다'라는 뜻입니다." },
+    { "q": "빈칸에 알맞은 말은? — The tail keeps the plane ___.", "options": ["steady", "steadily", "steadies", "steadying"], "explain": "keep + 목적어 + 형용사 형태로 '~을 안정되게 유지하다'가 됩니다." },
+    { "q": "아이가 '창문도 달자!'라고 할 때 칭찬하며 받아 주는 말로 알맞은 것은?", "options": ["Good idea!", "Good luck!", "Good night!", "Good morning!"], "explain": "의견을 칭찬할 때는 Good idea!라고 합니다." },
+    { "q": "'Let's fly it.'을 이어 말하면 어떻게 들릴까?", "options": ["렛츠 플라이잇", "레트 어스 플라이 이트", "렛 플라이스 잇", "레츠 플리 잇"], "explain": "fly와 it이 부드럽게 이어져 '플라이잇'처럼 들립니다." },
+    { "q": "'날개 떨어지지 않게 해.'를 자연스러운 영어로 하면?", "options": ["Don't let the wings fall off.", "Don't let the wings to fall off.", "Not let the wings falling.", "Don't the wings fall."], "explain": "Don't let + 목적어 + 동사원형으로 '~하지 않게 해'라고 합니다." },
+    { "q": "빈칸에 알맞은 말은? — Now it's landing. Nice and ___.", "options": ["slow", "slowly", "slower", "slowing"], "explain": "Nice and + 형용사는 '알맞게 ~하게'라는 관용 표현이라 Nice and slow입니다." },
+    { "q": "비행기의 꼬리 날개가 하는 일로 알맞은 것은?", "options": ["비행기를 안정되게 해 준다", "연료를 담는다", "승객이 탄다", "불빛을 낸다"], "explain": "꼬리 날개는 비행기가 흔들리지 않고 똑바로 날도록 도와줍니다." }
+  ]
+}

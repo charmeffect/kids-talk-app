@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 45,
+  "topic": "space",
+  "title_en": "Moon walk",
+  "title_ko": "달 위를 걸어요",
+  "intro_ko": "우주비행사가 되어 달 위를 걷는 역할 놀이입니다. 베개나 쿠션을 바닥에 깔아 달 표면을 만들고, 천천히 크게 깡충 뛰며 걷고, 종이 깃발을 꽂아 보세요.",
+  "expressions": [
+    { "en": "Let's walk on the moon.", "ko": "달 위를 걸어 보자.", "tip": "'Let's + 동사'로 놀이를 시작하자고 할 때 써요. walk on the가 이어져 '워컨 더 문'처럼 들립니다(walk의 l은 소리 나지 않아요).", "who": "both" },
+    { "en": "It's bouncy!", "ko": "통통 튀어!", "tip": "트램펄린, 공, 침대처럼 몸이 통통 튀어 오를 때 쓰는 말이에요. '잇츠 바운시'로 끝을 올려 신나게 말해요.", "who": "kid" },
+    { "en": "Take a big step.", "ko": "크게 한 걸음 내디뎌.", "tip": "걸음을 크게 떼라고 할 때 써요. Take a가 이어져 '테이커 빅 스텝'처럼 들립니다.", "who": "both" },
+    { "en": "Put the flag here.", "ko": "깃발 여기에 꽂자.", "tip": "'Put ~ here'로 물건을 놓을 자리를 정할 때 써요. Put the는 t가 약해져 '풋더'처럼 들립니다.", "who": "kid" },
+    { "en": "Step by step.", "ko": "한 걸음씩, 차근차근.", "tip": "실제로 한 걸음씩 걸을 때도, 어려운 일을 '차근차근 하자'고 할 때도 쓰는 표현이에요. by가 약해져 '스텝바이스텝'이 한 덩어리로 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Ready, astronaut? Let's walk on the moon.", "ko": "준비됐어, 우주비행사? 달 위를 걸어 보자." },
+    { "who": "kid", "en": "Wait! I need my space suit!", "ko": "잠깐! 우주복 입어야 해!" },
+    { "who": "parent", "en": "Right. There's no air on the moon.", "ko": "맞아. 달에는 공기가 없거든." },
+    { "who": "kid", "en": "No air? How do I breathe?", "ko": "공기가 없어? 숨은 어떻게 쉬어?" },
+    { "who": "parent", "en": "Your space suit has air inside. You're safe.", "ko": "우주복 안에 공기가 있어. 괜찮아." },
+    { "who": "kid", "en": "I'm ready! Let's walk on the moon!", "ko": "준비됐어! 달 위를 걸어 보자!", "practice": true },
+    { "who": "parent", "en": "Here we are. Take a big step.", "ko": "도착했다. 크게 한 걸음 내디뎌 봐." },
+    { "who": "kid", "en": "Whoa! It's bouncy!", "ko": "우와! 통통 튀어!", "practice": true },
+    { "who": "parent", "en": "You feel light here. The moon pulls you less than Earth.", "ko": "여기선 몸이 가벼워. 달은 지구보다 덜 끌어당기거든." },
+    { "who": "kid", "en": "Can I jump high?", "ko": "높이 뛸 수 있어?" },
+    { "who": "parent", "en": "Yes! Much higher than at home.", "ko": "응! 집에서보다 훨씬 높이." },
+    { "who": "kid", "en": "Boing! Boing! Look at me!", "ko": "통! 통! 나 좀 봐!" },
+    { "who": "parent", "en": "Careful, sweetie. Go slowly, step by step.", "ko": "조심해. 천천히, 한 걸음씩." },
+    { "who": "kid", "en": "Step by step.", "ko": "한 걸음씩.", "practice": true },
+    { "who": "parent", "en": "Look down. Can you see your footprints?", "ko": "아래 봐. 네 발자국 보여?" },
+    { "who": "kid", "en": "Yes! In the gray dust!", "ko": "응! 회색 먼지에!" },
+    { "who": "parent", "en": "There's no wind here, so they'll stay a very long time.", "ko": "여긴 바람이 없어서 발자국이 아주 오랫동안 남아." },
+    { "who": "kid", "en": "Look, I have a flag!", "ko": "봐, 나 깃발 있어!" },
+    { "who": "parent", "en": "Great! Where should we put it?", "ko": "좋아! 어디에 꽂을까?" },
+    { "who": "kid", "en": "Put the flag here!", "ko": "깃발 여기에 꽂자!", "practice": true },
+    { "who": "parent", "en": "Good spot. Push it down into the dust.", "ko": "좋은 자리네. 먼지 속으로 꾹 눌러 꽂아." },
+    { "who": "kid", "en": "Your turn! Take a big step!", "ko": "이제 엄마(아빠) 차례! 크게 한 걸음!", "practice": true },
+    { "who": "parent", "en": "Okay, one big step. Wow, I'm bouncing too!", "ko": "좋아, 크게 한 걸음. 우와, 나도 통통 튄다!" },
+    { "who": "kid", "en": "We walked on the moon!", "ko": "우리 달 위를 걸었어!" }
+  ],
+  "talkMore": [
+    { "en": "What would you bring to the moon?", "ko": "달에 뭘 가져가고 싶어?", "sample_en": "My teddy bear!", "sample_ko": "내 곰 인형!" },
+    { "en": "What can you see from the moon?", "ko": "달에서는 뭐가 보일까?", "sample_en": "The Earth!", "sample_ko": "지구!" },
+    { "en": "What color is your flag?", "ko": "네 깃발은 무슨 색이야?", "sample_en": "Blue and red.", "sample_ko": "파란색이랑 빨간색." }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is the moon?", "prompt_ko": "달은 어느 거야?", "options": [ { "e": "🌕", "en": "moon" }, { "e": "🌈", "en": "rainbow" }, { "e": "🌳", "en": "tree" } ] },
+    { "prompt_en": "What do you wear on the moon?", "prompt_ko": "달에서는 뭘 입어?", "options": [ { "e": "👩‍🚀", "en": "a space suit" }, { "e": "👙", "en": "a swimsuit" }, { "e": "🥋", "en": "a judo uniform" } ] },
+    { "prompt_en": "Is there air on the moon?", "prompt_ko": "달에 공기가 있어?", "options": [ { "e": "🙅", "en": "No." }, { "e": "🙆", "en": "Yes, lots." }, { "e": "🍰", "en": "Only cake." } ] },
+    { "prompt_en": "You jump on the moon. How does it feel?", "prompt_ko": "달에서 뛰면 어떤 느낌이야?", "options": [ { "e": "🦘", "en": "It's bouncy!" }, { "e": "🥶", "en": "It's icy!" }, { "e": "🌶️", "en": "It's spicy!" } ] },
+    { "prompt_en": "What do we put on the moon?", "prompt_ko": "달에 뭘 꽂았지?", "options": [ { "e": "🚩", "en": "a flag" }, { "e": "🍴", "en": "a fork" }, { "e": "🌂", "en": "an umbrella" } ] },
+    { "prompt_en": "What stays in the moon dust?", "prompt_ko": "달 먼지에 뭐가 남아?", "options": [ { "e": "👣", "en": "footprints" }, { "e": "🐟", "en": "fish" }, { "e": "🌸", "en": "flowers" } ] },
+    { "prompt_en": "Listen: 'Take a big step.' What do you do?", "prompt_ko": "'Take a big step.' 들어 봐. 뭘 해?", "options": [ { "e": "🚶", "en": "walk" }, { "e": "🍽️", "en": "eat" }, { "e": "🎤", "en": "sing" } ] },
+    { "prompt_en": "Who walks on the moon?", "prompt_ko": "달 위를 걷는 사람은 누구야?", "options": [ { "e": "👨‍🚀", "en": "an astronaut" }, { "e": "🧑‍🍳", "en": "a cook" }, { "e": "🧑‍🌾", "en": "a farmer" } ] },
+    { "prompt_en": "How do we get to the moon?", "prompt_ko": "달에는 뭘 타고 가?", "options": [ { "e": "🚀", "en": "rocket" }, { "e": "🚲", "en": "bike" }, { "e": "🛶", "en": "canoe" } ] },
+    { "prompt_en": "You found a good spot. What do you say?", "prompt_ko": "좋은 자리를 찾았어. 뭐라고 해?", "options": [ { "e": "🚩", "en": "Put the flag here!" }, { "e": "😢", "en": "I'm sad." }, { "e": "🛁", "en": "Bath time!" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Step by step.'의 뜻으로 알맞은 것은?", "options": ["한 걸음씩, 차근차근", "계단을 올라가", "발을 밟지 마", "빨리 뛰어"], "explain": "step by step은 한 걸음씩 또는 단계별로 차근차근이라는 뜻입니다." },
+    { "q": "아이가 퍼즐을 어려워할 때 '차근차근 하자'를 영어로 하면?", "options": ["Let's do it step by step.", "Let's do it step to step.", "Let's do it by step by.", "Let's do it stepping steps."], "explain": "어려운 일을 나눠서 천천히 하자고 할 때도 step by step을 씁니다." },
+    { "q": "'It's bouncy!'의 뜻은?", "options": ["통통 튀어!", "울퉁불퉁해!", "미끄러워!", "딱딱해!"], "explain": "bouncy는 튀어 오르는 느낌을 말합니다." },
+    { "q": "빈칸에 알맞은 말은? — Here we are. Take a ___ step.", "options": ["big", "bigger", "much", "long way"], "explain": "크게 한 걸음 내디디라는 말은 Take a big step.입니다." },
+    { "q": "'Let's walk on the moon.'에서 walk의 발음으로 알맞은 것은?", "options": ["l이 소리 나지 않아 '웍'", "l을 살려 '월크'", "work와 똑같이 '워크'(r 소리)", "'왈크'처럼 a를 강하게"], "explain": "walk의 l은 묵음이라 '웍'처럼 소리 나며, r이 들어간 work와는 다릅니다." },
+    { "q": "아이에게 '깃발 여기에 꽂자'라고 할 때 자연스러운 말은?", "options": ["Put the flag here.", "Put here the flag.", "Put the flag at here.", "Put on the flag here."], "explain": "Put + 물건 + 장소 순서로 말하며, here 앞에는 전치사를 쓰지 않습니다." },
+    { "q": "달에서 몸이 가벼운 이유를 아이에게 쉽게 말한 것은?", "options": ["The moon pulls you less than Earth.", "The moon pushes you up.", "There is more air on the moon.", "The moon is made of rubber."], "explain": "달은 지구보다 중력이 약해(약 6분의 1) 몸이 가볍게 느껴집니다." },
+    { "q": "빈칸에 알맞은 말은? — There's no ___ here, so they'll stay a very long time.", "options": ["wind", "window", "wine", "wing"], "explain": "달에는 바람이 없어서 발자국이 오래 남습니다." },
+    { "q": "'Good spot.'은 이 대본에서 어떤 뜻일까?", "options": ["좋은 자리네.", "얼룩이 생겼네.", "잘 찾았다, 점이야.", "좋은 시간이야."], "explain": "spot은 '장소, 자리'라는 뜻으로, Good spot.은 자리를 잘 골랐다는 칭찬입니다." },
+    { "q": "아이가 '숨은 어떻게 쉬어?'라고 묻는 말은?", "options": ["How do I breathe?", "How do I breath?", "How I breathe?", "How do I bread?"], "explain": "동사 '숨 쉬다'는 breathe, 명사 '숨'은 breath입니다." }
+  ]
+}

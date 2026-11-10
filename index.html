@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kids Talk – 아이와 매일 영어 대화</title>
+<style>
+:root {
+    --bg: #f3f6fb; --card: #fff; --ink: #1c2433; --muted: #6b7385; --line: #e3e8f0;
+    --accent: #2563eb; --accent-soft: #e8efff; --kid: #f59e0b; --kid-soft: #fff4dd;
+    --ok: #16a34a; --ok-soft: #e7f7ec; --bad: #dc2626; --bad-soft: #fdecec;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", "Segoe UI", sans-serif;
+    background: var(--bg); color: var(--ink); line-height: 1.5; -webkit-tap-highlight-color: transparent; }
+button { font: inherit; color: inherit; cursor: pointer; border: 0; background: none; }
+.wrap { max-width: 720px; margin: 0 auto; padding: 0 14px 60px; }
+header { background: linear-gradient(135deg, #1e40af 0%, #2563eb 55%, #0ea5e9 100%); color: #fff; padding: 18px 0 16px; }
+header .wrap { padding-bottom: 0; display: flex; align-items: center; gap: 10px; }
+header h1 { font-size: 1.35rem; flex: 1; cursor: pointer; }
+header h1 small { display: block; font-size: .78rem; font-weight: 400; opacity: .85; }
+.icon-btn { width: 40px; height: 40px; border-radius: 12px; background: rgba(255,255,255,.18); color: #fff; font-size: 1.2rem; }
+.card { background: var(--card); border-radius: 16px; padding: 16px; margin-top: 14px; box-shadow: 0 1px 3px rgba(20,30,60,.06); }
+h2 { font-size: 1.05rem; margin-bottom: 10px; }
+.muted { color: var(--muted); font-size: .88rem; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { padding: 7px 12px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-size: .85rem; font-weight: 600; }
+.chip.active { background: var(--accent); color: #fff; }
+.chip:disabled { background: #eef0f4; color: #a3a9b6; cursor: default; }
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; padding: 12px 18px; border-radius: 12px;
+    background: var(--accent); color: #fff; font-weight: 700; font-size: 1rem; }
+.btn.secondary { background: var(--accent-soft); color: var(--accent); }
+.btn.block { width: 100%; }
+.today { display: flex; gap: 14px; align-items: center; }
+.today .big-emoji { font-size: 2.6rem; }
+.today .t { flex: 1; }
+.today .t b { font-size: 1.1rem; display: block; }
+.bar { height: 8px; background: var(--line); border-radius: 99px; overflow: hidden; margin-top: 8px; }
+.bar i { display: block; height: 100%; background: var(--ok); }
+.month-tabs { display: flex; gap: 6px; margin-bottom: 10px; }
+.week { display: grid; grid-template-columns: 54px repeat(5, 1fr) 1.2fr; gap: 6px; align-items: center; margin-bottom: 6px; }
+.week .wl { font-size: .78rem; color: var(--muted); }
+.daybtn { border-radius: 10px; background: #f1f4f9; padding: 6px 2px; text-align: center; font-size: .78rem; line-height: 1.2; }
+.daybtn .e { font-size: 1.15rem; display: block; }
+.daybtn.done { background: var(--ok-soft); color: var(--ok); font-weight: 700; }
+.daybtn.next { outline: 2px solid var(--accent); }
+.daybtn.review { background: var(--kid-soft); color: #9a6200; }
+.daybtn.review.done { background: var(--ok-soft); color: var(--ok); }
+/* day view */
+.backrow { display: flex; align-items: center; gap: 8px; margin-top: 12px; }
+.backrow .btn { padding: 8px 12px; font-size: .9rem; }
+.day-title { font-size: 1.25rem; font-weight: 800; }
+.intro { background: var(--accent-soft); border-radius: 12px; padding: 10px 12px; font-size: .92rem; margin-top: 10px; }
+.steps { display: flex; gap: 4px; margin-top: 14px; position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 6px 0; overflow-x: auto; }
+.step { flex: 1 0 auto; padding: 8px 10px; border-radius: 10px; background: #e9edf4; font-size: .82rem; font-weight: 700; color: var(--muted); white-space: nowrap; }
+.step.active { background: var(--accent); color: #fff; }
+.step.done::after { content: " ✓"; }
+.expr { border: 1px solid var(--line); border-radius: 14px; padding: 12px; margin-bottom: 10px; }
+.expr .en { font-size: 1.2rem; font-weight: 800; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.expr .ko { font-weight: 600; margin-top: 2px; }
+.expr .tip { font-size: .88rem; color: var(--muted); margin-top: 6px; }
+.who-badge { font-size: .7rem; font-weight: 700; padding: 2px 8px; border-radius: 99px; background: #eef0f4; color: var(--muted); }
+.say { width: 38px; height: 38px; border-radius: 50%; background: var(--accent-soft); font-size: 1.05rem; flex: none; }
+.say.slow { background: #eef0f4; }
+.toolbar { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+.toolbar .btn { padding: 9px 12px; font-size: .88rem; }
+.line { display: flex; gap: 8px; margin-bottom: 10px; align-items: flex-start; }
+.line.kid { flex-direction: row-reverse; }
+.avatar { width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; font-size: 1.1rem; flex: none; background: var(--accent-soft); }
+.line.kid .avatar { background: var(--kid-soft); }
+.bubble { max-width: 80%; background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 9px 12px; cursor: pointer; }
+.line.parent .bubble { border-top-left-radius: 4px; }
+.line.kid .bubble { border-top-right-radius: 4px; background: var(--kid-soft); border-color: #f6dfae; }
+.bubble .en { font-size: 1.06rem; font-weight: 600; }
+.bubble .ko { font-size: .86rem; color: var(--muted); }
+.bubble.playing { outline: 3px solid var(--accent); }
+.practice-tag { font-size: .72rem; font-weight: 800; color: #b45309; display: block; margin-bottom: 2px; }
+.bubble.hidden-en .en { filter: blur(6px); }
+body.hide-ko .bubble .ko, body.hide-ko .talk .ko { display: none; }
+.talk { border: 1px solid var(--line); border-radius: 14px; padding: 12px; margin-bottom: 10px; }
+.talk .q { font-weight: 700; font-size: 1.05rem; display: flex; gap: 8px; align-items: center; }
+.talk details { margin-top: 6px; font-size: .9rem; }
+.talk summary { color: var(--accent); cursor: pointer; }
+/* quiz */
+.qhead { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.qprompt { font-size: 1.2rem; font-weight: 800; display: flex; gap: 10px; align-items: center; }
+.qprompt-ko { color: var(--muted); margin: 4px 0 14px; }
+.kid-opts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.kid-opt { position: relative; border: 2px solid var(--line); border-radius: 18px; padding: 14px 4px 10px; background: #fff; text-align: center; }
+.kid-opt .e { font-size: 2.8rem; display: block; line-height: 1.2; }
+.kid-opt .w { font-size: .92rem; font-weight: 700; }
+.opt { display: block; width: 100%; text-align: left; border: 2px solid var(--line); border-radius: 12px; padding: 11px 14px; margin-bottom: 8px; background: #fff; font-size: 1rem; }
+.ok { border-color: var(--ok) !important; background: var(--ok-soft) !important; }
+.bad { border-color: var(--bad) !important; background: var(--bad-soft) !important; }
+.feedback { margin-top: 12px; padding: 10px 12px; border-radius: 12px; font-size: .92rem; }
+.feedback.good { background: var(--ok-soft); }
+.feedback.wrong { background: var(--bad-soft); }
+.stars { font-size: 1.6rem; letter-spacing: 2px; text-align: center; margin: 10px 0; }
+.score-big { text-align: center; font-size: 1.4rem; font-weight: 800; }
+.shake { animation: shake .35s; }
+@keyframes shake { 25% { transform: translateX(-6px); } 75% { transform: translateX(6px); } }
+.pop { animation: pop .4s; }
+@keyframes pop { 50% { transform: scale(1.08); } }
+.nextrow { margin-top: 16px; display: flex; gap: 8px; }
+.nextrow .btn { flex: 1; }
+/* settings */
+.set-row { margin-bottom: 16px; }
+.set-row > b { display: block; margin-bottom: 6px; }
+select { width: 100%; padding: 9px; border-radius: 10px; border: 1px solid var(--line); font: inherit; background: #fff; }
+.guide { font-size: .88rem; background: #f6f7fa; border-radius: 12px; padding: 10px 12px; }
+.guide li { margin-left: 18px; }
+.hidden { display: none !important; }
+@media (max-width: 480px) {
+    .week { grid-template-columns: 40px repeat(5, 1fr) 1.1fr; gap: 4px; }
+    .kid-opt .e { font-size: 2.3rem; }
+    .expr .en { font-size: 1.1rem; }
+}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+    <h1 id="homeLink">Kids Talk 🚀<small>엄마·아빠와 매일 20분 영어 대화</small></h1>
+    <button class="icon-btn" id="settingsBtn" aria-label="설정">⚙️</button>
+</div></header>
+
+<div class="wrap">
+<!-- HOME -->
+<section id="homeView">
+    <div class="card">
+        <h2>단계</h2>
+        <div class="chips" id="stageChips"></div>
+    </div>
+    <div class="card" id="todayCard"></div>
+    <div class="card">
+        <div class="month-tabs chips" id="monthTabs"></div>
+        <div id="weeks"></div>
+        <p class="muted" style="margin-top:8px">평일 5일 대화 + 주말 복습. ✓ 표시는 끝낸 날입니다.</p>
+    </div>
+</section>
+
+<!-- DAY -->
+<section id="dayView" class="hidden">
+    <div class="backrow"><button class="btn secondary" data-home>← 목록</button><span class="muted" id="dayMeta"></span></div>
+    <div class="card">
+        <div class="day-title" id="dayTitle"></div>
+        <div class="muted" id="dayTitleKo"></div>
+        <div class="intro" id="dayIntro"></div>
+    </div>
+    <div class="steps" id="steps"></div>
+    <div class="card" id="stepBody"></div>
+</section>
+
+<!-- SETTINGS -->
+<section id="settingsView" class="hidden">
+    <div class="backrow"><button class="btn secondary" data-home>← 목록</button></div>
+    <div class="card">
+        <h2>설정</h2>
+        <div class="set-row"><b>대본에서 부모 역할</b><div class="chips" id="roleChips"></div></div>
+        <div class="set-row"><b>말하기 속도</b><div class="chips" id="rateChips"></div></div>
+        <div class="set-row"><b>한국어 해석</b><div class="chips" id="koChips"></div></div>
+        <div class="set-row"><b>부모 목소리</b><select id="parentVoice"></select></div>
+        <div class="set-row"><b>아이 목소리</b><select id="kidVoice"></select></div>
+        <div class="set-row"><button class="btn secondary" id="testVoices">🔊 목소리 들어 보기</button></div>
+        <div class="guide">
+            <b>더 자연스러운 발음으로 바꾸기</b>
+            <p>휴대폰에 고음질 영어 음성을 받으면 연음까지 훨씬 자연스러워집니다. 받은 뒤 이 화면에서 목소리를 고르세요.</p>
+            <p style="margin-top:6px"><b>아이폰·아이패드</b></p>
+            <ol><li>설정 → 손쉬운 사용 → 읽기 및 말하기 → 음성 → 영어</li>
+                <li>미국 영어에서 Ava, Zoe, Evan, Nathan 등을 고르고 <b>향상된 음질(Enhanced)</b> 또는 <b>고급(Premium)</b>을 내려받기</li>
+                <li>앱을 새로고침하면 목록에 '(Premium)' 또는 '(Enhanced)'가 붙은 목소리가 보입니다</li></ol>
+            <p style="margin-top:6px"><b>안드로이드</b></p>
+            <ol><li>설정 → 일반 → 텍스트 음성 변환 → Google 음성 인식 및 합성 → 음성 데이터 설치 → 영어(미국)</li></ol>
+        </div>
+        <div class="set-row" style="margin-top:16px"><b>기록</b>
+            <button class="btn secondary" id="resetProgress">진행 기록 지우기</button></div>
+    </div>
+</section>
+</div>
+
+<script src="data.js"></script>
+<script>
+// ===== constants & storage =====
+const STAGE_INFO = [
+    { n: 1, label: "1단계 · 5세" }, { n: 2, label: "2단계 · 6세" }, { n: 3, label: "3단계 · 7세" },
+    { n: 4, label: "4단계 · 초1" }, { n: 5, label: "5단계 · 초2" }, { n: 6, label: "6단계 · 초3" },
+    { n: 7, label: "7단계 · 초4" }, { n: 8, label: "8단계 · 초5" }, { n: 9, label: "9단계 · 초6" }
+];
+const TOPIC_EMOJI = { daily: "🏠", ships: "🚢", planes: "✈️", space: "🚀", science: "🔬" };
+const DAYS_PER_MONTH = 20, DAYS_PER_WEEK = 5;
+const PROGRESS_KEY = "kids_talk_progress", SETTINGS_KEY = "kids_talk_settings";
+function load(key, def) { try { return Object.assign(def, JSON.parse(localStorage.getItem(key) || "{}")); } catch (e) { return def; } }
+function save(key, v) { try { localStorage.setItem(key, JSON.stringify(v)); } catch (e) {} }
+let settings = load(SETTINGS_KEY, { stage: 1, role: "mom", rate: 0.9, showKo: true, parentVoice: "", kidVoice: "" });
+let progress = load(PROGRESS_KEY, {});   // { "1": { days: { "3": {kid, parent, date} }, reviews: { "1": {kid, parent} } } }
+function stageProgress(s) { return progress[s] || (progress[s] = { days: {}, reviews: {} }); }
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+function shuffle(a) { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+function stageDays(s) { const st = KIDS_TALK.stages.find(x => x.stage === s); return st ? st.days : []; }
+
+// ===== speech =====
+const NOVELTY_VOICE_RE = /bad news|bells|bubbles|cellos|jester|organ|trinoids|whisper|zarvox|boing|albert|bahh|wobble|superstar|good news|deranged|hysterical|grandpa|grandma|rocko|shelley|flo|eddy|reed|sandy/i;
+const FEMALE_VOICE_RE = /female|samantha|karen|moira|tessa|fiona|victoria|allison|ava|susan|zoe|serena|kate|nicky|veena|zira|aria|jenny|emma|libby|sonia|natasha|michelle|joelle|ana\b|google us english/i;
+const MALE_VOICE_RE = /\bmale\b|daniel|alex\b|fred|tom\b|aaron|arthur|gordon|oliver|rishi|david|guy|mark|ryan|brian|eric|evan|nathan|thomas|james|noah|google uk english male/i;
+let voices = [];
+function voiceRank(v) {
+    let r = 0;
+    if (/premium/i.test(v.name)) r -= 4; else if (/enhanced|natural|neural/i.test(v.name)) r -= 3;
+    if (/google/i.test(v.name)) r -= 1;
+    if (/en[-_]US/i.test(v.lang)) r -= 1;
+    return r;
+}
+function loadVoices() {
+    if (!("speechSynthesis" in window)) return;
+    voices = speechSynthesis.getVoices().filter(v => /^en(-|_|$)/i.test(v.lang) && !NOVELTY_VOICE_RE.test(v.name))
+        .sort((a, b) => voiceRank(a) - voiceRank(b));
+    if (!$("settingsView").classList.contains("hidden")) renderSettings();
+}
+if ("speechSynthesis" in window) { loadVoices(); speechSynthesis.onvoiceschanged = loadVoices; }
+function pickVoice(role) {
+    const chosen = role === "kid" ? settings.kidVoice : settings.parentVoice;
+    const byName = voices.find(v => v.name === chosen);
+    if (byName) return byName;
+    const wantFemale = role === "kid" || settings.role === "mom";
+    const pool = voices.filter(v => wantFemale ? FEMALE_VOICE_RE.test(v.name) : (!FEMALE_VOICE_RE.test(v.name) && MALE_VOICE_RE.test(v.name)));
+    if (role === "kid") {
+        // A different voice from the parent's, so the two roles are easy to tell apart.
+        const p = pickVoice("parent");
+        return pool.find(v => v !== p) || voices.find(v => v !== p) || p || null;
+    }
+    return pool[0] || voices[0] || null;
+}
+function speechText(t) { return t.replace(/\([^)]*\)|\[[^\]]*\]/g, " ").replace(/…/g, ", ").replace(/\s+/g, " ").trim(); }
+// Plays a queue of { text, role, audio?, el? } one after another; returns nothing. stopSpeech() cancels.
+let playToken = 0, currentAudio = null;
+function stopSpeech() {
+    playToken++;
+    if ("speechSynthesis" in window) speechSynthesis.cancel();
+    if (currentAudio) { currentAudio.pause(); currentAudio = null; }
+    document.querySelectorAll(".playing").forEach(e => e.classList.remove("playing"));
+}
+function play(queue, opts = {}) {
+    stopSpeech();
+    const token = playToken;
+    const step = i => {
+        document.querySelectorAll(".playing").forEach(e => e.classList.remove("playing"));
+        if (token !== playToken || i >= queue.length) { if (token === playToken && opts.onDone) opts.onDone(); return; }
+        const it = queue[i];
+        if (it.el) { it.el.classList.add("playing"); if (opts.scroll) it.el.scrollIntoView({ block: "center", behavior: "smooth" }); }
+        const next = () => setTimeout(() => step(i + 1), opts.gap || 250);
+        if (it.audio) {
+            currentAudio = new Audio(it.audio);
+            currentAudio.onended = next;
+            currentAudio.onerror = () => speakOne(it, next, opts.rate);
+            currentAudio.play().catch(() => speakOne(it, next, opts.rate));
+            return;
+        }
+        speakOne(it, next, opts.rate);
+    };
+    step(0);
+}
+function speakOne(it, done, rate) {
+    if (!("speechSynthesis" in window)) { done(); return; }
+    if (!voices.length) loadVoices();
+    const u = new SpeechSynthesisUtterance(speechText(it.text));
+    const v = pickVoice(it.role === "kid" ? "kid" : "parent");
+    if (v) { u.voice = v; u.lang = v.lang; } else u.lang = "en-US";
+    const same = it.role === "kid" && v && v === pickVoice("parent");
+    u.pitch = it.role === "kid" ? (same ? 1.45 : 1.2) : (settings.role === "dad" && v && FEMALE_VOICE_RE.test(v.name) ? 0.8 : 1);
+    u.rate = (rate || settings.rate) * (it.role === "kid" ? 1.02 : 1);
+    let finished = false;
+    const fin = () => { if (!finished) { finished = true; done(); } };
+    u.onend = fin; u.onerror = fin;
+    speechSynthesis.speak(u);
+}
+function say(text, role, rate) { play([{ text, role }], { rate }); }
+
+// ===== navigation =====
+let view = "home", currentDay = null, currentReview = null;
+function show(id) {
+    stopSpeech();
+    ["homeView", "dayView", "settingsView"].forEach(v => $(v).classList.toggle("hidden", v !== id));
+    window.scrollTo(0, 0);
+}
+document.querySelectorAll("[data-home]").forEach(b => b.onclick = goHome);
+$("homeLink").onclick = goHome;
+$("settingsBtn").onclick = () => { renderSettings(); show("settingsView"); };
+function goHome() { renderHome(); show("homeView"); }
+
+// ===== home =====
+let homeMonth = null;
+function nextDayNum(s) {
+    const days = stageDays(s), done = stageProgress(s).days;
+    const d = days.find(x => !done[x.day]);
+    return d ? d.day : null;
+}
+function renderHome() {
+    const s = settings.stage, days = stageDays(s), sp = stageProgress(s);
+    $("stageChips").innerHTML = STAGE_INFO.map(x => {
+        const has = stageDays(x.n).length;
+        return `<button class="chip ${x.n === s ? "active" : ""}" data-stage="${x.n}" ${has ? "" : "disabled"}>${x.label}${has ? "" : " · 준비 중"}</button>`;
+    }).join("");
+    document.querySelectorAll("[data-stage]").forEach(b => b.onclick = () => { settings.stage = +b.dataset.stage; save(SETTINGS_KEY, settings); homeMonth = null; renderHome(); });
+    const doneCount = days.filter(d => sp.days[d.day]).length;
+    const nd = nextDayNum(s);
+    if (!days.length) {
+        $("todayCard").innerHTML = `<p>이 단계는 아직 준비 중입니다.</p>`;
+    } else if (nd) {
+        const d = days.find(x => x.day === nd);
+        $("todayCard").innerHTML = `<div class="today"><span class="big-emoji">${TOPIC_EMOJI[d.topic] || "💬"}</span>
+            <div class="t"><span class="muted">오늘 할 차례 · ${dayLabel(nd)}</span><b>${esc(d.title_en)}</b><span>${esc(d.title_ko)}</span></div></div>
+            <button class="btn block" style="margin-top:12px" id="startToday">시작하기</button>
+            <div class="bar"><i style="width:${(doneCount / days.length * 100).toFixed(1)}%"></i></div>
+            <p class="muted" style="margin-top:4px">${doneCount} / ${days.length}일 완료</p>`;
+        $("startToday").onclick = () => openDay(nd);
+    } else {
+        $("todayCard").innerHTML = `<p><b>🎉 ${days.length}일을 모두 끝냈어요!</b></p><p class="muted">다음 분량이 추가되면 여기에 나타납니다. 지난 날을 골라 다시 해 보세요.</p>`;
+    }
+    const months = Math.ceil(Math.max(0, ...days.map(d => d.day)) / DAYS_PER_MONTH);
+    if (homeMonth === null) homeMonth = nd ? Math.ceil(nd / DAYS_PER_MONTH) : 1;
+    $("monthTabs").innerHTML = Array.from({ length: months }, (_, i) =>
+        `<button class="chip ${i + 1 === homeMonth ? "active" : ""}" data-month="${i + 1}">${i + 1}개월차</button>`).join("");
+    document.querySelectorAll("[data-month]").forEach(b => b.onclick = () => { homeMonth = +b.dataset.month; renderHome(); });
+    let html = "";
+    const first = (homeMonth - 1) * DAYS_PER_MONTH + 1;
+    for (let w = 0; w < DAYS_PER_MONTH / DAYS_PER_WEEK; w++) {
+        const wd = days.filter(d => d.day >= first + w * 5 && d.day < first + w * 5 + 5);
+        if (!wd.length) continue;
+        const weekNo = (homeMonth - 1) * 4 + w + 1;
+        html += `<div class="week"><span class="wl">${weekNo}주</span>`;
+        for (const d of wd) html += `<button class="daybtn ${sp.days[d.day] ? "done" : ""} ${d.day === nd ? "next" : ""}" data-day="${d.day}"><span class="e">${TOPIC_EMOJI[d.topic] || "💬"}</span>${d.day}일</button>`;
+        for (let k = wd.length; k < 5; k++) html += `<span></span>`;
+        html += `<button class="daybtn review ${sp.reviews[weekNo] ? "done" : ""}" data-review="${weekNo}"><span class="e">⭐</span>주말 복습</button></div>`;
+    }
+    $("weeks").innerHTML = html;
+    document.querySelectorAll("[data-day]").forEach(b => b.onclick = () => openDay(+b.dataset.day));
+    document.querySelectorAll("[data-review]").forEach(b => b.onclick = () => openReview(+b.dataset.review));
+}
+function dayLabel(n) { return `${Math.ceil(n / DAYS_PER_MONTH)}개월차 ${Math.ceil(((n - 1) % DAYS_PER_MONTH + 1) / DAYS_PER_WEEK)}주 · ${n}일`; }
+
+// ===== day =====
+const DAY_STEPS = [["expr", "1 표현"], ["script", "2 대본"], ["talk", "3 더 이야기"], ["kid", "4 아이 퀴즈"], ["parent", "5 부모 퀴즈"]];
+const REVIEW_STEPS = [["expr", "1 이번 주 표현"], ["kid", "2 아이 퀴즈"], ["parent", "3 부모 퀴즈"]];
+let steps = DAY_STEPS, stepIdx = 0, stepDone = {}, dayScores = {};
+function openDay(n) {
+    const d = stageDays(settings.stage).find(x => x.day === n);
+    if (!d) return;
+    currentDay = d; currentReview = null; steps = DAY_STEPS; stepIdx = 0; stepDone = {}; dayScores = {};
+    $("dayMeta").textContent = dayLabel(n);
+    $("dayTitle").textContent = `${TOPIC_EMOJI[d.topic] || ""} ${d.title_en}`;
+    $("dayTitleKo").textContent = d.title_ko;
+    $("dayIntro").textContent = d.intro_ko;
+    $("dayIntro").classList.remove("hidden");
+    show("dayView"); renderStep();
+}
+function openReview(weekNo) {
+    const days = stageDays(settings.stage).filter(d => Math.ceil(d.day / DAYS_PER_WEEK) === weekNo);
+    if (!days.length) return;
+    const pick = (arr, k) => shuffle(arr).slice(0, k);
+    currentDay = null;
+    currentReview = { weekNo, days,
+        expressions: days.flatMap(d => d.expressions.map(e => Object.assign({ day: d.day }, e))),
+        kidQuiz: pick(days.flatMap(d => d.kidQuiz), 10), parentQuiz: pick(days.flatMap(d => d.parentQuiz), 10) };
+    steps = REVIEW_STEPS; stepIdx = 0; stepDone = {}; dayScores = {};
+    $("dayMeta").textContent = `${weekNo}주 주말 복습`;
+    $("dayTitle").textContent = `⭐ ${weekNo}주 복습`;
+    $("dayTitleKo").textContent = days.map(d => d.title_ko).join(" · ");
+    $("dayIntro").textContent = "이번 주에 배운 표현을 다시 들어 보고, 퀴즈로 확인해 보세요. 아이에게 표현을 영어로 말하게 하고 맞히면 크게 칭찬해 주세요.";
+    show("dayView"); renderStep();
+}
+function src() { return currentDay || currentReview; }
+function renderStep() {
+    stopSpeech();
+    $("steps").innerHTML = steps.map(([k, label], i) =>
+        `<button class="step ${i === stepIdx ? "active" : ""} ${stepDone[k] ? "done" : ""}" data-step="${i}">${label}</button>`).join("");
+    document.querySelectorAll("[data-step]").forEach(b => b.onclick = () => { stepIdx = +b.dataset.step; renderStep(); });
+    const key = steps[stepIdx][0];
+    ({ expr: renderExpr, script: renderScript, talk: renderTalk, kid: renderKidQuiz, parent: renderParentQuiz })[key]();
+    window.scrollTo({ top: $("steps").offsetTop - 4 });
+}
+function nextStepButton() {
+    const last = stepIdx === steps.length - 1;
+    return `<div class="nextrow"><button class="btn" id="nextStep">${last ? "오늘 끝내기 ✓" : "다음 단계 →"}</button></div>`;
+}
+function bindNextStep() {
+    const b = $("nextStep"); if (!b) return;
+    b.onclick = () => {
+        stepDone[steps[stepIdx][0]] = true;
+        if (stepIdx < steps.length - 1) { stepIdx++; renderStep(); } else finishDay();
+    };
+}
+function sayButtons(text, role) {
+    return `<button class="say" data-say="${esc(text)}" data-role="${role}" aria-label="듣기">🔊</button>` +
+           `<button class="say slow" data-say="${esc(text)}" data-role="${role}" data-slow="1" aria-label="천천히 듣기">🐢</button>`;
+}
+function bindSay(root) {
+    root.querySelectorAll("[data-say]").forEach(b => b.onclick = e => {
+        e.stopPropagation();
+        say(b.dataset.say, b.dataset.role, b.dataset.slow ? 0.6 : undefined);
+    });
+}
+const WHO_KO = { parent: "부모가", kid: "아이가", both: "누구나" };
+function renderExpr() {
+    const list = src().expressions;
+    $("stepBody").innerHTML = `<h2>${currentReview ? "이번 주 표현" : "오늘의 표현"}</h2>` + list.map(e =>
+        `<div class="expr"><div class="en">${esc(e.en)} ${sayButtons(e.en, e.who === "kid" ? "kid" : "parent")}</div>
+         <div class="ko">${esc(e.ko)} <span class="who-badge">${WHO_KO[e.who] || ""}${e.day ? " · " + e.day + "일" : ""}</span></div>
+         <div class="tip">💡 ${esc(e.tip)}</div></div>`).join("") + nextStepButton();
+    bindSay($("stepBody")); bindNextStep();
+}
+let practiceMode = false;
+function renderScript() {
+    const d = currentDay, roleKo = settings.role === "dad" ? "아빠" : "엄마";
+    $("stepBody").innerHTML = `<h2>역할극 대본</h2>
+        <p class="muted" style="margin-bottom:10px">말풍선을 누르면 한 줄씩 들립니다. 처음엔 함께 듣고, 두 번째엔 ${roleKo}가 왼쪽, 아이가 오른쪽 대사를 읽어 보세요.</p>
+        <div class="toolbar">
+            <button class="btn" id="playAll">▶ 전체 듣기</button>
+            <button class="btn secondary" id="playSlow">🐢 천천히</button>
+            <button class="btn secondary" id="toggleKo">${settings.showKo ? "해석 숨기기" : "해석 보기"}</button>
+            <button class="btn secondary" id="togglePractice">${practiceMode ? "아이 대사 보이기" : "아이 대사 가리기"}</button>
+        </div>
+        <div id="lines">${d.script.map((l, i) => `<div class="line ${l.who}">
+            <span class="avatar">${l.who === "kid" ? "🧒" : (settings.role === "dad" ? "👨" : "👩")}</span>
+            <div class="bubble ${practiceMode && l.practice ? "hidden-en" : ""}" data-line="${i}">
+              ${l.practice ? `<span class="practice-tag">🗣 아이가 말해보기</span>` : ""}
+              <div class="en">${esc(l.en)}</div><div class="ko">${esc(l.ko)}</div></div></div>`).join("")}</div>` + nextStepButton();
+    const bubbles = [...document.querySelectorAll("#lines .bubble")];
+    const queue = () => d.script.map((l, i) => ({ text: l.en, role: l.who, audio: l.audio, el: bubbles[i] }));
+    bubbles.forEach((b, i) => b.onclick = () => {
+        if (b.classList.contains("hidden-en")) { b.classList.remove("hidden-en"); return; }
+        play([queue()[i]]);
+    });
+    $("playAll").onclick = () => play(queue(), { scroll: true, gap: 450 });
+    $("playSlow").onclick = () => play(queue(), { scroll: true, gap: 600, rate: 0.65 });
+    $("toggleKo").onclick = () => { settings.showKo = !settings.showKo; save(SETTINGS_KEY, settings); applyKo(); renderScript(); };
+    $("togglePractice").onclick = () => { practiceMode = !practiceMode; renderScript(); };
+    bindNextStep();
+}
+function renderTalk() {
+    $("stepBody").innerHTML = `<h2>더 이야기하기</h2>
+        <p class="muted" style="margin-bottom:10px">대본이 끝나면 아래 질문으로 대화를 이어 가세요. 아이가 한국어로 답하면 영어로 한 번 바꿔 말해 주면 됩니다.</p>` +
+        currentDay.talkMore.map(t => `<div class="talk"><div class="q">${esc(t.en)} ${sayButtons(t.en, "parent")}</div>
+            <div class="ko">${esc(t.ko)}</div>
+            <details><summary>아이 대답 예시</summary><div style="display:flex;gap:8px;align-items:center;margin-top:4px"><b>${esc(t.sample_en)}</b> ${sayButtons(t.sample_en, "kid")}</div><div class="ko">${esc(t.sample_ko)}</div></details></div>`).join("") +
+        nextStepButton();
+    bindSay($("stepBody")); bindNextStep();
+}
+// ===== quizzes =====
+function runQuiz(kind) {
+    const items = src()[kind === "kid" ? "kidQuiz" : "parentQuiz"];
+    const order = items.map((q, i) => ({ q, opts: shuffle(q.options.map((o, j) => ({ o, ok: j === 0 }))) }));
+    let i = 0, score = 0;
+    const render = () => {
+        if (i >= order.length) {
+            dayScores[kind] = score; stepDone[kind] = true;
+            const stars = "⭐".repeat(score) + "☆".repeat(order.length - score);
+            $("stepBody").innerHTML = `<h2>${kind === "kid" ? "아이 퀴즈" : "부모 퀴즈"} 결과</h2>
+                <div class="score-big">${score} / ${order.length}</div><div class="stars">${stars}</div>
+                <p class="muted" style="text-align:center">${score >= 8 ? "정말 잘했어요!" : score >= 5 ? "잘했어요! 틀린 것은 한 번 더 들어 보세요." : "괜찮아요. 대본을 한 번 더 들어 보고 다시 해 봐요."}</p>
+                <div class="nextrow"><button class="btn secondary" id="retry">다시 하기</button></div>` + nextStepButton();
+            if (kind === "kid") say(score >= 8 ? "Great job! You did it!" : "Good try! Let's do it again sometime.", "parent");
+            $("retry").onclick = () => runQuiz(kind);
+            bindNextStep(); return;
+        }
+        const { q, opts } = order[i];
+        if (kind === "kid") {
+            $("stepBody").innerHTML = `<div class="qhead"><h2>아이 퀴즈</h2><span class="muted">${i + 1} / ${order.length} · ⭐ ${score}</span></div>
+                <div class="qprompt">${esc(q.prompt_en)} <button class="say" id="qsay">🔊</button></div>
+                <div class="qprompt-ko">${esc(q.prompt_ko)}</div>
+                <div class="kid-opts">${opts.map((x, k) => `<button class="kid-opt" data-k="${k}"><span class="e">${x.o.e}</span><span class="w">${esc(x.o.en)}</span></button>`).join("")}</div>
+                <div id="fb"></div>`;
+            $("qsay").onclick = () => say(q.prompt_en, "parent");
+            say(q.prompt_en, "parent");
+        } else {
+            $("stepBody").innerHTML = `<div class="qhead"><h2>부모 퀴즈</h2><span class="muted">${i + 1} / ${order.length} · 맞힘 ${score}</span></div>
+                <div class="qprompt" style="font-size:1.05rem">${esc(q.q)}</div><div style="height:12px"></div>
+                ${opts.map((x, k) => `<button class="opt" data-k="${k}">${esc(x.o)}</button>`).join("")}<div id="fb"></div>`;
+        }
+        let answered = false;
+        document.querySelectorAll("[data-k]").forEach(b => b.onclick = () => {
+            if (answered) return;
+            answered = true;
+            const pick = opts[+b.dataset.k];
+            const okBtn = [...document.querySelectorAll("[data-k]")].find(x => opts[+x.dataset.k].ok);
+            okBtn.classList.add("ok", "pop");
+            if (pick.ok) score++; else b.classList.add("bad", "shake");
+            const right = opts.find(x => x.ok).o;
+            if (kind === "kid") {
+                $("fb").innerHTML = `<div class="feedback ${pick.ok ? "good" : "wrong"}">${pick.ok ? "🎉 Great job!" : "다시 들어 봐요: <b>" + esc(right.en) + "</b>"}</div>
+                    <div class="nextrow"><button class="btn" id="qnext">다음 →</button></div>`;
+                say(pick.ok ? "Great job! " + right.en : right.en, pick.ok ? "parent" : "kid");
+            } else {
+                $("fb").innerHTML = `<div class="feedback ${pick.ok ? "good" : "wrong"}">${pick.ok ? "✅ 정답" : "❌ 정답: <b>" + esc(right) + "</b>"}<br>${esc(q.explain || "")}</div>
+                    <div class="nextrow"><button class="btn" id="qnext">다음 →</button></div>`;
+            }
+            $("qnext").onclick = () => { i++; render(); };
+        });
+    };
+    render();
+}
+function renderKidQuiz() { runQuiz("kid"); }
+function renderParentQuiz() { runQuiz("parent"); }
+function finishDay() {
+    const sp = stageProgress(settings.stage);
+    const rec = { kid: dayScores.kid ?? null, parent: dayScores.parent ?? null, date: new Date().toISOString().slice(0, 10) };
+    if (currentDay) sp.days[currentDay.day] = rec; else sp.reviews[currentReview.weekNo] = rec;
+    save(PROGRESS_KEY, progress);
+    say("Great job today! See you tomorrow!", "parent");
+    $("stepBody").innerHTML = `<div style="text-align:center;padding:20px 0"><div style="font-size:3rem">🎉</div>
+        <h2>${currentDay ? "오늘 대화 완료!" : "주말 복습 완료!"}</h2>
+        <p class="muted">아이 퀴즈 ${rec.kid ?? "-"} / 10 · 부모 퀴즈 ${rec.parent ?? "-"} / 10</p>
+        <button class="btn" style="margin-top:14px" id="doneHome">목록으로</button></div>`;
+    $("doneHome").onclick = goHome;
+}
+
+// ===== settings =====
+function renderSettings() {
+    const chipRow = (id, opts, cur, onPick) => {
+        $(id).innerHTML = opts.map(([v, l]) => `<button class="chip ${v === cur ? "active" : ""}" data-v="${v}">${l}</button>`).join("");
+        $(id).querySelectorAll("[data-v]").forEach(b => b.onclick = () => { onPick(b.dataset.v); save(SETTINGS_KEY, settings); renderSettings(); });
+    };
+    chipRow("roleChips", [["mom", "👩 엄마"], ["dad", "👨 아빠"]], settings.role, v => { settings.role = v; settings.parentVoice = ""; });
+    chipRow("rateChips", [["0.75", "느리게"], ["0.9", "보통"], ["1", "원어민 속도"]], String(settings.rate), v => settings.rate = +v);
+    chipRow("koChips", [["1", "보이기"], ["0", "숨기기"]], settings.showKo ? "1" : "0", v => { settings.showKo = v === "1"; applyKo(); });
+    const opts = sel => `<option value="">자동 선택 (${esc((pickVoice(sel) || {}).name || "기기 기본")})</option>` +
+        voices.map(v => `<option value="${esc(v.name)}">${esc(v.name)} · ${v.lang}</option>`).join("");
+    $("parentVoice").innerHTML = opts("parent"); $("parentVoice").value = settings.parentVoice;
+    $("kidVoice").innerHTML = opts("kid"); $("kidVoice").value = settings.kidVoice;
+    $("parentVoice").onchange = e => { settings.parentVoice = e.target.value; save(SETTINGS_KEY, settings); };
+    $("kidVoice").onchange = e => { settings.kidVoice = e.target.value; save(SETTINGS_KEY, settings); };
+}
+$("testVoices").onclick = () => play([{ text: "Hi, sweetie! How was your day?", role: "parent" }, { text: "It was fun! Guess what!", role: "kid" }]);
+$("resetProgress").onclick = () => {
+    if (!$("resetProgress").dataset.armed) { $("resetProgress").dataset.armed = "1"; $("resetProgress").textContent = "한 번 더 누르면 지워집니다"; return; }
+    progress = {}; save(PROGRESS_KEY, progress); delete $("resetProgress").dataset.armed; $("resetProgress").textContent = "진행 기록 지우기"; goHome();
+};
+function applyKo() { document.body.classList.toggle("hide-ko", !settings.showKo); }
+
+applyKo();
+renderHome();
+</script>
+</body>
+</html>

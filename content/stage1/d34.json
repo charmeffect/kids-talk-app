@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 34,
+  "topic": "planes",
+  "title_en": "Airplane window",
+  "title_ko": "비행기 창밖 구경",
+  "intro_ko": "비행기 창가 자리에 앉아 창밖을 내려다보는 대화입니다. 의자 두 개를 나란히 놓고 창문 대신 액자나 종이 틀을 들고 밖을 보는 흉내를 내 보세요.",
+  "expressions": [
+    { "en": "What can you see?", "ko": "뭐가 보여?", "tip": "아이가 무엇을 보는지 묻는 기본 질문이에요. can you가 이어져 '왓 캐뉴 씨'처럼 들립니다.", "who": "both" },
+    { "en": "We're above the clouds.", "ko": "우리 구름 위에 있어.", "tip": "above는 '~보다 위에'라는 뜻이에요. above the가 이어져 '어버브더'처럼 말합니다.", "who": "both" },
+    { "en": "Everything looks tiny.", "ko": "모든 게 아주 작아 보여.", "tip": "looks + 형용사는 '~해 보여'라는 뜻이에요. tiny는 small보다 더 작은 느낌입니다.", "who": "both" },
+    { "en": "Look down!", "ko": "아래를 봐!", "tip": "아래쪽을 보라고 할 때 써요. 반대는 Look up!입니다. '룩다운'처럼 붙여 말해요.", "who": "both" },
+    { "en": "Take a look.", "ko": "한번 봐.", "tip": "무언가를 보라고 권할 때 쓰는 말이에요. take a가 이어져 '테이커룩'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Do you want the window seat?", "ko": "창가 자리에 앉을래?" },
+    { "who": "kid", "en": "Yes! Can I look out?", "ko": "응! 밖을 봐도 돼?" },
+    { "who": "parent", "en": "Sure. What can you see?", "ko": "그럼. 뭐가 보여?" },
+    { "who": "kid", "en": "Cars! They're so small!", "ko": "자동차! 엄청 작아!" },
+    { "who": "parent", "en": "Everything looks tiny from up here.", "ko": "여기서 보면 모든 게 아주 작아 보여." },
+    { "who": "kid", "en": "Everything looks tiny! Why?", "ko": "다 작아 보여! 왜?", "practice": true },
+    { "who": "parent", "en": "We're very high up. Things look smaller far away.", "ko": "우리가 아주 높이 있거든. 멀리 있는 건 더 작아 보여." },
+    { "who": "kid", "en": "Look down! A river!", "ko": "아래 봐! 강이다!", "practice": true },
+    { "who": "parent", "en": "Wow, it looks like a blue ribbon.", "ko": "우와, 파란 리본 같다." },
+    { "who": "kid", "en": "What can you see?", "ko": "엄마(아빠)는 뭐가 보여?", "practice": true },
+    { "who": "parent", "en": "I see little houses and green fields.", "ko": "작은 집들이랑 초록 들판이 보여." },
+    { "who": "kid", "en": "Now it's all white!", "ko": "이제 다 하얘!" },
+    { "who": "parent", "en": "We're flying through a cloud.", "ko": "우리 구름 속을 날고 있어." },
+    { "who": "kid", "en": "Can I touch it?", "ko": "만져 봐도 돼?" },
+    { "who": "parent", "en": "No, it's outside. Clouds are made of tiny water drops.", "ko": "아니, 밖에 있잖아. 구름은 아주 작은 물방울로 되어 있어." },
+    { "who": "kid", "en": "Look! The sun!", "ko": "봐! 해다!" },
+    { "who": "parent", "en": "Yes! Now we're above the clouds.", "ko": "맞아! 이제 우리 구름 위에 있어." },
+    { "who": "kid", "en": "We're above the clouds!", "ko": "우리 구름 위에 있어!", "practice": true },
+    { "who": "parent", "en": "Take a look. They look like a soft white sea.", "ko": "한번 봐. 폭신한 하얀 바다 같아." },
+    { "who": "kid", "en": "Like cotton candy!", "ko": "솜사탕 같아!" },
+    { "who": "parent", "en": "Ha! The pilot flies us over them.", "ko": "하하! 조종사가 그 위로 우리를 태우고 날아." },
+    { "who": "kid", "en": "Where is the pilot?", "ko": "조종사는 어디 있어?" },
+    { "who": "parent", "en": "In the cockpit, at the very front.", "ko": "조종석에. 맨 앞에 있어." },
+    { "who": "kid", "en": "I want to be a pilot!", "ko": "나 조종사 될래!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What do you think clouds feel like?", "ko": "구름은 만지면 어떤 느낌일 것 같아?", "sample_en": "Soft and wet!", "sample_ko": "부드럽고 축축해!" },
+    { "en": "Where do you want to fly someday?", "ko": "언젠가 어디로 날아가고 싶어?", "sample_en": "To Grandma's house!", "sample_ko": "할머니 집!" },
+    { "en": "What would you see from a rocket?", "ko": "로켓에서는 뭐가 보일까?", "sample_en": "The whole Earth!", "sample_ko": "지구 전체!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a cloud?", "prompt_ko": "구름은 어느 거야?", "options": [ { "e": "☁️", "en": "cloud" }, { "e": "🍎", "en": "apple" }, { "e": "🚗", "en": "car" } ] },
+    { "prompt_en": "Which one is an airplane?", "prompt_ko": "비행기는 어느 거야?", "options": [ { "e": "✈️", "en": "airplane" }, { "e": "🚢", "en": "ship" }, { "e": "🚂", "en": "train" } ] },
+    { "prompt_en": "Things look so small from the plane. What do you say?", "prompt_ko": "비행기에서 보니 다 작아 보여. 뭐라고 해?", "options": [ { "e": "🤏", "en": "Everything looks tiny!" }, { "e": "😴", "en": "I'm sleepy." }, { "e": "🍽️", "en": "I'm done." } ] },
+    { "prompt_en": "Who flies the plane?", "prompt_ko": "비행기는 누가 조종해?", "options": [ { "e": "🧑‍✈️", "en": "a pilot" }, { "e": "👨‍🍳", "en": "a cook" }, { "e": "🧑‍🌾", "en": "a farmer" } ] },
+    { "prompt_en": "What are clouds made of?", "prompt_ko": "구름은 뭐로 되어 있어?", "options": [ { "e": "💧", "en": "tiny water drops" }, { "e": "🍬", "en": "candy" }, { "e": "🧱", "en": "bricks" } ] },
+    { "prompt_en": "You want your friend to see the ground. What do you say?", "prompt_ko": "친구가 땅을 보게 하고 싶어. 뭐라고 해?", "options": [ { "e": "👇", "en": "Look down!" }, { "e": "🛁", "en": "Bath time!" }, { "e": "👋", "en": "Bye-bye." } ] },
+    { "prompt_en": "Where do you sit to look outside?", "prompt_ko": "밖을 보려면 어디에 앉아?", "options": [ { "e": "🪟", "en": "the window seat" }, { "e": "🧳", "en": "in the suitcase" }, { "e": "🛁", "en": "in the bathtub" } ] },
+    { "prompt_en": "Which one is a house?", "prompt_ko": "집은 어느 거야?", "options": [ { "e": "🏠", "en": "house" }, { "e": "🌳", "en": "tree" }, { "e": "🐶", "en": "dog" } ] },
+    { "prompt_en": "Ask what someone sees. What do you say?", "prompt_ko": "뭐가 보이는지 물어봐. 뭐라고 해?", "options": [ { "e": "👀", "en": "What can you see?" }, { "e": "😋", "en": "I'm hungry." }, { "e": "🎁", "en": "This is for you." } ] },
+    { "prompt_en": "The plane is higher than the clouds. We're…", "prompt_ko": "비행기가 구름보다 높이 있어. 우리는…", "options": [ { "e": "✈️", "en": "above the clouds" }, { "e": "🌊", "en": "in the sea" }, { "e": "🛏️", "en": "in bed" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Take a look.'의 뜻은?", "options": ["한번 봐.", "사진 찍어.", "이거 가져가.", "조심해."], "explain": "무언가를 보라고 권할 때 쓰는 말입니다." },
+    { "q": "아이에게 '뭐가 보여?'라고 물을 때 알맞은 말은?", "options": ["What can you see?", "What can you look?", "What you can see?", "What can you watching?"], "explain": "눈에 들어오는 것을 물을 때는 see를 써서 What can you see?라고 합니다." },
+    { "q": "'We're above the clouds.'의 뜻은?", "options": ["우리 구름 위에 있어.", "우리 구름 아래에 있어.", "우리 구름 옆에 있어.", "구름이 다가와."], "explain": "above는 '~보다 위에'라는 뜻입니다." },
+    { "q": "빈칸에 알맞은 말은? — Everything ___ tiny from up here.", "options": ["looks", "sees", "watches", "shows"], "explain": "'~해 보이다'는 look + 형용사이고, everything은 단수라 looks를 씁니다." },
+    { "q": "'Look down!'의 뜻은?", "options": ["아래를 봐!", "위를 봐!", "무시하지 마!", "내려와!"], "explain": "down은 '아래로'라는 뜻으로, 아래쪽을 보라는 말입니다." },
+    { "q": "빈칸에 알맞은 말은? — Clouds are made of tiny water ___.", "options": ["drops", "dots", "bits", "rains"], "explain": "물방울은 water drops라고 합니다." },
+    { "q": "'window seat'의 뜻은?", "options": ["창가 자리", "통로 자리", "비상구", "조종석"], "explain": "비행기에서 창문 옆 자리를 window seat, 통로 쪽 자리를 aisle seat라고 합니다." },
+    { "q": "'cockpit'의 뜻은?", "options": ["조종석", "화장실", "주방", "짐칸"], "explain": "cockpit은 조종사가 앉는 비행기 맨 앞의 조종석입니다." },
+    { "q": "'Take a look'을 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["테이커룩", "테이크 아 룩", "타케아룩", "텍 어 루크"], "explain": "take의 k가 a와 이어져 '테이커룩'처럼 들립니다." },
+    { "q": "'Take a look.'을 쓰기에 가장 알맞은 상황은?", "options": ["아이에게 창밖 풍경을 보라고 권할 때", "아이에게 짐을 들라고 할 때", "아이에게 줄을 서라고 할 때", "아이에게 자리에 앉으라고 할 때"], "explain": "Take a look.은 '한번 봐'라고 보기를 권하는 말입니다." }
+  ]
+}

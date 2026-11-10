@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 35,
+  "topic": "space",
+  "title_en": "The sun",
+  "title_ko": "해",
+  "intro_ko": "맑은 날 밖에 나가기 전, 해에 대해 이야기하는 대화입니다. 햇볕에 손을 내밀어 따뜻함을 느끼거나, 노란 공과 작은 구슬로 해와 지구를 흉내 내 보세요.",
+  "expressions": [
+    { "en": "Don't look at the sun.", "ko": "해를 쳐다보면 안 돼.", "tip": "눈을 보호하려고 꼭 알려 줘야 하는 말이에요. look at the가 이어져 '루캣더'처럼 들립니다.", "who": "parent" },
+    { "en": "It's very hot.", "ko": "아주 뜨거워.", "tip": "very 대신 so, super를 넣어도 돼요. '잇츠 베리 핫'처럼 말하고 hot의 t는 약하게 끝냅니다.", "who": "both" },
+    { "en": "The sun is a star!", "ko": "해는 별이야!", "tip": "아이가 깜짝 놀랄 만한 과학 사실이에요. sun is가 이어져 '써니즈'처럼 들립니다.", "who": "both" },
+    { "en": "Really?", "ko": "정말?", "tip": "놀라거나 확인할 때 끝을 올려 말해요. '륄리?'처럼 r 소리를 살려 주세요.", "who": "kid" },
+    { "en": "No way!", "ko": "말도 안 돼! / 진짜?", "tip": "믿기 힘든 말을 듣고 놀랄 때 써요. '절대 안 돼'라는 거절의 뜻도 있어 상황으로 구분합니다. '노웨이'처럼 붙여 말해요.", "who": "both" }
+  ],
+  "script": [
+    { "who": "kid", "en": "The sun is so bright!", "ko": "해가 엄청 밝아!" },
+    { "who": "parent", "en": "Don't look at the sun, sweetie. It can hurt your eyes.", "ko": "해를 쳐다보면 안 돼. 눈이 다칠 수 있어." },
+    { "who": "kid", "en": "Okay. Don't look at the sun!", "ko": "알았어. 해 쳐다보면 안 돼!", "practice": true },
+    { "who": "parent", "en": "Good. Put your hand in the sunshine.", "ko": "좋아. 햇빛에 손을 대 봐." },
+    { "who": "kid", "en": "It feels warm!", "ko": "따뜻해!" },
+    { "who": "parent", "en": "The sun is very far away, but it's very hot.", "ko": "해는 아주 멀리 있지만, 아주 뜨거워." },
+    { "who": "kid", "en": "How hot?", "ko": "얼마나 뜨거워?" },
+    { "who": "parent", "en": "It's much hotter than fire.", "ko": "불보다 훨씬 뜨거워." },
+    { "who": "kid", "en": "Wow! It's very hot!", "ko": "우와! 엄청 뜨겁구나!", "practice": true },
+    { "who": "parent", "en": "Guess what? The sun is a star!", "ko": "있잖아, 해는 별이야!" },
+    { "who": "kid", "en": "Really?", "ko": "정말?", "practice": true },
+    { "who": "parent", "en": "Really. It's the closest star to Earth.", "ko": "정말이야. 지구에서 제일 가까운 별이야." },
+    { "who": "kid", "en": "No way!", "ko": "말도 안 돼!", "practice": true },
+    { "who": "parent", "en": "It's true! That's why it looks so big.", "ko": "진짜야! 그래서 그렇게 크게 보이는 거야." },
+    { "who": "kid", "en": "Why do other stars look so small?", "ko": "다른 별들은 왜 그렇게 작아 보여?" },
+    { "who": "parent", "en": "They're very, very far away.", "ko": "아주아주 멀리 있거든." },
+    { "who": "kid", "en": "The sun is a star!", "ko": "해는 별이야!", "practice": true },
+    { "who": "parent", "en": "That's right. And it gives us light.", "ko": "맞아. 그리고 우리한테 빛을 줘." },
+    { "who": "kid", "en": "And it helps plants grow!", "ko": "그리고 식물을 자라게 해!" },
+    { "who": "parent", "en": "Yes! Here's another fun fact. Earth goes around the sun.", "ko": "맞아! 재미있는 사실 하나 더. 지구는 해 주위를 돌아." },
+    { "who": "kid", "en": "How long does it take?", "ko": "얼마나 걸려?" },
+    { "who": "parent", "en": "One whole year.", "ko": "꼬박 1년." },
+    { "who": "kid", "en": "A whole year? Wow!", "ko": "1년이나? 우와!" },
+    { "who": "parent", "en": "Now let's put on sunscreen and go play.", "ko": "이제 선크림 바르고 놀러 가자." }
+  ],
+  "talkMore": [
+    { "en": "What do you like to do on sunny days?", "ko": "해가 쨍쨍한 날에는 뭐 하는 게 좋아?", "sample_en": "Play at the park!", "sample_ko": "공원에서 놀기!" },
+    { "en": "What would happen with no sun?", "ko": "해가 없으면 어떻게 될까?", "sample_en": "It's dark and cold!", "sample_ko": "깜깜하고 추워!" },
+    { "en": "How can we stay safe in the sun?", "ko": "햇볕 아래서 어떻게 안전하게 지낼까?", "sample_en": "Wear a hat!", "sample_ko": "모자 써!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is the sun?", "prompt_ko": "해는 어느 거야?", "options": [ { "e": "☀️", "en": "sun" }, { "e": "🌙", "en": "moon" }, { "e": "☁️", "en": "cloud" } ] },
+    { "prompt_en": "Your friend looks right at the sun. What do you say?", "prompt_ko": "친구가 해를 똑바로 쳐다봐. 뭐라고 해?", "options": [ { "e": "🙈", "en": "Don't look!" }, { "e": "👍", "en": "Good job!" }, { "e": "🍽️", "en": "I'm done." } ] },
+    { "prompt_en": "The sun is a…", "prompt_ko": "해는 무엇일까?", "options": [ { "e": "⭐", "en": "star" }, { "e": "🌳", "en": "tree" }, { "e": "🐟", "en": "fish" } ] },
+    { "prompt_en": "What is the sun like?", "prompt_ko": "해는 어때?", "options": [ { "e": "🔥", "en": "very hot" }, { "e": "🧊", "en": "very cold" }, { "e": "💧", "en": "very wet" } ] },
+    { "prompt_en": "You hear something amazing. What do you say?", "prompt_ko": "깜짝 놀랄 이야기를 들었어. 뭐라고 해?", "options": [ { "e": "😲", "en": "No way!" }, { "e": "😴", "en": "Good night." }, { "e": "🍞", "en": "Bread, please." } ] },
+    { "prompt_en": "What do we put on our skin before going out in the sun?", "prompt_ko": "햇볕에 나가기 전에 피부에 뭘 발라?", "options": [ { "e": "🧴", "en": "sunscreen" }, { "e": "🍦", "en": "ice cream" }, { "e": "🍯", "en": "honey" } ] },
+    { "prompt_en": "What does the sun give us?", "prompt_ko": "해는 우리에게 뭘 줘?", "options": [ { "e": "💡", "en": "light" }, { "e": "🍕", "en": "pizza" }, { "e": "🧦", "en": "socks" } ] },
+    { "prompt_en": "What helps plants grow?", "prompt_ko": "식물을 자라게 하는 건 뭐야?", "options": [ { "e": "☀️", "en": "sunlight" }, { "e": "🍭", "en": "candy" }, { "e": "📺", "en": "TV" } ] },
+    { "prompt_en": "You can't believe it. What do you ask?", "prompt_ko": "믿기지 않아. 뭐라고 물어?", "options": [ { "e": "🤔", "en": "Really?" }, { "e": "👋", "en": "Bye-bye!" }, { "e": "😋", "en": "I'm hungry." } ] },
+    { "prompt_en": "What goes around the sun?", "prompt_ko": "해 주위를 도는 건 뭐야?", "options": [ { "e": "🌍", "en": "Earth" }, { "e": "🚗", "en": "a car" }, { "e": "🐶", "en": "a dog" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "놀라운 사실을 듣고 하는 'No way!'의 뜻은?", "options": ["말도 안 돼!", "길이 막혔어!", "길을 잃었어!", "이쪽으로 와!"], "explain": "No way!는 믿기 힘든 말을 듣고 '말도 안 돼, 진짜?'라고 놀랄 때 씁니다." },
+    { "q": "아이에게 '해를 쳐다보면 안 돼.'라고 할 때 알맞은 말은?", "options": ["Don't look at the sun.", "Don't see to the sun.", "No look the sun.", "Don't looking at the sun."], "explain": "무언가를 쳐다볼 때는 look at을 쓰고, Don't 뒤에는 동사원형이 옵니다." },
+    { "q": "빈칸에 알맞은 말은? — It's the ___ star to Earth.", "options": ["closest", "close", "closer", "most close"], "explain": "'가장 가까운'은 최상급 the closest입니다." },
+    { "q": "빈칸에 알맞은 말은? — The sun is very far away, ___ it's very hot.", "options": ["but", "so", "because", "or"], "explain": "멀리 있는데도 뜨겁다는 반대 내용을 잇는 but이 알맞습니다." },
+    { "q": "'Really?'로 놀라움을 나타낼 때 알맞은 억양은?", "options": ["끝을 올려서 말한다", "끝을 내려서 낮게 말한다", "아주 작게 속삭인다", "한 글자씩 끊어 말한다"], "explain": "놀라서 되묻는 Really?는 끝을 올려 말합니다." },
+    { "q": "'Earth goes around the sun. It takes one whole year.'의 뜻은?", "options": ["지구는 해 주위를 돌고, 한 바퀴에 꼬박 1년이 걸려.", "해는 지구 주위를 돌고, 하루가 걸려.", "지구는 1년에 한 번 해를 쳐다봐.", "해는 1년 내내 지구에 있어."], "explain": "지구가 해 주위를 한 바퀴 도는 데 1년이 걸립니다." },
+    { "q": "'No way!'를 놀람의 뜻으로 쓰기에 알맞은 상황은?", "options": ["해가 별이라는 말을 듣고 깜짝 놀랐을 때", "아이에게 길을 알려 줄 때", "고맙다고 인사할 때", "잘 자라고 말할 때"], "explain": "믿기 어려운 사실에 놀랄 때 No way!라고 합니다." },
+    { "q": "'look at the'를 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["루캣더", "룩 앳 더", "로캇테", "룩켓트더"], "explain": "look의 k가 at과 이어져 '루캣더'처럼 들립니다." },
+    { "q": "'sunscreen'의 뜻은?", "options": ["선크림(자외선 차단제)", "선글라스", "양산", "햇볕"], "explain": "피부를 햇볕으로부터 보호하는 크림을 sunscreen이라고 합니다." },
+    { "q": "빈칸에 알맞은 말은? — That's why it looks so ___.", "options": ["big", "much", "many", "far"], "explain": "look 뒤에는 형용사가 와서 '그렇게 크게 보인다'가 됩니다." }
+  ]
+}

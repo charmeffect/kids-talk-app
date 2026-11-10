@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 51,
+  "topic": "daily",
+  "title_en": "Bedtime story",
+  "title_ko": "잠자리 동화",
+  "intro_ko": "잠자기 전 침대에서 그림책을 읽어 주는 장면입니다. 아이가 좋아하는 배나 로켓 그림책 두 권을 준비하고, 마지막에 실제로 불을 끄며 마무리해 보세요.",
+  "expressions": [
+    { "en": "Read me a story.", "ko": "책 읽어 줘.", "tip": "아이가 잠자리에서 책을 읽어 달라고 할 때 쓰는 말이에요. Read me a가 이어져 '리드미어'처럼 들립니다.", "who": "kid" },
+    { "en": "One more, please!", "ko": "하나만 더 해 줘!", "tip": "책이든 간식이든 하나 더 원할 때 쓰는 말이에요. One more가 '원모어'로 붙어서 들립니다.", "who": "kid" },
+    { "en": "This is the last one.", "ko": "이게 마지막이야.", "tip": "끝을 미리 알려 주면 실랑이가 줄어요. This is는 '디시즈'로 이어지고, last one은 t가 약해져 '래스원'처럼 들립니다.", "who": "parent" },
+    { "en": "Sweet dreams.", "ko": "좋은 꿈 꿔.", "tip": "Good night과 함께 하는 잠자리 마지막 인사예요. Sweet의 t가 약해져 '스위-드림즈'처럼 들립니다.", "who": "both" },
+    { "en": "Lights out.", "ko": "이제 불 끄고 자자.", "tip": "불 끄고 잘 시간이라는 짧은 말로, 'Lights out in five minutes.'처럼도 써요. Lights out이 이어져 '라잇차웃'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Pajamas on, teeth brushed. Time for bed, sweetie.", "ko": "잠옷 입고 이도 닦았지. 이제 잘 시간이야." },
+    { "who": "kid", "en": "Read me a story!", "ko": "책 읽어 줘!", "practice": true },
+    { "who": "parent", "en": "Okay. Pick a book.", "ko": "좋아. 책 골라 봐." },
+    { "who": "kid", "en": "This one! The ship book!", "ko": "이거! 배 나오는 책!", "practice": true },
+    { "who": "parent", "en": "Good choice. Come sit with me.", "ko": "잘 골랐네. 이리 와서 앉아." },
+    { "who": "kid", "en": "Can I turn the pages?", "ko": "내가 책장 넘겨도 돼?", "practice": true },
+    { "who": "parent", "en": "Sure. Once upon a time, there was a little red boat.", "ko": "그럼. 옛날 옛적에 작은 빨간 배가 있었어요." },
+    { "who": "kid", "en": "Why is it red?", "ko": "왜 빨간색이야?" },
+    { "who": "parent", "en": "Hmm, maybe red is its favorite color.", "ko": "음, 빨간색을 제일 좋아하나 봐." },
+    { "who": "kid", "en": "Ha! Keep reading!", "ko": "하하! 계속 읽어 줘!" },
+    { "who": "parent", "en": "The little boat sailed all the way home. The end.", "ko": "작은 배는 집까지 쭉 항해해 돌아왔어요. 끝." },
+    { "who": "kid", "en": "One more, please!", "ko": "하나만 더 읽어 줘!", "practice": true },
+    { "who": "parent", "en": "Okay. But this is the last one.", "ko": "좋아. 그런데 이게 마지막이야." },
+    { "who": "kid", "en": "The rocket book!", "ko": "로켓 책!" },
+    { "who": "parent", "en": "The rocket flew to the moon and came back home. The end.", "ko": "로켓은 달에 갔다가 집으로 돌아왔어요. 끝." },
+    { "who": "kid", "en": "One more? Please?", "ko": "하나만 더? 응?" },
+    { "who": "parent", "en": "No, buddy. That was the last one. Lights out.", "ko": "안 돼. 그게 마지막이었어. 이제 불 끄고 자자." },
+    { "who": "kid", "en": "Can you leave the door open?", "ko": "문 열어 둬 줄 수 있어?", "practice": true },
+    { "who": "parent", "en": "Sure, just a little.", "ko": "그래, 조금만." },
+    { "who": "kid", "en": "Will you read again tomorrow?", "ko": "내일 또 읽어 줄 거야?" },
+    { "who": "parent", "en": "Of course. Good night. Sweet dreams.", "ko": "물론이지. 잘 자. 좋은 꿈 꿔." },
+    { "who": "kid", "en": "Sweet dreams! Good night!", "ko": "좋은 꿈 꿔! 잘 자!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What was your favorite part of the story?", "ko": "이야기에서 제일 좋았던 부분은 뭐야?", "sample_en": "The red boat!", "sample_ko": "빨간 배!" },
+    { "en": "If you had a boat, what color would it be?", "ko": "너한테 배가 있다면 무슨 색일까?", "sample_en": "Blue, like the sea.", "sample_ko": "파란색, 바다처럼." },
+    { "en": "What do you want to dream about tonight?", "ko": "오늘 밤에 무슨 꿈 꾸고 싶어?", "sample_en": "Rockets and space!", "sample_ko": "로켓이랑 우주!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "You want a story. What do you say?", "prompt_ko": "책을 읽어 달라고 할 때 뭐라고 해?", "options": [ { "e": "📖", "en": "Read me a story." }, { "e": "🍕", "en": "I want pizza." }, { "e": "🏃", "en": "Let's run!" } ] },
+    { "prompt_en": "You want one more book. What do you say?", "prompt_ko": "책을 한 권 더 읽고 싶어. 뭐라고 해?", "options": [ { "e": "☝️", "en": "One more, please!" }, { "e": "✋", "en": "Stop!" }, { "e": "👋", "en": "Bye-bye!" } ] },
+    { "prompt_en": "Which one is a book?", "prompt_ko": "책은 어느 거야?", "options": [ { "e": "📖", "en": "book" }, { "e": "🥄", "en": "spoon" }, { "e": "⚽", "en": "ball" } ] },
+    { "prompt_en": "What color was the little boat?", "prompt_ko": "작은 배는 무슨 색이었지?", "options": [ { "e": "🔴", "en": "red" }, { "e": "🟢", "en": "green" }, { "e": "🟡", "en": "yellow" } ] },
+    { "prompt_en": "Where did the rocket go?", "prompt_ko": "로켓은 어디에 갔지?", "options": [ { "e": "🌙", "en": "the moon" }, { "e": "🏫", "en": "school" }, { "e": "🏖️", "en": "the beach" } ] },
+    { "prompt_en": "What do you say before you go to sleep?", "prompt_ko": "잠들기 전에 뭐라고 해?", "options": [ { "e": "💤", "en": "Sweet dreams." }, { "e": "🍽️", "en": "Let's eat!" }, { "e": "☀️", "en": "Good morning!" } ] },
+    { "prompt_en": "It's lights out. What do we turn off?", "prompt_ko": "잘 시간이야. 뭘 끌까?", "options": [ { "e": "💡", "en": "the light" }, { "e": "🍎", "en": "the apple" }, { "e": "🧸", "en": "the teddy bear" } ] },
+    { "prompt_en": "Where do you sleep?", "prompt_ko": "너는 어디서 자?", "options": [ { "e": "🛏️", "en": "in bed" }, { "e": "🌳", "en": "in a tree" }, { "e": "🚿", "en": "in the shower" } ] },
+    { "prompt_en": "What do you do before bed?", "prompt_ko": "자기 전에 뭘 해?", "options": [ { "e": "🪥", "en": "brush my teeth" }, { "e": "⚽", "en": "play soccer" }, { "e": "🏊", "en": "go swimming" } ] },
+    { "prompt_en": "When is bedtime?", "prompt_ko": "잘 시간은 언제야?", "options": [ { "e": "🌙", "en": "at night" }, { "e": "☀️", "en": "in the morning" }, { "e": "🍱", "en": "at lunch" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Read me a story.'의 뜻은?", "options": ["책 읽어 줘.", "이야기를 써 줘.", "내 이야기 좀 들어 줘.", "책 사 줘."], "explain": "Read me a story는 '나에게 이야기를 읽어 줘'라는 잠자리 단골 요청입니다." },
+    { "q": "'이게 마지막이야.'라고 미리 알려 줄 때 알맞은 말은?", "options": ["This is the last one.", "This is the late one.", "This one is finish.", "This is a last."], "explain": "마지막 하나는 the last one이라고 하며 This is the last one.이 자연스럽습니다." },
+    { "q": "잠자리에서 'Lights out.'이라고 하면?", "options": ["이제 불 끄고 자자.", "불 좀 켜 줘.", "밖이 아직 밝아.", "불빛이 예쁘다."], "explain": "Lights out은 불을 끄고 잘 시간이라는 뜻으로 잠자리에서 자주 씁니다." },
+    { "q": "빈칸에 알맞은 말은? — Good choice. Come ___ with me.", "options": ["sit", "sitting", "sat", "to sit"], "explain": "Come 뒤에 동사원형을 바로 붙여 Come sit with me(이리 와서 앉아)라고 말합니다." },
+    { "q": "'Sweet dreams.'는 언제 쓸까?", "options": ["잠들기 직전 인사로", "아침에 일어났을 때", "단 음식을 줄 때", "꿈 이야기를 들은 뒤 칭찬할 때"], "explain": "Sweet dreams는 Good night과 함께 하는 잠자리 인사입니다." },
+    { "q": "'Lights out'을 자연스럽게 이어 말하면?", "options": ["라잇차웃", "라이츠 아웃", "라이트스 아우트", "리츠아웃"], "explain": "ts 소리가 out의 모음과 이어져 '라잇차웃'처럼 들립니다." },
+    { "q": "아이가 한 권 더 원할 때 '좋아, 근데 이게 마지막이야.'는?", "options": ["Okay. But this is the last one.", "Okay. But this is the one last.", "Okay. But it is final one.", "Okay. But this is lastly."], "explain": "'마지막 것'은 the last one 순서로 말합니다." },
+    { "q": "빈칸에 알맞은 말은? — Once upon a time, there ___ a little red boat.", "options": ["was", "were", "is being", "has"], "explain": "옛날이야기는 과거형이고 a boat는 단수라서 there was를 씁니다." },
+    { "q": "아이에게 '책 골라 봐.'라고 할 때 알맞은 말은?", "options": ["Pick a book.", "Pick up a book.", "Choose me book.", "Take a book out."], "explain": "pick은 '고르다', pick up은 '집어 들다'라서 고르라고 할 때는 Pick a book.입니다." },
+    { "q": "'Good choice.'의 뜻은?", "options": ["잘 골랐네.", "좋은 기회야.", "네가 골라.", "고르기 어렵다."], "explain": "choice는 '선택'이라서 Good choice는 '잘 골랐다'는 칭찬입니다." }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "stage": 1,
+  "day": 8,
+  "topic": "science",
+  "title_en": "Why is the sky blue?",
+  "title_ko": "하늘은 왜 파랄까?",
+  "intro_ko": "맑은 날 하늘을 올려다보며 '왜?'를 묻는 아이와 함께 답을 찾아보는 장면입니다. 그림책이나 휴대폰으로 하늘·노을 사진을 같이 보며 해 보세요.",
+  "expressions": [
+    { "en": "Why?", "ko": "왜?", "tip": "아이가 가장 많이 하는 질문이에요. 끝을 올려 '와이?'라고 말하고, 아이가 물으면 반가워해 주세요.", "who": "kid" },
+    { "en": "That's a good question.", "ko": "좋은 질문이야.", "tip": "아이의 질문을 칭찬하며 생각할 시간을 벌 때 써요. That's a가 이어져 '댓처 굿 퀘스천'처럼 들립니다.", "who": "parent" },
+    { "en": "I wonder …", "ko": "…가 궁금하다", "tip": "I wonder why…, I wonder what… 처럼 궁금한 것을 말할 때 써요. wonder는 '원더', wander(돌아다니다)는 '완더'로 다릅니다.", "who": "both" },
+    { "en": "Let's look it up.", "ko": "찾아보자.", "tip": "모르는 것을 책이나 인터넷에서 찾아볼 때 써요. look it up이 이어져 '루키럽'처럼 들립니다.", "who": "both" },
+    { "en": "Beats me.", "ko": "나도 모르겠어.", "tip": "'전혀 모르겠다'는 가벼운 말투예요. 아이 질문에 답을 모를 때 이렇게 말하고 같이 찾아보면 좋아요. '빗츠미'처럼 말합니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "kid", "en": "Look! The sky is so blue.", "ko": "봐! 하늘이 엄청 파래." },
+    { "who": "parent", "en": "It's beautiful today, isn't it?", "ko": "오늘 정말 예쁘다, 그렇지?" },
+    { "who": "kid", "en": "Why is the sky blue?", "ko": "하늘은 왜 파래?", "practice": true },
+    { "who": "parent", "en": "That's a good question.", "ko": "좋은 질문이야." },
+    { "who": "kid", "en": "Do you know?", "ko": "알아?" },
+    { "who": "parent", "en": "Hmm, beats me!", "ko": "음, 나도 모르겠는데!" },
+    { "who": "kid", "en": "You don't know?", "ko": "몰라?", "practice": true },
+    { "who": "parent", "en": "Not yet. Let's look it up.", "ko": "아직은. 찾아보자." },
+    { "who": "kid", "en": "Here's my science book!", "ko": "여기 내 과학책!" },
+    { "who": "parent", "en": "It says sunlight has all the colors in it.", "ko": "햇빛 안에 모든 색이 다 들어 있대." },
+    { "who": "kid", "en": "All the colors? Why?", "ko": "모든 색? 왜?", "practice": true },
+    { "who": "parent", "en": "Sunlight looks white, but it's really a rainbow of colors mixed together.", "ko": "햇빛은 하얗게 보이지만, 사실 무지개 색이 다 섞여 있는 거야." },
+    { "who": "kid", "en": "Wow! Then why blue?", "ko": "우와! 그럼 왜 파란색이야?" },
+    { "who": "parent", "en": "The air bounces blue light all over the sky.", "ko": "공기가 파란빛을 하늘 여기저기로 튕겨 보내거든." },
+    { "who": "kid", "en": "So we see blue everywhere!", "ko": "그래서 어디서나 파랗게 보이는구나!" },
+    { "who": "parent", "en": "Exactly! You got it.", "ko": "바로 그거야! 이해했구나." },
+    { "who": "kid", "en": "I wonder why sunsets are orange.", "ko": "노을은 왜 주황색인지 궁금해.", "practice": true },
+    { "who": "parent", "en": "Ooh, another good question.", "ko": "오, 또 좋은 질문이네." },
+    { "who": "kid", "en": "Let's look it up!", "ko": "찾아보자!", "practice": true },
+    { "who": "parent", "en": "At sunset, the light travels through much more air.", "ko": "해 질 때는 빛이 훨씬 더 많은 공기를 지나와." },
+    { "who": "kid", "en": "And then?", "ko": "그래서?" },
+    { "who": "parent", "en": "The blue bounces away, so we see orange and red.", "ko": "파란빛은 다 튕겨 나가서, 주황색과 빨간색이 보이는 거야." },
+    { "who": "kid", "en": "So cool! I love science.", "ko": "멋지다! 나 과학 좋아.", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What color is the sky at night?", "ko": "밤에는 하늘이 무슨 색이야?", "sample_en": "It's black!", "sample_ko": "까만색!" },
+    { "en": "What else do you wonder about?", "ko": "또 뭐가 궁금해?", "sample_en": "Why is the sea blue?", "sample_ko": "바다는 왜 파래?" },
+    { "en": "What's your favorite color in the sky?", "ko": "하늘에서 제일 좋아하는 색은 뭐야?", "sample_en": "Orange, at sunset!", "sample_ko": "노을 때 주황색!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "What color is the sky on a sunny day?", "prompt_ko": "맑은 날 하늘은 무슨 색이야?", "options": [ { "e": "🔵", "en": "blue" }, { "e": "🟢", "en": "green" }, { "e": "🟤", "en": "brown" } ] },
+    { "prompt_en": "What color is the sky at sunset?", "prompt_ko": "해 질 때 하늘은 무슨 색이야?", "options": [ { "e": "🟠", "en": "orange" }, { "e": "🟢", "en": "green" }, { "e": "🟤", "en": "brown" } ] },
+    { "prompt_en": "Where does sunlight come from?", "prompt_ko": "햇빛은 어디서 와?", "options": [ { "e": "☀️", "en": "the sun" }, { "e": "🌧️", "en": "the rain" }, { "e": "🍎", "en": "an apple" } ] },
+    { "prompt_en": "You don't know the answer. You want to find out. What do you say?", "prompt_ko": "답을 몰라서 알아보고 싶어. 뭐라고 해?", "options": [ { "e": "📖", "en": "Let's look it up!" }, { "e": "😴", "en": "Good night." }, { "e": "🍪", "en": "I'm hungry." } ] },
+    { "prompt_en": "Your friend asks a great question. What do you say?", "prompt_ko": "친구가 멋진 질문을 했어. 뭐라고 해?", "options": [ { "e": "👍", "en": "Good question!" }, { "e": "👋", "en": "Bye-bye." }, { "e": "😭", "en": "I'm sad." } ] },
+    { "prompt_en": "Where can we look it up?", "prompt_ko": "어디서 찾아볼 수 있어?", "options": [ { "e": "📚", "en": "in a book" }, { "e": "🧦", "en": "in a sock" }, { "e": "🍌", "en": "in a banana" } ] },
+    { "prompt_en": "Sunlight has all the…", "prompt_ko": "햇빛 안에는 모든 … 이 있어.", "options": [ { "e": "🌈", "en": "colors" }, { "e": "🐟", "en": "fish" }, { "e": "🚗", "en": "cars" } ] },
+    { "prompt_en": "You want to know the reason. What do you ask?", "prompt_ko": "이유가 궁금해. 뭐라고 물어?", "options": [ { "e": "🤔", "en": "Why?" }, { "e": "🙋", "en": "Me!" }, { "e": "👋", "en": "Hi!" } ] },
+    { "prompt_en": "Someone asks you a question. You don't know. What do you say?", "prompt_ko": "누가 질문했는데 몰라. 뭐라고 해?", "options": [ { "e": "🤷", "en": "I don't know." }, { "e": "🎂", "en": "Happy birthday!" }, { "e": "🍽️", "en": "I'm full." } ] },
+    { "prompt_en": "Which one is a cloud?", "prompt_ko": "구름은 어느 거야?", "options": [ { "e": "☁️", "en": "cloud" }, { "e": "🌳", "en": "tree" }, { "e": "🏠", "en": "house" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Beats me.'의 뜻은?", "options": ["나도 모르겠어.", "날 때려 봐.", "내가 이겼어.", "나 좀 도와줘."], "explain": "'전혀 모르겠다'는 가벼운 구어 표현입니다." },
+    { "q": "'Let's look it up.'의 뜻은?", "options": ["(책·인터넷에서) 찾아보자.", "위를 올려다보자.", "그거 들어 올리자.", "다 같이 기다리자."], "explain": "look up은 사전·책·인터넷에서 정보를 '찾아보다'라는 뜻입니다." },
+    { "q": "아이가 좋은 질문을 했을 때 칭찬하는 말로 알맞은 것은?", "options": ["That's a good question.", "That's a good ask.", "It's a nice questioning.", "Good asking."], "explain": "That's a good question.은 질문을 칭찬하며 생각할 시간을 버는 말입니다." },
+    { "q": "빈칸에 알맞은 말은? — I ___ why sunsets are orange.", "options": ["wonder", "wander", "wondering", "wonders"], "explain": "I wonder why…는 '왜 …인지 궁금해'라는 뜻이며, wander는 '돌아다니다'입니다." },
+    { "q": "'I wonder…'의 뜻은?", "options": ["…가 궁금하다", "…가 놀랍다", "…를 기다린다", "…를 확신한다"], "explain": "wonder는 동사로 '궁금해하다'라는 뜻입니다." },
+    { "q": "'Let's look it up'을 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["렛츠 루키럽", "렛츠 룩 잇 업", "레츠 루크 이트 업", "렛 루크 업"], "explain": "look의 k가 it에, it의 t가 약해져 up에 붙어 '루키럽'처럼 들립니다." },
+    { "q": "빈칸에 알맞은 말은? — The air ___ blue light all over the sky.", "options": ["bounces", "bounce", "bouncing", "to bounce"], "explain": "주어 The air가 3인칭 단수이므로 bounces를 씁니다." },
+    { "q": "아이가 설명을 이해했을 때 '바로 그거야! 이해했구나.'를 자연스럽게 말하면?", "options": ["Exactly! You got it.", "Exact! You have it.", "Correctly! You got.", "Exactly! You catch."], "explain": "You got it.은 '맞혔어, 이해했구나'라는 뜻으로 자주 씁니다." },
+    { "q": "'Beats me.'와 뜻이 가장 비슷한 것은?", "options": ["I have no idea.", "I beat you.", "Hit me.", "I know it."], "explain": "둘 다 '전혀 모르겠다'는 뜻입니다." },
+    { "q": "아이에게 하늘이 파란 이유를 쉽게 설명한다면?", "options": ["공기가 파란빛을 사방으로 퍼뜨려서", "바다가 하늘에 비쳐서", "구름이 파란색이라서", "해가 파란색이라서"], "explain": "햇빛이 공기를 지날 때 파란빛이 가장 많이 흩어져 하늘 전체가 파랗게 보입니다." }
+  ]
+}

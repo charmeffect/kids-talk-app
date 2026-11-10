@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 32,
+  "topic": "science",
+  "title_en": "Plants grow",
+  "title_ko": "식물이 자라요",
+  "intro_ko": "창가에 키우는 콩 화분을 함께 살펴보며 하는 대화입니다. 실제 화분이나 콩나물, 또는 그림을 앞에 두고 물뿌리개로 물 주는 흉내를 내 보세요.",
+  "expressions": [
+    { "en": "Let's water the plant.", "ko": "식물에 물 주자.", "tip": "water는 '물을 주다'라는 동사로도 써요. water의 t는 부드럽게 '워러'처럼 소리 납니다.", "who": "both" },
+    { "en": "It needs sunlight.", "ko": "햇빛이 필요해.", "tip": "식물에게 필요한 것을 말할 때 써요. needs의 s를 살려 '잇 니즈 썬라잇'처럼 말합니다.", "who": "both" },
+    { "en": "It's growing!", "ko": "자라고 있어!", "tip": "식물이나 아이가 커가는 모습을 보고 신나게 말할 때 써요. '잇츠 그로잉'처럼 말합니다.", "who": "both" },
+    { "en": "Look how tall!", "ko": "얼마나 큰지 봐!", "tip": "키가 큰 것에 감탄할 때 써요. Look how tall it is!처럼 길게 말해도 됩니다. '룩하우톨'처럼 이어서 말해요.", "who": "both" },
+    { "en": "Keep it up!", "ko": "계속 그렇게 잘해!", "tip": "아이가 잘하고 있을 때 계속 하라고 응원하는 말이에요. '키피럽'처럼 세 단어가 이어집니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Let's check our bean plant.", "ko": "우리 콩 화분 보러 가자." },
+    { "who": "kid", "en": "Where is it?", "ko": "어디 있어?" },
+    { "who": "parent", "en": "By the window. Can you see it?", "ko": "창가에. 보여?" },
+    { "who": "kid", "en": "Wow! It's growing!", "ko": "우와! 자라고 있어!", "practice": true },
+    { "who": "parent", "en": "Yes! Remember the tiny seed?", "ko": "맞아! 그 조그만 씨앗 기억나?" },
+    { "who": "kid", "en": "Now it has leaves!", "ko": "이제 잎이 났어!" },
+    { "who": "parent", "en": "It's as tall as my hand now.", "ko": "이제 내 손만큼 커졌어." },
+    { "who": "kid", "en": "Look how tall!", "ko": "얼마나 큰지 봐!", "practice": true },
+    { "who": "parent", "en": "Hmm, the soil is dry. Let's water the plant.", "ko": "음, 흙이 말랐네. 식물에 물 주자." },
+    { "who": "kid", "en": "Let's water the plant! Can I do it?", "ko": "물 주자! 내가 해도 돼?", "practice": true },
+    { "who": "parent", "en": "Sure. Just a little bit, not too much.", "ko": "그럼. 조금만, 너무 많이 말고." },
+    { "who": "kid", "en": "Why is it by the window?", "ko": "왜 창가에 있어?" },
+    { "who": "parent", "en": "Because it needs sunlight.", "ko": "햇빛이 필요하거든." },
+    { "who": "kid", "en": "Why?", "ko": "왜?" },
+    { "who": "parent", "en": "Plants use sunlight to make their own food.", "ko": "식물은 햇빛으로 자기 먹을 걸 만들어." },
+    { "who": "kid", "en": "Plants make food?", "ko": "식물이 음식을 만들어?" },
+    { "who": "parent", "en": "Yes! They make it in their leaves.", "ko": "응! 잎에서 만들어." },
+    { "who": "kid", "en": "Cool! It needs sunlight and water!", "ko": "멋지다! 햇빛이랑 물이 필요하구나!", "practice": true },
+    { "who": "parent", "en": "That's right. The roots drink water from the soil.", "ko": "맞아. 뿌리가 흙에서 물을 마셔." },
+    { "who": "kid", "en": "What are roots?", "ko": "뿌리가 뭐야?" },
+    { "who": "parent", "en": "They're under the soil. They're like little straws.", "ko": "흙 속에 있는 거야. 작은 빨대 같아." },
+    { "who": "kid", "en": "I'll water it every day!", "ko": "나 매일 물 줄 거야!", "practice": true },
+    { "who": "parent", "en": "Great job, sweetie. Keep it up!", "ko": "잘했어. 계속 그렇게 잘해!" },
+    { "who": "kid", "en": "Grow, bean, grow!", "ko": "자라라, 콩아, 자라라!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What do plants need to grow?", "ko": "식물이 자라려면 뭐가 필요해?", "sample_en": "Water and sunlight!", "sample_ko": "물이랑 햇빛!" },
+    { "en": "What plant do you want to grow?", "ko": "어떤 식물을 키우고 싶어?", "sample_en": "A big sunflower!", "sample_ko": "커다란 해바라기!" },
+    { "en": "Could a plant grow on a spaceship?", "ko": "우주선에서도 식물이 자랄 수 있을까?", "sample_en": "Yes, with lights!", "sample_ko": "응, 불빛이 있으면!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "What do we give a plant to drink?", "prompt_ko": "식물에게 뭘 마시게 해?", "options": [ { "e": "💧", "en": "water" }, { "e": "🍫", "en": "chocolate" }, { "e": "🧸", "en": "a teddy bear" } ] },
+    { "prompt_en": "Which one is the sun?", "prompt_ko": "해는 어느 거야?", "options": [ { "e": "☀️", "en": "sun" }, { "e": "🌙", "en": "moon" }, { "e": "⛵", "en": "boat" } ] },
+    { "prompt_en": "Your plant gets bigger. What do you say?", "prompt_ko": "식물이 커지고 있어. 뭐라고 해?", "options": [ { "e": "🌱", "en": "It's growing!" }, { "e": "😴", "en": "It's sleeping." }, { "e": "🚗", "en": "It's driving." } ] },
+    { "prompt_en": "The soil is dry. What do we do?", "prompt_ko": "흙이 말랐어. 어떻게 할까?", "options": [ { "e": "💧", "en": "Let's water the plant." }, { "e": "🗑️", "en": "Throw it away." }, { "e": "🛏️", "en": "Go to bed." } ] },
+    { "prompt_en": "Which one is a leaf?", "prompt_ko": "잎은 어느 거야?", "options": [ { "e": "🍃", "en": "leaf" }, { "e": "🪨", "en": "rock" }, { "e": "👟", "en": "shoe" } ] },
+    { "prompt_en": "Plants need sunlight. Where do we put the plant?", "prompt_ko": "식물은 햇빛이 필요해. 화분을 어디에 둘까?", "options": [ { "e": "🪟", "en": "by the window" }, { "e": "📦", "en": "in a box" }, { "e": "🛏️", "en": "under the bed" } ] },
+    { "prompt_en": "Which one is a flower?", "prompt_ko": "꽃은 어느 거야?", "options": [ { "e": "🌻", "en": "flower" }, { "e": "🐟", "en": "fish" }, { "e": "🚌", "en": "bus" } ] },
+    { "prompt_en": "Your plant is very big. What do you say?", "prompt_ko": "식물이 아주 커졌어. 뭐라고 해?", "options": [ { "e": "📏", "en": "Look how tall!" }, { "e": "😢", "en": "I'm sad." }, { "e": "🍽️", "en": "I'm done." } ] },
+    { "prompt_en": "Roots drink water like little…", "prompt_ko": "뿌리는 작은 뭐처럼 물을 마셔?", "options": [ { "e": "🥤", "en": "straws" }, { "e": "⚽", "en": "balls" }, { "e": "🧦", "en": "socks" } ] },
+    { "prompt_en": "Your friend is doing great. What do you say?", "prompt_ko": "친구가 아주 잘하고 있어. 뭐라고 해?", "options": [ { "e": "👍", "en": "Keep it up!" }, { "e": "😴", "en": "Good night." }, { "e": "😋", "en": "I'm hungry." } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Keep it up!'의 뜻은?", "options": ["계속 그렇게 잘해!", "높이 들고 있어!", "이제 그만해!", "위에 올려놔!"], "explain": "잘하고 있는 일을 계속하라고 응원하는 표현입니다." },
+    { "q": "'식물에 물 주자.'를 자연스럽게 말하면?", "options": ["Let's water the plant.", "Let's give water plant.", "Let's watering the plant.", "Let's drink the plant."], "explain": "water는 '물을 주다'라는 동사로 써서 Let's water the plant.라고 합니다." },
+    { "q": "빈칸에 알맞은 말은? — Because it ___ sunlight.", "options": ["needs", "need", "needing", "is need"], "explain": "주어가 it이므로 needs를 씁니다." },
+    { "q": "'Look how tall!'의 뜻은?", "options": ["얼마나 큰지 봐!", "키가 몇이야?", "키 재 볼까?", "위를 올려다봐!"], "explain": "Look how + 형용사!는 '얼마나 ~한지 봐!'라는 감탄 표현입니다." },
+    { "q": "'It's growing!'의 뜻은?", "options": ["자라고 있어!", "시들고 있어!", "흔들리고 있어!", "다 컸어!"], "explain": "grow는 '자라다'로, 지금 자라는 중이라는 뜻입니다." },
+    { "q": "빈칸에 알맞은 말은? — Plants use sunlight to make their own ___.", "options": ["food", "eat", "hungry", "cook"], "explain": "식물은 햇빛으로 자기 양분(food)을 만듭니다." },
+    { "q": "아이에게 '조금만, 너무 많이 말고.'라고 할 때 알맞은 말은?", "options": ["Just a little bit, not too much.", "Only little, no much.", "Just few, not many.", "A little only, not too many."], "explain": "물처럼 셀 수 없는 것은 a little, too much로 말합니다." },
+    { "q": "'Keep it up'을 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["키피럽", "킵 잇 업", "키프 이트 업", "깁잇업"], "explain": "p가 it과 이어지고 t가 모음 사이에서 부드러워져 '키피럽'처럼 들립니다." },
+    { "q": "'water'가 동사로 쓰일 때 뜻은?", "options": ["물을 주다", "물을 마시다", "물에 빠지다", "물을 끓이다"], "explain": "water the plant처럼 동사 water는 '물을 주다'라는 뜻입니다." },
+    { "q": "'Keep it up!'을 쓰기에 가장 알맞은 상황은?", "options": ["아이가 매일 화분에 물을 주겠다고 할 때", "아이가 물건을 떨어뜨렸을 때", "아이가 자러 갈 때", "아이가 넘어져 다쳤을 때"], "explain": "좋은 행동을 계속하라고 격려할 때 씁니다." }
+  ]
+}

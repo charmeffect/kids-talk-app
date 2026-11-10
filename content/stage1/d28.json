@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 28,
+  "topic": "ships",
+  "title_en": "Fishing boat",
+  "title_ko": "고기잡이 배",
+  "intro_ko": "작은 배를 타고 낚시하는 놀이입니다. 막대에 실과 클립을 달아 낚싯대를 만들고, 바닥에 종이 물고기를 흩어 놓은 뒤 소파를 배 삼아 앉아서 해 보세요.",
+  "expressions": [
+    { "en": "Did you catch a fish?", "ko": "물고기 잡았어?", "tip": "catch는 '잡다'예요. Did you가 붙어 '디쥬'로, catch a가 이어져 '디쥬 캐취어 피쉬'처럼 들립니다.", "who": "parent" },
+    { "en": "Not yet.", "ko": "아직.", "tip": "아직 안 됐을 때 짧게 하는 대답이에요. Are you done?, Is it ready?에도 쓸 수 있어요. not의 t는 거의 안 들리고 살짝 끊어 '낫 옛'처럼 말합니다.", "who": "kid" },
+    { "en": "Be patient.", "ko": "참고 기다려.", "tip": "기다리기 힘들어하는 아이에게 '조금만 참아'라는 뜻으로 써요. patient는 '페이션트'로 발음합니다.", "who": "parent" },
+    { "en": "I got one!", "ko": "하나 잡았다!", "tip": "물고기나 원하는 것을 잡았을 때 외치는 말이에요. got one이 이어져 t가 굴러 '아이 가런!'처럼 들립니다.", "who": "kid" },
+    { "en": "Hang in there.", "ko": "조금만 더 힘내. / 버텨 봐.", "tip": "힘들거나 지루할 때 '조금만 더 견뎌 봐'라고 격려하는 말이에요. hang in이 이어져 '행인데어'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Here we are on our fishing boat!", "ko": "자, 우리 고기잡이 배에 탔어!" },
+    { "who": "kid", "en": "The boat is rocking!", "ko": "배가 흔들려!", "practice": true },
+    { "who": "parent", "en": "It's the waves. Hold on to the side.", "ko": "파도 때문이야. 옆을 꼭 잡아." },
+    { "who": "kid", "en": "Can I fish now?", "ko": "이제 낚시해도 돼?" },
+    { "who": "parent", "en": "Sure. Drop your line into the water.", "ko": "그럼. 낚싯줄을 물에 던져." },
+    { "who": "kid", "en": "Splash!", "ko": "풍덩!" },
+    { "who": "parent", "en": "Now we wait for a fish to bite.", "ko": "이제 물고기가 물 때까지 기다리는 거야." },
+    { "who": "kid", "en": "How long?", "ko": "얼마나?" },
+    { "who": "parent", "en": "Maybe a long time. Be patient.", "ko": "오래 걸릴 수도 있어. 참고 기다려." },
+    { "who": "kid", "en": "Okay. I'll be patient.", "ko": "알았어. 참고 기다릴게.", "practice": true },
+    { "who": "parent", "en": "So, did you catch a fish?", "ko": "그래서, 물고기 잡았어?" },
+    { "who": "kid", "en": "Not yet.", "ko": "아직.", "practice": true },
+    { "who": "parent", "en": "Hang in there. The fish are coming.", "ko": "조금만 더 힘내. 물고기들이 오고 있어." },
+    { "who": "kid", "en": "Why is that boat so big?", "ko": "저 배는 왜 저렇게 커?" },
+    { "who": "parent", "en": "That's a big fishing boat. It uses a huge net.", "ko": "큰 고기잡이 배야. 아주 큰 그물을 써." },
+    { "who": "kid", "en": "A net? Why?", "ko": "그물? 왜?" },
+    { "who": "parent", "en": "To catch lots of fish at once.", "ko": "한 번에 물고기를 많이 잡으려고." },
+    { "who": "kid", "en": "Whoa! My line is moving!", "ko": "우와! 내 낚싯줄이 움직여!", "practice": true },
+    { "who": "parent", "en": "A fish is biting! Pull it up slowly.", "ko": "물고기가 물었어! 천천히 끌어 올려." },
+    { "who": "kid", "en": "I got one!", "ko": "하나 잡았다!", "practice": true },
+    { "who": "parent", "en": "Look at that! It's so shiny.", "ko": "저것 봐! 정말 반짝반짝하다." },
+    { "who": "kid", "en": "Can we let it go?", "ko": "놓아줘도 돼?", "practice": true },
+    { "who": "parent", "en": "Sure. Back in the water, little fish!", "ko": "그럼. 물속으로 돌아가렴, 작은 물고기야!" },
+    { "who": "kid", "en": "Bye-bye, fish! Swim fast!", "ko": "안녕, 물고기야! 빨리 헤엄쳐!" }
+  ],
+  "talkMore": [
+    { "en": "What kind of fish do you want to catch?", "ko": "어떤 물고기를 잡고 싶어?", "sample_en": "A big blue one!", "sample_ko": "크고 파란 거!" },
+    { "en": "What else lives in the sea?", "ko": "바다에는 또 뭐가 살아?", "sample_en": "Octopuses and crabs!", "sample_ko": "문어랑 게!" },
+    { "en": "When is it hard to wait?", "ko": "언제 기다리기가 힘들어?", "sample_en": "Before my birthday!", "sample_ko": "내 생일 전에!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a fish?", "prompt_ko": "물고기는 어느 거야?", "options": [ { "e": "🐟", "en": "fish" }, { "e": "🐦", "en": "bird" }, { "e": "🐄", "en": "cow" } ] },
+    { "prompt_en": "Where do fish live?", "prompt_ko": "물고기는 어디에 살아?", "options": [ { "e": "🌊", "en": "in the water" }, { "e": "🌳", "en": "in trees" }, { "e": "☁️", "en": "in the clouds" } ] },
+    { "prompt_en": "Someone asks, 'Did you catch a fish?' You have no fish yet. What do you say?", "prompt_ko": "'물고기 잡았어?' 아직 못 잡았어. 뭐라고 해?", "options": [ { "e": "⏳", "en": "Not yet." }, { "e": "🎂", "en": "Happy birthday!" }, { "e": "🚿", "en": "Bath time!" } ] },
+    { "prompt_en": "You catch a fish! What do you say?", "prompt_ko": "물고기를 잡았어! 뭐라고 해?", "options": [ { "e": "🎣", "en": "I got one!" }, { "e": "😴", "en": "Good night." }, { "e": "😢", "en": "I'm sad." } ] },
+    { "prompt_en": "A big fishing boat uses a… to catch lots of fish.", "prompt_ko": "큰 고기잡이 배는 물고기를 많이 잡으려고 뭘 써?", "options": [ { "e": "🥅", "en": "net" }, { "e": "🍴", "en": "fork" }, { "e": "☂️", "en": "umbrella" } ] },
+    { "prompt_en": "What do you use to fish?", "prompt_ko": "낚시할 때 뭘 써?", "options": [ { "e": "🎣", "en": "fishing rod" }, { "e": "🪥", "en": "toothbrush" }, { "e": "🖍️", "en": "crayon" } ] },
+    { "prompt_en": "Your friend can't wait. What do you say?", "prompt_ko": "친구가 못 기다리겠대. 뭐라고 해?", "options": [ { "e": "🙂", "en": "Be patient." }, { "e": "🏃", "en": "Run away!" }, { "e": "🍕", "en": "Pizza!" } ] },
+    { "prompt_en": "The boat is rocking. What do you do?", "prompt_ko": "배가 흔들려. 어떻게 해?", "options": [ { "e": "✊", "en": "hold on" }, { "e": "🛌", "en": "go to bed" }, { "e": "🤸", "en": "jump around" } ] },
+    { "prompt_en": "We let the fish go. What do we say?", "prompt_ko": "물고기를 놓아줬어. 뭐라고 하지?", "options": [ { "e": "👋", "en": "Bye-bye, fish!" }, { "e": "🍰", "en": "More cake!" }, { "e": "🚗", "en": "Beep beep!" } ] },
+    { "prompt_en": "Which one lives in the sea?", "prompt_ko": "바다에 사는 건 어느 거야?", "options": [ { "e": "🐙", "en": "octopus" }, { "e": "🦁", "en": "lion" }, { "e": "🐔", "en": "chicken" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Be patient.'의 뜻은?", "options": ["참고 기다려.", "조심해.", "얌전히 있어.", "빨리 해."], "explain": "patient는 '참을성 있는'이라는 뜻으로, Be patient.는 '참고 기다려'입니다." },
+    { "q": "아이가 낚시하다 지루해할 때 '조금만 더 힘내.'라고 하려면?", "options": ["Hang in there.", "Hang out there.", "Hang on it.", "Hang up there."], "explain": "Hang in there.는 힘든 상황에서 '조금만 더 버텨'라고 격려하는 표현입니다." },
+    { "q": "'물고기 잡았어?'를 영어로 하면?", "options": ["Did you catch a fish?", "Did you caught a fish?", "Do you catched a fish?", "Are you catch a fish?"], "explain": "did 뒤에는 동사원형 catch를 씁니다." },
+    { "q": "'Did you catch a fish?'에 '아직.'이라고 답할 때 자연스러운 말은?", "options": ["Not yet.", "Already.", "Not still.", "No more."], "explain": "아직 안 된 일에는 Not yet.이라고 답합니다." },
+    { "q": "빈칸에 알맞은 말은? — Now we wait for a fish to ___.", "options": ["bite", "eat", "bark", "catch"], "explain": "물고기가 미끼를 '물다'는 bite를 씁니다." },
+    { "q": "빈칸에 알맞은 말은? — It's the waves. Hold on ___ the side.", "options": ["to", "at", "in", "with"], "explain": "hold on to는 '~을 꼭 붙잡다'라는 뜻입니다." },
+    { "q": "'I got one!'을 자연스럽게 말하면 어떻게 들릴까?", "options": ["아이 가런", "아이 갓 원", "아이 고트 원", "아이 갓트원"], "explain": "got의 t가 뒤 모음과 이어지며 굴러 '가런'처럼 들립니다." },
+    { "q": "잡은 물고기를 '놓아줘도 돼?'라고 물을 때 알맞은 말은?", "options": ["Can we let it go?", "Can we let it going?", "Can we make it go?", "Can we leave it go?"], "explain": "let it go는 '놓아주다'라는 뜻입니다." },
+    { "q": "'To catch lots of fish at once.'에서 at once의 뜻은?", "options": ["한 번에", "한 번만", "곧바로 다시", "한 마리씩"], "explain": "at once는 여기서 '한꺼번에, 한 번에'라는 뜻입니다." },
+    { "q": "'Hang in there.'를 쓰기에 가장 알맞은 상황은?", "options": ["아이가 힘든 일을 포기하려 할 때", "아이가 옷을 걸어야 할 때", "아이에게 거기 있으라고 할 때", "아이가 숙제를 다 끝냈을 때"], "explain": "Hang in there.는 힘들어도 조금만 더 버티라고 응원하는 말입니다." }
+  ]
+}

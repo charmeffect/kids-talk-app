@@ -1,0 +1,69 @@
+{
+  "stage": 1,
+  "day": 41,
+  "topic": "daily",
+  "title_en": "Tidy up",
+  "title_ko": "장난감 정리하기",
+  "intro_ko": "놀고 난 뒤 방을 함께 치우는 상황입니다. 실제로 장난감 몇 개를 바닥에 꺼내 놓고 대본대로 하나씩 상자나 선반에 넣으며 해 보세요.",
+  "expressions": [
+    { "en": "Clean up your toys.", "ko": "장난감 치우자. / 장난감 정리해.", "tip": "놀이가 끝났을 때 매일 쓰는 말이에요. Clean up이 이어져 '클리넙 유어 토이즈'처럼 들립니다.", "who": "parent" },
+    { "en": "Put it back.", "ko": "제자리에 갖다 놔.", "tip": "꺼낸 물건을 원래 있던 곳에 돌려놓으라는 뜻이에요. Put it이 이어지며 t가 약해져 '푸릿 백'처럼 들립니다.", "who": "both" },
+    { "en": "Let me help you.", "ko": "내가 도와줄게.", "tip": "도움을 먼저 제안할 때 쓰는 말이에요. Let me는 '렛미'보다 '레미'처럼 빠르게 붙여 말합니다.", "who": "both" },
+    { "en": "Good job!", "ko": "잘했어!", "tip": "아이가 무언가를 해냈을 때 바로 해 주는 칭찬이에요. Good의 d는 거의 들리지 않아 '구잡'처럼 들립니다.", "who": "both" },
+    { "en": "Put it away.", "ko": "(제자리에) 치워 둬.", "tip": "다 쓴 물건을 보관하는 곳에 넣어 두라는 말로, 정리할 때 가장 많이 써요. Put it away가 이어져 '푸리러웨이'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Wow, look at your room, buddy! Toys everywhere!", "ko": "우와, 방 좀 봐! 장난감이 온통 널려 있네!" },
+    { "who": "kid", "en": "I played spaceships all day!", "ko": "하루 종일 우주선 놀이 했어!" },
+    { "who": "parent", "en": "That sounds fun. Now it's time to clean up your toys.", "ko": "재밌었겠다. 이제 장난감 치울 시간이야." },
+    { "who": "kid", "en": "Why? I'm still playing!", "ko": "왜? 나 아직 노는 중인데!" },
+    { "who": "parent", "en": "Dinner's almost ready. And someone might trip on them.", "ko": "저녁이 거의 다 됐어. 그리고 누가 밟고 넘어질 수도 있잖아." },
+    { "who": "kid", "en": "But there are so many!", "ko": "근데 너무 많아!" },
+    { "who": "parent", "en": "Don't worry. Let me help you.", "ko": "걱정 마. 내가 도와줄게." },
+    { "who": "kid", "en": "Okay! Thank you!", "ko": "알았어! 고마워!", "practice": true },
+    { "who": "parent", "en": "Where does this rocket go?", "ko": "이 로켓은 어디에 둬?" },
+    { "who": "kid", "en": "On the shelf!", "ko": "선반 위에!", "practice": true },
+    { "who": "parent", "en": "And this book? I'll put it in the toy box.", "ko": "이 책은? 장난감 상자에 넣을게." },
+    { "who": "kid", "en": "No! Put it back on the shelf!", "ko": "아니야! 선반에 다시 갖다 놔!", "practice": true },
+    { "who": "parent", "en": "Oops, you're right. Books go on the shelf.", "ko": "어머, 네 말이 맞네. 책은 선반에 꽂아야지." },
+    { "who": "kid", "en": "Can I keep this car out?", "ko": "이 자동차는 꺼내 놔도 돼?" },
+    { "who": "parent", "en": "Not now. Put it away, please. You can play after dinner.", "ko": "지금은 안 돼. 치워 두자. 저녁 먹고 놀면 돼." },
+    { "who": "kid", "en": "Okay. It's in the box.", "ko": "알았어. 상자에 넣었어." },
+    { "who": "parent", "en": "Good job! You're so fast.", "ko": "잘했어! 정말 빠르다." },
+    { "who": "kid", "en": "Look! The floor is clean!", "ko": "봐! 바닥이 깨끗해!", "practice": true },
+    { "who": "parent", "en": "Last one. This big box is heavy.", "ko": "마지막이야. 이 큰 상자는 무겁네." },
+    { "who": "kid", "en": "Let me help you!", "ko": "내가 도와줄게!", "practice": true },
+    { "who": "parent", "en": "Thank you, sweetie. We did it together.", "ko": "고마워, 우리 아기. 우리 같이 해냈네." },
+    { "who": "kid", "en": "Good job, team!", "ko": "우리 팀 잘했다!", "practice": true },
+    { "who": "parent", "en": "Ha! Good job, team. Now let's wash up for dinner.", "ko": "하하! 우리 팀 잘했어. 이제 손 씻고 저녁 먹자." }
+  ],
+  "talkMore": [
+    { "en": "Which toy do you like to play with the most?", "ko": "어떤 장난감을 제일 좋아해?", "sample_en": "My rocket!", "sample_ko": "내 로켓!" },
+    { "en": "Where do your crayons go?", "ko": "크레파스는 어디에 둬?", "sample_en": "In the red box.", "sample_ko": "빨간 상자에." },
+    { "en": "How can you help at home?", "ko": "집에서 어떻게 도와줄 수 있어?", "sample_en": "I can set the table.", "sample_ko": "식탁 차리는 거 도와줄 수 있어." }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a toy box?", "prompt_ko": "장난감 상자는 어느 거야?", "options": [ { "e": "📦", "en": "toy box" }, { "e": "🛁", "en": "bathtub" }, { "e": "🍳", "en": "frying pan" } ] },
+    { "prompt_en": "Playtime is over. What do you do?", "prompt_ko": "놀이 시간이 끝났어. 뭘 해야 해?", "options": [ { "e": "🧹", "en": "Clean up." }, { "e": "😴", "en": "Go to sleep." }, { "e": "🏃", "en": "Run away." } ] },
+    { "prompt_en": "Someone has a heavy box. What do you say?", "prompt_ko": "누가 무거운 상자를 들고 있어. 뭐라고 해?", "options": [ { "e": "🤝", "en": "Let me help you." }, { "e": "👋", "en": "Bye-bye." }, { "e": "😋", "en": "I'm hungry." } ] },
+    { "prompt_en": "Your friend cleaned up fast. What do you say?", "prompt_ko": "친구가 빨리 정리했어. 뭐라고 해?", "options": [ { "e": "👍", "en": "Good job!" }, { "e": "😢", "en": "I'm sad." }, { "e": "🙅", "en": "No way!" } ] },
+    { "prompt_en": "Where does a book go?", "prompt_ko": "책은 어디에 둬?", "options": [ { "e": "📚", "en": "on the shelf" }, { "e": "🚽", "en": "in the toilet" }, { "e": "🧊", "en": "in the freezer" } ] },
+    { "prompt_en": "Which one can you clean the floor with?", "prompt_ko": "바닥을 청소할 때 쓰는 건 어느 거야?", "options": [ { "e": "🧹", "en": "broom" }, { "e": "🍌", "en": "banana" }, { "e": "🎈", "en": "balloon" } ] },
+    { "prompt_en": "Listen: 'Put it back.' Which picture matches?", "prompt_ko": "'Put it back.' 들어 봐. 어떤 그림이 맞아?", "options": [ { "e": "↩️", "en": "put it back" }, { "e": "🗑️", "en": "throw it away" }, { "e": "🍽️", "en": "eat it" } ] },
+    { "prompt_en": "Toys are on the floor. What can happen?", "prompt_ko": "바닥에 장난감이 있으면 어떻게 될 수 있어?", "options": [ { "e": "🤕", "en": "Someone trips." }, { "e": "🌈", "en": "A rainbow comes." }, { "e": "🎂", "en": "A cake appears." } ] },
+    { "prompt_en": "Which one is a toy car?", "prompt_ko": "장난감 자동차는 어느 거야?", "options": [ { "e": "🚗", "en": "car" }, { "e": "🧦", "en": "sock" }, { "e": "🍎", "en": "apple" } ] },
+    { "prompt_en": "Someone says, 'Let me help you.' What do you say?", "prompt_ko": "'내가 도와줄게.'라고 하면 뭐라고 해?", "options": [ { "e": "😊", "en": "Thank you!" }, { "e": "😠", "en": "Go away!" }, { "e": "🥱", "en": "I'm sleepy." } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Put it away.'의 뜻으로 알맞은 것은?", "options": ["(제자리에) 치워 둬.", "그거 버려.", "멀리 던져.", "그거 꺼내."], "explain": "put away는 다 쓴 물건을 보관하는 곳에 넣어 정리한다는 뜻이며, 버린다는 뜻은 throw away입니다." },
+    { "q": "아이에게 '장난감 치우자'라고 할 때 가장 자연스러운 말은?", "options": ["Clean up your toys.", "Clean your toys up away.", "Wash your toys.", "Arrange your toys out."], "explain": "놀고 난 장난감을 정리하라고 할 때는 Clean up your toys.가 가장 흔히 쓰입니다." },
+    { "q": "'Put it back.'과 'Put it away.'의 차이로 알맞은 것은?", "options": ["back은 원래 있던 자리로, away는 보관하는 곳에 치우는 것", "둘 다 '버려'라는 뜻", "back은 '뒤로 던져', away는 '멀리 가'", "back은 '다시 꺼내', away는 '닦아'"], "explain": "Put it back은 원래 자리로 돌려놓기, Put it away는 다 쓰고 정리해 넣어 두기에 씁니다." },
+    { "q": "빈칸에 알맞은 말은? — Don't worry. Let me ___ you.", "options": ["help", "helps", "to help", "helping"], "explain": "let + 사람 + 동사원형이므로 Let me help you.가 됩니다." },
+    { "q": "'Let me help you.'를 자연스럽게 말하면 어떻게 들릴까?", "options": ["레미 헬퓨", "렛 미 헬프 유", "레트미 헬프유", "리미 헬퍼유"], "explain": "Let me의 t가 거의 사라지고 help you도 이어져 '레미 헬퓨'처럼 들립니다." },
+    { "q": "빈칸에 알맞은 말은? — No! Put it ___ on the shelf!", "options": ["back", "up", "off", "out"], "explain": "원래 자리인 선반으로 돌려놓으라는 뜻이라 Put it back이 맞습니다." },
+    { "q": "아이가 정리를 끝냈을 때 칭찬하는 말로 알맞지 않은 것은?", "options": ["Good luck!", "Good job!", "Nice work!", "Well done!"], "explain": "Good luck!은 '행운을 빌어'라는 뜻으로, 일을 끝낸 뒤 하는 칭찬이 아닙니다." },
+    { "q": "'바닥에 있으면 누가 걸려 넘어질 수 있어'를 영어로 하면?", "options": ["Someone might trip on them.", "Someone might trap on them.", "Someone might travel on them.", "Someone might drop on them."], "explain": "걸려 넘어지다는 trip (on)입니다." },
+    { "q": "'Can I keep this car out?'의 뜻은?", "options": ["이 자동차는 꺼내 놔도 돼?", "이 자동차 가져도 돼?", "이 자동차 밖에 버려도 돼?", "이 자동차 고쳐도 돼?"], "explain": "keep ~ out은 치우지 않고 밖에 꺼내 둔다는 뜻입니다." },
+    { "q": "빈칸에 알맞은 말은? — Now let's wash ___ for dinner.", "options": ["up", "on", "in", "over"], "explain": "wash up은 식사 전에 손과 얼굴을 씻는다는 뜻으로 자주 씁니다." }
+  ]
+}

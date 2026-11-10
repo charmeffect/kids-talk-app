@@ -1,0 +1,69 @@
+{
+  "stage": 1,
+  "day": 4,
+  "topic": "planes",
+  "title_en": "Paper airplanes",
+  "title_ko": "종이비행기",
+  "intro_ko": "A4 종이로 함께 종이비행기를 접어 날려 보는 장면입니다. 대본을 읽으며 실제로 접고, 'Ready, set, go!'에 맞춰 같이 던져 보세요.",
+  "expressions": [
+    { "en": "Let's make a paper airplane.", "ko": "종이비행기 만들자.", "tip": "make a가 이어져 '메이커'처럼 들려요. paper boat(종이배)로 바꿔 쓸 수도 있어요.", "who": "both" },
+    { "en": "Ready, set, go!", "ko": "준비, 시작!", "tip": "무언가를 동시에 출발시킬 때 쓰는 신호예요. 달리기 시합할 때도 그대로 씁니다.", "who": "both" },
+    { "en": "It flew so far!", "ko": "엄청 멀리 날아갔어!", "tip": "flew는 fly(날다)의 과거형이에요. so를 길게 늘이면 놀란 느낌이 살아나요.", "who": "kid" },
+    { "en": "Try again.", "ko": "다시 해 봐.", "tip": "아이가 실패했을 때 격려하는 말이에요. Try again이 이어져 '트라이어게인'처럼 들립니다.", "who": "parent" },
+    { "en": "Way to go!", "ko": "잘했어!", "tip": "아이가 해냈을 때 쓰는 칭찬이에요. to가 약해져 '웨이러고우'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "kid", "en": "I'm bored. What can we do?", "ko": "심심해. 우리 뭐 할까?" },
+    { "who": "parent", "en": "Let's make a paper airplane.", "ko": "종이비행기 만들자." },
+    { "who": "kid", "en": "Yay! I love airplanes!", "ko": "야호! 나 비행기 좋아!", "practice": true },
+    { "who": "parent", "en": "First, fold the paper in half. Like this.", "ko": "먼저 종이를 반으로 접어. 이렇게." },
+    { "who": "kid", "en": "Like this?", "ko": "이렇게?" },
+    { "who": "parent", "en": "Perfect. Now fold the corners down to make a point.", "ko": "완벽해. 이제 모서리를 접어서 뾰족하게 만들어." },
+    { "who": "kid", "en": "What's the pointy part for?", "ko": "뾰족한 건 뭐 하는 거야?" },
+    { "who": "parent", "en": "That's the nose. It goes first.", "ko": "그게 비행기 코야. 앞장서서 날아가." },
+    { "who": "kid", "en": "Now the wings!", "ko": "이제 날개!" },
+    { "who": "parent", "en": "Right. Fold down both sides. Wings help it glide.", "ko": "맞아. 양쪽을 접어 내려. 날개 덕분에 활공할 수 있어." },
+    { "who": "kid", "en": "What's glide?", "ko": "활공이 뭐야?" },
+    { "who": "parent", "en": "It means it flies smoothly through the air.", "ko": "공기 속을 부드럽게 날아간다는 뜻이야." },
+    { "who": "kid", "en": "Can I throw it?", "ko": "내가 던져도 돼?" },
+    { "who": "parent", "en": "Sure. Hold it here, near the front. Ready, set, go!", "ko": "그럼. 여기 앞쪽을 잡아. 준비, 시작!" },
+    { "who": "kid", "en": "Oh no! It fell down.", "ko": "아이참! 떨어졌어." },
+    { "who": "parent", "en": "That's okay. Try again. Throw it straight, not too hard.", "ko": "괜찮아. 다시 해 봐. 너무 세게 말고 똑바로 던져." },
+    { "who": "kid", "en": "Ready, set, go!", "ko": "준비, 시작!", "practice": true },
+    { "who": "parent", "en": "Look! It's still flying!", "ko": "봐! 아직 날고 있어!" },
+    { "who": "kid", "en": "It flew so far!", "ko": "엄청 멀리 날아갔어!", "practice": true },
+    { "who": "parent", "en": "Way to go, buddy!", "ko": "잘했어!" },
+    { "who": "kid", "en": "Let's make another one!", "ko": "하나 더 만들자!", "practice": true },
+    { "who": "parent", "en": "Okay. Let's see whose plane flies farther.", "ko": "좋아. 누구 비행기가 더 멀리 나는지 보자." },
+    { "who": "kid", "en": "Mine! Mine will win!", "ko": "내 거! 내 거가 이길 거야!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What color should our next plane be?", "ko": "다음 비행기는 무슨 색으로 할까?", "sample_en": "Blue, like the sky!", "sample_ko": "하늘처럼 파란색!" },
+    { "en": "Who flies a real airplane?", "ko": "진짜 비행기는 누가 조종해?", "sample_en": "A pilot!", "sample_ko": "조종사!" },
+    { "en": "Where do you want to fly?", "ko": "비행기 타고 어디 가고 싶어?", "sample_en": "To Jeju!", "sample_ko": "제주도!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is an airplane?", "prompt_ko": "비행기는 어느 거야?", "options": [ { "e": "✈️", "en": "airplane" }, { "e": "🚢", "en": "ship" }, { "e": "🚲", "en": "bike" } ] },
+    { "prompt_en": "What do we use to make a paper airplane?", "prompt_ko": "종이비행기는 뭐로 만들어?", "options": [ { "e": "📄", "en": "paper" }, { "e": "🧱", "en": "brick" }, { "e": "🍌", "en": "banana" } ] },
+    { "prompt_en": "You start a race. What do you say?", "prompt_ko": "시합을 시작해. 뭐라고 해?", "options": [ { "e": "🏁", "en": "Ready, set, go!" }, { "e": "😴", "en": "Good night." }, { "e": "😋", "en": "I'm hungry." } ] },
+    { "prompt_en": "Your friend's plane falls down. What do you say?", "prompt_ko": "친구 비행기가 떨어졌어. 뭐라고 해?", "options": [ { "e": "💪", "en": "Try again!" }, { "e": "👋", "en": "Bye-bye!" }, { "e": "🛁", "en": "Bath time!" } ] },
+    { "prompt_en": "Your plane goes really far. What do you say?", "prompt_ko": "비행기가 아주 멀리 날아갔어. 뭐라고 해?", "options": [ { "e": "🤩", "en": "It flew so far!" }, { "e": "😢", "en": "I'm sad." }, { "e": "🙈", "en": "Peekaboo!" } ] },
+    { "prompt_en": "Your friend did a great job. What do you say?", "prompt_ko": "친구가 아주 잘했어. 뭐라고 해?", "options": [ { "e": "👏", "en": "Way to go!" }, { "e": "😴", "en": "I'm sleepy." }, { "e": "🙅", "en": "No, thanks." } ] },
+    { "prompt_en": "Which one can fly?", "prompt_ko": "날 수 있는 건 어느 거야?", "options": [ { "e": "🐦", "en": "bird" }, { "e": "🐟", "en": "fish" }, { "e": "🐢", "en": "turtle" } ] },
+    { "prompt_en": "Who flies a real airplane?", "prompt_ko": "진짜 비행기는 누가 조종해?", "options": [ { "e": "👨‍✈️", "en": "a pilot" }, { "e": "👨‍🍳", "en": "a cook" }, { "e": "👩‍⚕️", "en": "a doctor" } ] },
+    { "prompt_en": "Where do airplanes fly?", "prompt_ko": "비행기는 어디에서 날아?", "options": [ { "e": "☁️", "en": "in the sky" }, { "e": "🌊", "en": "under the sea" }, { "e": "🏠", "en": "in the house" } ] },
+    { "prompt_en": "Which one is a helicopter?", "prompt_ko": "헬리콥터는 어느 거야?", "options": [ { "e": "🚁", "en": "helicopter" }, { "e": "🚂", "en": "train" }, { "e": "🚜", "en": "tractor" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Way to go!'의 뜻은?", "options": ["잘했어!", "길 비켜!", "저리 가!", "어디로 가?"], "explain": "Way to go!는 상대가 뭔가를 해냈을 때 하는 칭찬입니다." },
+    { "q": "빈칸에 알맞은 말은? — Ready, ___, go!", "options": ["set", "get", "sit", "start"], "explain": "출발 신호는 Ready, set, go!로 고정된 표현입니다." },
+    { "q": "'종이비행기 만들자.'를 영어로 하면?", "options": ["Let's make a paper airplane.", "Let's do a paper airplane.", "Let's make paper airplane.", "Let's making a paper airplane."], "explain": "만들다는 make, 셀 수 있는 명사라 a를 붙이고, Let's 뒤에는 동사원형이 옵니다." },
+    { "q": "빈칸에 알맞은 말은? — It ___ so far!", "options": ["flew", "flied", "flown", "fly"], "explain": "fly의 과거형은 flew입니다(flown은 과거분사)." },
+    { "q": "아이의 비행기가 떨어졌을 때 '다시 해 봐.'라고 격려하는 말은?", "options": ["Try again.", "Do again.", "Again try.", "Try it again more."], "explain": "다시 시도해 보라는 말은 Try again.입니다." },
+    { "q": "'종이를 반으로 접어.'를 영어로 하면?", "options": ["Fold the paper in half.", "Fold the paper in two half.", "Fold the paper half.", "Fold the paper at half."], "explain": "'반으로'는 in half입니다." },
+    { "q": "'Way to go!'를 자연스럽게 말하면 어떻게 들릴까?", "options": ["웨이러고우", "웨이 토 고", "와이투고", "웨이트 고"], "explain": "to가 약하게 발음되어 '웨이러고우'처럼 들립니다." },
+    { "q": "대본의 'Wings help it glide.'에서 glide의 뜻은?", "options": ["미끄러지듯 날다", "접다", "떨어지다", "던지다"], "explain": "glide는 날갯짓 없이 부드럽게 미끄러지듯 나는 것을 말합니다." },
+    { "q": "'너무 세게 말고 똑바로 던져.'를 영어로 하면?", "options": ["Throw it straight, not too hard.", "Throw it straightly, no too hard.", "Throw straight it, not so much hard.", "Throw it hardly and straight."], "explain": "straight는 부사로도 그대로 쓰고, '너무 세게 말고'는 not too hard입니다." },
+    { "q": "'Let's see whose plane flies farther.'의 뜻은?", "options": ["누구 비행기가 더 멀리 나는지 보자.", "이게 누구 비행기인지 보자.", "비행기가 어디 있는지 찾아보자.", "비행기를 더 크게 만들자."], "explain": "whose는 '누구의', farther는 '더 멀리'라는 뜻입니다." }
+  ]
+}

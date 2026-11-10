@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 14,
+  "topic": "planes",
+  "title_en": "Helicopters",
+  "title_ko": "헬리콥터",
+  "intro_ko": "하늘에 지나가는 헬리콥터를 보며 이야기하다가 종이 헬리콥터를 만들어 날려 보는 대화입니다. 종이를 길게 잘라 위쪽을 두 날개로 갈라 접고 아래에 클립을 끼우면, 높은 곳에서 떨어뜨릴 때 빙글빙글 돌아요.",
+  "expressions": [
+    { "en": "It goes up and down.", "ko": "위아래로 움직여.", "tip": "엘리베이터, 시소, 헬리콥터처럼 오르내리는 것을 보고 말해요. up and down이 이어져 '어펜 다운'처럼 들립니다.", "who": "kid" },
+    { "en": "How does it fly?", "ko": "어떻게 날아?", "tip": "날아가는 것을 보고 원리를 묻는 질문이에요. How does it이 이어져 '하우더짓'처럼 들립니다.", "who": "kid" },
+    { "en": "Up, up, and away!", "ko": "높이높이 날아가라!", "tip": "무언가를 하늘로 날려 보낼 때 신나게 외치는 말이에요. and away가 이어져 '앤더웨이'처럼 들립니다.", "who": "both" },
+    { "en": "It's so noisy!", "ko": "엄청 시끄러워!", "tip": "noisy는 '시끄러운'이에요. 귀를 막는 몸짓과 함께 말하면 좋아요. '잇쏘 노이지'로 so를 길게 늘이면 강조가 됩니다.", "who": "kid" },
+    { "en": "Look at it go!", "ko": "저것 좀 봐, 잘 간다!", "tip": "무언가가 빠르게, 신나게 움직이는 걸 보고 감탄할 때 써요. Look at it이 이어져 '루캐릿 고'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "kid", "en": "Listen! What's that sound?", "ko": "들어 봐! 저게 무슨 소리야?", "practice": true },
+    { "who": "parent", "en": "It's a helicopter. Look, up there!", "ko": "헬리콥터야. 봐, 저 위에!" },
+    { "who": "kid", "en": "It's so noisy!", "ko": "엄청 시끄러워!", "practice": true },
+    { "who": "parent", "en": "Yes. Its big blades spin really fast.", "ko": "응. 큰 날개가 엄청 빨리 돌거든." },
+    { "who": "kid", "en": "How does it fly?", "ko": "어떻게 날아?", "practice": true },
+    { "who": "parent", "en": "The spinning blades push air down. That pushes the helicopter up.", "ko": "도는 날개가 공기를 아래로 밀어. 그러면 헬리콥터가 위로 떠." },
+    { "who": "kid", "en": "Can it fly backward?", "ko": "뒤로도 날 수 있어?" },
+    { "who": "parent", "en": "Yes! It can go forward, backward, and sideways.", "ko": "응! 앞으로, 뒤로, 옆으로도 갈 수 있어." },
+    { "who": "kid", "en": "And it goes up and down!", "ko": "그리고 위아래로도 가!", "practice": true },
+    { "who": "parent", "en": "Right. It can even stay still in the air.", "ko": "맞아. 공중에 가만히 떠 있을 수도 있어." },
+    { "who": "kid", "en": "Whoa! It's going so fast!", "ko": "우와! 엄청 빨리 간다!" },
+    { "who": "parent", "en": "Look at it go!", "ko": "저것 좀 봐, 잘 간다!" },
+    { "who": "kid", "en": "Where is it going?", "ko": "어디 가는 거야?" },
+    { "who": "parent", "en": "Maybe to a hospital. Some helicopters help sick people.", "ko": "병원에 가나 봐. 아픈 사람을 돕는 헬리콥터도 있거든." },
+    { "who": "kid", "en": "Where does it land?", "ko": "어디에 내려?" },
+    { "who": "parent", "en": "On a helipad. It's a flat spot with a big H.", "ko": "헬기장에. 큰 H가 그려진 평평한 곳이야." },
+    { "who": "kid", "en": "It doesn't need a runway?", "ko": "활주로가 필요 없어?" },
+    { "who": "parent", "en": "Nope. It goes straight up and straight down.", "ko": "응, 필요 없어. 똑바로 올라가고 똑바로 내려오거든." },
+    { "who": "kid", "en": "Let's make a paper helicopter!", "ko": "종이 헬리콥터 만들자!", "practice": true },
+    { "who": "parent", "en": "Okay! There. Now drop it from up high.", "ko": "좋아! 됐다. 이제 높은 데서 떨어뜨려 봐." },
+    { "who": "kid", "en": "It's spinning!", "ko": "빙글빙글 돈다!" },
+    { "who": "parent", "en": "The air pushes on its wings, so it spins.", "ko": "공기가 날개를 밀어서 도는 거야." },
+    { "who": "kid", "en": "One more time! Up, up, and away!", "ko": "한 번 더! 높이높이 날아가라!", "practice": true },
+    { "who": "parent", "en": "Look at it go, buddy!", "ko": "저것 봐, 잘 돈다!" }
+  ],
+  "talkMore": [
+    { "en": "Where would you fly in a helicopter?", "ko": "헬리콥터를 타면 어디로 날아가고 싶어?", "sample_en": "Over the sea!", "sample_ko": "바다 위로!" },
+    { "en": "What's the difference between a helicopter and a plane?", "ko": "헬리콥터랑 비행기는 뭐가 달라?", "sample_en": "A plane has big wings.", "sample_ko": "비행기는 큰 날개가 있어." },
+    { "en": "What color is your helicopter?", "ko": "네 헬리콥터는 무슨 색이야?", "sample_en": "Red and yellow!", "sample_ko": "빨간색이랑 노란색!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a helicopter?", "prompt_ko": "헬리콥터는 어느 거야?", "options": [ { "e": "🚁", "en": "helicopter" }, { "e": "🚢", "en": "ship" }, { "e": "🚗", "en": "car" } ] },
+    { "prompt_en": "A helicopter is very loud. What do you say?", "prompt_ko": "헬리콥터 소리가 엄청 커. 뭐라고 해?", "options": [ { "e": "🙉", "en": "It's so noisy!" }, { "e": "😋", "en": "It's yummy!" }, { "e": "🥶", "en": "It's cold!" } ] },
+    { "prompt_en": "You want to know how it flies. What do you ask?", "prompt_ko": "어떻게 나는지 궁금해. 뭐라고 물어?", "options": [ { "e": "🤔", "en": "How does it fly?" }, { "e": "🍽️", "en": "What's for dinner?" }, { "e": "😴", "en": "Good night." } ] },
+    { "prompt_en": "We drop the paper helicopter. What does it do?", "prompt_ko": "종이 헬리콥터를 떨어뜨리면 어떻게 돼?", "options": [ { "e": "🌀", "en": "It spins!" }, { "e": "🍳", "en": "It cooks." }, { "e": "💤", "en": "It sleeps." } ] },
+    { "prompt_en": "Which one is noisy?", "prompt_ko": "시끄러운 건 어느 거야?", "options": [ { "e": "🥁", "en": "a drum" }, { "e": "🪶", "en": "a feather" }, { "e": "🐛", "en": "a caterpillar" } ] },
+    { "prompt_en": "Which one can fly?", "prompt_ko": "날 수 있는 건 어느 거야?", "options": [ { "e": "🚁", "en": "helicopter" }, { "e": "🚂", "en": "train" }, { "e": "🚲", "en": "bike" } ] },
+    { "prompt_en": "You throw your toy up high. What do you say?", "prompt_ko": "장난감을 높이 던져. 뭐라고 해?", "options": [ { "e": "🚀", "en": "Up, up, and away!" }, { "e": "🙏", "en": "Thank you!" }, { "e": "😢", "en": "I feel sad." } ] },
+    { "prompt_en": "An elevator moves like this. Which one is it?", "prompt_ko": "엘리베이터는 어떻게 움직여?", "options": [ { "e": "↕️", "en": "up and down" }, { "e": "🔄", "en": "round and round" }, { "e": "💤", "en": "it sleeps" } ] },
+    { "prompt_en": "Some helicopters take sick people to the…", "prompt_ko": "어떤 헬리콥터는 아픈 사람을 어디로 데려가?", "options": [ { "e": "🏥", "en": "hospital" }, { "e": "🎢", "en": "roller coaster" }, { "e": "🍦", "en": "ice cream shop" } ] },
+    { "prompt_en": "What did we make today?", "prompt_ko": "오늘 우리가 뭘 만들었지?", "options": [ { "e": "🚁", "en": "a paper helicopter" }, { "e": "🍰", "en": "a cake" }, { "e": "⛄", "en": "a snowman" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Look at it go!'의 뜻은?", "options": ["저것 좀 봐, 잘 간다!", "저게 가는지 봐 봐.", "저거 보고 가자!", "저거 가게 해!"], "explain": "무언가가 빠르고 신나게 움직이는 모습을 보고 감탄할 때 쓰는 말입니다." },
+    { "q": "'It's so noisy!'는 어떤 뜻일까?", "options": ["엄청 시끄러워!", "코가 너무 커!", "너무 신나!", "너무 바빠!"], "explain": "noisy는 '시끄러운'이라는 뜻입니다(nose와 다른 단어)." },
+    { "q": "아이가 '헬리콥터는 어떻게 날아?'라고 묻는 말은?", "options": ["How does it fly?", "How do it fly?", "How is it fly?", "How does it flies?"], "explain": "it이 주어이므로 does를 쓰고, does 뒤에는 동사원형 fly가 옵니다." },
+    { "q": "헬리콥터가 나는 원리를 아이에게 쉽게 설명한 말로 맞는 것은?", "options": ["The spinning blades push air down.", "The wheels push the ground.", "The windows let air in.", "The engine pulls the clouds."], "explain": "회전 날개가 공기를 아래로 밀어 내는 힘으로 떠오릅니다." },
+    { "q": "빈칸에 알맞은 말은? — Right. It can even stay ___ in the air.", "options": ["still", "stop", "stand", "quiet"], "explain": "stay still은 '가만히 있다'라는 뜻으로, 헬리콥터가 공중에 멈춰 떠 있는 것을 말합니다." },
+    { "q": "빈칸에 알맞은 말은? — It goes straight up and straight ___.", "options": ["down", "under", "low", "below"], "explain": "up과 짝을 이루는 down을 써서 '똑바로 올라가고 똑바로 내려온다'가 됩니다." },
+    { "q": "'Look at it'을 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["루캐릿", "룩 앳 잇", "루크 아트 이트", "로카티트"], "explain": "Look의 k와 at이 붙고, at의 t가 부드러워져 '루캐릿'처럼 들립니다." },
+    { "q": "'It doesn't need a runway?'의 뜻은?", "options": ["활주로가 필요 없어?", "달릴 길이 없어?", "도망가면 안 돼?", "뛰지 않아도 돼?"], "explain": "runway는 비행기가 달려서 뜨고 내리는 활주로입니다." },
+    { "q": "아이가 종이 헬리콥터를 높이 날리며 외칠 말로 알맞은 것은?", "options": ["Up, up, and away!", "Up, up, and down!", "Away, away, and up!", "Go up and away up!"], "explain": "무언가를 하늘로 날려 보낼 때 Up, up, and away!라고 외칩니다." },
+    { "q": "Look at it go!를 쓰기에 가장 알맞은 상황은?", "options": ["아이가 굴린 장난감 차가 쌩 달려갈 때", "아이가 잠들었을 때", "장난감이 고장 나서 멈췄을 때", "아이가 책을 고를 때"], "explain": "무언가가 힘차게 움직이는 걸 보며 감탄할 때 쓰는 표현입니다." }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "stage": 1,
+  "day": 56,
+  "topic": "daily",
+  "title_en": "Birthday party",
+  "title_ko": "생일 파티",
+  "intro_ko": "아이의 생일 파티 장면을 놀이로 해 봅니다. 컵이나 블록으로 케이크를 만들고 빨대나 손가락을 초로 세운 뒤, 진짜로 '후~' 불어 끄는 흉내를 내 보세요.",
+  "expressions": [
+    { "en": "Happy birthday!", "ko": "생일 축하해!", "tip": "생일인 사람에게 하는 가장 기본 인사예요. birthday의 th는 혀끝을 살짝 물고 '벌쓰데이'처럼 말합니다.", "who": "both" },
+    { "en": "Blow out the candles.", "ko": "촛불 꺼.", "tip": "케이크 앞에서 소원을 빈 뒤 하는 말이에요. Blow out이 이어져 '블로아웃'처럼 들립니다.", "who": "parent" },
+    { "en": "This is for you.", "ko": "이거 너 주는 거야.", "tip": "선물을 건넬 때 쓰는 말이에요. This is가 붙어 '디시즈 포유'처럼 들립니다.", "who": "both" },
+    { "en": "Thank you for coming.", "ko": "와 줘서 고마워.", "tip": "파티나 집에 온 손님을 배웅할 때 쓰는 인사예요. '땡큐포커밍'처럼 한 덩어리로 말합니다.", "who": "kid" },
+    { "en": "Make a wish.", "ko": "소원 빌어.", "tip": "촛불을 끄기 전에 하는 말로, 생일 말고도 별똥별을 볼 때 쓸 수 있어요. Make a가 이어져 '메이커 위시'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Happy birthday, sweetie! It's your big day!", "ko": "생일 축하해, 우리 아기! 오늘은 네 날이야!" },
+    { "who": "kid", "en": "Yay! It's my birthday!", "ko": "야호! 내 생일이다!", "practice": true },
+    { "who": "parent", "en": "Look! Here's your cake. It's a rocket cake!", "ko": "봐! 네 케이크야. 로켓 케이크야!" },
+    { "who": "kid", "en": "A rocket cake? So cool!", "ko": "로켓 케이크? 진짜 멋지다!" },
+    { "who": "parent", "en": "Let's light the candles. Don't touch them.", "ko": "초에 불 붙이자. 만지면 안 돼." },
+    { "who": "kid", "en": "Why not?", "ko": "왜 안 돼?" },
+    { "who": "parent", "en": "Each candle has a little flame. Fire is hot.", "ko": "초마다 작은 불꽃이 있거든. 불은 뜨거워." },
+    { "who": "kid", "en": "Okay. I won't touch them.", "ko": "알았어. 안 만질게." },
+    { "who": "parent", "en": "Now close your eyes and make a wish.", "ko": "이제 눈 감고 소원 빌어." },
+    { "who": "kid", "en": "What's a wish?", "ko": "소원이 뭐야?", "practice": true },
+    { "who": "parent", "en": "Something you really, really want.", "ko": "네가 정말정말 바라는 거." },
+    { "who": "kid", "en": "Okay. I made a wish!", "ko": "알았어. 소원 빌었어!", "practice": true },
+    { "who": "parent", "en": "Don't tell me! Now blow out the candles.", "ko": "말하지 마! 이제 촛불 꺼." },
+    { "who": "kid", "en": "Whoosh! They're all out!", "ko": "후! 다 꺼졌다!" },
+    { "who": "parent", "en": "Great job! Everyone is clapping for you.", "ko": "잘했어! 다들 너한테 박수 쳐 주네." },
+    { "who": "kid", "en": "Can I open my presents?", "ko": "선물 열어 봐도 돼?", "practice": true },
+    { "who": "parent", "en": "Sure. This is for you, from me.", "ko": "그럼. 이건 내가 너 주는 거야." },
+    { "who": "kid", "en": "Wow! A toy airplane! Thank you!", "ko": "우와! 장난감 비행기다! 고마워!" },
+    { "who": "parent", "en": "You're welcome. Now your friends are going home.", "ko": "천만에. 이제 친구들이 집에 가네." },
+    { "who": "kid", "en": "What do I say?", "ko": "나 뭐라고 해?" },
+    { "who": "parent", "en": "Say, 'Thank you for coming.'", "ko": "'와 줘서 고마워'라고 해." },
+    { "who": "kid", "en": "Thank you for coming!", "ko": "와 줘서 고마워!", "practice": true },
+    { "who": "parent", "en": "Good manners, buddy. What a fun party!", "ko": "예의 바르네. 정말 재미있는 파티였다!" }
+  ],
+  "talkMore": [
+    { "en": "What kind of cake do you want next time?", "ko": "다음엔 어떤 케이크 먹고 싶어?", "sample_en": "A ship cake!", "sample_ko": "배 케이크!" },
+    { "en": "Who do you want to invite to your party?", "ko": "파티에 누구 초대하고 싶어?", "sample_en": "My best friend.", "sample_ko": "제일 친한 친구." },
+    { "en": "What present do you want to give your friend?", "ko": "친구한테 무슨 선물 주고 싶어?", "sample_en": "A toy rocket!", "sample_ko": "장난감 로켓!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a birthday cake?", "prompt_ko": "생일 케이크는 어느 거야?", "options": [ { "e": "🎂", "en": "birthday cake" }, { "e": "🍕", "en": "pizza" }, { "e": "🥕", "en": "carrot" } ] },
+    { "prompt_en": "It's your friend's birthday. What do you say?", "prompt_ko": "친구 생일이야. 뭐라고 해?", "options": [ { "e": "🥳", "en": "Happy birthday!" }, { "e": "😴", "en": "Good night." }, { "e": "😢", "en": "I'm sad." } ] },
+    { "prompt_en": "What do we put on a birthday cake?", "prompt_ko": "생일 케이크 위에 뭘 꽂지?", "options": [ { "e": "🕯️", "en": "candles" }, { "e": "👟", "en": "shoes" }, { "e": "🐟", "en": "fish" } ] },
+    { "prompt_en": "What do you do before you blow out the candles?", "prompt_ko": "촛불 끄기 전에 뭐 해?", "options": [ { "e": "🙏", "en": "Make a wish." }, { "e": "🛁", "en": "Take a bath." }, { "e": "🏃", "en": "Run away." } ] },
+    { "prompt_en": "Is fire hot or cold?", "prompt_ko": "불은 뜨거워, 차가워?", "options": [ { "e": "🔥", "en": "hot" }, { "e": "🧊", "en": "cold" }, { "e": "💧", "en": "wet" } ] },
+    { "prompt_en": "You give your friend a present. What do you say?", "prompt_ko": "친구한테 선물을 줘. 뭐라고 해?", "options": [ { "e": "🎁", "en": "This is for you." }, { "e": "✋", "en": "Stop!" }, { "e": "😋", "en": "I'm hungry." } ] },
+    { "prompt_en": "Your friends are going home after your party. What do you say?", "prompt_ko": "파티 끝나고 친구들이 집에 가. 뭐라고 해?", "options": [ { "e": "🙌", "en": "Thank you for coming!" }, { "e": "🍎", "en": "An apple." }, { "e": "🚌", "en": "A bus." } ] },
+    { "prompt_en": "Which one is a present?", "prompt_ko": "선물은 어느 거야?", "options": [ { "e": "🎁", "en": "present" }, { "e": "🌳", "en": "tree" }, { "e": "🚗", "en": "car" } ] },
+    { "prompt_en": "What was the birthday present in our story?", "prompt_ko": "이야기에서 생일 선물은 뭐였지?", "options": [ { "e": "✈️", "en": "a toy airplane" }, { "e": "🍌", "en": "a banana" }, { "e": "🧦", "en": "socks" } ] },
+    { "prompt_en": "Which one is a balloon?", "prompt_ko": "풍선은 어느 거야?", "options": [ { "e": "🎈", "en": "balloon" }, { "e": "⚽", "en": "ball" }, { "e": "📚", "en": "books" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Make a wish.'의 뜻은?", "options": ["소원 빌어.", "선물 만들어.", "케이크 만들자.", "손 씻어."], "explain": "촛불을 끄기 전이나 별똥별을 볼 때 '소원 빌어'라는 뜻으로 씁니다." },
+    { "q": "'촛불 꺼.'를 자연스러운 영어로 하면?", "options": ["Blow out the candles.", "Turn off the candles.", "Close the candles.", "Kill the candles."], "explain": "입으로 불어서 끄므로 blow out the candles라고 합니다." },
+    { "q": "파티가 끝나고 손님에게 '와 줘서 고마워'라고 할 때 알맞은 말은?", "options": ["Thank you for coming.", "Thank you for come.", "Thanks to coming.", "Thank you to came."], "explain": "for 뒤에는 동사의 -ing형이 와서 Thank you for coming.이 됩니다." },
+    { "q": "빈칸에 알맞은 말은? — Sure. This is ___ you, from me.", "options": ["for", "to", "at", "with"], "explain": "선물을 줄 때는 This is for you.(이거 너 주는 거야)라고 합니다." },
+    { "q": "'This is for you.'를 이어 말하면 어떻게 들릴까?", "options": ["디시즈 포유", "디스 이스 포 유", "디스 포유 이스", "디시스 퍼유우"], "explain": "This의 s가 is와 이어져 '디시즈'처럼 들립니다." },
+    { "q": "빈칸에 알맞은 말은? — Now close your eyes and ___ a wish.", "options": ["make", "do", "take", "give"], "explain": "소원은 make a wish로 빈다고 말합니다." },
+    { "q": "생일인 친구에게 하는 인사로 가장 자연스러운 것은?", "options": ["Happy birthday!", "Congratulations birthday!", "Good birthday!", "Nice birthday to you!"], "explain": "생일 축하 인사는 Happy birthday!가 가장 자연스럽습니다." },
+    { "q": "'It's your big day!'는 어떤 뜻일까?", "options": ["오늘은 네가 주인공인 날이야!", "오늘은 하루가 길어!", "오늘은 네가 많이 컸어!", "오늘은 아주 바쁜 날이야!"], "explain": "big day는 생일·졸업처럼 특별하고 중요한 날을 말합니다." },
+    { "q": "빈칸에 알맞은 말은? — Great job! Everyone is ___ for you.", "options": ["clapping", "clap", "claps", "clapped"], "explain": "지금 박수를 치는 중이므로 is clapping(진행형)을 씁니다." },
+    { "q": "아이가 소원 내용을 말하려 할 때 '말하지 마!'를 영어로 하면?", "options": ["Don't tell me!", "Don't say me!", "Don't talk me!", "Not speak me!"], "explain": "tell은 사람을 바로 목적어로 받아 Don't tell me!라고 합니다." }
+  ]
+}

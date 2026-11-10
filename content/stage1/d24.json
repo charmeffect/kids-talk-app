@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 24,
+  "topic": "planes",
+  "title_en": "Pilot pretend",
+  "title_ko": "조종사 놀이",
+  "intro_ko": "의자 두 개를 앞뒤로 놓아 비행기를 만들고, 아이는 조종사, 부모는 승무원이 되어 제주도로 날아가는 역할 놀이입니다. 벨트 매는 '딸깍' 소리, 컵에 주스 따르는 시늉, 착륙할 때 '쿵' 하는 동작을 함께 해 보세요.",
+  "expressions": [
+    { "en": "I'm the pilot.", "ko": "내가 조종사야.", "tip": "역할 놀이를 시작할 때 '내가 ~할래'라는 뜻으로 써요. I'm the 뒤에 captain, driver, teacher를 넣어 바꿔 말해 보세요.", "who": "kid" },
+    { "en": "Fasten your seatbelt.", "ko": "안전벨트 매.", "tip": "차나 비행기에 탈 때 매일 쓸 수 있어요. fasten의 t는 소리 나지 않아 '패슨 유어 싯벨트'처럼 들립니다.", "who": "both" },
+    { "en": "We're landing.", "ko": "착륙하고 있어.", "tip": "땅에 내려앉는 건 landing, 떠오르는 건 taking off예요. We're는 짧게 '위어'라고 합니다.", "who": "kid" },
+    { "en": "Welcome to Jeju!", "ko": "제주에 오신 걸 환영합니다!", "tip": "도착했을 때 쓰는 인사예요. Jeju 자리에 Seoul, our home 등을 넣어 놀이에 활용하세요.", "who": "both" },
+    { "en": "Coming right up!", "ko": "곧 갖다 드릴게요!", "tip": "식당이나 기내에서 주문을 받고 '바로 나갑니다'라고 할 때 써요. right up이 이어져 '커밍 라이럽'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Let's play airplane! Who wants to fly?", "ko": "비행기 놀이 하자! 누가 조종할래?" },
+    { "who": "kid", "en": "Me! I'm the pilot.", "ko": "나! 내가 조종사야.", "practice": true },
+    { "who": "parent", "en": "Okay, Captain. I'm the flight attendant.", "ko": "좋아요, 기장님. 저는 승무원이에요." },
+    { "who": "kid", "en": "What does a flight attendant do?", "ko": "승무원은 뭐 해?" },
+    { "who": "parent", "en": "I help people and keep everyone safe.", "ko": "사람들을 돕고 모두 안전하게 지켜요." },
+    { "who": "kid", "en": "Fasten your seatbelt, please!", "ko": "안전벨트 매 주세요!", "practice": true },
+    { "who": "parent", "en": "Click! Everyone is ready. Where are we flying?", "ko": "딸깍! 모두 준비됐어요. 어디로 가요?" },
+    { "who": "kid", "en": "To Jeju Island!", "ko": "제주도로!", "practice": true },
+    { "who": "parent", "en": "Great! Ready for takeoff, Captain?", "ko": "좋아요! 이륙 준비됐나요, 기장님?" },
+    { "who": "kid", "en": "Here we go! Vroooom!", "ko": "출발! 부우웅!" },
+    { "who": "parent", "en": "Wow, we're above the clouds!", "ko": "우와, 구름 위로 올라왔어요!" },
+    { "who": "kid", "en": "Can I have some juice, please?", "ko": "주스 좀 주세요.", "practice": true },
+    { "who": "parent", "en": "Coming right up! Here you go, Captain.", "ko": "바로 갖다 드릴게요! 여기 있어요, 기장님." },
+    { "who": "kid", "en": "Thank you! Mmm, yummy.", "ko": "고마워요! 음, 맛있다." },
+    { "who": "parent", "en": "Captain, how do you steer the plane?", "ko": "기장님, 비행기 방향은 어떻게 바꿔요?" },
+    { "who": "kid", "en": "With this! Left, right!", "ko": "이걸로! 왼쪽, 오른쪽!" },
+    { "who": "parent", "en": "Oh, it's getting bumpy. Is that okay?", "ko": "어, 비행기가 흔들려요. 괜찮은 거예요?" },
+    { "who": "kid", "en": "It's okay. Just a little wind.", "ko": "괜찮아요. 바람이 조금 부는 거예요." },
+    { "who": "parent", "en": "Phew. Are we there yet?", "ko": "휴. 아직 멀었어요?" },
+    { "who": "kid", "en": "Almost! We're landing!", "ko": "거의 다 왔어요! 착륙합니다!", "practice": true },
+    { "who": "parent", "en": "Everyone, keep your seatbelts on.", "ko": "여러분, 안전벨트를 계속 매고 계세요." },
+    { "who": "kid", "en": "Bump! Welcome to Jeju!", "ko": "쿵! 제주에 오신 걸 환영합니다!", "practice": true },
+    { "who": "parent", "en": "Thank you, Captain. That was a smooth flight!", "ko": "고마워요, 기장님. 편안한 비행이었어요!" },
+    { "who": "kid", "en": "Let's fly back home tomorrow!", "ko": "내일 다시 집으로 날아가자!" }
+  ],
+  "talkMore": [
+    { "en": "Where do you want to fly next time?", "ko": "다음엔 어디로 날아가고 싶어?", "sample_en": "To the beach!", "sample_ko": "바닷가로!" },
+    { "en": "What can you see from the plane?", "ko": "비행기에서 뭐가 보여?", "sample_en": "Clouds and the sea.", "sample_ko": "구름이랑 바다." },
+    { "en": "What do you want to do in Jeju?", "ko": "제주도에서 뭐 하고 싶어?", "sample_en": "Swim in the sea!", "sample_ko": "바다에서 수영!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Who flies the plane?", "prompt_ko": "비행기는 누가 조종해?", "options": [ { "e": "🧑‍✈️", "en": "the pilot" }, { "e": "👨‍🍳", "en": "a cook" }, { "e": "🧑‍🌾", "en": "a farmer" } ] },
+    { "prompt_en": "Which one is an airplane?", "prompt_ko": "비행기는 어느 거야?", "options": [ { "e": "✈️", "en": "airplane" }, { "e": "🚢", "en": "ship" }, { "e": "🚜", "en": "tractor" } ] },
+    { "prompt_en": "Before takeoff, what do you say?", "prompt_ko": "이륙하기 전에 뭐라고 해?", "options": [ { "e": "💺", "en": "Fasten your seatbelt." }, { "e": "🛌", "en": "Go to bed." }, { "e": "🏊", "en": "Let's swim." } ] },
+    { "prompt_en": "Where did we fly today?", "prompt_ko": "오늘 어디로 날아갔지?", "options": [ { "e": "🏝️", "en": "Jeju Island" }, { "e": "🌙", "en": "the moon" }, { "e": "🏫", "en": "school" } ] },
+    { "prompt_en": "The plane is coming down to the ground. What do you say?", "prompt_ko": "비행기가 땅으로 내려가고 있어. 뭐라고 해?", "options": [ { "e": "🛬", "en": "We're landing!" }, { "e": "🍦", "en": "Ice cream!" }, { "e": "😴", "en": "Good night." } ] },
+    { "prompt_en": "What do we see up high from the plane?", "prompt_ko": "높이 날 때 비행기에서 뭐가 보여?", "options": [ { "e": "☁️", "en": "clouds" }, { "e": "🦈", "en": "a shark" }, { "e": "🐌", "en": "a snail" } ] },
+    { "prompt_en": "You land in Jeju. What does the pilot say?", "prompt_ko": "제주에 도착했어. 조종사는 뭐라고 해?", "options": [ { "e": "👋", "en": "Welcome to Jeju!" }, { "e": "🎂", "en": "Happy birthday!" }, { "e": "😢", "en": "I'm sad." } ] },
+    { "prompt_en": "Someone asks, 'Can I have some juice?' What do you say?", "prompt_ko": "'주스 좀 주세요'라고 하면 뭐라고 해?", "options": [ { "e": "🙂", "en": "Coming right up!" }, { "e": "😠", "en": "Go away!" }, { "e": "😴", "en": "I'm sleepy." } ] },
+    { "prompt_en": "Which one flies in the sky?", "prompt_ko": "하늘을 나는 건 어느 거야?", "options": [ { "e": "🚁", "en": "helicopter" }, { "e": "🚂", "en": "train" }, { "e": "🚌", "en": "bus" } ] },
+    { "prompt_en": "What did the pilot drink?", "prompt_ko": "조종사는 뭘 마셨지?", "options": [ { "e": "🧃", "en": "juice" }, { "e": "🧱", "en": "a brick" }, { "e": "👟", "en": "a shoe" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Coming right up!'의 뜻은?", "options": ["곧 갖다 드릴게요!", "바로 올라와!", "위로 올라가요!", "지금 오는 중이야!"], "explain": "주문이나 부탁을 받고 '바로 가져다 드릴게요'라고 할 때 씁니다." },
+    { "q": "'안전벨트 매'를 영어로 하면?", "options": ["Fasten your seatbelt.", "Wear your seatbelt on.", "Tie your seatbelt.", "Lock your seat."], "explain": "안전벨트를 맬 때는 fasten을 씁니다(구어로 Buckle up.도 가능)." },
+    { "q": "'fasten'은 어떻게 발음할까?", "options": ["패슨 (t는 소리 내지 않음)", "패스튼", "패스텐", "파스텐"], "explain": "fasten, listen, castle처럼 st 뒤 t가 묵음인 단어가 있습니다." },
+    { "q": "빈칸에 알맞은 말은? — Okay, Captain. I'm the flight ___.", "options": ["attendant", "helper", "worker", "server"], "explain": "비행기 승무원은 flight attendant라고 합니다." },
+    { "q": "'We're landing!'의 뜻은?", "options": ["착륙하고 있어!", "이륙하고 있어!", "땅을 사고 있어!", "비행기에서 내려!"], "explain": "landing은 착륙, taking off는 이륙입니다." },
+    { "q": "빈칸에 알맞은 말은? — Wow, we're ___ the clouds!", "options": ["above", "under", "behind", "between"], "explain": "비행기가 구름보다 높이 있으니 above(~ 위에)를 씁니다." },
+    { "q": "착륙 후 '제주에 오신 걸 환영합니다!'를 영어로 하면?", "options": ["Welcome to Jeju!", "Welcome in Jeju!", "Welcome at Jeju!", "Welcoming Jeju!"], "explain": "장소에 도착한 사람을 맞을 때는 Welcome to + 장소를 씁니다." },
+    { "q": "아이가 가게 놀이에서 '주스 주세요'라고 할 때 점원처럼 바로 답할 말은?", "options": ["Coming right up!", "Come right up!", "Going right down!", "Coming up right!"], "explain": "정해진 표현이므로 어순 그대로 Coming right up!이라고 해야 합니다." },
+    { "q": "빈칸에 알맞은 말은? — Oh, it's getting ___. Is that okay?", "options": ["bumpy", "bumping", "bumps", "bumped"], "explain": "get + 형용사로 '점점 흔들린다'는 뜻이라 형용사 bumpy를 씁니다." },
+    { "q": "'Are we there yet?'의 뜻은?", "options": ["아직 멀었어? (다 왔어?)", "우리 저기 있어?", "거기 가 봤어?", "아직 출발 안 했어?"], "explain": "차나 비행기에서 아이들이 자주 묻는 '다 왔어?'라는 말입니다." }
+  ]
+}

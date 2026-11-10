@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 30,
+  "topic": "space",
+  "title_en": "Hello, alien (pretend)",
+  "title_ko": "안녕, 외계인 (역할 놀이)",
+  "intro_ko": "부모가 먼 별에서 온 외계인 '집'이 되어 지구 아이를 처음 만나는 역할 놀이입니다. 머리에 소쿠리나 안테나 머리띠를 쓰고 로봇 같은 목소리로 '삐빅!' 하며 시작해 보세요.",
+  "expressions": [
+    { "en": "Where are you from?", "ko": "어디에서 왔어?", "tip": "처음 만난 사람에게 고향이나 나라를 물을 때 써요. Where are you가 이어져 '웨어라유 프럼'처럼 들립니다.", "who": "both" },
+    { "en": "Nice to meet you.", "ko": "만나서 반가워.", "tip": "처음 만났을 때 하는 인사예요. 대답은 Nice to meet you, too. meet you가 이어져 '나이스 투 미츄'처럼 들립니다.", "who": "both" },
+    { "en": "Let's be friends.", "ko": "우리 친구 하자.", "tip": "새 친구에게 먼저 다가갈 때 쓰는 말이에요. '렛츠 비 프렌즈'로, friends의 ds는 '즈'로 끝냅니다.", "who": "kid" },
+    { "en": "Come and play!", "ko": "와서 같이 놀자!", "tip": "친구를 놀이에 부를 때 쓰는 말이에요. and가 약하게 '언'으로 줄어 '커먼 플레이'처럼 들립니다.", "who": "kid" },
+    { "en": "Make friends.", "ko": "친구를 사귀다.", "tip": "'친구를 사귀다'는 make friends라고 해요. friends는 항상 복수로 씁니다. How do you make friends?(친구는 어떻게 사귀어?)처럼 물어볼 수 있어요.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Beep beep! Hello, Earth kid!", "ko": "삐빅! 안녕, 지구 어린이!" },
+    { "who": "kid", "en": "Hello! Who are you?", "ko": "안녕! 넌 누구야?" },
+    { "who": "parent", "en": "I'm Zib. I'm an alien.", "ko": "나는 집이야. 외계인이지." },
+    { "who": "kid", "en": "Where are you from?", "ko": "어디에서 왔어?", "practice": true },
+    { "who": "parent", "en": "From a planet far, far away.", "ko": "아주아주 먼 행성에서 왔어." },
+    { "who": "kid", "en": "How did you get here?", "ko": "여기 어떻게 왔어?" },
+    { "who": "parent", "en": "In my spaceship! It's parked in your yard.", "ko": "내 우주선 타고! 너희 마당에 세워 뒀어." },
+    { "who": "kid", "en": "Cool! Nice to meet you!", "ko": "멋지다! 만나서 반가워!", "practice": true },
+    { "who": "parent", "en": "Nice to meet you, too. What's this place?", "ko": "나도 만나서 반가워. 여기는 어디야?" },
+    { "who": "kid", "en": "This is Earth!", "ko": "여기는 지구야!", "practice": true },
+    { "who": "parent", "en": "Earth is so pretty. But I'm a little lonely.", "ko": "지구는 정말 예쁘다. 그런데 나 좀 외로워." },
+    { "who": "kid", "en": "Why?", "ko": "왜?" },
+    { "who": "parent", "en": "I don't have any friends here.", "ko": "여기엔 친구가 하나도 없거든." },
+    { "who": "kid", "en": "Let's be friends!", "ko": "우리 친구 하자!", "practice": true },
+    { "who": "parent", "en": "Really? How do you make friends on Earth?", "ko": "정말? 지구에서는 친구를 어떻게 사귀어?" },
+    { "who": "kid", "en": "We play together!", "ko": "같이 놀아!" },
+    { "who": "parent", "en": "Play? What's that?", "ko": "놀아? 그게 뭐야?" },
+    { "who": "kid", "en": "Come and play! Let's play catch.", "ko": "와서 같이 놀자! 공 주고받기 하자.", "practice": true },
+    { "who": "parent", "en": "Beep? What do I do?", "ko": "삐빅? 나는 뭘 해?" },
+    { "who": "kid", "en": "I throw, you catch!", "ko": "내가 던지면 네가 받아!", "practice": true },
+    { "who": "parent", "en": "Beep beep! I caught it! This is fun!", "ko": "삐빅! 받았다! 이거 재미있다!" },
+    { "who": "kid", "en": "Good job, Zib!", "ko": "잘했어, 집!" },
+    { "who": "parent", "en": "Thank you, friend. Can I come back tomorrow?", "ko": "고마워, 친구야. 내일 또 와도 돼?" },
+    { "who": "kid", "en": "Yes! See you tomorrow!", "ko": "응! 내일 봐!" }
+  ],
+  "talkMore": [
+    { "en": "What would you show an alien first?", "ko": "외계인에게 제일 먼저 뭘 보여 줄래?", "sample_en": "My toy rocket!", "sample_ko": "내 장난감 로켓!" },
+    { "en": "What does an alien eat for lunch?", "ko": "외계인은 점심으로 뭘 먹을까?", "sample_en": "Space noodles!", "sample_ko": "우주 국수!" },
+    { "en": "How do you make friends at school?", "ko": "유치원에서는 친구를 어떻게 사귀어?", "sample_en": "I say, 'Let's play!'", "sample_ko": "'같이 놀자!'라고 해." }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "You meet someone new. What do you say?", "prompt_ko": "새 친구를 처음 만났어. 뭐라고 해?", "options": [ { "e": "🤝", "en": "Nice to meet you." }, { "e": "😴", "en": "Good night." }, { "e": "🍽️", "en": "I'm full." } ] },
+    { "prompt_en": "You want to know where a new friend is from. What do you ask?", "prompt_ko": "새 친구가 어디서 왔는지 궁금해. 뭐라고 물어?", "options": [ { "e": "🗺️", "en": "Where are you from?" }, { "e": "🍌", "en": "Banana!" }, { "e": "🛁", "en": "Bath time!" } ] },
+    { "prompt_en": "Which one is an alien?", "prompt_ko": "외계인은 어느 거야?", "options": [ { "e": "👽", "en": "alien" }, { "e": "🐶", "en": "dog" }, { "e": "👶", "en": "baby" } ] },
+    { "prompt_en": "How did the alien come here? In a…", "prompt_ko": "외계인은 뭘 타고 왔지?", "options": [ { "e": "🛸", "en": "spaceship" }, { "e": "🚲", "en": "bike" }, { "e": "🛒", "en": "shopping cart" } ] },
+    { "prompt_en": "You want to play with a friend. What do you say?", "prompt_ko": "친구랑 놀고 싶어. 뭐라고 해?", "options": [ { "e": "🧸", "en": "Come and play!" }, { "e": "😠", "en": "Go away!" }, { "e": "💤", "en": "I'm sleepy." } ] },
+    { "prompt_en": "Which one is the Earth?", "prompt_ko": "지구는 어느 거야?", "options": [ { "e": "🌍", "en": "Earth" }, { "e": "🌙", "en": "moon" }, { "e": "☀️", "en": "sun" } ] },
+    { "prompt_en": "What game did we play?", "prompt_ko": "우리 무슨 놀이 했지?", "options": [ { "e": "⚾", "en": "catch" }, { "e": "🎹", "en": "piano" }, { "e": "🍳", "en": "cooking" } ] },
+    { "prompt_en": "You want to be friends. What do you say?", "prompt_ko": "친구가 되고 싶어. 뭐라고 해?", "options": [ { "e": "🤗", "en": "Let's be friends!" }, { "e": "😢", "en": "I'm sad." }, { "e": "🚿", "en": "Shower time." } ] },
+    { "prompt_en": "Which one is a planet?", "prompt_ko": "행성은 어느 거야?", "options": [ { "e": "🪐", "en": "planet" }, { "e": "🍩", "en": "donut" }, { "e": "🎈", "en": "balloon" } ] },
+    { "prompt_en": "Your new friend goes home. What do you say?", "prompt_ko": "새 친구가 집에 가. 뭐라고 해?", "options": [ { "e": "👋", "en": "See you tomorrow!" }, { "e": "🍕", "en": "Pizza!" }, { "e": "🙈", "en": "Don't look!" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Nice to meet you.'의 뜻은?", "options": ["만나서 반가워.", "또 만나자.", "잘 지냈어?", "보고 싶었어."], "explain": "처음 만난 사람에게 하는 인사로, 대답은 Nice to meet you, too.입니다." },
+    { "q": "'친구를 사귀다'를 영어로 바르게 쓴 것은?", "options": ["make friends", "make a friends", "do friends", "take friends"], "explain": "'친구를 사귀다'는 항상 복수형으로 make friends라고 합니다." },
+    { "q": "처음 만난 외계인에게 '어디에서 왔어?'라고 물을 때 알맞은 말은?", "options": ["Where are you from?", "Where do you from?", "Where you are from?", "Where from are you?"], "explain": "출신을 물을 때는 Where are you from?이라고 합니다." },
+    { "q": "'Nice to meet you.'라는 인사에 가장 자연스러운 대답은?", "options": ["Nice to meet you, too.", "Me too meet.", "Yes, nice.", "I'm fine, thank you."], "explain": "같은 말 끝에 too를 붙여 '나도 반가워'라고 답합니다." },
+    { "q": "빈칸에 알맞은 말은? — In my spaceship! It's ___ in your yard.", "options": ["parked", "parking", "park", "parks"], "explain": "'세워져 있다'는 수동의 의미라서 It's parked가 됩니다." },
+    { "q": "빈칸에 알맞은 말은? — Really? How do you ___ friends on Earth?", "options": ["make", "do", "get on", "build"], "explain": "'친구를 사귀다'는 make friends이므로 make가 들어갑니다." },
+    { "q": "'Come and play!'를 자연스럽게 말하면 어떻게 들릴까?", "options": ["커먼 플레이", "컴 앤드 플레이", "카메 플레이", "컴 안 플라이"], "explain": "and가 약하게 '언'으로 줄어 come과 붙어 '커먼'처럼 들립니다." },
+    { "q": "'I'm a little lonely.'의 뜻은?", "options": ["나 좀 외로워.", "나 좀 작아.", "나 혼자 하고 싶어.", "나 좀 피곤해."], "explain": "lonely는 '외로운'이라는 뜻이고, a little은 '조금'입니다." },
+    { "q": "놀이터에서 아이가 다른 아이에게 '우리 친구 하자.'라고 할 때 알맞은 말은?", "options": ["Let's be friends.", "Let's make friend.", "Let's friends.", "Let's are friends."], "explain": "Let's 뒤에는 동사원형이 와서 Let's be friends.가 됩니다." },
+    { "q": "'Can I come back tomorrow?'의 뜻은?", "options": ["내일 또 와도 돼?", "내일 돌려줘도 돼?", "내일 뒤로 가도 돼?", "내일 데리러 와 줄래?"], "explain": "come back은 '다시 오다'라는 뜻입니다." }
+  ]
+}

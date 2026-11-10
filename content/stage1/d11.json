@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 11,
+  "topic": "daily",
+  "title_en": "How do you feel?",
+  "title_ko": "기분이 어때?",
+  "intro_ko": "아이가 아끼던 종이배가 젖어서 망가진 상황입니다. 휴지나 종이로 배를 하나 접어 두고, 쿠킹 포일로 새 배를 만들어 대야나 욕조에 띄워 보며 연기하면 좋아요.",
+  "expressions": [
+    { "en": "How do you feel?", "ko": "기분이 어때?", "tip": "아이 표정이 평소와 다를 때 부드럽게 묻는 말이에요. How do you가 이어져 '하우루유 필'처럼 들립니다.", "who": "both" },
+    { "en": "I feel sad.", "ko": "나 슬퍼.", "tip": "sad 자리에 happy, angry, scared, tired를 넣어 감정을 말하게 해 주세요. '아이 필 새드'로 또박또박 말하면 됩니다.", "who": "kid" },
+    { "en": "What's wrong?", "ko": "무슨 일 있어?", "tip": "아이가 울거나 시무룩할 때 가장 먼저 하는 질문이에요. '왓츠 롱'처럼 붙여 말하고 끝을 내려 줍니다.", "who": "parent" },
+    { "en": "It's okay.", "ko": "괜찮아.", "tip": "속상한 아이를 달랠 때도, 실수한 사람을 안심시킬 때도 써요. It's okay가 이어져 '잇초케이'처럼 들립니다.", "who": "both" },
+    { "en": "Cheer up.", "ko": "기운 내.", "tip": "시무룩한 아이에게 '힘내, 기분 풀어'라는 뜻으로 써요. 뒤에 buddy나 sweetie를 붙이면 더 다정해요. '치어럽'처럼 이어 말합니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "You look a little quiet, sweetie. How do you feel?", "ko": "우리 아기 좀 조용하네. 기분이 어때?" },
+    { "who": "kid", "en": "I feel sad.", "ko": "나 슬퍼.", "practice": true },
+    { "who": "parent", "en": "Oh no. What's wrong?", "ko": "저런. 무슨 일 있어?" },
+    { "who": "kid", "en": "My paper boat broke.", "ko": "내 종이배가 망가졌어.", "practice": true },
+    { "who": "parent", "en": "Can I see it?", "ko": "한번 볼까?" },
+    { "who": "kid", "en": "Here. It got wet.", "ko": "여기. 물에 젖었어." },
+    { "who": "parent", "en": "Oh, I see. Paper gets soft in water.", "ko": "아, 그렇구나. 종이는 물에 젖으면 흐물흐물해져." },
+    { "who": "kid", "en": "Why?", "ko": "왜?" },
+    { "who": "parent", "en": "Paper soaks up water, so it gets weak and floppy.", "ko": "종이는 물을 빨아들여서 약해지고 흐물거리게 돼." },
+    { "who": "kid", "en": "But I liked my boat.", "ko": "그래도 나 그 배 좋았는데." },
+    { "who": "parent", "en": "I know. It's okay to feel sad.", "ko": "알아. 슬픈 마음이 드는 건 괜찮아." },
+    { "who": "kid", "en": "Will you help me?", "ko": "도와줄 거야?", "practice": true },
+    { "who": "parent", "en": "Of course. Cheer up, buddy. Let's make a new one.", "ko": "당연하지. 기운 내. 새로 하나 만들자." },
+    { "who": "kid", "en": "Can it float this time?", "ko": "이번엔 뜰 수 있어?" },
+    { "who": "parent", "en": "Let's use foil. Foil doesn't soak up water.", "ko": "포일로 만들자. 포일은 물을 안 빨아들여." },
+    { "who": "parent", "en": "Oops! I folded it the wrong way.", "ko": "어머! 반대로 접었네." },
+    { "who": "kid", "en": "It's okay. Try again!", "ko": "괜찮아. 다시 해 봐!", "practice": true },
+    { "who": "parent", "en": "Thanks. There! A shiny silver boat.", "ko": "고마워. 됐다! 반짝반짝 은색 배." },
+    { "who": "kid", "en": "Let's put it in the water!", "ko": "물에 띄워 보자!" },
+    { "who": "parent", "en": "Look, it floats! How do you feel now?", "ko": "봐, 뜬다! 이제 기분이 어때?" },
+    { "who": "kid", "en": "I feel happy!", "ko": "나 기뻐!", "practice": true },
+    { "who": "parent", "en": "Me too. I love that big smile.", "ko": "나도. 활짝 웃으니까 너무 좋다." },
+    { "who": "kid", "en": "How do you feel?", "ko": "엄마(아빠)는 기분이 어때?", "practice": true },
+    { "who": "parent", "en": "I feel great, because you're happy.", "ko": "네가 기쁘니까 나도 정말 좋아." }
+  ],
+  "talkMore": [
+    { "en": "What makes you feel happy?", "ko": "뭘 하면 기분이 좋아져?", "sample_en": "Playing with my ships!", "sample_ko": "내 배들 갖고 놀 때!" },
+    { "en": "What do you do when you feel sad?", "ko": "슬플 땐 어떻게 해?", "sample_en": "I hug my teddy.", "sample_ko": "곰 인형을 안아." },
+    { "en": "How can we cheer up a sad friend?", "ko": "슬픈 친구는 어떻게 기운 나게 해 줄까?", "sample_en": "Say 'It's okay.'", "sample_ko": "'괜찮아'라고 말해 줘." }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which face is sad?", "prompt_ko": "슬픈 얼굴은 어느 거야?", "options": [ { "e": "😢", "en": "sad" }, { "e": "😄", "en": "happy" }, { "e": "😴", "en": "sleepy" } ] },
+    { "prompt_en": "Which face is happy?", "prompt_ko": "기쁜 얼굴은 어느 거야?", "options": [ { "e": "😄", "en": "happy" }, { "e": "😠", "en": "angry" }, { "e": "😢", "en": "sad" } ] },
+    { "prompt_en": "Your friend is crying. What do you say?", "prompt_ko": "친구가 울고 있어. 뭐라고 해?", "options": [ { "e": "🤗", "en": "What's wrong?" }, { "e": "😋", "en": "Yummy!" }, { "e": "🥳", "en": "Hooray!" } ] },
+    { "prompt_en": "Someone asks, 'How do you feel?' What do you say?", "prompt_ko": "'기분이 어때?'라고 물으면 뭐라고 해?", "options": [ { "e": "😊", "en": "I feel happy." }, { "e": "🚗", "en": "A red car." }, { "e": "🍌", "en": "A banana." } ] },
+    { "prompt_en": "Your friend drops a cup. What do you say?", "prompt_ko": "친구가 컵을 떨어뜨렸어. 뭐라고 해?", "options": [ { "e": "👌", "en": "It's okay." }, { "e": "😴", "en": "Good night." }, { "e": "🎂", "en": "Happy birthday!" } ] },
+    { "prompt_en": "What gets soft in water?", "prompt_ko": "물에 젖으면 흐물흐물해지는 건 뭐야?", "options": [ { "e": "📄", "en": "paper" }, { "e": "🪨", "en": "a rock" }, { "e": "🥄", "en": "a spoon" } ] },
+    { "prompt_en": "Which one is a boat?", "prompt_ko": "배는 어느 거야?", "options": [ { "e": "⛵", "en": "boat" }, { "e": "🚲", "en": "bike" }, { "e": "✈️", "en": "plane" } ] },
+    { "prompt_en": "You need help. What do you say?", "prompt_ko": "도움이 필요해. 뭐라고 해?", "options": [ { "e": "🙏", "en": "Will you help me?" }, { "e": "👋", "en": "Bye-bye!" }, { "e": "🙅", "en": "No, thanks." } ] },
+    { "prompt_en": "Which face is angry?", "prompt_ko": "화난 얼굴은 어느 거야?", "options": [ { "e": "😠", "en": "angry" }, { "e": "😄", "en": "happy" }, { "e": "😮", "en": "surprised" } ] },
+    { "prompt_en": "Listen: 'Cheer up!' What does it mean?", "prompt_ko": "'Cheer up!'은 무슨 뜻일까?", "options": [ { "e": "💪", "en": "Be happy again!" }, { "e": "🛏️", "en": "Go to bed!" }, { "e": "🏃", "en": "Run fast!" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'What's wrong?'의 뜻은?", "options": ["무슨 일 있어?", "뭐가 틀렸어?", "뭐 하고 있어?", "어디가 좋아?"], "explain": "아이가 속상해 보일 때 '무슨 일이야?'라고 묻는 가장 흔한 말입니다." },
+    { "q": "'Cheer up.'은 어떤 뜻일까?", "options": ["기운 내.", "위로 올라가.", "박수 쳐.", "조용히 해."], "explain": "Cheer up은 시무룩한 사람에게 '힘내, 기분 풀어'라고 할 때 씁니다." },
+    { "q": "아이 표정이 어두울 때 '기분이 어때?'라고 묻는 자연스러운 말은?", "options": ["How do you feel?", "How are you feel?", "What do you feeling?", "How you feel are?"], "explain": "기분을 물을 때는 How do you feel?이 자연스럽습니다." },
+    { "q": "'나 슬퍼.'를 영어로 하면?", "options": ["I feel sad.", "I'm feel sad.", "I sad feel.", "I feeling sad."], "explain": "feel 뒤에 감정 형용사를 바로 붙여 I feel sad.라고 합니다." },
+    { "q": "빈칸에 알맞은 말은? — I know. It's okay ___ feel sad.", "options": ["to", "for", "with", "of"], "explain": "It's okay to + 동사원형으로 '~해도 괜찮아'라는 뜻이 됩니다." },
+    { "q": "빈칸에 알맞은 말은? — Paper ___ up water, so it gets weak and floppy.", "options": ["soaks", "drinks", "takes", "picks"], "explain": "soak up은 물을 '빨아들이다'라는 뜻입니다." },
+    { "q": "아이가 우유를 쏟고 울상일 때 안심시키는 말로 가장 알맞은 것은?", "options": ["It's okay.", "Cheer up the milk.", "You're welcome.", "What's okay?"], "explain": "실수한 아이에게는 It's okay.(괜찮아)로 먼저 안심시켜 줍니다." },
+    { "q": "'It's okay'를 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["잇초케이", "잇츠 오 케이", "이트 오케이", "잇스오카이"], "explain": "It's의 s와 okay의 o가 이어져 '잇초케이'처럼 들립니다." },
+    { "q": "'How do you feel now?'에 대한 아이의 대답으로 알맞은 것은?", "options": ["I feel happy!", "I'm five.", "It's a boat.", "Yes, I do."], "explain": "기분을 묻는 질문이므로 I feel + 감정으로 답합니다." },
+    { "q": "Cheer up을 쓰기에 가장 알맞은 상황은?", "options": ["아이가 시합에 져서 시무룩할 때", "아이가 생일 선물을 받고 신났을 때", "아이가 잠자리에 들 때", "아이가 밥을 다 먹었을 때"], "explain": "Cheer up은 기운이 없거나 속상한 사람에게 하는 말입니다." }
+  ]
+}

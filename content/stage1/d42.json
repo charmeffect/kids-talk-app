@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 42,
+  "topic": "science",
+  "title_en": "Baking-soda volcano",
+  "title_ko": "베이킹소다 화산 놀이",
+  "intro_ko": "베이킹소다와 식초로 거품 화산을 만드는 실험입니다. 컵을 쟁반 위에 놓고 베이킹소다 2스푼, 식용색소 한 방울, 식초 반 컵을 준비해 대본대로 직접 해 보세요.",
+  "expressions": [
+    { "en": "Mix it together.", "ko": "같이 섞어.", "tip": "요리나 만들기에서 재료를 섞을 때 써요. Mix it이 이어져 '믹싯 투게더'처럼 들립니다.", "who": "both" },
+    { "en": "It's fizzing!", "ko": "보글보글 거품이 나!", "tip": "탄산음료나 거품이 '쉬익' 하고 올라올 때 쓰는 말이에요. fizz는 'z' 소리를 살려 '피징'으로 말합니다.", "who": "kid" },
+    { "en": "Stand back.", "ko": "뒤로 물러서.", "tip": "위험하거나 튈 수 있을 때 아이를 한 걸음 물러서게 하는 말이에요. Stand의 d가 약해져 '스탠 백'처럼 들립니다.", "who": "parent" },
+    { "en": "Do it again!", "ko": "또 해 줘! / 한 번 더 해!", "tip": "재미있는 걸 다시 하고 싶을 때 아이가 정말 많이 하는 말이에요. Do it again이 이어져 '두이러겐'처럼 들립니다.", "who": "kid" },
+    { "en": "Here it comes!", "ko": "자, 간다! / 온다, 온다!", "tip": "무언가가 곧 나오거나 다가올 때 기대감을 담아 하는 말이에요. Here it이 이어져 '히어릿 컴즈'처럼 들립니다.", "who": "both" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Guess what? Today we're making a volcano!", "ko": "있잖아, 오늘은 화산을 만들 거야!" },
+    { "who": "kid", "en": "A real volcano?", "ko": "진짜 화산?", "practice": true },
+    { "who": "parent", "en": "A pretend one. It bubbles over like lava.", "ko": "가짜 화산이야. 용암처럼 거품이 넘쳐흘러." },
+    { "who": "kid", "en": "What do we need?", "ko": "뭐가 필요해?" },
+    { "who": "parent", "en": "Baking soda, vinegar, and a little red color.", "ko": "베이킹소다, 식초, 그리고 빨간 색소 조금." },
+    { "who": "kid", "en": "Can I put it in?", "ko": "내가 넣어도 돼?" },
+    { "who": "parent", "en": "Sure. Put two spoons of baking soda in the cup.", "ko": "그럼. 컵에 베이킹소다 두 숟가락 넣어." },
+    { "who": "kid", "en": "Done! Now what?", "ko": "다 했어! 이제 뭐 해?" },
+    { "who": "parent", "en": "Add one drop of red. Mix it together.", "ko": "빨간 색소 한 방울 넣고. 같이 섞어." },
+    { "who": "kid", "en": "Mix, mix, mix it together!", "ko": "섞고, 섞고, 같이 섞어!", "practice": true },
+    { "who": "parent", "en": "Nice. Now I'll pour in the vinegar. Here it comes!", "ko": "좋아. 이제 식초를 부을게. 자, 간다!" },
+    { "who": "kid", "en": "Whoa! It's fizzing!", "ko": "우와! 보글보글 거품 나!", "practice": true },
+    { "who": "parent", "en": "Stand back, sweetie. It's going to spill over.", "ko": "뒤로 물러서. 넘쳐흐를 거야." },
+    { "who": "kid", "en": "It's so foamy! Why does it fizz?", "ko": "거품이 엄청 많아! 왜 거품이 나?" },
+    { "who": "parent", "en": "The baking soda and vinegar mix and make a gas.", "ko": "베이킹소다랑 식초가 섞이면 기체가 생겨." },
+    { "who": "kid", "en": "What's a gas?", "ko": "기체가 뭐야?" },
+    { "who": "parent", "en": "It's like air. You can't see it, but it makes bubbles.", "ko": "공기 같은 거야. 눈에 안 보이지만 거품을 만들어." },
+    { "who": "kid", "en": "Do it again!", "ko": "또 해 줘!", "practice": true },
+    { "who": "parent", "en": "Okay! More baking soda, more vinegar. Ready?", "ko": "좋아! 베이킹소다 더, 식초 더. 준비됐어?" },
+    { "who": "kid", "en": "Here it comes!", "ko": "온다, 온다!", "practice": true },
+    { "who": "parent", "en": "Wow, that one's even bigger! You're a real scientist.", "ko": "우와, 이번엔 더 크다! 진짜 과학자네." },
+    { "who": "kid", "en": "A volcano scientist!", "ko": "화산 과학자!" }
+  ],
+  "talkMore": [
+    { "en": "What color should our next volcano be?", "ko": "다음 화산은 무슨 색으로 할까?", "sample_en": "Blue! A blue volcano!", "sample_ko": "파란색! 파란 화산!" },
+    { "en": "What do you think happens with more vinegar?", "ko": "식초를 더 넣으면 어떻게 될 것 같아?", "sample_en": "More bubbles!", "sample_ko": "거품이 더 많이 나!" },
+    { "en": "Where else do you see bubbles?", "ko": "또 어디에서 거품을 볼 수 있어?", "sample_en": "In the bath!", "sample_ko": "목욕할 때!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a volcano?", "prompt_ko": "화산은 어느 거야?", "options": [ { "e": "🌋", "en": "volcano" }, { "e": "🏠", "en": "house" }, { "e": "🌳", "en": "tree" } ] },
+    { "prompt_en": "We pour vinegar on baking soda. What happens?", "prompt_ko": "베이킹소다에 식초를 부으면 어떻게 돼?", "options": [ { "e": "🌋", "en": "It bubbles over!" }, { "e": "❄️", "en": "Snow!" }, { "e": "🔥", "en": "Fire!" } ] },
+    { "prompt_en": "It might spill. What do you say?", "prompt_ko": "넘칠 것 같아. 뭐라고 해?", "options": [ { "e": "✋", "en": "Stand back." }, { "e": "😋", "en": "Yummy!" }, { "e": "😴", "en": "Good night." } ] },
+    { "prompt_en": "That was fun! You want more. What do you say?", "prompt_ko": "재미있었어! 또 하고 싶어. 뭐라고 해?", "options": [ { "e": "🔁", "en": "Do it again!" }, { "e": "🛑", "en": "Stop it!" }, { "e": "👋", "en": "Bye-bye." } ] },
+    { "prompt_en": "Which one do we use to mix?", "prompt_ko": "섞을 때 쓰는 건 어느 거야?", "options": [ { "e": "🥄", "en": "spoon" }, { "e": "👟", "en": "shoe" }, { "e": "📺", "en": "TV" } ] },
+    { "prompt_en": "What color was our lava?", "prompt_ko": "우리 용암은 무슨 색이었지?", "options": [ { "e": "🔴", "en": "red" }, { "e": "🟢", "en": "green" }, { "e": "⚫", "en": "black" } ] },
+    { "prompt_en": "Listen: 'It's fizzing!' Which picture matches?", "prompt_ko": "'It's fizzing!' 들어 봐. 어떤 그림이 맞아?", "options": [ { "e": "🥤", "en": "fizzy soda" }, { "e": "🪨", "en": "rock" }, { "e": "🧸", "en": "teddy bear" } ] },
+    { "prompt_en": "Who does experiments?", "prompt_ko": "실험은 누가 해?", "options": [ { "e": "🧑‍🔬", "en": "a scientist" }, { "e": "👨‍🍳", "en": "a cook" }, { "e": "👮", "en": "a police officer" } ] },
+    { "prompt_en": "A gas is like…", "prompt_ko": "기체는 뭐랑 비슷해?", "options": [ { "e": "💨", "en": "air" }, { "e": "🧱", "en": "a brick" }, { "e": "🍞", "en": "bread" } ] },
+    { "prompt_en": "Which one is a cup?", "prompt_ko": "컵은 어느 거야?", "options": [ { "e": "🥤", "en": "cup" }, { "e": "🎩", "en": "hat" }, { "e": "🔨", "en": "hammer" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'It's fizzing!'의 뜻으로 알맞은 것은?", "options": ["보글보글 거품이 나!", "불이 붙었어!", "얼어붙었어!", "녹고 있어!"], "explain": "fizz는 탄산처럼 작은 거품이 쉬익 하고 올라오는 것을 말합니다." },
+    { "q": "실험 중 튈 수 있으니 '뒤로 물러서'라고 할 때 알맞은 말은?", "options": ["Stand back.", "Stand up.", "Back stand.", "Stay behind it out."], "explain": "Stand back.은 위험한 것에서 몇 걸음 물러서라는 뜻입니다." },
+    { "q": "'Here it comes!'는 언제 쓰는 말일까?", "options": ["무언가가 곧 나오거나 다가올 때", "물건을 찾았을 때", "누군가 집에 왔을 때만", "놀이를 끝낼 때"], "explain": "Here it comes!는 '자, 온다/간다!'처럼 곧 일어날 일을 기대하며 말합니다." },
+    { "q": "빈칸에 알맞은 말은? — Add one drop of red. Mix it ___.", "options": ["together", "along", "between", "around it"], "explain": "재료를 함께 섞을 때는 mix it together라고 합니다." },
+    { "q": "'Do it again!'을 자연스럽게 이어 말하면?", "options": ["두이러겐", "두 잇 어게인", "두잇트 어게인", "도이 타게인"], "explain": "it의 t가 모음 사이에서 약해져 '두이러겐'처럼 들립니다." },
+    { "q": "'Stand back.'을 빠르게 말하면 어떻게 들릴까?", "options": ["스탠 백", "스탠드 바크", "스텐드 빽크", "스타운 백"], "explain": "Stand의 d가 다음 b 앞에서 거의 사라져 '스탠 백'처럼 들립니다." },
+    { "q": "빈칸에 알맞은 말은? — Stand back, sweetie. It's going to spill ___.", "options": ["over", "up", "on", "off"], "explain": "spill over는 넘쳐흐른다는 뜻입니다." },
+    { "q": "'You can't see it, but it makes bubbles.'의 뜻은?", "options": ["눈에 안 보이지만 거품을 만들어.", "보면 안 되지만 거품을 만들어.", "볼 수는 있지만 거품은 안 나.", "거품을 보면 안 돼."], "explain": "can't see는 '보이지 않는다'는 뜻으로, 기체가 눈에 안 보인다는 말입니다." },
+    { "q": "아이가 '또 해 줘!'라고 조를 때 쓰는 말로 알맞은 것은?", "options": ["Do it again!", "Do it later!", "Did it again!", "Make it done!"], "explain": "한 번 더 해 달라고 할 때 Do it again!이라고 합니다." },
+    { "q": "베이킹소다와 식초가 섞이면 생기는 것은? (아이에게 쉽게 설명)", "options": ["It makes a gas.", "It makes ice.", "It makes fire.", "It makes sugar."], "explain": "두 재료가 섞이면 이산화탄소 기체가 생겨 거품이 됩니다." }
+  ]
+}

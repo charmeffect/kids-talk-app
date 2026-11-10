@@ -1,0 +1,69 @@
+{
+  "stage": 1,
+  "day": 25,
+  "topic": "space",
+  "title_en": "Space station",
+  "title_ko": "우주정거장",
+  "intro_ko": "거실을 우주정거장으로 정하고, 슬로모션으로 둥둥 떠다니는 흉내를 내며 하는 대화입니다. 소파에 등을 대고 머리를 아래로 내려 '거꾸로' 놀이를 하거나, 창문을 우주정거장 창으로 삼아 지구를 찾아보세요.",
+  "expressions": [
+    { "en": "Let's float like astronauts.", "ko": "우주비행사처럼 둥둥 떠다니자.", "tip": "like는 '~처럼'이에요. float like가 이어져 '플로울라이크'처럼 들립니다. like 뒤에 fish, birds를 넣어 놀이를 바꿔 보세요.", "who": "both" },
+    { "en": "I'm upside down!", "ko": "나 거꾸로 됐어!", "tip": "물구나무서기나 거꾸로 매달릴 때 쓰는 말이에요. upside의 d가 약해져 '업사이다운'처럼 들립니다.", "who": "kid" },
+    { "en": "Can you see Earth?", "ko": "지구 보여?", "tip": "Can you see …? 뒤에 무엇이든 넣어 찾기 놀이를 할 수 있어요. can you가 이어져 '캐뉴 씨'처럼 들립니다.", "who": "parent" },
+    { "en": "Over there!", "ko": "저기 있어!", "tip": "손가락으로 가리키며 말해요. 가까우면 Over here!(여기!)라고 합니다.", "who": "kid" },
+    { "en": "Turn around.", "ko": "뒤돌아봐.", "tip": "몸을 반대쪽으로 돌리라는 말이에요. turn과 around가 이어져 '터너라운드'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Let's visit the space station today!", "ko": "오늘은 우주정거장에 가 보자!" },
+    { "who": "kid", "en": "What's a space station?", "ko": "우주정거장이 뭐야?" },
+    { "who": "parent", "en": "It's a big home for astronauts, way up in space.", "ko": "저 높은 우주에 있는 우주비행사들의 큰 집이야." },
+    { "who": "kid", "en": "Do they walk around?", "ko": "거기서 걸어 다녀?" },
+    { "who": "parent", "en": "No, they float.", "ko": "아니, 둥둥 떠다녀." },
+    { "who": "kid", "en": "Let's float like astronauts!", "ko": "우주비행사처럼 떠다니자!", "practice": true },
+    { "who": "parent", "en": "Move slowly, like this. Nice and slow.", "ko": "이렇게 천천히 움직여. 살살." },
+    { "who": "kid", "en": "Wheee! I'm upside down!", "ko": "야호! 나 거꾸로 됐어!", "practice": true },
+    { "who": "kid", "en": "Why do they float?", "ko": "왜 떠다니는 거야?" },
+    { "who": "parent", "en": "They're falling around Earth all the time. So they float!", "ko": "계속 지구 둘레를 떨어지듯 돌고 있거든. 그래서 떠다녀!" },
+    { "who": "kid", "en": "Falling? That's funny!", "ko": "떨어진다고? 웃기다!" },
+    { "who": "parent", "en": "Now look out the window. Can you see Earth?", "ko": "이제 창밖을 봐. 지구 보여?" },
+    { "who": "kid", "en": "Yes! Over there!", "ko": "응! 저기 있어!", "practice": true },
+    { "who": "parent", "en": "What color is it?", "ko": "무슨 색이야?" },
+    { "who": "kid", "en": "Blue and white!", "ko": "파란색이랑 하얀색!", "practice": true },
+    { "who": "parent", "en": "Blue is the ocean. The white parts are clouds.", "ko": "파란 건 바다야. 하얀 건 구름이고." },
+    { "who": "kid", "en": "Where's our house?", "ko": "우리 집은 어디 있어?" },
+    { "who": "parent", "en": "It's too small to see from up here.", "ko": "여기서 보기엔 너무 작아." },
+    { "who": "kid", "en": "Where do astronauts sleep?", "ko": "우주비행사는 어디서 자?" },
+    { "who": "parent", "en": "In sleeping bags tied to the wall.", "ko": "벽에 묶어 둔 침낭 안에서 자." },
+    { "who": "kid", "en": "Can I try?", "ko": "나도 해 봐도 돼?" },
+    { "who": "parent", "en": "Sure. Turn around, buddy. There's your sleeping bag.", "ko": "그럼. 뒤돌아봐. 저기 네 침낭 있다." },
+    { "who": "kid", "en": "Good night, Earth!", "ko": "잘 자, 지구야!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What would you eat in space?", "ko": "우주에서는 뭘 먹고 싶어?", "sample_en": "Space cookies!", "sample_ko": "우주 쿠키!" },
+    { "en": "What would you bring to the space station?", "ko": "우주정거장에 뭘 가져가고 싶어?", "sample_en": "My toy rocket.", "sample_ko": "내 장난감 로켓." },
+    { "en": "What's fun about floating?", "ko": "둥둥 떠다니면 뭐가 재미있을까?", "sample_en": "I can flip!", "sample_ko": "빙글 돌 수 있어!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is an astronaut?", "prompt_ko": "우주비행사는 누구야?", "options": [ { "e": "👩‍🚀", "en": "astronaut" }, { "e": "👮", "en": "police officer" }, { "e": "👨‍🍳", "en": "cook" } ] },
+    { "prompt_en": "Which one is Earth?", "prompt_ko": "지구는 어느 거야?", "options": [ { "e": "🌍", "en": "Earth" }, { "e": "🌙", "en": "moon" }, { "e": "☀️", "en": "sun" } ] },
+    { "prompt_en": "Your feet are up and your head is down. What do you say?", "prompt_ko": "발은 위로, 머리는 아래로 갔어. 뭐라고 해?", "options": [ { "e": "🙃", "en": "I'm upside down!" }, { "e": "😋", "en": "I'm hungry." }, { "e": "😴", "en": "I'm sleepy." } ] },
+    { "prompt_en": "Someone asks, 'Where is it?' You point. What do you say?", "prompt_ko": "'어디 있어?'라고 물어서 손가락으로 가리켜. 뭐라고 해?", "options": [ { "e": "👉", "en": "Over there!" }, { "e": "🍰", "en": "Cake, please." }, { "e": "👋", "en": "Bye-bye!" } ] },
+    { "prompt_en": "Where do astronauts sleep?", "prompt_ko": "우주비행사는 어디서 자?", "options": [ { "e": "🛌", "en": "in a sleeping bag" }, { "e": "🌳", "en": "in a tree" }, { "e": "🛁", "en": "in a bathtub" } ] },
+    { "prompt_en": "Which one goes to space?", "prompt_ko": "우주에 가는 건 어느 거야?", "options": [ { "e": "🚀", "en": "rocket" }, { "e": "🚲", "en": "bike" }, { "e": "🛶", "en": "canoe" } ] },
+    { "prompt_en": "What is the big blue part of Earth?", "prompt_ko": "지구에서 커다란 파란 부분은 뭐야?", "options": [ { "e": "🌊", "en": "the ocean" }, { "e": "🔥", "en": "fire" }, { "e": "🍫", "en": "chocolate" } ] },
+    { "prompt_en": "You want your friend to look behind. What do you say?", "prompt_ko": "친구가 뒤를 봤으면 좋겠어. 뭐라고 해?", "options": [ { "e": "🔄", "en": "Turn around." }, { "e": "🍽️", "en": "Let's eat." }, { "e": "🎵", "en": "Sing a song." } ] },
+    { "prompt_en": "Let's play astronauts! What do you say?", "prompt_ko": "우주비행사 놀이를 하자! 뭐라고 해?", "options": [ { "e": "👨‍🚀", "en": "Let's float like astronauts!" }, { "e": "🛒", "en": "Let's go shopping!" }, { "e": "🧹", "en": "Let's clean up!" } ] },
+    { "prompt_en": "What do astronauts do in the space station?", "prompt_ko": "우주정거장에서 우주비행사는 어떻게 움직여?", "options": [ { "e": "🎈", "en": "They float." }, { "e": "🏊", "en": "They swim." }, { "e": "🚗", "en": "They drive." } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Turn around.'의 뜻은?", "options": ["뒤돌아봐.", "불 꺼.", "차례를 바꿔.", "근처를 둘러봐."], "explain": "turn around는 몸을 반대 방향으로 돌리라는 말입니다." },
+    { "q": "'I'm upside down!'의 뜻은?", "options": ["나 거꾸로 됐어!", "나 기분이 안 좋아!", "나 위층에 있어!", "나 아래로 내려갈래!"], "explain": "upside down은 위아래가 뒤집힌 '거꾸로' 상태를 말합니다." },
+    { "q": "'Turn around'를 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["터너라운드", "턴 어 라운드", "투른 아라운드", "턴다운드"], "explain": "turn의 n이 around의 a와 이어져 '터너라운드'처럼 들립니다." },
+    { "q": "아이가 창밖의 지구를 가리키며 '저기 있다!'라고 할 때 알맞은 말은?", "options": ["Over there!", "Over here!", "On there!", "Over to there!"], "explain": "멀리 있는 것을 가리킬 때는 Over there!, 가까이 있으면 Over here!입니다." },
+    { "q": "빈칸에 알맞은 말은? — Let's float ___ astronauts.", "options": ["like", "as", "to", "with"], "explain": "'~처럼'은 like를 씁니다." },
+    { "q": "빈칸에 알맞은 말은? — Blue is the ocean. The white parts are ___.", "options": ["clouds", "cloudy", "cloud", "clouded"], "explain": "주어가 parts(복수)이므로 명사 복수형 clouds를 씁니다." },
+    { "q": "대본에서 우주비행사가 떠다니는 이유로 설명한 것은?", "options": ["They're falling around Earth all the time.", "There's no air in the station.", "The station is upside down.", "Astronauts are very light."], "explain": "우주정거장은 지구 둘레를 계속 떨어지듯 돌고 있어서 안의 사람과 물건이 함께 떠 보입니다." },
+    { "q": "'Can you see'를 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["캐뉴 씨", "캔유우 씨이", "칸 요 시", "케이 유 씨"], "explain": "can의 n과 you가 이어져 '캐뉴'처럼 들립니다." },
+    { "q": "빈칸에 알맞은 말은? — It's too small to see from up ___.", "options": ["here", "high", "top", "over"], "explain": "'여기 위에서'는 from up here라고 합니다." },
+    { "q": "아이 등 뒤에 침낭이 있을 때 알맞은 말은?", "options": ["Turn around. There's your sleeping bag.", "Turn off. There's your sleeping bag.", "Turn over. There's your sleeping bag.", "Turn on. There's your sleeping bag."], "explain": "turn off는 끄다, turn on은 켜다, turn over는 뒤집다라는 뜻이라 맞지 않습니다." }
+  ]
+}

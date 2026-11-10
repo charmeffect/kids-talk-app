@@ -1,0 +1,69 @@
+{
+  "stage": 1,
+  "day": 53,
+  "topic": "ships",
+  "title_en": "Treasure map",
+  "title_ko": "보물 지도",
+  "intro_ko": "종이에 X 표시가 있는 보물 지도를 그리고, 집 안 어딘가(소파 뒤 등)에 작은 간식이나 장난감을 숨겨 두세요. 큰 상자나 이불을 배 삼아 출발해서 지도를 따라 실제로 찾아가면 됩니다.",
+  "expressions": [
+    { "en": "Follow the map.", "ko": "지도를 따라가.", "tip": "지도나 안내를 따라 움직이자고 할 때 써요. Follow the가 이어져 '팔로우더 맵'처럼 들립니다.", "who": "both" },
+    { "en": "Which way?", "ko": "어느 쪽이야?", "tip": "갈림길에서 방향을 묻는 짧은 말이에요. Which way가 '위치웨이'로 붙어서 들립니다.", "who": "both" },
+    { "en": "This way!", "ko": "이쪽이야!", "tip": "손가락으로 방향을 가리키며 말해요. 반대쪽은 That way!라고 합니다.", "who": "both" },
+    { "en": "We found the treasure!", "ko": "보물을 찾았다!", "tip": "무언가를 찾아냈을 때 신나게 외치는 말이에요. found the는 d가 약해져 '파운더'처럼 들립니다.", "who": "kid" },
+    { "en": "Lead the way.", "ko": "앞장서서 안내해.", "tip": "'네가 앞장서'라는 뜻으로, 아이에게 'You lead the way.'라고 길 안내를 맡기면 아주 좋아해요. Lead the가 이어져 '리더 웨이'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Ahoy, captain! I found an old map.", "ko": "어이, 선장님! 오래된 지도를 찾았어." },
+    { "who": "kid", "en": "A treasure map? Let me see!", "ko": "보물 지도? 나도 보여 줘!", "practice": true },
+    { "who": "parent", "en": "Look. The X marks the treasure.", "ko": "봐. X 표시가 보물 있는 곳이야." },
+    { "who": "kid", "en": "Where is it?", "ko": "어디에 있어?" },
+    { "who": "parent", "en": "On that island. Let's sail our ship there.", "ko": "저 섬에. 우리 배 타고 가자." },
+    { "who": "kid", "en": "All aboard! Let's go!", "ko": "모두 타세요! 출발!" },
+    { "who": "parent", "en": "Land ho! We're at the island. Now follow the map.", "ko": "육지다! 섬에 도착했어. 이제 지도를 따라가자." },
+    { "who": "kid", "en": "Follow the map!", "ko": "지도를 따라가자!", "practice": true },
+    { "who": "parent", "en": "First, find the big rock.", "ko": "먼저 큰 바위를 찾아." },
+    { "who": "kid", "en": "Here's the rock! Which way?", "ko": "바위 여기 있어! 어느 쪽이야?", "practice": true },
+    { "who": "parent", "en": "The map shows a palm tree. You lead the way.", "ko": "지도에 야자나무가 있네. 네가 앞장서." },
+    { "who": "kid", "en": "This way! Come on!", "ko": "이쪽이야! 따라와!", "practice": true },
+    { "who": "parent", "en": "Wait. There's a river. How can we cross?", "ko": "잠깐. 강이 있어. 어떻게 건너지?" },
+    { "who": "kid", "en": "Jump on the stones!", "ko": "돌 위로 뛰어!" },
+    { "who": "parent", "en": "Good idea. One, two, three, jump!", "ko": "좋은 생각이야. 하나, 둘, 셋, 점프!" },
+    { "who": "kid", "en": "I see the X!", "ko": "X가 보여!" },
+    { "who": "parent", "en": "Let's dig. Dig, dig, dig!", "ko": "파 보자. 파고, 파고, 또 파고!" },
+    { "who": "kid", "en": "I hit something! What is it?", "ko": "뭔가 걸렸어! 이게 뭐야?" },
+    { "who": "parent", "en": "It's a box! Open it slowly.", "ko": "상자다! 천천히 열어 봐." },
+    { "who": "kid", "en": "Wow! We found the treasure!", "ko": "우와! 보물을 찾았다!", "practice": true },
+    { "who": "parent", "en": "Gold coins! What should we do with them?", "ko": "금화네! 이걸로 뭘 할까?" },
+    { "who": "kid", "en": "Share them with everyone!", "ko": "모두랑 나누자!" },
+    { "who": "parent", "en": "Great idea, captain. Let's sail home.", "ko": "좋은 생각이야, 선장님. 집으로 가자." }
+  ],
+  "talkMore": [
+    { "en": "Where would you hide a treasure?", "ko": "너라면 보물을 어디에 숨길 거야?", "sample_en": "Under my bed!", "sample_ko": "내 침대 밑에!" },
+    { "en": "What treasure do you want to find?", "ko": "어떤 보물을 찾고 싶어?", "sample_en": "A toy rocket!", "sample_ko": "장난감 로켓!" },
+    { "en": "Who would you take on your ship?", "ko": "네 배에 누구를 태우고 갈 거야?", "sample_en": "You and my teddy bear!", "sample_ko": "엄마(아빠)랑 내 곰 인형!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a map?", "prompt_ko": "지도는 어느 거야?", "options": [ { "e": "🗺️", "en": "map" }, { "e": "🍌", "en": "banana" }, { "e": "🧢", "en": "cap" } ] },
+    { "prompt_en": "You don't know where to go. What do you ask?", "prompt_ko": "어디로 갈지 몰라. 뭐라고 물어?", "options": [ { "e": "🤔", "en": "Which way?" }, { "e": "🍪", "en": "Can I have a cookie?" }, { "e": "😴", "en": "Good night." } ] },
+    { "prompt_en": "You know the way. What do you say?", "prompt_ko": "길을 알아. 뭐라고 해?", "options": [ { "e": "👉", "en": "This way!" }, { "e": "🙈", "en": "I can't see!" }, { "e": "😢", "en": "I'm sad." } ] },
+    { "prompt_en": "You open the box. Gold! What do you say?", "prompt_ko": "상자를 열었더니 금이야! 뭐라고 해?", "options": [ { "e": "💰", "en": "We found the treasure!" }, { "e": "🌧️", "en": "It's raining." }, { "e": "🍽️", "en": "I'm hungry." } ] },
+    { "prompt_en": "What opens the treasure chest?", "prompt_ko": "보물 상자는 뭘로 열어?", "options": [ { "e": "🔑", "en": "a key" }, { "e": "🍌", "en": "a banana" }, { "e": "🧦", "en": "a sock" } ] },
+    { "prompt_en": "Which one is an island?", "prompt_ko": "섬은 어느 거야?", "options": [ { "e": "🏝️", "en": "island" }, { "e": "🏙️", "en": "city" }, { "e": "🏠", "en": "house" } ] },
+    { "prompt_en": "How did we get to the island?", "prompt_ko": "섬에는 뭘 타고 갔지?", "options": [ { "e": "🚢", "en": "by ship" }, { "e": "🚲", "en": "by bike" }, { "e": "🚌", "en": "by bus" } ] },
+    { "prompt_en": "What was in the treasure box?", "prompt_ko": "보물 상자 안에 뭐가 있었지?", "options": [ { "e": "🪙", "en": "gold coins" }, { "e": "🥕", "en": "carrots" }, { "e": "👟", "en": "shoes" } ] },
+    { "prompt_en": "How did we cross the river?", "prompt_ko": "강은 어떻게 건넜지?", "options": [ { "e": "🪨", "en": "jump on stones" }, { "e": "🛌", "en": "go to sleep" }, { "e": "🍰", "en": "eat cake" } ] },
+    { "prompt_en": "Who drives the ship?", "prompt_ko": "배는 누가 운전해?", "options": [ { "e": "🧑‍✈️", "en": "the captain" }, { "e": "🧑‍🍳", "en": "a cook" }, { "e": "🧑‍🌾", "en": "a farmer" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Lead the way.'의 뜻은?", "options": ["앞장서서 안내해.", "길을 막아.", "뒤에서 따라와.", "길을 잃었어."], "explain": "lead는 '이끌다'라서 Lead the way는 '앞장서서 길을 안내해'라는 뜻입니다." },
+    { "q": "갈림길에서 '어느 쪽이야?'라고 물을 때 알맞은 말은?", "options": ["Which way?", "What way is?", "Where way?", "How way?"], "explain": "방향 중에 고를 때는 Which way?라고 짧게 묻습니다." },
+    { "q": "놀이 중 'Land ho!'라고 외치면?", "options": ["육지가 보인다!", "배가 가라앉는다!", "닻을 올려라!", "비가 온다!"], "explain": "Land ho!는 배에서 육지를 발견했을 때 외치는 말입니다." },
+    { "q": "빈칸에 알맞은 말은? — Look. The X ___ the treasure.", "options": ["marks", "mark", "marking", "is mark"], "explain": "The X는 단수 주어라서 marks(표시하다)를 씁니다." },
+    { "q": "'found the'를 자연스럽게 이어 말하면?", "options": ["파운더", "파운드 더", "펀드더", "파운트데"], "explain": "found의 d가 약해지고 the와 붙어 '파운더'처럼 들립니다." },
+    { "q": "'보물을 찾았다!'를 영어로 하면?", "options": ["We found the treasure!", "We founded the treasure!", "We finded the treasure!", "We are find the treasure!"], "explain": "find의 과거형은 found이고, founded는 '설립했다'라는 다른 말입니다." },
+    { "q": "'This way!'의 반대(저쪽이야!)는?", "options": ["That way!", "Those way!", "No way!", "Not this!"], "explain": "저쪽은 That way!이고, No way!는 '말도 안 돼'라는 뜻입니다." },
+    { "q": "빈칸에 알맞은 말은? — There's a river. How can we ___?", "options": ["cross", "across", "crossing", "to cross"], "explain": "can 뒤에는 동사원형 cross(건너다)가 오고, across는 전치사입니다." },
+    { "q": "아이에게 '네가 앞장서.'라고 길 안내를 맡길 때 알맞은 말은?", "options": ["You lead the way.", "You lead me way.", "You leading the way.", "You lead on way."], "explain": "Lead the way 앞에 You를 붙이면 '네가 앞장서'가 됩니다." },
+    { "q": "이 대본에서 아이가 말한 'Let me see!'의 뜻은?", "options": ["나도 보여 줘!", "나 좀 내버려 둬!", "나 안 볼래!", "나를 봐!"], "explain": "Let me see!는 '나도 좀 보자'라며 보여 달라는 말입니다." }
+  ]
+}

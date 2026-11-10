@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 57,
+  "topic": "science",
+  "title_en": "Mixing colors",
+  "title_ko": "색 섞기",
+  "intro_ko": "물감 두세 가지(빨강·노랑·파랑)와 종이 접시를 준비해 직접 섞어 보며 하는 대화입니다. 물감이 없으면 색 물을 컵에 담아 섞어도 좋아요.",
+  "expressions": [
+    { "en": "Mix red and yellow.", "ko": "빨강이랑 노랑을 섞어 봐.", "tip": "색 이름만 바꿔 여러 번 쓸 수 있어요. red and가 이어져 '레댄 옐로'처럼 들립니다.", "who": "parent" },
+    { "en": "What color is it?", "ko": "무슨 색이야?", "tip": "그림책이나 길에서 무엇을 보든 쓸 수 있는 질문이에요. color is it이 이어져 '컬러리짓'처럼 들립니다.", "who": "both" },
+    { "en": "It turned orange!", "ko": "주황색이 됐어!", "tip": "turn + 색은 '~색으로 변하다'라는 뜻이에요. 단풍잎이 빨개질 때도 It turned red!라고 해요.", "who": "kid" },
+    { "en": "Let's try blue and yellow.", "ko": "파랑이랑 노랑도 해 보자.", "tip": "Let's try …는 새로운 걸 시도해 보자는 말이에요. Let's try가 '렛츠트라이'로 붙어요.", "who": "both" },
+    { "en": "Mix it up.", "ko": "잘 섞어. / 변화를 줘 봐.", "tip": "말 그대로 '휘저어 섞다'라는 뜻이고, 늘 하던 걸 바꿔 보자는 뜻으로도 써요. '믹시럽'처럼 이어 말합니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Look, I have red, yellow and blue paint.", "ko": "봐, 빨강, 노랑, 파랑 물감이 있어." },
+    { "who": "kid", "en": "Can I paint?", "ko": "나 칠해도 돼?" },
+    { "who": "parent", "en": "Even better. Let's make new colors!", "ko": "그보다 더 좋은 거. 새로운 색을 만들어 보자!" },
+    { "who": "kid", "en": "New colors? How?", "ko": "새로운 색? 어떻게?", "practice": true },
+    { "who": "parent", "en": "Mix red and yellow. Use your brush.", "ko": "빨강이랑 노랑을 섞어 봐. 붓으로." },
+    { "who": "kid", "en": "Like this?", "ko": "이렇게?" },
+    { "who": "parent", "en": "Yes. Mix it up. Round and round.", "ko": "응. 잘 섞어. 빙글빙글." },
+    { "who": "kid", "en": "Whoa! It turned orange!", "ko": "우와! 주황색이 됐어!", "practice": true },
+    { "who": "parent", "en": "Like a carrot. Now let's try blue and yellow.", "ko": "당근 같다. 이번엔 파랑이랑 노랑을 해 보자." },
+    { "who": "kid", "en": "What color is it?", "ko": "무슨 색이야?", "practice": true },
+    { "who": "parent", "en": "Mix them and find out.", "ko": "섞어 보면 알게 돼." },
+    { "who": "kid", "en": "It's green! Like a frog!", "ko": "초록색이다! 개구리 같아!", "practice": true },
+    { "who": "parent", "en": "You're right. Blue and yellow make green.", "ko": "맞아. 파랑이랑 노랑을 섞으면 초록이 돼." },
+    { "who": "kid", "en": "Why?", "ko": "왜?" },
+    { "who": "parent", "en": "Two colors join together and make a new color.", "ko": "두 색이 합쳐져서 새로운 색이 되는 거야." },
+    { "who": "kid", "en": "Let's try red and blue!", "ko": "빨강이랑 파랑도 해 보자!", "practice": true },
+    { "who": "parent", "en": "Good idea. What do you think it'll be?", "ko": "좋은 생각이야. 무슨 색이 될 것 같아?" },
+    { "who": "kid", "en": "Pink?", "ko": "분홍?" },
+    { "who": "parent", "en": "Let's see. Mix it up!", "ko": "어디 보자. 잘 섞어!" },
+    { "who": "kid", "en": "It's purple!", "ko": "보라색이다!" },
+    { "who": "parent", "en": "Purple, like grapes. You made three new colors!", "ko": "포도 같은 보라색이네. 새로운 색을 세 개나 만들었어!" },
+    { "who": "kid", "en": "I'm a color scientist!", "ko": "나는 색깔 과학자야!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What's your favorite color?", "ko": "제일 좋아하는 색이 뭐야?", "sample_en": "Blue, like the sea!", "sample_ko": "파랑, 바다처럼!" },
+    { "en": "What color do you want to paint your rocket?", "ko": "로켓을 무슨 색으로 칠하고 싶어?", "sample_en": "Red and orange!", "sample_ko": "빨강이랑 주황!" },
+    { "en": "What else is green?", "ko": "또 초록색인 게 뭐가 있을까?", "sample_en": "Trees and leaves.", "sample_ko": "나무랑 나뭇잎." }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Red and yellow make…", "prompt_ko": "빨강이랑 노랑을 섞으면…", "options": [ { "e": "🟠", "en": "orange" }, { "e": "⚫", "en": "black" }, { "e": "⚪", "en": "white" } ] },
+    { "prompt_en": "Blue and yellow make…", "prompt_ko": "파랑이랑 노랑을 섞으면…", "options": [ { "e": "🟢", "en": "green" }, { "e": "🔴", "en": "red" }, { "e": "🟤", "en": "brown" } ] },
+    { "prompt_en": "Red and blue make…", "prompt_ko": "빨강이랑 파랑을 섞으면…", "options": [ { "e": "🟣", "en": "purple" }, { "e": "🟡", "en": "yellow" }, { "e": "🟢", "en": "green" } ] },
+    { "prompt_en": "Which one is orange?", "prompt_ko": "주황색인 건 어느 거야?", "options": [ { "e": "🥕", "en": "carrot" }, { "e": "🍇", "en": "grapes" }, { "e": "🐸", "en": "frog" } ] },
+    { "prompt_en": "Which one is green?", "prompt_ko": "초록색인 건 어느 거야?", "options": [ { "e": "🐸", "en": "frog" }, { "e": "🍓", "en": "strawberry" }, { "e": "🍌", "en": "banana" } ] },
+    { "prompt_en": "Which one is purple?", "prompt_ko": "보라색인 건 어느 거야?", "options": [ { "e": "🍇", "en": "grapes" }, { "e": "🍋", "en": "lemon" }, { "e": "🥕", "en": "carrot" } ] },
+    { "prompt_en": "What do we use to paint?", "prompt_ko": "그림 칠할 때 뭘 써?", "options": [ { "e": "🖌️", "en": "a brush" }, { "e": "🥄", "en": "a spoon" }, { "e": "🧦", "en": "a sock" } ] },
+    { "prompt_en": "You want to know the color. What do you ask?", "prompt_ko": "무슨 색인지 궁금해. 뭐라고 물어?", "options": [ { "e": "🎨", "en": "What color is it?" }, { "e": "😴", "en": "Good night." }, { "e": "👋", "en": "Bye-bye." } ] },
+    { "prompt_en": "The paint changed to orange. What do you say?", "prompt_ko": "물감이 주황색으로 변했어. 뭐라고 해?", "options": [ { "e": "🟠", "en": "It turned orange!" }, { "e": "🚗", "en": "A car." }, { "e": "😋", "en": "I'm hungry." } ] },
+    { "prompt_en": "Which one is the sun? It's yellow.", "prompt_ko": "해는 어느 거야? 노란색이야.", "options": [ { "e": "☀️", "en": "sun" }, { "e": "🌳", "en": "tree" }, { "e": "🌊", "en": "wave" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'It turned orange!'의 뜻은?", "options": ["주황색이 됐어!", "주황색을 돌렸어!", "주황색을 골랐어!", "주황색이 없어졌어!"], "explain": "turn + 색은 '~색으로 변하다'라는 뜻입니다." },
+    { "q": "'Mix it up.'의 뜻으로 알맞지 않은 것은?", "options": ["다 치워 버려.", "잘 섞어.", "휘저어.", "변화를 줘 봐."], "explain": "Mix it up은 '잘 섞다' 또는 '변화를 주다'라는 뜻이고 치운다는 뜻은 없습니다." },
+    { "q": "아이에게 '파랑이랑 노랑도 해 보자'라고 할 때 알맞은 말은?", "options": ["Let's try blue and yellow.", "Let's trying blue and yellow.", "Let's to try blue and yellow.", "Let try blue and yellow."], "explain": "Let's 뒤에는 동사원형이 와서 Let's try …가 됩니다." },
+    { "q": "빈칸에 알맞은 말은? — Blue and yellow ___ green.", "options": ["make", "makes", "making", "is"], "explain": "주어가 두 가지(blue and yellow)이므로 make를 씁니다." },
+    { "q": "빈칸에 알맞은 말은? — What color ___ it?", "options": ["is", "are", "do", "does"], "explain": "it 하나의 색을 물으므로 What color is it?입니다." },
+    { "q": "'What color is it?'을 이어 말하면 어떻게 들릴까?", "options": ["왓컬러리짓", "왓 컬러 이스 잇", "왓컬러 잇이스", "와트컬로르이즈잇"], "explain": "color의 r과 is, it이 이어져 '컬러리짓'처럼 부드럽게 들립니다." },
+    { "q": "'무슨 색이 될 것 같아?'를 자연스러운 영어로 하면?", "options": ["What do you think it'll be?", "What do you think it be?", "What you think will it be?", "How do you think it'll be?"], "explain": "생각을 물을 때는 What do you think …?로 시작합니다." },
+    { "q": "'섞어 보면 알게 돼.'를 자연스러운 영어로 하면?", "options": ["Mix them and find out.", "Mix them and look out.", "Mix them and know.", "Mix them and find."], "explain": "find out은 '직접 해 보고 알아내다'라는 뜻입니다." },
+    { "q": "빨강과 파랑 물감을 섞으면 무슨 색이 될까?", "options": ["purple", "green", "orange", "brown"], "explain": "빨강과 파랑을 섞으면 보라색(purple)이 됩니다." },
+    { "q": "빈칸에 알맞은 말은? — Purple, ___ grapes.", "options": ["like", "as", "same", "such"], "explain": "'~처럼, ~ 같은'은 like로 말합니다: like grapes." }
+  ]
+}

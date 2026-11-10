@@ -1,0 +1,69 @@
+{
+  "stage": 1,
+  "day": 52,
+  "topic": "science",
+  "title_en": "Bugs and a magnifying glass",
+  "title_ko": "돋보기로 벌레 관찰하기",
+  "intro_ko": "놀이터나 화단에서 돋보기로 개미와 무당벌레를 관찰하는 장면입니다. 돋보기가 없으면 그림책이나 사진을 보며 손가락으로 다리를 함께 세어 보세요.",
+  "expressions": [
+    { "en": "Look closer.", "ko": "더 가까이 자세히 봐.", "tip": "작은 것을 자세히 보게 할 때 써요. 여기서 closer는 '가까이'라는 뜻이라 s가 'ㅅ' 소리로 '클로우서'입니다.", "who": "parent" },
+    { "en": "It has six legs.", "ko": "다리가 여섯 개야.", "tip": "곤충은 다리가 6개라는 걸 배울 때 좋아요. It has가 '잇해즈'로, six legs는 '식스렉즈'로 이어집니다.", "who": "kid" },
+    { "en": "Don't touch it.", "ko": "만지지 마.", "tip": "벌처럼 쏘거나 위험한 것 앞에서 짧게 말해요. Don't의 t가 거의 안 들려 '돈터치잇'처럼 들립니다.", "who": "parent" },
+    { "en": "Let it go.", "ko": "놓아 줘.", "tip": "잡았던 벌레를 놓아줄 때 써요. Let it의 t가 굴러 '레리고우'처럼 들립니다.", "who": "both" },
+    { "en": "Take a closer look.", "ko": "좀 더 자세히 봐.", "tip": "Look closer와 같은 뜻으로 어른들도 아주 많이 써요. Take a가 이어져 '테이커 클로우서 룩'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Look what I have. A magnifying glass!", "ko": "이거 봐. 돋보기야!" },
+    { "who": "kid", "en": "What does it do?", "ko": "그거 뭐 하는 거야?" },
+    { "who": "parent", "en": "It makes small things look bigger.", "ko": "작은 걸 크게 보이게 해 줘." },
+    { "who": "kid", "en": "Wow! Can I try?", "ko": "우와! 나도 해 봐도 돼?", "practice": true },
+    { "who": "parent", "en": "Sure. Look, there's an ant on that leaf.", "ko": "그럼. 봐, 저 잎에 개미가 있어." },
+    { "who": "kid", "en": "I see it! It's tiny.", "ko": "보여! 엄청 작아." },
+    { "who": "parent", "en": "Look closer. How many legs does it have?", "ko": "더 가까이 봐. 다리가 몇 개야?" },
+    { "who": "kid", "en": "One, two, three... It has six legs!", "ko": "하나, 둘, 셋… 다리가 여섯 개야!", "practice": true },
+    { "who": "parent", "en": "Right! Ants are insects. All insects have six legs.", "ko": "맞아! 개미는 곤충이야. 곤충은 다 다리가 여섯 개야." },
+    { "who": "kid", "en": "What about spiders?", "ko": "거미는?", "practice": true },
+    { "who": "parent", "en": "Spiders have eight legs. They're not insects.", "ko": "거미는 다리가 여덟 개야. 곤충이 아니야." },
+    { "who": "kid", "en": "Look! What's that?", "ko": "봐! 저건 뭐야?" },
+    { "who": "parent", "en": "It's a bee. Don't touch it. It can sting.", "ko": "벌이야. 만지지 마. 쏠 수 있어." },
+    { "who": "kid", "en": "Yikes! I won't touch it.", "ko": "으악! 안 만질게.", "practice": true },
+    { "who": "parent", "en": "Good. Here's a ladybug. Take a closer look.", "ko": "좋아. 여기 무당벌레가 있네. 좀 더 자세히 봐." },
+    { "who": "kid", "en": "It has spots! Why?", "ko": "점이 있어! 왜?" },
+    { "who": "parent", "en": "Its bright spots tell birds, 'Don't eat me!'", "ko": "밝은 점무늬는 새들한테 '날 먹지 마!' 하고 알려 주는 거야." },
+    { "who": "kid", "en": "Can I hold it?", "ko": "들어 봐도 돼?" },
+    { "who": "parent", "en": "Gently, on your finger. Okay, time to let it go.", "ko": "살살, 손가락 위에. 자, 이제 놓아 주자." },
+    { "who": "kid", "en": "Okay. I'll let it go.", "ko": "알았어. 놓아 줄게.", "practice": true },
+    { "who": "parent", "en": "Good job, buddy. Outside is its home.", "ko": "잘했어. 바깥이 무당벌레 집이야." },
+    { "who": "kid", "en": "Bye, ladybug! Fly away!", "ko": "안녕, 무당벌레야! 날아가!", "practice": true },
+    { "who": "parent", "en": "Look! It opened its wings. There it goes!", "ko": "봐! 날개를 폈어. 저기 날아간다!" }
+  ],
+  "talkMore": [
+    { "en": "What other bugs do you know?", "ko": "또 어떤 벌레를 알아?", "sample_en": "Butterflies and bees!", "sample_ko": "나비랑 벌!" },
+    { "en": "Where do ants live?", "ko": "개미는 어디에 살아?", "sample_en": "Under the ground!", "sample_ko": "땅속에!" },
+    { "en": "What else do you want to look at with the magnifying glass?", "ko": "돋보기로 또 뭘 보고 싶어?", "sample_en": "My hand! And a leaf.", "sample_ko": "내 손! 그리고 나뭇잎." }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is an ant?", "prompt_ko": "개미는 어느 거야?", "options": [ { "e": "🐜", "en": "ant" }, { "e": "🐘", "en": "elephant" }, { "e": "🐟", "en": "fish" } ] },
+    { "prompt_en": "How many legs does an ant have?", "prompt_ko": "개미는 다리가 몇 개야?", "options": [ { "e": "6️⃣", "en": "six" }, { "e": "2️⃣", "en": "two" }, { "e": "🔟", "en": "ten" } ] },
+    { "prompt_en": "Which one makes small things look bigger?", "prompt_ko": "작은 걸 크게 보이게 해 주는 건 어느 거야?", "options": [ { "e": "🔍", "en": "magnifying glass" }, { "e": "🥄", "en": "spoon" }, { "e": "🧦", "en": "sock" } ] },
+    { "prompt_en": "You see a bee. What do you say?", "prompt_ko": "벌을 봤어. 뭐라고 해?", "options": [ { "e": "✋", "en": "Don't touch it." }, { "e": "🤗", "en": "Let's hug it!" }, { "e": "😋", "en": "Let's eat it!" } ] },
+    { "prompt_en": "How many legs does a spider have?", "prompt_ko": "거미는 다리가 몇 개야?", "options": [ { "e": "8️⃣", "en": "eight" }, { "e": "1️⃣", "en": "one" }, { "e": "3️⃣", "en": "three" } ] },
+    { "prompt_en": "Which one is a ladybug?", "prompt_ko": "무당벌레는 어느 거야?", "options": [ { "e": "🐞", "en": "ladybug" }, { "e": "🐶", "en": "dog" }, { "e": "🐸", "en": "frog" } ] },
+    { "prompt_en": "Which one can sting?", "prompt_ko": "쏠 수 있는 건 어느 거야?", "options": [ { "e": "🐝", "en": "bee" }, { "e": "🐑", "en": "sheep" }, { "e": "🐢", "en": "turtle" } ] },
+    { "prompt_en": "Time to free the bug. What do you say?", "prompt_ko": "벌레를 놓아줄 시간이야. 뭐라고 해?", "options": [ { "e": "👋", "en": "Let it go." }, { "e": "🍽️", "en": "Let's eat!" }, { "e": "😴", "en": "Go to sleep." } ] },
+    { "prompt_en": "Your friend can't see the bug well. What do you say?", "prompt_ko": "친구가 벌레를 잘 못 봐. 뭐라고 해?", "options": [ { "e": "🔍", "en": "Look closer." }, { "e": "🙈", "en": "Close your eyes." }, { "e": "🏃", "en": "Run away!" } ] },
+    { "prompt_en": "Which one has wings?", "prompt_ko": "날개가 있는 건 어느 거야?", "options": [ { "e": "🦋", "en": "butterfly" }, { "e": "🐟", "en": "fish" }, { "e": "🐍", "en": "snake" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Look closer.'의 뜻은?", "options": ["더 가까이 자세히 봐.", "문 좀 닫아.", "가까이 오지 마.", "눈을 감아."], "explain": "closer는 '더 가까이'라는 뜻으로, 닫다(close)와 달리 s를 'ㅅ'으로 발음합니다." },
+    { "q": "'곤충은 다리가 여섯 개야.'를 영어로 하면?", "options": ["Insects have six legs.", "Insects has six legs.", "Insect have six leg.", "Insects are six legs."], "explain": "insects는 복수라서 have를 쓰고 legs도 복수형입니다." },
+    { "q": "이 대본에서 'Let it go.'의 뜻은?", "options": ["(벌레를) 놓아 줘.", "우리 이제 가자.", "가지고 가자.", "계속 잡고 있어."], "explain": "잡고 있던 것을 놓아줄 때 Let it go라고 합니다." },
+    { "q": "'Let it go'를 자연스럽게 이어 말하면?", "options": ["레리고우", "렛 잇 고우", "레트 이트 고", "리릿고"], "explain": "Let의 t가 모음 사이에서 굴러 '레리고우'처럼 들립니다." },
+    { "q": "'Take a closer look.'과 뜻이 가장 비슷한 것은?", "options": ["Look closer.", "Close your eyes.", "Take it away.", "Look out."], "explain": "둘 다 '더 자세히 봐'라는 뜻이고, Look out은 '조심해'입니다." },
+    { "q": "빈칸에 알맞은 말은? — It makes small things ___ bigger.", "options": ["look", "looks", "looking", "to look"], "explain": "make + 대상 + 동사원형 구조라서 make things look bigger가 됩니다." },
+    { "q": "'만지지 마. 쏠 수 있어.'에서 '쏠 수 있어'는?", "options": ["It can sting.", "It can stung.", "It can stinging.", "It cans sting."], "explain": "can 뒤에는 동사원형 sting이 옵니다." },
+    { "q": "아이에게 벌레를 '살살' 들라고 할 때 알맞은 말은?", "options": ["Gently.", "Hardly.", "Strongly.", "Quickly."], "explain": "gently는 '살살, 부드럽게'이고 hardly는 '거의 ~않다'라는 전혀 다른 뜻입니다." },
+    { "q": "빈칸에 알맞은 말은? — Spiders have eight legs. They're ___ insects.", "options": ["not", "no", "don't", "none"], "explain": "be동사 부정은 They're not으로 말합니다." },
+    { "q": "'There it goes!'의 뜻은?", "options": ["저기 간다!", "거기 놔둬!", "저리 가!", "여기 있다!"], "explain": "There it goes!는 무언가가 떠나가는 것을 보며 '저기 간다!'라고 할 때 씁니다." }
+  ]
+}

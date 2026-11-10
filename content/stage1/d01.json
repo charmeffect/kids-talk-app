@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 1,
+  "topic": "daily",
+  "title_en": "How was your day?",
+  "title_ko": "오늘 하루 어땠어?",
+  "intro_ko": "유치원에서 돌아온 아이와 간식을 먹으며 하는 대화입니다. 아이 가방에서 그림이나 만들기 작품을 꺼내 보며 이야기하면 더 자연스러워요.",
+  "expressions": [
+    { "en": "How was your day?", "ko": "오늘 어땠어?", "tip": "하원 후 첫 질문으로 매일 쓰기 좋아요. was your가 이어져 '하우 워쥬어 데이'처럼 들립니다.", "who": "parent" },
+    { "en": "It was fun!", "ko": "재미있었어!", "tip": "fun 대신 great, okay, boring을 넣어 다양하게 대답하게 해 주세요.", "who": "kid" },
+    { "en": "What did you do today?", "ko": "오늘 뭐 했어?", "tip": "What did you는 빠르게 '왓디쥬'로 이어집니다. 대답이 짧으면 이 질문으로 이어가세요.", "who": "parent" },
+    { "en": "Guess what!", "ko": "있잖아! / 맞혀 봐!", "tip": "새 소식을 꺼낼 때 쓰는 말이에요. 들으면 'What?'이라고 받아 주면 됩니다. '게스왓'처럼 붙여 말해요.", "who": "both" },
+    { "en": "You made my day.", "ko": "덕분에 오늘 정말 기뻐.", "tip": "아이가 기쁜 소식이나 선물을 줬을 때 '너 때문에 행복해졌어'라는 뜻으로 쓰는 표현이에요. made my가 '메이마이'로 이어집니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Hi, sweetie! How was your day?", "ko": "안녕, 우리 아기! 오늘 어땠어?" },
+    { "who": "kid", "en": "It was fun!", "ko": "재미있었어!", "practice": true },
+    { "who": "parent", "en": "That's great. What did you do today?", "ko": "잘됐다. 오늘 뭐 했어?" },
+    { "who": "kid", "en": "Guess what!", "ko": "있잖아!", "practice": true },
+    { "who": "parent", "en": "What?", "ko": "뭔데?" },
+    { "who": "kid", "en": "I made a rocket!", "ko": "나 로켓 만들었어!", "practice": true },
+    { "who": "parent", "en": "A rocket? Wow! Can I see it?", "ko": "로켓? 우와! 보여 줄래?" },
+    { "who": "kid", "en": "Here it is.", "ko": "여기 있어." },
+    { "who": "parent", "en": "It's so cool. What's it made of?", "ko": "정말 멋지다. 뭐로 만들었어?" },
+    { "who": "kid", "en": "Paper and tape.", "ko": "종이랑 테이프." },
+    { "who": "parent", "en": "Where is your rocket going?", "ko": "네 로켓은 어디로 가?" },
+    { "who": "kid", "en": "To the moon!", "ko": "달까지!", "practice": true },
+    { "who": "parent", "en": "Who's flying it?", "ko": "누가 조종해?" },
+    { "who": "kid", "en": "Me! I'm the astronaut.", "ko": "나! 내가 우주비행사야.", "practice": true },
+    { "who": "parent", "en": "Did you play with your friends, too?", "ko": "친구들이랑도 놀았어?" },
+    { "who": "kid", "en": "Yes! We played tag.", "ko": "응! 술래잡기했어." },
+    { "who": "parent", "en": "Who was it?", "ko": "누가 술래였어?" },
+    { "who": "kid", "en": "My teacher!", "ko": "선생님이!" },
+    { "who": "parent", "en": "Ha! That sounds like a fun day.", "ko": "하하! 정말 재미있는 하루였네." },
+    { "who": "kid", "en": "This is for you.", "ko": "이거 엄마(아빠) 거야." },
+    { "who": "parent", "en": "For me? Thank you, buddy. You made my day.", "ko": "나 주는 거야? 고마워. 덕분에 정말 기쁘다." },
+    { "who": "kid", "en": "You're welcome!", "ko": "천만에!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What was the best part of your day?", "ko": "오늘 제일 좋았던 건 뭐야?", "sample_en": "Playing tag!", "sample_ko": "술래잡기한 거!" },
+    { "en": "What did you eat for lunch?", "ko": "점심에 뭐 먹었어?", "sample_en": "Rice and soup.", "sample_ko": "밥이랑 국." },
+    { "en": "What do you want to do tomorrow?", "ko": "내일은 뭐 하고 싶어?", "sample_en": "Make a ship!", "sample_ko": "배 만들래!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a rocket?", "prompt_ko": "로켓은 어느 거야?", "options": [ { "e": "🚀", "en": "rocket" }, { "e": "🚢", "en": "ship" }, { "e": "🚗", "en": "car" } ] },
+    { "prompt_en": "Where is the rocket going?", "prompt_ko": "로켓은 어디로 가?", "options": [ { "e": "🌙", "en": "the moon" }, { "e": "🏫", "en": "school" }, { "e": "🛒", "en": "the store" } ] },
+    { "prompt_en": "Someone asks, 'How was your day?' What do you say?", "prompt_ko": "'오늘 어땠어?'라고 물으면 뭐라고 해?", "options": [ { "e": "😄", "en": "It was fun!" }, { "e": "🍎", "en": "An apple." }, { "e": "🚌", "en": "A bus." } ] },
+    { "prompt_en": "You have big news. What do you say first?", "prompt_ko": "신나는 소식이 있어. 먼저 뭐라고 해?", "options": [ { "e": "🤩", "en": "Guess what!" }, { "e": "😴", "en": "Good night." }, { "e": "👋", "en": "Bye-bye." } ] },
+    { "prompt_en": "Who flies a rocket?", "prompt_ko": "로켓은 누가 조종해?", "options": [ { "e": "👩‍🚀", "en": "an astronaut" }, { "e": "👨‍🍳", "en": "a cook" }, { "e": "👩‍🌾", "en": "a farmer" } ] },
+    { "prompt_en": "Someone says, 'Thank you!' What do you say?", "prompt_ko": "'고마워!'라고 하면 뭐라고 해?", "options": [ { "e": "😊", "en": "You're welcome!" }, { "e": "😢", "en": "I'm sad." }, { "e": "🙋", "en": "Me too!" } ] },
+    { "prompt_en": "What did we make the rocket with?", "prompt_ko": "로켓은 뭐로 만들었지?", "options": [ { "e": "📄", "en": "paper" }, { "e": "🍞", "en": "bread" }, { "e": "💧", "en": "water" } ] },
+    { "prompt_en": "Which one is the moon?", "prompt_ko": "달은 어느 거야?", "options": [ { "e": "🌙", "en": "moon" }, { "e": "☀️", "en": "sun" }, { "e": "⭐", "en": "star" } ] },
+    { "prompt_en": "You give a present. What do you say?", "prompt_ko": "선물을 줄 때 뭐라고 해?", "options": [ { "e": "🎁", "en": "This is for you." }, { "e": "✋", "en": "Stop!" }, { "e": "😋", "en": "I'm hungry." } ] },
+    { "prompt_en": "Which one is a teacher?", "prompt_ko": "선생님은 누구야?", "options": [ { "e": "🧑‍🏫", "en": "teacher" }, { "e": "👶", "en": "baby" }, { "e": "🐶", "en": "dog" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'How was your day?'의 뜻은?", "options": ["오늘 어땠어?", "오늘 며칠이야?", "오늘 뭐 먹었어?", "오늘 어디 가?"], "explain": "하원·하교 후 하루가 어땠는지 묻는 가장 기본적인 인사입니다." },
+    { "q": "아이가 대답을 짧게 끝냈을 때 '오늘 뭐 했어?'라고 이어 묻는 말은?", "options": ["What did you do today?", "What do you do today?", "What are you do today?", "What you did today?"], "explain": "지난 일을 물으므로 did를 씁니다: What did you do today?" },
+    { "q": "'Guess what!'을 들었을 때 가장 자연스러운 대답은?", "options": ["What?", "Yes, I guess.", "No, thanks.", "I'm fine."], "explain": "Guess what!은 소식을 꺼내는 말이라 'What?'으로 받아 주면 됩니다." },
+    { "q": "'You made my day.'는 어떤 뜻일까?", "options": ["덕분에 오늘 정말 기뻐.", "네가 내 하루를 망쳤어.", "오늘 계획은 네가 짰어.", "오늘은 네 생일이야."], "explain": "상대 덕분에 기분이 아주 좋아졌을 때 쓰는 칭찬 표현입니다." },
+    { "q": "빈칸에 알맞은 말은? — It's so cool. What's it ___ of?", "options": ["made", "make", "making", "makes"], "explain": "be made of(~로 만들어지다)이므로 What's it made of?가 됩니다." },
+    { "q": "'What did you'를 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["왓디쥬", "왓 디드 유", "왓디드유우", "와디도유"], "explain": "did의 d와 you가 만나 '쥬' 소리가 나서 '왓디쥬'처럼 들립니다." },
+    { "q": "아이가 'Thank you!'라고 할 때 아이에게 가르칠 대답으로 알맞은 것은?", "options": ["You're welcome!", "Me too!", "I'm okay.", "Good job!"], "explain": "감사 인사에는 You're welcome!(천만에)으로 답합니다." },
+    { "q": "'Who was it?'은 술래잡기 이야기에서 어떤 뜻일까?", "options": ["누가 술래였어?", "누가 이겼어?", "누구랑 놀았어?", "누가 울었어?"], "explain": "tag 놀이에서 it은 '술래'를 뜻합니다: Who was it? = 누가 술래였어?" },
+    { "q": "아이 작품을 보고 '보여 줄래?'라고 할 때 알맞은 말은?", "options": ["Can I see it?", "Can I watch it?", "Can you look it?", "Do I see it?"], "explain": "물건을 보여 달라고 할 때는 Can I see it?이 자연스럽습니다." },
+    { "q": "빈칸에 알맞은 말은? — That ___ like a fun day.", "options": ["sounds", "hears", "listens", "says"], "explain": "들은 이야기에 대한 느낌은 'That sounds like…'(~인 것 같네)로 말합니다." }
+  ]
+}

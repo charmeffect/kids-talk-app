@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 58,
+  "topic": "ships",
+  "title_en": "Rowing a boat",
+  "title_ko": "노 젓기",
+  "intro_ko": "소파나 이불을 보트 삼아 나란히 앉아서, 수건이나 키친타월 심을 노로 들고 노 젓는 흉내를 냅니다. 한쪽만 저으면 몸을 빙글 돌려 '빙빙 도는 배'를 보여 주세요.",
+  "expressions": [
+    { "en": "Row, row!", "ko": "저어, 저어!", "tip": "노를 저을 때 박자를 맞추는 구호예요. row는 '로우'로, 입술을 둥글게 하고 말합니다.", "who": "both" },
+    { "en": "Pull together.", "ko": "같이 당겨.", "tip": "노나 줄을 함께 당길 때 쓰고, '힘을 합치자'라는 뜻으로도 써요. Pull의 l을 살려 '풀 투게더'처럼 말합니다.", "who": "parent" },
+    { "en": "We're going in circles!", "ko": "우리 빙빙 돌고 있어!", "tip": "배가 제자리에서 돌 때 쓰고, 대화나 일이 제자리걸음일 때도 써요. going in이 이어져 '고잉인'처럼 들립니다.", "who": "kid" },
+    { "en": "Let's work together.", "ko": "우리 같이 힘을 합치자.", "tip": "함께 무언가를 할 때 쓰는 말이에요. Let's work가 '렛츠웍'으로 붙어요.", "who": "both" },
+    { "en": "Work together.", "ko": "협력해. / 같이 해.", "tip": "형제나 친구가 따로 놀거나 다툴 때 '같이 해 보렴'이라는 뜻으로 써요. '웍 투게더'처럼 말합니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Get in the boat, buddy. Here's your paddle.", "ko": "배에 타, 친구. 여기 네 노야." },
+    { "who": "kid", "en": "Where are we going?", "ko": "우리 어디 가?", "practice": true },
+    { "who": "parent", "en": "To that little island. Let's row!", "ko": "저 작은 섬까지. 노 젓자!" },
+    { "who": "kid", "en": "Row, row!", "ko": "저어, 저어!", "practice": true },
+    { "who": "parent", "en": "Hmm, wait. Look at the trees.", "ko": "음, 잠깐. 나무들 좀 봐." },
+    { "who": "kid", "en": "We're going in circles!", "ko": "우리 빙빙 돌고 있어!", "practice": true },
+    { "who": "parent", "en": "That's because only you are rowing.", "ko": "너 혼자만 노를 저어서 그래." },
+    { "who": "kid", "en": "Why does that make circles?", "ko": "그러면 왜 빙빙 돌아?" },
+    { "who": "parent", "en": "One side gets pushed, so the boat turns.", "ko": "한쪽만 밀리니까 배가 돌아가는 거야." },
+    { "who": "kid", "en": "What do we do?", "ko": "어떻게 해?" },
+    { "who": "parent", "en": "Let's work together. We both row at the same time.", "ko": "같이 힘을 합치자. 둘이 동시에 젓는 거야." },
+    { "who": "kid", "en": "Okay! Ready?", "ko": "알았어! 준비됐어?" },
+    { "who": "parent", "en": "Ready. Pull together. One, two!", "ko": "준비됐어. 같이 당겨. 하나, 둘!" },
+    { "who": "kid", "en": "Row, row! One, two!", "ko": "저어, 저어! 하나, 둘!" },
+    { "who": "parent", "en": "Look! Now we're going straight.", "ko": "봐! 이제 똑바로 가네." },
+    { "who": "kid", "en": "We did it!", "ko": "해냈다!", "practice": true },
+    { "who": "parent", "en": "See? When we work together, it's easy.", "ko": "봤지? 같이 힘을 합치면 쉬워." },
+    { "who": "kid", "en": "Look, a duck!", "ko": "봐, 오리다!" },
+    { "who": "parent", "en": "It's paddling with its feet.", "ko": "발로 물을 젓고 있네." },
+    { "who": "kid", "en": "Like us!", "ko": "우리처럼!", "practice": true },
+    { "who": "parent", "en": "Here's the island. Great rowing, sweetie!", "ko": "섬에 왔다. 노 정말 잘 저었어!" },
+    { "who": "kid", "en": "Let's work together again!", "ko": "또 같이 하자!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What else can we do together?", "ko": "또 뭘 같이 할 수 있을까?", "sample_en": "Build a big ship!", "sample_ko": "큰 배 만들기!" },
+    { "en": "What would you see on the island?", "ko": "섬에 가면 뭐가 있을까?", "sample_en": "Birds and a big tree.", "sample_ko": "새들이랑 큰 나무." },
+    { "en": "Who helps you at kindergarten?", "ko": "유치원에서 누가 너를 도와줘?", "sample_en": "My teacher and friends.", "sample_ko": "선생님이랑 친구들." }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a rowboat?", "prompt_ko": "노 젓는 배는 어느 거야?", "options": [ { "e": "🚣", "en": "rowboat" }, { "e": "🚀", "en": "rocket" }, { "e": "🚂", "en": "train" } ] },
+    { "prompt_en": "How do we make the boat go straight?", "prompt_ko": "배가 똑바로 가려면 어떻게 저어?", "options": [ { "e": "🤝", "en": "row together" }, { "e": "😴", "en": "go to sleep" }, { "e": "🙃", "en": "turn upside down" } ] },
+    { "prompt_en": "Only one person rows. What happens?", "prompt_ko": "한 사람만 노를 저어. 어떻게 돼?", "options": [ { "e": "🔄", "en": "going in circles" }, { "e": "🛌", "en": "going to bed" }, { "e": "✈️", "en": "flying away" } ] },
+    { "prompt_en": "You want to row with a friend. What do you say?", "prompt_ko": "친구랑 같이 노를 젓고 싶어. 뭐라고 해?", "options": [ { "e": "🤝", "en": "Let's work together." }, { "e": "😴", "en": "Good night." }, { "e": "🙅", "en": "Go away." } ] },
+    { "prompt_en": "Which animal swims on the lake?", "prompt_ko": "호수에서 헤엄치는 동물은?", "options": [ { "e": "🦆", "en": "duck" }, { "e": "🐘", "en": "elephant" }, { "e": "🦒", "en": "giraffe" } ] },
+    { "prompt_en": "How does a duck paddle?", "prompt_ko": "오리는 뭘로 물을 저어?", "options": [ { "e": "🦶", "en": "with its feet" }, { "e": "👂", "en": "with its ears" }, { "e": "👃", "en": "with its nose" } ] },
+    { "prompt_en": "Which one is an island?", "prompt_ko": "섬은 어느 거야?", "options": [ { "e": "🏝️", "en": "island" }, { "e": "🏠", "en": "house" }, { "e": "🚗", "en": "car" } ] },
+    { "prompt_en": "We row a boat on…", "prompt_ko": "배는 어디서 저어?", "options": [ { "e": "🌊", "en": "water" }, { "e": "🛣️", "en": "the road" }, { "e": "☁️", "en": "clouds" } ] },
+    { "prompt_en": "You reach the island. What do you say?", "prompt_ko": "섬에 도착했어. 뭐라고 해?", "options": [ { "e": "🙌", "en": "We did it!" }, { "e": "😢", "en": "I'm sad." }, { "e": "🍎", "en": "An apple." } ] },
+    { "prompt_en": "Listen: 'Row, row!' What are we doing?", "prompt_ko": "'Row, row!' 우리 뭐 하고 있어?", "options": [ { "e": "🚣", "en": "rowing a boat" }, { "e": "🍳", "en": "cooking" }, { "e": "🛁", "en": "taking a bath" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'We're going in circles!'의 뜻은?", "options": ["우리 빙빙 돌고 있어!", "우리 동그라미 그리러 가!", "우리 원 안에 들어가!", "우리 집에 가고 있어!"], "explain": "배가 제자리에서 돌 때나 이야기가 제자리걸음일 때 씁니다." },
+    { "q": "'Pull together.'의 뜻으로 가장 알맞은 것은?", "options": ["같이 당겨. / 힘을 합쳐.", "같이 밀어 버려.", "서로 끌어안아.", "같이 뽑아."], "explain": "함께 당기다는 뜻이고 '힘을 합치다'라는 의미로도 씁니다." },
+    { "q": "형제가 따로 블록을 쌓으려 할 때 '같이 해 보렴'이라고 할 때 알맞은 말은?", "options": ["Work together.", "Work each other.", "Do together it.", "Make together."], "explain": "Work together.는 '협력해, 같이 해'라는 뜻입니다." },
+    { "q": "빈칸에 알맞은 말은? — See? When we work together, ___ easy.", "options": ["it's", "its", "it", "is"], "explain": "it is의 줄임말 it's가 들어갑니다(its는 '그것의')." },
+    { "q": "빈칸에 알맞은 말은? — That's because only you ___ rowing.", "options": ["are", "is", "do", "be"], "explain": "주어가 you이므로 are rowing이 됩니다." },
+    { "q": "'Let's work together.'를 자연스럽게 말하면 어떻게 들릴까?", "options": ["렛츠웍 투게더", "레트 어스 워크 투게더", "렛 워크스 투게더", "레츠 워커 투게덜"], "explain": "Let's와 work가 붙어 '렛츠웍'처럼 들립니다." },
+    { "q": "'이제 똑바로 가네.'를 자연스러운 영어로 하면?", "options": ["Now we're going straight.", "Now we're going right.", "Now we're going correct.", "Now we go directly."], "explain": "'똑바로, 곧장'은 straight입니다(right는 '오른쪽'으로 오해될 수 있어요)." },
+    { "q": "한쪽에서만 노를 저으면 배는 왜 돌까?", "options": ["한쪽만 밀려서", "물이 차가워서", "바람이 없어서", "배가 무거워서"], "explain": "한쪽만 힘을 받으니 배가 그쪽 반대로 돌아갑니다." },
+    { "q": "빈칸에 알맞은 말은? — It's paddling with ___ feet.", "options": ["its", "it's", "his", "it"], "explain": "동물(오리)의 발이므로 소유격 its를 씁니다." },
+    { "q": "'노 정말 잘 저었어!'를 자연스러운 영어로 하면?", "options": ["Great rowing!", "Great row it!", "Good rowed!", "Nice to row!"], "explain": "Great + -ing 형태(Great rowing!)로 행동을 칭찬합니다." }
+  ]
+}

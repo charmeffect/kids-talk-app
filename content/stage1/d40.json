@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 40,
+  "topic": "space",
+  "title_en": "Stars and wishes",
+  "title_ko": "별과 소원",
+  "intro_ko": "밤에 창밖이나 베란다에서 별을 보며 소원을 비는 대화입니다. 방 불을 끄고 손전등이나 야광별을 별로 삼아 함께 눈을 감고 소원을 빌어 보세요.",
+  "expressions": [
+    { "en": "Make a wish.", "ko": "소원 빌어.", "tip": "생일 케이크 촛불을 끄기 전에도 쓰는 말이에요. make a가 이어져 '메이커 위시'처럼 들립니다.", "who": "parent" },
+    { "en": "Which star is the brightest?", "ko": "어느 별이 제일 밝아?", "tip": "Which…is the -est?로 '어느 게 제일 ~해?'를 물어요. brightest는 '브라이티스트'처럼 말합니다.", "who": "both" },
+    { "en": "I see it!", "ko": "보인다!", "tip": "찾던 것을 발견했을 때 신나게 외치는 말이에요. see it이 이어져 '아이 씨잇'처럼 들립니다.", "who": "kid" },
+    { "en": "Close your eyes.", "ko": "눈 감아.", "tip": "잠자리나 깜짝 선물 전에도 써요. close는 '클로우즈'로 z 소리가 나고, '클로쥬어 아이즈'처럼 이어집니다.", "who": "parent" },
+    { "en": "Fingers crossed.", "ko": "잘되길 빌자.", "tip": "검지와 중지를 꼬며 '행운을 빈다'는 뜻으로 써요. '핑거스 크로스트'처럼 crossed 끝은 t 소리입니다.", "who": "both" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Come to the window, sweetie. Look at the sky.", "ko": "창가로 와 봐. 하늘 좀 봐." },
+    { "who": "kid", "en": "So many stars!", "ko": "별이 엄청 많다!", "practice": true },
+    { "who": "parent", "en": "Which star is the brightest?", "ko": "어느 별이 제일 밝아?" },
+    { "who": "kid", "en": "That one! Over there!", "ko": "저거! 저기!" },
+    { "who": "parent", "en": "Hmm, that bright one might be a planet.", "ko": "음, 저 밝은 건 행성일 수도 있어." },
+    { "who": "kid", "en": "A planet? Why?", "ko": "행성? 왜?" },
+    { "who": "parent", "en": "Planets shine with sunlight. They don't twinkle much.", "ko": "행성은 햇빛을 받아서 빛나. 별처럼 많이 반짝이진 않아." },
+    { "who": "kid", "en": "What are stars?", "ko": "별은 뭐야?", "practice": true },
+    { "who": "parent", "en": "Stars are giant suns, very, very far away.", "ko": "별은 아주아주 멀리 있는 커다란 태양이야." },
+    { "who": "kid", "en": "Wow! Look! A shooting star!", "ko": "우와! 봐! 별똥별!" },
+    { "who": "parent", "en": "Quick, make a wish!", "ko": "빨리, 소원 빌어!" },
+    { "who": "kid", "en": "How do I make a wish?", "ko": "소원은 어떻게 빌어?" },
+    { "who": "parent", "en": "Close your eyes and think of your wish.", "ko": "눈을 감고 소원을 생각해." },
+    { "who": "kid", "en": "Okay. I'm done!", "ko": "알았어. 다 빌었어!", "practice": true },
+    { "who": "parent", "en": "What did you wish for?", "ko": "무슨 소원 빌었어?" },
+    { "who": "kid", "en": "It's a secret!", "ko": "비밀이야!", "practice": true },
+    { "who": "parent", "en": "Okay, I won't ask. Fingers crossed!", "ko": "알았어, 안 물어볼게. 이루어지길 빌자!" },
+    { "who": "kid", "en": "Is a shooting star a real star?", "ko": "별똥별은 진짜 별이야?" },
+    { "who": "parent", "en": "No. It's a tiny space rock burning up in the sky.", "ko": "아니. 하늘에서 타 버리는 아주 작은 우주 돌멩이야." },
+    { "who": "kid", "en": "Look! Another one! I see it!", "ko": "봐! 또 있다! 보인다!", "practice": true },
+    { "who": "parent", "en": "Lucky you! Make another wish.", "ko": "운이 좋네! 소원 하나 더 빌어." },
+    { "who": "kid", "en": "Fingers crossed!", "ko": "꼭 이루어져라!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "If you could visit a star, what would you take?", "ko": "별에 갈 수 있다면 뭘 가져갈래?", "sample_en": "My rocket and snacks!", "sample_ko": "내 로켓이랑 간식!" },
+    { "en": "Can you make a shape with the stars?", "ko": "별을 이어서 모양을 만들어 볼래?", "sample_en": "A big ship!", "sample_ko": "큰 배!" },
+    { "en": "When else do we make a wish?", "ko": "소원은 또 언제 빌지?", "sample_en": "On my birthday!", "sample_ko": "내 생일에!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a star?", "prompt_ko": "별은 어느 거야?", "options": [ { "e": "⭐", "en": "star" }, { "e": "🍎", "en": "apple" }, { "e": "🎈", "en": "balloon" } ] },
+    { "prompt_en": "You see a shooting star. What do you do?", "prompt_ko": "별똥별을 봤어. 뭐 해?", "options": [ { "e": "🙏", "en": "Make a wish." }, { "e": "🧹", "en": "Sweep the floor." }, { "e": "🦷", "en": "Brush your teeth." } ] },
+    { "prompt_en": "How do you make a wish?", "prompt_ko": "소원은 어떻게 빌어?", "options": [ { "e": "😌", "en": "Close your eyes." }, { "e": "🤸", "en": "Do a flip." }, { "e": "📣", "en": "Shout loudly." } ] },
+    { "prompt_en": "When can you see stars?", "prompt_ko": "별은 언제 볼 수 있어?", "options": [ { "e": "🌃", "en": "at night" }, { "e": "🌞", "en": "at noon" }, { "e": "🍳", "en": "at breakfast" } ] },
+    { "prompt_en": "You find it! What do you say?", "prompt_ko": "찾았어! 뭐라고 해?", "options": [ { "e": "👀", "en": "I see it!" }, { "e": "😢", "en": "I'm sad." }, { "e": "🤐", "en": "Shh." } ] },
+    { "prompt_en": "What is a star? A giant…", "prompt_ko": "별은 뭐지? 아주 큰…", "options": [ { "e": "☀️", "en": "sun" }, { "e": "🍪", "en": "cookie" }, { "e": "💡", "en": "lamp" } ] },
+    { "prompt_en": "Which one is a shooting star?", "prompt_ko": "별똥별은 어느 거야?", "options": [ { "e": "🌠", "en": "shooting star" }, { "e": "🌈", "en": "rainbow" }, { "e": "⛅", "en": "cloud" } ] },
+    { "prompt_en": "You hope for good luck. What do you say?", "prompt_ko": "행운을 빌고 싶어. 뭐라고 해?", "options": [ { "e": "🤞", "en": "Fingers crossed!" }, { "e": "👎", "en": "No way!" }, { "e": "😡", "en": "I'm mad!" } ] },
+    { "prompt_en": "Which one is a planet?", "prompt_ko": "행성은 어느 거야?", "options": [ { "e": "🪐", "en": "planet" }, { "e": "🚗", "en": "car" }, { "e": "🌷", "en": "flower" } ] },
+    { "prompt_en": "Which one do you close to make a wish?", "prompt_ko": "소원 빌 때 뭘 감아?", "options": [ { "e": "👀", "en": "eyes" }, { "e": "🚪", "en": "door" }, { "e": "📖", "en": "book" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Make a wish.'의 뜻은?", "options": ["소원 빌어.", "소원 들어줄게.", "선물 만들어.", "꿈 꿔."], "explain": "make a wish는 '소원을 빌다'라는 뜻입니다." },
+    { "q": "'Fingers crossed.'는 어떤 뜻일까?", "options": ["잘되길 빌자.", "손가락 다쳤어.", "손 깍지 껴.", "약속했어."], "explain": "손가락을 꼬며 행운을 비는 동작에서 온 '잘되길 바라'라는 뜻입니다." },
+    { "q": "'어느 별이 제일 밝아?'에 알맞은 말은?", "options": ["Which star is the brightest?", "Which star is most bright?", "What star is brighter?", "Which star is the most brightest?"], "explain": "bright의 최상급은 brightest이고 앞에 the를 붙입니다." },
+    { "q": "빈칸에 알맞은 말은? — ___ your eyes and think of your wish.", "options": ["Close", "Shut down", "Cover up", "Turn off"], "explain": "'눈을 감다'는 close your eyes입니다." },
+    { "q": "'Close your eyes'를 이어 말하면 어떻게 들릴까?", "options": ["클로쥬어 아이즈", "클로스 유어 아이스", "클로즈 요 아이즈", "클로세 유어 예스"], "explain": "close의 z 소리와 your가 만나 '클로쥬어'처럼 들립니다." },
+    { "q": "아이에게 별을 알맞게 설명한 것은?", "options": ["Stars are giant suns, very far away.", "Stars are little lamps in the sky.", "Stars are holes in the sky.", "Stars are made of ice."], "explain": "별은 아주 멀리 있는 태양 같은 거대한 천체입니다." },
+    { "q": "빈칸에 알맞은 말은? — What did you wish ___?", "options": ["for", "to", "at", "with"], "explain": "'~을 바라다'는 wish for이므로 What did you wish for?가 됩니다." },
+    { "q": "'I see it!'은 언제 쓰는 말일까?", "options": ["찾던 것이 보일 때", "이해가 안 될 때", "무언가를 사고 싶을 때", "졸릴 때"], "explain": "I see it!은 찾던 것을 발견했을 때 '보인다!'라는 뜻입니다." },
+    { "q": "'Lucky you!'의 뜻은?", "options": ["운이 좋네!", "행운을 줄게!", "너 때문에 운이 나빠!", "너도 해 봐!"], "explain": "Lucky you!는 '너 참 운이 좋다!'라는 감탄입니다." },
+    { "q": "별똥별(shooting star)에 대한 알맞은 설명은?", "options": ["It's a tiny space rock burning up.", "It's a star falling to the ground.", "It's a plane with lights.", "It's the moon moving fast."], "explain": "별똥별은 별이 아니라 대기에서 타 버리는 작은 우주 돌멩이(유성)입니다." }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "stage": 1,
+  "day": 6,
+  "topic": "daily",
+  "title_en": "Getting ready to go out",
+  "title_ko": "외출 준비",
+  "intro_ko": "공원에 가려고 현관에서 신발과 겉옷을 챙기는 장면입니다. 실제로 나가기 전에 아이 신발과 열쇠를 들고 대본대로 해 보세요.",
+  "expressions": [
+    { "en": "Put on your shoes.", "ko": "신발 신어.", "tip": "put on은 옷·신발·모자를 '입다/신다/쓰다' 모두에 씁니다. Put on이 이어져 '푸론'처럼 들려요.", "who": "parent" },
+    { "en": "Hurry up!", "ko": "서둘러!", "tip": "늦었을 때 쓰는 말이에요. 아이에게는 부드럽게 'Let's hurry.'도 좋아요. '허리업'처럼 붙여 말합니다.", "who": "both" },
+    { "en": "Wait for me!", "ko": "나 기다려 줘!", "tip": "앞서 가는 사람을 부를 때 써요. for는 약하게 '퍼'로 발음되어 '웨잇퍼미'처럼 들립니다.", "who": "both" },
+    { "en": "Are you ready?", "ko": "준비됐어?", "tip": "나가기 전, 놀이 시작 전에 매번 쓰기 좋아요. Are you는 '아유'로 짧게, '아유 레디?'처럼 말합니다.", "who": "both" },
+    { "en": "Take your time.", "ko": "천천히 해.", "tip": "서두르지 말고 여유 있게 하라는 말이에요. 아이가 혼자 신발을 신을 때 쓰면 좋아요. Take your가 '테이큐어'로 이어집니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Okay, buddy. Let's go to the park. Are you ready?", "ko": "자, 우리 공원 가자. 준비됐어?" },
+    { "who": "kid", "en": "Not yet!", "ko": "아직!", "practice": true },
+    { "who": "parent", "en": "Put on your shoes, please.", "ko": "신발 신어." },
+    { "who": "kid", "en": "Which ones?", "ko": "어떤 거?" },
+    { "who": "parent", "en": "Your blue ones. They're by the door.", "ko": "파란 거. 문 옆에 있어." },
+    { "who": "kid", "en": "This shoe is tricky.", "ko": "이 신발 어려워." },
+    { "who": "parent", "en": "Take your time. You can do it.", "ko": "천천히 해. 너는 할 수 있어." },
+    { "who": "kid", "en": "I did it!", "ko": "다 신었어!", "practice": true },
+    { "who": "parent", "en": "Great job! Now put on your jacket. It's windy.", "ko": "잘했어! 이제 점퍼 입자. 바람이 불어." },
+    { "who": "kid", "en": "Why is it windy?", "ko": "왜 바람이 불어?" },
+    { "who": "parent", "en": "The air is moving fast today.", "ko": "오늘은 공기가 빠르게 움직이고 있거든." },
+    { "who": "kid", "en": "Can I bring my airplane?", "ko": "내 비행기 가져가도 돼?", "practice": true },
+    { "who": "parent", "en": "Sure. Let's fly it at the park.", "ko": "그럼. 공원에서 날려 보자." },
+    { "who": "kid", "en": "Yay! I'm ready!", "ko": "야호! 나 준비됐어!", "practice": true },
+    { "who": "parent", "en": "Wait, where are my keys?", "ko": "잠깐, 내 열쇠 어디 있지?" },
+    { "who": "kid", "en": "Hurry up!", "ko": "빨리 해!", "practice": true },
+    { "who": "parent", "en": "Okay, okay! Here they are. Let's go.", "ko": "알았어, 알았어! 여기 있다. 가자." },
+    { "who": "kid", "en": "Wait for me!", "ko": "나 기다려!", "practice": true },
+    { "who": "parent", "en": "I'm right here. Hold my hand.", "ko": "여기 있어. 손 잡자." },
+    { "who": "kid", "en": "Okay. Bye, house!", "ko": "응. 안녕, 집아!" },
+    { "who": "parent", "en": "Ha! Bye, house. See you later.", "ko": "하하! 안녕, 집아. 이따 보자." }
+  ],
+  "talkMore": [
+    { "en": "What do you want to do at the park?", "ko": "공원에서 뭐 하고 싶어?", "sample_en": "Fly my airplane!", "sample_ko": "비행기 날릴래!" },
+    { "en": "What do you put on when it's cold?", "ko": "추울 때는 뭘 입어?", "sample_en": "My jacket and hat.", "sample_ko": "점퍼랑 모자." },
+    { "en": "What should we bring with us?", "ko": "우리 뭘 챙겨 갈까?", "sample_en": "Water and snacks!", "sample_ko": "물이랑 간식!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "What do you put on your feet?", "prompt_ko": "발에는 뭘 신어?", "options": [ { "e": "👟", "en": "shoes" }, { "e": "🎩", "en": "a hat" }, { "e": "🧤", "en": "gloves" } ] },
+    { "prompt_en": "It's windy outside. What do you put on?", "prompt_ko": "밖에 바람이 불어. 뭘 입을까?", "options": [ { "e": "🧥", "en": "a jacket" }, { "e": "🩱", "en": "a swimsuit" }, { "e": "🍌", "en": "a banana" } ] },
+    { "prompt_en": "Someone is walking too fast. What do you say?", "prompt_ko": "누가 너무 빨리 걸어가. 뭐라고 해?", "options": [ { "e": "🙋", "en": "Wait for me!" }, { "e": "😴", "en": "Good night." }, { "e": "🎂", "en": "Happy birthday!" } ] },
+    { "prompt_en": "We are late! What do you say?", "prompt_ko": "우리 늦었어! 뭐라고 해?", "options": [ { "e": "🏃", "en": "Hurry up!" }, { "e": "🛌", "en": "Go to sleep." }, { "e": "🛁", "en": "Take a bath." } ] },
+    { "prompt_en": "Someone asks, 'Are you ready?' You are. What do you say?", "prompt_ko": "'준비됐어?'라고 물어. 준비됐으면 뭐라고 해?", "options": [ { "e": "👍", "en": "Yes, I'm ready!" }, { "e": "🍎", "en": "An apple." }, { "e": "🐶", "en": "A dog." } ] },
+    { "prompt_en": "Where are we going today?", "prompt_ko": "오늘 우리 어디 가?", "options": [ { "e": "🌳", "en": "the park" }, { "e": "🏥", "en": "the hospital" }, { "e": "🌙", "en": "the moon" } ] },
+    { "prompt_en": "What toy are we bringing to the park?", "prompt_ko": "공원에 어떤 장난감을 가져가?", "options": [ { "e": "✈️", "en": "an airplane" }, { "e": "🚂", "en": "a train" }, { "e": "🎸", "en": "a guitar" } ] },
+    { "prompt_en": "Which one opens the door?", "prompt_ko": "문을 여는 건 어느 거야?", "options": [ { "e": "🔑", "en": "a key" }, { "e": "🍌", "en": "a banana" }, { "e": "🧸", "en": "a teddy bear" } ] },
+    { "prompt_en": "What do you put on before your shoes?", "prompt_ko": "신발 신기 전에 뭘 신어?", "options": [ { "e": "🧦", "en": "socks" }, { "e": "🧢", "en": "a cap" }, { "e": "👓", "en": "glasses" } ] },
+    { "prompt_en": "Why is it windy? The air is…", "prompt_ko": "왜 바람이 불까? 공기가…", "options": [ { "e": "💨", "en": "moving fast" }, { "e": "😴", "en": "sleeping" }, { "e": "🍰", "en": "eating cake" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Take your time.'의 뜻은?", "options": ["천천히 해.", "시간 다 됐어.", "시간 좀 내 줘.", "시계 가져가."], "explain": "서두르지 말고 여유 있게 하라는 말로, 아이를 재촉하지 않을 때 씁니다." },
+    { "q": "아이에게 '신발 신어.'라고 할 때 가장 자연스러운 말은?", "options": ["Put on your shoes.", "Wear on your shoes.", "Put your shoes in.", "Take on your shoes."], "explain": "신는 동작은 put on, 신고 있는 상태는 wear로 말합니다." },
+    { "q": "'Are you ready?'에 아직 준비가 안 됐을 때 알맞은 대답은?", "options": ["Not yet!", "Yes, I am!", "I'm ready yet.", "No, I'm."], "explain": "'아직이야'는 Not yet!으로 짧게 말합니다." },
+    { "q": "빈칸에 알맞은 말은? — Your blue ones. They're ___ the door.", "options": ["by", "into", "from", "of"], "explain": "by the door는 '문 옆에'라는 뜻입니다." },
+    { "q": "'Put on'을 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["푸론", "풋 온", "포트 온", "퓨톤"], "explain": "t가 모음 사이에서 약해져 on과 붙어 '푸론'처럼 들립니다." },
+    { "q": "앞서 걷는 사람에게 '나 기다려!'라고 할 때 알맞은 말은?", "options": ["Wait for me!", "Wait me!", "Wait to me!", "Waiting me!"], "explain": "wait 뒤에 사람이 오면 for를 붙여 wait for me라고 합니다." },
+    { "q": "'Take your time.'을 쓰기 가장 알맞은 상황은?", "options": ["아이가 혼자 신발을 신느라 오래 걸릴 때", "늦어서 빨리 나가야 할 때", "지금 몇 시인지 물을 때", "시계를 선물할 때"], "explain": "급하지 않으니 천천히 하라고 여유를 줄 때 씁니다." },
+    { "q": "빈칸에 알맞은 말은? — Now put on your jacket. It's ___.", "options": ["windy", "wind", "winding", "winds"], "explain": "날씨를 말할 때는 형용사 windy(바람 부는)를 씁니다." },
+    { "q": "'Not yet!'의 뜻은?", "options": ["아직이야!", "벌써 했어!", "이제 됐어!", "절대 안 해!"], "explain": "yet은 '아직'이라는 뜻으로, Not yet은 아직 안 됐다는 말입니다." },
+    { "q": "'내 열쇠 어디 있지?'를 자연스럽게 말하면?", "options": ["Where are my keys?", "Where is my keys?", "Where my keys are?", "What are my keys?"], "explain": "keys가 복수이므로 are를 쓰고, 의문문이라 Where are my keys?가 됩니다." }
+  ]
+}

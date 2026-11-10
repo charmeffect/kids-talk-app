@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 37,
+  "topic": "science",
+  "title_en": "Bubbles",
+  "title_ko": "비눗방울",
+  "intro_ko": "비눗방울을 부는 놀이 대화입니다. 실제 비눗방울 장난감이나 주방세제 푼 물과 빨대로 직접 불어 보며 하면 아이가 훨씬 신나해요.",
+  "expressions": [
+    { "en": "Blow gently.", "ko": "살살 불어.", "tip": "비눗방울, 촛불, 뜨거운 음식을 불 때 써요. gently는 '젠틀리'로 t를 약하게 발음합니다.", "who": "parent" },
+    { "en": "It popped!", "ko": "터졌다!", "tip": "비눗방울이나 풍선이 '퐁' 터질 때 쓰는 말이에요. popped는 끝이 t 소리로 '팝트'처럼 들립니다.", "who": "kid" },
+    { "en": "It's round!", "ko": "동그랗다!", "tip": "모양을 말할 때 round(동그란) 대신 big, small, long을 넣어 보세요. '잇츠 라운드'처럼 말해요.", "who": "kid" },
+    { "en": "Let's make a big one.", "ko": "큰 거 만들자.", "tip": "one은 앞에 나온 물건(여기서는 비눗방울)을 대신해요. make a가 이어져 '메이커 빅 원'처럼 들립니다.", "who": "both" },
+    { "en": "Easy does it.", "ko": "살살, 조심조심.", "tip": "조심스럽게 천천히 하라고 할 때 쓰는 표현이에요. does it이 이어져 '이지 더짓'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Look what I have. Bubbles!", "ko": "내가 뭘 가져왔게. 비눗방울!" },
+    { "who": "kid", "en": "Yay! Can I try?", "ko": "야호! 나 해 봐도 돼?", "practice": true },
+    { "who": "parent", "en": "Sure. Dip the wand in the soap.", "ko": "그럼. 막대를 비눗물에 담가." },
+    { "who": "kid", "en": "Like this?", "ko": "이렇게?" },
+    { "who": "parent", "en": "Yes. Now blow gently.", "ko": "응. 이제 살살 불어." },
+    { "who": "kid", "en": "Whoosh! Oh, nothing came out.", "ko": "후! 어, 아무것도 안 나와." },
+    { "who": "parent", "en": "Easy does it. Blow slowly.", "ko": "살살. 천천히 불어 봐." },
+    { "who": "kid", "en": "Look! A bubble!", "ko": "봐! 비눗방울!" },
+    { "who": "parent", "en": "Great job! What shape is it?", "ko": "잘했어! 무슨 모양이야?" },
+    { "who": "kid", "en": "It's round!", "ko": "동그래!", "practice": true },
+    { "who": "parent", "en": "That's right. Bubbles always try to be round.", "ko": "맞아. 비눗방울은 언제나 동그래지려고 해." },
+    { "who": "kid", "en": "Why does it have rainbow colors?", "ko": "왜 무지개색이야?" },
+    { "who": "parent", "en": "Light shines on the thin soap and makes colors.", "ko": "얇은 비누막에 빛이 비쳐서 색이 생기는 거야." },
+    { "who": "kid", "en": "Oh! It popped!", "ko": "어! 터졌다!", "practice": true },
+    { "who": "parent", "en": "It touched the dry grass, so it popped.", "ko": "마른 풀에 닿아서 터졌어." },
+    { "who": "kid", "en": "Let's make a big one.", "ko": "큰 거 만들자.", "practice": true },
+    { "who": "parent", "en": "Okay. Move the wand slowly through the air.", "ko": "좋아. 막대를 공중에서 천천히 움직여 봐." },
+    { "who": "kid", "en": "Wow! It's so big!", "ko": "우와! 엄청 커!", "practice": true },
+    { "who": "parent", "en": "It's as big as your head!", "ko": "네 머리만큼 크네!" },
+    { "who": "kid", "en": "Can I catch it?", "ko": "잡아도 돼?" },
+    { "who": "parent", "en": "Try with a wet hand. Easy, easy.", "ko": "젖은 손으로 해 봐. 살살, 살살." },
+    { "who": "kid", "en": "It's on my hand!", "ko": "내 손에 올라왔어!" }
+  ],
+  "talkMore": [
+    { "en": "What colors did you see in the bubble?", "ko": "비눗방울에서 무슨 색을 봤어?", "sample_en": "Pink and blue!", "sample_ko": "분홍색이랑 파란색!" },
+    { "en": "What makes a bubble pop?", "ko": "비눗방울은 왜 터질까?", "sample_en": "It touches the grass.", "sample_ko": "풀에 닿아서." },
+    { "en": "How big can you make a bubble?", "ko": "비눗방울을 얼마나 크게 만들 수 있어?", "sample_en": "As big as me!", "sample_ko": "나만큼 크게!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one can pop?", "prompt_ko": "펑 하고 터질 수 있는 건 어느 거야?", "options": [ { "e": "🎈", "en": "balloon" }, { "e": "🧱", "en": "brick" }, { "e": "🪨", "en": "rock" } ] },
+    { "prompt_en": "What shape is a bubble?", "prompt_ko": "비눗방울은 무슨 모양이야?", "options": [ { "e": "⚪", "en": "round" }, { "e": "🔺", "en": "triangle" }, { "e": "⬛", "en": "square" } ] },
+    { "prompt_en": "The bubble breaks. What do you say?", "prompt_ko": "비눗방울이 터졌어. 뭐라고 해?", "options": [ { "e": "💥", "en": "It popped!" }, { "e": "😴", "en": "Good night." }, { "e": "🍽️", "en": "I'm full." } ] },
+    { "prompt_en": "How do you blow a bubble?", "prompt_ko": "비눗방울은 어떻게 불어?", "options": [ { "e": "🌬️", "en": "Blow gently." }, { "e": "🦶", "en": "Kick it." }, { "e": "🔨", "en": "Hit it." } ] },
+    { "prompt_en": "You want a huge bubble. What do you say?", "prompt_ko": "아주 큰 비눗방울을 원해. 뭐라고 해?", "options": [ { "e": "🙌", "en": "Let's make a big one." }, { "e": "🛑", "en": "Stop it." }, { "e": "🙈", "en": "I can't see." } ] },
+    { "prompt_en": "What do we use to make bubbles?", "prompt_ko": "비눗방울은 뭐로 만들지?", "options": [ { "e": "🧼", "en": "soap" }, { "e": "🍞", "en": "bread" }, { "e": "🧦", "en": "socks" } ] },
+    { "prompt_en": "Which one is a rainbow?", "prompt_ko": "무지개는 어느 거야?", "options": [ { "e": "🌈", "en": "rainbow" }, { "e": "🌧️", "en": "rain" }, { "e": "❄️", "en": "snow" } ] },
+    { "prompt_en": "Which one is round like a bubble?", "prompt_ko": "비눗방울처럼 동그란 건?", "options": [ { "e": "⚽", "en": "ball" }, { "e": "📏", "en": "ruler" }, { "e": "📦", "en": "box" } ] },
+    { "prompt_en": "Which one is a hand?", "prompt_ko": "손은 어느 거야?", "options": [ { "e": "✋", "en": "hand" }, { "e": "👃", "en": "nose" }, { "e": "👀", "en": "eyes" } ] },
+    { "prompt_en": "You make a big bubble. How do you feel?", "prompt_ko": "큰 비눗방울을 만들었어. 기분이 어때?", "options": [ { "e": "🤩", "en": "Wow!" }, { "e": "😭", "en": "Boo-hoo." }, { "e": "😠", "en": "I'm mad." } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Blow gently.'의 뜻은?", "options": ["살살 불어.", "세게 불어.", "천천히 걸어.", "부드럽게 만져."], "explain": "blow는 '불다', gently는 '살살, 부드럽게'입니다." },
+    { "q": "'Easy does it.'은 언제 쓰는 말일까?", "options": ["조심스럽게 천천히 하라고 할 때", "일이 쉽다고 자랑할 때", "빨리 끝내라고 할 때", "그만하라고 할 때"], "explain": "Easy does it.은 '살살, 조심조심'이라는 뜻으로 서두르지 말라고 할 때 씁니다." },
+    { "q": "비눗방울이 '퐁' 터졌을 때 아이가 할 말로 알맞은 것은?", "options": ["It popped!", "It broke up!", "It cracked!", "It crashed!"], "explain": "풍선이나 비눗방울이 터지는 것은 pop을 써서 It popped!라고 합니다." },
+    { "q": "빈칸에 알맞은 말은? — Let's make a big ___.", "options": ["one", "it", "that", "some"], "explain": "앞에서 말한 물건(비눗방울)을 대신할 때 one을 씁니다: a big one." },
+    { "q": "'Let's make a big one.'에서 one이 가리키는 것은?", "options": ["비눗방울", "숫자 1", "막대", "비누"], "explain": "one은 앞에서 말한 비눗방울(bubble)을 다시 말하지 않고 대신하는 말입니다." },
+    { "q": "빈칸에 알맞은 말은? — ___ the wand in the soap.", "options": ["Dip", "Dive", "Drop", "Drink"], "explain": "dip은 '살짝 담그다'라는 뜻으로 비눗물에 막대를 담글 때 씁니다." },
+    { "q": "'비눗방울은 언제나 동그래지려고 해.'에 알맞은 말은?", "options": ["Bubbles always try to be round.", "Bubbles always round to try.", "Bubbles try always round.", "Bubbles are try to round."], "explain": "try to be + 형용사로 '~해지려고 하다'를 나타냅니다." },
+    { "q": "빈칸에 알맞은 말은? — It's as ___ as your head!", "options": ["big", "bigger", "biggest", "bigly"], "explain": "as + 원래 형용사 + as로 '~만큼 ~한'을 나타냅니다." },
+    { "q": "'What shape is it?'의 뜻은?", "options": ["무슨 모양이야?", "무슨 색이야?", "얼마나 커?", "어디서 샀어?"], "explain": "shape는 '모양'이라서 What shape is it?은 모양을 묻는 말입니다." },
+    { "q": "비눗방울이 무지개색으로 보이는 이유를 아이에게 알맞게 설명한 것은?", "options": ["Light shines on the thin soap and makes colors.", "The soap has paint in it.", "The bubble eats the rainbow.", "The wind paints the bubble."], "explain": "얇은 비누막에 빛이 비치면서 여러 색이 보이는 것이 맞는 설명입니다." }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 43,
+  "topic": "ships",
+  "title_en": "Lighthouse",
+  "title_ko": "등대",
+  "intro_ko": "바닷가에서 밤에 등대를 바라보는 상황입니다. 방 불을 끄고 손전등을 등대 삼아 빙글빙글 돌리고, 장난감 배를 등대 쪽으로 움직이며 해 보세요.",
+  "expressions": [
+    { "en": "What's that light?", "ko": "저 불빛은 뭐야?", "tip": "멀리서 반짝이는 것을 보고 아이가 묻는 말이에요. What's that이 이어져 '왓츠댓 라잇'처럼 들리고 끝의 t는 약하게 끊어 줍니다.", "who": "kid" },
+    { "en": "It helps the ships.", "ko": "그건 배들을 도와줘.", "tip": "무엇이 어떤 역할을 하는지 쉽게 설명할 때 'It helps ~' 형태로 써요. helps the가 붙어 '헬프스더'처럼 들립니다.", "who": "both" },
+    { "en": "It goes round and round.", "ko": "빙글빙글 돌아.", "tip": "바퀴, 팽이, 회전목마처럼 계속 도는 것을 말할 때 써요. round and round는 '라운댄 라운드'처럼 이어집니다.", "who": "both" },
+    { "en": "They're safe now.", "ko": "이제 안전해.", "tip": "위험한 상황이 끝났을 때 안심시키는 말이에요. They're는 '데어'처럼 짧게 말합니다.", "who": "both" },
+    { "en": "Safe and sound.", "ko": "무사히, 아무 탈 없이.", "tip": "여행이나 위험한 일 뒤에 '아무 일 없이 무사히'라는 뜻으로 쓰는 관용 표현이에요. and가 약해져 '세이펀 사운드'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Look over there, buddy. Do you see that tall tower?", "ko": "저기 봐. 저 높은 탑 보여?" },
+    { "who": "kid", "en": "What's that light?", "ko": "저 불빛은 뭐야?", "practice": true },
+    { "who": "parent", "en": "That's a lighthouse. Its light shines at night.", "ko": "등대야. 밤에 불빛을 비춰." },
+    { "who": "kid", "en": "Why does it shine?", "ko": "왜 비춰?" },
+    { "who": "parent", "en": "It helps the ships. It shows them where the rocks are.", "ko": "배들을 도와주는 거야. 바위가 어디 있는지 알려 줘." },
+    { "who": "kid", "en": "It helps the ships!", "ko": "배들을 도와주는구나!", "practice": true },
+    { "who": "parent", "en": "Right. Ships can't see rocks in the dark.", "ko": "맞아. 깜깜하면 배는 바위를 볼 수 없거든." },
+    { "who": "kid", "en": "What if they hit a rock?", "ko": "바위에 부딪히면 어떻게 돼?" },
+    { "who": "parent", "en": "The ship could break. So the light warns them.", "ko": "배가 부서질 수도 있어. 그래서 불빛이 조심하라고 알려 주는 거야." },
+    { "who": "kid", "en": "Look! It goes round and round!", "ko": "봐! 빙글빙글 돌아!", "practice": true },
+    { "who": "parent", "en": "Yes. It turns, so ships far away can see it.", "ko": "응. 빙글빙글 돌아서 멀리 있는 배들도 볼 수 있어." },
+    { "who": "kid", "en": "Who turns it on?", "ko": "누가 불을 켜?" },
+    { "who": "parent", "en": "Long ago, a lighthouse keeper did. Now most turn on by themselves.", "ko": "옛날엔 등대지기가 켰어. 지금은 대부분 저절로 켜져." },
+    { "who": "kid", "en": "Look, a boat is coming!", "ko": "봐, 배가 와!" },
+    { "who": "parent", "en": "It's a little fishing boat. Can it see the light?", "ko": "작은 고기잡이배네. 저 배도 불빛이 보일까?" },
+    { "who": "kid", "en": "Yes! It's going around the rocks.", "ko": "응! 바위를 피해서 돌아가고 있어." },
+    { "who": "parent", "en": "Good eye! Now it's coming into the harbor.", "ko": "잘 봤네! 이제 항구로 들어오고 있어." },
+    { "who": "kid", "en": "They're safe now!", "ko": "이제 안전해!", "practice": true },
+    { "who": "parent", "en": "That's right. They're home, safe and sound.", "ko": "맞아. 무사히 집에 돌아왔어." },
+    { "who": "kid", "en": "Safe and sound!", "ko": "무사히!", "practice": true },
+    { "who": "parent", "en": "Do you want to be a lighthouse? Here's a flashlight.", "ko": "너도 등대 해 볼래? 여기 손전등." },
+    { "who": "kid", "en": "Round and round! I'm a lighthouse!", "ko": "빙글빙글! 나는 등대야!" }
+  ],
+  "talkMore": [
+    { "en": "What else helps ships at sea?", "ko": "바다에서 배를 돕는 건 또 뭐가 있을까?", "sample_en": "A map!", "sample_ko": "지도!" },
+    { "en": "What else goes round and round?", "ko": "또 빙글빙글 도는 건 뭐가 있어?", "sample_en": "A wheel!", "sample_ko": "바퀴!" },
+    { "en": "If you lived in a lighthouse, what would you do?", "ko": "등대에 산다면 뭘 하고 싶어?", "sample_en": "Watch the ships!", "sample_ko": "배 구경할래!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "What is on top of a lighthouse?", "prompt_ko": "등대 꼭대기에는 뭐가 있어?", "options": [ { "e": "💡", "en": "a light" }, { "e": "🍦", "en": "ice cream" }, { "e": "🎩", "en": "a hat" } ] },
+    { "prompt_en": "Who does the lighthouse help?", "prompt_ko": "등대는 누구를 도와줘?", "options": [ { "e": "🚢", "en": "ships" }, { "e": "🚲", "en": "bikes" }, { "e": "🐄", "en": "cows" } ] },
+    { "prompt_en": "When does the lighthouse shine?", "prompt_ko": "등대는 언제 불을 비춰?", "options": [ { "e": "🌙", "en": "at night" }, { "e": "🍽️", "en": "at lunch" }, { "e": "🎂", "en": "on birthdays" } ] },
+    { "prompt_en": "You see a light far away. What do you ask?", "prompt_ko": "멀리 불빛이 보여. 뭐라고 물어?", "options": [ { "e": "💡", "en": "What's that light?" }, { "e": "😋", "en": "Is it yummy?" }, { "e": "👟", "en": "Where's my shoe?" } ] },
+    { "prompt_en": "Listen: 'It goes round and round.' Which one goes round and round?", "prompt_ko": "'빙글빙글 돌아.' 빙글빙글 도는 건 어느 거야?", "options": [ { "e": "🎡", "en": "Ferris wheel" }, { "e": "🧱", "en": "brick" }, { "e": "🪑", "en": "chair" } ] },
+    { "prompt_en": "What can a ship hit in the dark?", "prompt_ko": "깜깜할 때 배가 부딪힐 수 있는 건?", "options": [ { "e": "🪨", "en": "a rock" }, { "e": "🍰", "en": "a cake" }, { "e": "🧸", "en": "a teddy bear" } ] },
+    { "prompt_en": "The boat is back home. What do you say?", "prompt_ko": "배가 집에 돌아왔어. 뭐라고 해?", "options": [ { "e": "😌", "en": "They're safe now." }, { "e": "😱", "en": "Oh no!" }, { "e": "🥱", "en": "I'm sleepy." } ] },
+    { "prompt_en": "Which one can you use to be a lighthouse?", "prompt_ko": "등대 놀이할 때 쓸 수 있는 건?", "options": [ { "e": "🔦", "en": "flashlight" }, { "e": "🧦", "en": "sock" }, { "e": "🍌", "en": "banana" } ] },
+    { "prompt_en": "Which one is a fishing boat?", "prompt_ko": "고기잡이배는 어느 거야?", "options": [ { "e": "🛥️", "en": "boat" }, { "e": "✈️", "en": "airplane" }, { "e": "🚂", "en": "train" } ] },
+    { "prompt_en": "Where do ships sail?", "prompt_ko": "배는 어디에서 다녀?", "options": [ { "e": "🌊", "en": "the sea" }, { "e": "🏜️", "en": "the desert" }, { "e": "🏔️", "en": "the mountain" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Safe and sound.'의 뜻으로 알맞은 것은?", "options": ["무사히, 아무 탈 없이", "안전하고 시끄럽게", "소리가 안전하게", "조용히 해"], "explain": "safe and sound는 위험한 일 없이 무사하다는 뜻의 관용 표현입니다." },
+    { "q": "'Safe and sound'를 자연스럽게 말하면 어떻게 들릴까?", "options": ["세이펀 사운드", "세이프 앤드 사운드", "세이브 안 사운드", "세프앤드 순드"], "explain": "and가 약해져 n 소리만 남아 '세이펀 사운드'처럼 들립니다." },
+    { "q": "아이가 '저 불빛은 뭐야?'라고 물을 때의 영어는?", "options": ["What's that light?", "What light is it that?", "What's the light there is?", "Which is that lighting?"], "explain": "멀리 보이는 것을 물을 때는 What's that ~?을 씁니다." },
+    { "q": "빈칸에 알맞은 말은? — It ___ the ships. It shows them where the rocks are.", "options": ["helps", "help", "helping", "is help"], "explain": "주어가 It이므로 동사에 s를 붙여 helps가 됩니다." },
+    { "q": "'It goes round and round.'의 뜻은?", "options": ["빙글빙글 돌아.", "둥글게 생겼어.", "왔다 갔다 해.", "위아래로 움직여."], "explain": "round and round는 계속 돌고 도는 모양을 나타냅니다." },
+    { "q": "빈칸에 알맞은 말은? — Ships can't see rocks ___ the dark.", "options": ["in", "on", "at", "by"], "explain": "'어둠 속에서'는 in the dark라고 합니다." },
+    { "q": "'What if they hit a rock?'의 뜻은?", "options": ["바위에 부딪히면 어떻게 돼?", "바위를 왜 쳐?", "바위가 어디 있어?", "바위를 주워도 돼?"], "explain": "What if ~?는 '만약 ~하면 어떻게 돼?'라고 묻는 말입니다." },
+    { "q": "아이가 무언가를 잘 찾아냈을 때 '잘 봤네!'라는 칭찬은?", "options": ["Good eye!", "Nice eyes!", "Good look!", "Well seen!"], "explain": "Good eye!는 무언가를 잘 알아보거나 찾아냈을 때 하는 칭찬입니다." },
+    { "q": "'They're safe now.'에서 They're를 바르게 줄인 원래 형태는?", "options": ["They are", "There are", "Their are", "They were"], "explain": "They're는 They are의 줄임말이며, 발음이 같은 there, their와 헷갈리기 쉽습니다." },
+    { "q": "'Now most turn on by themselves.'의 뜻은?", "options": ["지금은 대부분 저절로 켜져.", "지금은 대부분 꺼져 있어.", "지금은 사람들이 직접 켜.", "지금은 거의 다 없어졌어."], "explain": "by themselves는 '저절로, 스스로'라는 뜻입니다." }
+  ]
+}

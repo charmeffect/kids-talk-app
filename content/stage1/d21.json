@@ -1,0 +1,69 @@
+{
+  "stage": 1,
+  "day": 21,
+  "topic": "daily",
+  "title_en": "Bath time",
+  "title_ko": "목욕 시간",
+  "intro_ko": "저녁 목욕 시간에 실제로 욕조에서 해 보거나, 거실에서 대야와 장난감 배로 흉내 내며 하는 대화입니다. 샴푸하는 시늉, 눈 감는 동작, 물 붓는 소리를 곁들이면 아이가 금방 따라 해요.",
+  "expressions": [
+    { "en": "Time for a bath.", "ko": "목욕할 시간이야.", "tip": "Time for 뒤에 bed, lunch, school을 넣어 매일 쓸 수 있어요. for a가 이어져 '타임포러 배스'처럼 들립니다.", "who": "parent" },
+    { "en": "It's too hot!", "ko": "너무 뜨거워!", "tip": "too는 '너무 ~해서 싫다'는 느낌이에요. 차가우면 It's too cold!로 바꿔 말하게 해 주세요.", "who": "kid" },
+    { "en": "Close your eyes.", "ko": "눈 감아.", "tip": "샴푸를 헹굴 때 꼭 쓰는 말이에요. close your가 이어져 '클로쥬어 아이즈'처럼 들립니다.", "who": "parent" },
+    { "en": "All clean!", "ko": "다 깨끗해졌다!", "tip": "씻기나 손 씻기를 끝냈을 때 밝게 외쳐 주세요. 아이가 따라 하기 쉬운 짧은 말이에요.", "who": "both" },
+    { "en": "Rinse off.", "ko": "(물로) 헹궈 내.", "tip": "비누나 거품을 물로 씻어 낼 때 쓰는 말이에요. 두 단어가 이어져 '린소프'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Okay, buddy. Time for a bath.", "ko": "자, 우리 아들(딸). 목욕할 시간이야." },
+    { "who": "kid", "en": "Can I bring my boat?", "ko": "내 배 가져가도 돼?", "practice": true },
+    { "who": "parent", "en": "Sure. Let me check the water first.", "ko": "그럼. 먼저 물 온도부터 볼게." },
+    { "who": "kid", "en": "Let me feel it. It's too hot!", "ko": "나도 만져 볼래. 너무 뜨거워!", "practice": true },
+    { "who": "parent", "en": "Oops! I'll add some cold water.", "ko": "어이쿠! 찬물 좀 더 넣을게." },
+    { "who": "kid", "en": "Now it's just right.", "ko": "이제 딱 좋아." },
+    { "who": "parent", "en": "Good. Hop in, sweetie.", "ko": "좋아. 쏙 들어가." },
+    { "who": "kid", "en": "Look! My boat floats!", "ko": "봐! 내 배가 떠!", "practice": true },
+    { "who": "parent", "en": "Nice! Now let's wash your hair.", "ko": "멋지다! 이제 머리 감자." },
+    { "who": "kid", "en": "Why do I need shampoo?", "ko": "샴푸는 왜 해야 돼?" },
+    { "who": "parent", "en": "It washes the dirt off your hair.", "ko": "머리에 묻은 먼지를 씻어 줘." },
+    { "who": "kid", "en": "I don't like soap in my eyes.", "ko": "눈에 비누 들어가는 거 싫어." },
+    { "who": "parent", "en": "Then close your eyes. I'll be careful.", "ko": "그럼 눈 감아. 조심해서 해 줄게." },
+    { "who": "kid", "en": "Okay. My eyes are closed!", "ko": "알았어. 눈 감았어!", "practice": true },
+    { "who": "parent", "en": "Good job. Now let's rinse off. Here comes the water.", "ko": "잘했어. 이제 헹구자. 물 간다." },
+    { "who": "kid", "en": "Splash! Is the soap gone?", "ko": "첨벙! 비누 다 없어졌어?" },
+    { "who": "parent", "en": "Yes, it's all gone. Let me see your hands.", "ko": "응, 다 없어졌어. 손 좀 보자." },
+    { "who": "kid", "en": "All clean!", "ko": "다 깨끗해!", "practice": true },
+    { "who": "kid", "en": "Why are my fingers wrinkly?", "ko": "내 손가락은 왜 쭈글쭈글해?", "practice": true },
+    { "who": "parent", "en": "Skin gets wrinkly in water. It goes away soon.", "ko": "물에 오래 있으면 피부가 쭈글쭈글해져. 금방 돌아와." },
+    { "who": "kid", "en": "Can I play a little more?", "ko": "조금만 더 놀아도 돼?" },
+    { "who": "parent", "en": "Five more minutes. Then let's dry off.", "ko": "5분만 더. 그다음엔 물기 닦자." },
+    { "who": "kid", "en": "Yay! Bye-bye, bubbles!", "ko": "야호! 거품아, 안녕!" }
+  ],
+  "talkMore": [
+    { "en": "What toy do you want in the bath?", "ko": "목욕할 때 어떤 장난감 갖고 놀고 싶어?", "sample_en": "My boat!", "sample_ko": "내 배!" },
+    { "en": "What do you wash first?", "ko": "제일 먼저 어디를 씻어?", "sample_en": "My hands!", "sample_ko": "내 손!" },
+    { "en": "Do you like bubbles? Why?", "ko": "거품 좋아해? 왜?", "sample_en": "Yes! They're fun.", "sample_ko": "응! 재미있어." }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a bathtub?", "prompt_ko": "욕조는 어느 거야?", "options": [ { "e": "🛁", "en": "bathtub" }, { "e": "🚗", "en": "car" }, { "e": "🌳", "en": "tree" } ] },
+    { "prompt_en": "The water is too hot. What do you say?", "prompt_ko": "물이 너무 뜨거워. 뭐라고 해?", "options": [ { "e": "🥵", "en": "It's too hot!" }, { "e": "😴", "en": "Good night." }, { "e": "🍕", "en": "Pizza, please." } ] },
+    { "prompt_en": "What do we use to wash hair?", "prompt_ko": "머리 감을 때 뭘 써?", "options": [ { "e": "🧴", "en": "shampoo" }, { "e": "🍌", "en": "banana" }, { "e": "✏️", "en": "pencil" } ] },
+    { "prompt_en": "Soap is coming. What do you close?", "prompt_ko": "비누 거품이 내려와. 뭘 감아야 해?", "options": [ { "e": "👀", "en": "my eyes" }, { "e": "👟", "en": "my shoes" }, { "e": "📖", "en": "my book" } ] },
+    { "prompt_en": "Which one floats in the bath?", "prompt_ko": "욕조에서 물에 뜨는 건 어느 거야?", "options": [ { "e": "🚤", "en": "a toy boat" }, { "e": "🪨", "en": "a rock" }, { "e": "🔑", "en": "a key" } ] },
+    { "prompt_en": "Your hands are washed. What do you say?", "prompt_ko": "손을 다 씻었어. 뭐라고 해?", "options": [ { "e": "✨", "en": "All clean!" }, { "e": "😢", "en": "I'm sad." }, { "e": "🍪", "en": "Cookie!" } ] },
+    { "prompt_en": "Which one is soap?", "prompt_ko": "비누는 어느 거야?", "options": [ { "e": "🧼", "en": "soap" }, { "e": "🧸", "en": "teddy bear" }, { "e": "🍦", "en": "ice cream" } ] },
+    { "prompt_en": "It's time for a bath. Where do you go?", "prompt_ko": "목욕할 시간이야. 어디로 가?", "options": [ { "e": "🛁", "en": "the bathroom" }, { "e": "🏫", "en": "school" }, { "e": "🌳", "en": "the park" } ] },
+    { "prompt_en": "Which one is a duck?", "prompt_ko": "오리는 어느 거야?", "options": [ { "e": "🦆", "en": "duck" }, { "e": "🐄", "en": "cow" }, { "e": "🐘", "en": "elephant" } ] },
+    { "prompt_en": "Which one is a sponge?", "prompt_ko": "스펀지는 어느 거야?", "options": [ { "e": "🧽", "en": "sponge" }, { "e": "🔥", "en": "fire" }, { "e": "🌵", "en": "cactus" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Rinse off.'의 뜻은?", "options": ["(물로) 헹궈 내.", "비누칠해.", "물에 들어가.", "옷 벗어."], "explain": "rinse off는 비누나 거품을 물로 씻어 내라는 말입니다." },
+    { "q": "아이에게 '목욕할 시간이야'라고 할 때 알맞은 말은?", "options": ["Time for a bath.", "Time to a bath.", "It's bath for time.", "Time of a bath."], "explain": "'~할 시간'은 Time for + 명사로 말합니다." },
+    { "q": "샴푸를 헹구기 전에 '눈 감아'라고 할 때 알맞은 말은?", "options": ["Close your eyes.", "Close you eyes.", "Closing your eyes.", "Close eyes your."], "explain": "'네 눈'은 your eyes이므로 Close your eyes.가 맞습니다." },
+    { "q": "빈칸에 알맞은 말은? — Oops! I'll add some ___ water.", "options": ["cold", "hot", "boiling", "steaming"], "explain": "물이 너무 뜨거웠으니 찬물(cold water)을 넣어야 합니다." },
+    { "q": "'All clean!'의 뜻은?", "options": ["다 깨끗해졌다!", "다 같이 씻자!", "청소 시간이야!", "모두 조용히!"], "explain": "씻기를 마치고 '깨끗해졌다!'고 외치는 짧은 말입니다." },
+    { "q": "'Close your eyes'를 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["클로쥬어 아이즈", "클로즈 유어 아이즈 (또박또박 끊어서)", "클로시 요 아이스", "크로즈 아이즈"], "explain": "close 끝의 z 소리와 your가 만나 '클로쥬어'처럼 들립니다." },
+    { "q": "아이가 목욕물에 손을 넣고 '너무 뜨거워!'라고 할 때 알맞은 말은?", "options": ["It's too hot!", "It's too cold!", "It's hot, too.", "Hot is too!"], "explain": "'너무 ~하다'는 too를 형용사 앞에 둡니다: It's too hot!" },
+    { "q": "빈칸에 알맞은 말은? — Skin gets wrinkly in water. It goes ___ soon.", "options": ["away", "out", "off", "down"], "explain": "go away는 '없어지다, 사라지다'라는 뜻입니다." },
+    { "q": "샴푸 거품을 물로 씻어 낼 때 하는 말은?", "options": ["Rinse off.", "Take off.", "Turn off.", "Show off."], "explain": "take off는 벗다, turn off는 끄다, show off는 뽐내다라는 뜻이라 맞지 않습니다." },
+    { "q": "대본의 'Hop in, sweetie.'에서 Hop in의 뜻은?", "options": ["(욕조에) 쏙 들어가.", "깡충깡충 뛰어.", "밖으로 나와.", "꽉 잡아."], "explain": "hop in은 차나 욕조 등에 가볍게 '쏙 들어가다/타다'라는 뜻입니다." }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 50,
+  "topic": "space",
+  "title_en": "Building a pretend rocket",
+  "title_ko": "상자 로켓 만들기",
+  "intro_ko": "큰 택배 상자로 로켓을 만들고 우주로 출발하는 놀이입니다. 상자에 창문을 그리고 아이가 들어가 앉게 한 뒤, 카운트다운에 맞춰 함께 '발사!'를 외쳐 보세요.",
+  "expressions": [
+    { "en": "What do we need?", "ko": "뭐가 필요해?", "tip": "만들기나 요리를 시작할 때 준비물을 묻는 말이에요. What do we가 빠르게 이어져 '왓두위 니드'처럼 들립니다.", "who": "both" },
+    { "en": "Check the engine.", "ko": "엔진 확인해.", "tip": "Check the ~ 로 무엇이든 확인하라고 할 수 있어요(Check the door). Check the가 이어져 '첵더'처럼 들립니다.", "who": "parent" },
+    { "en": "Get in!", "ko": "타!", "tip": "차, 상자, 텐트처럼 안으로 들어가 타라고 할 때 써요. t가 부드러워져 '게린'처럼 들립니다.", "who": "both" },
+    { "en": "All systems go!", "ko": "모든 준비 완료!", "tip": "로켓 발사 전 '모든 장치가 정상'이라는 뜻의 말로, 놀이나 출발 전에 신나게 쓰기 좋아요. '올 시스텀즈 고'처럼 말합니다.", "who": "kid" },
+    { "en": "Get ready.", "ko": "준비해.", "tip": "무언가 시작하기 직전에 써요. Get의 t는 거의 소리 나지 않아 '게(ㅅ) 레디'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Let's build a rocket with this big box!", "ko": "이 큰 상자로 로켓을 만들자!" },
+    { "who": "kid", "en": "Yes! What do we need?", "ko": "좋아! 뭐가 필요해?", "practice": true },
+    { "who": "parent", "en": "We need tape, paper and crayons.", "ko": "테이프랑 종이랑 크레용이 필요해." },
+    { "who": "kid", "en": "And a window!", "ko": "그리고 창문도!" },
+    { "who": "parent", "en": "Good idea. Let's draw a round window.", "ko": "좋은 생각이야. 동그란 창문을 그리자." },
+    { "who": "kid", "en": "Can I draw the fire?", "ko": "내가 불꽃 그려도 돼?" },
+    { "who": "parent", "en": "Sure. Real rockets push hot gas down to go up.", "ko": "그럼. 진짜 로켓은 뜨거운 가스를 아래로 내뿜어서 위로 올라가." },
+    { "who": "kid", "en": "Down to go up?", "ko": "아래로 뿜어서 위로 간다고?" },
+    { "who": "parent", "en": "Yes. The gas pushes down, and the rocket goes up.", "ko": "응. 가스가 아래로 밀면 로켓은 위로 올라가." },
+    { "who": "kid", "en": "Cool! I'm the captain!", "ko": "멋지다! 내가 선장이야!" },
+    { "who": "parent", "en": "Okay, captain. Check the engine.", "ko": "좋아요, 선장님. 엔진 확인해 주세요." },
+    { "who": "kid", "en": "The engine is ready!", "ko": "엔진 준비됐어!", "practice": true },
+    { "who": "parent", "en": "Great. Now put on your space suit.", "ko": "좋아. 이제 우주복 입어." },
+    { "who": "kid", "en": "Why do I need a space suit?", "ko": "우주복은 왜 입어야 해?" },
+    { "who": "parent", "en": "There's no air to breathe in space. Your suit gives you air.", "ko": "우주에는 숨 쉴 공기가 없어. 우주복이 공기를 줘." },
+    { "who": "kid", "en": "Can you come, too?", "ko": "엄마(아빠)도 같이 갈래?" },
+    { "who": "parent", "en": "Yes! Make room for me.", "ko": "그럼! 자리 좀 만들어 줘." },
+    { "who": "kid", "en": "Get in!", "ko": "타!", "practice": true },
+    { "who": "parent", "en": "Okay, I'm in. Get ready.", "ko": "좋아, 탔어. 준비해." },
+    { "who": "kid", "en": "All systems go!", "ko": "모든 준비 완료!", "practice": true },
+    { "who": "parent", "en": "Here we go! Ten, nine, eight...", "ko": "출발한다! 십, 구, 팔..." },
+    { "who": "kid", "en": "Three, two, one, blast off!", "ko": "삼, 이, 일, 발사!", "practice": true },
+    { "who": "parent", "en": "We're going up! What do you see?", "ko": "올라간다! 뭐가 보여?" },
+    { "who": "kid", "en": "I see the Earth! It's blue!", "ko": "지구가 보여! 파란색이야!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "Where should our rocket go next?", "ko": "우리 로켓은 다음에 어디로 갈까?", "sample_en": "To the moon!", "sample_ko": "달로!" },
+    { "en": "What will you take on the rocket?", "ko": "로켓에 뭘 가지고 탈 거야?", "sample_en": "Snacks and my teddy bear.", "sample_ko": "간식이랑 곰 인형." },
+    { "en": "What else can we add to our rocket?", "ko": "로켓에 또 뭘 붙일 수 있을까?", "sample_en": "Big wings and a flag!", "sample_ko": "큰 날개랑 깃발!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a rocket?", "prompt_ko": "로켓은 어느 거야?", "options": [ { "e": "🚀", "en": "rocket" }, { "e": "🚲", "en": "bike" }, { "e": "⛵", "en": "sailboat" } ] },
+    { "prompt_en": "What did we use to make the rocket?", "prompt_ko": "로켓은 뭘로 만들었지?", "options": [ { "e": "📦", "en": "a box" }, { "e": "🍉", "en": "a watermelon" }, { "e": "🧊", "en": "ice" } ] },
+    { "prompt_en": "You start to make something. What do you ask?", "prompt_ko": "뭔가 만들기 시작해. 뭐라고 물어?", "options": [ { "e": "🤔", "en": "What do we need?" }, { "e": "😴", "en": "Good night!" }, { "e": "🤧", "en": "Bless you!" } ] },
+    { "prompt_en": "What comes out of the bottom of a rocket?", "prompt_ko": "로켓 아래로 뭐가 나와?", "options": [ { "e": "🔥", "en": "fire" }, { "e": "🌸", "en": "flowers" }, { "e": "🍭", "en": "candy" } ] },
+    { "prompt_en": "Who wears a space suit?", "prompt_ko": "우주복은 누가 입어?", "options": [ { "e": "🧑‍🚀", "en": "an astronaut" }, { "e": "🧑‍🍳", "en": "a cook" }, { "e": "🧑‍🌾", "en": "a farmer" } ] },
+    { "prompt_en": "You want someone to come into the rocket. What do you say?", "prompt_ko": "로켓에 들어오라고 할 때 뭐라고 해?", "options": [ { "e": "🚪", "en": "Get in!" }, { "e": "🙅", "en": "Go away!" }, { "e": "🍽️", "en": "Let's eat!" } ] },
+    { "prompt_en": "Everything is ready to fly. What do you say?", "prompt_ko": "날아갈 준비가 다 됐어. 뭐라고 해?", "options": [ { "e": "✅", "en": "All systems go!" }, { "e": "😢", "en": "I'm sad." }, { "e": "🛑", "en": "Stop!" } ] },
+    { "prompt_en": "What do you say at the end of the countdown?", "prompt_ko": "카운트다운 끝에 뭐라고 외쳐?", "options": [ { "e": "🚀", "en": "Blast off!" }, { "e": "🛌", "en": "Bedtime!" }, { "e": "🧹", "en": "Clean up!" } ] },
+    { "prompt_en": "Which one is the Earth?", "prompt_ko": "지구는 어느 거야?", "options": [ { "e": "🌍", "en": "Earth" }, { "e": "🌙", "en": "moon" }, { "e": "☀️", "en": "sun" } ] },
+    { "prompt_en": "Is there air to breathe in space?", "prompt_ko": "우주에는 숨 쉴 공기가 있을까?", "options": [ { "e": "🙅", "en": "no" }, { "e": "🙆", "en": "yes" }, { "e": "🍕", "en": "pizza" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'All systems go!'의 뜻은?", "options": ["모든 준비 완료!", "모든 장치가 꺼졌어!", "다 같이 가자!", "모든 게 망가졌어!"], "explain": "로켓 발사 전 모든 장치가 정상이라는 뜻에서 '준비 완료'로 쓰입니다." },
+    { "q": "만들기를 시작하며 '뭐가 필요해?'라고 묻는 말은?", "options": ["What do we need?", "What are we need?", "What we need?", "What does we need?"], "explain": "일반동사 need의 의문문이므로 do를 써서 What do we need?가 됩니다." },
+    { "q": "'Get ready.'의 뜻은?", "options": ["준비해.", "다 끝났어.", "빨간색으로 칠해.", "읽어 봐."], "explain": "get ready는 '준비하다'로, 시작 직전에 씁니다." },
+    { "q": "빈칸에 알맞은 말은? — Real rockets push hot gas ___ to go up.", "options": ["down", "up", "in", "off"], "explain": "로켓은 가스를 아래로(down) 내뿜고 그 반작용으로 위로 올라갑니다." },
+    { "q": "'Get in!'을 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["게린", "겟 인", "게트 인", "젯인"], "explain": "get의 t가 모음 앞에서 부드러워져 '게린'처럼 들립니다." },
+    { "q": "아이에게 '엔진 확인해'라고 역할을 줄 때 알맞은 말은?", "options": ["Check the engine.", "Check to the engine.", "Checking the engine.", "Check at engine."], "explain": "check는 바로 목적어를 받습니다: Check the engine." },
+    { "q": "빈칸에 알맞은 말은? — Yes! Make ___ for me.", "options": ["room", "space suit", "rooms", "place of"], "explain": "make room for me는 '내 자리 좀 만들어 줘'라는 뜻입니다." },
+    { "q": "우주복이 필요한 이유로 스크립트에서 말한 것은?", "options": ["There's no air to breathe in space.", "Space is very noisy.", "Space has too much water.", "Rockets are very small."], "explain": "우주에는 숨 쉴 공기가 없어서 우주복이 공기를 공급합니다." },
+    { "q": "'Okay, I'm in.'의 뜻은?", "options": ["좋아, 탔어.", "좋아, 집에 있어.", "좋아, 이겼어.", "좋아, 들어가지 마."], "explain": "Get in!에 대한 대답으로 '안에 들어왔다(탔다)'는 뜻입니다." },
+    { "q": "카운트다운 끝에 로켓이 출발할 때 외치는 말은?", "options": ["Blast off!", "Blow off!", "Take out!", "Fly away off!"], "explain": "로켓 발사는 blast off라고 합니다." }
+  ]
+}

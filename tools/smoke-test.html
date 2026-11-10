@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><title>kids-talk smoke test</title></head>
+<body>
+<!-- Run from the project root:  python3 -m http.server 8766
+     "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless=new --disable-gpu \
+        --virtual-time-budget=10000 --dump-dom http://127.0.0.1:8766/kids-talk-app/tools/smoke-test.html | grep -o 'SMOKE.*' -->
+<iframe id="f" src="../index.html" style="width:375px;height:1000px;border:0"></iframe>
+<pre id="out"></pre>
+<script>
+const R = {};
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+document.getElementById('f').addEventListener('load', async () => {
+  const w = document.getElementById('f').contentWindow, d = w.document;
+  w.onerror = (m) => { R.jsError = String(m); };
+  try {
+    w.localStorage.clear(); w.location.reload(); await sleep(400);
+    const w2 = document.getElementById('f').contentWindow, D = w2.document;
+    R.viewport = { width: w2.innerWidth, scrollWidth: D.documentElement.scrollWidth };
+    R.stageChips = [...D.querySelectorAll('#stageChips .chip')].map(b => b.textContent + (b.disabled ? '(x)' : ''));
+    R.today = D.getElementById('todayCard').textContent.replace(/\s+/g, ' ').trim().slice(0, 80);
+    R.weeks = D.querySelectorAll('.week').length;
+    R.months = D.querySelectorAll('#monthTabs .chip').length;
+    D.getElementById('startToday').click(); await sleep(100);
+    R.dayTitle = D.getElementById('dayTitle').textContent;
+    R.exprCards = D.querySelectorAll('.expr').length;
+    D.getElementById('nextStep').click(); await sleep(100);
+    R.lines = D.querySelectorAll('#lines .line').length;
+    R.practice = D.querySelectorAll('.practice-tag').length;
+    D.getElementById('togglePractice').click(); await sleep(50);
+    R.hiddenAfterToggle = D.querySelectorAll('.bubble.hidden-en').length;
+    D.getElementById('playAll').click(); await sleep(50);
+    D.getElementById('nextStep').click(); await sleep(100);
+    R.talk = D.querySelectorAll('.talk').length;
+    D.getElementById('nextStep').click(); await sleep(100);
+    // kid quiz: answer all correctly
+    let kidAnswered = 0;
+    for (let i = 0; i < 10; i++) {
+      const okBtn = [...D.querySelectorAll('.kid-opt')].find(b => {
+        const q = w2.eval('null'); return false; });
+      // find correct by matching with data: the correct option is the one that becomes .ok after any click; click first and read
+      const btns = [...D.querySelectorAll('.kid-opt')];
+      btns[0].click(); await sleep(20);
+      kidAnswered++;
+      D.getElementById('qnext').click(); await sleep(20);
+    }
+    R.kidResult = D.querySelector('.score-big') && D.querySelector('.score-big').textContent;
+    D.getElementById('nextStep').click(); await sleep(100);
+    for (let i = 0; i < 10; i++) { D.querySelector('.opt').click(); await sleep(20); D.getElementById('qnext').click(); await sleep(20); }
+    R.parentResult = D.querySelector('.score-big') && D.querySelector('.score-big').textContent;
+    D.getElementById('nextStep').click(); await sleep(100);
+    R.finished = D.getElementById('stepBody').textContent.replace(/\s+/g, ' ').trim().slice(0, 60);
+    R.stored = w2.localStorage.getItem('kids_talk_progress');
+    D.getElementById('doneHome').click(); await sleep(100);
+    R.doneMarks = D.querySelectorAll('.daybtn.done').length;
+    R.todayAfter = D.getElementById('todayCard').textContent.replace(/\s+/g, ' ').trim().slice(0, 60);
+    D.querySelector('[data-review="1"]').click(); await sleep(100);
+    R.review = { title: D.getElementById('dayTitle').textContent, expr: D.querySelectorAll('.expr').length, steps: D.querySelectorAll('.step').length };
+    D.getElementById('settingsBtn').click(); await sleep(100);
+    R.settingsVisible = !D.getElementById('settingsView').classList.contains('hidden');
+    R.ok = true;
+  } catch (e) { R.ok = false; R.error = String(e && e.stack || e); }
+  document.getElementById('out').textContent = 'SMOKE' + JSON.stringify(R);
+}, { once: true });
+</script>
+</body></html>

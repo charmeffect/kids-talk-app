@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 48,
+  "topic": "ships",
+  "title_en": "Whale watching boat",
+  "title_ko": "고래 구경 배",
+  "intro_ko": "고래를 보러 배를 탄 상황입니다. 소파를 배 삼아 앉아 손으로 망원경을 만들고, 고래가 물을 뿜을 때는 두 손을 위로 펼쳐 보세요.",
+  "expressions": [
+    { "en": "Look, a whale!", "ko": "봐, 고래다!", "tip": "무언가를 발견했을 때 'Look, a(n) ~!'로 바로 말해요. a whale은 '어 웨일'로 가볍게 붙여 말합니다.", "who": "kid" },
+    { "en": "It's spraying water!", "ko": "물을 뿜고 있어!", "tip": "spray는 물을 뿌리거나 뿜는다는 뜻이에요. 고래가 뿜는 건 사실 숨(따뜻한 공기와 물방울)이라고 알려 주세요.", "who": "kid" },
+    { "en": "Shh, be quiet.", "ko": "쉿, 조용히 하자.", "tip": "도서관이나 아기가 잘 때도 쓸 수 있어요. 손가락을 입에 대고 작게 속삭이듯 말해 주세요.", "who": "both" },
+    { "en": "Isn't it amazing?", "ko": "정말 멋지지 않아?", "tip": "감탄을 함께 나눌 때 써요. Isn't it이 이어져 '이즌닛 어메이징'처럼 들립니다.", "who": "both" },
+    { "en": "Keep an eye out.", "ko": "잘 지켜봐. / 눈 크게 뜨고 찾아봐.", "tip": "무언가가 나타나는지 계속 살펴보라는 뜻이에요. 세 단어가 이어져 '키퍼나이아웃'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "We're on the boat! Ready to see some whales?", "ko": "배에 탔다! 고래 볼 준비 됐어?" },
+    { "who": "kid", "en": "Yes! Where are they?", "ko": "응! 고래 어디 있어?", "practice": true },
+    { "who": "parent", "en": "Somewhere out there. Keep an eye out.", "ko": "저기 어딘가에 있어. 잘 지켜봐." },
+    { "who": "kid", "en": "What does that mean?", "ko": "그게 무슨 뜻이야?" },
+    { "who": "parent", "en": "It means keep looking carefully.", "ko": "계속 잘 살펴보라는 뜻이야." },
+    { "who": "kid", "en": "Okay! I'm looking!", "ko": "알았어! 보고 있어!" },
+    { "who": "parent", "en": "Watch the water over there.", "ko": "저쪽 물을 봐." },
+    { "who": "kid", "en": "Look, a whale!", "ko": "봐, 고래다!", "practice": true },
+    { "who": "parent", "en": "You found one! Good eyes!", "ko": "찾았구나! 눈 밝네!" },
+    { "who": "kid", "en": "It's spraying water!", "ko": "물을 뿜고 있어!", "practice": true },
+    { "who": "parent", "en": "That's its breath. Whales breathe air, like us.", "ko": "그건 고래가 숨 쉬는 거야. 고래도 우리처럼 공기로 숨 쉬어." },
+    { "who": "kid", "en": "From its nose?", "ko": "코로?" },
+    { "who": "parent", "en": "Kind of. It's called a blowhole. It's on top of its head.", "ko": "비슷해. 숨구멍이라고 해. 머리 꼭대기에 있어." },
+    { "who": "kid", "en": "Is a whale a fish?", "ko": "고래는 물고기야?" },
+    { "who": "parent", "en": "No, it's not a fish. It's a mammal, like us.", "ko": "아니, 물고기가 아니야. 우리처럼 포유동물이야." },
+    { "who": "kid", "en": "Wow! It's so big!", "ko": "우와! 엄청 커!" },
+    { "who": "parent", "en": "Shh, be quiet. Let's just watch.", "ko": "쉿, 조용히 하자. 그냥 지켜보자." },
+    { "who": "kid", "en": "Shh, be quiet, everyone!", "ko": "쉿, 다들 조용히 해요!", "practice": true },
+    { "who": "parent", "en": "Look! Its tail is coming up.", "ko": "봐! 꼬리가 올라온다." },
+    { "who": "kid", "en": "Isn't it amazing?", "ko": "정말 멋지지 않아?", "practice": true },
+    { "who": "parent", "en": "It really is. Now it's diving deep.", "ko": "정말 그렇다. 이제 깊이 잠수하네." },
+    { "who": "kid", "en": "Will it come back?", "ko": "다시 올까?" },
+    { "who": "parent", "en": "Maybe. Let's keep an eye out.", "ko": "아마도. 계속 잘 지켜보자." },
+    { "who": "kid", "en": "I'll keep looking!", "ko": "계속 볼 거야!" }
+  ],
+  "talkMore": [
+    { "en": "What other sea animals do you know?", "ko": "다른 바다 동물은 뭘 알아?", "sample_en": "Dolphins and sharks!", "sample_ko": "돌고래랑 상어!" },
+    { "en": "If you were a whale, where would you swim?", "ko": "네가 고래라면 어디로 헤엄칠래?", "sample_en": "To the deep sea!", "sample_ko": "깊은 바다로!" },
+    { "en": "What would you say to a whale?", "ko": "고래한테 뭐라고 말하고 싶어?", "sample_en": "Hello, big friend!", "sample_ko": "안녕, 큰 친구야!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a whale?", "prompt_ko": "고래는 어느 거야?", "options": [ { "e": "🐋", "en": "whale" }, { "e": "🐢", "en": "turtle" }, { "e": "🦀", "en": "crab" } ] },
+    { "prompt_en": "You see a whale. What do you say?", "prompt_ko": "고래를 봤어. 뭐라고 해?", "options": [ { "e": "🐋", "en": "Look, a whale!" }, { "e": "🍰", "en": "Look, a cake!" }, { "e": "🚗", "en": "Look, a car!" } ] },
+    { "prompt_en": "What do we ride to see whales?", "prompt_ko": "고래를 보려면 뭘 타지?", "options": [ { "e": "🚢", "en": "a boat" }, { "e": "🚲", "en": "a bike" }, { "e": "🚂", "en": "a train" } ] },
+    { "prompt_en": "The whale shoots water up. What do you say?", "prompt_ko": "고래가 물을 위로 뿜어. 뭐라고 해?", "options": [ { "e": "💦", "en": "It's spraying water!" }, { "e": "😴", "en": "It's sleeping!" }, { "e": "🍽️", "en": "It's eating cake!" } ] },
+    { "prompt_en": "We don't want to scare the whale. What do you say?", "prompt_ko": "고래가 놀라지 않게 하려면 뭐라고 해?", "options": [ { "e": "🤫", "en": "Shh, be quiet." }, { "e": "📢", "en": "Let's yell!" }, { "e": "🥁", "en": "Bang the drum!" } ] },
+    { "prompt_en": "Whales breathe…", "prompt_ko": "고래는 뭘로 숨 쉬어?", "options": [ { "e": "💨", "en": "air" }, { "e": "🧃", "en": "juice" }, { "e": "🪨", "en": "rocks" } ] },
+    { "prompt_en": "Which one is a fish?", "prompt_ko": "물고기는 어느 거야?", "options": [ { "e": "🐟", "en": "fish" }, { "e": "🐘", "en": "elephant" }, { "e": "🐦", "en": "bird" } ] },
+    { "prompt_en": "Something is so cool. What do you say?", "prompt_ko": "정말 멋진 걸 봤어. 뭐라고 해?", "options": [ { "e": "🤩", "en": "Isn't it amazing?" }, { "e": "😖", "en": "Yuck!" }, { "e": "🥱", "en": "I'm bored." } ] },
+    { "prompt_en": "Where do whales live?", "prompt_ko": "고래는 어디에 살아?", "options": [ { "e": "🌊", "en": "the sea" }, { "e": "🌳", "en": "a tree" }, { "e": "🏜️", "en": "the desert" } ] },
+    { "prompt_en": "What do you look through to see far away?", "prompt_ko": "멀리 보려면 뭘로 봐?", "options": [ { "e": "🔭", "en": "a telescope" }, { "e": "🥄", "en": "a spoon" }, { "e": "🧦", "en": "a sock" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Keep an eye out.'의 뜻은?", "options": ["잘 지켜봐.", "눈을 감아.", "눈에서 손 떼.", "한쪽 눈만 떠."], "explain": "keep an eye out은 무언가 나타나는지 계속 살피라는 뜻입니다." },
+    { "q": "'Keep an eye out'을 이어 말하면 어떻게 들릴까?", "options": ["키퍼나이아웃", "킵 앤 아이 아웃", "키프 언 에이 아웃", "킵아이아웃"], "explain": "keep의 p가 an과, an의 n이 eye와 이어져 '키퍼나이아웃'처럼 들립니다." },
+    { "q": "멋진 장면을 함께 보며 '정말 멋지지 않아?'라고 할 때 알맞은 말은?", "options": ["Isn't it amazing?", "Is it not amazed?", "Aren't it amazing?", "Isn't amazing it?"], "explain": "감탄을 나눌 때 부정의문문 Isn't it ~?을 씁니다." },
+    { "q": "빈칸에 알맞은 말은? — That's its ___. Whales breathe air, like us.", "options": ["breath", "bread", "bath", "brush"], "explain": "고래가 뿜는 것은 숨(breath)이며, 고래는 공기로 숨 쉽니다." },
+    { "q": "'Shh, be quiet.'와 가장 가까운 뜻은?", "options": ["쉿, 조용히 하자.", "쉿, 빨리 가자.", "쉿, 잘 자.", "쉿, 가만히 서."], "explain": "Shh는 '쉿', be quiet는 '조용히 하다'입니다." },
+    { "q": "고래가 물고기가 아니라고 설명할 때 알맞은 말은?", "options": ["It's a mammal, like us.", "It's a mammal, as us.", "It's mammal like we.", "It's a mammal same us."], "explain": "'우리처럼'은 like us로 말합니다." },
+    { "q": "빈칸에 알맞은 말은? — It's called a ___. It's on top of its head.", "options": ["blowhole", "fishbone", "headlight", "doorbell"], "explain": "고래 머리 위의 숨구멍을 blowhole이라고 합니다." },
+    { "q": "아이가 고래를 먼저 찾았을 때 칭찬하는 말로 알맞은 것은?", "options": ["You found one! Good eyes!", "You find one! Good eyes!", "You found one! Good seeing!", "You founded one! Nice look!"], "explain": "You found one!(찾았구나!)과 Good eyes!(눈 밝네!)를 함께 씁니다." },
+    { "q": "'Now it's diving deep.'의 뜻은?", "options": ["이제 깊이 잠수하네.", "이제 깊이 잠드네.", "이제 하늘로 날아가네.", "이제 물을 마시네."], "explain": "dive deep은 깊이 잠수한다는 뜻입니다." },
+    { "q": "빈칸에 알맞은 말은? — Maybe. Let's keep an ___ out.", "options": ["eye", "ear", "arm", "egg"], "explain": "keep an eye out(잘 지켜보다)이 하나의 표현입니다." }
+  ]
+}

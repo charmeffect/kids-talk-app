@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 60,
+  "topic": "space",
+  "title_en": "Our space trip",
+  "title_ko": "우리의 우주 여행",
+  "intro_ko": "석 달 동안 배운 우주 이야기를 모아 함께 우주 여행을 떠나는 복습 이야기입니다. 가방에 장난감이나 간식을 실제로 챙기고, 의자를 로켓 삼아 카운트다운을 해 보세요.",
+  "expressions": [
+    { "en": "Where shall we go?", "ko": "우리 어디 갈까?", "tip": "함께 갈 곳을 정할 때 쓰는 말로, Where should we go?와 같은 뜻이에요. shall we가 '섈위'로 이어집니다.", "who": "both" },
+    { "en": "Pack your bag.", "ko": "가방 챙겨.", "tip": "여행이나 등원 전에 짐을 싸라고 할 때 써요. Pack your가 이어져 '패큐어 백'처럼 들립니다.", "who": "parent" },
+    { "en": "Let's go to the moon!", "ko": "달에 가자!", "tip": "Let's go to + 장소로 어디든 가자고 말할 수 있어요. go to the가 '고루더'처럼 빠르게 들립니다.", "who": "kid" },
+    { "en": "See you later!", "ko": "나중에 봐!", "tip": "헤어질 때 가볍게 하는 인사예요. later의 t가 부드러워져 '씨유 레이러'처럼 들립니다.", "who": "both" },
+    { "en": "See you later, alligator.", "ko": "나중에 봐, 안녕~", "tip": "later와 alligator의 운을 맞춘 장난스러운 작별 인사예요. 'In a while, crocodile.'(이따 봐, 악어야)라고 받아 주면 아이가 좋아합니다.", "who": "both" }
+  ],
+  "script": [
+    { "who": "parent", "en": "We have a rocket today. Where shall we go?", "ko": "오늘은 로켓이 있어. 우리 어디 갈까?" },
+    { "who": "kid", "en": "Let's go to the moon!", "ko": "달에 가자!", "practice": true },
+    { "who": "parent", "en": "Great choice. Pack your bag first.", "ko": "좋은 선택이야. 먼저 가방 챙겨." },
+    { "who": "kid", "en": "What do I need?", "ko": "뭐가 필요해?", "practice": true },
+    { "who": "parent", "en": "A space suit and a helmet. There's no air on the moon.", "ko": "우주복이랑 헬멧. 달에는 공기가 없거든." },
+    { "who": "kid", "en": "And snacks!", "ko": "그리고 간식!" },
+    { "who": "parent", "en": "Yes, snacks too. It takes about three days to get there.", "ko": "응, 간식도. 거기까지 가는 데 사흘쯤 걸려." },
+    { "who": "kid", "en": "Three days? Wow!", "ko": "사흘이나? 우와!" },
+    { "who": "parent", "en": "Are you ready? Let's count down.", "ko": "준비됐어? 카운트다운하자." },
+    { "who": "kid", "en": "Five, four, three, two, one, blast off!", "ko": "오, 사, 삼, 이, 일, 발사!", "practice": true },
+    { "who": "parent", "en": "Look out the window. What do you see?", "ko": "창밖 봐. 뭐가 보여?" },
+    { "who": "kid", "en": "Stars! So many stars!", "ko": "별! 별이 엄청 많아!" },
+    { "who": "parent", "en": "We're landing on the moon. Step out slowly.", "ko": "달에 착륙한다. 천천히 내려." },
+    { "who": "kid", "en": "It's bouncy! I can jump high!", "ko": "통통 튀어! 높이 뛸 수 있어!", "practice": true },
+    { "who": "parent", "en": "That's because the moon pulls less than Earth.", "ko": "달은 지구보다 당기는 힘이 약해서 그래." },
+    { "who": "kid", "en": "What's that blue ball?", "ko": "저 파란 공은 뭐야?" },
+    { "who": "parent", "en": "That's Earth. That's our home!", "ko": "저게 지구야. 우리 집이야!" },
+    { "who": "kid", "en": "It's so pretty!", "ko": "정말 예쁘다!" },
+    { "who": "parent", "en": "Time to fly home. Say bye to the moon.", "ko": "이제 집에 갈 시간이야. 달한테 인사해." },
+    { "who": "kid", "en": "See you later, Moon!", "ko": "나중에 봐, 달아!", "practice": true },
+    { "who": "parent", "en": "We're home. See you later, alligator!", "ko": "집에 왔다. 나중에 봐, 안녕~!" },
+    { "who": "kid", "en": "In a while, crocodile!", "ko": "이따 봐, 악어야!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "Where do you want to go next time?", "ko": "다음엔 어디 가고 싶어?", "sample_en": "To Mars!", "sample_ko": "화성!" },
+    { "en": "What will you pack in your bag?", "ko": "가방에 뭘 챙길 거야?", "sample_en": "My teddy bear and water.", "sample_ko": "곰 인형이랑 물." },
+    { "en": "What was the best part of our trip?", "ko": "우리 여행에서 뭐가 제일 좋았어?", "sample_en": "Jumping on the moon!", "sample_ko": "달에서 점프한 거!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one takes us to the moon?", "prompt_ko": "달에 데려다주는 건 어느 거야?", "options": [ { "e": "🚀", "en": "rocket" }, { "e": "🚲", "en": "bike" }, { "e": "🚢", "en": "ship" } ] },
+    { "prompt_en": "Which one is the moon?", "prompt_ko": "달은 어느 거야?", "options": [ { "e": "🌙", "en": "moon" }, { "e": "☀️", "en": "sun" }, { "e": "🌳", "en": "tree" } ] },
+    { "prompt_en": "Who wears a space suit?", "prompt_ko": "우주복은 누가 입어?", "options": [ { "e": "👩‍🚀", "en": "an astronaut" }, { "e": "🏊", "en": "a swimmer" }, { "e": "👨‍🍳", "en": "a cook" } ] },
+    { "prompt_en": "You want to go to the moon. What do you say?", "prompt_ko": "달에 가고 싶어. 뭐라고 해?", "options": [ { "e": "🌙", "en": "Let's go to the moon!" }, { "e": "😴", "en": "Good night." }, { "e": "😋", "en": "I'm hungry." } ] },
+    { "prompt_en": "What do you put your things in?", "prompt_ko": "짐을 뭐에 넣어?", "options": [ { "e": "🎒", "en": "a bag" }, { "e": "🛁", "en": "a bathtub" }, { "e": "🍳", "en": "a pan" } ] },
+    { "prompt_en": "What do we see from the moon? Our blue home…", "prompt_ko": "달에서 보이는 파란 우리 집은?", "options": [ { "e": "🌍", "en": "Earth" }, { "e": "🍕", "en": "pizza" }, { "e": "🚗", "en": "car" } ] },
+    { "prompt_en": "What is it like to jump on the moon?", "prompt_ko": "달에서 뛰면 어때?", "options": [ { "e": "🦘", "en": "bouncy" }, { "e": "🥵", "en": "hot" }, { "e": "💦", "en": "wet" } ] },
+    { "prompt_en": "You are leaving. What do you say?", "prompt_ko": "이제 헤어져. 뭐라고 해?", "options": [ { "e": "👋", "en": "See you later!" }, { "e": "🍎", "en": "An apple." }, { "e": "🙋", "en": "Me first!" } ] },
+    { "prompt_en": "Someone says, 'See you later, alligator!' Which animal do you say back?", "prompt_ko": "'See you later, alligator!' 하면 무슨 동물로 대답해?", "options": [ { "e": "🐊", "en": "crocodile" }, { "e": "🐶", "en": "dog" }, { "e": "🐱", "en": "cat" } ] },
+    { "prompt_en": "What do we see in the sky at night?", "prompt_ko": "밤하늘에 뭐가 보여?", "options": [ { "e": "⭐", "en": "stars" }, { "e": "🍌", "en": "bananas" }, { "e": "🧦", "en": "socks" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Where shall we go?'의 뜻은?", "options": ["우리 어디 갈까?", "우리 어디 있어?", "우리 어디 갔었어?", "우리 언제 가?"], "explain": "Shall we …?는 '우리 ~할까?'라고 함께 정할 때 씁니다." },
+    { "q": "'See you later, alligator.'에 대한 재미있는 대답은?", "options": ["In a while, crocodile.", "Good night, alligator.", "Later, alligator, later.", "Bye, alligator, bye."], "explain": "alligator에 crocodile로 운을 맞춰 In a while, crocodile.이라고 받습니다." },
+    { "q": "'가방 챙겨.'를 자연스러운 영어로 하면?", "options": ["Pack your bag.", "Catch your bag.", "Pick your bag.", "Pack you bag."], "explain": "짐을 싸다는 pack을 써서 Pack your bag.이라고 합니다." },
+    { "q": "'Pack your bag.'을 이어 말하면 어떻게 들릴까?", "options": ["패큐어 백", "팩 유얼 배그", "파크 요르 박", "팩스 유 백"], "explain": "Pack의 k와 your가 이어져 '패큐어'처럼 들립니다." },
+    { "q": "빈칸에 알맞은 말은? — There's no ___ on the moon.", "options": ["air", "airs", "an air", "the airs"], "explain": "공기(air)는 셀 수 없는 명사라 There's no air.라고 합니다." },
+    { "q": "빈칸에 알맞은 말은? — It ___ about three days to get there.", "options": ["takes", "spends", "needs", "uses"], "explain": "시간이 걸린다는 It takes + 시간 + to …로 말합니다." },
+    { "q": "달에서 몸이 통통 튀듯 높이 뛸 수 있는 이유는?", "options": ["달이 당기는 힘이 지구보다 약해서", "달 바닥이 고무로 되어 있어서", "달에 바람이 세게 불어서", "우주복에 스프링이 있어서"], "explain": "달의 중력은 지구의 약 6분의 1이라 더 높이 뛸 수 있습니다." },
+    { "q": "'창밖 봐.'를 자연스러운 영어로 하면?", "options": ["Look out the window.", "See out the window.", "Watch the out window.", "Look the window out."], "explain": "창밖을 내다볼 때 Look out the window.라고 합니다." },
+    { "q": "'See you later!'의 later를 자연스럽게 말하면?", "options": ["레이러", "레이털", "라테르", "래터"], "explain": "미국 영어에서 모음 사이의 t는 부드러운 'ㄹ'처럼 들려 '레이러'가 됩니다." },
+    { "q": "빈칸에 알맞은 말은? — Time to fly home. Say bye ___ the moon.", "options": ["to", "for", "at", "with"], "explain": "인사하는 대상 앞에는 to를 써서 say bye to …라고 합니다." }
+  ]
+}

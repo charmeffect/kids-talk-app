@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 26,
+  "topic": "daily",
+  "title_en": "Lost toy",
+  "title_ko": "장난감을 잃어버렸어",
+  "intro_ko": "아이가 좋아하는 장난감 배를 잃어버려 함께 찾는 상황입니다. 미리 장난감 하나를 장화나 신발 속에 숨겨 두고, 손전등을 들고 집 안을 같이 찾아다니며 해 보세요.",
+  "expressions": [
+    { "en": "Where is my …?", "ko": "내 …는 어디 있어?", "tip": "물건을 찾을 때 쓰는 기본 질문이에요. … 자리에 toy, shoes, cup 등을 넣어요. Where is my가 이어져 '웨어리즈 마이'처럼 들립니다.", "who": "kid" },
+    { "en": "I can't find it.", "ko": "못 찾겠어.", "tip": "찾다가 안 보일 때 하는 말이에요. can't의 t는 거의 안 들리고 find it이 붙어 '아이 캔(ㅌ) 파인딧'처럼 들립니다.", "who": "both" },
+    { "en": "Let's look for it.", "ko": "같이 찾아보자.", "tip": "look for는 '찾다'예요. for it이 붙어 '렛츠 룩 포릿'처럼 부드럽게 이어집니다.", "who": "parent" },
+    { "en": "Found it!", "ko": "찾았다!", "tip": "I found it!을 줄인 말로, 찾는 순간 신나게 외치면 돼요. '파운딧!'처럼 붙여 말합니다.", "who": "both" },
+    { "en": "Keep looking.", "ko": "계속 찾아봐.", "tip": "keep + -ing는 '계속 ~해'라는 뜻이에요. Keep trying, Keep going처럼 응용할 수 있어요. '킵 루킹'처럼 p를 살짝만 발음합니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "What's wrong, buddy? You look worried.", "ko": "왜 그래? 걱정스러운 얼굴이네." },
+    { "who": "kid", "en": "Where is my toy ship?", "ko": "내 장난감 배 어디 있어?", "practice": true },
+    { "who": "parent", "en": "Your blue ship? Did you check your toy box?", "ko": "파란 배? 장난감 상자는 봤어?" },
+    { "who": "kid", "en": "Yes. I can't find it.", "ko": "응. 못 찾겠어.", "practice": true },
+    { "who": "parent", "en": "Don't worry. Let's look for it.", "ko": "걱정 마. 같이 찾아보자." },
+    { "who": "kid", "en": "Okay! Where do we look?", "ko": "좋아! 어디 찾아봐?" },
+    { "who": "parent", "en": "Where did you play with it last?", "ko": "마지막에 어디서 갖고 놀았어?" },
+    { "who": "kid", "en": "In the bathtub!", "ko": "욕조에서!" },
+    { "who": "parent", "en": "Let's check the bathroom first.", "ko": "욕실부터 가 보자." },
+    { "who": "kid", "en": "It's not here.", "ko": "여기 없어." },
+    { "who": "parent", "en": "Hmm. Keep looking. It has to be somewhere.", "ko": "음. 계속 찾아봐. 어딘가에 꼭 있을 거야." },
+    { "who": "kid", "en": "Is it under the bed?", "ko": "침대 밑에 있나?", "practice": true },
+    { "who": "parent", "en": "Good idea. Here, use this flashlight.", "ko": "좋은 생각이야. 자, 이 손전등 써." },
+    { "who": "kid", "en": "I see something!", "ko": "뭐가 보여!", "practice": true },
+    { "who": "parent", "en": "What is it? Is it your ship?", "ko": "뭔데? 네 배야?" },
+    { "who": "kid", "en": "No. It's a sock!", "ko": "아니. 양말이야!" },
+    { "who": "parent", "en": "Ha! Don't give up, sweetie.", "ko": "하하! 포기하지 마." },
+    { "who": "kid", "en": "What's in my boot?", "ko": "내 장화 안에 뭐가 있지?" },
+    { "who": "parent", "en": "I don't know. Take a look.", "ko": "글쎄. 한번 봐 봐." },
+    { "who": "kid", "en": "Found it! My ship!", "ko": "찾았다! 내 배!", "practice": true },
+    { "who": "parent", "en": "In your boot? How did it get in there?", "ko": "장화 속에? 어떻게 거기 들어갔지?" },
+    { "who": "kid", "en": "It sailed in there!", "ko": "배가 항해해서 들어갔나 봐!" },
+    { "who": "parent", "en": "Ha! Next time, let's put it back in the box.", "ko": "하하! 다음엔 상자에 다시 넣어 두자." },
+    { "who": "kid", "en": "Okay. I will!", "ko": "응. 그럴게!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What toy do you lose the most?", "ko": "제일 자주 잃어버리는 장난감은 뭐야?", "sample_en": "My little cars!", "sample_ko": "내 작은 자동차들!" },
+    { "en": "Where is a good place to keep your toys?", "ko": "장난감은 어디에 두면 좋을까?", "sample_en": "In the toy box.", "sample_ko": "장난감 상자에." },
+    { "en": "Can you hide a toy for me to find?", "ko": "나 찾으라고 장난감 하나 숨겨 볼래?", "sample_en": "Yes! Close your eyes!", "sample_ko": "응! 눈 감아!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a ship?", "prompt_ko": "배는 어느 거야?", "options": [ { "e": "🚢", "en": "ship" }, { "e": "🍌", "en": "banana" }, { "e": "🐱", "en": "cat" } ] },
+    { "prompt_en": "You can't find your toy. What do you say?", "prompt_ko": "장난감이 안 보여. 뭐라고 해?", "options": [ { "e": "😟", "en": "I can't find it." }, { "e": "😋", "en": "Yummy!" }, { "e": "👋", "en": "Bye-bye." } ] },
+    { "prompt_en": "You find your toy! What do you say?", "prompt_ko": "장난감을 찾았어! 뭐라고 해?", "options": [ { "e": "🎉", "en": "Found it!" }, { "e": "😴", "en": "Good night." }, { "e": "🙅", "en": "No, thanks." } ] },
+    { "prompt_en": "It's dark under the bed. What do you need?", "prompt_ko": "침대 밑이 깜깜해. 뭐가 필요해?", "options": [ { "e": "🔦", "en": "a flashlight" }, { "e": "🍦", "en": "ice cream" }, { "e": "⚽", "en": "a ball" } ] },
+    { "prompt_en": "Where was the toy ship?", "prompt_ko": "장난감 배는 어디 있었지?", "options": [ { "e": "👢", "en": "in the boot" }, { "e": "🍕", "en": "in the pizza" }, { "e": "🌳", "en": "in a tree" } ] },
+    { "prompt_en": "What did we find under the bed?", "prompt_ko": "침대 밑에서 뭘 찾았지?", "options": [ { "e": "🧦", "en": "a sock" }, { "e": "🐘", "en": "an elephant" }, { "e": "🎂", "en": "a cake" } ] },
+    { "prompt_en": "Your friend lost a toy. What do you say?", "prompt_ko": "친구가 장난감을 잃어버렸어. 뭐라고 해?", "options": [ { "e": "🔍", "en": "Let's look for it." }, { "e": "😂", "en": "Ha ha!" }, { "e": "🍪", "en": "Cookie!" } ] },
+    { "prompt_en": "You want your teddy bear. What do you ask?", "prompt_ko": "곰 인형이 필요해. 뭐라고 물어?", "options": [ { "e": "🧸", "en": "Where is my teddy?" }, { "e": "🎂", "en": "Happy birthday!" }, { "e": "🌧️", "en": "It's raining." } ] },
+    { "prompt_en": "Where do toys go after you play?", "prompt_ko": "다 놀고 나면 장난감은 어디에 넣어?", "options": [ { "e": "📦", "en": "the toy box" }, { "e": "🍳", "en": "the frying pan" }, { "e": "🚽", "en": "the toilet" } ] },
+    { "prompt_en": "Someone says, 'Keep looking!' What do you do?", "prompt_ko": "'계속 찾아봐!'라고 하면 어떻게 해?", "options": [ { "e": "👀", "en": "look more" }, { "e": "😴", "en": "go to sleep" }, { "e": "🍽️", "en": "eat dinner" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Let's look for it.'의 뜻은?", "options": ["같이 찾아보자.", "그거 같이 보자.", "그거 기다리자.", "그거 버리자."], "explain": "look for는 '~을 찾다'라는 뜻이고, look at은 '~을 보다'입니다." },
+    { "q": "아이가 장난감을 못 찾고 있을 때 '계속 찾아봐.'라고 하려면?", "options": ["Keep looking.", "Keep look.", "Keep to look.", "Keeping looking."], "explain": "keep 뒤에는 -ing 형태가 와서 Keep looking.이 됩니다." },
+    { "q": "물건을 찾은 순간 외치는 말로 가장 자연스러운 것은?", "options": ["Found it!", "Find it!", "Finding it!", "Founded it!"], "explain": "'찾았다!'는 I found it!을 줄인 Found it!이라고 합니다." },
+    { "q": "'내 신발 어디 있어?'를 영어로 하면?", "options": ["Where are my shoes?", "Where is my shoes?", "Where my shoes are?", "Where do my shoes?"], "explain": "shoes는 복수라서 Where is my …?가 아니라 Where are my shoes?가 됩니다." },
+    { "q": "빈칸에 알맞은 말은? — Where did you play with it ___?", "options": ["last", "late", "lastly", "later"], "explain": "'마지막으로'라는 뜻의 last가 문장 끝에 와서 '마지막에 어디서 갖고 놀았어?'가 됩니다." },
+    { "q": "빈칸에 알맞은 말은? — Hmm. Keep looking. It ___ to be somewhere.", "options": ["has", "have", "is", "must"], "explain": "has to be는 '틀림없이 ~에 있을 거야'라는 확신을 나타냅니다." },
+    { "q": "'I can't find it.'을 자연스럽게 말하면 어떻게 들릴까?", "options": ["아이 캔(ㅌ) 파인딧", "아이 캔트 파인드 잇", "아이 캔 파인드 잇트", "아이 칸 핀딧"], "explain": "can't의 t는 거의 들리지 않고 find it이 이어져 '파인딧'이 됩니다." },
+    { "q": "'Don't give up.'의 뜻은?", "options": ["포기하지 마.", "주지 마.", "올라가지 마.", "일어나지 마."], "explain": "give up은 '포기하다'라는 뜻으로, 아이를 격려할 때 자주 씁니다." },
+    { "q": "아이에게 '한번 봐 봐.'라고 할 때 알맞은 말은?", "options": ["Take a look.", "Take a see.", "Make a look.", "Do a look."], "explain": "'한번 보다'는 take a look이라고 합니다." },
+    { "q": "다 놀고 나서 '상자에 다시 넣어 두자.'라고 하려면?", "options": ["Let's put it back in the box.", "Let's put it again the box.", "Let's back it in the box.", "Let's return it at the box."], "explain": "put … back은 '제자리에 다시 두다'라는 뜻입니다." }
+  ]
+}
