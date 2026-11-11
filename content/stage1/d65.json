@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 65,
+  "topic": "space",
+  "title_en": "Shooting stars",
+  "title_ko": "별똥별",
+  "intro_ko": "밤에 나란히 누워 하늘을 보다가 별똥별을 발견하는 장면입니다. 불을 끄고 누워서 손전등 불빛을 천장에 휙 지나가게 하면 별똥별 놀이가 됩니다.",
+  "expressions": [
+    { "en": "Did you see that?", "ko": "방금 그거 봤어?", "tip": "순식간에 지나간 것을 보고 놀라서 묻는 말이에요. Did you가 이어져 '디쥬 씨 댓'처럼 들립니다.", "who": "both" },
+    { "en": "It went so fast!", "ko": "엄청 빨리 지나갔어!", "tip": "went는 go의 과거형이에요. went의 t가 약해져 '웬쏘 패스트'처럼 들립니다.", "who": "kid" },
+    { "en": "I missed it.", "ko": "못 봤어. / 놓쳤어.", "tip": "여기서 miss는 '그리워하다'가 아니라 '놓치다'예요. missed it이 이어져 '미스팃'처럼 들립니다.", "who": "both" },
+    { "en": "Keep watching.", "ko": "계속 지켜봐.", "tip": "Keep + ~ing는 '계속 ~해'라는 뜻이에요(Keep going, Keep trying). Keep의 p는 짧게 끊어 '킵 와칭'으로 말합니다.", "who": "parent" },
+    { "en": "In the blink of an eye.", "ko": "눈 깜짝할 사이에.", "tip": "아주 순식간에 일어난 일을 말할 때 쓰는 표현이에요. blink of an eye가 이어져 '블링커버나이'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Let's lie down and look at the sky.", "ko": "누워서 하늘 보자." },
+    { "who": "kid", "en": "So many stars!", "ko": "별이 엄청 많아!" },
+    { "who": "kid", "en": "Whoa! Did you see that?", "ko": "우와! 방금 그거 봤어?", "practice": true },
+    { "who": "parent", "en": "No, I missed it. What was it?", "ko": "아니, 못 봤어. 뭐였는데?" },
+    { "who": "kid", "en": "A light! It went so fast!", "ko": "불빛! 엄청 빨리 지나갔어!", "practice": true },
+    { "who": "parent", "en": "That was a shooting star!", "ko": "그건 별똥별이야!" },
+    { "who": "kid", "en": "A star fell down?", "ko": "별이 떨어진 거야?" },
+    { "who": "parent", "en": "Not really. It's not a real star.", "ko": "사실은 아니야. 진짜 별은 아니거든." },
+    { "who": "kid", "en": "Then what is it?", "ko": "그럼 뭐야?" },
+    { "who": "parent", "en": "It's a tiny rock from space.", "ko": "우주에서 온 아주 작은 돌이야." },
+    { "who": "kid", "en": "Why does it shine?", "ko": "왜 빛나?", "practice": true },
+    { "who": "parent", "en": "It hits our air very fast and gets hot. Then it glows.", "ko": "아주 빠르게 공기와 부딪혀서 뜨거워져. 그래서 빛이 나는 거야." },
+    { "who": "kid", "en": "Where did it go?", "ko": "어디로 갔어?" },
+    { "who": "parent", "en": "It burned up. It was gone in the blink of an eye.", "ko": "다 타 버렸어. 눈 깜짝할 사이에 사라졌지." },
+    { "who": "kid", "en": "I want to see another one!", "ko": "하나 더 보고 싶어!" },
+    { "who": "parent", "en": "Keep watching. Don't look away.", "ko": "계속 지켜봐. 한눈팔지 말고." },
+    { "who": "kid", "en": "I'm watching. I'm not blinking!", "ko": "보고 있어. 눈도 안 깜빡여!" },
+    { "who": "parent", "en": "There! Did you see that one?", "ko": "저기! 저건 봤어?" },
+    { "who": "kid", "en": "Yes! I saw it!", "ko": "응! 봤어!", "practice": true },
+    { "who": "parent", "en": "Good eyes! Some people make a wish on a shooting star.", "ko": "잘 봤네! 별똥별을 보고 소원을 비는 사람들도 있어." },
+    { "who": "kid", "en": "I wish for a spaceship!", "ko": "우주선 갖게 해 주세요!", "practice": true },
+    { "who": "parent", "en": "Great wish. Let's keep looking, buddy.", "ko": "멋진 소원이네. 우리 계속 보자." }
+  ],
+  "talkMore": [
+    { "en": "What do you want to wish for?", "ko": "무슨 소원을 빌고 싶어?", "sample_en": "A big rocket!", "sample_ko": "커다란 로켓!" },
+    { "en": "What else goes very fast?", "ko": "또 뭐가 아주 빠를까?", "sample_en": "A jet plane!", "sample_ko": "제트기!" },
+    { "en": "What do you see in the night sky?", "ko": "밤하늘에 뭐가 보여?", "sample_en": "The moon and lots of stars.", "sample_ko": "달이랑 별이 많이 보여." }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a shooting star?", "prompt_ko": "별똥별은 어느 거야?", "options": [ { "e": "🌠", "en": "shooting star" }, { "e": "🌈", "en": "rainbow" }, { "e": "☁️", "en": "cloud" } ] },
+    { "prompt_en": "When do we see stars?", "prompt_ko": "별은 언제 보여?", "options": [ { "e": "🌙", "en": "at night" }, { "e": "🍳", "en": "at breakfast" }, { "e": "🍱", "en": "at lunch" } ] },
+    { "prompt_en": "You see something amazing. What do you ask?", "prompt_ko": "놀라운 걸 봤어. 뭐라고 물어봐?", "options": [ { "e": "😲", "en": "Did you see that?" }, { "e": "😴", "en": "Are you sleepy?" }, { "e": "🍎", "en": "Is it an apple?" } ] },
+    { "prompt_en": "Is a shooting star fast or slow?", "prompt_ko": "별똥별은 빨라, 느려?", "options": [ { "e": "⚡", "en": "fast" }, { "e": "🐢", "en": "slow" }, { "e": "😴", "en": "sleepy" } ] },
+    { "prompt_en": "You didn't see it. What do you say?", "prompt_ko": "못 봤어. 뭐라고 해?", "options": [ { "e": "😢", "en": "I missed it." }, { "e": "🎉", "en": "I won!" }, { "e": "🍕", "en": "I ate it." } ] },
+    { "prompt_en": "What do you look with?", "prompt_ko": "뭐로 봐?", "options": [ { "e": "👀", "en": "my eyes" }, { "e": "👂", "en": "my ears" }, { "e": "👃", "en": "my nose" } ] },
+    { "prompt_en": "What do some people do on a shooting star?", "prompt_ko": "별똥별을 보면 사람들은 뭘 하기도 해?", "options": [ { "e": "🙏", "en": "make a wish" }, { "e": "🛁", "en": "take a bath" }, { "e": "🦷", "en": "brush teeth" } ] },
+    { "prompt_en": "Listen: 'Keep watching.' What do you do?", "prompt_ko": "'Keep watching.'을 들으면 뭘 해?", "options": [ { "e": "👀", "en": "keep looking" }, { "e": "🏃", "en": "run away" }, { "e": "🙈", "en": "cover my eyes" } ] },
+    { "prompt_en": "Where are the stars?", "prompt_ko": "별은 어디에 있어?", "options": [ { "e": "🌌", "en": "in the sky" }, { "e": "🌊", "en": "in the sea" }, { "e": "📦", "en": "in a box" } ] },
+    { "prompt_en": "Which one is hot and glows?", "prompt_ko": "뜨겁고 빛나는 건 어느 거야?", "options": [ { "e": "🔥", "en": "fire" }, { "e": "🧊", "en": "ice" }, { "e": "💧", "en": "water" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "별똥별 이야기에서 'I missed it.'의 뜻은?", "options": ["못 봤어.", "보고 싶었어.", "잃어버렸어.", "실수했어."], "explain": "여기서 miss는 '놓치다'로, 지나가는 것을 보지 못했다는 뜻입니다." },
+    { "q": "'In the blink of an eye'는 어떤 뜻일까?", "options": ["눈 깜짝할 사이에", "눈을 감은 채로", "바로 눈앞에서", "한눈파는 사이에"], "explain": "blink는 '눈을 깜빡이다'로, 아주 짧은 순간을 뜻하는 표현입니다." },
+    { "q": "'계속 지켜봐.'를 자연스러운 영어로 하면?", "options": ["Keep watching.", "Keep to watch.", "Keep watch it.", "Keep watched."], "explain": "'계속 ~하다'는 keep + ~ing이므로 Keep watching.입니다." },
+    { "q": "오늘 대본에서 별똥별의 정체는?", "options": ["우주에서 온 작은 돌", "하늘에서 떨어지는 진짜 별", "아주 빠른 비행기", "달에서 떨어진 조각"], "explain": "별똥별은 별이 아니라 우주의 작은 돌(a tiny rock from space)이 공기 속에서 타며 빛나는 것입니다." },
+    { "q": "빈칸에 알맞은 말은? — It ___ so fast!", "options": ["went", "go", "gone", "going"], "explain": "방금 지나간 일이므로 go의 과거형 went를 씁니다." },
+    { "q": "'missed it'을 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["미스팃", "미쓰드 잇", "미세딧", "미시드 이트"], "explain": "missed의 끝소리 t와 it이 이어져 '미스팃'처럼 들립니다." },
+    { "q": "오늘 대본에서 별똥별이 빛나는 이유는?", "options": ["공기와 빠르게 부딪혀 뜨거워져서", "햇빛을 반사해서", "스스로 빛을 내는 별이라서", "번개에 맞아서"], "explain": "It hits our air very fast and gets hot. 공기와 부딪혀 뜨거워지며 빛납니다." },
+    { "q": "'Did you see that?'의 뜻은?", "options": ["방금 그거 봤어?", "그거 보고 싶어?", "그거 볼 수 있어?", "그거 볼 거야?"], "explain": "방금 일어난 일을 봤는지 과거형 Did you …?로 묻습니다." },
+    { "q": "빈칸에 알맞은 말은? — Some people make a ___ on a shooting star.", "options": ["wish", "hope", "want", "dream"], "explain": "'소원을 빌다'는 make a wish입니다." },
+    { "q": "'Good eyes!'는 언제 쓰는 말일까?", "options": ["아이가 무언가를 잘 찾아냈을 때", "아이 눈이 예쁘다고 할 때", "눈을 감으라고 할 때", "졸려 보일 때"], "explain": "잘 보고 찾아냈을 때 '눈썰미 좋네!'라는 칭찬으로 씁니다." }
+  ]
+}

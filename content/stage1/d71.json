@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 71,
+  "topic": "daily",
+  "title_en": "Getting dressed",
+  "title_ko": "옷 입기",
+  "intro_ko": "추운 날 외출 전에 옷을 입는 상황입니다. 실제로 양말, 재킷, 모자, 장갑을 꺼내 놓고 대사에 맞춰 하나씩 입혀 보세요.",
+  "expressions": [
+    { "en": "What should I wear?", "ko": "뭐 입을까?", "tip": "무엇을 입을지 물을 때 쓰는 말이에요. should의 l은 소리 나지 않고 d가 I와 이어져 '왓 슈다이 웨어'처럼 들립니다.", "who": "kid" },
+    { "en": "It's cold outside.", "ko": "밖에 추워.", "tip": "날씨를 알려 주며 옷을 챙기게 할 때 써요. cold와 outside가 이어져 '콜다웃사이드'처럼 들립니다.", "who": "parent" },
+    { "en": "Zip up your jacket.", "ko": "재킷 지퍼 올려.", "tip": "지퍼를 끝까지 올리라는 말이에요. Zip up은 붙여서 '지펍'처럼 말합니다. 단추는 Button up이라고 해요.", "who": "parent" },
+    { "en": "I can do it myself.", "ko": "나 혼자 할 수 있어.", "tip": "아이가 스스로 하겠다고 할 때 쓰는 말이에요. do it은 '두잇'으로 잇고, myself를 힘주어 말합니다.", "who": "kid" },
+    { "en": "Bundle up.", "ko": "따뜻하게 껴입어.", "tip": "추운 날 나가기 전에 옷을 여러 겹 든든히 입으라는 뜻이에요. 두 단어를 이어 '번들럽'처럼 말합니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Time to get dressed, buddy. We're going outside.", "ko": "옷 입을 시간이야. 우리 밖에 나갈 거야." },
+    { "who": "kid", "en": "What should I wear?", "ko": "뭐 입을까?", "practice": true },
+    { "who": "parent", "en": "Look out the window. What do you see?", "ko": "창밖을 봐. 뭐가 보여?" },
+    { "who": "kid", "en": "The trees are shaking!", "ko": "나무가 흔들려!" },
+    { "who": "parent", "en": "Yes, it's windy. It's cold outside. You need warm clothes.", "ko": "맞아, 바람이 부네. 밖에 추워. 따뜻한 옷을 입어야 해." },
+    { "who": "kid", "en": "Can I wear my rocket shirt?", "ko": "로켓 티셔츠 입어도 돼?" },
+    { "who": "parent", "en": "Sure, but put a sweater on top.", "ko": "그럼, 대신 그 위에 스웨터를 입자." },
+    { "who": "kid", "en": "Why? I'm not cold.", "ko": "왜? 나 안 추운데." },
+    { "who": "parent", "en": "You're warm now because we're inside.", "ko": "지금은 집 안이라서 따뜻한 거야." },
+    { "who": "kid", "en": "Okay. Where are my socks?", "ko": "알았어. 내 양말 어디 있어?" },
+    { "who": "parent", "en": "Here they are. One for each foot.", "ko": "여기 있어. 한 발에 하나씩." },
+    { "who": "kid", "en": "I can do it myself.", "ko": "나 혼자 할 수 있어.", "practice": true },
+    { "who": "parent", "en": "Good job! Now zip up your jacket.", "ko": "잘했어! 이제 재킷 지퍼 올려." },
+    { "who": "kid", "en": "It's stuck! Help me, please.", "ko": "안 올라가! 도와주세요.", "practice": true },
+    { "who": "parent", "en": "Let me start it. Now you pull it up.", "ko": "내가 끼워 줄게. 이제 네가 위로 올려 봐." },
+    { "who": "kid", "en": "Zip! I did it!", "ko": "지익! 내가 했어!", "practice": true },
+    { "who": "parent", "en": "Nice! Don't forget your hat and mittens.", "ko": "좋아! 모자랑 장갑도 잊지 마." },
+    { "who": "kid", "en": "Why do I need a hat?", "ko": "모자는 왜 써야 해?" },
+    { "who": "parent", "en": "It keeps your head and ears warm.", "ko": "머리랑 귀를 따뜻하게 해 주거든." },
+    { "who": "kid", "en": "I look like a snowman!", "ko": "나 눈사람 같아!" },
+    { "who": "parent", "en": "Ha! You do. Bundle up. It's really cold today.", "ko": "하하! 정말 그러네. 따뜻하게 껴입어. 오늘 진짜 추워." },
+    { "who": "kid", "en": "I'm ready! Let's go!", "ko": "준비 끝! 가자!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What do you want to wear tomorrow?", "ko": "내일은 뭐 입고 싶어?", "sample_en": "My rocket shirt!", "sample_ko": "로켓 티셔츠!" },
+    { "en": "What do you wear when it's hot?", "ko": "더울 때는 뭘 입어?", "sample_en": "Shorts and a T-shirt.", "sample_ko": "반바지랑 티셔츠." },
+    { "en": "What can you put on by yourself?", "ko": "혼자서 입을 수 있는 건 뭐야?", "sample_en": "My socks and shoes.", "sample_ko": "양말이랑 신발." }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "It's cold outside. Which one do you need?", "prompt_ko": "밖이 추워. 뭐가 필요할까?", "options": [ { "e": "🧣", "en": "a scarf" }, { "e": "🩳", "en": "shorts" }, { "e": "🕶️", "en": "sunglasses" } ] },
+    { "prompt_en": "Which one goes on your feet?", "prompt_ko": "발에 신는 건 어느 거야?", "options": [ { "e": "🧦", "en": "socks" }, { "e": "🧢", "en": "a cap" }, { "e": "🧤", "en": "gloves" } ] },
+    { "prompt_en": "Which one goes on your head?", "prompt_ko": "머리에 쓰는 건 어느 거야?", "options": [ { "e": "🧢", "en": "a cap" }, { "e": "🧦", "en": "socks" }, { "e": "👖", "en": "pants" } ] },
+    { "prompt_en": "You don't know what to put on. What do you say?", "prompt_ko": "뭘 입을지 모르겠어. 뭐라고 해?", "options": [ { "e": "🤔", "en": "What should I wear?" }, { "e": "😴", "en": "Good night." }, { "e": "🍎", "en": "An apple, please." } ] },
+    { "prompt_en": "You want to do it with no help. What do you say?", "prompt_ko": "도움 없이 혼자 하고 싶어. 뭐라고 해?", "options": [ { "e": "💪", "en": "I can do it myself." }, { "e": "😢", "en": "I'm sad." }, { "e": "👋", "en": "Bye-bye." } ] },
+    { "prompt_en": "Which one keeps your hands warm?", "prompt_ko": "손을 따뜻하게 해 주는 건 어느 거야?", "options": [ { "e": "🧤", "en": "gloves" }, { "e": "👟", "en": "shoes" }, { "e": "👓", "en": "glasses" } ] },
+    { "prompt_en": "Listen: 'Zip up your jacket.' Which one do you zip up?", "prompt_ko": "잘 들어 봐: 'Zip up your jacket.' 지퍼를 올리는 건 어느 거야?", "options": [ { "e": "🧥", "en": "a jacket" }, { "e": "🧦", "en": "socks" }, { "e": "🥄", "en": "a spoon" } ] },
+    { "prompt_en": "Which one is cold?", "prompt_ko": "차가운 건 어느 거야?", "options": [ { "e": "⛄", "en": "a snowman" }, { "e": "🔥", "en": "fire" }, { "e": "☀️", "en": "the sun" } ] },
+    { "prompt_en": "Your zipper is stuck. What do you say?", "prompt_ko": "지퍼가 안 올라가. 뭐라고 해?", "options": [ { "e": "🙏", "en": "Help me, please." }, { "e": "😋", "en": "Yummy!" }, { "e": "🎂", "en": "Happy birthday!" } ] },
+    { "prompt_en": "You are all dressed. What do you say?", "prompt_ko": "옷을 다 입었어. 뭐라고 해?", "options": [ { "e": "😄", "en": "I'm ready!" }, { "e": "😴", "en": "I'm sleepy." }, { "e": "🤒", "en": "I'm sick." } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Bundle up.'의 뜻은?", "options": ["따뜻하게 껴입어.", "짐을 싸.", "이불을 개.", "빨리 뛰어."], "explain": "추운 날 옷을 여러 겹 든든하게 입으라는 뜻입니다." },
+    { "q": "'재킷 지퍼 올려.'를 영어로 자연스럽게 말하면?", "options": ["Zip up your jacket.", "Zip on your jacket.", "Tie up your jacket.", "Lock your jacket."], "explain": "지퍼를 올려 잠그는 것은 zip up이라고 합니다." },
+    { "q": "빈칸에 알맞은 말은? — Sure, but put a sweater ___ top.", "options": ["on", "in", "at", "to"], "explain": "'그 위에'는 on top이라고 합니다." },
+    { "q": "'I can do it myself.'의 뜻은?", "options": ["나 혼자 할 수 있어.", "나 혼자 있고 싶어.", "내가 벌써 다 했어.", "나 좀 도와줘."], "explain": "myself는 '내 힘으로, 혼자서'라는 뜻을 더해 줍니다." },
+    { "q": "'What should I'를 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["왓 슈다이", "왓 슐드 아이", "왓 쇼울드 아이", "와츄 아이"], "explain": "should의 l은 소리 나지 않고 d가 I와 이어져 '슈다이'처럼 들립니다." },
+    { "q": "'밖에 추워.'를 영어로 말하면?", "options": ["It's cold outside.", "It's cold out of.", "It's cool inside.", "The outside is colding."], "explain": "날씨는 It's로 시작해 It's cold outside.라고 말합니다." },
+    { "q": "'Bundle up.'을 쓰기에 가장 알맞은 상황은?", "options": ["추운 날 밖에 나가기 전에", "더운 날 수영장에서", "자기 전에 양치할 때", "밥 먹기 전에 손 씻을 때"], "explain": "Bundle up은 추위에 대비해 옷을 든든히 입으라고 할 때 씁니다." },
+    { "q": "빈칸에 알맞은 말은? — It ___ your head and ears warm.", "options": ["keeps", "holds", "stays", "puts"], "explain": "keep + 대상 + warm은 '~을 따뜻하게 유지해 주다'라는 뜻입니다." },
+    { "q": "빈칸에 알맞은 말은? — Time to get ___, buddy.", "options": ["dressed", "dress", "wearing", "clothes"], "explain": "'옷을 입다'는 get dressed라고 합니다." },
+    { "q": "빈칸에 알맞은 말은? — You're warm now because we're ___.", "options": ["inside", "outside", "upside", "beside"], "explain": "'실내에 있다'는 We're inside.라고 합니다." }
+  ]
+}

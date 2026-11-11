@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 91,
+  "topic": "daily",
+  "title_en": "Picnic in the park",
+  "title_ko": "공원에서 소풍",
+  "intro_ko": "공원 나무 아래에서 도시락을 먹는 소풍 놀이입니다. 거실 바닥에 담요나 큰 수건을 직접 펴고, 간식을 바구니나 가방에 담아 두고 꺼내 먹으면서 해 보세요.",
+  "expressions": [
+    { "en": "Let's have a picnic.", "ko": "우리 소풍 가자. / 밖에서 도시락 먹자.", "tip": "picnic은 '밖에서 먹는 식사'라서 go보다 have를 써요. have a가 이어져 '해버 피크닉'처럼 들립니다.", "who": "both" },
+    { "en": "Spread out the blanket.", "ko": "담요(돗자리)를 펴 줘.", "tip": "접힌 것을 넓게 펼칠 때 써요. Spread out이 이어져 '스프레다웃'처럼 들립니다.", "who": "parent" },
+    { "en": "Do you want some?", "ko": "좀 먹을래?", "tip": "먹을 것을 나눠 줄 때 쓰는 말이에요. want의 t는 거의 들리지 않아 '두유 원썸?'처럼 말합니다.", "who": "both" },
+    { "en": "Yes, please!", "ko": "네, 주세요!", "tip": "무언가를 권할 때 'Yes'만 하지 않고 please를 붙이게 해 주세요. 싫을 때는 'No, thank you.'입니다.", "who": "kid" },
+    { "en": "Dig in.", "ko": "자, 어서 먹자. / 맛있게 먹어.", "tip": "음식을 차려 놓고 '이제 먹어도 돼'라고 편하게 말하는 표현이에요. '디긴'처럼 붙여 말합니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "It's so sunny today. Let's have a picnic.", "ko": "오늘 날씨 정말 좋다. 우리 소풍 가자." },
+    { "who": "kid", "en": "Yay! Where?", "ko": "야호! 어디서?" },
+    { "who": "parent", "en": "Right here, under this big tree.", "ko": "바로 여기, 이 큰 나무 아래에서." },
+    { "who": "kid", "en": "Can I help?", "ko": "내가 도와줄까?", "practice": true },
+    { "who": "parent", "en": "Sure. Spread out the blanket.", "ko": "그럼. 담요 좀 펴 줘." },
+    { "who": "kid", "en": "Like this?", "ko": "이렇게?" },
+    { "who": "parent", "en": "Perfect. Now sit down and take off your shoes.", "ko": "아주 좋아. 이제 앉아서 신발 벗자." },
+    { "who": "kid", "en": "What's in the basket?", "ko": "바구니에 뭐 들었어?", "practice": true },
+    { "who": "parent", "en": "Sandwiches, grapes, and juice.", "ko": "샌드위치랑 포도랑 주스." },
+    { "who": "kid", "en": "I'm so hungry!", "ko": "나 너무 배고파!" },
+    { "who": "parent", "en": "Me too. Okay, dig in.", "ko": "나도. 자, 어서 먹자." },
+    { "who": "kid", "en": "Mmm, it's yummy!", "ko": "음, 맛있다!" },
+    { "who": "parent", "en": "I have some grapes. Do you want some?", "ko": "여기 포도 있어. 좀 먹을래?" },
+    { "who": "kid", "en": "Yes, please!", "ko": "네, 주세요!", "practice": true },
+    { "who": "parent", "en": "Here you go.", "ko": "자, 여기." },
+    { "who": "kid", "en": "Look, an ant!", "ko": "봐, 개미다!" },
+    { "who": "parent", "en": "I think it wants a picnic, too.", "ko": "개미도 소풍 왔나 봐." },
+    { "who": "kid", "en": "Why do ants like our food?", "ko": "개미는 왜 우리 음식을 좋아해?" },
+    { "who": "parent", "en": "They smell something sweet and carry it home.", "ko": "달콤한 냄새를 맡고 집으로 가져가는 거야." },
+    { "who": "kid", "en": "This is my sandwich. Do you want some?", "ko": "이건 내 샌드위치야. 좀 먹을래?", "practice": true },
+    { "who": "parent", "en": "Yes, please! Thank you, buddy.", "ko": "응, 줘! 고마워." },
+    { "who": "kid", "en": "Let's have a picnic again tomorrow!", "ko": "내일 또 소풍 가자!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What do you want to bring to a picnic?", "ko": "소풍 갈 때 뭘 가져가고 싶어?", "sample_en": "Juice and cookies!", "sample_ko": "주스랑 쿠키!" },
+    { "en": "Where do you want to have a picnic?", "ko": "어디에서 소풍하고 싶어?", "sample_en": "At the beach!", "sample_ko": "바닷가에서!" },
+    { "en": "What can we do after we eat?", "ko": "다 먹고 나서 뭐 하고 놀까?", "sample_en": "Let's play ball!", "sample_ko": "공놀이하자!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a picnic basket?", "prompt_ko": "소풍 바구니는 어느 거야?", "options": [ { "e": "🧺", "en": "basket" }, { "e": "🚗", "en": "car" }, { "e": "🎩", "en": "hat" } ] },
+    { "prompt_en": "Someone asks, 'Do you want some?' You want it. What do you say?", "prompt_ko": "'좀 먹을래?'라고 물었어. 먹고 싶으면 뭐라고 해?", "options": [ { "e": "😋", "en": "Yes, please!" }, { "e": "😴", "en": "Good night." }, { "e": "👋", "en": "Bye-bye." } ] },
+    { "prompt_en": "What do we take off on the blanket?", "prompt_ko": "담요 위에서는 뭘 벗지?", "options": [ { "e": "👟", "en": "shoes" }, { "e": "🌳", "en": "a tree" }, { "e": "🚗", "en": "a car" } ] },
+    { "prompt_en": "Where did we have our picnic?", "prompt_ko": "우리는 어디에서 소풍을 했지?", "options": [ { "e": "🌳", "en": "under a tree" }, { "e": "🛁", "en": "in the bath" }, { "e": "🚌", "en": "on a bus" } ] },
+    { "prompt_en": "Which one is a sandwich?", "prompt_ko": "샌드위치는 어느 거야?", "options": [ { "e": "🥪", "en": "sandwich" }, { "e": "🍦", "en": "ice cream" }, { "e": "🥕", "en": "carrot" } ] },
+    { "prompt_en": "Who came to our picnic?", "prompt_ko": "우리 소풍에 누가 찾아왔지?", "options": [ { "e": "🐜", "en": "an ant" }, { "e": "🐘", "en": "an elephant" }, { "e": "🐳", "en": "a whale" } ] },
+    { "prompt_en": "You want to share your snack. What do you say?", "prompt_ko": "간식을 나눠 주고 싶어. 뭐라고 해?", "options": [ { "e": "🤲", "en": "Do you want some?" }, { "e": "🏃", "en": "Hurry up!" }, { "e": "😢", "en": "I feel sad." } ] },
+    { "prompt_en": "Which one are grapes?", "prompt_ko": "포도는 어느 거야?", "options": [ { "e": "🍇", "en": "grapes" }, { "e": "🍌", "en": "banana" }, { "e": "🍉", "en": "watermelon" } ] },
+    { "prompt_en": "Which day is good for a picnic?", "prompt_ko": "소풍 가기 좋은 날은 언제야?", "options": [ { "e": "☀️", "en": "a sunny day" }, { "e": "🌧️", "en": "a rainy day" }, { "e": "⛄", "en": "a snowy day" } ] },
+    { "prompt_en": "What do ants like?", "prompt_ko": "개미는 뭘 좋아해?", "options": [ { "e": "🍪", "en": "sweet food" }, { "e": "📚", "en": "books" }, { "e": "🧦", "en": "socks" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Dig in.'은 어떤 뜻일까?", "options": ["어서 먹자.", "땅을 파 보자.", "안으로 들어가자.", "조용히 해."], "explain": "차려 놓은 음식을 '이제 먹어도 돼, 맛있게 먹어'라고 권하는 편한 표현입니다." },
+    { "q": "'우리 소풍 가자'를 가장 자연스럽게 말하면?", "options": ["Let's have a picnic.", "Let's do a picnic.", "Let's play a picnic.", "Let's make a picnic."], "explain": "picnic은 식사처럼 have와 함께 써서 have a picnic이라고 합니다." },
+    { "q": "빈칸에 알맞은 말은? — Spread ___ the blanket.", "options": ["out", "up", "off", "away"], "explain": "접힌 것을 넓게 펼칠 때는 spread out을 씁니다." },
+    { "q": "아이에게 포도를 권하며 '좀 먹을래?'라고 할 때 알맞은 말은?", "options": ["Do you want some?", "Do you want it some?", "Are you want some?", "Do you like some?"], "explain": "무언가를 권할 때는 Do you want some?이 가장 자연스럽습니다." },
+    { "q": "'Do you want some?'에 먹기 싫을 때 예의 바른 대답은?", "options": ["No, thank you.", "No, please.", "I don't.", "Not me."], "explain": "받을 때는 Yes, please. 거절할 때는 No, thank you.라고 합니다." },
+    { "q": "'Spread out'을 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["스프레다웃", "스프레드 아우트", "스프리드 오우트", "스프레 아웃트"], "explain": "spread의 d가 out의 모음과 이어져 '스프레다웃'처럼 들립니다." },
+    { "q": "'Dig in.'을 쓰기에 가장 알맞은 때는?", "options": ["음식을 다 차리고 먹기 시작할 때", "다 먹고 자리를 치울 때", "아이가 음식을 흘렸을 때", "손을 씻으라고 할 때"], "explain": "Dig in.은 식사를 시작하면서 '자, 먹자'라고 할 때 씁니다." },
+    { "q": "빈칸에 알맞은 말은? — Now sit down and take ___ your shoes.", "options": ["off", "out", "down", "away"], "explain": "신발이나 옷을 벗을 때는 take off, 신거나 입을 때는 put on을 씁니다." },
+    { "q": "'Here you go.'는 언제 쓰는 말일까?", "options": ["물건을 건네줄 때", "출발할 때", "헤어질 때", "길을 물을 때"], "explain": "Here you go.는 무언가를 건네며 '자, 여기'라고 하는 말입니다." },
+    { "q": "빈칸에 알맞은 말은? — They smell something sweet and ___ it home.", "options": ["carry", "catch", "hold", "send"], "explain": "carry는 '들어서 나르다'라는 뜻으로, 개미가 먹이를 집으로 가져가는 모습에 딱 맞습니다." }
+  ]
+}

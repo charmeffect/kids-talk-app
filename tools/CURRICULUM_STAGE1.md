@@ -1,4 +1,4 @@
-# Stage 1 curriculum (age 5) — months 1–3, days 1–60
+# Stage 1 curriculum (age 5) — months 1–6, days 1–120
 
 Each row: day | topic | title | core expressions (must appear in the script) | parent idiom (5th expression).
 Science facts must be true and simple. Expressions may be adjusted slightly to fit the story (e.g. "I'm sad" → "I feel sad"), but keep the core meaning.
@@ -74,3 +74,77 @@ Science facts must be true and simple. Expressions may be adjusted slightly to f
 | 58 | ships | Rowing a boat | Row, row! / Pull together. / We're going in circles! / Let's work together. | Work together. |
 | 59 | planes | Block airplane | What's missing? / It needs wings. / Good idea! / Let's fly it. | Good thinking! |
 | 60 | space | Our space trip (review story) | Where shall we go? / Pack your bag. / Let's go to the moon! / See you later! | See you later, alligator. |
+
+Months 4–6 use slightly longer sentences than months 1–3 and do not repeat earlier core expressions. Day files from day 100 use three digits (`d100.json`).
+
+## Month 4
+| Day | Topic | Title | Core expressions | Parent idiom |
+|---|---|---|---|---|
+| 61 | daily | Good morning | Good morning! / I'm still sleepy. / Did you sleep well? / Five more minutes! | Rise and shine! |
+| 62 | science | Day and night | Where did the sun go? / It's getting dark. / The Earth is spinning. / Is it morning there? | Believe it or not. |
+| 63 | ships | Tugboat | It's small but strong. / Push harder! / It's pulling the big ship. / Can you help me? | Give me a hand. |
+| 64 | planes | Seaplane | It lands on water! / Is it a boat or a plane? / It's both! / What a splash! | Guess again. |
+| 65 | space | Shooting stars | Did you see that? / It went so fast! / I missed it. / Keep watching. | In the blink of an eye. |
+| 66 | daily | Brushing teeth | Time to brush your teeth. / Open wide. / Spit it out. / Show me your teeth. | Squeaky clean. |
+| 67 | science | Ramps and rolling | Let it roll. / Which one is faster? / It rolled down! / Make it higher. | You're on a roll. |
+| 68 | ships | Cargo ship | What's inside? / It's full of boxes. / It's so heavy. / Stack them up. | Load it up. |
+| 69 | planes | Control tower | Can you hear me? / You're clear to land. / Wait your turn. / Go ahead. | Loud and clear. |
+| 70 | space | Earth from space | Earth is round. / It looks like a blue ball. / Where do we live? / Right here! | Home sweet home. |
+| 71 | daily | Getting dressed | What should I wear? / It's cold outside. / Zip up your jacket. / I can do it myself. | Bundle up. |
+| 72 | science | Wind | It's so windy! / Where does the wind come from? / I can feel it. / My hat blew away! | Hold on to your hat. |
+| 73 | ships | Anchor | Drop the anchor. / Stay right here. / Don't move. / Pull it up! | Stay put. |
+| 74 | planes | Parachute | Jump! / It's opening! / I'm floating down. / Soft landing! | Nice and slow. |
+| 75 | space | Spacesuit | Put on your helmet. / Can you breathe? / There's no air in space. / It keeps me safe. | Suit up. |
+| 76 | daily | Helping in the kitchen | Can I help? / Stir it slowly. / Crack the egg. / Don't spill it. | No big deal. |
+| 77 | science | Echo | Shout hello! / I heard it! / It came back! / Say it quietly. | Listen up. |
+| 78 | ships | Icebreaker ship | The sea is frozen. / It's freezing! / It cracked! / Make a path. | Break the ice. |
+| 79 | planes | Rescue helicopter | Someone needs help. / We're coming! / Grab the rope. / I've got you. | To the rescue! |
+| 80 | space | Gravity | Jump as high as you can. / Why do I come down? / Gravity pulls you down. / Everything falls down. | What goes up must come down. |
+
+## Month 5
+| Day | Topic | Title | Core expressions | Parent idiom |
+|---|---|---|---|---|
+| 81 | daily | Blanket fort | Let's build a fort. / Come inside. / It's cozy in here. / Don't knock it down. | Make yourself at home. |
+| 82 | science | Seasons | What season is it? / The leaves are falling. / It's getting colder. / I like summer best. | Before you know it. |
+| 83 | ships | Life jacket | Put on your life jacket. / Is it too tight? / It fits just right. / Stay close to me. | Better safe than sorry. |
+| 84 | planes | Packing for a trip | Don't forget your …. / Did you pack everything? / It won't fit. / Close the suitcase. | Good to go. |
+| 85 | space | Star pictures (constellations) | Connect the stars. / It looks like a …. / Can you find it? / Use your imagination. | Out of this world. |
+| 86 | daily | Sharing with a friend | Let's share. / Can I borrow it? / Give it back, please. / I'm sorry. | Sharing is caring. |
+| 87 | science | Heavy and light | Which one is heavier? / Lift it up. / I can't lift it! / They're the same. | Light as a feather. |
+| 88 | ships | Captain pretend | Aye aye, captain! / Full speed ahead! / Steer the ship. / I see land! | Smooth sailing. |
+| 89 | planes | Flight attendant pretend | What would you like? / I'd like …, please. / Anything else? / That's all, thank you. | You're all set. |
+| 90 | space | Satellites | It's not a star. / It goes around the Earth. / What does it do? / It's taking pictures. | Say cheese! |
+| 91 | daily | Picnic in the park | Let's have a picnic. / Spread out the blanket. / Do you want some? / Yes, please! | Dig in. |
+| 92 | science | Seeds inside fruit | Cut it open. / Look inside. / So many seeds! / Let's plant one. | Wait and see. |
+| 93 | ships | Drawbridge | The bridge is opening! / Here comes the boat. / Wait behind the line. / It's closing again. | After you. |
+| 94 | planes | Finding our seats | Where's our seat? / It's by the window. / Excuse me. / Sit down, please. | Scoot over. |
+| 95 | space | Saturn's rings | Saturn has rings. / What are they made of? / They're made of ice. / I want to see it. | One of a kind. |
+| 96 | daily | Oops, a spill | Uh-oh! / I spilled it. / It was an accident. / Wipe it up. | No worries. |
+| 97 | science | Flashlight and light | Turn off the lights. / Turn on the flashlight. / Shine it over here. / I can see it now. | Light it up. |
+| 98 | ships | Storm at sea | A storm is coming. / The boat is rocking. / I feel dizzy. / It's over now. | Ride it out. |
+| 99 | planes | Toy drone | Push the button. / Make it go higher. / Bring it back. / It crashed! | My bad. |
+| 100 | space | Day 100 party on the space station | Can you count to one hundred? / I'm so proud of you. / Let's celebrate! / Give me a high five! | Time flies. |
+
+## Month 6
+| Day | Topic | Title | Core expressions | Parent idiom |
+|---|---|---|---|---|
+| 101 | daily | Video call with Grandma | Say hello to Grandma. / Can you see me? / I miss you. / Talk to you later. | Long time no see. |
+| 102 | science | Tadpoles and frogs | It's a baby frog. / It has a tail. / Where are its legs? / It's changing! | Little by little. |
+| 103 | ships | Message in a bottle | Let's write a message. / Put it in the bottle. / Throw it far! / Who will find it? | You never know. |
+| 104 | planes | White lines in the sky | What's that white line? / A plane made it. / It's fading away. / There's another one! | Out of sight. |
+| 105 | space | Why the moon looks different | The moon looks different. / Where's the other half? / It's still there. / It's a full moon! | Once in a blue moon. |
+| 106 | daily | Doctor pretend | Say "ahh". / Take a deep breath. / Does it hurt? / You're very brave. | Good as new. |
+| 107 | science | Static balloon | Rub it on your hair. / My hair is standing up! / It tickles! / It's sticking to the wall. | Like magic. |
+| 108 | ships | Scuba diver | Put on your mask. / Jump in! / Follow me. / Look at all the fish! | Dive right in. |
+| 109 | planes | Picking up our bags | Where's our bag? / Is that ours? / That's not ours. / There it is! | At last! |
+| 110 | space | Mars rover | Drive the rover. / Go over the rocks. / Pick up a rock. / What did you find? | Slow and steady. |
+| 111 | daily | Board game | Roll the dice. / It's your turn. / I won! / Good game! | Better luck next time. |
+| 112 | science | Balloon rocket | Blow up the balloon. / Pinch it tight. / It zoomed away! / Where did it go? | Out of breath. |
+| 113 | ships | Speedboat | Start the engine. / We're bouncing on the waves! / I'm getting wet! / That was a fun ride! | Hold your horses. |
+| 114 | planes | Air show | They're flying together! / They're doing a loop. / They made a heart! / Take a picture. | What a sight! |
+| 115 | space | Comets | It has a long tail. / It's made of ice and dust. / When will it come back? / A long, long time. | Worth the wait. |
+| 116 | daily | Hide-and-seek | Count to ten. / Ready or not, here I come! / Where are you hiding? / I found you! | Gotcha! |
+| 117 | science | Night animals | Who's awake at night? / Owls can see in the dark. / What sound does it make? / Be very still. | Night owl. |
+| 118 | ships | Sandcastle and the tide | The water is coming in. / Build it higher. / It washed away! / Let's build another one. | Start over. |
+| 119 | planes | Flying home | We're going home. / Did you have fun? / I had a great time. / I'm so tired. | Out like a light. |
+| 120 | space | Mission complete (review story) | Mission complete! / What was your favorite part? / I liked the … best. / Let's do it again soon. | Over the moon. |

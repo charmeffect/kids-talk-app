@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 118,
+  "topic": "ships",
+  "title_en": "Sandcastle and the tide",
+  "title_ko": "모래성과 밀물",
+  "intro_ko": "바닷가에서 모래성을 쌓다가 밀물이 들어오는 상황입니다. 집에서는 블록이나 컵으로 성을 쌓고, 파란 수건을 파도 삼아 밀어서 무너뜨린 뒤 다시 쌓아 보세요.",
+  "expressions": [
+    { "en": "The water is coming in.", "ko": "물이 들어오고 있어.", "tip": "밀물이 밀려올 때 쓰는 말이에요. 반대로 빠져나갈 때는 going out이라고 해요. coming in은 '커미닌'처럼 이어집니다.", "who": "both" },
+    { "en": "Build it higher.", "ko": "더 높이 쌓아.", "tip": "블록 놀이에도 그대로 쓸 수 있어요. Build it이 이어져 '빌딧 하이어'처럼 들립니다.", "who": "both" },
+    { "en": "It washed away!", "ko": "물에 쓸려 갔어!", "tip": "물에 떠내려가거나 씻겨 없어졌을 때 써요. washed away는 '워시터웨이'처럼 이어집니다.", "who": "kid" },
+    { "en": "Let's build another one.", "ko": "하나 더 만들자.", "tip": "another one은 '하나 더, 다른 것 하나'예요. '어나더원'처럼 한 덩어리로 말합니다.", "who": "both" },
+    { "en": "Start over.", "ko": "처음부터 다시 하자.", "tip": "망가지거나 틀렸을 때 '괜찮아, 다시 하면 돼'라는 뜻으로 We can start over.라고 말해 주세요. '스타로우버'처럼 이어집니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "What a nice sandcastle! Is that a tower?", "ko": "모래성 멋지다! 그건 탑이야?" },
+    { "who": "kid", "en": "Yes! And this is the gate.", "ko": "응! 그리고 이건 문이야." },
+    { "who": "parent", "en": "Uh-oh. Look! The water is coming in.", "ko": "어, 저것 봐! 물이 들어오고 있어." },
+    { "who": "kid", "en": "Why is the water coming in?", "ko": "물이 왜 들어와?", "practice": true },
+    { "who": "parent", "en": "It's the tide. The sea comes up and goes back down.", "ko": "밀물이라서 그래. 바닷물은 올라왔다가 다시 내려가거든." },
+    { "who": "kid", "en": "Every day?", "ko": "매일?" },
+    { "who": "parent", "en": "Yes, about twice a day. The moon pulls on the sea.", "ko": "응, 하루에 두 번쯤. 달이 바닷물을 끌어당기거든." },
+    { "who": "kid", "en": "The moon? Wow!", "ko": "달이? 우와!" },
+    { "who": "parent", "en": "Quick! Let's make a wall. Build it higher!", "ko": "빨리! 벽을 만들자. 더 높이 쌓아!" },
+    { "who": "kid", "en": "Build it higher! More sand!", "ko": "더 높이 쌓아! 모래 더!", "practice": true },
+    { "who": "parent", "en": "Here comes a big wave. Watch out!", "ko": "큰 파도가 온다. 조심해!" },
+    { "who": "kid", "en": "Oh no! It washed away!", "ko": "안 돼! 다 쓸려 갔어!", "practice": true },
+    { "who": "parent", "en": "It's okay, buddy. We can start over.", "ko": "괜찮아. 처음부터 다시 하면 돼." },
+    { "who": "kid", "en": "Where should we build it?", "ko": "어디에 만들까?" },
+    { "who": "parent", "en": "Farther back, where the sand is dry.", "ko": "더 뒤쪽, 모래가 말라 있는 곳에." },
+    { "who": "kid", "en": "Okay! Let's build another one.", "ko": "좋아! 하나 더 만들자.", "practice": true },
+    { "who": "parent", "en": "Good idea. You dig, and I'll fill the bucket.", "ko": "좋은 생각이야. 너는 파, 나는 양동이를 채울게." },
+    { "who": "kid", "en": "Can the water get us here?", "ko": "물이 여기까지 올 수 있어?" },
+    { "who": "parent", "en": "Not for a while. We're far from the waves now.", "ko": "한동안은 안 와. 이제 파도에서 멀리 있으니까." },
+    { "who": "kid", "en": "Look! My tower is taller now!", "ko": "봐! 내 탑이 아까보다 더 높아!", "practice": true },
+    { "who": "parent", "en": "It's even better than the first one!", "ko": "처음 것보다 훨씬 멋진걸!" },
+    { "who": "kid", "en": "Bye-bye, waves! You can't catch us!", "ko": "파도야, 안녕! 우리 못 잡지!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What do you want to build with sand?", "ko": "모래로 뭘 만들고 싶어?", "sample_en": "A big ship!", "sample_ko": "커다란 배!" },
+    { "en": "What can we do to stop the water?", "ko": "물을 막으려면 어떻게 하면 될까?", "sample_en": "Make a big wall!", "sample_ko": "큰 벽을 만들어!" },
+    { "en": "What do you like to do at the beach?", "ko": "바닷가에서 뭐 하는 게 좋아?", "sample_en": "I like to dig.", "sample_ko": "모래 파는 게 좋아." }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "What do we build with sand at the beach?", "prompt_ko": "바닷가에서 모래로 뭘 만들어?", "options": [ { "e": "🏰", "en": "a castle" }, { "e": "🚀", "en": "a rocket" }, { "e": "🚂", "en": "a train" } ] },
+    { "prompt_en": "What pulls on the sea?", "prompt_ko": "바닷물을 끌어당기는 건 뭐야?", "options": [ { "e": "🌙", "en": "the moon" }, { "e": "🐶", "en": "a dog" }, { "e": "🚗", "en": "a car" } ] },
+    { "prompt_en": "Which one is a wave?", "prompt_ko": "파도는 어느 거야?", "options": [ { "e": "🌊", "en": "wave" }, { "e": "🔥", "en": "fire" }, { "e": "🌵", "en": "cactus" } ] },
+    { "prompt_en": "A wave takes your sandcastle. What do you say?", "prompt_ko": "파도가 모래성을 가져갔어. 뭐라고 해?", "options": [ { "e": "😮", "en": "It washed away!" }, { "e": "😋", "en": "It's yummy!" }, { "e": "😴", "en": "Good night." } ] },
+    { "prompt_en": "You want to make a new one. What do you say?", "prompt_ko": "새로 하나 만들고 싶어. 뭐라고 해?", "options": [ { "e": "💪", "en": "Let's build another one." }, { "e": "👋", "en": "See you later." }, { "e": "🤧", "en": "I'm sick." } ] },
+    { "prompt_en": "Where do we play in the sand?", "prompt_ko": "모래 놀이는 어디에서 해?", "options": [ { "e": "🏖️", "en": "the beach" }, { "e": "🏫", "en": "school" }, { "e": "🛒", "en": "the store" } ] },
+    { "prompt_en": "The wall is too small. What do you say?", "prompt_ko": "벽이 너무 낮아. 뭐라고 해?", "options": [ { "e": "⬆️", "en": "Build it higher." }, { "e": "✋", "en": "Stop it." }, { "e": "🤫", "en": "Be quiet." } ] },
+    { "prompt_en": "What lives in the sea?", "prompt_ko": "바다에는 뭐가 살아?", "options": [ { "e": "🐟", "en": "fish" }, { "e": "🦁", "en": "lion" }, { "e": "🐄", "en": "cow" } ] },
+    { "prompt_en": "Which one lives at the beach?", "prompt_ko": "바닷가에 사는 건 누구야?", "options": [ { "e": "🦀", "en": "crab" }, { "e": "🐻", "en": "bear" }, { "e": "🐒", "en": "monkey" } ] },
+    { "prompt_en": "Which one is tall?", "prompt_ko": "키가 큰 건 어느 거야?", "options": [ { "e": "🗼", "en": "tower" }, { "e": "🐜", "en": "ant" }, { "e": "🥚", "en": "egg" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "바닷가에서 'The water is coming in.'의 뜻은?", "options": ["물이 밀려 들어오고 있어.", "물이 빠져나가고 있어.", "물이 차가워지고 있어.", "비가 오기 시작했어."], "explain": "밀물이 들어올 때 come in, 썰물로 빠질 때 go out을 씁니다." },
+    { "q": "바닷물이 하루에 두 번쯤 오르내리는 것(밀물과 썰물)을 뜻하는 단어는?", "options": ["tide", "wave", "flood", "stream"], "explain": "밀물과 썰물은 tide, 파도는 wave라고 합니다." },
+    { "q": "'start over'의 뜻은?", "options": ["처음부터 다시 하다", "남보다 먼저 시작하다", "끝까지 해내다", "뛰어넘어 출발하다"], "explain": "start over는 처음으로 돌아가 다시 시작한다는 뜻입니다." },
+    { "q": "빈칸에 알맞은 말은? — Oh no! It washed ___!", "options": ["away", "along", "apart", "around"], "explain": "wash away는 '물에 쓸려 가다'라는 뜻입니다." },
+    { "q": "'하나 더 만들자.'에 알맞은 말은?", "options": ["Let's build another one.", "Let's build other one.", "Let's build one another.", "Let's build more one."], "explain": "'하나 더'는 another one이라고 합니다." },
+    { "q": "'Build it higher'를 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["빌딧 하이어", "빌드 이트 하이어", "빌디드 하이어", "빌 하이어"], "explain": "Build의 d와 it이 이어져 '빌딧'처럼 들립니다." },
+    { "q": "빈칸에 알맞은 말은? — The moon ___ on the sea.", "options": ["pulls", "pushes", "puts", "plays"], "explain": "달이 바닷물을 끌어당겨(pull) 밀물과 썰물이 생깁니다." },
+    { "q": "'We can start over.'와 바꿔 쓸 수 있는 말은?", "options": ["We can start again.", "We can start out.", "We can start up.", "We can get over."], "explain": "start over는 start again(다시 시작하다)과 같은 뜻입니다." },
+    { "q": "큰 파도가 올 때 '조심해!'라고 외치는 말은?", "options": ["Watch out!", "Watch it out!", "Look for!", "See out!"], "explain": "갑작스러운 위험을 알릴 때는 Watch out! 또는 Look out!이라고 합니다." },
+    { "q": "'Farther back, where the sand is dry.'에서 farther back의 뜻은?", "options": ["더 뒤쪽으로", "더 앞쪽으로", "다시 돌아와서", "등 뒤에 숨겨서"], "explain": "farther는 far의 비교급으로, farther back은 '더 뒤쪽'이라는 뜻입니다." }
+  ]
+}

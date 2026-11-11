@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 112,
+  "topic": "science",
+  "title_en": "Balloon rocket",
+  "title_ko": "풍선 로켓",
+  "intro_ko": "풍선을 불어서 입구를 잡고 있다가 놓으면 슝 날아가는 실험 놀이입니다. 실제 풍선을 하나 준비해서 대사에 맞춰 불고, 잡고, 놓아 보세요.",
+  "expressions": [
+    { "en": "Blow up the balloon.", "ko": "풍선 불어.", "tip": "풍선이나 튜브에 바람을 넣을 때 blow up을 써요. Blow up은 '블로업'처럼 이어집니다.", "who": "both" },
+    { "en": "Pinch it tight.", "ko": "꽉 잡아(꼬집듯이).", "tip": "손가락으로 풍선 입구를 꼭 집고 있으라는 말이에요. Pinch it이 이어져 '핀칫 타잇'처럼 들립니다.", "who": "parent" },
+    { "en": "It zoomed away!", "ko": "슝 날아가 버렸어!", "tip": "무언가가 아주 빠르게 멀어질 때 써요. zoomed의 d와 away가 이어져 '줌더웨이'처럼 들립니다.", "who": "kid" },
+    { "en": "Where did it go?", "ko": "어디로 갔지?", "tip": "물건이 눈앞에서 사라졌을 때 쓰는 질문이에요. did it이 이어져 '웨어 디딧 고'처럼 빠르게 말합니다.", "who": "both" },
+    { "en": "Out of breath.", "ko": "숨이 차.", "tip": "뛰거나 풍선을 불어서 숨이 찰 때 I'm out of breath.라고 해요. Out of는 '아우러브'처럼 부드럽게 이어집니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Let's make a balloon rocket today.", "ko": "오늘은 풍선 로켓을 만들어 보자." },
+    { "who": "kid", "en": "A balloon rocket? How?", "ko": "풍선 로켓? 어떻게?" },
+    { "who": "parent", "en": "First, blow up the balloon.", "ko": "먼저 풍선을 불어." },
+    { "who": "kid", "en": "You do it. It's too hard.", "ko": "엄마(아빠)가 해. 너무 어려워." },
+    { "who": "parent", "en": "Okay. Whew! I'm out of breath.", "ko": "알았어. 후유! 숨이 차네." },
+    { "who": "kid", "en": "It's so big now!", "ko": "이제 엄청 커졌어!" },
+    { "who": "parent", "en": "Here. Pinch it tight so the air stays in.", "ko": "자. 바람이 안 빠지게 꽉 잡아." },
+    { "who": "kid", "en": "Like this?", "ko": "이렇게?", "practice": true },
+    { "who": "parent", "en": "Just like that. Ready? Three, two, one, let go!", "ko": "바로 그렇게. 준비됐지? 셋, 둘, 하나, 놓아!" },
+    { "who": "kid", "en": "It zoomed away!", "ko": "슝 날아갔어!", "practice": true },
+    { "who": "parent", "en": "Ha! It flew all over the room.", "ko": "하하! 방 안을 온통 날아다녔네." },
+    { "who": "kid", "en": "Where did it go?", "ko": "어디로 갔지?", "practice": true },
+    { "who": "parent", "en": "Look behind the couch.", "ko": "소파 뒤를 봐." },
+    { "who": "kid", "en": "I found it! It's small now.", "ko": "찾았다! 이제 작아졌어." },
+    { "who": "parent", "en": "Right. All the air came out.", "ko": "맞아. 바람이 다 빠졌거든." },
+    { "who": "kid", "en": "Why did it fly?", "ko": "왜 날아간 거야?", "practice": true },
+    { "who": "parent", "en": "The air rushed out the back and pushed it forward.", "ko": "바람이 뒤로 확 빠져나가면서 풍선을 앞으로 밀었어." },
+    { "who": "kid", "en": "Like a real rocket?", "ko": "진짜 로켓처럼?" },
+    { "who": "parent", "en": "Yes! Real rockets push hot gas out the back.", "ko": "응! 진짜 로켓도 뜨거운 가스를 뒤로 내뿜어." },
+    { "who": "kid", "en": "Let's do it again!", "ko": "또 하자!", "practice": true },
+    { "who": "parent", "en": "Okay. This time, you blow up the balloon.", "ko": "좋아. 이번엔 네가 풍선을 불어 봐." },
+    { "who": "kid", "en": "I'll pinch it tight!", "ko": "내가 꽉 잡을게!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What's inside the balloon?", "ko": "풍선 안에는 뭐가 들어 있어?", "sample_en": "Air!", "sample_ko": "공기!" },
+    { "en": "What happens when you let go?", "ko": "손을 놓으면 어떻게 돼?", "sample_en": "It flies away!", "sample_ko": "날아가!" },
+    { "en": "How can we make it go farther?", "ko": "어떻게 하면 더 멀리 갈까?", "sample_en": "Make it bigger!", "sample_ko": "더 크게 불어!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a balloon?", "prompt_ko": "풍선은 어느 거야?", "options": [ { "e": "🎈", "en": "balloon" }, { "e": "🥕", "en": "carrot" }, { "e": "👟", "en": "shoe" } ] },
+    { "prompt_en": "What is inside the balloon?", "prompt_ko": "풍선 안에는 뭐가 들어 있어?", "options": [ { "e": "💨", "en": "air" }, { "e": "🥛", "en": "milk" }, { "e": "🍚", "en": "rice" } ] },
+    { "prompt_en": "The balloon flew away fast! What do you say?", "prompt_ko": "풍선이 빠르게 날아갔어! 뭐라고 해?", "options": [ { "e": "🚀", "en": "It zoomed away!" }, { "e": "😴", "en": "It's sleeping." }, { "e": "🍽️", "en": "Let's eat." } ] },
+    { "prompt_en": "You can't see the balloon. What do you ask?", "prompt_ko": "풍선이 안 보여. 뭐라고 물어봐?", "options": [ { "e": "🔍", "en": "Where did it go?" }, { "e": "⏰", "en": "What time is it?" }, { "e": "🎂", "en": "How old are you?" } ] },
+    { "prompt_en": "Where was the balloon?", "prompt_ko": "풍선은 어디에 있었지?", "options": [ { "e": "🛋️", "en": "behind the couch" }, { "e": "🚽", "en": "in the toilet" }, { "e": "🌳", "en": "in a tree" } ] },
+    { "prompt_en": "Listen: 'Blow up the balloon.' What do you use?", "prompt_ko": "잘 들어 봐: 'Blow up the balloon.' 뭘로 해?", "options": [ { "e": "👄", "en": "my mouth" }, { "e": "🦶", "en": "my foot" }, { "e": "👂", "en": "my ear" } ] },
+    { "prompt_en": "Which one flies to space?", "prompt_ko": "우주로 날아가는 건 어느 거야?", "options": [ { "e": "🚀", "en": "rocket" }, { "e": "🚲", "en": "bike" }, { "e": "🚜", "en": "tractor" } ] },
+    { "prompt_en": "The air came out. How is the balloon now?", "prompt_ko": "바람이 빠졌어. 풍선은 이제 어때?", "options": [ { "e": "🤏", "en": "small" }, { "e": "🐘", "en": "very big" }, { "e": "🔥", "en": "on fire" } ] },
+    { "prompt_en": "Listen: 'Pinch it tight.' What do you use?", "prompt_ko": "잘 들어 봐: 'Pinch it tight.' 뭘로 잡아?", "options": [ { "e": "🤏", "en": "my fingers" }, { "e": "👃", "en": "my nose" }, { "e": "🦵", "en": "my leg" } ] },
+    { "prompt_en": "That was fun! What do you say?", "prompt_ko": "재미있었어! 뭐라고 해?", "options": [ { "e": "🙌", "en": "Let's do it again!" }, { "e": "😭", "en": "I'm scared." }, { "e": "🤫", "en": "Be quiet." } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Blow up the balloon.'의 뜻은?", "options": ["풍선 불어.", "풍선 터뜨려.", "풍선 날려.", "풍선 묶어."], "explain": "blow up은 공기를 불어 넣어 부풀린다는 뜻입니다." },
+    { "q": "'I'm out of breath.'는 어떤 뜻일까?", "options": ["숨이 차.", "입 냄새가 나.", "밖에서 숨 쉬고 있어.", "바람이 다 빠졌어."], "explain": "out of breath는 숨이 모자랄 만큼 숨이 차다는 뜻입니다." },
+    { "q": "풍선 입구를 '꽉 잡아'라고 할 때 알맞은 말은?", "options": ["Pinch it tight.", "Pinch it tightly up.", "Punch it tight.", "Pick it tight."], "explain": "손가락으로 꼭 집는 것은 pinch이고, 구어에서는 tight를 그대로 써서 Pinch it tight.라고 합니다." },
+    { "q": "빈칸에 알맞은 말은? — Three, two, one, let ___!", "options": ["go", "off", "out", "away"], "explain": "잡고 있던 것을 놓는 것은 let go입니다." },
+    { "q": "풍선이 사라졌을 때 '어디로 갔지?'라고 하려면?", "options": ["Where did it go?", "Where did it went?", "Where it did go?", "Where does it gone?"], "explain": "did 뒤에는 동사 원형이 와서 Where did it go?가 됩니다." },
+    { "q": "'Out of'를 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["아우러브", "아웃 오프", "아우트 오브", "아웃토프"], "explain": "미국 영어에서 t가 모음 사이에서 부드러운 'ㄹ' 소리가 되어 '아우러브'처럼 들립니다." },
+    { "q": "풍선 로켓이 날아가는 이유로 알맞은 것은?", "options": ["공기가 뒤로 빠져나가면서 풍선을 앞으로 밀어서", "풍선이 공기보다 무거워서", "풍선이 바람을 빨아들여서", "풍선 안이 뜨거워져서"], "explain": "공기가 뒤로 나가는 힘의 반대 방향으로 풍선이 밀려 나가는 것으로, 로켓과 같은 원리입니다." },
+    { "q": "빈칸에 알맞은 말은? — It flew all ___ the room.", "options": ["over", "on", "above", "across to"], "explain": "all over the room은 '방 안 여기저기'라는 뜻입니다." },
+    { "q": "'It zoomed away!'의 뜻은?", "options": ["슝 날아가 버렸어!", "크게 확대됐어!", "천천히 떨어졌어!", "펑 터져 버렸어!"], "explain": "zoom은 '쌩 하고 빠르게 움직이다'라는 뜻이라 zoom away는 빠르게 멀어지는 모습입니다." },
+    { "q": "아이에게 '이번엔 네가 해 봐'라고 할 때 자연스러운 말은?", "options": ["This time, you do it.", "This time, you make it do.", "In this time, do you.", "This turn, you doing."], "explain": "'이번에는'은 This time으로 시작해 This time, you do it.이라고 합니다." }
+  ]
+}

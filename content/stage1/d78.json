@@ -1,0 +1,69 @@
+{
+  "stage": 1,
+  "day": 78,
+  "topic": "ships",
+  "title_en": "Icebreaker ship",
+  "title_ko": "쇄빙선",
+  "intro_ko": "아이가 쇄빙선 선장이 되어 얼어붙은 바다에 길을 내는 놀이입니다. 쟁반에 얼음이나 과자를 깔고 장난감 배로 눌러 깨며 해 보면 더 실감 나요.",
+  "expressions": [
+    { "en": "It's freezing!", "ko": "너무 추워! / 얼어붙겠어!", "tip": "cold보다 훨씬 추울 때 쓰는 말이에요. 겨울에 밖에 나가자마자 쓰기 좋아요. '잇츠 프리징'으로 말합니다.", "who": "both" },
+    { "en": "The sea is frozen.", "ko": "바다가 얼었어.", "tip": "frozen은 '꽁꽁 언' 상태를 말해요. The lake is frozen(호수가 얼었어)처럼 바꿔 쓸 수 있어요. sea is가 이어져 '씨이즈'처럼 들립니다.", "who": "parent" },
+    { "en": "It cracked!", "ko": "금이 갔어! / 쩍 갈라졌어!", "tip": "얼음, 달걀, 유리에 '쩍' 하고 금이 갔을 때 써요. cracked의 ed는 t 소리가 나서 '크랙트'로 발음합니다.", "who": "kid" },
+    { "en": "Make a path.", "ko": "길을 만들어.", "tip": "지나갈 길을 터 줄 때 쓰는 말이에요. Make a가 이어져 '메이커 패쓰'처럼 들립니다.", "who": "parent" },
+    { "en": "Break the ice.", "ko": "얼음을 깨다. / 어색한 분위기를 풀다.", "tip": "오늘은 진짜 얼음을 깨지만, 평소에는 처음 만난 사람들 사이의 어색함을 푼다는 뜻으로 더 많이 써요. ice가 모음으로 시작해서 the는 '디'로 읽습니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Welcome aboard, captain. Look outside!", "ko": "선장님, 승선을 환영합니다. 밖을 보세요!" },
+    { "who": "kid", "en": "Brr! It's freezing!", "ko": "으으! 너무 추워!", "practice": true },
+    { "who": "parent", "en": "It sure is. Look, the sea is frozen.", "ko": "정말 그렇네. 봐, 바다가 얼었어." },
+    { "who": "kid", "en": "The sea is frozen? All of it?", "ko": "바다가 얼었어? 전부 다?", "practice": true },
+    { "who": "parent", "en": "Just the top. But the other ships are stuck.", "ko": "윗부분만. 그런데 다른 배들이 꼼짝 못 하고 있어." },
+    { "who": "kid", "en": "Oh no! What do we do?", "ko": "어떡해! 우리 어떻게 해?" },
+    { "who": "parent", "en": "We're an icebreaker. We can break the ice.", "ko": "우리는 쇄빙선이야. 얼음을 깰 수 있지." },
+    { "who": "kid", "en": "How do we break it?", "ko": "어떻게 깨?" },
+    { "who": "parent", "en": "Our ship slides up on the ice. Then its weight pushes down.", "ko": "배가 얼음 위로 미끄러져 올라가. 그러면 배 무게가 얼음을 내리눌러." },
+    { "who": "kid", "en": "Go, go, go!", "ko": "가자, 가자, 가자!" },
+    { "who": "parent", "en": "Crunch! Did you hear that?", "ko": "우지끈! 방금 소리 들었어?" },
+    { "who": "kid", "en": "It cracked!", "ko": "쩍 갈라졌어!", "practice": true },
+    { "who": "parent", "en": "Good job. Keep going and make a path.", "ko": "잘했어. 계속 가면서 길을 만들어." },
+    { "who": "kid", "en": "Make a path! Here we go!", "ko": "길을 만들어! 간다!", "practice": true },
+    { "who": "parent", "en": "Look behind us. The little ships are following.", "ko": "뒤를 봐. 작은 배들이 따라오고 있어." },
+    { "who": "kid", "en": "Why are they behind us?", "ko": "왜 우리 뒤에 있어?" },
+    { "who": "parent", "en": "They go through the open water we made.", "ko": "우리가 열어 준 물길로 지나가는 거야." },
+    { "who": "kid", "en": "We're helping them!", "ko": "우리가 도와주고 있네!", "practice": true },
+    { "who": "parent", "en": "That's right. Our ship is very strong.", "ko": "맞아. 우리 배는 아주 튼튼하거든." },
+    { "who": "kid", "en": "Is the ice thick?", "ko": "얼음 두꺼워?" },
+    { "who": "parent", "en": "Very thick. Some ice is as thick as you are tall.", "ko": "아주 두꺼워. 네 키만큼 두꺼운 얼음도 있어." },
+    { "who": "kid", "en": "Wow! Let's break more ice!", "ko": "우와! 얼음 더 깨자!" },
+    { "who": "parent", "en": "Aye aye, captain! Crunch, crunch!", "ko": "네, 선장님! 우지끈, 우지끈!" }
+  ],
+  "talkMore": [
+    { "en": "Where do you want to go on an icebreaker?", "ko": "쇄빙선을 타고 어디에 가고 싶어?", "sample_en": "To the North Pole!", "sample_ko": "북극에!" },
+    { "en": "What animals can we see on the ice?", "ko": "얼음 위에서 어떤 동물을 볼 수 있을까?", "sample_en": "Polar bears and seals.", "sample_ko": "북극곰이랑 물개." },
+    { "en": "What do you wear when it's freezing?", "ko": "엄청 추울 때는 뭘 입어?", "sample_en": "A big coat and gloves.", "sample_ko": "두꺼운 코트랑 장갑." }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is ice?", "prompt_ko": "얼음은 어느 거야?", "options": [ { "e": "🧊", "en": "ice" }, { "e": "🔥", "en": "fire" }, { "e": "🍞", "en": "bread" } ] },
+    { "prompt_en": "Which one is a ship?", "prompt_ko": "배는 어느 거야?", "options": [ { "e": "🚢", "en": "ship" }, { "e": "✈️", "en": "plane" }, { "e": "🚌", "en": "bus" } ] },
+    { "prompt_en": "It's very, very cold. What do you say?", "prompt_ko": "엄청 추워. 뭐라고 해?", "options": [ { "e": "🥶", "en": "It's freezing!" }, { "e": "🥵", "en": "It's hot!" }, { "e": "😋", "en": "It's yummy!" } ] },
+    { "prompt_en": "Which animal lives on the ice?", "prompt_ko": "얼음 위에 사는 동물은 누구야?", "options": [ { "e": "🐧", "en": "a penguin" }, { "e": "🐒", "en": "a monkey" }, { "e": "🐫", "en": "a camel" } ] },
+    { "prompt_en": "What do you wear when it's freezing?", "prompt_ko": "엄청 추울 때 뭘 껴?", "options": [ { "e": "🧤", "en": "gloves" }, { "e": "🕶️", "en": "sunglasses" }, { "e": "🩳", "en": "shorts" } ] },
+    { "prompt_en": "What does the icebreaker break?", "prompt_ko": "쇄빙선은 뭘 깨?", "options": [ { "e": "🧊", "en": "the ice" }, { "e": "🌳", "en": "a tree" }, { "e": "🏠", "en": "a house" } ] },
+    { "prompt_en": "The ice goes crunch! What do you say?", "prompt_ko": "얼음이 우지끈! 뭐라고 해?", "options": [ { "e": "😲", "en": "It cracked!" }, { "e": "😴", "en": "Good night." }, { "e": "👋", "en": "Bye-bye." } ] },
+    { "prompt_en": "Which one is cold?", "prompt_ko": "차가운 건 어느 거야?", "options": [ { "e": "🍦", "en": "ice cream" }, { "e": "☕", "en": "hot tea" }, { "e": "🍲", "en": "hot soup" } ] },
+    { "prompt_en": "Who follows the icebreaker?", "prompt_ko": "쇄빙선을 따라오는 건 누구야?", "options": [ { "e": "⛵", "en": "little ships" }, { "e": "🚗", "en": "cars" }, { "e": "🚲", "en": "bikes" } ] },
+    { "prompt_en": "The sea is frozen. What color is it?", "prompt_ko": "바다가 얼었어. 무슨 색이야?", "options": [ { "e": "⚪", "en": "white" }, { "e": "🔴", "en": "red" }, { "e": "🟢", "en": "green" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'break the ice'가 일상 대화에서 흔히 뜻하는 것은?", "options": ["어색한 분위기를 풀다", "약속을 깨다", "얼음을 얼리다", "크게 실패하다"], "explain": "처음 만난 사람들 사이의 서먹함을 깨고 분위기를 부드럽게 만든다는 뜻입니다." },
+    { "q": "'바다가 얼었어.'로 알맞은 말은?", "options": ["The sea is frozen.", "The sea is freeze.", "The sea is froze.", "The sea has freeze."], "explain": "'언 상태'는 be frozen으로 표현합니다(freeze–froze–frozen)." },
+    { "q": "'It's freezing!'의 뜻은?", "options": ["너무 추워! 얼어붙겠어!", "얼음이 녹고 있어!", "시원해서 좋다!", "꼼짝 마!"], "explain": "It's cold보다 훨씬 강한 표현으로, 몹시 추울 때 씁니다." },
+    { "q": "빈칸에 알맞은 말은? — Good job. Keep going and make a ___.", "options": ["path", "pass", "bath", "pat"], "explain": "make a path는 '지나갈 길을 내다'입니다." },
+    { "q": "'It cracked!'에서 cracked의 끝소리는 어떻게 날까?", "options": ["크랙트 (t 소리)", "크랙드 (d 소리)", "크래키드", "크랙 (소리 없음)"], "explain": "k 소리 뒤의 -ed는 t로 발음해서 '크랙트'가 됩니다." },
+    { "q": "쇄빙선이 얼음을 깨는 방법으로 알맞은 것은?", "options": ["얼음 위로 올라타 배의 무게로 눌러 깬다", "뜨거운 물을 뿌려 녹인다", "큰 망치로 두드려 깬다", "얼음 밑으로 잠수해 지나간다"], "explain": "쇄빙선은 튼튼한 뱃머리로 얼음 위에 올라탄 뒤 무게로 눌러 깹니다." },
+    { "q": "'The other ships are stuck.'에서 stuck의 뜻은?", "options": ["꼼짝 못 하는", "가라앉은", "부서진", "길을 잃은"], "explain": "be stuck은 어딘가에 갇히거나 끼어서 움직이지 못하는 상태입니다." },
+    { "q": "처음 만난 아이들이 서로 어색해할 때 할 수 있는 말은?", "options": ["Let's play a game to break the ice.", "Let's play a game to break a leg.", "Let's play a game to break the rules.", "Let's play a game to break the news."], "explain": "break the ice는 어색함을 푼다는 뜻이라 이런 상황에 딱 맞습니다." },
+    { "q": "'Make a path'를 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["메이커 패쓰", "메이크 아 파스", "마케 패트", "메이 카파"], "explain": "make의 k가 a와 이어져 '메이커'처럼 들리고, path의 th는 혀를 살짝 물고 냅니다." },
+    { "q": "빈칸에 알맞은 말은? — Some ice is as thick ___ you are tall.", "options": ["as", "so", "than", "like"], "explain": "as ~ as …는 '…만큼 ~한'이라는 뜻입니다." }
+  ]
+}

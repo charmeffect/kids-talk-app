@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 74,
+  "topic": "planes",
+  "title_en": "Parachute",
+  "title_ko": "낙하산",
+  "intro_ko": "비행기에서 낙하산을 메고 뛰어내리는 놀이입니다. 낮은 쿠션 위에서 폴짝 뛰어내리게 하거나, 손수건에 실로 작은 인형을 매달아 낙하산을 만들어 떨어뜨려 보세요.",
+  "expressions": [
+    { "en": "Jump!", "ko": "뛰어!", "tip": "뛰어내리거나 뛰어오르라고 할 때 쓰는 한마디예요. 끝의 p는 입술만 닫고 약하게 '점ㅍ'로 말합니다.", "who": "both" },
+    { "en": "It's opening!", "ko": "펴지고 있어!", "tip": "낙하산, 문, 꽃처럼 무언가 열리거나 펴지는 순간에 써요. It's의 끝소리 ts가 opening에 바로 이어져 '이츠오프닝'처럼 한 덩어리로 들립니다.", "who": "kid" },
+    { "en": "I'm floating down.", "ko": "둥실둥실 내려가고 있어.", "tip": "float는 물이나 공기 중에 '뜨다'라는 뜻이에요. floating의 t는 부드럽게 '플로우링'처럼 소리 납니다.", "who": "kid" },
+    { "en": "Soft landing!", "ko": "사뿐히 착지!", "tip": "쿵 하지 않고 부드럽게 내려앉았을 때 쓰는 말이에요. Soft의 t는 거의 들리지 않아 '소프 랜딩'처럼 말합니다.", "who": "both" },
+    { "en": "Nice and slow.", "ko": "천천히, 살살.", "tip": "서두르지 말고 천천히 하라고 부드럽게 말할 때 써요. and가 약해져 '나이슨 슬로우'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "We're high up in the plane. Ready, buddy?", "ko": "우리 비행기 타고 높이 올라왔어. 준비됐니?" },
+    { "who": "kid", "en": "Ready! Is my parachute on?", "ko": "준비됐어! 내 낙하산 멨어?" },
+    { "who": "parent", "en": "Yes, it's on your back. Three, two, one. Jump!", "ko": "응, 등에 있어. 셋, 둘, 하나. 뛰어!" },
+    { "who": "kid", "en": "Jump! Whee!", "ko": "뛰어! 야호!", "practice": true },
+    { "who": "parent", "en": "Now pull the cord!", "ko": "이제 줄을 당겨!" },
+    { "who": "kid", "en": "I pulled it! It's opening!", "ko": "당겼어! 펴지고 있어!", "practice": true },
+    { "who": "parent", "en": "Wow, it's so big! Like a giant umbrella.", "ko": "우와, 엄청 크다! 커다란 우산 같아." },
+    { "who": "kid", "en": "I'm floating down.", "ko": "둥실둥실 내려가고 있어.", "practice": true },
+    { "who": "parent", "en": "How does it feel up there?", "ko": "그 위에 있으니까 기분이 어때?" },
+    { "who": "kid", "en": "Like a bird! Why am I so slow?", "ko": "새 같아! 근데 난 왜 이렇게 느려?" },
+    { "who": "parent", "en": "The parachute catches lots of air.", "ko": "낙하산이 공기를 많이 붙잡거든." },
+    { "who": "kid", "en": "And the air holds me up?", "ko": "그럼 공기가 나를 받쳐 줘?" },
+    { "who": "parent", "en": "It pushes up and slows you down. Nice and slow.", "ko": "공기가 위로 밀어서 너를 느리게 해 줘. 천천히, 살살." },
+    { "who": "kid", "en": "What if it doesn't open?", "ko": "안 펴지면 어떡해?" },
+    { "who": "parent", "en": "Skydivers always carry a second one, just in case.", "ko": "스카이다이버는 만일을 대비해서 낙하산을 항상 하나 더 가지고 다녀." },
+    { "who": "kid", "en": "Phew! I can see our house!", "ko": "휴! 우리 집이 보여!" },
+    { "who": "parent", "en": "The ground is coming. Bend your knees!", "ko": "땅이 가까워져. 무릎을 굽혀!" },
+    { "who": "kid", "en": "Here I come!", "ko": "내려간다!" },
+    { "who": "parent", "en": "Soft landing! You did it!", "ko": "사뿐히 착지! 해냈구나!" },
+    { "who": "kid", "en": "Soft landing! Let's jump again!", "ko": "사뿐히 착지! 또 뛰자!", "practice": true },
+    { "who": "parent", "en": "Okay! This time your teddy bear can jump, too.", "ko": "좋아! 이번엔 네 곰 인형도 같이 뛰자." },
+    { "who": "kid", "en": "Hold on tight, Teddy!", "ko": "꽉 잡아, 곰돌아!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What does a parachute look like?", "ko": "낙하산은 어떻게 생겼어?", "sample_en": "A big umbrella!", "sample_ko": "커다란 우산!" },
+    { "en": "What can you see from way up high?", "ko": "아주 높은 곳에서는 뭐가 보일까?", "sample_en": "Tiny houses and cars.", "sample_ko": "조그만 집이랑 자동차." },
+    { "en": "What else floats down slowly?", "ko": "천천히 둥실둥실 떨어지는 게 또 뭐가 있을까?", "sample_en": "A leaf and a feather.", "sample_ko": "나뭇잎이랑 깃털." }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a parachute?", "prompt_ko": "낙하산은 어느 거야?", "options": [ { "e": "🪂", "en": "a parachute" }, { "e": "🚲", "en": "a bike" }, { "e": "⚽", "en": "a ball" } ] },
+    { "prompt_en": "You have a parachute. What do you jump out of?", "prompt_ko": "낙하산을 멨어. 어디에서 뛰어내려?", "options": [ { "e": "✈️", "en": "a plane" }, { "e": "🛁", "en": "a bathtub" }, { "e": "🛏️", "en": "a bed" } ] },
+    { "prompt_en": "Three, two, one! What do you say?", "prompt_ko": "셋, 둘, 하나! 뭐라고 해?", "options": [ { "e": "🪂", "en": "Jump!" }, { "e": "😴", "en": "Sleep!" }, { "e": "🍽️", "en": "Eat!" } ] },
+    { "prompt_en": "What does the parachute catch?", "prompt_ko": "낙하산은 뭘 붙잡아?", "options": [ { "e": "💨", "en": "air" }, { "e": "🐟", "en": "fish" }, { "e": "⚽", "en": "a ball" } ] },
+    { "prompt_en": "The parachute looks like a giant what?", "prompt_ko": "낙하산은 커다란 뭐처럼 생겼지?", "options": [ { "e": "☂️", "en": "umbrella" }, { "e": "🥄", "en": "spoon" }, { "e": "👟", "en": "shoe" } ] },
+    { "prompt_en": "You land gently on the ground. What do you say?", "prompt_ko": "땅에 사뿐히 내려앉았어. 뭐라고 해?", "options": [ { "e": "😄", "en": "Soft landing!" }, { "e": "🌙", "en": "Good night!" }, { "e": "🎂", "en": "Happy birthday!" } ] },
+    { "prompt_en": "Which one floats down slowly?", "prompt_ko": "천천히 둥실둥실 떨어지는 건 어느 거야?", "options": [ { "e": "🍃", "en": "a leaf" }, { "e": "🧱", "en": "a brick" }, { "e": "⚓", "en": "an anchor" } ] },
+    { "prompt_en": "Listen: 'Nice and slow.' Which one is slow?", "prompt_ko": "잘 들어 봐: 'Nice and slow.' 느린 건 어느 거야?", "options": [ { "e": "🐢", "en": "a turtle" }, { "e": "🚀", "en": "a rocket" }, { "e": "🏎️", "en": "a race car" } ] },
+    { "prompt_en": "Your parachute gets big. What do you say?", "prompt_ko": "낙하산이 커다랗게 펴져. 뭐라고 해?", "options": [ { "e": "🤩", "en": "It's opening!" }, { "e": "🥶", "en": "It's freezing!" }, { "e": "🍰", "en": "It's yummy!" } ] },
+    { "prompt_en": "What did you see from the sky?", "prompt_ko": "하늘에서 뭐가 보였지?", "options": [ { "e": "🏠", "en": "our house" }, { "e": "🐳", "en": "a whale" }, { "e": "🦖", "en": "a dinosaur" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Nice and slow.'의 뜻은?", "options": ["천천히, 살살.", "착하지만 느리게.", "멋지고 빠르게.", "조용히 가만히."], "explain": "nice and + 형용사는 '기분 좋게 ~하게'라는 뜻으로, Nice and slow는 '천천히, 살살'입니다." },
+    { "q": "'Nice and slow'를 자연스럽게 말하면 어떻게 들릴까?", "options": ["나이슨 슬로우", "나이스 앤드 슬로우", "니센드 슬로우", "나이스 슬로우드"], "explain": "and가 약해져 'n' 소리만 남아 '나이슨 슬로우'처럼 들립니다." },
+    { "q": "빈칸에 알맞은 말은? — It pushes up and slows you ___.", "options": ["down", "up", "off", "out"], "explain": "slow down은 '속도를 늦추다'라는 뜻입니다." },
+    { "q": "'펴지고 있어!'를 영어로 바르게 말하면?", "options": ["It's opening!", "It's open up!", "It opening!", "It's opens!"], "explain": "지금 진행 중인 일은 It's(It is) + -ing로 말합니다." },
+    { "q": "'I'm floating down.'의 뜻은?", "options": ["둥실둥실 내려가고 있어.", "물속으로 가라앉고 있어.", "빠르게 뚝 떨어지고 있어.", "아래에서 헤엄치고 있어."], "explain": "float down은 공중에 떠서 천천히 내려오는 것을 말합니다." },
+    { "q": "'just in case'의 뜻은?", "options": ["만일을 대비해서", "상자 안에만", "그 경우에만", "방금 전에"], "explain": "혹시 모를 상황에 대비한다는 뜻으로, 우산을 챙길 때도 Just in case.라고 합니다." },
+    { "q": "빈칸에 알맞은 말은? — The parachute ___ lots of air.", "options": ["catches", "catch", "catching", "to catch"], "explain": "주어가 The parachute(단수)이므로 catches를 씁니다." },
+    { "q": "'floating'의 t는 미국식 발음에서 어떻게 소리 날까?", "options": ["부드러운 'ㄹ'처럼: 플로우링", "강한 'ㅌ'으로: 플로우팅", "'ㅊ'으로: 플로우칭", "'ㅅ'으로: 플로우싱"], "explain": "모음 사이의 t는 부드러운 'ㄹ' 소리가 되어 '플로우링'처럼 들립니다." },
+    { "q": "착지 직전에 '무릎을 굽혀!'라고 할 때 알맞은 말은?", "options": ["Bend your knees!", "Fold your knees!", "Bow your knees!", "Break your knees!"], "explain": "무릎이나 팔을 굽히는 것은 bend를 씁니다." },
+    { "q": "'Nice and slow.'를 쓰기에 가장 알맞은 상황은?", "options": ["아이가 컵에 물을 따를 때", "늦어서 서둘러야 할 때", "아이가 인사를 잘했을 때", "잠자리에 들 때"], "explain": "쏟거나 다치지 않게 천천히 하라고 할 때 Nice and slow.라고 합니다." }
+  ]
+}

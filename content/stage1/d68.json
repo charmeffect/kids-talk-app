@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 68,
+  "topic": "ships",
+  "title_en": "Cargo ship",
+  "title_ko": "화물선",
+  "intro_ko": "화물선 사진이나 그림책을 보다가 블록으로 화물선 놀이를 하는 장면입니다. 쟁반이나 상자 뚜껑을 배로 삼고, 블록을 컨테이너처럼 쌓아 보세요.",
+  "expressions": [
+    { "en": "What's inside?", "ko": "안에 뭐가 들었어?", "tip": "상자, 가방, 선물처럼 속이 안 보이는 것을 볼 때 쓰는 질문이에요. What's의 끝소리 ts가 inside에 바로 이어져 '와츠인사이드'처럼 한 덩어리로 들립니다.", "who": "kid" },
+    { "en": "It's full of boxes.", "ko": "상자로 가득 차 있어.", "tip": "'full of + 물건'은 '~로 가득한'이라는 뜻이에요. full of가 이어져 '풀러브'처럼 들립니다.", "who": "both" },
+    { "en": "It's so heavy.", "ko": "너무 무거워.", "tip": "무거운 것을 들 때 힘주는 시늉을 하며 말해 보세요. 반대말은 It's so light.(아주 가벼워)입니다.", "who": "kid" },
+    { "en": "Stack them up.", "ko": "차곡차곡 쌓아 봐.", "tip": "블록이나 책, 컵을 위로 쌓을 때 써요. 빠른 말에서는 them이 'em으로 줄어 '스태컴업'처럼 들리기도 해요. 천천히 '스택 뎀 업'이라고 해도 됩니다.", "who": "both" },
+    { "en": "Load it up.", "ko": "짐을 가득 실어.", "tip": "차나 배, 카트에 짐을 실을 때 쓰는 말이에요. 여행 가기 전 차에 가방을 실을 때도 좋아요. '로디럽'처럼 이어 말합니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Look at this huge ship. It's a cargo ship.", "ko": "이 커다란 배 좀 봐. 화물선이야." },
+    { "who": "kid", "en": "What's a cargo ship?", "ko": "화물선이 뭐야?" },
+    { "who": "parent", "en": "It carries things across the ocean.", "ko": "바다 건너로 물건을 실어 나르는 배야." },
+    { "who": "kid", "en": "What's inside?", "ko": "안에 뭐가 들었어?", "practice": true },
+    { "who": "parent", "en": "It's full of boxes. Big metal boxes called containers.", "ko": "상자로 가득 차 있어. 컨테이너라는 큰 철 상자야." },
+    { "who": "kid", "en": "What's in the boxes?", "ko": "상자 안에는 뭐가 있어?" },
+    { "who": "parent", "en": "Toys, shoes, bananas, even cars!", "ko": "장난감, 신발, 바나나, 자동차까지!" },
+    { "who": "kid", "en": "Bananas? On a ship?", "ko": "바나나? 배에?" },
+    { "who": "parent", "en": "Yep. Lots of our bananas come by ship.", "ko": "응. 우리가 먹는 바나나는 배를 타고 많이 와." },
+    { "who": "kid", "en": "Let's make a cargo ship!", "ko": "우리 화물선 만들자!" },
+    { "who": "parent", "en": "Good idea. These blocks are our containers. Stack them up.", "ko": "좋은 생각이야. 이 블록이 컨테이너야. 차곡차곡 쌓아 봐." },
+    { "who": "kid", "en": "Stack them up! One, two, three!", "ko": "쌓아라! 하나, 둘, 셋!", "practice": true },
+    { "who": "parent", "en": "Nice and tall. Can you lift the whole ship?", "ko": "높이 잘 쌓았네. 배를 통째로 들 수 있어?" },
+    { "who": "kid", "en": "Ugh! It's so heavy.", "ko": "으으! 너무 무거워.", "practice": true },
+    { "who": "parent", "en": "Real ones are much heavier. A crane lifts each box.", "ko": "진짜는 훨씬 더 무거워. 크레인이 상자를 하나씩 들어 올려." },
+    { "who": "kid", "en": "I'm the crane! Beep, beep!", "ko": "내가 크레인이야! 삐, 삐!" },
+    { "who": "parent", "en": "Okay, crane. Here comes more cargo. Load it up.", "ko": "좋아, 크레인. 짐이 더 왔어. 가득 실어." },
+    { "who": "kid", "en": "It's full of boxes!", "ko": "상자로 꽉 찼어!", "practice": true },
+    { "who": "parent", "en": "Then it's ready to go. Where is it going?", "ko": "그럼 출발 준비 끝이네. 어디로 가는 배야?" },
+    { "who": "kid", "en": "Across the ocean!", "ko": "바다 건너로!", "practice": true },
+    { "who": "parent", "en": "Have a safe trip, cargo ship!", "ko": "화물선아, 조심히 다녀와!" },
+    { "who": "kid", "en": "Bye-bye, big ship!", "ko": "잘 가, 큰 배야!" }
+  ],
+  "talkMore": [
+    { "en": "What do you want to put in your container?", "ko": "네 컨테이너에는 뭘 넣고 싶어?", "sample_en": "My toys!", "sample_ko": "내 장난감!" },
+    { "en": "How many blocks can you stack?", "ko": "블록을 몇 개나 쌓을 수 있어?", "sample_en": "Ten blocks!", "sample_ko": "열 개!" },
+    { "en": "What is heavier, a car or a banana?", "ko": "자동차랑 바나나 중에 뭐가 더 무거워?", "sample_en": "A car!", "sample_ko": "자동차!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a ship?", "prompt_ko": "배는 어느 거야?", "options": [ { "e": "🚢", "en": "ship" }, { "e": "🚌", "en": "bus" }, { "e": "🚁", "en": "helicopter" } ] },
+    { "prompt_en": "What is on the cargo ship?", "prompt_ko": "화물선에는 뭐가 실려 있어?", "options": [ { "e": "📦", "en": "boxes" }, { "e": "🛏️", "en": "beds" }, { "e": "🌳", "en": "trees" } ] },
+    { "prompt_en": "You see a big box. What do you ask?", "prompt_ko": "큰 상자가 있어. 뭐라고 물어봐?", "options": [ { "e": "🤔", "en": "What's inside?" }, { "e": "😴", "en": "Are you sleepy?" }, { "e": "🌧️", "en": "Is it raining?" } ] },
+    { "prompt_en": "What lifts the big boxes?", "prompt_ko": "큰 상자는 뭐가 들어 올려?", "options": [ { "e": "🏗️", "en": "crane" }, { "e": "🥄", "en": "spoon" }, { "e": "🎈", "en": "balloon" } ] },
+    { "prompt_en": "You can't lift the box. What do you say?", "prompt_ko": "상자를 들 수가 없어. 뭐라고 해?", "options": [ { "e": "😫", "en": "It's so heavy." }, { "e": "😋", "en": "It's so yummy." }, { "e": "🥶", "en": "It's so cold." } ] },
+    { "prompt_en": "Which one is heavy?", "prompt_ko": "무거운 건 어느 거야?", "options": [ { "e": "🐘", "en": "elephant" }, { "e": "🎈", "en": "balloon" }, { "e": "🍃", "en": "leaf" } ] },
+    { "prompt_en": "Which fruit came on the ship?", "prompt_ko": "배를 타고 온 과일은 뭐였지?", "options": [ { "e": "🍌", "en": "bananas" }, { "e": "🍓", "en": "strawberries" }, { "e": "🍉", "en": "watermelon" } ] },
+    { "prompt_en": "You are building with blocks. What do you say?", "prompt_ko": "블록을 쌓고 있어. 뭐라고 해?", "options": [ { "e": "🧱", "en": "Stack them up." }, { "e": "🛁", "en": "Take a bath." }, { "e": "🚪", "en": "Close the door." } ] },
+    { "prompt_en": "Where does the cargo ship go?", "prompt_ko": "화물선은 어디로 다녀?", "options": [ { "e": "🌊", "en": "the ocean" }, { "e": "🛣️", "en": "the road" }, { "e": "☁️", "en": "the sky" } ] },
+    { "prompt_en": "What can go in a box on the ship?", "prompt_ko": "배에 실린 상자에 들어갈 수 있는 건 뭐야?", "options": [ { "e": "🧸", "en": "toys" }, { "e": "🌙", "en": "the moon" }, { "e": "🌈", "en": "a rainbow" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'It's full of boxes.'의 뜻은?", "options": ["상자로 가득 차 있어.", "상자가 텅 비었어.", "상자가 모자라.", "상자를 다 치웠어."], "explain": "full of ~는 '~로 가득 찬'이라는 뜻입니다." },
+    { "q": "선물 상자를 보고 '안에 뭐가 들었어?'라고 물을 때 알맞은 말은?", "options": ["What's inside?", "What's the inside?", "What inside is?", "What's insiding?"], "explain": "속에 든 것을 물을 때는 간단히 What's inside?라고 합니다." },
+    { "q": "빈칸에 알맞은 말은? — A crane ___ each box.", "options": ["lifts", "lift", "lifting", "is lift"], "explain": "주어 A crane이 단수이므로 동사에 -s를 붙여 lifts가 됩니다." },
+    { "q": "'Load it up.'은 어떤 뜻일까?", "options": ["짐을 가득 실어.", "소리를 키워.", "짐을 내려.", "불을 켜."], "explain": "load는 '짐을 싣다'이고 up이 붙어 '가득 싣다'라는 느낌이 됩니다." },
+    { "q": "'Load it up'을 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["로디럽", "로드 잇 업", "로딧 우프", "라우드 이텁"], "explain": "Load의 d가 it과 이어지고, it의 t가 부드러운 ㄹ 소리로 up과 이어져 '로디럽'처럼 들립니다." },
+    { "q": "'너무 무거워'를 영어로 하면?", "options": ["It's so heavy.", "It's so heavily.", "It's too weight.", "It's so thick."], "explain": "'무거운'은 형용사 heavy를 써서 It's so heavy.라고 합니다." },
+    { "q": "빈칸에 알맞은 말은? — It ___ things across the ocean.", "options": ["carries", "carrys", "carry", "carrying"], "explain": "carry는 주어가 It일 때 y를 i로 바꾸고 -es를 붙여 carries가 됩니다." },
+    { "q": "블록을 정리하며 '차곡차곡 쌓아 봐'라고 할 때 알맞은 말은?", "options": ["Stack them up.", "Stand them up.", "Stick them up.", "Stock them on."], "explain": "위로 포개어 쌓는 것은 stack up입니다." },
+    { "q": "'Load it up!'을 쓰기에 가장 알맞은 상황은?", "options": ["여행 가기 전 차에 가방을 실을 때", "짐을 다 내리고 났을 때", "텔레비전 소리가 작을 때", "아이가 배고프다고 할 때"], "explain": "차, 배, 카트 등에 짐을 싣자고 할 때 쓰는 말입니다." },
+    { "q": "'cargo ship'에서 cargo의 뜻은?", "options": ["화물", "승객", "선장", "항구"], "explain": "cargo는 배나 비행기로 실어 나르는 짐, 즉 화물입니다." }
+  ]
+}

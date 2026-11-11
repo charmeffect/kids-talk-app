@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 106,
+  "topic": "daily",
+  "title_en": "Doctor pretend",
+  "title_ko": "병원 놀이",
+  "intro_ko": "부모가 먼저 의사, 아이가 환자가 되어 진찰하다가 중간에 역할을 바꾸는 병원 놀이입니다. 장난감 청진기나 반창고, 숟가락(혀 누르개 대신)을 준비하면 더 실감 나요.",
+  "expressions": [
+    { "en": "Say \"ahh\".", "ko": "'아' 해 봐.", "tip": "목 안을 볼 때 의사가 하는 말이에요. 보통 Open wide(입 크게 벌려)와 함께 써서 'Open wide and say ahh.'라고 합니다.", "who": "parent" },
+    { "en": "Take a deep breath.", "ko": "숨을 크게 들이쉬어 봐.", "tip": "진찰할 때뿐 아니라 아이가 흥분하거나 울 때 진정시키는 말로도 자주 써요. Take a가 이어져 '테이커'처럼 들립니다.", "who": "parent" },
+    { "en": "Does it hurt?", "ko": "아파?", "tip": "다친 곳을 살펴보며 묻는 말이에요. 뒤에 here를 붙이면 '여기가 아파?'가 됩니다. Does it이 이어져 '더짓'처럼 들려요.", "who": "both" },
+    { "en": "You're very brave.", "ko": "정말 용감하구나.", "tip": "주사를 맞거나 무서운 것을 참아 낸 아이를 칭찬할 때 써요. brave에 힘을 주어 말해요.", "who": "parent" },
+    { "en": "Good as new.", "ko": "새것처럼 말끔해. / 다 나았어.", "tip": "다친 곳이 다 낫거나 고장 난 물건을 고쳤을 때 '감쪽같이 멀쩡해졌다'는 뜻으로 써요. Good as가 이어져 '구더즈 뉴'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Hello! I'm the doctor today. What's wrong?", "ko": "안녕하세요! 오늘은 내가 의사 선생님이에요. 어디가 아파요?" },
+    { "who": "kid", "en": "My tummy hurts.", "ko": "배가 아파요.", "practice": true },
+    { "who": "parent", "en": "Oh no. Let me check. Does it hurt here?", "ko": "저런. 한번 볼게요. 여기가 아파요?" },
+    { "who": "kid", "en": "No. It hurts here!", "ko": "아니요. 여기가 아파요!" },
+    { "who": "parent", "en": "I see. Open wide and say \"ahh\".", "ko": "그렇군요. 입 크게 벌리고 '아' 해 보세요." },
+    { "who": "kid", "en": "Ahh!", "ko": "아!" },
+    { "who": "parent", "en": "Good. Now take a deep breath.", "ko": "좋아요. 이제 숨을 크게 들이쉬어 보세요." },
+    { "who": "kid", "en": "What's that thing?", "ko": "그건 뭐예요?" },
+    { "who": "parent", "en": "It's a stethoscope. I can hear your heart.", "ko": "청진기예요. 심장 소리를 들을 수 있어요." },
+    { "who": "kid", "en": "What does it sound like?", "ko": "어떤 소리가 나요?" },
+    { "who": "parent", "en": "Thump, thump, thump. It sounds strong!", "ko": "쿵, 쿵, 쿵. 아주 튼튼한 소리예요!" },
+    { "who": "kid", "en": "Do I need a shot?", "ko": "주사 맞아야 해요?" },
+    { "who": "parent", "en": "Just a tiny one. One, two, three. All done!", "ko": "아주 작은 거 하나만요. 하나, 둘, 셋. 다 됐어요!" },
+    { "who": "kid", "en": "It didn't hurt!", "ko": "하나도 안 아팠어요!", "practice": true },
+    { "who": "parent", "en": "You're very brave. Here's a bandage.", "ko": "정말 용감하네요. 여기 반창고 붙여 줄게요." },
+    { "who": "kid", "en": "Now I'm the doctor!", "ko": "이제 내가 의사 선생님 할래!" },
+    { "who": "parent", "en": "Okay, doctor. I fell down. My arm hurts.", "ko": "네, 선생님. 넘어졌어요. 팔이 아파요." },
+    { "who": "kid", "en": "Does it hurt?", "ko": "아파요?", "practice": true },
+    { "who": "parent", "en": "Ouch! Yes, right there.", "ko": "아야! 네, 바로 거기예요." },
+    { "who": "kid", "en": "Take a deep breath.", "ko": "숨을 크게 들이쉬어 보세요.", "practice": true },
+    { "who": "parent", "en": "Whew. I feel better already.", "ko": "후유. 벌써 좀 나아졌어요." },
+    { "who": "kid", "en": "You're very brave.", "ko": "정말 용감하네요.", "practice": true },
+    { "who": "parent", "en": "Thank you, doctor. My arm is good as new.", "ko": "고맙습니다, 선생님. 팔이 감쪽같이 다 나았어요." },
+    { "who": "kid", "en": "Next patient, please!", "ko": "다음 환자 들어오세요!" }
+  ],
+  "talkMore": [
+    { "en": "What does a doctor do?", "ko": "의사 선생님은 무슨 일을 해?", "sample_en": "Doctors help sick people.", "sample_ko": "아픈 사람들을 도와줘." },
+    { "en": "How do you feel when you get a shot?", "ko": "주사 맞을 때 기분이 어때?", "sample_en": "A little scared.", "sample_ko": "조금 무서워." },
+    { "en": "Who is your next patient?", "ko": "다음 환자는 누구야?", "sample_en": "My teddy bear!", "sample_ko": "내 곰 인형!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Who helps you when you are sick?", "prompt_ko": "아플 때 누가 도와줘?", "options": [ { "e": "🧑‍⚕️", "en": "a doctor" }, { "e": "🧑‍🚀", "en": "an astronaut" }, { "e": "🧑‍🍳", "en": "a cook" } ] },
+    { "prompt_en": "The doctor says, 'Open wide.' What do you say?", "prompt_ko": "의사 선생님이 '입 크게 벌려요' 하면 뭐라고 해?", "options": [ { "e": "😮", "en": "Ahh!" }, { "e": "👋", "en": "Bye-bye!" }, { "e": "😴", "en": "Good night." } ] },
+    { "prompt_en": "Which one goes on a small cut?", "prompt_ko": "살짝 다친 곳에 붙이는 건 뭐야?", "options": [ { "e": "🩹", "en": "a bandage" }, { "e": "🍌", "en": "a banana" }, { "e": "🧦", "en": "a sock" } ] },
+    { "prompt_en": "What does the doctor use to hear your heart?", "prompt_ko": "의사 선생님은 뭐로 심장 소리를 들어?", "options": [ { "e": "🩺", "en": "a stethoscope" }, { "e": "🔨", "en": "a hammer" }, { "e": "🥄", "en": "a spoon" } ] },
+    { "prompt_en": "Your friend falls down. What do you ask?", "prompt_ko": "친구가 넘어졌어. 뭐라고 물어봐?", "options": [ { "e": "🤕", "en": "Does it hurt?" }, { "e": "🍕", "en": "Want some pizza?" }, { "e": "🌧️", "en": "Is it raining?" } ] },
+    { "prompt_en": "Listen: 'Take a deep breath.' What do you do?", "prompt_ko": "잘 들어 봐: 'Take a deep breath.' 어떻게 해야 해?", "options": [ { "e": "😤", "en": "breathe in" }, { "e": "🏃", "en": "run away" }, { "e": "👏", "en": "clap" } ] },
+    { "prompt_en": "Which one is the heart?", "prompt_ko": "심장은 어느 거야?", "options": [ { "e": "❤️", "en": "heart" }, { "e": "🦷", "en": "tooth" }, { "e": "👂", "en": "ear" } ] },
+    { "prompt_en": "You got a shot and did not cry. What does the doctor say?", "prompt_ko": "주사를 맞고도 안 울었어. 의사 선생님이 뭐라고 할까?", "options": [ { "e": "💪", "en": "You're very brave." }, { "e": "🙅", "en": "No, thank you." }, { "e": "😋", "en": "I'm hungry." } ] },
+    { "prompt_en": "The doctor gives you a tiny one in your arm. What is it?", "prompt_ko": "의사 선생님이 팔에 작게 놓아 주는 건 뭐야?", "options": [ { "e": "💉", "en": "a shot" }, { "e": "🍭", "en": "a lollipop" }, { "e": "🎈", "en": "a balloon" } ] },
+    { "prompt_en": "Where do sick people go?", "prompt_ko": "아픈 사람은 어디로 가?", "options": [ { "e": "🏥", "en": "the hospital" }, { "e": "🎡", "en": "the fair" }, { "e": "🏖️", "en": "the beach" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Take a deep breath.'의 뜻은?", "options": ["숨을 크게 들이쉬어 봐.", "숨을 참아 봐.", "깊이 잠들어 봐.", "입을 크게 벌려 봐."], "explain": "deep breath는 '깊은 숨'이므로 Take a deep breath는 숨을 크게 들이쉬라는 말입니다." },
+    { "q": "'Good as new.'는 어떤 뜻일까?", "options": ["새것처럼 말끔해졌어.", "새것이 더 좋아.", "새로 사야 해.", "좋은 소식이야."], "explain": "다친 곳이 다 낫거나 물건을 고쳐서 '새것처럼 멀쩡하다'는 뜻입니다." },
+    { "q": "아이가 넘어졌을 때 '아파?'라고 묻는 자연스러운 말은?", "options": ["Does it hurt?", "Is it hurt?", "Do you pain?", "Are you hurting it?"], "explain": "아픈지 물을 때는 동사 hurt를 써서 Does it hurt?라고 합니다." },
+    { "q": "빈칸에 알맞은 말은? — Open ___ and say \"ahh\".", "options": ["wide", "big", "large", "widely"], "explain": "입을 크게 벌리라는 말은 Open wide로 굳어진 표현입니다." },
+    { "q": "'Does it'을 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["더짓", "더즈 이트", "도즈잇", "더스 잇트"], "explain": "Does의 z 소리가 it과 이어져 '더짓'처럼 들립니다." },
+    { "q": "빈칸에 알맞은 말은? — Do I need a ___? (주사 맞아야 해요?)", "options": ["shot", "shoot", "needle work", "sting"], "explain": "미국 영어에서 '주사'는 일상적으로 shot이라고 합니다." },
+    { "q": "주사를 잘 참은 아이에게 해 줄 칭찬으로 알맞은 것은?", "options": ["You're very brave.", "You're very afraid.", "You're very sorry.", "You're very brief."], "explain": "brave는 '용감한'이라는 뜻으로, 무서운 일을 잘 해냈을 때 칭찬하는 말입니다." },
+    { "q": "'Good as new.'를 쓰기에 알맞은 상황은?", "options": ["부러진 장난감을 고쳐서 다시 잘 될 때", "새 장난감을 선물로 받았을 때", "장난감을 잃어버렸을 때", "장난감을 사 달라고 조를 때"], "explain": "고치거나 나아서 다시 멀쩡해졌을 때 쓰는 표현이며, 새로 산 물건에는 쓰지 않습니다." },
+    { "q": "'I feel better already.'의 뜻은?", "options": ["벌써 좀 나아졌어요.", "아직도 아파요.", "더 잘할 수 있어요.", "이미 다 알고 있어요."], "explain": "feel better는 '몸이나 기분이 나아지다', already는 '벌써'라는 뜻입니다." },
+    { "q": "진찰을 시작하며 '어디가 아파요?'라고 묻는 자연스러운 말은?", "options": ["What's wrong?", "What's bad?", "Where is sick?", "What's your wrong?"], "explain": "어디가 안 좋은지 물을 때는 What's wrong?이 가장 자연스럽습니다." }
+  ]
+}

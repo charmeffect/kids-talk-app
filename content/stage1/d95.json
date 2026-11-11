@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 95,
+  "topic": "space",
+  "title_en": "Saturn's rings",
+  "title_ko": "토성의 고리",
+  "intro_ko": "토성 사진이나 그림책을 함께 보며 고리에 대해 이야기하는 장면입니다. 공에 종이 접시나 훌라후프를 둘러 토성을 만들어 보여 주면 아이가 더 재미있어해요.",
+  "expressions": [
+    { "en": "Saturn has rings.", "ko": "토성에는 고리가 있어.", "tip": "Saturn은 '새턴'에 가깝게 읽어요. ring은 '반지'도 되고 행성의 '고리'도 됩니다.", "who": "both" },
+    { "en": "What are they made of?", "ko": "그건 뭐로 만들어졌어?", "tip": "여러 개일 때는 What are they, 하나일 때는 What's it made of?예요. What are가 이어져 '와러 데이'처럼 들립니다.", "who": "kid" },
+    { "en": "They're made of ice.", "ko": "얼음으로 되어 있어.", "tip": "made of 뒤에 재료를 말해요. made of ice가 이어져 '메이더바이스'처럼 들립니다.", "who": "parent" },
+    { "en": "I want to see it.", "ko": "나 그거 보고 싶어.", "tip": "want to는 빠르게 말하면 '워너'가 돼요. see it도 이어져 '아이 워너 씨잇'처럼 들립니다.", "who": "kid" },
+    { "en": "One of a kind.", "ko": "세상에 하나뿐인 / 아주 특별한", "tip": "똑같은 것이 또 없을 만큼 특별하다는 칭찬이에요. 아이에게 'You're one of a kind.'라고 해 주세요. '워너버 카인드'처럼 이어집니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Look at this picture. Which planet is this?", "ko": "이 사진 봐. 이건 무슨 행성일까?" },
+    { "who": "kid", "en": "It's Saturn!", "ko": "토성이야!" },
+    { "who": "parent", "en": "How do you know?", "ko": "어떻게 알았어?" },
+    { "who": "kid", "en": "Saturn has rings!", "ko": "토성에는 고리가 있잖아!", "practice": true },
+    { "who": "parent", "en": "That's right. Big, bright rings.", "ko": "맞아. 크고 밝은 고리가 있지." },
+    { "who": "kid", "en": "What are they made of?", "ko": "고리는 뭐로 만들어졌어?", "practice": true },
+    { "who": "parent", "en": "Guess. Rock, or ice?", "ko": "맞혀 봐. 돌일까, 얼음일까?" },
+    { "who": "kid", "en": "Um... rock?", "ko": "음... 돌?" },
+    { "who": "parent", "en": "Close! They're made of ice, with a little rock.", "ko": "비슷해! 얼음으로 되어 있고, 돌도 조금 섞여 있어." },
+    { "who": "kid", "en": "Ice? Like ice cubes?", "ko": "얼음? 얼음 조각 같은 거?", "practice": true },
+    { "who": "parent", "en": "Yes! Some are tiny, and some are as big as a house.", "ko": "응! 아주 작은 것도 있고, 집만큼 큰 것도 있어." },
+    { "who": "kid", "en": "Whoa! Can we stand on Saturn?", "ko": "우와! 토성 위에 설 수 있어?" },
+    { "who": "parent", "en": "No. Saturn is made of gas. There's no ground.", "ko": "아니. 토성은 가스로 되어 있어서 땅이 없어." },
+    { "who": "kid", "en": "Is Saturn bigger than Earth?", "ko": "토성은 지구보다 커?", "practice": true },
+    { "who": "parent", "en": "Much bigger! It's a giant planet.", "ko": "훨씬 크지! 아주 거대한 행성이야." },
+    { "who": "kid", "en": "I want to see it!", "ko": "나 토성 보고 싶어!", "practice": true },
+    { "who": "parent", "en": "We need a telescope to see the rings.", "ko": "고리를 보려면 망원경이 있어야 해." },
+    { "who": "kid", "en": "Can we get a telescope?", "ko": "우리 망원경 살 수 있어?" },
+    { "who": "parent", "en": "Let's visit a place with a big telescope first.", "ko": "먼저 큰 망원경이 있는 곳에 가 보자." },
+    { "who": "kid", "en": "Do other planets have rings?", "ko": "다른 행성도 고리가 있어?" },
+    { "who": "parent", "en": "Some have thin ones. But Saturn is one of a kind.", "ko": "가느다란 고리가 있는 행성도 있어. 그래도 토성은 정말 특별해." },
+    { "who": "kid", "en": "Saturn is my favorite now!", "ko": "이제 토성이 제일 좋아!" }
+  ],
+  "talkMore": [
+    { "en": "What do Saturn's rings look like to you?", "ko": "토성의 고리는 뭐처럼 보여?", "sample_en": "Like a hula hoop!", "sample_ko": "훌라후프 같아!" },
+    { "en": "What do you want to see with a telescope?", "ko": "망원경으로 뭘 보고 싶어?", "sample_en": "Saturn and the moon!", "sample_ko": "토성이랑 달!" },
+    { "en": "What else is made of ice?", "ko": "얼음으로 된 건 또 뭐가 있을까?", "sample_en": "A skating rink!", "sample_ko": "스케이트장!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is Saturn?", "prompt_ko": "토성은 어느 거야?", "options": [ { "e": "🪐", "en": "Saturn" }, { "e": "🌙", "en": "the moon" }, { "e": "☀️", "en": "the sun" } ] },
+    { "prompt_en": "What does Saturn have?", "prompt_ko": "토성에는 뭐가 있지?", "options": [ { "e": "⭕", "en": "rings" }, { "e": "🎩", "en": "a hat" }, { "e": "👟", "en": "shoes" } ] },
+    { "prompt_en": "What are Saturn's rings made of?", "prompt_ko": "토성의 고리는 뭐로 되어 있어?", "options": [ { "e": "🧊", "en": "ice" }, { "e": "🍫", "en": "chocolate" }, { "e": "📄", "en": "paper" } ] },
+    { "prompt_en": "What do we need to see Saturn's rings?", "prompt_ko": "토성의 고리를 보려면 뭐가 필요해?", "options": [ { "e": "🔭", "en": "a telescope" }, { "e": "🥄", "en": "a spoon" }, { "e": "🧢", "en": "a cap" } ] },
+    { "prompt_en": "Which one is the biggest?", "prompt_ko": "어느 게 제일 클까?", "options": [ { "e": "🪐", "en": "Saturn" }, { "e": "🌍", "en": "Earth" }, { "e": "🏠", "en": "a house" } ] },
+    { "prompt_en": "You want to look at Saturn. What do you say?", "prompt_ko": "토성을 보고 싶어. 뭐라고 해?", "options": [ { "e": "🤩", "en": "I want to see it!" }, { "e": "😴", "en": "I'm sleepy." }, { "e": "🙅", "en": "No, thank you." } ] },
+    { "prompt_en": "Can we stand on Saturn?", "prompt_ko": "토성 위에 설 수 있을까?", "options": [ { "e": "🙅", "en": "No, it's gas." }, { "e": "🏖️", "en": "Yes, on sand." }, { "e": "🌱", "en": "Yes, on grass." } ] },
+    { "prompt_en": "Which one is ice?", "prompt_ko": "얼음은 어느 거야?", "options": [ { "e": "🧊", "en": "ice" }, { "e": "🔥", "en": "fire" }, { "e": "🍞", "en": "bread" } ] },
+    { "prompt_en": "Where is Saturn?", "prompt_ko": "토성은 어디에 있어?", "options": [ { "e": "🌌", "en": "in space" }, { "e": "🌊", "en": "in the sea" }, { "e": "🏫", "en": "at school" } ] },
+    { "prompt_en": "Which planet do we live on?", "prompt_ko": "우리는 어느 행성에 살아?", "options": [ { "e": "🌍", "en": "Earth" }, { "e": "🪐", "en": "Saturn" }, { "e": "🌙", "en": "the moon" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'One of a kind.'는 어떤 뜻일까?", "options": ["세상에 하나뿐인, 아주 특별한", "여러 종류 중 하나", "착한 사람 중 한 명", "한 가지만 골라"], "explain": "같은 종류가 하나밖에 없다는 뜻으로, 아주 특별하다는 칭찬에 씁니다." },
+    { "q": "고리가 여러 개일 때 '그건 뭐로 만들어졌어?'를 영어로 하면?", "options": ["What are they made of?", "What is they made of?", "What are they made by?", "What do they made of?"], "explain": "여러 개(they)이므로 are를 쓰고, 재료를 물을 때는 made of를 씁니다." },
+    { "q": "빈칸에 알맞은 말은? — They're made ___ ice.", "options": ["of", "by", "with", "for"], "explain": "be made of 뒤에 재료가 옵니다. made by 뒤에는 만든 사람이 옵니다." },
+    { "q": "'I want to see it.'을 빠르게 말하면 어떻게 들릴까?", "options": ["아이 워너 씨잇", "아이 원트 투 씨 이트", "아이 원투 시트", "아이 원 씨 잇"], "explain": "want to는 '워너'로 줄고 see it은 '씨잇'으로 이어집니다." },
+    { "q": "아이를 'You're one of a kind.'라고 칭찬하면 어떤 의미일까?", "options": ["너는 세상에 하나뿐인 특별한 아이야.", "너는 참 친절한 아이야.", "너는 다른 애들과 똑같아.", "너는 우리 집 첫째야."], "explain": "여기서 kind는 '친절한'이 아니라 '종류'로, 하나뿐인 특별한 존재라는 뜻입니다." },
+    { "q": "빈칸에 알맞은 말은? — Some are as big ___ a house.", "options": ["as", "than", "like", "so"], "explain": "'~만큼 큰'은 as big as로 말합니다." },
+    { "q": "'토성은 지구보다 훨씬 커'를 영어로 하면?", "options": ["Saturn is much bigger than Earth.", "Saturn is very bigger than Earth.", "Saturn is more big than Earth.", "Saturn is much big as Earth."], "explain": "비교급 bigger를 강조할 때는 very가 아니라 much를 씁니다." },
+    { "q": "'There's no ground.'의 뜻은?", "options": ["땅이 없어.", "운동장이 없어.", "바닥에 내려놓지 마.", "이유가 없어."], "explain": "ground는 '땅, 지면'으로, 가스 행성인 토성에는 디딜 땅이 없다는 말입니다." },
+    { "q": "아이가 틀렸지만 거의 맞혔을 때 해 주는 말은?", "options": ["Close!", "Near!", "Almost you!", "Closed!"], "explain": "정답에 가까울 때는 Close!(아깝다, 비슷해)라고 합니다." },
+    { "q": "빈칸에 알맞은 말은? — We need a telescope ___ see the rings.", "options": ["to", "for", "at", "of"], "explain": "'~하기 위해'는 to + 동사로 말합니다: to see the rings." }
+  ]
+}

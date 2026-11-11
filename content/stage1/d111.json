@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 111,
+  "topic": "daily",
+  "title_en": "Board game",
+  "title_ko": "보드게임",
+  "intro_ko": "아이와 주사위 보드게임을 하는 장면입니다. 실제 주사위와 말을 꺼내 놓고, 곰 인형(Teddy)을 세 번째 선수로 앉혀 두면 대화가 더 재미있어져요.",
+  "expressions": [
+    { "en": "Roll the dice.", "ko": "주사위 굴려.", "tip": "주사위를 던질 차례에 하는 말이에요. 주사위가 한 개여도 일상에서는 보통 dice라고 합니다. '롤더 다이스'처럼 이어 말해요.", "who": "both" },
+    { "en": "It's your turn.", "ko": "네 차례야.", "tip": "차례를 넘겨줄 때 써요. 내 차례면 It's my turn. It's의 ts와 your가 만나 '잇츄어 턴'처럼 들립니다.", "who": "both" },
+    { "en": "I won!", "ko": "내가 이겼어!", "tip": "게임에서 이겼을 때 외치는 말이에요. 졌을 때는 I lost. won은 숫자 one과 발음이 같아서 '아이 원'입니다.", "who": "both" },
+    { "en": "Good game!", "ko": "잘했어! / 좋은 게임이었어!", "tip": "게임이 끝나면 이긴 사람도 진 사람도 서로에게 하는 인사예요. Good의 d는 거의 들리지 않아 '굿게임'처럼 붙여 말합니다.", "who": "both" },
+    { "en": "Better luck next time.", "ko": "다음엔 더 잘될 거야.", "tip": "진 사람을 가볍게 위로할 때 쓰는 표현이에요. Better는 '베러', next time은 t가 하나로 합쳐져 '넥스타임'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Let's play a board game. Teddy wants to play, too.", "ko": "보드게임 하자. 곰돌이도 같이 하고 싶대." },
+    { "who": "kid", "en": "Yay! Can I go first?", "ko": "야호! 내가 먼저 해도 돼?", "practice": true },
+    { "who": "parent", "en": "Sure. Roll the dice.", "ko": "그럼. 주사위 굴려." },
+    { "who": "kid", "en": "I got a five!", "ko": "5 나왔어!" },
+    { "who": "parent", "en": "Move five spaces. One, two, three, four, five.", "ko": "다섯 칸 가. 하나, 둘, 셋, 넷, 다섯." },
+    { "who": "kid", "en": "It's your turn.", "ko": "이제 엄마(아빠) 차례야.", "practice": true },
+    { "who": "parent", "en": "Okay, here I go. I got a two.", "ko": "좋아, 간다. 2가 나왔네." },
+    { "who": "kid", "en": "Only two? Ha ha!", "ko": "겨우 2야? 하하!" },
+    { "who": "parent", "en": "Uh-oh. I landed on a slide. I have to go back.", "ko": "이런. 미끄럼틀 칸이네. 뒤로 가야 해." },
+    { "who": "kid", "en": "Why do you go back?", "ko": "왜 뒤로 가?", "practice": true },
+    { "who": "parent", "en": "That's the rule. Slides take you down.", "ko": "규칙이 그래. 미끄럼틀을 타면 내려가거든." },
+    { "who": "kid", "en": "What about Teddy?", "ko": "곰돌이는?" },
+    { "who": "parent", "en": "I'll roll for him. He got a one.", "ko": "내가 대신 굴려 줄게. 1이 나왔네." },
+    { "who": "kid", "en": "My turn! I got a six!", "ko": "내 차례! 6 나왔어!" },
+    { "who": "parent", "en": "Wow, a six! You can climb the ladder.", "ko": "우와, 6이네! 사다리 타고 올라가." },
+    { "who": "kid", "en": "I'm at the finish. I won!", "ko": "도착했어. 내가 이겼어!", "practice": true },
+    { "who": "parent", "en": "You did! Good game!", "ko": "그러네! 잘했어!" },
+    { "who": "kid", "en": "Good game!", "ko": "잘했어!", "practice": true },
+    { "who": "parent", "en": "Poor Teddy came in last. Better luck next time, Teddy.", "ko": "곰돌이가 꼴찌네. 곰돌아, 다음엔 더 잘될 거야." },
+    { "who": "kid", "en": "Don't be sad, Teddy.", "ko": "곰돌아, 속상해하지 마." },
+    { "who": "parent", "en": "That's kind of you. Do you want to play again?", "ko": "마음이 예쁘네. 한 판 더 할까?" },
+    { "who": "kid", "en": "Yes! One more game!", "ko": "응! 한 판 더!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What's your favorite game?", "ko": "제일 좋아하는 게임이 뭐야?", "sample_en": "The ladder game!", "sample_ko": "사다리 게임!" },
+    { "en": "How do you feel when you lose?", "ko": "지면 기분이 어때?", "sample_en": "A little sad.", "sample_ko": "조금 속상해." },
+    { "en": "Who do you want to play with next time?", "ko": "다음엔 누구랑 하고 싶어?", "sample_en": "With Grandma!", "sample_ko": "할머니랑!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one do you roll in a board game?", "prompt_ko": "보드게임에서 굴리는 건 어느 거야?", "options": [ { "e": "🎲", "en": "dice" }, { "e": "🥄", "en": "spoon" }, { "e": "🧦", "en": "sock" } ] },
+    { "prompt_en": "You are done. Now your friend can go. What do you say?", "prompt_ko": "나는 다 했어. 이제 친구가 할 차례야. 뭐라고 해?", "options": [ { "e": "👉", "en": "It's your turn." }, { "e": "😴", "en": "Good night." }, { "e": "😋", "en": "I'm hungry." } ] },
+    { "prompt_en": "You get to the finish first! What do you say?", "prompt_ko": "내가 제일 먼저 도착했어! 뭐라고 해?", "options": [ { "e": "🏆", "en": "I won!" }, { "e": "😢", "en": "I'm sad." }, { "e": "👋", "en": "Bye-bye." } ] },
+    { "prompt_en": "The game is over. What do you say to your friend?", "prompt_ko": "게임이 끝났어. 친구에게 뭐라고 해?", "options": [ { "e": "🤝", "en": "Good game!" }, { "e": "🙈", "en": "Go away!" }, { "e": "🍎", "en": "An apple." } ] },
+    { "prompt_en": "Which one helps you climb up?", "prompt_ko": "위로 올라갈 때 쓰는 건 어느 거야?", "options": [ { "e": "🪜", "en": "ladder" }, { "e": "🛏️", "en": "bed" }, { "e": "🥣", "en": "bowl" } ] },
+    { "prompt_en": "Who came in last in our game?", "prompt_ko": "우리 게임에서 누가 꼴찌였지?", "options": [ { "e": "🧸", "en": "Teddy" }, { "e": "🐱", "en": "a cat" }, { "e": "🐟", "en": "a fish" } ] },
+    { "prompt_en": "Listen: 'Roll the dice.' What do you do?", "prompt_ko": "잘 들어 봐: 'Roll the dice.' 뭘 해야 해?", "options": [ { "e": "🎲", "en": "roll the dice" }, { "e": "🛁", "en": "take a bath" }, { "e": "🪥", "en": "brush my teeth" } ] },
+    { "prompt_en": "Which number is the biggest on the dice?", "prompt_ko": "주사위에서 제일 큰 숫자는 뭐야?", "options": [ { "e": "6️⃣", "en": "six" }, { "e": "1️⃣", "en": "one" }, { "e": "2️⃣", "en": "two" } ] },
+    { "prompt_en": "You want to play again. What do you say?", "prompt_ko": "한 판 더 하고 싶어. 뭐라고 해?", "options": [ { "e": "☝️", "en": "One more game!" }, { "e": "🛑", "en": "Stop it!" }, { "e": "🥱", "en": "I'm sleepy." } ] },
+    { "prompt_en": "Which one do you get when you win?", "prompt_ko": "이기면 받는 건 어느 거야?", "options": [ { "e": "🏅", "en": "a medal" }, { "e": "🧹", "en": "a broom" }, { "e": "🧅", "en": "an onion" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'It's your turn.'의 뜻은?", "options": ["네 차례야.", "네가 돌아.", "네 잘못이야.", "네 자리야."], "explain": "turn은 여기서 '차례'라는 뜻이라 It's your turn.은 '네 차례야'입니다." },
+    { "q": "아이에게 '주사위 굴려'라고 할 때 알맞은 말은?", "options": ["Roll the dice.", "Turn the dice.", "Spin the dice.", "Round the dice."], "explain": "주사위를 굴리는 것은 roll을 써서 Roll the dice.라고 합니다." },
+    { "q": "'Better luck next time.'은 누구에게 하는 말일까?", "options": ["게임에서 진 사람", "게임에서 이긴 사람", "게임을 처음 하는 사람", "규칙을 어긴 사람"], "explain": "진 사람에게 '다음엔 더 잘될 거야'라고 가볍게 위로하는 표현입니다." },
+    { "q": "'내가 이겼어!'를 영어로 하면?", "options": ["I won!", "I win you!", "I am win!", "I did won!"], "explain": "win의 과거형 won을 써서 I won!이라고 합니다." },
+    { "q": "빈칸에 알맞은 말은? — Uh-oh. I ___ on a slide.", "options": ["landed", "arrived", "dropped", "stood"], "explain": "말이 어떤 칸에 걸렸을 때 land on(~칸에 도착하다)을 씁니다." },
+    { "q": "'It's your turn.'을 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["잇츄어 턴", "이트 이즈 유어 턴", "잇스 요 투른", "이츠 유아 턴느"], "explain": "It's의 ts와 your의 y가 만나 '츄' 소리가 나서 '잇츄어 턴'처럼 들립니다." },
+    { "q": "게임이 끝난 뒤 'Good game!'은 언제 쓸까?", "options": ["이기든 지든 서로에게 하는 인사", "이긴 사람만 하는 말", "게임을 시작할 때 하는 말", "게임이 지루할 때 하는 말"], "explain": "Good game!은 결과와 상관없이 서로 잘했다고 나누는 인사입니다." },
+    { "q": "빈칸에 알맞은 말은? — Poor Teddy came in ___.", "options": ["last", "end", "late", "final"], "explain": "come in last는 '꼴찌로 들어오다'라는 뜻이고, 1등은 come in first입니다." },
+    { "q": "아이가 'Can I go first?'라고 물었어요. 무슨 뜻일까?", "options": ["내가 먼저 해도 돼?", "내가 마지막에 해도 돼?", "1등 해도 돼?", "첫 번째 칸에 가도 돼?"], "explain": "게임에서 go first는 '먼저 하다'라는 뜻입니다." },
+    { "q": "'한 판 더 할까?'라고 물을 때 알맞은 말은?", "options": ["Do you want to play again?", "Do you want to play more one?", "Do you play again game?", "Will you again play?"], "explain": "다시 하자고 할 때는 Do you want to play again?이 자연스럽습니다." }
+  ]
+}

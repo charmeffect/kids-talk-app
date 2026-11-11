@@ -1,0 +1,69 @@
+{
+  "stage": 1,
+  "day": 87,
+  "topic": "science",
+  "title_en": "Heavy and light",
+  "title_ko": "무거운 것과 가벼운 것",
+  "intro_ko": "집에 있는 물건을 양손에 들어 보며 무게를 비교하는 과학 놀이입니다. 책, 양말, 쌀 봉지, 풍선, 작은 돌, 숟가락 두 개를 준비해 실제로 들어 보게 해 주세요.",
+  "expressions": [
+    { "en": "Which one is heavier?", "ko": "어느 게 더 무거워?", "tip": "두 물건을 양손에 들려 주고 묻는 말이에요. Which one is가 이어져 '위치워니즈'처럼 들립니다.", "who": "both" },
+    { "en": "Lift it up.", "ko": "들어 올려 봐.", "tip": "물건을 들어 보라고 할 때 써요. 세 단어가 이어져 '리프티럽'처럼 들립니다.", "who": "parent" },
+    { "en": "I can't lift it!", "ko": "못 들겠어!", "tip": "너무 무거워서 들 수 없을 때 하는 말이에요. can은 약하게 '큰'처럼 말하고, can't는 '캔ㅌ' 하고 '애' 소리를 세고 분명하게 말해야 구별됩니다.", "who": "kid" },
+    { "en": "They're the same.", "ko": "둘이 똑같아.", "tip": "무게나 크기가 같을 때 써요. They're는 '데어'처럼 짧게 말하고 same을 강하게 말합니다.", "who": "both" },
+    { "en": "Light as a feather.", "ko": "깃털처럼 가벼워.", "tip": "아주 가볍다는 것을 깃털에 빗댄 표현이에요. 보통 'It's light as a feather.'로 쓰고, Light as a는 '라이러저'처럼 이어집니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Let's play a science game. Hold out your hands.", "ko": "과학 놀이 하자. 두 손을 내밀어 봐." },
+    { "who": "kid", "en": "Okay! What is it?", "ko": "좋아! 뭔데?" },
+    { "who": "parent", "en": "Here's a book and a sock. Which one is heavier?", "ko": "여기 책이랑 양말이 있어. 어느 게 더 무거워?" },
+    { "who": "kid", "en": "The book is heavier!", "ko": "책이 더 무거워!", "practice": true },
+    { "who": "parent", "en": "You're right. Now try this bag of rice. Lift it up.", "ko": "맞아. 이번엔 이 쌀 봉지야. 들어 올려 봐." },
+    { "who": "kid", "en": "Ugh! I can't lift it!", "ko": "으악! 못 들겠어!", "practice": true },
+    { "who": "parent", "en": "It's really heavy. Let's lift it together.", "ko": "진짜 무겁지. 같이 들어 보자." },
+    { "who": "kid", "en": "One, two, three! We did it!", "ko": "하나, 둘, 셋! 해냈다!" },
+    { "who": "parent", "en": "Now hold this balloon. Is it heavy?", "ko": "이제 이 풍선을 들어 봐. 무거워?" },
+    { "who": "kid", "en": "No! It's so light.", "ko": "아니! 엄청 가벼워." },
+    { "who": "parent", "en": "Right. It's light as a feather.", "ko": "그렇지. 깃털처럼 가볍지." },
+    { "who": "kid", "en": "But it's so big! Why?", "ko": "근데 이렇게 큰데! 왜 가벼워?" },
+    { "who": "parent", "en": "Big things aren't always heavy. It's full of air.", "ko": "크다고 다 무거운 건 아니야. 안에 공기만 들어 있거든." },
+    { "who": "kid", "en": "What about this little rock?", "ko": "이 작은 돌은 어때?" },
+    { "who": "parent", "en": "Feel it. It's small, but it's heavy.", "ko": "들어 봐. 작지만 무겁지." },
+    { "who": "kid", "en": "Wow! Small but heavy!", "ko": "우와! 작은데 무거워!" },
+    { "who": "parent", "en": "Now hold these two spoons. Which one is heavier?", "ko": "이제 숟가락 두 개를 들어 봐. 어느 게 더 무거워?" },
+    { "who": "kid", "en": "Hmm... They're the same.", "ko": "음... 둘이 똑같아.", "practice": true },
+    { "who": "parent", "en": "Good job. They're the same size and the same weight.", "ko": "잘했어. 크기도 같고 무게도 같아." },
+    { "who": "kid", "en": "Which one is heavier, you or me?", "ko": "엄마(아빠)랑 나 중에 누가 더 무거워?", "practice": true },
+    { "who": "parent", "en": "I am! But you're growing every day.", "ko": "나지! 그래도 넌 매일 크고 있잖아." },
+    { "who": "kid", "en": "Can you lift me up?", "ko": "나 들어 올릴 수 있어?", "practice": true },
+    { "who": "parent", "en": "Sure! Whoa, you're not light as a feather anymore!", "ko": "그럼! 어이쿠, 이제 깃털처럼 가볍지 않네!" }
+  ],
+  "talkMore": [
+    { "en": "What is the heaviest thing in our house?", "ko": "우리 집에서 제일 무거운 건 뭘까?", "sample_en": "The fridge!", "sample_ko": "냉장고!" },
+    { "en": "What is light as a feather?", "ko": "깃털처럼 가벼운 건 뭐가 있을까?", "sample_en": "A balloon and a leaf.", "sample_ko": "풍선이랑 나뭇잎." },
+    { "en": "Which one is heavier, a ship or a plane?", "ko": "배랑 비행기 중에 어느 게 더 무거울까?", "sample_en": "A big ship!", "sample_ko": "큰 배!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which animal is the heaviest?", "prompt_ko": "어느 동물이 제일 무거워?", "options": [ { "e": "🐘", "en": "elephant" }, { "e": "🐭", "en": "mouse" }, { "e": "🐜", "en": "ant" } ] },
+    { "prompt_en": "Which one is light as a feather?", "prompt_ko": "깃털처럼 가벼운 건 어느 거야?", "options": [ { "e": "🎈", "en": "balloon" }, { "e": "🚌", "en": "bus" }, { "e": "🐘", "en": "elephant" } ] },
+    { "prompt_en": "The bag is too heavy. What do you say?", "prompt_ko": "가방이 너무 무거워. 뭐라고 해?", "options": [ { "e": "😫", "en": "I can't lift it!" }, { "e": "😴", "en": "Good night." }, { "e": "🎂", "en": "Happy birthday!" } ] },
+    { "prompt_en": "Two spoons are just as heavy. What do you say?", "prompt_ko": "숟가락 두 개가 똑같이 무거워. 뭐라고 해?", "options": [ { "e": "🥄", "en": "They're the same." }, { "e": "🌧️", "en": "It's raining." }, { "e": "👋", "en": "Bye-bye." } ] },
+    { "prompt_en": "What did we lift together?", "prompt_ko": "우리가 같이 들어 올린 건 뭐야?", "options": [ { "e": "🍚", "en": "a bag of rice" }, { "e": "🎈", "en": "a balloon" }, { "e": "🧦", "en": "a sock" } ] },
+    { "prompt_en": "Which one is small but heavy?", "prompt_ko": "작지만 무거운 건 어느 거야?", "options": [ { "e": "🪨", "en": "a rock" }, { "e": "🎈", "en": "a balloon" }, { "e": "🧦", "en": "a sock" } ] },
+    { "prompt_en": "You want to pick up a box. What do you do?", "prompt_ko": "상자를 들고 싶어. 어떻게 해?", "options": [ { "e": "💪", "en": "Lift it up." }, { "e": "😴", "en": "Go to sleep." }, { "e": "🏃", "en": "Run away." } ] },
+    { "prompt_en": "Which one tells us how heavy things are?", "prompt_ko": "얼마나 무거운지 알려 주는 건 어느 거야?", "options": [ { "e": "⚖️", "en": "a scale" }, { "e": "⏰", "en": "a clock" }, { "e": "🥄", "en": "a spoon" } ] },
+    { "prompt_en": "Which one is a feather?", "prompt_ko": "깃털은 어느 거야?", "options": [ { "e": "🪶", "en": "feather" }, { "e": "🔑", "en": "key" }, { "e": "👟", "en": "shoe" } ] },
+    { "prompt_en": "Which one can you lift?", "prompt_ko": "네가 들 수 있는 건 어느 거야?", "options": [ { "e": "🧸", "en": "a teddy bear" }, { "e": "🚗", "en": "a car" }, { "e": "🏠", "en": "a house" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Which one is heavier?'의 뜻은?", "options": ["어느 게 더 무거워?", "어느 게 더 커?", "어느 게 더 비싸?", "어느 게 네 거야?"], "explain": "heavier는 heavy(무거운)의 비교급으로 '더 무거운'이라는 뜻입니다." },
+    { "q": "'It's light as a feather.'는 어떤 뜻일까?", "options": ["깃털처럼 아주 가벼워.", "깃털처럼 밝게 빛나.", "깃털처럼 부드러워.", "새처럼 빨리 날아."], "explain": "여기서 light는 '밝은'이 아니라 '가벼운'이라는 뜻으로, 아주 가볍다는 비유입니다." },
+    { "q": "'너무 무거워서 못 들겠어!'라고 할 때 알맞은 말은?", "options": ["I can't lift it!", "I can't rise it!", "I can't heavy it!", "I can't carry on!"], "explain": "물건을 들어 올리는 것은 lift이므로 I can't lift it!이 맞습니다." },
+    { "q": "빈칸에 알맞은 말은? — Big things aren't ___ heavy.", "options": ["always", "never", "all", "ever"], "explain": "not always는 '항상 ~인 것은 아니다'라는 뜻입니다." },
+    { "q": "'Lift it up'을 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["리프티럽", "리프트 이트 업", "라이프티업", "리프팃 우프"], "explain": "lift의 t와 it, it의 t와 up이 이어져 '리프티럽'처럼 들립니다." },
+    { "q": "'더 무거운'을 뜻하는 heavy의 알맞은 형태는?", "options": ["heavier", "more heavy", "heavyer", "heaviest"], "explain": "y로 끝나는 짧은 형용사는 y를 i로 바꾸고 -er을 붙여 heavier가 됩니다." },
+    { "q": "'They're the same.'의 뜻은?", "options": ["둘이 똑같아.", "둘 다 무거워.", "저건 내 거야.", "거기에 있어."], "explain": "same은 '같은'이라는 뜻으로 항상 the와 함께 the same으로 씁니다." },
+    { "q": "오늘 대화에서 풍선이 크지만 가벼운 이유는?", "options": ["안에 공기만 들어 있어서", "안에 물이 가득 차 있어서", "고무가 아주 두꺼워서", "색깔이 밝아서"], "explain": "대화에서 'It's full of air.'라고 했듯이 풍선 안에는 가벼운 공기만 들어 있습니다." },
+    { "q": "heavy(무거운)의 반대말은?", "options": ["light", "bright", "low", "thin"], "explain": "light는 '가벼운'과 '밝은' 두 가지 뜻이 있고, 무게를 말할 때는 heavy의 반대말입니다." },
+    { "q": "빈칸에 알맞은 말은? — It's small, ___ it's heavy.", "options": ["but", "so", "because", "or"], "explain": "'작지만 무겁다'처럼 반대되는 내용을 이을 때는 but을 씁니다." }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 69,
+  "topic": "planes",
+  "title_en": "Control tower",
+  "title_ko": "관제탑",
+  "intro_ko": "부모가 관제탑, 아이가 조종사가 되어 공항 놀이를 하는 장면입니다. 손을 입에 대고 무전기처럼 말하고, 중간에 역할을 바꿔 아이가 관제탑이 되게 해 주세요.",
+  "expressions": [
+    { "en": "Can you hear me?", "ko": "내 말 들려?", "tip": "전화나 영상 통화, 멀리 있는 사람에게 소리가 잘 들리는지 확인할 때 써요. Can you가 이어져 '캐뉴 히어미'처럼 들립니다.", "who": "both" },
+    { "en": "You're clear to land.", "ko": "착륙해도 좋아.", "tip": "관제탑이 조종사에게 착륙을 허락하는 말이에요. 여기서 clear는 '막는 것이 없어 해도 되는'이라는 뜻입니다.", "who": "both" },
+    { "en": "Wait your turn.", "ko": "네 차례를 기다려.", "tip": "놀이터나 줄 설 때 아주 자주 쓰는 말이에요. Wait의 t와 your가 만나 '웨이츄어 턴'처럼 들립니다.", "who": "both" },
+    { "en": "Go ahead.", "ko": "어서 해. / 그렇게 해.", "tip": "'해도 돼'라고 허락하거나 먼저 하라고 양보할 때 써요. 두 단어가 이어져 '고어헤드'처럼 들립니다.", "who": "both" },
+    { "en": "Loud and clear.", "ko": "아주 잘 들려.", "tip": "Can you hear me?에 대한 대답으로 '크고 또렷하게 잘 들린다'는 뜻이에요. and가 약해져 '라우든 클리어'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Let's play airport. I'm the control tower.", "ko": "공항 놀이 하자. 나는 관제탑이야." },
+    { "who": "kid", "en": "What does the tower do?", "ko": "관제탑은 뭘 해?" },
+    { "who": "parent", "en": "It tells planes when to land and take off.", "ko": "비행기한테 언제 내리고 뜰지 알려 줘." },
+    { "who": "kid", "en": "I'm the pilot! Zoom!", "ko": "나는 조종사야! 슈웅!" },
+    { "who": "parent", "en": "Hello, pilot. Can you hear me?", "ko": "조종사님, 안녕하세요. 내 말 들려요?" },
+    { "who": "kid", "en": "Yes! Can you hear me?", "ko": "네! 내 말도 들려요?", "practice": true },
+    { "who": "parent", "en": "Loud and clear.", "ko": "아주 잘 들려요." },
+    { "who": "kid", "en": "Can I land now?", "ko": "지금 착륙해도 돼요?", "practice": true },
+    { "who": "parent", "en": "Not yet. Another plane is on the runway. Wait your turn.", "ko": "아직이요. 활주로에 다른 비행기가 있어요. 차례를 기다려요." },
+    { "who": "kid", "en": "Why do I have to wait?", "ko": "왜 기다려야 해?" },
+    { "who": "parent", "en": "So the planes don't bump into each other.", "ko": "비행기끼리 부딪치지 않게 하려고." },
+    { "who": "kid", "en": "Okay. I'm flying in circles.", "ko": "알았어. 빙글빙글 돌고 있을게." },
+    { "who": "parent", "en": "Good job. The runway is empty now. You're clear to land.", "ko": "잘했어요. 이제 활주로가 비었어요. 착륙해도 좋아요." },
+    { "who": "kid", "en": "Here I come! Whoosh!", "ko": "내려갑니다! 슈우웅!" },
+    { "who": "parent", "en": "Nice landing! Now you're the tower.", "ko": "멋진 착륙이야! 이제 네가 관제탑 해." },
+    { "who": "kid", "en": "Hello, plane! This is the tower.", "ko": "비행기님, 안녕하세요! 여기는 관제탑이에요." },
+    { "who": "parent", "en": "Hello, tower. May I take off?", "ko": "관제탑님, 안녕하세요. 이륙해도 될까요?" },
+    { "who": "kid", "en": "Wait your turn!", "ko": "차례를 기다려요!", "practice": true },
+    { "who": "parent", "en": "Okay, I'm waiting. How about now?", "ko": "네, 기다릴게요. 지금은 어때요?" },
+    { "who": "kid", "en": "Go ahead!", "ko": "어서 가세요!", "practice": true },
+    { "who": "parent", "en": "Thank you. Up I go! Now I'm coming back.", "ko": "고마워요. 올라갑니다! 이제 다시 돌아갈게요." },
+    { "who": "kid", "en": "You're clear to land!", "ko": "착륙해도 좋아요!", "practice": true },
+    { "who": "parent", "en": "Thanks, tower. You kept everyone safe.", "ko": "고마워요, 관제탑님. 덕분에 모두 안전했어요." },
+    { "who": "kid", "en": "That's my job!", "ko": "그게 내 일이니까요!" }
+  ],
+  "talkMore": [
+    { "en": "Do you want to be the pilot or the tower?", "ko": "조종사가 되고 싶어, 관제탑이 되고 싶어?", "sample_en": "The pilot!", "sample_ko": "조종사!" },
+    { "en": "When do you have to wait your turn?", "ko": "너는 언제 차례를 기다려야 해?", "sample_en": "On the slide.", "sample_ko": "미끄럼틀에서." },
+    { "en": "Where do you want to fly?", "ko": "비행기를 타고 어디로 가고 싶어?", "sample_en": "To the beach!", "sample_ko": "바닷가로!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a plane?", "prompt_ko": "비행기는 어느 거야?", "options": [ { "e": "✈️", "en": "plane" }, { "e": "🚢", "en": "ship" }, { "e": "🚲", "en": "bike" } ] },
+    { "prompt_en": "Who flies the plane?", "prompt_ko": "비행기는 누가 조종해?", "options": [ { "e": "🧑‍✈️", "en": "pilot" }, { "e": "🧑‍🍳", "en": "cook" }, { "e": "🧑‍🌾", "en": "farmer" } ] },
+    { "prompt_en": "The tower asks, 'Can you hear me?' What do you say?", "prompt_ko": "관제탑이 'Can you hear me?'라고 물어. 뭐라고 해?", "options": [ { "e": "👍", "en": "Loud and clear!" }, { "e": "🍕", "en": "Pizza, please." }, { "e": "😴", "en": "Good night." } ] },
+    { "prompt_en": "Another plane is on the runway. What does the tower say?", "prompt_ko": "활주로에 다른 비행기가 있어. 관제탑이 뭐라고 해?", "options": [ { "e": "✋", "en": "Wait your turn." }, { "e": "🎂", "en": "Happy birthday!" }, { "e": "🛌", "en": "Go to bed." } ] },
+    { "prompt_en": "The runway is empty. What does the tower say?", "prompt_ko": "활주로가 비었어. 관제탑이 뭐라고 해?", "options": [ { "e": "🛬", "en": "You're clear to land." }, { "e": "🍎", "en": "Eat an apple." }, { "e": "🧦", "en": "Put on your socks." } ] },
+    { "prompt_en": "What do we hear with?", "prompt_ko": "소리는 뭐로 들어?", "options": [ { "e": "👂", "en": "ears" }, { "e": "👃", "en": "nose" }, { "e": "🦶", "en": "foot" } ] },
+    { "prompt_en": "Your friend asks, 'Can I go first?' You say yes. What do you say?", "prompt_ko": "친구가 '내가 먼저 해도 돼?'라고 물어. 된다고 할 때 뭐라고 해?", "options": [ { "e": "😊", "en": "Go ahead." }, { "e": "😢", "en": "I'm sad." }, { "e": "🥱", "en": "I'm sleepy." } ] },
+    { "prompt_en": "Where do you go to ride a plane?", "prompt_ko": "비행기를 타려면 어디로 가?", "options": [ { "e": "🛫", "en": "the airport" }, { "e": "🏥", "en": "the hospital" }, { "e": "🏫", "en": "school" } ] },
+    { "prompt_en": "You are on the phone. What do you ask?", "prompt_ko": "전화를 하고 있어. 뭐라고 물어봐?", "options": [ { "e": "📞", "en": "Can you hear me?" }, { "e": "🍌", "en": "Is it a banana?" }, { "e": "🌙", "en": "Is it night?" } ] },
+    { "prompt_en": "It's not your turn yet. What do you do?", "prompt_ko": "아직 네 차례가 아니야. 어떻게 해?", "options": [ { "e": "🧍", "en": "wait" }, { "e": "🏃", "en": "run" }, { "e": "😭", "en": "cry" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Loud and clear.'는 어떤 뜻일까?", "options": ["아주 잘 들려.", "시끄러우니까 조용히 해.", "날씨가 맑고 화창해.", "더 크게 말해 줘."], "explain": "소리가 크고 또렷하게 잘 들린다는 대답입니다." },
+    { "q": "'네 차례를 기다려'를 영어로 하면?", "options": ["Wait your turn.", "Wait your order.", "Wait for you turn.", "Waiting your turn."], "explain": "'차례'는 turn이며, Wait your turn.이 굳어진 표현입니다." },
+    { "q": "빈칸에 알맞은 말은? — The runway is empty now. You're ___ to land.", "options": ["clear", "clean", "close", "clearly"], "explain": "be clear to ~는 '~해도 좋다(막는 것이 없다)'는 뜻입니다." },
+    { "q": "비행기 놀이에서 'May I take off?'의 take off는 무슨 뜻일까?", "options": ["이륙하다", "착륙하다", "탑승하다", "조종하다"], "explain": "take off는 비행기가 땅에서 떠오르는 것, 반대말은 land(착륙하다)입니다." },
+    { "q": "'Wait your turn'을 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["웨이츄어 턴", "웨잇 유어 턴", "웨이듀어 턴", "웨이뉴어 턴"], "explain": "t와 y가 만나면 'ㅊ' 소리가 나서 '웨이츄어 턴'처럼 들립니다." },
+    { "q": "영상 통화에서 '내 말 들려?'라고 물을 때 알맞은 말은?", "options": ["Can you hear me?", "Can you listen me?", "Do you hearing me?", "Can you sound me?"], "explain": "소리가 들리는지 물을 때는 listen이 아니라 hear를 씁니다." },
+    { "q": "빈칸에 알맞은 말은? — So the planes don't ___ into each other.", "options": ["bump", "jump", "drop", "push"], "explain": "bump into ~는 '~와 부딪치다'라는 뜻입니다." },
+    { "q": "'Loud and clear!'를 쓰기에 가장 알맞은 상황은?", "options": ["통화 중 'Can you hear me?'라는 물음에 답할 때", "아이에게 조용히 하라고 할 때", "오늘 날씨를 말할 때", "음악 소리를 줄여 달라고 할 때"], "explain": "상대의 말이 잘 들린다고 답할 때 쓰는 표현입니다." },
+    { "q": "빈칸에 알맞은 말은? — 'Can I land now?' 'Not ___.'", "options": ["yet", "still", "already", "more"], "explain": "'아직 안 돼'는 Not yet.이라고 합니다." },
+    { "q": "아이가 '물 마셔도 돼?'라고 물을 때 '그럼, 어서 마셔'에 알맞은 말은?", "options": ["Go ahead.", "Go away.", "Go along.", "Go head."], "explain": "허락할 때는 Go ahead.이고, Go away.는 '저리 가'라는 뜻입니다." }
+  ]
+}

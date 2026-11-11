@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 88,
+  "topic": "ships",
+  "title_en": "Captain pretend",
+  "title_ko": "선장 놀이",
+  "intro_ko": "소파를 배로 삼아 선장과 선원이 되어 보는 역할 놀이입니다. 접시나 쟁반을 조타륜으로, 휴지심을 망원경으로 쓰면 더 실감 나요.",
+  "expressions": [
+    { "en": "Aye aye, captain!", "ko": "네, 알겠습니다, 선장님!", "tip": "배에서 선원이 명령을 받았을 때 하는 대답이에요. aye는 '아이'로 발음해서 '아이 아이, 캡틴'이라고 말합니다.", "who": "both" },
+    { "en": "Full speed ahead!", "ko": "전속력으로 앞으로!", "tip": "배를 가장 빠르게 몰라는 선장의 명령이에요. speed ahead가 이어져 '스피더헤드'처럼 들립니다.", "who": "both" },
+    { "en": "Steer the ship.", "ko": "배를 조종해.", "tip": "steer는 배나 차의 방향을 잡는다는 뜻이에요. 배에는 drive 대신 steer를 쓰고, '스티어'로 길게 발음합니다.", "who": "both" },
+    { "en": "I see land!", "ko": "육지가 보여!", "tip": "바다에서 멀리 땅이 보일 때 외치는 말이에요. 손을 이마에 대고 멀리 보는 동작과 함께 말해 보세요.", "who": "kid" },
+    { "en": "Smooth sailing.", "ko": "순조로운 항해야. / 일이 술술 풀려.", "tip": "원래는 잔잔한 바다의 편안한 항해를 뜻하고, 일상에서는 일이 문제없이 잘 풀릴 때도 써요. 보통 'It's smooth sailing.'으로 말합니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Welcome aboard! Today the couch is our ship.", "ko": "승선을 환영합니다! 오늘은 소파가 우리 배야." },
+    { "who": "kid", "en": "Yay! Who's the captain?", "ko": "야호! 선장은 누구야?" },
+    { "who": "parent", "en": "I'll be the captain first. Pull up the anchor!", "ko": "내가 먼저 선장 할게. 닻을 올려라!" },
+    { "who": "kid", "en": "Aye aye, captain!", "ko": "네, 알겠습니다, 선장님!", "practice": true },
+    { "who": "kid", "en": "But what's an anchor?", "ko": "근데 닻이 뭐야?" },
+    { "who": "parent", "en": "It's a heavy metal hook. It holds the ship in place.", "ko": "무거운 쇠갈고리야. 배가 떠내려가지 않게 잡아 줘." },
+    { "who": "kid", "en": "Okay! The anchor is up!", "ko": "알았어! 닻 올렸어!" },
+    { "who": "parent", "en": "Now you're the captain. Here's the wheel. Steer the ship.", "ko": "이제 네가 선장이야. 여기 조타륜이 있어. 배를 조종해." },
+    { "who": "kid", "en": "I can steer the ship!", "ko": "나 배 조종할 수 있어!", "practice": true },
+    { "who": "parent", "en": "Turn left, captain. There's a big rock!", "ko": "선장님, 왼쪽으로 도세요. 큰 바위가 있어요!" },
+    { "who": "kid", "en": "Whoa! That was close!", "ko": "우와! 큰일 날 뻔했다!" },
+    { "who": "parent", "en": "Nice turn. The sea is calm now. It's smooth sailing.", "ko": "잘 돌았어. 이제 바다가 잔잔하네. 순조로운 항해야." },
+    { "who": "kid", "en": "Can we go faster?", "ko": "더 빨리 가도 돼?" },
+    { "who": "parent", "en": "You're the captain. Give the order!", "ko": "네가 선장이잖아. 명령을 내려!" },
+    { "who": "kid", "en": "Full speed ahead!", "ko": "전속력으로 앞으로!", "practice": true },
+    { "who": "parent", "en": "Aye aye, captain! Full speed ahead!", "ko": "네, 선장님! 전속력으로 앞으로!" },
+    { "who": "kid", "en": "Look! What's that?", "ko": "저기 봐! 저게 뭐야?" },
+    { "who": "parent", "en": "Use your telescope. What do you see?", "ko": "망원경으로 봐. 뭐가 보여?" },
+    { "who": "kid", "en": "I see land!", "ko": "육지가 보여!", "practice": true },
+    { "who": "parent", "en": "Is it an island?", "ko": "섬이야?" },
+    { "who": "kid", "en": "Yes! A treasure island!", "ko": "응! 보물섬이야!" },
+    { "who": "parent", "en": "Slow down, captain. Let's drop the anchor here.", "ko": "선장님, 속도를 줄이세요. 여기에 닻을 내립시다." },
+    { "who": "kid", "en": "Okay! Drop the anchor!", "ko": "좋아! 닻을 내려라!", "practice": true },
+    { "who": "parent", "en": "Great job, captain. That was a fun trip.", "ko": "잘했어요, 선장님. 정말 재미있는 항해였어." }
+  ],
+  "talkMore": [
+    { "en": "Where do you want to sail your ship?", "ko": "배를 타고 어디로 가고 싶어?", "sample_en": "To a treasure island!", "sample_ko": "보물섬으로!" },
+    { "en": "What does a captain do?", "ko": "선장은 무슨 일을 해?", "sample_en": "The captain gives orders.", "sample_ko": "선장은 명령을 내려." },
+    { "en": "What can you see from a ship?", "ko": "배에서는 뭐가 보일까?", "sample_en": "Fish and big waves!", "sample_ko": "물고기랑 큰 파도!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a ship?", "prompt_ko": "배는 어느 거야?", "options": [ { "e": "🚢", "en": "ship" }, { "e": "✈️", "en": "plane" }, { "e": "🚲", "en": "bike" } ] },
+    { "prompt_en": "The captain gives you an order. What do you say?", "prompt_ko": "선장님이 명령을 내렸어. 뭐라고 해?", "options": [ { "e": "🙋", "en": "Aye aye, captain!" }, { "e": "😴", "en": "I'm sleepy." }, { "e": "🍌", "en": "A banana." } ] },
+    { "prompt_en": "You want the ship to go very fast. What do you say?", "prompt_ko": "배가 아주 빨리 갔으면 좋겠어. 뭐라고 해?", "options": [ { "e": "🚤", "en": "Full speed ahead!" }, { "e": "🌙", "en": "Good night." }, { "e": "🤫", "en": "Be quiet." } ] },
+    { "prompt_en": "You see an island far away. What do you say?", "prompt_ko": "멀리 섬이 보여. 뭐라고 해?", "options": [ { "e": "🏝️", "en": "I see land!" }, { "e": "🍪", "en": "I want cookies." }, { "e": "🤧", "en": "Bless you!" } ] },
+    { "prompt_en": "What do you drop to keep the ship in place?", "prompt_ko": "배를 멈춰 두려면 뭘 내려?", "options": [ { "e": "⚓", "en": "anchor" }, { "e": "🎈", "en": "balloon" }, { "e": "🧢", "en": "cap" } ] },
+    { "prompt_en": "What do you use to see far away?", "prompt_ko": "멀리 볼 때 쓰는 건 뭐야?", "options": [ { "e": "🔭", "en": "telescope" }, { "e": "🥄", "en": "spoon" }, { "e": "👟", "en": "shoe" } ] },
+    { "prompt_en": "There was a big rock. Which way did we turn?", "prompt_ko": "큰 바위가 있었어. 어느 쪽으로 돌았지?", "options": [ { "e": "⬅️", "en": "left" }, { "e": "➡️", "en": "right" }, { "e": "⬆️", "en": "up" } ] },
+    { "prompt_en": "Where does a ship go?", "prompt_ko": "배는 어디로 다녀?", "options": [ { "e": "🌊", "en": "on the sea" }, { "e": "🛣️", "en": "on the road" }, { "e": "☁️", "en": "in the clouds" } ] },
+    { "prompt_en": "What was our ship today?", "prompt_ko": "오늘 우리 배는 뭐였지?", "options": [ { "e": "🛋️", "en": "the couch" }, { "e": "🚗", "en": "the car" }, { "e": "🛁", "en": "the bathtub" } ] },
+    { "prompt_en": "What is hiding on a treasure island?", "prompt_ko": "보물섬에는 뭐가 숨어 있을까?", "options": [ { "e": "💎", "en": "treasure" }, { "e": "🚌", "en": "a bus" }, { "e": "📺", "en": "a TV" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Aye aye, captain!'의 뜻은?", "options": ["네, 알겠습니다, 선장님!", "안녕하세요, 선장님!", "도와주세요, 선장님!", "저기 보세요, 선장님!"], "explain": "배에서 명령을 알아듣고 따르겠다는 뜻으로 하는 대답입니다." },
+    { "q": "'Full speed ahead!'는 어떤 명령일까?", "options": ["전속력으로 앞으로!", "속도를 줄여라!", "뒤로 돌아가라!", "천천히 출발해라!"], "explain": "full speed는 '최고 속도', ahead는 '앞으로'라는 뜻입니다." },
+    { "q": "일상에서 'It's smooth sailing.'은 어떤 뜻으로 쓸까?", "options": ["일이 문제없이 순조롭게 풀린다.", "뱃멀미가 심하다.", "먼 여행을 떠난다.", "일이 아주 느리게 진행된다."], "explain": "잔잔한 바다의 편안한 항해에 빗대어 일이 술술 풀릴 때 쓰는 표현입니다." },
+    { "q": "'육지가 보여!'라고 외칠 때 알맞은 말은?", "options": ["I see land!", "I look land!", "I watch the floor!", "I see the ground floor!"], "explain": "눈에 들어오는 것은 see를 쓰고, 바다에서 보는 육지는 land라고 합니다." },
+    { "q": "빈칸에 알맞은 말은? — Here's the wheel. ___ the ship.", "options": ["Steer", "Drive", "Ride", "Fly"], "explain": "배의 방향을 잡아 조종하는 것은 steer라고 합니다." },
+    { "q": "'Aye aye'는 어떻게 발음할까?", "options": ["아이 아이", "에이 에이", "아예 아예", "예 예"], "explain": "aye는 눈을 뜻하는 eye와 똑같이 '아이'로 발음합니다." },
+    { "q": "오늘 대화에서 anchor(닻)는 무슨 일을 한다고 했을까?", "options": ["배를 한자리에 잡아 준다.", "배를 더 빠르게 만든다.", "배의 방향을 바꾼다.", "바람을 받아 배를 민다."], "explain": "대화에서 'It holds the ship in place.'라고 설명했습니다." },
+    { "q": "빈칸에 알맞은 말은? — The sea is calm now. It's smooth ___.", "options": ["sailing", "shipping", "swimming", "floating"], "explain": "순조로운 항해는 smooth sailing이라고 합니다." },
+    { "q": "'That was close!'는 어떤 뜻일까?", "options": ["큰일 날 뻔했다!", "문이 닫혔어!", "거의 다 왔어!", "너무 멀었어!"], "explain": "사고가 날 뻔했다가 아슬아슬하게 피했을 때 쓰는 말입니다." },
+    { "q": "어려운 부분이 끝나고 '이제부터는 순탄할 거야'라고 할 때 알맞은 말은?", "options": ["It's smooth sailing from here.", "It's soft sailing from here.", "It's smooth shipping from here.", "It's easy boating from here."], "explain": "smooth sailing은 굳어진 표현이라 다른 단어로 바꾸지 않습니다." }
+  ]
+}

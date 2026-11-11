@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 98,
+  "topic": "ships",
+  "title_en": "Storm at sea",
+  "title_ko": "바다의 폭풍",
+  "intro_ko": "소파나 이불을 배로 삼아 폭풍을 만난 선장 놀이를 하는 대화입니다. 몸을 좌우로 흔들며 파도에 흔들리는 시늉을 하면 아이가 더 신나 해요.",
+  "expressions": [
+    { "en": "A storm is coming.", "ko": "폭풍이 오고 있어.", "tip": "먹구름이 몰려올 때 쓰는 말이에요. storm is가 이어져 '스토미즈'처럼 들립니다.", "who": "both" },
+    { "en": "The boat is rocking.", "ko": "배가 흔들려.", "tip": "rock은 '좌우로 흔들리다'라는 뜻이에요. boat is는 t가 부드러운 'ㄹ' 소리가 되어 '보우리즈'처럼 들립니다.", "who": "both" },
+    { "en": "I feel dizzy.", "ko": "어지러워.", "tip": "배나 차에서 어지러울 때, 빙글빙글 돈 다음에 쓰는 말이에요. '아이 필 디지'라고 말합니다.", "who": "kid" },
+    { "en": "It's over now.", "ko": "이제 끝났어.", "tip": "무섭거나 힘든 일이 지나갔을 때 안심시키는 말이에요. It's over를 띄우지 않고 '이츠오버'로 한 번에 이어 말합니다.", "who": "both" },
+    { "en": "Ride it out.", "ko": "잘 버텨 내자.", "tip": "원래 배가 폭풍을 견뎌 낸다는 말로, 힘든 시간을 끝까지 버틴다는 뜻이에요. 세 단어가 이어져 '라이리라웃'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Captain, look at those dark clouds!", "ko": "선장님, 저 먹구름 좀 보세요!" },
+    { "who": "kid", "en": "Uh-oh. A storm is coming.", "ko": "이런. 폭풍이 오고 있어.", "practice": true },
+    { "who": "parent", "en": "You're right. The waves are getting big.", "ko": "맞아. 파도가 점점 커지고 있어." },
+    { "who": "kid", "en": "Whoa! The boat is rocking!", "ko": "우와! 배가 흔들려!", "practice": true },
+    { "who": "parent", "en": "Hold on tight to the rail.", "ko": "난간을 꽉 잡아." },
+    { "who": "kid", "en": "Why is it rocking so much?", "ko": "왜 이렇게 많이 흔들려?" },
+    { "who": "parent", "en": "The wind makes big waves, and the waves push the boat.", "ko": "바람이 큰 파도를 만들고, 파도가 배를 밀거든." },
+    { "who": "kid", "en": "Will we tip over?", "ko": "우리 뒤집혀?" },
+    { "who": "parent", "en": "No. Our boat is strong. We'll ride it out.", "ko": "아니. 우리 배는 튼튼해. 잘 버텨 낼 거야." },
+    { "who": "kid", "en": "I feel dizzy.", "ko": "어지러워.", "practice": true },
+    { "who": "parent", "en": "Sit down and look far away. That helps.", "ko": "앉아서 먼 곳을 봐. 그러면 좀 나아져." },
+    { "who": "kid", "en": "Okay. Is it raining, too?", "ko": "알았어. 비도 와?" },
+    { "who": "parent", "en": "Yes, it's pouring. Put on your raincoat.", "ko": "응, 쏟아지고 있어. 비옷 입어." },
+    { "who": "kid", "en": "I'm all wet!", "ko": "나 다 젖었어!" },
+    { "who": "parent", "en": "Me too. Wait, the wind is slowing down.", "ko": "나도. 잠깐, 바람이 약해지고 있어." },
+    { "who": "kid", "en": "Is the storm going away?", "ko": "폭풍이 가고 있어?", "practice": true },
+    { "who": "parent", "en": "Yes. Look, the sun is coming out.", "ko": "응. 봐, 해가 나오고 있어." },
+    { "who": "kid", "en": "It's over now!", "ko": "이제 끝났어!", "practice": true },
+    { "who": "parent", "en": "It's over now. Great job, Captain.", "ko": "이제 끝났어. 잘했어요, 선장님." },
+    { "who": "kid", "en": "I see a rainbow!", "ko": "무지개가 보여!", "practice": true },
+    { "who": "parent", "en": "It's beautiful. Let's sail home.", "ko": "예쁘다. 이제 집으로 가자." },
+    { "who": "kid", "en": "Full speed ahead!", "ko": "전속력으로 출발!" }
+  ],
+  "talkMore": [
+    { "en": "What do you see in a storm?", "ko": "폭풍이 올 때는 뭐가 보여?", "sample_en": "Rain and big waves.", "sample_ko": "비랑 큰 파도." },
+    { "en": "What makes you feel dizzy?", "ko": "뭘 하면 어지러워?", "sample_en": "Spinning around!", "sample_ko": "빙글빙글 돌 때!" },
+    { "en": "What comes out after the rain?", "ko": "비가 그치면 뭐가 나와?", "sample_en": "The sun and a rainbow.", "sample_ko": "해랑 무지개." }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a boat?", "prompt_ko": "배는 어느 거야?", "options": [ { "e": "⛵", "en": "boat" }, { "e": "🚲", "en": "bike" }, { "e": "🚂", "en": "train" } ] },
+    { "prompt_en": "You see dark clouds. What do you say?", "prompt_ko": "먹구름이 보여. 뭐라고 해?", "options": [ { "e": "⛈️", "en": "A storm is coming." }, { "e": "🍰", "en": "I like cake." }, { "e": "🛏️", "en": "Good night." } ] },
+    { "prompt_en": "What makes big waves?", "prompt_ko": "큰 파도는 뭐가 만들어?", "options": [ { "e": "💨", "en": "the wind" }, { "e": "🐱", "en": "a cat" }, { "e": "🌸", "en": "a flower" } ] },
+    { "prompt_en": "Your head is spinning. What do you say?", "prompt_ko": "머리가 빙글빙글 돌아. 뭐라고 해?", "options": [ { "e": "😵", "en": "I feel dizzy." }, { "e": "😋", "en": "I'm hungry." }, { "e": "🥶", "en": "I'm cold." } ] },
+    { "prompt_en": "It's raining. What do you put on?", "prompt_ko": "비가 와. 뭘 입어?", "options": [ { "e": "🧥", "en": "a raincoat" }, { "e": "🩳", "en": "shorts" }, { "e": "🕶️", "en": "sunglasses" } ] },
+    { "prompt_en": "Which one comes after the rain?", "prompt_ko": "비 온 뒤에 나오는 건 어느 거야?", "options": [ { "e": "🌈", "en": "a rainbow" }, { "e": "🌙", "en": "the moon" }, { "e": "⛄", "en": "a snowman" } ] },
+    { "prompt_en": "The storm is gone. What do you say?", "prompt_ko": "폭풍이 지나갔어. 뭐라고 해?", "options": [ { "e": "😌", "en": "It's over now." }, { "e": "😱", "en": "Help me!" }, { "e": "🤫", "en": "Be quiet." } ] },
+    { "prompt_en": "Which one is a wave?", "prompt_ko": "파도는 어느 거야?", "options": [ { "e": "🌊", "en": "wave" }, { "e": "⛰️", "en": "mountain" }, { "e": "🌳", "en": "tree" } ] },
+    { "prompt_en": "Listen: 'The boat is rocking.' What is moving?", "prompt_ko": "잘 들어 봐: 'The boat is rocking.' 뭐가 흔들려?", "options": [ { "e": "⛵", "en": "the boat" }, { "e": "🏠", "en": "the house" }, { "e": "🚗", "en": "the car" } ] },
+    { "prompt_en": "Which one is the sun?", "prompt_ko": "해는 어느 거야?", "options": [ { "e": "☀️", "en": "sun" }, { "e": "☁️", "en": "cloud" }, { "e": "⭐", "en": "star" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Ride it out.'은 어떤 뜻일까?", "options": ["힘든 시간을 끝까지 버텨 내다", "밖에서 자전거를 타다", "서둘러 밖으로 나가다", "차를 태워 주다"], "explain": "배가 폭풍을 견뎌 내는 데서 온 말로, 어려운 상황을 끝까지 버틴다는 뜻입니다." },
+    { "q": "'The boat is rocking.'에서 rocking의 뜻은?", "options": ["좌우로 흔들리고 있다", "바위에 부딪히고 있다", "가라앉고 있다", "빨리 달리고 있다"], "explain": "rock은 동사로 '앞뒤·좌우로 흔들리다'라는 뜻입니다." },
+    { "q": "'어지러워'를 영어로 하면?", "options": ["I feel dizzy.", "I feel busy.", "I feel sleepy.", "I feel dirty."], "explain": "빙빙 도는 것처럼 어지러울 때는 dizzy를 씁니다." },
+    { "q": "빈칸에 알맞은 말은? — Our boat is strong. We'll ride it ___.", "options": ["out", "off", "over", "away"], "explain": "ride it out은 '끝까지 버텨 내다'라는 굳어진 표현입니다." },
+    { "q": "'It's over now.'의 뜻은?", "options": ["이제 끝났어.", "이제 시작이야.", "저 위에 있어.", "너무 많아."], "explain": "be over는 '끝나다'라는 뜻으로, 무서운 일이 지나갔을 때 안심시키는 말입니다." },
+    { "q": "빈칸에 알맞은 말은? — Hold on ___ to the rail.", "options": ["tight", "hard", "strong", "heavy"], "explain": "'꽉 잡아'는 Hold on tight라고 합니다." },
+    { "q": "'비가 쏟아지고 있어'를 영어로 하면?", "options": ["It's pouring.", "It's dropping.", "It's spilling.", "It's falling water."], "explain": "비가 억수같이 올 때는 It's pouring.이라고 합니다." },
+    { "q": "'Ride it out'을 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["라이리라웃", "라이드 잇 아웃", "라이딧트아웃", "라이드아웃"], "explain": "ride의 d와 it의 t가 모두 부드러운 'ㄹ' 소리로 이어져 '라이리라웃'처럼 들립니다." },
+    { "q": "'Will we tip over?'의 뜻은?", "options": ["우리 뒤집혀?", "우리 도착했어?", "우리 팁 줘야 해?", "우리 넘어가도 돼?"], "explain": "tip over는 배나 컵 등이 '뒤집히다, 넘어지다'라는 뜻입니다." },
+    { "q": "'폭풍이 오고 있어'를 영어로 하면?", "options": ["A storm is coming.", "A storm is going.", "A storm comes to.", "A storm is come."], "explain": "다가오고 있는 일은 현재진행형으로 A storm is coming.이라고 합니다." }
+  ]
+}

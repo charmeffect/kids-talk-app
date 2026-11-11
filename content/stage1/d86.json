@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 86,
+  "topic": "daily",
+  "title_en": "Sharing with a friend",
+  "title_ko": "친구와 나눠 쓰기",
+  "intro_ko": "부모가 놀러 온 친구 역할을 맡아 장난감을 빌리고 돌려주는 놀이입니다. 장난감 비행기와 배를 하나씩 들고 실제로 주고받으며 말해 보세요.",
+  "expressions": [
+    { "en": "Let's share.", "ko": "같이 쓰자. / 나눠 먹자.", "tip": "장난감이나 간식이 하나뿐일 때 먼저 건네는 말이에요. 뒤에 물건을 붙여 'Let's share the cookies.'처럼 말할 수도 있어요.", "who": "both" },
+    { "en": "Can I borrow it?", "ko": "그거 빌려도 돼?", "tip": "남의 물건을 쓰기 전에 꼭 묻는 말이에요. Can I는 '캐나이', borrow it은 '바로윗'으로 이어집니다.", "who": "both" },
+    { "en": "Give it back, please.", "ko": "돌려줘.", "tip": "빌려준 물건을 돌려받고 싶을 때 써요. please를 붙여야 부드럽게 들립니다. Give it back은 '기빗백'으로 이어져요.", "who": "kid" },
+    { "en": "I'm sorry.", "ko": "미안해.", "tip": "실수했을 때 바로 하는 말이에요. 무엇이 미안한지 'I'm sorry I dropped it.'처럼 덧붙이면 더 좋아요.", "who": "both" },
+    { "en": "Sharing is caring.", "ko": "나누는 게 아끼는 마음이야.", "tip": "아이들에게 나눔을 가르칠 때 미국 부모와 선생님이 자주 쓰는 말이에요. sharing과 caring의 끝소리가 같아 '셰어링 이즈 케어링'으로 리듬감 있게 말합니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Wow, you have so many toy planes!", "ko": "우와, 장난감 비행기가 정말 많네!" },
+    { "who": "kid", "en": "Yes! This one is my favorite.", "ko": "응! 이게 내가 제일 좋아하는 거야." },
+    { "who": "parent", "en": "It's so cool. Can I borrow it?", "ko": "정말 멋지다. 그거 빌려도 돼?" },
+    { "who": "kid", "en": "Hmm... okay. Be careful!", "ko": "음... 알았어. 조심해!" },
+    { "who": "parent", "en": "Thank you. I'll be very careful.", "ko": "고마워. 아주 조심할게." },
+    { "who": "kid", "en": "I like your ship. Can I borrow it?", "ko": "네 배 마음에 든다. 그거 빌려도 돼?", "practice": true },
+    { "who": "parent", "en": "Sure. Let's share.", "ko": "그럼. 같이 쓰자." },
+    { "who": "kid", "en": "Okay! Let's share.", "ko": "좋아! 같이 쓰자.", "practice": true },
+    { "who": "parent", "en": "Zoom! Your plane flies so fast.", "ko": "슝! 네 비행기 진짜 빨리 난다." },
+    { "who": "kid", "en": "Hey! That's too fast!", "ko": "야! 너무 빠르잖아!" },
+    { "who": "parent", "en": "Oops, I dropped it. I'm sorry.", "ko": "앗, 떨어뜨렸다. 미안해." },
+    { "who": "kid", "en": "Oh no! Is it broken?", "ko": "안 돼! 부서졌어?" },
+    { "who": "parent", "en": "No, it's okay. Look, the wings are fine.", "ko": "아니, 괜찮아. 봐, 날개 멀쩡해." },
+    { "who": "kid", "en": "Give it back, please.", "ko": "돌려줘.", "practice": true },
+    { "who": "parent", "en": "Here you go. Thanks for letting me borrow it.", "ko": "여기 있어. 빌려줘서 고마워." },
+    { "who": "kid", "en": "I yelled at you. I'm sorry.", "ko": "내가 소리 질렀지. 미안해.", "practice": true },
+    { "who": "parent", "en": "That's okay. You asked nicely after that.", "ko": "괜찮아. 그다음엔 예쁘게 말했잖아." },
+    { "who": "kid", "en": "Why do we share?", "ko": "왜 나눠 써야 해?" },
+    { "who": "parent", "en": "Because it's more fun together. Sharing is caring.", "ko": "같이 하면 더 재미있으니까. 나누는 게 아끼는 마음이야." },
+    { "who": "kid", "en": "Sharing is caring!", "ko": "나누는 게 아끼는 마음!", "practice": true },
+    { "who": "parent", "en": "That's right, buddy. You're a good friend.", "ko": "맞아. 넌 정말 좋은 친구야." },
+    { "who": "kid", "en": "Let's play again tomorrow!", "ko": "내일 또 같이 놀자!" }
+  ],
+  "talkMore": [
+    { "en": "What do you share with your friends?", "ko": "친구들이랑 뭘 나눠 써?", "sample_en": "My blocks and crayons.", "sample_ko": "블록이랑 크레파스." },
+    { "en": "How do you feel when a friend shares with you?", "ko": "친구가 나눠 주면 기분이 어때?", "sample_en": "I feel happy!", "sample_ko": "기분 좋아!" },
+    { "en": "Which toy is hard to share?", "ko": "어떤 장난감은 나눠 쓰기 힘들어?", "sample_en": "My new spaceship.", "sample_ko": "새 우주선." }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "You want to use a friend's toy. What do you say?", "prompt_ko": "친구 장난감을 쓰고 싶어. 뭐라고 해?", "options": [ { "e": "🙏", "en": "Can I borrow it?" }, { "e": "😴", "en": "Good night." }, { "e": "🍌", "en": "A banana." } ] },
+    { "prompt_en": "You dropped a friend's toy. What do you say?", "prompt_ko": "친구 장난감을 떨어뜨렸어. 뭐라고 해?", "options": [ { "e": "😔", "en": "I'm sorry." }, { "e": "🎉", "en": "Hooray!" }, { "e": "😋", "en": "Yummy!" } ] },
+    { "prompt_en": "You want your toy back. What do you say?", "prompt_ko": "장난감을 돌려받고 싶어. 뭐라고 해?", "options": [ { "e": "🤲", "en": "Give it back, please." }, { "e": "👋", "en": "Bye-bye." }, { "e": "🌧️", "en": "It's raining." } ] },
+    { "prompt_en": "There is one cookie and two friends. What do you say?", "prompt_ko": "과자는 하나인데 친구는 둘이야. 뭐라고 해?", "options": [ { "e": "🍪", "en": "Let's share." }, { "e": "😴", "en": "I'm sleepy." }, { "e": "🚀", "en": "Blast off!" } ] },
+    { "prompt_en": "Which one is a plane?", "prompt_ko": "비행기는 어느 거야?", "options": [ { "e": "✈️", "en": "plane" }, { "e": "🚢", "en": "ship" }, { "e": "🚌", "en": "bus" } ] },
+    { "prompt_en": "A friend says, 'I'm sorry.' What do you say?", "prompt_ko": "친구가 '미안해'라고 해. 뭐라고 해?", "options": [ { "e": "😊", "en": "That's okay." }, { "e": "🍎", "en": "An apple." }, { "e": "🌙", "en": "Good night." } ] },
+    { "prompt_en": "A friend lets you use a toy. What do you say?", "prompt_ko": "친구가 장난감을 빌려줬어. 뭐라고 해?", "options": [ { "e": "😄", "en": "Thank you!" }, { "e": "😢", "en": "I'm sad." }, { "e": "🛑", "en": "Stop!" } ] },
+    { "prompt_en": "Which one is a toy?", "prompt_ko": "장난감은 어느 거야?", "options": [ { "e": "🧸", "en": "teddy bear" }, { "e": "🥦", "en": "broccoli" }, { "e": "🪑", "en": "chair" } ] },
+    { "prompt_en": "What can you share with a friend?", "prompt_ko": "친구랑 나눌 수 있는 건 뭐야?", "options": [ { "e": "🍪", "en": "cookies" }, { "e": "🦷", "en": "your tooth" }, { "e": "👃", "en": "your nose" } ] },
+    { "prompt_en": "Who do you share your toys with?", "prompt_ko": "장난감은 누구랑 나눠 써?", "options": [ { "e": "👫", "en": "friends" }, { "e": "🌵", "en": "a cactus" }, { "e": "🧱", "en": "a brick" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Can I borrow it?'의 뜻은?", "options": ["그거 빌려도 돼?", "그거 사도 돼?", "그거 버려도 돼?", "그거 먹어도 돼?"], "explain": "borrow는 '빌리다'라는 뜻으로, 남의 물건을 쓰기 전에 허락을 구하는 말입니다." },
+    { "q": "빌려준 장난감을 돌려 달라고 할 때 알맞은 말은?", "options": ["Give it back, please.", "Give back it, please.", "Give it to back, please.", "Back it give, please."], "explain": "대명사 it은 give와 back 사이에 넣어 Give it back이라고 합니다." },
+    { "q": "'Sharing is caring.'은 어떤 뜻일까?", "options": ["나누는 게 곧 아끼는 마음이야.", "나누면 손해를 봐.", "나눌 때는 조심해야 해.", "나눠 쓰면 금방 망가져."], "explain": "나누는 행동이 상대를 아끼는 마음의 표현이라는 뜻으로 아이들에게 자주 하는 말입니다." },
+    { "q": "빈칸에 알맞은 말은? — Thanks for ___ me borrow it.", "options": ["letting", "making", "giving", "getting"], "explain": "let + 사람 + 동사(~하게 해 주다)이므로 Thanks for letting me borrow it이 됩니다." },
+    { "q": "'Give it back'을 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["기빗백", "기브 이트 백", "가이빗박", "기비트배크"], "explain": "give의 v와 it이 붙고 t가 약해져 '기빗백'처럼 들립니다." },
+    { "q": "아이가 친구에게 '내 거 빌려 써도 돼'라고 할 때 알맞은 말은?", "options": ["You can borrow mine.", "You can lend mine.", "I can borrow you mine.", "I'll borrow it to you."], "explain": "borrow는 빌리는 쪽, lend는 빌려주는 쪽이 주어라서 You can borrow mine이 맞습니다." },
+    { "q": "'Let's share.'를 쓰기에 가장 알맞은 상황은?", "options": ["과자가 하나뿐인데 친구도 먹고 싶어 할 때", "친구가 넘어져서 울 때", "잠자리에 들기 전에", "길을 건너기 전에"], "explain": "Let's share는 하나를 함께 쓰거나 나눠 먹자고 제안하는 말입니다." },
+    { "q": "친구가 'I'm sorry.'라고 사과할 때 가장 자연스러운 대답은?", "options": ["That's okay.", "You're welcome.", "Yes, please.", "No, thank you."], "explain": "사과에는 That's okay(괜찮아)로 답하고, You're welcome은 감사에 대한 대답입니다." },
+    { "q": "빈칸에 알맞은 말은? — Because it's more fun ___.", "options": ["together", "each other", "with", "both"], "explain": "'함께 하면 더 재미있다'는 more fun together라고 말합니다." },
+    { "q": "'Sharing is caring.'이 아이들이 외우기 쉬운 이유는?", "options": ["sharing과 caring의 끝소리가 같아 운이 맞아서", "단어가 모두 한 음절이라서", "문장이 질문 형태라서", "세 단어가 같은 글자로 시작해서"], "explain": "-aring으로 끝나는 두 단어가 운(라임)을 이뤄 리듬감 있게 들립니다." }
+  ]
+}

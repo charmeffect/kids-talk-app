@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 117,
+  "topic": "science",
+  "title_en": "Night animals",
+  "title_ko": "밤에 깨어 있는 동물",
+  "intro_ko": "잠자리에 들기 전 창밖의 어두운 밤을 보며 나누는 대화입니다. 불을 살짝 어둡게 하고, 'Be very still' 부분에서는 정말로 가만히 멈춰 밖의 소리를 함께 들어 보세요.",
+  "expressions": [
+    { "en": "Who's awake at night?", "ko": "밤에 누가 깨어 있어?", "tip": "awake는 '깨어 있는'이라는 뜻이에요. awake at이 이어져 '어웨이캣 나잇'처럼 들립니다.", "who": "kid" },
+    { "en": "Owls can see in the dark.", "ko": "올빼미는 어두운 데서도 볼 수 있어.", "tip": "in the dark는 '어둠 속에서'예요. can은 약하게 '큰'처럼 말하고 see를 강하게 말하면 자연스러워요.", "who": "parent" },
+    { "en": "What sound does it make?", "ko": "무슨 소리를 내?", "tip": "동물이나 물건의 소리를 물을 때 써요. does it이 이어져 '더짓'처럼 들립니다.", "who": "both" },
+    { "en": "Be very still.", "ko": "꼼짝 말고 가만히 있어.", "tip": "여기서 still은 '아직'이 아니라 '움직이지 않는'이라는 뜻이에요. 동물을 관찰하거나 소리를 들을 때 속삭이듯 말해 보세요.", "who": "parent" },
+    { "en": "Night owl.", "ko": "올빼미족 (밤늦게까지 안 자는 사람)", "tip": "밤에 쌩쌩한 사람을 가리키는 말이에요. 안 자려는 아이에게 'You're a real night owl.'이라고 해 보세요. 두 단어 중 앞의 night에 힘을 주어 말해요.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "It's dark outside. Most animals are sleeping now.", "ko": "밖이 깜깜하네. 동물들도 지금은 거의 다 자고 있어." },
+    { "who": "kid", "en": "Who's awake at night?", "ko": "밤에는 누가 깨어 있어?", "practice": true },
+    { "who": "parent", "en": "Good question. Owls are awake at night.", "ko": "좋은 질문이야. 올빼미는 밤에 깨어 있어." },
+    { "who": "kid", "en": "Why? Can they see?", "ko": "왜? 앞이 보여?" },
+    { "who": "parent", "en": "Yes. Owls can see in the dark.", "ko": "응. 올빼미는 어두운 데서도 볼 수 있어." },
+    { "who": "kid", "en": "Wow! How?", "ko": "우와! 어떻게?" },
+    { "who": "parent", "en": "They have really big eyes. Big eyes catch more light.", "ko": "눈이 아주 크거든. 눈이 크면 빛을 더 많이 모을 수 있어." },
+    { "who": "kid", "en": "What sound does it make?", "ko": "올빼미는 무슨 소리를 내?", "practice": true },
+    { "who": "parent", "en": "An owl says, 'Hoo, hoo!' Can you do it?", "ko": "올빼미는 '후, 후!' 하고 울어. 너도 해 볼래?" },
+    { "who": "kid", "en": "Hoo, hoo! Who else is awake?", "ko": "후, 후! 또 누가 깨어 있어?", "practice": true },
+    { "who": "parent", "en": "Bats! They fly around and catch bugs at night.", "ko": "박쥐! 박쥐는 밤에 날아다니면서 벌레를 잡아." },
+    { "who": "kid", "en": "Can bats see in the dark, too?", "ko": "박쥐도 어두운 데서 볼 수 있어?", "practice": true },
+    { "who": "parent", "en": "A little, but they mostly use their ears.", "ko": "조금은. 그런데 박쥐는 주로 귀를 써." },
+    { "who": "kid", "en": "Their ears? How?", "ko": "귀를? 어떻게?" },
+    { "who": "parent", "en": "They squeak and listen for the echo.", "ko": "찍찍 소리를 내고 되돌아오는 메아리를 듣는 거야." },
+    { "who": "kid", "en": "Like an echo? Cool!", "ko": "메아리처럼? 멋지다!" },
+    { "who": "parent", "en": "Shh. Be very still. Let's listen.", "ko": "쉿. 꼼짝 말고 가만히 있어 봐. 같이 들어 보자." },
+    { "who": "kid", "en": "I hear something! What is it?", "ko": "무슨 소리가 들려! 뭐야?" },
+    { "who": "parent", "en": "I think it's a cricket. Crickets sing at night.", "ko": "귀뚜라미 같아. 귀뚜라미는 밤에 울거든." },
+    { "who": "kid", "en": "I want to stay up, too!", "ko": "나도 안 자고 깨어 있을래!" },
+    { "who": "parent", "en": "Ha! You're a real night owl, aren't you?", "ko": "하하! 너 진짜 올빼미족이구나?" },
+    { "who": "kid", "en": "Yes! I'm a night owl!", "ko": "응! 나는 올빼미야!", "practice": true },
+    { "who": "parent", "en": "Well, even night owls need sleep. Time for bed.", "ko": "그래도 올빼미도 잠은 자야 해. 이제 잘 시간이야." },
+    { "who": "kid", "en": "Good night, owls! Hoo, hoo!", "ko": "올빼미들아, 잘 자! 후, 후!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "Which night animal do you like best?", "ko": "밤에 깨어 있는 동물 중에 뭐가 제일 좋아?", "sample_en": "I like owls!", "sample_ko": "올빼미가 좋아!" },
+    { "en": "What sounds can you hear at night?", "ko": "밤에는 어떤 소리가 들려?", "sample_en": "Cars and bugs.", "sample_ko": "자동차랑 벌레 소리." },
+    { "en": "What would you do if you could see in the dark?", "ko": "어두운 데서도 볼 수 있다면 뭘 하고 싶어?", "sample_en": "Play outside at night!", "sample_ko": "밤에 밖에서 놀래!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Who's awake at night?", "prompt_ko": "밤에 누가 깨어 있어?", "options": [ { "e": "🦉", "en": "an owl" }, { "e": "🐔", "en": "a chicken" }, { "e": "🐄", "en": "a cow" } ] },
+    { "prompt_en": "What sound does an owl make?", "prompt_ko": "올빼미는 무슨 소리를 내?", "options": [ { "e": "🦉", "en": "Hoo, hoo!" }, { "e": "🐶", "en": "Woof, woof!" }, { "e": "🐱", "en": "Meow!" } ] },
+    { "prompt_en": "Which one flies at night?", "prompt_ko": "밤에 날아다니는 건 누구야?", "options": [ { "e": "🦇", "en": "a bat" }, { "e": "🐟", "en": "a fish" }, { "e": "🐢", "en": "a turtle" } ] },
+    { "prompt_en": "Which one do you see at night?", "prompt_ko": "밤에 보이는 건 어느 거야?", "options": [ { "e": "🌙", "en": "the moon" }, { "e": "☀️", "en": "the sun" }, { "e": "🌈", "en": "a rainbow" } ] },
+    { "prompt_en": "You want to hear a quiet sound. What do you do?", "prompt_ko": "작은 소리를 듣고 싶어. 어떻게 해?", "options": [ { "e": "🤫", "en": "Be very still." }, { "e": "🥁", "en": "Bang a drum." }, { "e": "🏃", "en": "Run fast." } ] },
+    { "prompt_en": "What do bats catch at night?", "prompt_ko": "박쥐는 밤에 뭘 잡아?", "options": [ { "e": "🐛", "en": "bugs" }, { "e": "🍕", "en": "pizza" }, { "e": "🚗", "en": "cars" } ] },
+    { "prompt_en": "What does an owl have?", "prompt_ko": "올빼미한테는 뭐가 있어?", "options": [ { "e": "👀", "en": "big eyes" }, { "e": "🎩", "en": "a hat" }, { "e": "👟", "en": "shoes" } ] },
+    { "prompt_en": "Who sings at night?", "prompt_ko": "밤에 노래하는 건 누구야?", "options": [ { "e": "🦗", "en": "a cricket" }, { "e": "🐘", "en": "an elephant" }, { "e": "🦒", "en": "a giraffe" } ] },
+    { "prompt_en": "You see a new animal. What do you ask?", "prompt_ko": "처음 보는 동물이 있어. 뭐라고 물어봐?", "options": [ { "e": "🤔", "en": "What sound does it make?" }, { "e": "👋", "en": "See you later." }, { "e": "😋", "en": "It's yummy." } ] },
+    { "prompt_en": "It's time for bed. What do you say?", "prompt_ko": "잘 시간이야. 뭐라고 해?", "options": [ { "e": "😴", "en": "Good night!" }, { "e": "🌞", "en": "Good morning!" }, { "e": "🍽️", "en": "Let's eat!" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Who's awake at night?'의 뜻은?", "options": ["밤에 누가 깨어 있어?", "밤에 누가 자고 있어?", "밤에 누가 무서워해?", "밤에 누가 왔어?"], "explain": "awake는 '깨어 있는'이라는 뜻으로, asleep(잠든)의 반대말입니다." },
+    { "q": "사람에게 'night owl'이라고 하면 어떤 뜻일까?", "options": ["밤늦게까지 안 자는 사람", "밤눈이 밝은 사람", "겁이 많은 사람", "아침 일찍 일어나는 사람"], "explain": "밤에 활동하는 올빼미처럼 밤늦게까지 깨어 있는 사람을 night owl이라고 합니다." },
+    { "q": "'night owl'과 반대로 아침 일찍 일어나는 사람을 뜻하는 표현은?", "options": ["early bird", "morning owl", "day bat", "sunny bird"], "explain": "일찍 일어나는 사람은 early bird라고 합니다." },
+    { "q": "빈칸에 알맞은 말은? — Owls can see ___ the dark.", "options": ["in", "at", "on", "by"], "explain": "'어둠 속에서'는 in the dark라고 합니다." },
+    { "q": "동물을 보며 '무슨 소리를 내?'라고 물을 때 알맞은 말은?", "options": ["What sound does it make?", "What sound does it do?", "How sound is it?", "What does it sound make?"], "explain": "소리를 '내다'는 make a sound이므로 What sound does it make?가 됩니다." },
+    { "q": "'Be very still.'에서 still의 뜻은?", "options": ["움직이지 않고 가만히 있는", "아직도", "그럼에도", "훨씬 더"], "explain": "여기서 still은 형용사로 '움직이지 않는'이라는 뜻입니다." },
+    { "q": "'What sound does it make?'에서 does it을 자연스럽게 이어 말하면?", "options": ["더짓", "더즈 이트", "두짓", "다싯"], "explain": "does의 z 소리와 it이 이어져 '더짓'처럼 들립니다." },
+    { "q": "빈칸에 알맞은 말은? — They squeak and listen for the ___.", "options": ["echo", "shadow", "light", "smell"], "explain": "박쥐는 소리를 내고 되돌아오는 메아리(echo)를 들어 길을 찾습니다." },
+    { "q": "올빼미가 '우는' 것을 나타내는 영어 동사는?", "options": ["hoot", "bark", "quack", "roar"], "explain": "올빼미 울음은 hoot, 개는 bark, 오리는 quack, 사자는 roar라고 합니다." },
+    { "q": "아이에게 '이제 잘 시간이야.'라고 할 때 알맞은 말은?", "options": ["Time for bed.", "Time to sleeping.", "It's time bed.", "Time for sleep in."], "explain": "'잘 시간이야'는 Time for bed. 또는 It's time for bed.라고 합니다." }
+  ]
+}

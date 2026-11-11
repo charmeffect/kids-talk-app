@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 110,
+  "topic": "space",
+  "title_en": "Mars rover",
+  "title_ko": "화성 탐사 로버",
+  "intro_ko": "장난감 자동차를 화성 탐사 로버로 삼아 화성 땅을 탐험하는 놀이입니다. 이불을 구겨서 울퉁불퉁한 땅을 만들고 블록이나 돌멩이를 바위처럼 놓아 보세요.",
+  "expressions": [
+    { "en": "Drive the rover.", "ko": "로버를 운전해.", "tip": "drive는 자동차, 버스, 로버처럼 바퀴 달린 것을 운전할 때 써요. 배는 sail, 비행기는 fly를 씁니다.", "who": "both" },
+    { "en": "Go over the rocks.", "ko": "바위를 넘어가.", "tip": "go over는 '~ 위를 넘어가다'예요. 다리를 건널 때도 Go over the bridge라고 합니다. Go over는 '고오버'로 부드럽게 이어 말해요.", "who": "parent" },
+    { "en": "Pick up a rock.", "ko": "돌을 하나 집어.", "tip": "pick up은 '집어 들다, 줍다'예요. 장난감을 치울 때 Pick up your toys로도 써요. Pick up a가 이어져 '피커퍼'처럼 들립니다.", "who": "parent" },
+    { "en": "What did you find?", "ko": "뭘 찾았어?", "tip": "아이가 무언가를 발견하거나 주워 왔을 때 묻는 말이에요. What did you는 빠르게 '왓디쥬'로 이어집니다.", "who": "parent" },
+    { "en": "Slow and steady.", "ko": "천천히, 꾸준히.", "tip": "서두르지 말고 차근차근 하라고 할 때 써요. 'Slow and steady wins the race.'(천천히 꾸준히 하는 사람이 이긴다)라는 속담에서 온 말입니다. and는 약하게 '슬로운 스테디'처럼 말해요.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "This toy car is our Mars rover.", "ko": "이 장난감 자동차가 우리 화성 로버야." },
+    { "who": "kid", "en": "What's a rover?", "ko": "로버가 뭐야?", "practice": true },
+    { "who": "parent", "en": "It's a robot car. It drives on Mars.", "ko": "로봇 자동차야. 화성에서 돌아다녀." },
+    { "who": "kid", "en": "Who drives it?", "ko": "누가 운전해?" },
+    { "who": "parent", "en": "People on Earth send it messages.", "ko": "지구에 있는 사람들이 로버에게 신호를 보내." },
+    { "who": "kid", "en": "Can I drive the rover?", "ko": "내가 로버 운전해도 돼?", "practice": true },
+    { "who": "parent", "en": "Sure. Drive the rover. Go ahead!", "ko": "그럼. 로버를 운전해 봐. 출발!" },
+    { "who": "kid", "en": "Vroom! I'm going fast!", "ko": "부릉! 나 빨리 간다!" },
+    { "who": "parent", "en": "Not too fast. Real rovers go very slowly.", "ko": "너무 빨리는 말고. 진짜 로버는 아주 천천히 가." },
+    { "who": "kid", "en": "Why so slowly?", "ko": "왜 그렇게 천천히 가?" },
+    { "who": "parent", "en": "Mars is bumpy. Slow and steady, buddy.", "ko": "화성은 울퉁불퉁하거든. 천천히, 꾸준히 가는 거야." },
+    { "who": "kid", "en": "Rocks! What do I do?", "ko": "바위다! 어떻게 해?" },
+    { "who": "parent", "en": "Go over the rocks. The wheels can climb.", "ko": "바위를 넘어가. 바퀴가 올라갈 수 있어." },
+    { "who": "kid", "en": "Bump, bump, bump! I did it!", "ko": "덜컹, 덜컹, 덜컹! 해냈다!", "practice": true },
+    { "who": "parent", "en": "Nice driving. Now use the robot arm.", "ko": "운전 잘하네. 이제 로봇 팔을 써 봐." },
+    { "who": "kid", "en": "What's the arm for?", "ko": "팔은 뭐 하는 거야?" },
+    { "who": "parent", "en": "Pick up a rock. Scientists want to study it.", "ko": "돌을 하나 집어. 과학자들이 연구하고 싶어 하거든." },
+    { "who": "kid", "en": "Got one! It's red.", "ko": "하나 잡았다! 빨간색이야.", "practice": true },
+    { "who": "parent", "en": "Yes. Mars is red and dusty.", "ko": "맞아. 화성은 붉고 먼지가 많아." },
+    { "who": "kid", "en": "I found something else!", "ko": "나 또 뭐 찾았어!" },
+    { "who": "parent", "en": "Really? What did you find?", "ko": "정말? 뭘 찾았어?" },
+    { "who": "kid", "en": "A shiny rock! Look!", "ko": "반짝이는 돌! 봐!", "practice": true },
+    { "who": "parent", "en": "Wow! Let's send a picture to Earth. My turn to drive.", "ko": "우와! 지구로 사진을 보내자. 이제 내가 운전할 차례야." },
+    { "who": "kid", "en": "Okay. Slow and steady!", "ko": "알았어. 천천히, 꾸준히!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What do you want to find on Mars?", "ko": "화성에서 뭘 찾고 싶어?", "sample_en": "Water!", "sample_ko": "물!" },
+    { "en": "What would you name your rover?", "ko": "네 로버 이름은 뭐라고 지을 거야?", "sample_en": "Super Wheels!", "sample_ko": "슈퍼 바퀴!" },
+    { "en": "Why do rovers go slowly?", "ko": "로버는 왜 천천히 갈까?", "sample_en": "Because Mars is bumpy.", "sample_ko": "화성이 울퉁불퉁하니까." }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "What color is Mars?", "prompt_ko": "화성은 무슨 색이야?", "options": [ { "e": "🔴", "en": "red" }, { "e": "🔵", "en": "blue" }, { "e": "🟣", "en": "purple" } ] },
+    { "prompt_en": "What is a rover?", "prompt_ko": "로버는 뭐야?", "options": [ { "e": "🤖", "en": "a robot" }, { "e": "🐈", "en": "a cat" }, { "e": "⛵", "en": "a sailboat" } ] },
+    { "prompt_en": "Which one is a rock?", "prompt_ko": "돌은 어느 거야?", "options": [ { "e": "🪨", "en": "rock" }, { "e": "🍞", "en": "bread" }, { "e": "🧸", "en": "teddy bear" } ] },
+    { "prompt_en": "How do real rovers go?", "prompt_ko": "진짜 로버는 어떻게 가?", "options": [ { "e": "🐢", "en": "very slowly" }, { "e": "⚡", "en": "super fast" }, { "e": "🦘", "en": "by jumping" } ] },
+    { "prompt_en": "Your friend has something in his hand. What do you ask?", "prompt_ko": "친구가 손에 뭘 쥐고 있어. 뭐라고 물어봐?", "options": [ { "e": "🔍", "en": "What did you find?" }, { "e": "🛌", "en": "Are you sleepy?" }, { "e": "🌧️", "en": "Is it raining?" } ] },
+    { "prompt_en": "Listen: 'Pick up a rock.' What do you do?", "prompt_ko": "잘 들어 봐: 'Pick up a rock.' 어떻게 해야 해?", "options": [ { "e": "🤏", "en": "pick it up" }, { "e": "🦵", "en": "kick it" }, { "e": "😋", "en": "eat it" } ] },
+    { "prompt_en": "Where do the people who drive the rover live?", "prompt_ko": "로버를 움직이는 사람들은 어디에 살아?", "options": [ { "e": "🌍", "en": "on Earth" }, { "e": "🌙", "en": "on the moon" }, { "e": "☀️", "en": "on the sun" } ] },
+    { "prompt_en": "A rover has wheels. Which one has wheels, too?", "prompt_ko": "로버에는 바퀴가 있어. 또 바퀴가 있는 건 어느 거야?", "options": [ { "e": "🚗", "en": "a car" }, { "e": "⛵", "en": "a sailboat" }, { "e": "🎈", "en": "a balloon" } ] },
+    { "prompt_en": "Who wants to study the Mars rock?", "prompt_ko": "화성 돌을 연구하고 싶은 사람은 누구야?", "options": [ { "e": "🧑‍🔬", "en": "scientists" }, { "e": "🧑‍🍳", "en": "cooks" }, { "e": "🧑‍🎤", "en": "singers" } ] },
+    { "prompt_en": "What did we send to Earth?", "prompt_ko": "지구로 뭘 보냈지?", "options": [ { "e": "📷", "en": "a picture" }, { "e": "🍕", "en": "a pizza" }, { "e": "🧦", "en": "socks" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Slow and steady.'는 어떤 뜻일까?", "options": ["서두르지 말고 천천히, 꾸준히.", "느려서 답답해.", "천천히 멈춰.", "느리지만 준비됐어."], "explain": "steady는 '꾸준한, 흔들림 없는'이라는 뜻으로, 서두르지 말고 차근차근 하라는 말입니다." },
+    { "q": "'Slow and steady' 뒤에 이어지는 속담의 나머지 부분은?", "options": ["wins the race.", "loses the game.", "saves the day.", "makes it late."], "explain": "Slow and steady wins the race.는 '천천히 꾸준히 하는 사람이 결국 이긴다'는 속담입니다." },
+    { "q": "아이가 무언가를 주워 왔을 때 '뭘 찾았어?'라고 묻는 말은?", "options": ["What did you find?", "What did you found?", "What do you finding?", "What you find?"], "explain": "did 뒤에는 동사 원형을 쓰므로 What did you find?가 맞습니다." },
+    { "q": "'Pick up a'를 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["피커퍼", "픽 업 어", "피쿠파", "픽커 파"], "explain": "Pick의 k와 up, up의 p와 a가 차례로 이어져 '피커퍼'처럼 들립니다." },
+    { "q": "빈칸에 알맞은 말은? — Go ___ the rocks. (바위를 넘어가)", "options": ["over", "under", "into", "off"], "explain": "'~ 위를 넘어가다'는 go over입니다." },
+    { "q": "'Mars is bumpy.'에서 bumpy의 뜻은?", "options": ["울퉁불퉁한", "미끄러운", "뜨거운", "텅 빈"], "explain": "bumpy는 길이나 땅이 울퉁불퉁하다는 뜻으로, 비행기가 흔들릴 때도 a bumpy ride라고 합니다." },
+    { "q": "아이의 운전 솜씨를 칭찬할 때 알맞은 말은?", "options": ["Nice driving.", "Nice drive you.", "Good to drive.", "Well driver."], "explain": "'Nice + 동사ing'는 방금 한 행동을 칭찬하는 간단한 표현입니다(Nice driving, Nice singing)." },
+    { "q": "빈칸에 알맞은 말은? — What's the arm ___? (팔은 뭐 하는 거야?)", "options": ["for", "to", "of", "at"], "explain": "용도를 물을 때는 What's … for?라고 합니다." },
+    { "q": "다음 중 'Slow and steady.'를 쓰기에 가장 알맞은 상황은?", "options": ["아이가 컵에 물을 급하게 따르려고 할 때", "아이가 너무 늦게 일어났을 때", "아이가 달리기에서 1등 했을 때", "아이가 밥을 안 먹으려고 할 때"], "explain": "서두르면 실수하기 쉬운 일을 할 때 '천천히, 차근차근'이라고 일러 주는 말입니다." },
+    { "q": "'로버를 운전하다'에 알맞은 동사는?", "options": ["drive", "ride", "fly", "sail"], "explain": "바퀴 달린 탈것을 직접 조종할 때는 drive를 씁니다." }
+  ]
+}

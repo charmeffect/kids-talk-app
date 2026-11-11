@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 120,
+  "topic": "space",
+  "title_en": "Mission complete (review story)",
+  "title_ko": "임무 완료! (복습 이야기)",
+  "intro_ko": "석 달 동안 만난 배, 비행기, 우주, 과학 이야기를 되돌아보는 복습 이야기입니다. 우주선이 지구에 막 착륙한 것처럼 꾸미고, 그동안 그린 그림이나 장난감을 '탐험 사진'처럼 하나씩 꺼내 보며 말해 보세요.",
+  "expressions": [
+    { "en": "Mission complete!", "ko": "임무 완료!", "tip": "맡은 일을 다 끝냈을 때 외치는 말이에요. 정리나 숙제를 마쳤을 때도 써 보세요. '미션 컴플릿'으로, 뒤의 -plete를 강하게 말합니다.", "who": "both" },
+    { "en": "What was your favorite part?", "ko": "뭐가 제일 좋았어?", "tip": "책, 영화, 여행이 끝난 뒤 묻기 좋은 질문이에요. was your가 이어져 '워쥬어'처럼 들립니다.", "who": "both" },
+    { "en": "I liked the … best.", "ko": "나는 …이(가) 제일 좋았어.", "tip": "빈자리에 좋았던 것을 넣어 말해요. liked the는 d 소리가 약해져 '라익더'처럼 들립니다.", "who": "both" },
+    { "en": "Let's do it again soon.", "ko": "곧 또 하자.", "tip": "즐거운 일을 마치며 다음을 약속하는 말이에요. do it again이 이어져 '두이러겐'처럼 들립니다.", "who": "both" },
+    { "en": "Over the moon.", "ko": "뛸 듯이 기쁜", "tip": "달을 뛰어넘을 만큼 기쁘다는 뜻으로 I'm over the moon.처럼 써요. Over the가 이어져 '오버더 문'으로 말합니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Captain, we're back on Earth. Mission complete!", "ko": "선장님, 지구에 돌아왔습니다. 임무 완료!" },
+    { "who": "kid", "en": "Mission complete! We did it!", "ko": "임무 완료! 우리가 해냈어!", "practice": true },
+    { "who": "parent", "en": "We sure did. Let's look at our mission photos.", "ko": "정말 해냈지. 우리 탐험 사진을 보자." },
+    { "who": "kid", "en": "Look! The little tugboat!", "ko": "봐! 작은 예인선이야!" },
+    { "who": "parent", "en": "Right. It was small but strong.", "ko": "맞아. 작지만 힘이 셌지." },
+    { "who": "kid", "en": "And the ship that broke the ice!", "ko": "그리고 얼음을 깨던 배!" },
+    { "who": "parent", "en": "The icebreaker! It made a path in the frozen sea.", "ko": "쇄빙선! 꽁꽁 언 바다에 길을 만들었지." },
+    { "who": "kid", "en": "What's this one?", "ko": "이건 뭐야?" },
+    { "who": "parent", "en": "That's the seaplane. It lands on water.", "ko": "그건 수상 비행기야. 물 위에 내려앉지." },
+    { "who": "kid", "en": "And I jumped with a parachute!", "ko": "그리고 나 낙하산 타고 뛰어내렸어!" },
+    { "who": "parent", "en": "You did. Nice and slow, with a soft landing.", "ko": "그랬지. 천천히 내려와서 사뿐히 착륙했어." },
+    { "who": "kid", "en": "Then we went to space!", "ko": "그다음에 우주에 갔어!" },
+    { "who": "parent", "en": "Yes. We saw Saturn's rings and a comet with a long tail.", "ko": "응. 토성의 고리랑 꼬리가 긴 혜성도 봤지." },
+    { "who": "kid", "en": "The rings are made of ice!", "ko": "고리는 얼음으로 되어 있어!", "practice": true },
+    { "who": "parent", "en": "Good memory! What was your favorite part?", "ko": "잘 기억하네! 뭐가 제일 좋았어?" },
+    { "who": "kid", "en": "I liked the Mars rover best.", "ko": "나는 화성 로버가 제일 좋았어.", "practice": true },
+    { "who": "parent", "en": "Me too. You drove it over all those rocks.", "ko": "나도. 네가 그 많은 바위를 넘어서 운전했잖아." },
+    { "who": "kid", "en": "What was your favorite part?", "ko": "엄마(아빠)는 뭐가 제일 좋았어?", "practice": true },
+    { "who": "parent", "en": "Doing it all with you. I'm over the moon.", "ko": "너랑 다 함께 한 거. 정말 뛸 듯이 기뻐." },
+    { "who": "kid", "en": "Over the moon? Like a rocket?", "ko": "달 너머로? 로켓처럼?" },
+    { "who": "parent", "en": "Ha! It means I'm really, really happy.", "ko": "하하! 정말 정말 행복하다는 뜻이야." },
+    { "who": "kid", "en": "Me too! Let's do it again soon.", "ko": "나도! 곧 또 하자.", "practice": true },
+    { "who": "parent", "en": "Deal. Our next mission starts tomorrow!", "ko": "좋아. 다음 임무는 내일 시작이야!" },
+    { "who": "kid", "en": "Yay! Blast off!", "ko": "야호! 발사!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "Which ship did you like best?", "ko": "어떤 배가 제일 좋았어?", "sample_en": "I liked the speedboat best.", "sample_ko": "스피드보트가 제일 좋았어." },
+    { "en": "Where do you want to go on our next mission?", "ko": "다음 임무에서는 어디로 가고 싶어?", "sample_en": "To Saturn!", "sample_ko": "토성으로!" },
+    { "en": "What do you want to learn about next?", "ko": "다음에는 뭘 알아보고 싶어?", "sample_en": "Dinosaurs!", "sample_ko": "공룡!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one breaks the ice on the sea?", "prompt_ko": "바다의 얼음을 깨는 건 어느 거야?", "options": [ { "e": "🚢", "en": "a ship" }, { "e": "🚲", "en": "a bike" }, { "e": "🎈", "en": "a balloon" } ] },
+    { "prompt_en": "Where does a seaplane land?", "prompt_ko": "수상 비행기는 어디에 내려앉아?", "options": [ { "e": "🌊", "en": "on water" }, { "e": "🌳", "en": "in a tree" }, { "e": "🏠", "en": "on a house" } ] },
+    { "prompt_en": "Which one has rings?", "prompt_ko": "고리가 있는 건 어느 거야?", "options": [ { "e": "🪐", "en": "Saturn" }, { "e": "🌍", "en": "Earth" }, { "e": "🌙", "en": "the moon" } ] },
+    { "prompt_en": "What are Saturn's rings made of?", "prompt_ko": "토성의 고리는 뭐로 되어 있어?", "options": [ { "e": "🧊", "en": "ice" }, { "e": "🍫", "en": "chocolate" }, { "e": "🧀", "en": "cheese" } ] },
+    { "prompt_en": "What helps you float down slowly?", "prompt_ko": "천천히 내려오게 도와주는 건 뭐야?", "options": [ { "e": "🪂", "en": "a parachute" }, { "e": "⚓", "en": "an anchor" }, { "e": "🔨", "en": "a hammer" } ] },
+    { "prompt_en": "We finished our job. What do you say?", "prompt_ko": "할 일을 다 끝냈어. 뭐라고 해?", "options": [ { "e": "🎉", "en": "Mission complete!" }, { "e": "😢", "en": "I'm sorry." }, { "e": "🥱", "en": "I'm sleepy." } ] },
+    { "prompt_en": "Someone asks, 'What was your favorite part?' What do you say?", "prompt_ko": "'뭐가 제일 좋았어?'라고 물으면 뭐라고 해?", "options": [ { "e": "😄", "en": "I liked the rover best." }, { "e": "👋", "en": "See you later." }, { "e": "🙏", "en": "Yes, please." } ] },
+    { "prompt_en": "What has a long tail in space?", "prompt_ko": "우주에서 긴 꼬리가 있는 건 뭐야?", "options": [ { "e": "☄️", "en": "a comet" }, { "e": "🌞", "en": "the sun" }, { "e": "🛰️", "en": "a satellite" } ] },
+    { "prompt_en": "You want to play again. What do you say?", "prompt_ko": "또 놀고 싶어. 뭐라고 해?", "options": [ { "e": "🔁", "en": "Let's do it again soon." }, { "e": "✋", "en": "No more." }, { "e": "🤫", "en": "Be quiet." } ] },
+    { "prompt_en": "What flies to space?", "prompt_ko": "우주로 날아가는 건 뭐야?", "options": [ { "e": "🚀", "en": "a rocket" }, { "e": "🚤", "en": "a speedboat" }, { "e": "🚁", "en": "a helicopter" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'I'm over the moon.'은 어떤 뜻일까?", "options": ["뛸 듯이 기뻐.", "달 너머로 멀리 떠나.", "너무 늦었어.", "꿈처럼 불가능해."], "explain": "달을 뛰어넘을 만큼 아주 기쁘다는 뜻의 표현입니다." },
+    { "q": "여행이나 놀이를 마치고 '뭐가 제일 좋았어?'라고 물을 때 알맞은 말은?", "options": ["What was your favorite part?", "What was your favorite parts?", "Which was favorite your part?", "What did your favorite part?"], "explain": "'가장 좋았던 부분'은 favorite part이고, 지난 일이므로 was를 씁니다." },
+    { "q": "빈칸에 알맞은 말은? — I liked the Mars rover ___.", "options": ["best", "good", "well", "favorite"], "explain": "'~이 제일 좋았다'는 I liked ~ best.라고 합니다." },
+    { "q": "'Mission complete!'를 쓰기에 가장 알맞은 상황은?", "options": ["맡은 일을 다 끝냈을 때", "일을 막 시작할 때", "실수를 했을 때", "도움이 필요할 때"], "explain": "임무나 할 일을 모두 마쳤을 때 '임무 완료!'라고 외치는 말입니다." },
+    { "q": "'곧 또 하자.'에 알맞은 말은?", "options": ["Let's do it again soon.", "Let's do again it soon.", "Let's again do it soon.", "Let's do it soon again more."], "explain": "do it again(다시 하다) 뒤에 soon(곧)을 붙입니다." },
+    { "q": "'What was your'를 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["왓 워쥬어", "왓 워즈 유어", "와 워츄얼", "왓 와스 요어"], "explain": "was의 z 소리와 your가 만나 '워쥬어'처럼 들립니다." },
+    { "q": "빈칸에 알맞은 말은? — It was small ___ strong.", "options": ["but", "so", "or", "because"], "explain": "'작지만 힘이 세다'처럼 반대되는 내용은 but으로 잇습니다." },
+    { "q": "'I'm over the moon.'과 뜻이 가장 비슷한 말은?", "options": ["I'm so happy.", "I'm so sleepy.", "I'm so far away.", "I'm so busy."], "explain": "over the moon은 extremely happy(아주 행복한)와 같은 뜻입니다." },
+    { "q": "아이가 예전에 배운 것을 잘 기억해 냈을 때 'Good memory!'라고 하면?", "options": ["기억력 좋네!", "좋은 추억이야!", "잘 외워 봐!", "기억이 안 나!"], "explain": "여기서 memory는 '기억력'으로, 잘 기억했다고 칭찬하는 말입니다." },
+    { "q": "아이의 제안에 'Deal.'이라고 답하면 어떤 뜻일까?", "options": ["좋아, 그러자.", "그건 안 돼.", "나중에 얘기하자.", "카드를 나눠 줘."], "explain": "Deal.은 제안을 받아들여 '좋아, 약속!'이라고 할 때 씁니다." }
+  ]
+}

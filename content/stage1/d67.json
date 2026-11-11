@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 67,
+  "topic": "science",
+  "title_en": "Ramps and rolling",
+  "title_ko": "경사로와 굴러가기",
+  "intro_ko": "책을 비스듬히 세워 경사로를 만들고 공, 장난감 자동차, 블록을 굴려 보는 과학 놀이입니다. 책을 한 권씩 더 받쳐 높이를 바꾸며 실제로 해 보세요.",
+  "expressions": [
+    { "en": "Let it roll.", "ko": "굴러가게 놔 봐.", "tip": "손을 놓아 굴러가게 하라는 말이에요. Let it이 이어지고 t가 부드러워져 '레릿 롤'처럼 들립니다.", "who": "both" },
+    { "en": "Which one is faster?", "ko": "어느 게 더 빨라?", "tip": "두 가지를 비교할 때 쓰는 질문이에요. faster 자리에 bigger, heavier를 넣어 응용해 보세요. '위치 워니즈'로 이어집니다.", "who": "both" },
+    { "en": "It rolled down!", "ko": "굴러 내려갔어!", "tip": "방금 일어난 일을 말할 때 써요. rolled의 d와 down의 d가 겹쳐 한 번만 소리 나서 '롤다운'처럼 들립니다.", "who": "kid" },
+    { "en": "Make it higher.", "ko": "더 높게 해 줘.", "tip": "'Make it + 비교급'으로 '더 ~하게 해 줘'라고 부탁할 수 있어요. Make it이 이어져 '메이킷 하이어'가 됩니다.", "who": "kid" },
+    { "en": "You're on a roll.", "ko": "계속 잘하고 있네!", "tip": "연달아 맞히거나 계속 잘 풀릴 때 쓰는 칭찬이에요. 굴러가는 공처럼 기세가 좋다는 뜻입니다. on a가 이어져 '유어 오너 롤'처럼 들려요.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Let's make a ramp with this big book.", "ko": "이 큰 책으로 경사로를 만들어 보자." },
+    { "who": "kid", "en": "What's a ramp?", "ko": "경사로가 뭐야?" },
+    { "who": "parent", "en": "It's like a slide for toys. Put the ball on top.", "ko": "장난감 미끄럼틀 같은 거야. 공을 맨 위에 올려 봐." },
+    { "who": "kid", "en": "Like this? Can I let go?", "ko": "이렇게? 손 놓아도 돼?" },
+    { "who": "parent", "en": "Yes. Let it roll.", "ko": "응. 굴러가게 놔 봐." },
+    { "who": "kid", "en": "It rolled down!", "ko": "굴러 내려갔어!", "practice": true },
+    { "who": "parent", "en": "It did! Now let's try the car and the ball.", "ko": "그러네! 이번엔 자동차랑 공으로 해 보자." },
+    { "who": "kid", "en": "Which one is faster?", "ko": "어느 게 더 빨라?", "practice": true },
+    { "who": "parent", "en": "What do you think?", "ko": "네 생각은 어때?" },
+    { "who": "kid", "en": "The car!", "ko": "자동차!" },
+    { "who": "parent", "en": "Let's race them. Ready, set, go!", "ko": "경주시켜 보자. 준비, 땅!" },
+    { "who": "kid", "en": "The car won! I was right!", "ko": "자동차가 이겼어! 내 말이 맞았어!" },
+    { "who": "parent", "en": "You were! What about this block?", "ko": "맞았네! 이 블록은 어떨까?" },
+    { "who": "kid", "en": "It's not rolling. Why?", "ko": "안 굴러가. 왜?", "practice": true },
+    { "who": "parent", "en": "It's flat, so it slides. Round things roll.", "ko": "납작해서 미끄러지는 거야. 둥근 것들이 굴러가지." },
+    { "who": "kid", "en": "Make it higher!", "ko": "더 높게 해 줘!", "practice": true },
+    { "who": "parent", "en": "Okay, one more book. Now it's a big hill.", "ko": "좋아, 책 한 권 더. 이제 큰 언덕이 됐네." },
+    { "who": "kid", "en": "Whoa! It went so fast!", "ko": "우와! 엄청 빨리 갔어!" },
+    { "who": "parent", "en": "See? A higher ramp makes things go faster.", "ko": "봤지? 경사로가 높으면 더 빨리 가." },
+    { "who": "kid", "en": "I knew it!", "ko": "그럴 줄 알았어!" },
+    { "who": "parent", "en": "You did! You're on a roll.", "ko": "그랬구나! 계속 잘 맞히네." },
+    { "who": "kid", "en": "I'm on a roll? What's that?", "ko": "온 어 롤? 그게 뭐야?" },
+    { "who": "parent", "en": "It means you keep getting things right.", "ko": "계속 잘 맞힌다는 뜻이야." },
+    { "who": "kid", "en": "Let it roll again!", "ko": "또 굴려 보자!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What else can roll?", "ko": "또 뭐가 굴러갈 수 있을까?", "sample_en": "An orange!", "sample_ko": "오렌지!" },
+    { "en": "What happens if we make the ramp lower?", "ko": "경사로를 더 낮게 하면 어떻게 될까?", "sample_en": "It goes slow.", "sample_ko": "천천히 가." },
+    { "en": "Where can you find a ramp outside?", "ko": "밖에서는 어디에 경사로가 있을까?", "sample_en": "At the playground!", "sample_ko": "놀이터에!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one rolls?", "prompt_ko": "굴러가는 건 어느 거야?", "options": [ { "e": "⚽", "en": "ball" }, { "e": "📦", "en": "box" }, { "e": "📕", "en": "book" } ] },
+    { "prompt_en": "Which one is fast?", "prompt_ko": "빠른 건 어느 거야?", "options": [ { "e": "🏎️", "en": "race car" }, { "e": "🐢", "en": "turtle" }, { "e": "🐌", "en": "snail" } ] },
+    { "prompt_en": "The ball is on top of the ramp. What do you say?", "prompt_ko": "공이 경사로 위에 있어. 뭐라고 해?", "options": [ { "e": "🙌", "en": "Let it roll." }, { "e": "😴", "en": "Good night." }, { "e": "🍽️", "en": "Let's eat." } ] },
+    { "prompt_en": "The ball went down the ramp. What do you say?", "prompt_ko": "공이 경사로를 내려갔어. 뭐라고 해?", "options": [ { "e": "🎉", "en": "It rolled down!" }, { "e": "🚪", "en": "Open the door." }, { "e": "🥶", "en": "I'm cold." } ] },
+    { "prompt_en": "Which shape rolls?", "prompt_ko": "굴러가는 모양은 어느 거야?", "options": [ { "e": "🔵", "en": "circle" }, { "e": "🟥", "en": "square" }, { "e": "🔺", "en": "triangle" } ] },
+    { "prompt_en": "You want a taller ramp. What do you say?", "prompt_ko": "경사로를 더 높이고 싶어. 뭐라고 해?", "options": [ { "e": "⬆️", "en": "Make it higher." }, { "e": "🤫", "en": "Be quiet." }, { "e": "👋", "en": "See you later." } ] },
+    { "prompt_en": "What did we make the ramp with?", "prompt_ko": "경사로는 뭐로 만들었지?", "options": [ { "e": "📚", "en": "books" }, { "e": "🍌", "en": "bananas" }, { "e": "🧦", "en": "socks" } ] },
+    { "prompt_en": "Which one is slow?", "prompt_ko": "느린 건 어느 거야?", "options": [ { "e": "🐢", "en": "turtle" }, { "e": "🚀", "en": "rocket" }, { "e": "✈️", "en": "plane" } ] },
+    { "prompt_en": "Two cars are racing. What do you ask?", "prompt_ko": "자동차 두 대가 경주해. 뭐라고 물어봐?", "options": [ { "e": "🏁", "en": "Which one is faster?" }, { "e": "🍎", "en": "Is it yummy?" }, { "e": "🌧️", "en": "Is it raining?" } ] },
+    { "prompt_en": "Which one has wheels?", "prompt_ko": "바퀴가 있는 건 어느 거야?", "options": [ { "e": "🚲", "en": "bike" }, { "e": "⛵", "en": "sailboat" }, { "e": "🐟", "en": "fish" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'You're on a roll.'은 어떤 뜻일까?", "options": ["계속 잘하고 있네!", "바닥에서 구르고 있구나.", "빵 위에 올라가 있네.", "이제 네 차례야."], "explain": "on a roll은 일이 연달아 잘 풀리거나 계속 성공할 때 쓰는 표현입니다." },
+    { "q": "공을 잡고 있는 아이에게 '굴러가게 놔 봐'라고 할 때 알맞은 말은?", "options": ["Let it roll.", "Let it rolling.", "Let roll it.", "Make it to roll."], "explain": "'let + 대상 + 동사원형'이므로 Let it roll.이 됩니다." },
+    { "q": "빈칸에 알맞은 말은? — It's flat, so it ___. Round things roll.", "options": ["slides", "rolls", "flies", "jumps"], "explain": "납작한 블록은 구르지 않고 미끄러지므로(slide) slides가 맞습니다." },
+    { "q": "'어느 게 더 빨라?'를 영어로 하면?", "options": ["Which one is faster?", "Which one is more fast?", "What one is fastest?", "Which is one faster?"], "explain": "fast의 비교급은 faster이고, 둘 중 하나를 고를 때는 Which one을 씁니다." },
+    { "q": "'Make it higher.'의 뜻은?", "options": ["더 높게 해 줘.", "더 크게 말해 줘.", "더 빨리 해 줘.", "더 세게 밀어 줘."], "explain": "Make it + 비교급은 '더 ~하게 해 줘'이고 higher는 '더 높은'입니다." },
+    { "q": "'Let it roll'을 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["레릿 롤", "렛 잇 롤", "레팃 롤", "렌 잇 롤"], "explain": "Let it의 t가 모음 사이에서 부드러운 ㄹ 소리가 되어 '레릿 롤'처럼 들립니다." },
+    { "q": "빈칸에 알맞은 말은? — A higher ramp makes things go ___.", "options": ["faster", "fastly", "more fast", "fastest"], "explain": "'더 빨리'는 faster이며, fastly라는 말은 쓰지 않습니다." },
+    { "q": "'You're on a roll!'을 쓰기에 가장 알맞은 상황은?", "options": ["아이가 퀴즈를 연달아 맞힐 때", "아이가 바닥에서 뒹굴 때", "아이가 빵을 먹을 때", "아이가 넘어졌을 때"], "explain": "연속으로 잘하고 있을 때 기세를 칭찬하는 말입니다." },
+    { "q": "경주를 시작할 때 하는 말은? — Ready, set, ___!", "options": ["go", "run", "start", "now"], "explain": "'준비, 땅!'은 미국에서 Ready, set, go!라고 합니다." },
+    { "q": "'I knew it!'의 뜻은?", "options": ["그럴 줄 알았어!", "그거 새로 샀어!", "전혀 몰랐어!", "이제 알겠어!"], "explain": "예상이 맞았을 때 '내 그럴 줄 알았지!'라는 뜻으로 씁니다." }
+  ]
+}

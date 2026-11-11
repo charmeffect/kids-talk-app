@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 89,
+  "topic": "planes",
+  "title_en": "Flight attendant pretend",
+  "title_ko": "승무원 놀이",
+  "intro_ko": "의자를 나란히 놓아 비행기 좌석을 만들고 승무원과 승객이 되어 보는 놀이입니다. 쟁반에 컵과 과자를 올려 음료 카트처럼 밀고 다니다가 중간에 역할을 바꿔 보세요.",
+  "expressions": [
+    { "en": "What would you like?", "ko": "뭘 드릴까요?", "tip": "'What do you want?'보다 공손한 주문 질문이에요. would you가 이어져 '왓 우쥬 라이크'처럼 들립니다.", "who": "both" },
+    { "en": "I'd like …, please.", "ko": "…로 주세요.", "tip": "'I want'보다 공손하게 원하는 것을 말하는 표현이에요. I'd의 d는 아주 약해서 '아읻 라이크'처럼 들립니다.", "who": "both" },
+    { "en": "Anything else?", "ko": "더 필요한 거 있으세요?", "tip": "주문을 받은 뒤 더 필요한 것이 있는지 묻는 말이에요. 끝을 올려서 '애니띵 엘스?'라고 말합니다.", "who": "both" },
+    { "en": "That's all, thank you.", "ko": "그게 다예요, 고맙습니다.", "tip": "더 필요한 것이 없을 때 하는 대답이에요. That's all은 '대츠 올'로 이어 말합니다.", "who": "both" },
+    { "en": "You're all set.", "ko": "준비 다 됐어요.", "tip": "필요한 준비나 처리가 모두 끝났다고 알려 주는 말이에요. 아이 안전벨트를 채워 준 뒤나 가방을 다 챙겨 준 뒤에 쓰기 좋아요.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Welcome aboard! Please fasten your seat belt.", "ko": "탑승을 환영합니다! 안전벨트를 매 주세요." },
+    { "who": "kid", "en": "Click! Is this right?", "ko": "찰칵! 이렇게 하는 거 맞아?" },
+    { "who": "parent", "en": "Perfect. You're all set.", "ko": "완벽해요. 준비 다 됐어요." },
+    { "who": "kid", "en": "I'm thirsty. Is there juice?", "ko": "목말라요. 주스 있어요?" },
+    { "who": "parent", "en": "Here comes the drink cart. What would you like?", "ko": "음료 카트가 왔습니다. 뭘 드릴까요?" },
+    { "who": "kid", "en": "I'd like apple juice, please.", "ko": "사과 주스 주세요.", "practice": true },
+    { "who": "parent", "en": "Sure. Here's your apple juice. Anything else?", "ko": "네. 사과 주스 여기 있습니다. 더 필요한 거 있으세요?" },
+    { "who": "kid", "en": "Do you have cookies?", "ko": "과자 있어요?" },
+    { "who": "parent", "en": "Yes, we do. Here you go.", "ko": "네, 있어요. 여기 있습니다." },
+    { "who": "kid", "en": "That's all, thank you.", "ko": "그게 다예요, 고맙습니다.", "practice": true },
+    { "who": "parent", "en": "You're welcome. Enjoy your flight!", "ko": "천만에요. 즐거운 비행 되세요!" },
+    { "who": "kid", "en": "Now I'm the flight attendant!", "ko": "이제 내가 승무원이야!" },
+    { "who": "parent", "en": "Okay, I'm the passenger. Excuse me!", "ko": "좋아, 나는 승객이야. 저기요!" },
+    { "who": "kid", "en": "Yes? What would you like?", "ko": "네? 뭘 드릴까요?", "practice": true },
+    { "who": "parent", "en": "I'd like some water, please.", "ko": "물 좀 주세요." },
+    { "who": "kid", "en": "Here you go. Anything else?", "ko": "여기 있습니다. 더 필요한 거 있으세요?", "practice": true },
+    { "who": "parent", "en": "Can I have a blanket? I'm a little cold.", "ko": "담요 좀 주실래요? 조금 추워서요." },
+    { "who": "kid", "en": "Here's your blanket.", "ko": "담요 여기 있습니다." },
+    { "who": "parent", "en": "That's all, thank you. You're so kind.", "ko": "그게 다예요, 고맙습니다. 정말 친절하시네요." },
+    { "who": "kid", "en": "We're landing soon! Seat belt on!", "ko": "곧 착륙합니다! 안전벨트 매세요!" },
+    { "who": "parent", "en": "Click! Am I ready?", "ko": "찰칵! 저 준비됐나요?" },
+    { "who": "kid", "en": "Yes! You're all set.", "ko": "네! 준비 다 됐어요.", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What would you like to eat on a plane?", "ko": "비행기에서 뭘 먹고 싶어?", "sample_en": "I'd like noodles, please.", "sample_ko": "국수 주세요." },
+    { "en": "What does a flight attendant do?", "ko": "승무원은 무슨 일을 해?", "sample_en": "They bring drinks and help people.", "sample_ko": "음료를 갖다주고 사람들을 도와줘." },
+    { "en": "Why do we wear seat belts?", "ko": "안전벨트는 왜 매는 걸까?", "sample_en": "To stay safe!", "sample_ko": "안전하려고!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Where does a flight attendant work?", "prompt_ko": "승무원은 어디에서 일해?", "options": [ { "e": "✈️", "en": "on a plane" }, { "e": "🚢", "en": "on a ship" }, { "e": "🚜", "en": "on a tractor" } ] },
+    { "prompt_en": "Someone asks, 'What would you like?' What do you say?", "prompt_ko": "'뭘 드릴까요?'라고 물으면 뭐라고 해?", "options": [ { "e": "🧃", "en": "I'd like juice, please." }, { "e": "😴", "en": "Good night." }, { "e": "🐶", "en": "It's a dog." } ] },
+    { "prompt_en": "You don't need anything more. What do you say?", "prompt_ko": "더 필요한 게 없어. 뭐라고 해?", "options": [ { "e": "😊", "en": "That's all, thank you." }, { "e": "🚀", "en": "Blast off!" }, { "e": "🌧️", "en": "It's raining." } ] },
+    { "prompt_en": "Where do you sit on a plane?", "prompt_ko": "비행기에서는 어디에 앉아?", "options": [ { "e": "💺", "en": "a seat" }, { "e": "🛏️", "en": "a bed" }, { "e": "🛁", "en": "a bathtub" } ] },
+    { "prompt_en": "In our story, what did you drink?", "prompt_ko": "오늘 이야기에서 뭘 마셨지?", "options": [ { "e": "🧃", "en": "apple juice" }, { "e": "☕", "en": "coffee" }, { "e": "🍲", "en": "soup" } ] },
+    { "prompt_en": "You are thirsty. What do you ask for?", "prompt_ko": "목이 말라. 뭘 달라고 해?", "options": [ { "e": "💧", "en": "water" }, { "e": "👟", "en": "shoes" }, { "e": "📚", "en": "books" } ] },
+    { "prompt_en": "Which one is a cookie?", "prompt_ko": "과자는 어느 거야?", "options": [ { "e": "🍪", "en": "cookie" }, { "e": "🍎", "en": "apple" }, { "e": "🥕", "en": "carrot" } ] },
+    { "prompt_en": "You give someone a drink. What do you say?", "prompt_ko": "마실 것을 건네줄 때 뭐라고 해?", "options": [ { "e": "🤲", "en": "Here you go." }, { "e": "👋", "en": "Bye-bye." }, { "e": "😢", "en": "I'm sad." } ] },
+    { "prompt_en": "You hear, 'Anything else?' You want a cookie. What do you say?", "prompt_ko": "'더 필요한 거 있으세요?'라고 해. 과자가 먹고 싶어. 뭐라고 해?", "options": [ { "e": "🍪", "en": "A cookie, please." }, { "e": "🚗", "en": "It's a car." }, { "e": "🌙", "en": "Good night." } ] },
+    { "prompt_en": "The plane is coming down to the ground. What is it doing?", "prompt_ko": "비행기가 땅으로 내려오고 있어. 뭘 하는 거야?", "options": [ { "e": "🛬", "en": "landing" }, { "e": "🏊", "en": "swimming" }, { "e": "💤", "en": "sleeping" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'What would you like?'의 뜻은?", "options": ["뭘 드릴까요?", "뭘 좋아하세요?", "어떻게 생겼어요?", "뭐 하는 거 좋아해요?"], "explain": "would like는 want의 공손한 표현이라 '무엇을 원하세요?'라는 뜻이고, 취향을 묻는 What do you like?와 다릅니다." },
+    { "q": "사과 주스를 공손하게 주문할 때 알맞은 말은?", "options": ["I'd like apple juice, please.", "I like apple juice, please.", "I'd like to apple juice, please.", "I'm like apple juice, please."], "explain": "원하는 것을 공손하게 말할 때는 I'd like + 명사를 씁니다." },
+    { "q": "'You're all set.'은 어떤 뜻일까?", "options": ["준비 다 됐어요.", "자리에 앉으세요.", "모두 모였어요.", "다 팔렸어요."], "explain": "필요한 준비나 처리가 모두 끝났다는 뜻으로 가게나 공항에서도 자주 듣는 말입니다." },
+    { "q": "'Anything else?'의 뜻은?", "options": ["더 필요한 거 있으세요?", "다른 분은 없으세요?", "아무거나 괜찮으세요?", "뭔가 잘못됐나요?"], "explain": "주문이나 부탁을 받은 뒤 추가로 필요한 것이 있는지 묻는 말입니다." },
+    { "q": "더 필요한 것이 없을 때 가장 자연스러운 대답은?", "options": ["That's all, thank you.", "That's everything else, thank you.", "It's all of them, thank you.", "All is that, thank you."], "explain": "That's all은 '그게 전부예요'라는 뜻으로 주문을 마칠 때 씁니다." },
+    { "q": "'What would you'를 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["왓 우쥬", "왓 우드 유", "와트 워드 유", "왓 울류"], "explain": "would의 d와 you가 만나 '쥬' 소리가 나서 '우쥬'처럼 들립니다." },
+    { "q": "빈칸에 알맞은 말은? — Welcome aboard! Please ___ your seat belt.", "options": ["fasten", "close", "tie", "lock"], "explain": "안전벨트를 매는 것은 fasten your seat belt라고 합니다." },
+    { "q": "'I'd like some water.'에서 I'd는 무엇을 줄인 말일까?", "options": ["I would", "I did", "I had", "I should"], "explain": "I'd like는 I would like를 줄인 말입니다." },
+    { "q": "'You're all set.'을 쓰기에 가장 알맞은 상황은?", "options": ["아이 안전벨트를 다 채워 준 뒤", "아이가 잠들었을 때", "아이가 넘어졌을 때", "아이가 질문을 할 때"], "explain": "준비가 끝나서 이제 출발하거나 시작해도 된다고 알려 줄 때 씁니다." },
+    { "q": "빈칸에 알맞은 말은? — Can I have a blanket? I'm a ___ cold.", "options": ["little", "few", "small", "less"], "explain": "'조금 춥다'는 a little cold라고 합니다." }
+  ]
+}

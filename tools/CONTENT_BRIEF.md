@@ -1,6 +1,6 @@
 # Writing day files for Kids Talk
 
-You write `content/stage1/dNN.json` (NN = two-digit day) for the days you are given. Read first:
+You write `content/stage1/dNN.json` (NN = two-digit day; three digits from day 100, e.g. `d100.json`) for the days you are given. Read first:
 - `docs/superpowers/specs/2026-11-10-kids-talk-design.md` (schema)
 - `tools/CURRICULUM_STAGE1.md` (your days' topic, title, core expressions, parent idiom)
 - `content/stage1/d01.json` (the model day — match its quality, length and style)

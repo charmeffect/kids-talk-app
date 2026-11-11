@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 115,
+  "topic": "space",
+  "title_en": "Comets",
+  "title_ko": "혜성",
+  "intro_ko": "우주 책에서 혜성 사진을 보며 이야기하는 장면입니다. 책이나 사진을 함께 보면서 손가락으로 혜성의 긴 꼬리를 따라 그려 보세요.",
+  "expressions": [
+    { "en": "It has a long tail.", "ko": "꼬리가 길어.", "tip": "혜성이나 동물의 생김새를 말할 때 써요. has a가 이어져 '잇 해저 롱 테일'처럼 들립니다.", "who": "both" },
+    { "en": "It's made of ice and dust.", "ko": "얼음이랑 먼지로 되어 있어.", "tip": "무엇으로 이루어졌는지 말할 때 It's made of…를 써요. made of는 '메이더브'처럼 이어집니다.", "who": "parent" },
+    { "en": "When will it come back?", "ko": "언제 다시 와?", "tip": "떠난 사람이나 물건이 언제 돌아오는지 물을 때 써요. will it이 이어져 '웬 위릿 컴백'처럼 들립니다.", "who": "kid" },
+    { "en": "A long, long time.", "ko": "아주아주 오랜 시간.", "tip": "long을 두 번 말해 '아주 오래'를 강조해요. 아이에게 말할 때는 두 번째 long을 길게 늘여 주세요.", "who": "parent" },
+    { "en": "Worth the wait.", "ko": "기다린 보람이 있어.", "tip": "오래 기다렸지만 그만큼 좋을 때 It's worth the wait.라고 해요. worth의 th는 혀끝을 이 사이에 살짝 대고 '워스 더 웨잇'으로 말합니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Look at this picture, buddy. What is it?", "ko": "이 사진 좀 봐. 이게 뭘까?" },
+    { "who": "kid", "en": "A shooting star?", "ko": "별똥별?" },
+    { "who": "parent", "en": "Good guess! But this is a comet.", "ko": "비슷해! 그런데 이건 혜성이야." },
+    { "who": "kid", "en": "It has a long tail!", "ko": "꼬리가 길어!", "practice": true },
+    { "who": "parent", "en": "It does. A comet is like a dirty snowball.", "ko": "맞아. 혜성은 지저분한 눈덩이 같은 거야." },
+    { "who": "kid", "en": "A snowball in space? Why?", "ko": "우주에 눈덩이가? 왜?" },
+    { "who": "parent", "en": "It's made of ice and dust.", "ko": "얼음이랑 먼지로 되어 있거든." },
+    { "who": "kid", "en": "Where does the tail come from?", "ko": "꼬리는 어디서 생겨?", "practice": true },
+    { "who": "parent", "en": "The sun warms the ice, and it turns into gas.", "ko": "해가 얼음을 데우면 얼음이 가스로 변해." },
+    { "who": "kid", "en": "So the tail is gas?", "ko": "그럼 꼬리는 가스야?" },
+    { "who": "parent", "en": "Gas and dust. It shines in the sunlight.", "ko": "가스랑 먼지야. 햇빛을 받아서 빛나는 거야." },
+    { "who": "kid", "en": "Can we see one tonight?", "ko": "오늘 밤에 볼 수 있어?", "practice": true },
+    { "who": "parent", "en": "Not tonight. This one already flew far away.", "ko": "오늘은 안 돼. 이 혜성은 벌써 멀리 날아갔어." },
+    { "who": "kid", "en": "When will it come back?", "ko": "언제 다시 와?", "practice": true },
+    { "who": "parent", "en": "Not for many, many years.", "ko": "아주아주 여러 해가 지나야 해." },
+    { "who": "kid", "en": "How long is that?", "ko": "그게 얼마나 긴 거야?" },
+    { "who": "parent", "en": "A long, long time. You'll be all grown up.", "ko": "아주아주 오랜 시간이야. 그때면 넌 다 큰 어른이겠다." },
+    { "who": "kid", "en": "That's too long!", "ko": "너무 길어!", "practice": true },
+    { "who": "parent", "en": "I know. But it'll be worth the wait.", "ko": "그러게. 그래도 기다린 보람이 있을 거야." },
+    { "who": "kid", "en": "Will you watch it with me?", "ko": "나랑 같이 볼 거야?" },
+    { "who": "parent", "en": "Of course. We'll watch it together.", "ko": "당연하지. 같이 보자." },
+    { "who": "kid", "en": "It's a promise!", "ko": "약속이야!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What does a comet look like?", "ko": "혜성은 어떻게 생겼어?", "sample_en": "A ball with a tail.", "sample_ko": "꼬리 달린 공." },
+    { "en": "What would you name your own comet?", "ko": "네 혜성이 있다면 이름을 뭐라고 지을래?", "sample_en": "Super Snowball!", "sample_ko": "슈퍼 눈덩이!" },
+    { "en": "What else has a long tail?", "ko": "또 뭐가 꼬리가 길어?", "sample_en": "A monkey!", "sample_ko": "원숭이!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a comet?", "prompt_ko": "혜성은 어느 거야?", "options": [ { "e": "☄️", "en": "comet" }, { "e": "🌈", "en": "rainbow" }, { "e": "🌵", "en": "cactus" } ] },
+    { "prompt_en": "What does the comet's tail do in the sunlight?", "prompt_ko": "혜성의 꼬리는 햇빛을 받으면 어떻게 돼?", "options": [ { "e": "✨", "en": "it shines" }, { "e": "😴", "en": "it sleeps" }, { "e": "🎵", "en": "it sings" } ] },
+    { "prompt_en": "What is a comet made of?", "prompt_ko": "혜성은 뭐로 되어 있어?", "options": [ { "e": "🧊", "en": "ice and dust" }, { "e": "🍫", "en": "chocolate" }, { "e": "🧱", "en": "bricks" } ] },
+    { "prompt_en": "What warms the comet's ice?", "prompt_ko": "혜성의 얼음을 데우는 건 뭐야?", "options": [ { "e": "☀️", "en": "the sun" }, { "e": "🌙", "en": "the moon" }, { "e": "🕯️", "en": "a candle" } ] },
+    { "prompt_en": "Your friend is leaving. You want to see her again. What do you ask?", "prompt_ko": "친구가 떠나. 또 보고 싶어. 뭐라고 물어봐?", "options": [ { "e": "🗓️", "en": "When will you come back?" }, { "e": "🍎", "en": "Is it an apple?" }, { "e": "👟", "en": "Where are my shoes?" } ] },
+    { "prompt_en": "A comet is like a dirty ball of what?", "prompt_ko": "혜성은 뭐로 뭉친 지저분한 공 같아?", "options": [ { "e": "❄️", "en": "snow" }, { "e": "🧀", "en": "cheese" }, { "e": "🍞", "en": "bread" } ] },
+    { "prompt_en": "Which animal has a long tail?", "prompt_ko": "꼬리가 긴 동물은 누구야?", "options": [ { "e": "🐒", "en": "monkey" }, { "e": "🐸", "en": "frog" }, { "e": "🦀", "en": "crab" } ] },
+    { "prompt_en": "Where do comets fly?", "prompt_ko": "혜성은 어디를 날아다녀?", "options": [ { "e": "🌌", "en": "in space" }, { "e": "🛁", "en": "in the bathtub" }, { "e": "🏠", "en": "in the house" } ] },
+    { "prompt_en": "Listen: 'A long, long time.' Which one is a long, long time?", "prompt_ko": "잘 들어 봐: 'A long, long time.' 아주 오랜 시간은 어느 거야?", "options": [ { "e": "🗓️", "en": "many years" }, { "e": "👏", "en": "one clap" }, { "e": "😉", "en": "one wink" } ] },
+    { "prompt_en": "You and your friend make a promise. What do you say?", "prompt_ko": "친구랑 약속을 해. 뭐라고 해?", "options": [ { "e": "🤝", "en": "It's a promise!" }, { "e": "🙅", "en": "No way!" }, { "e": "😱", "en": "Help me!" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'It's made of ice and dust.'의 뜻은?", "options": ["얼음이랑 먼지로 되어 있어.", "얼음이랑 먼지를 만들어.", "얼음이랑 먼지를 좋아해.", "얼음이랑 먼지가 묻었어."], "explain": "be made of는 '~로 만들어지다, 이루어지다'라는 뜻입니다." },
+    { "q": "'Worth the wait.'는 어떤 뜻일까?", "options": ["기다린 보람이 있어.", "기다릴 필요 없어.", "기다리느라 지쳤어.", "무게가 많이 나가."], "explain": "worth는 '~할 가치가 있는'이라는 뜻이라 기다릴 만한 가치가 있다는 말입니다." },
+    { "q": "'언제 다시 와?'를 영어로 하면?", "options": ["When will it come back?", "When it will come back?", "When does it came back?", "When will it comes back?"], "explain": "의문문에서는 will이 주어 앞으로 와서 When will it come back?이 됩니다." },
+    { "q": "빈칸에 알맞은 말은? — The sun warms the ice, and it turns ___ gas.", "options": ["into", "onto", "for", "with"], "explain": "turn into는 '~로 변하다'라는 뜻입니다." },
+    { "q": "혜성의 꼬리는 어떻게 생길까?", "options": ["해에 가까워지면 얼음이 가스로 변하며 먼지와 함께 퍼져서", "혜성이 스스로 불을 뿜어서", "혜성이 달에 부딪혀서", "혜성이 지구의 공기를 끌고 가서"], "explain": "혜성이 해에 가까워지면 얼음이 가스로 변해 먼지와 함께 뒤로 퍼지며 꼬리가 됩니다." },
+    { "q": "'It has a'를 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["잇 해저", "잇 하스 아", "이트 해즈 에이", "잇 해사"], "explain": "has의 s는 'ㅈ' 소리가 나고 a와 이어져 '해저'처럼 들립니다." },
+    { "q": "아이가 맞히지는 못했지만 비슷하게 답했을 때 칭찬하는 말은?", "options": ["Good guess!", "Good wrong!", "Nice miss you!", "Well guessing!"], "explain": "정답은 아니어도 좋은 추측이라고 격려할 때 Good guess!라고 합니다." },
+    { "q": "빈칸에 알맞은 말은? — You'll be all ___ up.", "options": ["grown", "grow", "growing", "grew"], "explain": "all grown up은 '다 자란, 어른이 된'이라는 뜻입니다." },
+    { "q": "'Not for many, many years.'는 어떤 뜻일까?", "options": ["아주 여러 해가 지나야 해.", "여러 해 동안 계속 있을 거야.", "몇 년 전에 왔었어.", "해마다 한 번씩 와."], "explain": "Not for…는 '~ 동안은 아니다', 즉 그만큼 지나야 한다는 뜻입니다." },
+    { "q": "'It'll be worth the wait.'에서 It'll은 무엇을 줄인 말일까?", "options": ["It will", "It is", "It all", "It still"], "explain": "It'll은 It will의 줄임말로, 미국 영어에서는 '이를'에 가깝게 짧게 한 덩어리로 말합니다." }
+  ]
+}

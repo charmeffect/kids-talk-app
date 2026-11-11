@@ -1,0 +1,69 @@
+{
+  "stage": 1,
+  "day": 85,
+  "topic": "space",
+  "title_en": "Star pictures (constellations)",
+  "title_ko": "별 그림 (별자리)",
+  "intro_ko": "밤하늘의 별을 이어 그림을 찾아보는 대화입니다. 종이에 점을 여러 개 찍어 놓고 아이가 손가락이나 크레용으로 점을 이으며 읽으면 좋아요.",
+  "expressions": [
+    { "en": "Connect the stars.", "ko": "별들을 이어 봐.", "tip": "점 잇기 놀이의 'Connect the dots.'처럼 쓰는 말이에요. Connect의 t는 약하게 '커넥더 스타즈'처럼 이어집니다.", "who": "parent" },
+    { "en": "It looks like a ….", "ko": "…처럼 생겼어.", "tip": "모양이 무엇을 닮았는지 말할 때 써요. like a가 이어져 '라이커'처럼 들립니다. 구름을 보면서도 쓸 수 있어요.", "who": "both" },
+    { "en": "Can you find it?", "ko": "찾을 수 있어?", "tip": "숨은 그림이나 물건을 찾아보라고 할 때 써요. find it이 이어져 '파인딧'처럼 들립니다.", "who": "both" },
+    { "en": "Use your imagination.", "ko": "상상력을 써 봐.", "tip": "마음껏 상상해 보라고 격려하는 말이에요. Use your는 '유쥬어'로 이어지고, imagination은 '이매지네이션'의 '네이'를 세게 말합니다.", "who": "parent" },
+    { "en": "Out of this world.", "ko": "정말 굉장해! / 끝내주는데!", "tip": "'이 세상 것이 아닐 만큼 대단하다'는 칭찬이에요. Out of는 '아우러브'처럼 이어집니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Look up. So many stars tonight!", "ko": "위를 봐. 오늘 밤은 별이 정말 많다!" },
+    { "who": "kid", "en": "Wow! Can we count them?", "ko": "우와! 세어 볼 수 있어?" },
+    { "who": "parent", "en": "There are too many. But look at those seven stars.", "ko": "너무 많아서 안 돼. 그런데 저기 별 일곱 개를 봐." },
+    { "who": "kid", "en": "Where? I can't see them.", "ko": "어디? 안 보여." },
+    { "who": "parent", "en": "Right there. Connect the stars with your finger.", "ko": "바로 저기. 손가락으로 별들을 이어 봐." },
+    { "who": "kid", "en": "One, two, three... like this?", "ko": "하나, 둘, 셋... 이렇게?" },
+    { "who": "parent", "en": "Yes! What does it look like?", "ko": "그래! 뭐처럼 생겼어?" },
+    { "who": "kid", "en": "It looks like a spoon!", "ko": "숟가락처럼 생겼어!", "practice": true },
+    { "who": "parent", "en": "Great! People call it the Big Dipper.", "ko": "잘했어! 사람들은 저걸 북두칠성이라고 불러." },
+    { "who": "kid", "en": "What's a dipper?", "ko": "'디퍼'가 뭐야?", "practice": true },
+    { "who": "parent", "en": "It's a big spoon for scooping water.", "ko": "물을 뜨는 큰 국자야." },
+    { "who": "kid", "en": "Are there more star pictures?", "ko": "별 그림 더 있어?", "practice": true },
+    { "who": "parent", "en": "Lots. There's a hunter with three stars on his belt.", "ko": "많지. 허리띠에 별이 세 개 있는 사냥꾼도 있어." },
+    { "who": "kid", "en": "A hunter? Where is he?", "ko": "사냥꾼? 어디 있어?" },
+    { "who": "parent", "en": "Over there. Look for his belt. Can you find it?", "ko": "저쪽에. 허리띠를 찾아봐. 찾을 수 있어?" },
+    { "who": "kid", "en": "Three stars in a row. Found it!", "ko": "별 세 개가 나란히. 찾았다!", "practice": true },
+    { "who": "kid", "en": "Who made the star pictures?", "ko": "별 그림은 누가 만들었어?" },
+    { "who": "parent", "en": "People long ago. They looked up and made up stories.", "ko": "아주 옛날 사람들이. 하늘을 보면서 이야기를 지어냈대." },
+    { "who": "kid", "en": "Can I make my own?", "ko": "나도 내 걸 만들어도 돼?", "practice": true },
+    { "who": "parent", "en": "Of course. Use your imagination.", "ko": "물론이지. 상상력을 써 봐." },
+    { "who": "kid", "en": "Those stars! It looks like a rocket!", "ko": "저 별들! 로켓처럼 생겼어!", "practice": true },
+    { "who": "parent", "en": "A rocket in the sky? That's out of this world!", "ko": "하늘에 로켓이? 정말 굉장한데!" },
+    { "who": "kid", "en": "It's my rocket star picture!", "ko": "내 로켓 별 그림이야!" }
+  ],
+  "talkMore": [
+    { "en": "What star picture do you want to make?", "ko": "어떤 별 그림을 만들고 싶어?", "sample_en": "A big ship!", "sample_ko": "큰 배!" },
+    { "en": "What does that cloud look like?", "ko": "저 구름은 뭐처럼 생겼어?", "sample_en": "It looks like a whale.", "sample_ko": "고래처럼 생겼어." },
+    { "en": "When can we see the stars?", "ko": "별은 언제 볼 수 있어?", "sample_en": "At night.", "sample_ko": "밤에." }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "When can we see the stars?", "prompt_ko": "별은 언제 볼 수 있어?", "options": [ { "e": "🌃", "en": "at night" }, { "e": "🌞", "en": "at noon" }, { "e": "🌧️", "en": "in the rain" } ] },
+    { "prompt_en": "What does the Big Dipper look like?", "prompt_ko": "북두칠성은 뭐처럼 생겼어?", "options": [ { "e": "🥄", "en": "a spoon" }, { "e": "🐱", "en": "a cat" }, { "e": "🚲", "en": "a bike" } ] },
+    { "prompt_en": "How many stars are on the hunter's belt?", "prompt_ko": "사냥꾼 허리띠에는 별이 몇 개야?", "options": [ { "e": "3️⃣", "en": "three" }, { "e": "1️⃣", "en": "one" }, { "e": "8️⃣", "en": "eight" } ] },
+    { "prompt_en": "You see a round cloud. What do you say?", "prompt_ko": "동그란 구름을 봤어. 뭐라고 해?", "options": [ { "e": "⚽", "en": "It looks like a ball." }, { "e": "😴", "en": "I'm sleepy." }, { "e": "🙅", "en": "No, thank you." } ] },
+    { "prompt_en": "Which one is a star?", "prompt_ko": "별은 어느 거야?", "options": [ { "e": "⭐", "en": "star" }, { "e": "🌙", "en": "moon" }, { "e": "☁️", "en": "cloud" } ] },
+    { "prompt_en": "What did we see in the stars at the end?", "prompt_ko": "마지막에 별에서 뭘 찾았지?", "options": [ { "e": "🚀", "en": "a rocket" }, { "e": "🍔", "en": "a hamburger" }, { "e": "👟", "en": "a shoe" } ] },
+    { "prompt_en": "You hid a toy. What do you ask your friend?", "prompt_ko": "장난감을 숨겼어. 친구한테 뭐라고 물어봐?", "options": [ { "e": "🔍", "en": "Can you find it?" }, { "e": "🍎", "en": "Is it yummy?" }, { "e": "👋", "en": "Goodbye!" } ] },
+    { "prompt_en": "Who made the star pictures?", "prompt_ko": "별 그림은 누가 만들었어?", "options": [ { "e": "👴", "en": "people long ago" }, { "e": "🐶", "en": "a dog" }, { "e": "🤖", "en": "a robot" } ] },
+    { "prompt_en": "What do you use to connect the stars?", "prompt_ko": "별을 이을 때 뭘 써?", "options": [ { "e": "👆", "en": "your finger" }, { "e": "👃", "en": "your nose" }, { "e": "🦶", "en": "your foot" } ] },
+    { "prompt_en": "Listen: 'It's a big spoon for scooping water.' What is it?", "prompt_ko": "잘 들어 봐: 'It's a big spoon for scooping water.' 이게 뭘까?", "options": [ { "e": "🥄", "en": "a dipper" }, { "e": "🔨", "en": "a hammer" }, { "e": "🥁", "en": "a drum" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Use your imagination.'의 뜻은?", "options": ["상상력을 써 봐.", "설명서를 잘 읽어 봐.", "네 물건을 써.", "기억을 떠올려 봐."], "explain": "imagination은 '상상력'으로, 마음껏 상상해 보라고 격려하는 말입니다." },
+    { "q": "'That's out of this world!'는 어떤 뜻일까?", "options": ["정말 굉장한데!", "그건 지구 밖에 있어.", "말도 안 되는 소리야.", "세상에서 사라졌어."], "explain": "이 세상 것이 아닐 만큼 대단하다는 칭찬 표현입니다." },
+    { "q": "구름을 보며 '토끼처럼 생겼어'라고 할 때 알맞은 말은?", "options": ["It looks like a rabbit.", "It looks a rabbit.", "It sees like a rabbit.", "It likes a rabbit."], "explain": "'~처럼 생기다'는 look like + 명사로 말합니다." },
+    { "q": "빈칸에 알맞은 말은? — ___ the stars with your finger.", "options": ["Connect", "Collect", "Correct", "Count on"], "explain": "점이나 별을 '잇다'는 connect입니다. collect(모으다), correct(고치다)와 구별하세요." },
+    { "q": "'Out of'를 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["아우러브", "아웃 오프", "오우트 어브", "아웃오후"], "explain": "out의 t가 부드러워지며 of와 이어져 '아우러브'처럼 들립니다." },
+    { "q": "'Can you find it?'의 뜻은?", "options": ["찾을 수 있어?", "괜찮아?", "고칠 수 있어?", "끝낼 수 있어?"], "explain": "find는 '찾다'이며, find it은 '파인딧'처럼 이어 말합니다." },
+    { "q": "빈칸에 알맞은 말은? — Three stars in a ___. Found it!", "options": ["row", "low", "raw", "road"], "explain": "in a row는 '한 줄로 나란히'라는 뜻입니다." },
+    { "q": "'북두칠성'을 미국에서 흔히 부르는 이름은?", "options": ["the Big Dipper", "the Big Spoon", "the Seven Sisters", "the Great Star"], "explain": "국자 모양이라서 the Big Dipper(큰 국자)라고 부릅니다." },
+    { "q": "빈칸에 알맞은 말은? — They looked up and ___ up stories.", "options": ["made", "gave", "woke", "picked"], "explain": "make up a story는 '이야기를 지어내다'라는 뜻입니다." },
+    { "q": "'Out of this world'를 쓰기에 알맞은 상황은?", "options": ["아이가 만든 작품이 놀랍도록 멋질 때", "아이가 방을 나갈 때", "물건을 잃어버렸을 때", "우주 책을 사러 갈 때"], "explain": "음식, 작품, 아이디어가 아주 뛰어날 때 쓰는 칭찬입니다." }
+  ]
+}

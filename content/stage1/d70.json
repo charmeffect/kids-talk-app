@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 70,
+  "topic": "space",
+  "title_en": "Earth from space",
+  "title_ko": "우주에서 본 지구",
+  "intro_ko": "우주에서 찍은 지구 사진이나 지구본을 함께 보며 하는 대화입니다. 'Right here!'라고 할 때 우리나라를 손가락으로 콕 짚어 주세요.",
+  "expressions": [
+    { "en": "Earth is round.", "ko": "지구는 둥글어.", "tip": "공이나 지구본을 손으로 감싸며 말해 보세요. Earth의 th는 혀끝을 이 사이에 살짝 내밀어 소리 냅니다.", "who": "both" },
+    { "en": "It looks like a blue ball.", "ko": "파란 공처럼 보여.", "tip": "'It looks like + 물건'은 '~처럼 보여'라는 뜻이에요. looks like a가 이어져 '룩슬라이커'처럼 들립니다.", "who": "kid" },
+    { "en": "Where do we live?", "ko": "우리는 어디에 살아?", "tip": "지도나 지구본을 볼 때 쓰기 좋은 질문이에요. do는 약하고 짧게 말해 '웨어 두위 리브'처럼 이어집니다.", "who": "kid" },
+    { "en": "Right here!", "ko": "바로 여기!", "tip": "right가 붙으면 '바로, 딱'이라고 강조하는 말이 돼요. 손가락으로 콕 짚으며 말해 보세요. t는 약하게 '롸잇 히어'.", "who": "both" },
+    { "en": "Home sweet home.", "ko": "역시 우리 집이 최고야.", "tip": "여행이나 외출에서 돌아와 집에 들어설 때 '집이 제일 편하다'는 뜻으로 하는 말이에요.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Look at this picture. It's from space.", "ko": "이 사진 좀 봐. 우주에서 찍은 거야." },
+    { "who": "kid", "en": "What is it?", "ko": "이게 뭐야?" },
+    { "who": "parent", "en": "It's Earth. That's our planet.", "ko": "지구야. 우리가 사는 행성이지." },
+    { "who": "kid", "en": "It looks like a blue ball!", "ko": "파란 공처럼 보여!", "practice": true },
+    { "who": "parent", "en": "It does. Earth is round.", "ko": "그렇지. 지구는 둥글어." },
+    { "who": "kid", "en": "Why is it blue?", "ko": "왜 파란색이야?" },
+    { "who": "parent", "en": "The blue part is water. Earth has lots of ocean.", "ko": "파란 부분은 물이야. 지구에는 바다가 아주 많거든." },
+    { "who": "kid", "en": "What's the white stuff?", "ko": "하얀 건 뭐야?" },
+    { "who": "parent", "en": "Those are clouds. The green and brown parts are land.", "ko": "그건 구름이야. 초록색이랑 갈색 부분은 땅이고." },
+    { "who": "kid", "en": "Where do we live?", "ko": "우리는 어디에 살아?", "practice": true },
+    { "who": "parent", "en": "Let me see... Right here!", "ko": "어디 보자… 바로 여기!" },
+    { "who": "kid", "en": "Right here? It's so small!", "ko": "바로 여기? 엄청 작네!", "practice": true },
+    { "who": "parent", "en": "From space, everything looks tiny.", "ko": "우주에서 보면 뭐든지 아주 작게 보여." },
+    { "who": "kid", "en": "Who took the picture?", "ko": "사진은 누가 찍었어?" },
+    { "who": "parent", "en": "Astronauts did. They looked down from their spaceship.", "ko": "우주비행사들이 찍었어. 우주선에서 내려다봤지." },
+    { "who": "kid", "en": "Earth is round. Do people fall off?", "ko": "지구는 둥글잖아. 사람들이 떨어지지 않아?", "practice": true },
+    { "who": "parent", "en": "No. Gravity pulls everyone toward the ground.", "ko": "아니. 중력이 모두를 땅 쪽으로 끌어당기거든." },
+    { "who": "kid", "en": "Even on the other side?", "ko": "반대쪽에 있는 사람들도?" },
+    { "who": "parent", "en": "Yes! Gravity holds everybody, all around the Earth.", "ko": "응! 중력은 지구 어디에서나 모두를 붙잡아 줘." },
+    { "who": "kid", "en": "I want to see Earth from space.", "ko": "나도 우주에서 지구를 보고 싶어." },
+    { "who": "parent", "en": "Maybe someday. But always come back home, okay?", "ko": "언젠가는 그럴 수 있겠지. 그래도 꼭 집으로 돌아와야 해, 알았지?" },
+    { "who": "kid", "en": "Okay! Our home is right here!", "ko": "알았어! 우리 집은 바로 여기야!", "practice": true },
+    { "who": "parent", "en": "That's right, sweetie. Home sweet home.", "ko": "맞아. 역시 우리 집이 최고지." },
+    { "who": "kid", "en": "Home sweet home!", "ko": "우리 집이 최고야!" }
+  ],
+  "talkMore": [
+    { "en": "What colors can you see on Earth?", "ko": "지구에는 어떤 색이 보여?", "sample_en": "Blue, green, and white.", "sample_ko": "파란색, 초록색, 하얀색." },
+    { "en": "What do you want to see from space?", "ko": "우주에서 뭘 보고 싶어?", "sample_en": "My house!", "sample_ko": "우리 집!" },
+    { "en": "What else is round like Earth?", "ko": "지구처럼 둥근 건 또 뭐가 있을까?", "sample_en": "The moon!", "sample_ko": "달!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is Earth?", "prompt_ko": "지구는 어느 거야?", "options": [ { "e": "🌏", "en": "Earth" }, { "e": "🌙", "en": "moon" }, { "e": "⭐", "en": "star" } ] },
+    { "prompt_en": "Which one is round like Earth?", "prompt_ko": "지구처럼 둥근 건 어느 거야?", "options": [ { "e": "⚽", "en": "ball" }, { "e": "📦", "en": "box" }, { "e": "📕", "en": "book" } ] },
+    { "prompt_en": "What is the blue part of Earth?", "prompt_ko": "지구의 파란 부분은 뭐야?", "options": [ { "e": "🌊", "en": "water" }, { "e": "🔥", "en": "fire" }, { "e": "🍦", "en": "ice cream" } ] },
+    { "prompt_en": "What is the white stuff on Earth?", "prompt_ko": "지구의 하얀 건 뭐야?", "options": [ { "e": "☁️", "en": "clouds" }, { "e": "🍫", "en": "chocolate" }, { "e": "🍓", "en": "strawberries" } ] },
+    { "prompt_en": "Someone asks, 'Where do we live?' You point and say...", "prompt_ko": "'우리는 어디에 살아?'라고 물어. 손으로 짚으면서 뭐라고 해?", "options": [ { "e": "👇", "en": "Right here!" }, { "e": "👋", "en": "Bye-bye!" }, { "e": "😴", "en": "Good night." } ] },
+    { "prompt_en": "Who took the picture from space?", "prompt_ko": "우주에서 사진은 누가 찍었어?", "options": [ { "e": "👩‍🚀", "en": "astronaut" }, { "e": "👨‍🍳", "en": "cook" }, { "e": "🐶", "en": "dog" } ] },
+    { "prompt_en": "What does Earth look like from space?", "prompt_ko": "우주에서 보면 지구는 뭐처럼 보여?", "options": [ { "e": "🔵", "en": "a blue ball" }, { "e": "🍌", "en": "a yellow banana" }, { "e": "🟥", "en": "a red box" } ] },
+    { "prompt_en": "You come back home from a trip. What do you say?", "prompt_ko": "여행에서 집으로 돌아왔어. 뭐라고 해?", "options": [ { "e": "🏠", "en": "Home sweet home!" }, { "e": "🎂", "en": "Happy birthday!" }, { "e": "🍽️", "en": "Let's eat." } ] },
+    { "prompt_en": "How do you go to space?", "prompt_ko": "우주에는 뭘 타고 가?", "options": [ { "e": "🚀", "en": "rocket" }, { "e": "🚲", "en": "bike" }, { "e": "🚌", "en": "bus" } ] },
+    { "prompt_en": "You drop a ball. Where does it go?", "prompt_ko": "공을 놓으면 어디로 가?", "options": [ { "e": "⬇️", "en": "down" }, { "e": "⬆️", "en": "up" }, { "e": "🌙", "en": "to the moon" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'It looks like a blue ball.'의 뜻은?", "options": ["파란 공처럼 보여.", "파란 공을 좋아해.", "파란 공을 찾고 있어.", "파란 공을 갖고 싶어."], "explain": "look like ~는 '~처럼 보이다'라는 뜻입니다." },
+    { "q": "'우리는 어디에 살아?'를 영어로 하면?", "options": ["Where do we live?", "Where are we live?", "Where we do live?", "Where does we live?"], "explain": "주어가 we일 때 의문문은 do를 써서 Where do we live?가 됩니다." },
+    { "q": "빈칸에 알맞은 말은? — From space, everything looks ___.", "options": ["tiny", "tall", "heavy", "loud"], "explain": "멀리서 보면 아주 작게 보이므로 tiny(아주 작은)가 맞습니다." },
+    { "q": "'Home sweet home.'은 언제 쓰는 말일까?", "options": ["여행에서 돌아와 집에 들어설 때", "달콤한 간식을 먹을 때", "집을 나서며 인사할 때", "친구 집에 놀러 갔을 때"], "explain": "집에 돌아와 '역시 집이 최고다'라고 느낄 때 쓰는 표현입니다." },
+    { "q": "'Right here!'의 뜻은?", "options": ["바로 여기!", "오른쪽이야!", "지금 당장!", "여기가 맞아?"], "explain": "여기서 right는 '오른쪽'이 아니라 '바로, 딱'이라는 강조의 뜻입니다." },
+    { "q": "'looks like a'를 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["룩슬라이커", "룩스 라이크 어", "루클 라이카", "룩쓰 리커"], "explain": "looks의 s가 like에, like의 k가 a에 이어져 '룩슬라이커'처럼 들립니다." },
+    { "q": "빈칸에 알맞은 말은? — Gravity ___ everyone toward the ground.", "options": ["pulls", "pushes", "throws", "lifts"], "explain": "중력은 땅 쪽으로 끌어당기는 힘이므로 pulls가 맞습니다." },
+    { "q": "'지구는 둥글어'를 영어로 하면?", "options": ["Earth is round.", "Earth is circle.", "Earth is rounding.", "Earth is a round."], "explain": "'둥근'은 형용사 round를 써서 Earth is round.라고 합니다." },
+    { "q": "'Maybe someday.'의 뜻은?", "options": ["언젠가는 그럴 수 있겠지.", "매일 그렇게 해.", "어제 그랬어.", "절대 안 돼."], "explain": "someday는 '(미래의) 언젠가'라는 뜻으로, 아이의 꿈에 답해 주기 좋은 말입니다." },
+    { "q": "지구본에서 우리나라를 콕 짚으며 '바로 여기야!'라고 할 때 알맞은 말은?", "options": ["Right here!", "Right there!", "Here right!", "Just in here!"], "explain": "가까운 곳을 짚을 때는 here, 강조할 때는 앞에 right를 붙입니다." }
+  ]
+}

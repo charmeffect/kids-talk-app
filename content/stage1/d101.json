@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 101,
+  "topic": "daily",
+  "title_en": "Video call with Grandma",
+  "title_ko": "할머니와 영상 통화",
+  "intro_ko": "멀리 사시는 할머니와 영상 통화를 하는 상황입니다. 휴대폰을 세워 두거나 손바닥을 화면처럼 들고, 손 흔들기와 손 뽀뽀를 실제로 하면서 읽어 보세요.",
+  "expressions": [
+    { "en": "Say hello to Grandma.", "ko": "할머니께 인사드려.", "tip": "누군가에게 인사하라고 시킬 때 'Say hello to + 사람'을 써요. Grandma 자리에 다른 사람을 넣어도 됩니다. to는 약하게 '터'처럼 말해요.", "who": "parent" },
+    { "en": "Can you see me?", "ko": "나 보여?", "tip": "영상 통화에서 화면이 잘 나오는지 물을 때 쓰는 말이에요. Can you가 이어져 '캐뉴 씨 미'처럼 들립니다.", "who": "both" },
+    { "en": "I miss you.", "ko": "보고 싶어.", "tip": "떨어져 있는 사람에게 하는 말이에요. miss you가 이어져 '미슈'처럼 들립니다.", "who": "both" },
+    { "en": "Talk to you later.", "ko": "나중에 또 통화해.", "tip": "전화나 영상 통화를 끝낼 때 쓰는 인사예요. Talk의 l은 소리 내지 않고, later는 미국식으로 '레이러'처럼 들립니다.", "who": "both" },
+    { "en": "Long time no see.", "ko": "오랜만이야.", "tip": "오랜만에 만난 사람에게 하는 굳어진 인사예요. 문법을 따지지 말고 통째로 '롱 타임 노 씨'라고 말하면 됩니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Grandma is calling! Come sit next to me.", "ko": "할머니한테 전화 왔다! 이리 와서 옆에 앉아." },
+    { "who": "kid", "en": "Where is she?", "ko": "할머니 어디 있어?" },
+    { "who": "parent", "en": "She's on the screen. Say hello to Grandma.", "ko": "화면에 계시잖아. 할머니께 인사드려." },
+    { "who": "kid", "en": "Hi, Grandma! Can you see me?", "ko": "할머니, 안녕하세요! 저 보여요?", "practice": true },
+    { "who": "parent", "en": "She's waving at you. Long time no see, right?", "ko": "할머니가 손 흔드시네. 오랜만이지, 그치?" },
+    { "who": "kid", "en": "Why is she so small?", "ko": "할머니가 왜 이렇게 작아?" },
+    { "who": "parent", "en": "Because the screen is small. She's far away.", "ko": "화면이 작아서 그래. 할머니는 멀리 계셔." },
+    { "who": "kid", "en": "How far?", "ko": "얼마나 멀리?" },
+    { "who": "parent", "en": "Three hours by train. Hold the phone up a little.", "ko": "기차로 세 시간. 전화기를 조금만 올려 봐." },
+    { "who": "kid", "en": "Like this?", "ko": "이렇게?" },
+    { "who": "parent", "en": "Perfect. Now she can see your whole face.", "ko": "딱 좋아. 이제 네 얼굴이 다 보이신대." },
+    { "who": "kid", "en": "Grandma, look! I made a ship!", "ko": "할머니, 보세요! 저 배 만들었어요!", "practice": true },
+    { "who": "parent", "en": "She says it looks great. What's your ship's name?", "ko": "정말 멋지대. 네 배 이름이 뭐야?" },
+    { "who": "kid", "en": "It's the Blue Whale!", "ko": "파란 고래호예요!" },
+    { "who": "parent", "en": "She's laughing. Do you want to tell her something?", "ko": "할머니가 웃으시네. 할머니께 하고 싶은 말 있어?" },
+    { "who": "kid", "en": "I miss you, Grandma.", "ko": "할머니, 보고 싶어요.", "practice": true },
+    { "who": "parent", "en": "She misses you, too. We'll visit her soon.", "ko": "할머니도 네가 보고 싶으시대. 곧 뵈러 가자." },
+    { "who": "kid", "en": "When? Tomorrow?", "ko": "언제? 내일?" },
+    { "who": "parent", "en": "Not tomorrow. Next month, on her birthday.", "ko": "내일은 아니고, 다음 달 할머니 생신에." },
+    { "who": "kid", "en": "Can I bring my ship?", "ko": "내 배 가져가도 돼?" },
+    { "who": "parent", "en": "Of course. It's time to say goodbye now.", "ko": "그럼. 이제 인사드릴 시간이야." },
+    { "who": "kid", "en": "Bye, Grandma! Talk to you later!", "ko": "할머니, 안녕히 계세요! 나중에 또 통화해요!", "practice": true },
+    { "who": "parent", "en": "Blow her a kiss. Nice!", "ko": "손 뽀뽀도 날려 드려. 잘했어!" },
+    { "who": "kid", "en": "I love you, Grandma!", "ko": "할머니, 사랑해요!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What do you want to show Grandma next time?", "ko": "다음에는 할머니께 뭘 보여 드리고 싶어?", "sample_en": "My new plane!", "sample_ko": "내 새 비행기!" },
+    { "en": "What do you like to do at Grandma's house?", "ko": "할머니 댁에 가면 뭐 하는 게 좋아?", "sample_en": "Eat yummy food!", "sample_ko": "맛있는 거 먹기!" },
+    { "en": "Who else do you miss?", "ko": "또 누가 보고 싶어?", "sample_en": "I miss Grandpa.", "sample_ko": "할아버지가 보고 싶어." }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is Grandma?", "prompt_ko": "할머니는 누구야?", "options": [ { "e": "👵", "en": "grandma" }, { "e": "👶", "en": "baby" }, { "e": "🐱", "en": "cat" } ] },
+    { "prompt_en": "What do we use for a video call?", "prompt_ko": "영상 통화는 뭐로 해?", "options": [ { "e": "📱", "en": "a phone" }, { "e": "🥄", "en": "a spoon" }, { "e": "👟", "en": "a shoe" } ] },
+    { "prompt_en": "You see Grandma on the screen. What do you say?", "prompt_ko": "화면에 할머니가 보여. 뭐라고 해?", "options": [ { "e": "👋", "en": "Hi, Grandma!" }, { "e": "😴", "en": "Good night." }, { "e": "🍕", "en": "Pizza, please." } ] },
+    { "prompt_en": "You want to see Grandma so much. What do you say?", "prompt_ko": "할머니가 너무 보고 싶어. 뭐라고 해?", "options": [ { "e": "🤗", "en": "I miss you." }, { "e": "😠", "en": "Go away." }, { "e": "🥶", "en": "I'm cold." } ] },
+    { "prompt_en": "The call is over. What do you say?", "prompt_ko": "통화가 끝났어. 뭐라고 해?", "options": [ { "e": "👋", "en": "Talk to you later!" }, { "e": "🍽️", "en": "Let's eat!" }, { "e": "😮", "en": "Guess what!" } ] },
+    { "prompt_en": "How do we go to Grandma's house?", "prompt_ko": "할머니 댁에는 뭘 타고 가?", "options": [ { "e": "🚆", "en": "by train" }, { "e": "🚀", "en": "by rocket" }, { "e": "🐘", "en": "by elephant" } ] },
+    { "prompt_en": "What did you show Grandma?", "prompt_ko": "할머니께 뭘 보여 드렸지?", "options": [ { "e": "🚢", "en": "a ship" }, { "e": "🧦", "en": "a sock" }, { "e": "🥕", "en": "a carrot" } ] },
+    { "prompt_en": "Grandma can't see you on the screen. What do you ask?", "prompt_ko": "할머니 화면에 네가 안 보인대. 뭐라고 물어봐?", "options": [ { "e": "👀", "en": "Can you see me?" }, { "e": "🍪", "en": "Can I eat it?" }, { "e": "🏃", "en": "Can I run?" } ] },
+    { "prompt_en": "Which one is a kiss?", "prompt_ko": "뽀뽀는 어느 거야?", "options": [ { "e": "😘", "en": "a kiss" }, { "e": "😭", "en": "crying" }, { "e": "🤧", "en": "a sneeze" } ] },
+    { "prompt_en": "When will we visit Grandma?", "prompt_ko": "할머니 댁에는 언제 가기로 했지?", "options": [ { "e": "🎂", "en": "on her birthday" }, { "e": "🎄", "en": "on Christmas" }, { "e": "🎃", "en": "on Halloween" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Long time no see.'의 뜻은?", "options": ["오랜만이야.", "오래 걸리네.", "멀어서 안 보여.", "한참 기다렸어."], "explain": "오랜만에 만난 사람에게 쓰는 굳어진 인사말입니다." },
+    { "q": "아이에게 '할머니께 인사드려.'라고 할 때 알맞은 말은?", "options": ["Say hello to Grandma.", "Tell hello to Grandma.", "Speak hello to Grandma.", "Say hello at Grandma."], "explain": "'~에게 인사해'는 say hello to + 사람으로 말합니다." },
+    { "q": "영상 통화에서 '나 보여?'라고 물을 때 알맞은 말은?", "options": ["Can you see me?", "Can you look me?", "Do you watch me?", "Are you see me?"], "explain": "화면에 보이는지 물을 때는 see를 써서 Can you see me?라고 합니다." },
+    { "q": "'I miss you.'의 'miss you'는 이어 말하면 어떻게 들릴까?", "options": ["미슈", "미스 유우", "미쓰 요", "미즈 유"], "explain": "miss의 s와 you가 만나 '슈' 소리가 나서 '미슈'처럼 들립니다." },
+    { "q": "'Talk to you later.'는 언제 쓰는 말일까?", "options": ["통화를 끝내며 인사할 때", "통화를 처음 시작할 때", "상대 말이 안 들릴 때", "늦어서 사과할 때"], "explain": "'나중에 또 얘기해'라는 뜻으로 전화나 대화를 마칠 때 쓰는 인사입니다." },
+    { "q": "빈칸에 알맞은 말은? — Three hours ___ train.", "options": ["by", "with", "on", "in"], "explain": "교통수단은 by train, by car처럼 by로 나타냅니다." },
+    { "q": "빈칸에 알맞은 말은? — ___ her a kiss.", "options": ["Blow", "Push", "Shake", "Fly"], "explain": "손 뽀뽀를 날리는 것은 blow a kiss라고 합니다." },
+    { "q": "'She misses you, too.'의 뜻은?", "options": ["할머니도 네가 보고 싶으시대.", "할머니도 너를 못 보셨대.", "할머니도 너를 놓치셨대.", "할머니도 전화를 못 받으셨대."], "explain": "miss + 사람은 '~를 그리워하다, 보고 싶어 하다'라는 뜻입니다." },
+    { "q": "'전화기를 조금만 올려 봐.'에 알맞은 말은?", "options": ["Hold the phone up a little.", "Hold on the phone a little.", "Pick the phone a little.", "Take up the phone a little."], "explain": "hold ~ up은 '~을 들어 올리고 있다'라는 뜻입니다. hold on은 '기다려'라는 다른 표현이에요." },
+    { "q": "'Long time no see.'를 쓰기에 알맞은 상황은?", "options": ["몇 달 만에 친구를 만났을 때", "매일 보는 선생님께 아침에", "처음 만난 사람에게", "헤어지면서 인사할 때"], "explain": "한동안 못 본 사람을 다시 만났을 때 쓰는 인사입니다." }
+  ]
+}

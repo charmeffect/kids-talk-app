@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 114,
+  "topic": "planes",
+  "title_en": "Air show",
+  "title_ko": "에어쇼",
+  "intro_ko": "에어쇼에서 비행기들이 묘기 부리는 모습을 올려다보는 장면입니다. 장난감 비행기나 손으로 원과 하트를 그리며 날리는 시늉을 하고, 휴대폰으로 사진 찍는 흉내도 내 보세요.",
+  "expressions": [
+    { "en": "They're flying together!", "ko": "같이 날고 있어!", "tip": "여러 대가 나란히 줄 맞춰 나는 모습을 보고 하는 말이에요. They're는 '데어'처럼 짧게 말합니다.", "who": "kid" },
+    { "en": "They're doing a loop.", "ko": "한 바퀴 빙 돌고 있어.", "tip": "loop는 비행기가 하늘에서 크게 원을 그리며 도는 묘기예요. doing a가 이어져 '두잉어 룹'처럼 들립니다.", "who": "parent" },
+    { "en": "They made a heart!", "ko": "하트를 만들었어!", "tip": "연기로 하늘에 그림을 그렸을 때 써요. made a가 이어져 '메이더 하트'처럼 들립니다.", "who": "kid" },
+    { "en": "Take a picture.", "ko": "사진 찍어.", "tip": "사진을 찍어 달라고 할 때 쓰는 말이에요. Take a가 이어져 '테이커 픽처'처럼 들립니다.", "who": "both" },
+    { "en": "What a sight!", "ko": "정말 멋진 광경이다!", "tip": "눈앞의 풍경이나 장면이 대단할 때 감탄하는 표현이에요. What a는 t가 부드러워져 '와러 사잇'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Look up, buddy! The air show is starting.", "ko": "위를 봐! 에어쇼가 시작한다." },
+    { "who": "kid", "en": "Where? I can't see them.", "ko": "어디? 안 보여." },
+    { "who": "parent", "en": "Over there. Here come the jets!", "ko": "저기. 제트기들이 온다!" },
+    { "who": "kid", "en": "Wow! They're so loud!", "ko": "우와! 엄청 시끄러워!" },
+    { "who": "parent", "en": "Cover your ears. How many do you see?", "ko": "귀 막아. 몇 대 보여?" },
+    { "who": "kid", "en": "One, two, three, four, five, six!", "ko": "하나, 둘, 셋, 넷, 다섯, 여섯!" },
+    { "who": "parent", "en": "Look how close they are.", "ko": "얼마나 가까이 붙어 있는지 봐." },
+    { "who": "kid", "en": "They're flying together!", "ko": "같이 날고 있어!", "practice": true },
+    { "who": "parent", "en": "The pilots practice a lot to fly like that.", "ko": "조종사들이 저렇게 날려고 연습을 아주 많이 해." },
+    { "who": "kid", "en": "What's that white line?", "ko": "저 하얀 줄은 뭐야?", "practice": true },
+    { "who": "parent", "en": "That's smoke. It shows where they fly.", "ko": "연기야. 어디로 날았는지 보여 주는 거야." },
+    { "who": "kid", "en": "Look! They're going up!", "ko": "봐! 위로 올라가!" },
+    { "who": "parent", "en": "Now they're upside down. They're doing a loop.", "ko": "이제 거꾸로 뒤집혔네. 한 바퀴 빙 돌고 있어." },
+    { "who": "kid", "en": "A loop? Like a circle?", "ko": "루프? 동그라미 같은 거?" },
+    { "who": "parent", "en": "Yes, a big circle in the sky.", "ko": "응, 하늘에 그리는 커다란 동그라미야." },
+    { "who": "kid", "en": "Do the pilots get dizzy?", "ko": "조종사들은 안 어지러워?", "practice": true },
+    { "who": "parent", "en": "Maybe a little. They train hard for it.", "ko": "조금은 그럴걸. 그래서 훈련을 열심히 해." },
+    { "who": "kid", "en": "Look! They made a heart!", "ko": "봐! 하트를 만들었어!", "practice": true },
+    { "who": "parent", "en": "They drew it with smoke. What a sight!", "ko": "연기로 그린 거야. 정말 멋진 광경이다!" },
+    { "who": "kid", "en": "Take a picture. Hurry!", "ko": "사진 찍어. 빨리!", "practice": true },
+    { "who": "parent", "en": "Got it. Now smile for the next one!", "ko": "찍었어. 다음 사진은 웃어 봐!" },
+    { "who": "kid", "en": "I want to be a pilot!", "ko": "나 조종사 되고 싶어!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What shape do you want the planes to make?", "ko": "비행기들이 무슨 모양을 만들면 좋겠어?", "sample_en": "A big star!", "sample_ko": "커다란 별!" },
+    { "en": "Would you like to fly upside down?", "ko": "거꾸로 날아 보고 싶어?", "sample_en": "Yes! It looks fun.", "sample_ko": "응! 재미있어 보여." },
+    { "en": "What was your favorite part of the air show?", "ko": "에어쇼에서 뭐가 제일 좋았어?", "sample_en": "The heart!", "sample_ko": "하트!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one flies in the sky?", "prompt_ko": "하늘을 나는 건 어느 거야?", "options": [ { "e": "✈️", "en": "airplane" }, { "e": "🚗", "en": "car" }, { "e": "🚢", "en": "ship" } ] },
+    { "prompt_en": "What did the planes make in the sky?", "prompt_ko": "비행기들이 하늘에 뭘 만들었지?", "options": [ { "e": "❤️", "en": "a heart" }, { "e": "🍕", "en": "a pizza" }, { "e": "🐟", "en": "a fish" } ] },
+    { "prompt_en": "You see something great. You want a photo. What do you say?", "prompt_ko": "멋진 걸 봤어. 사진을 갖고 싶어. 뭐라고 해?", "options": [ { "e": "📷", "en": "Take a picture." }, { "e": "🚪", "en": "Close the door." }, { "e": "🛁", "en": "Take a bath." } ] },
+    { "prompt_en": "The jets are very loud. What do you cover?", "prompt_ko": "제트기가 아주 시끄러워. 어디를 막아?", "options": [ { "e": "👂", "en": "my ears" }, { "e": "🦶", "en": "my feet" }, { "e": "🦷", "en": "my teeth" } ] },
+    { "prompt_en": "Who flies the plane?", "prompt_ko": "비행기는 누가 조종해?", "options": [ { "e": "🧑‍✈️", "en": "a pilot" }, { "e": "🧑‍🍳", "en": "a cook" }, { "e": "🧑‍🌾", "en": "a farmer" } ] },
+    { "prompt_en": "A loop looks like which one?", "prompt_ko": "루프는 어떤 모양이야?", "options": [ { "e": "⭕", "en": "a circle" }, { "e": "🔺", "en": "a triangle" }, { "e": "🟦", "en": "a square" } ] },
+    { "prompt_en": "What is the white line behind the planes?", "prompt_ko": "비행기 뒤의 하얀 줄은 뭐야?", "options": [ { "e": "💨", "en": "smoke" }, { "e": "🥛", "en": "milk" }, { "e": "🧵", "en": "thread" } ] },
+    { "prompt_en": "Many planes fly side by side. What do you say?", "prompt_ko": "비행기 여러 대가 나란히 날아. 뭐라고 해?", "options": [ { "e": "🤩", "en": "They're flying together!" }, { "e": "😴", "en": "They're sleeping." }, { "e": "🍽️", "en": "They're eating." } ] },
+    { "prompt_en": "Which one takes a picture?", "prompt_ko": "사진을 찍는 건 어느 거야?", "options": [ { "e": "📷", "en": "camera" }, { "e": "🔨", "en": "hammer" }, { "e": "🥁", "en": "drum" } ] },
+    { "prompt_en": "Where do you look to see the air show?", "prompt_ko": "에어쇼를 보려면 어디를 봐야 해?", "options": [ { "e": "⬆️", "en": "up" }, { "e": "⬇️", "en": "down" }, { "e": "⬅️", "en": "left" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'What a sight!'는 어떤 뜻일까?", "options": ["정말 멋진 광경이다!", "눈이 정말 좋구나!", "뭐가 보이니?", "여기가 어디야?"], "explain": "sight는 '광경'이라는 뜻으로, 눈앞의 장면이 대단할 때 감탄하는 표현입니다." },
+    { "q": "'사진 찍어'를 영어로 하면?", "options": ["Take a picture.", "Make a picture.", "Shoot a picture out.", "Do a picture."], "explain": "사진을 찍는 것은 take를 써서 Take a picture.라고 합니다." },
+    { "q": "'They're doing a loop.'에서 loop는 무엇일까?", "options": ["하늘에서 크게 원을 그리며 도는 것", "아주 낮게 나는 것", "줄지어 착륙하는 것", "연기를 내뿜는 것"], "explain": "loop는 비행기가 위로 솟구쳐 거꾸로 뒤집히며 한 바퀴 도는 묘기입니다." },
+    { "q": "빈칸에 알맞은 말은? — Now they're upside ___.", "options": ["down", "under", "below", "back"], "explain": "'거꾸로 뒤집힌'은 upside down입니다." },
+    { "q": "'What a'를 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["와러", "왓트 어", "와트아", "홧 에이"], "explain": "t가 모음 사이에서 부드러운 'ㄹ' 소리가 되어 '와러'처럼 들립니다." },
+    { "q": "시끄러운 소리가 날 때 '귀 막아'라고 하려면?", "options": ["Cover your ears.", "Close your ears.", "Shut your ears off.", "Block on your ears."], "explain": "손으로 귀를 덮어 막는 것은 Cover your ears.라고 합니다." },
+    { "q": "빈칸에 알맞은 말은? — Here ___ the jets!", "options": ["come", "comes", "coming", "is come"], "explain": "주어가 복수(the jets)이므로 Here come the jets!가 됩니다." },
+    { "q": "'They're flying together!'의 뜻은?", "options": ["같이 날고 있어!", "서로 부딪히고 있어!", "따로따로 날고 있어!", "다 같이 내려오고 있어!"], "explain": "together는 '함께'라는 뜻으로, 나란히 줄 맞춰 나는 모습을 말합니다." },
+    { "q": "'They made a heart!'에서 made a를 이어 말하면?", "options": ["메이더", "메이드 어", "매드 에이", "메이대"], "explain": "made의 d와 a가 이어져 '메이더'처럼 들립니다." },
+    { "q": "사진을 찍은 뒤 '찍었어'라고 짧게 말할 때 자연스러운 표현은?", "options": ["Got it.", "Took.", "I picture it.", "It's taken me."], "explain": "원하는 것을 해냈을 때 Got it.(됐어, 찍었어)이라고 짧게 말합니다." }
+  ]
+}

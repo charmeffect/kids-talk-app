@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 73,
+  "topic": "ships",
+  "title_en": "Anchor",
+  "title_ko": "닻",
+  "intro_ko": "소파를 배라고 하고 섬 앞에 배를 세우는 놀이입니다. 끈에 장난감을 묶어 닻처럼 바닥에 내렸다가 함께 끌어 올려 보세요.",
+  "expressions": [
+    { "en": "Drop the anchor.", "ko": "닻을 내려.", "tip": "배를 세울 때 하는 말이에요. anchor가 모음으로 시작해서 the를 '디'로 읽어 '드랍 디 앵커'가 됩니다.", "who": "both" },
+    { "en": "Stay right here.", "ko": "바로 여기 있어.", "tip": "자리를 뜨지 말라고 할 때 써요. right가 '바로'라는 뜻을 더해 주고, t는 약하게 '롸잇 히어'로 말합니다.", "who": "parent" },
+    { "en": "Don't move.", "ko": "움직이지 마.", "tip": "위험하거나 잠깐 가만히 있어야 할 때 써요. Don't의 t는 거의 들리지 않아 '돈 무브'처럼 말합니다.", "who": "parent" },
+    { "en": "Pull it up!", "ko": "끌어 올려!", "tip": "아래에 있는 것을 당겨 올릴 때 써요. 세 단어가 이어져 '풀리럽'처럼 들립니다.", "who": "both" },
+    { "en": "Stay put.", "ko": "그 자리에 그대로 있어.", "tip": "'다른 데 가지 말고 거기 있어'라는 뜻으로 부모가 자주 쓰는 표현이에요. put의 t는 터뜨리지 않고 짧게 끊어 '스테이 풋'으로 말합니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Captain, I see an island! Let's stop here.", "ko": "선장님, 섬이 보여요! 여기서 멈춰요." },
+    { "who": "kid", "en": "How do we stop the ship?", "ko": "배는 어떻게 멈춰?" },
+    { "who": "parent", "en": "We slow down. Then the heavy anchor holds us in place.", "ko": "속도를 줄이고, 무거운 닻으로 배를 그 자리에 붙잡아 두지." },
+    { "who": "kid", "en": "What does it do?", "ko": "닻이 뭘 하는데?" },
+    { "who": "parent", "en": "It sinks down and digs into the sand.", "ko": "아래로 가라앉아서 모래 속에 콱 박혀." },
+    { "who": "kid", "en": "Like a hook?", "ko": "갈고리처럼?" },
+    { "who": "parent", "en": "Exactly! Ready? Drop the anchor.", "ko": "바로 그거야! 준비됐지? 닻을 내려." },
+    { "who": "kid", "en": "Drop the anchor! Splash!", "ko": "닻을 내려! 풍덩!", "practice": true },
+    { "who": "parent", "en": "Now the ship will stay right here.", "ko": "이제 배가 바로 여기 있을 거야." },
+    { "who": "kid", "en": "Stay right here, ship!", "ko": "여기 그대로 있어, 배야!", "practice": true },
+    { "who": "parent", "en": "The waves are pushing us. Is the ship moving?", "ko": "파도가 우리를 밀고 있어. 배가 움직이니?" },
+    { "who": "kid", "en": "No! It can't move.", "ko": "아니! 못 움직여." },
+    { "who": "parent", "en": "Good. Don't move. I'll get the snacks.", "ko": "좋아. 움직이지 마. 간식 가져올게." },
+    { "who": "kid", "en": "Why can't I move?", "ko": "나는 왜 움직이면 안 돼?" },
+    { "who": "parent", "en": "I don't want you to fall in the water. Stay put.", "ko": "네가 물에 빠지면 안 되니까. 그 자리에 그대로 있어." },
+    { "who": "kid", "en": "Okay. I'm not moving!", "ko": "알았어. 나 안 움직여!", "practice": true },
+    { "who": "parent", "en": "Here you go. Cookies for the captain.", "ko": "여기 있어요. 선장님 드릴 쿠키예요." },
+    { "who": "kid", "en": "Yum! Can we go now?", "ko": "맛있다! 이제 가도 돼?" },
+    { "who": "parent", "en": "Sure. Let's bring the anchor back up.", "ko": "그럼. 닻을 다시 올리자." },
+    { "who": "kid", "en": "Pull it up! Pull!", "ko": "끌어 올려! 당겨!", "practice": true },
+    { "who": "parent", "en": "It's so heavy! Pull harder, Captain!", "ko": "엄청 무거워요! 더 세게 당겨요, 선장님!" },
+    { "who": "kid", "en": "It's up! Let's sail away!", "ko": "올라왔다! 출발하자!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "Why does a ship need an anchor?", "ko": "배에는 왜 닻이 필요할까?", "sample_en": "So it can stay.", "sample_ko": "그 자리에 있으려고." },
+    { "en": "What would you do on the island?", "ko": "섬에 가면 뭐 하고 싶어?", "sample_en": "Look for treasure!", "sample_ko": "보물 찾기!" },
+    { "en": "What else is heavy like an anchor?", "ko": "닻처럼 무거운 게 또 뭐가 있을까?", "sample_en": "A big rock!", "sample_ko": "큰 바위!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is an anchor?", "prompt_ko": "닻은 어느 거야?", "options": [ { "e": "⚓", "en": "an anchor" }, { "e": "🔑", "en": "a key" }, { "e": "🥄", "en": "a spoon" } ] },
+    { "prompt_en": "Where does the anchor go?", "prompt_ko": "닻은 어디로 내려가?", "options": [ { "e": "🌊", "en": "into the sea" }, { "e": "☁️", "en": "into the clouds" }, { "e": "🌳", "en": "up a tree" } ] },
+    { "prompt_en": "Which one is heavy?", "prompt_ko": "무거운 건 어느 거야?", "options": [ { "e": "⚓", "en": "an anchor" }, { "e": "🎈", "en": "a balloon" }, { "e": "🍃", "en": "a leaf" } ] },
+    { "prompt_en": "You want the ship to stay here. What do you say?", "prompt_ko": "배가 여기 머물게 하고 싶어. 뭐라고 해?", "options": [ { "e": "⚓", "en": "Drop the anchor." }, { "e": "🚀", "en": "Blast off!" }, { "e": "😴", "en": "Good night." } ] },
+    { "prompt_en": "The anchor is down, and it's time to go. What do you say?", "prompt_ko": "닻이 내려가 있는데 이제 떠날 시간이야. 뭐라고 해?", "options": [ { "e": "💪", "en": "Pull it up!" }, { "e": "🍪", "en": "Eat it up!" }, { "e": "🤫", "en": "Be quiet!" } ] },
+    { "prompt_en": "Listen: 'Don't move.' What do you do?", "prompt_ko": "잘 들어 봐: 'Don't move.' 어떻게 해야 해?", "options": [ { "e": "🧍", "en": "stand still" }, { "e": "🏃", "en": "run fast" }, { "e": "💃", "en": "dance" } ] },
+    { "prompt_en": "Which one sails on the sea?", "prompt_ko": "바다 위를 다니는 건 어느 거야?", "options": [ { "e": "🚢", "en": "a ship" }, { "e": "🚗", "en": "a car" }, { "e": "🚂", "en": "a train" } ] },
+    { "prompt_en": "What snack did the captain get?", "prompt_ko": "선장님은 무슨 간식을 받았지?", "options": [ { "e": "🍪", "en": "cookies" }, { "e": "🍕", "en": "pizza" }, { "e": "🍌", "en": "a banana" } ] },
+    { "prompt_en": "What did we see from the ship?", "prompt_ko": "배에서 뭐가 보였지?", "options": [ { "e": "🏝️", "en": "an island" }, { "e": "🏫", "en": "a school" }, { "e": "🏥", "en": "a hospital" } ] },
+    { "prompt_en": "The anchor drops into the water. What sound does it make?", "prompt_ko": "닻이 물에 떨어져. 무슨 소리가 날까?", "options": [ { "e": "💦", "en": "Splash!" }, { "e": "🔔", "en": "Ding-dong!" }, { "e": "🐶", "en": "Woof!" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Stay put.'의 뜻은?", "options": ["그 자리에 그대로 있어.", "여기에 놓아 둬.", "계속 넣어.", "빨리 이리 와."], "explain": "stay put은 '움직이지 말고 있던 자리에 그대로 있다'라는 뜻입니다." },
+    { "q": "'닻을 내려.'를 영어로 말하면?", "options": ["Drop the anchor.", "Fall the anchor.", "Down the anchor.", "Put off the anchor."], "explain": "닻을 내리는 것은 drop the anchor라고 합니다." },
+    { "q": "빈칸에 알맞은 말은? — Now the ship will stay ___ here.", "options": ["right", "very", "much", "so"], "explain": "right here는 '바로 여기'라는 뜻입니다." },
+    { "q": "'Pull it up'을 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["풀리럽", "풀 잇 업", "푸리트 어프", "풀럽"], "explain": "Pull의 l이 it과, it의 t가 up과 이어져 '풀리럽'처럼 들립니다." },
+    { "q": "'Drop the anchor.'에서 the는 어떻게 읽을까?", "options": ["디", "더", "데", "다"], "explain": "anchor처럼 모음 소리로 시작하는 말 앞에서는 the를 '디'로 읽습니다." },
+    { "q": "'Stay put.'을 쓰기에 가장 알맞은 상황은?", "options": ["마트에서 '금방 올게, 여기 꼼짝 말고 있어'라고 할 때", "장난감을 상자에 넣으라고 할 때", "늦어서 빨리 가자고 할 때", "옷을 입으라고 할 때"], "explain": "자리를 뜨지 말고 기다리라고 할 때 Stay put.이라고 합니다." },
+    { "q": "빈칸에 알맞은 말은? — I don't want you to fall ___ the water.", "options": ["in", "on", "at", "up"], "explain": "'물에 빠지다'는 fall in the water라고 합니다." },
+    { "q": "'Don't move.'와 뜻이 가장 비슷한 말은?", "options": ["Stay still.", "Go away.", "Hurry up.", "Move over."], "explain": "Stay still.도 '가만히 있어'라는 뜻입니다." },
+    { "q": "빈칸에 알맞은 말은? — Let's bring the anchor back ___.", "options": ["up", "on", "off", "out"], "explain": "아래에 있던 것을 다시 위로 올리므로 back up을 씁니다." },
+    { "q": "'Exactly!'의 뜻은?", "options": ["바로 그거야!", "아마 그럴걸.", "그건 틀렸어.", "다시 말해 줘."], "explain": "상대의 말이 정확히 맞을 때 맞장구치는 말입니다." }
+  ]
+}

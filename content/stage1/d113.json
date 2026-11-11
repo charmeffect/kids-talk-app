@@ -1,0 +1,69 @@
+{
+  "stage": 1,
+  "day": 113,
+  "topic": "ships",
+  "title_en": "Speedboat",
+  "title_ko": "스피드보트",
+  "intro_ko": "소파나 이불을 스피드보트 삼아 아이가 운전하는 상상 놀이입니다. 파도가 올 때 몸을 위아래로 들썩이고, 물이 튀는 시늉을 하면 아이가 신나게 따라 해요.",
+  "expressions": [
+    { "en": "Start the engine.", "ko": "시동 걸어.", "tip": "배나 자동차의 엔진을 켤 때 쓰는 말이에요. 끌 때는 Turn off the engine. the가 모음 앞이라 '디'로 소리 나서 '스타트 디 엔진'처럼 들립니다.", "who": "both" },
+    { "en": "We're bouncing on the waves!", "ko": "파도 위에서 통통 튀고 있어!", "tip": "배가 파도에 부딪혀 들썩일 때 쓰는 말이에요. bouncing on이 이어져 '바운싱온'처럼 들립니다.", "who": "kid" },
+    { "en": "I'm getting wet!", "ko": "나 젖고 있어!", "tip": "물이 튀어서 옷이 젖어 갈 때 써요. getting의 tt는 부드럽게 굴려 '게링 웻'처럼 말합니다.", "who": "both" },
+    { "en": "That was a fun ride!", "ko": "정말 재미있게 탔다!", "tip": "배, 놀이기구, 자전거 등을 타고 난 뒤 하는 말이에요. was a가 이어져 '댓 워저 펀 라이드'처럼 들립니다.", "who": "both" },
+    { "en": "Hold your horses.", "ko": "잠깐만, 서두르지 마.", "tip": "마음이 급한 아이에게 '잠깐 기다려'라고 장난스럽게 말하는 표현이에요. Hold your는 d와 y가 만나 '홀쥬어'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Welcome aboard! This is our speedboat.", "ko": "어서 타세요! 이게 우리 스피드보트야." },
+    { "who": "kid", "en": "Can I drive it?", "ko": "내가 운전해도 돼?", "practice": true },
+    { "who": "parent", "en": "Sure. But first, put on your life jacket.", "ko": "그럼. 그런데 먼저 구명조끼부터 입자." },
+    { "who": "kid", "en": "Okay. It's on! Let's go!", "ko": "응. 입었어! 출발!" },
+    { "who": "parent", "en": "Hold your horses. Is everyone sitting down?", "ko": "잠깐만, 서두르지 마. 다들 앉았어?" },
+    { "who": "kid", "en": "Yes! Can we go now?", "ko": "응! 이제 가도 돼?" },
+    { "who": "parent", "en": "Now we're ready. Start the engine.", "ko": "이제 준비됐어. 시동 걸어." },
+    { "who": "kid", "en": "Vroom! Here we go!", "ko": "부릉! 출발한다!" },
+    { "who": "parent", "en": "Whoa, we're going so fast!", "ko": "우와, 엄청 빠르다!" },
+    { "who": "kid", "en": "We're bouncing on the waves!", "ko": "파도 위에서 통통 튀어!", "practice": true },
+    { "who": "parent", "en": "Hold on tight. Here comes a big one.", "ko": "꽉 잡아. 큰 파도가 온다." },
+    { "who": "kid", "en": "Splash! I'm getting wet!", "ko": "첨벙! 나 젖고 있어!", "practice": true },
+    { "who": "parent", "en": "Me too. The water is spraying everywhere.", "ko": "나도. 물이 사방으로 튀네." },
+    { "who": "kid", "en": "Why is the boat so fast?", "ko": "이 배는 왜 이렇게 빨라?", "practice": true },
+    { "who": "parent", "en": "The engine spins a propeller. It pushes the water back.", "ko": "엔진이 프로펠러를 돌리거든. 프로펠러가 물을 뒤로 밀어내." },
+    { "who": "kid", "en": "What's a propeller?", "ko": "프로펠러가 뭐야?", "practice": true },
+    { "who": "parent", "en": "It's like a fan under the water.", "ko": "물속에 있는 선풍기 같은 거야." },
+    { "who": "kid", "en": "Cool! Go faster!", "ko": "멋지다! 더 빨리!" },
+    { "who": "parent", "en": "Not too fast. Slow down near the dock.", "ko": "너무 빠르면 안 돼. 선착장 근처에서는 천천히 가자." },
+    { "who": "kid", "en": "Okay. I'm slowing down.", "ko": "알았어. 천천히 갈게." },
+    { "who": "parent", "en": "Nice driving. Now turn off the engine.", "ko": "운전 잘했어. 이제 시동 꺼." },
+    { "who": "kid", "en": "That was a fun ride!", "ko": "정말 재미있게 탔다!", "practice": true },
+    { "who": "parent", "en": "It sure was. Let's dry off.", "ko": "정말 그랬어. 이제 물기 닦자." }
+  ],
+  "talkMore": [
+    { "en": "Where do you want to go on a speedboat?", "ko": "스피드보트 타고 어디 가고 싶어?", "sample_en": "To an island!", "sample_ko": "섬으로!" },
+    { "en": "Why do we wear a life jacket?", "ko": "구명조끼는 왜 입을까?", "sample_en": "To stay safe.", "sample_ko": "안전하려고." },
+    { "en": "Which do you like better, fast boats or slow boats?", "ko": "빠른 배랑 느린 배 중에 뭐가 더 좋아?", "sample_en": "Fast boats!", "sample_ko": "빠른 배!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a speedboat?", "prompt_ko": "스피드보트는 어느 거야?", "options": [ { "e": "🚤", "en": "speedboat" }, { "e": "🚌", "en": "bus" }, { "e": "🚂", "en": "train" } ] },
+    { "prompt_en": "What do you put on before a boat ride?", "prompt_ko": "배를 타기 전에 뭘 입어야 해?", "options": [ { "e": "🦺", "en": "a life jacket" }, { "e": "👑", "en": "a crown" }, { "e": "🧤", "en": "gloves" } ] },
+    { "prompt_en": "Water splashes on you. What do you say?", "prompt_ko": "물이 나한테 튀었어. 뭐라고 해?", "options": [ { "e": "💦", "en": "I'm getting wet!" }, { "e": "🥱", "en": "I'm sleepy." }, { "e": "🥵", "en": "I'm hot." } ] },
+    { "prompt_en": "The boat goes up and down. Where are we bouncing?", "prompt_ko": "배가 위아래로 들썩여. 우리는 어디 위에서 튀고 있어?", "options": [ { "e": "🌊", "en": "on the waves" }, { "e": "🛏️", "en": "on the bed" }, { "e": "☁️", "en": "on a cloud" } ] },
+    { "prompt_en": "The boat ride is over. It was fun! What do you say?", "prompt_ko": "배를 다 탔어. 재미있었어! 뭐라고 해?", "options": [ { "e": "😄", "en": "That was a fun ride!" }, { "e": "😡", "en": "I'm angry." }, { "e": "🤒", "en": "I'm sick." } ] },
+    { "prompt_en": "Which boat is the fastest?", "prompt_ko": "어느 배가 제일 빨라?", "options": [ { "e": "🚤", "en": "speedboat" }, { "e": "🛶", "en": "canoe" }, { "e": "⛵", "en": "sailboat" } ] },
+    { "prompt_en": "Listen: 'Hold on tight.' What do you use?", "prompt_ko": "잘 들어 봐: 'Hold on tight.' 뭘로 잡아?", "options": [ { "e": "✊", "en": "my hands" }, { "e": "👅", "en": "my tongue" }, { "e": "👃", "en": "my nose" } ] },
+    { "prompt_en": "What does the propeller push back?", "prompt_ko": "프로펠러는 뭘 뒤로 밀어내?", "options": [ { "e": "💧", "en": "water" }, { "e": "🪨", "en": "rocks" }, { "e": "🍞", "en": "bread" } ] },
+    { "prompt_en": "Where do boats stop and park?", "prompt_ko": "배는 어디에 세워 둘까?", "options": [ { "e": "⚓", "en": "at the dock" }, { "e": "🏔️", "en": "on a mountain" }, { "e": "🏫", "en": "at school" } ] },
+    { "prompt_en": "Listen: 'Slow down near the dock.' How do you go?", "prompt_ko": "잘 들어 봐: 'Slow down near the dock.' 어떻게 가야 해?", "options": [ { "e": "🐢", "en": "slowly" }, { "e": "🚀", "en": "super fast" }, { "e": "🦘", "en": "jumping" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Hold your horses.'는 어떤 뜻일까?", "options": ["잠깐만, 서두르지 마.", "말을 꼭 잡고 있어.", "힘을 더 내 봐.", "조용히 해."], "explain": "달리려는 말을 붙잡듯이 '서두르지 말고 잠깐 기다려'라는 뜻의 표현입니다." },
+    { "q": "'시동 걸어'를 영어로 하면?", "options": ["Start the engine.", "Open the engine.", "Hang the engine.", "Begin on the engine."], "explain": "엔진을 켜는 것은 start, 끄는 것은 turn off를 씁니다." },
+    { "q": "'I'm getting wet!'의 뜻은?", "options": ["나 젖고 있어!", "나 물 마시고 있어!", "나 물에 들어갈래!", "나 다 말랐어!"], "explain": "get wet은 '젖다'이고, I'm getting은 지금 점점 젖어 가는 중이라는 뜻입니다." },
+    { "q": "빈칸에 알맞은 말은? — But first, put ___ your life jacket.", "options": ["on", "in", "up", "at"], "explain": "옷이나 조끼를 입는 것은 put on입니다." },
+    { "q": "'Hold your'를 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["홀쥬어", "홀드 유어", "홀드요르", "호울 드유얼"], "explain": "d와 y가 만나면 '쥬' 소리가 나서 Hold your는 '홀쥬어'처럼 들립니다." },
+    { "q": "파도가 올 때 '꽉 잡아'라고 할 때 알맞은 말은?", "options": ["Hold on tight.", "Catch on tight.", "Hold it strongly up.", "Grab tight on."], "explain": "떨어지지 않게 꽉 잡으라고 할 때는 Hold on tight.라고 합니다." },
+    { "q": "빈칸에 알맞은 말은? — That was a fun ___!", "options": ["ride", "ridden", "riding on", "rode"], "explain": "a fun ride는 '재미있는 탈것 타기'라는 명사 표현입니다." },
+    { "q": "'Welcome aboard!'는 언제 쓰는 말일까?", "options": ["배나 비행기에 탄 사람을 맞이할 때", "배에서 내리는 사람에게 인사할 때", "집에 돌아왔을 때", "식사를 시작할 때"], "explain": "aboard는 '배·비행기에 탄'이라는 뜻이라 탑승을 환영하는 인사입니다." },
+    { "q": "스피드보트가 앞으로 나아가는 원리로 알맞은 것은?", "options": ["프로펠러가 물을 뒤로 밀어내서", "프로펠러가 물을 끌어당겨 배에 채워서", "돛이 바람을 받아서", "파도가 배를 밀어 줘서"], "explain": "엔진이 돌리는 프로펠러가 물을 뒤로 밀어내고 그 반대 방향으로 배가 나아갑니다." },
+    { "q": "'It sure was.'는 어떤 뜻으로 쓰였을까?", "options": ["정말 그랬어.", "확실하지 않아.", "그건 아니었어.", "아마 그랬을걸."], "explain": "상대 말에 강하게 맞장구칠 때 It sure was.(정말 그랬어)라고 합니다." }
+  ]
+}

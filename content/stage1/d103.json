@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 103,
+  "topic": "ships",
+  "title_en": "Message in a bottle",
+  "title_ko": "병 속의 편지",
+  "intro_ko": "소파를 배, 파란 이불을 바다로 삼아 병에 편지를 넣어 띄우는 놀이입니다. 빈 페트병과 종이, 연필을 준비해서 실제로 쓰고, 말아 넣고, 이불 바다에 던져 보세요.",
+  "expressions": [
+    { "en": "Let's write a message.", "ko": "편지(메시지)를 쓰자.", "tip": "무언가를 같이 하자고 할 때 'Let's + 동사'를 써요. write a가 이어져 미국식으로 '롸이러'처럼 들립니다.", "who": "both" },
+    { "en": "Put it in the bottle.", "ko": "병 안에 넣어.", "tip": "물건을 어디에 넣으라고 할 때 'Put it in ~'을 써요. Put it in이 이어져 '푸리린'처럼 들립니다.", "who": "parent" },
+    { "en": "Throw it far!", "ko": "멀리 던져!", "tip": "공놀이할 때도 쓰기 좋아요. Throw it이 이어져 '쓰로윗'처럼 들리고, th는 혀끝을 이 사이에 살짝 대고 소리 냅니다.", "who": "both" },
+    { "en": "Who will find it?", "ko": "누가 찾을까?", "tip": "앞으로 일어날 일을 궁금해할 때 'Who will ~?'을 써요. find it이 이어져 '파인딧'처럼 들립니다.", "who": "kid" },
+    { "en": "You never know.", "ko": "그건 모르는 일이지.", "tip": "'어떻게 될지 아무도 몰라, 혹시 알아?'라는 뜻이에요. 가능성이 열려 있다고 말할 때 문장 끝에 붙여 씁니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "We're on a ship, far out at sea.", "ko": "우리는 지금 먼바다 위 배에 있어." },
+    { "who": "kid", "en": "Look! I found an empty bottle!", "ko": "봐! 빈 병을 찾았어!" },
+    { "who": "parent", "en": "Great! I have an idea. Let's write a message.", "ko": "잘됐다! 좋은 생각이 있어. 편지를 쓰자." },
+    { "who": "kid", "en": "A message? To who?", "ko": "편지? 누구한테?" },
+    { "who": "parent", "en": "To someone far away, across the sea.", "ko": "바다 건너 멀리 있는 누군가에게." },
+    { "who": "kid", "en": "What should I write?", "ko": "뭐라고 쓸까?" },
+    { "who": "parent", "en": "Write your name and say hello.", "ko": "네 이름을 쓰고 인사를 해 봐." },
+    { "who": "kid", "en": "Hello! I'm on a ship!", "ko": "안녕! 나는 배에 타고 있어!", "practice": true },
+    { "who": "parent", "en": "Nice. Now roll it up. Put it in the bottle.", "ko": "좋아. 이제 돌돌 말아. 병 안에 넣어." },
+    { "who": "kid", "en": "I put it in the bottle!", "ko": "병에 넣었어!", "practice": true },
+    { "who": "parent", "en": "Now close it tight, so water can't get in.", "ko": "이제 물이 못 들어가게 뚜껑을 꽉 닫아." },
+    { "who": "kid", "en": "Will it float?", "ko": "물에 뜰까?" },
+    { "who": "parent", "en": "Yes. It's full of air, so it floats.", "ko": "응. 안에 공기가 가득 차 있어서 떠." },
+    { "who": "kid", "en": "Can I throw it now?", "ko": "이제 던져도 돼?" },
+    { "who": "parent", "en": "Go ahead. Throw it far!", "ko": "그래. 멀리 던져!" },
+    { "who": "kid", "en": "One, two, three, go!", "ko": "하나, 둘, 셋, 간다!", "practice": true },
+    { "who": "parent", "en": "Splash! Look, it's floating away on the waves.", "ko": "첨벙! 봐, 파도를 타고 둥둥 떠내려간다." },
+    { "who": "kid", "en": "Where will it go?", "ko": "어디로 갈까?" },
+    { "who": "parent", "en": "The waves and the wind will carry it.", "ko": "파도랑 바람이 실어 갈 거야." },
+    { "who": "kid", "en": "Who will find it?", "ko": "누가 찾을까?", "practice": true },
+    { "who": "parent", "en": "Maybe a sailor. Maybe a kid like you. You never know.", "ko": "선원일 수도 있고, 너 같은 아이일 수도 있지. 그건 모르는 일이야." },
+    { "who": "kid", "en": "Will they write back?", "ko": "답장을 써 줄까?" },
+    { "who": "parent", "en": "I hope so. That would be amazing.", "ko": "그랬으면 좋겠다. 그럼 정말 멋지겠지." },
+    { "who": "kid", "en": "Let's write another message!", "ko": "편지 또 쓰자!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "Who do you want to find your message?", "ko": "네 편지를 누가 찾았으면 좋겠어?", "sample_en": "A ship captain!", "sample_ko": "배 선장님!" },
+    { "en": "What would you draw on your message?", "ko": "편지에 뭘 그리고 싶어?", "sample_en": "A big ship.", "sample_ko": "큰 배." },
+    { "en": "If you found a bottle, what would you do?", "ko": "네가 병을 발견하면 어떻게 할 거야?", "sample_en": "I'd open it!", "sample_ko": "열어 볼 거야!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "What do we put in the bottle?", "prompt_ko": "병 안에 뭘 넣어?", "options": [ { "e": "📜", "en": "a message" }, { "e": "👟", "en": "a shoe" }, { "e": "🎩", "en": "a hat" } ] },
+    { "prompt_en": "What do we write with?", "prompt_ko": "글씨는 뭐로 써?", "options": [ { "e": "✏️", "en": "a pencil" }, { "e": "🥕", "en": "a carrot" }, { "e": "🍴", "en": "a fork" } ] },
+    { "prompt_en": "In our game, where did we throw the bottle?", "prompt_ko": "놀이에서 병을 어디에 던졌지?", "options": [ { "e": "🌊", "en": "into the sea" }, { "e": "🔥", "en": "into the fire" }, { "e": "🌳", "en": "into a tree" } ] },
+    { "prompt_en": "You want to write. What do you say?", "prompt_ko": "편지를 쓰고 싶어. 뭐라고 해?", "options": [ { "e": "📝", "en": "Let's write a message." }, { "e": "🛌", "en": "Let's go to bed." }, { "e": "🍽️", "en": "Let's eat." } ] },
+    { "prompt_en": "What carries the bottle away?", "prompt_ko": "병을 멀리 실어 가는 건 뭐야?", "options": [ { "e": "🌊", "en": "the waves" }, { "e": "🚌", "en": "a bus" }, { "e": "🐴", "en": "a horse" } ] },
+    { "prompt_en": "Where were we in our game?", "prompt_ko": "놀이에서 우리는 어디에 있었지?", "options": [ { "e": "🚢", "en": "on a ship" }, { "e": "🚌", "en": "on a bus" }, { "e": "🏫", "en": "at school" } ] },
+    { "prompt_en": "The bottle floats away. What do you ask?", "prompt_ko": "병이 떠내려가. 뭐라고 물어봐?", "options": [ { "e": "🤔", "en": "Who will find it?" }, { "e": "🍎", "en": "Is it an apple?" }, { "e": "😴", "en": "Are you sleepy?" } ] },
+    { "prompt_en": "Your friend has a ball. What do you shout?", "prompt_ko": "친구가 공을 들고 있어. 뭐라고 외쳐?", "options": [ { "e": "💪", "en": "Throw it far!" }, { "e": "🤫", "en": "Be quiet!" }, { "e": "🌙", "en": "Good night!" } ] },
+    { "prompt_en": "Why do we close the bottle?", "prompt_ko": "병뚜껑은 왜 닫아?", "options": [ { "e": "💧", "en": "to keep water out" }, { "e": "🎵", "en": "to make music" }, { "e": "🍬", "en": "to make candy" } ] },
+    { "prompt_en": "What did you write in the message?", "prompt_ko": "편지에 뭐라고 썼지?", "options": [ { "e": "👋", "en": "Hello!" }, { "e": "😡", "en": "Go away!" }, { "e": "😴", "en": "Good night." } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'You never know.'의 뜻은?", "options": ["그건 모르는 일이지.", "너는 아무것도 몰라.", "절대 알려 주지 마.", "나는 전혀 몰랐어."], "explain": "'어떻게 될지 모른다, 혹시 알아?'라는 뜻으로 가능성을 열어 둘 때 씁니다." },
+    { "q": "'병 안에 넣어.'에 알맞은 말은?", "options": ["Put it in the bottle.", "Put in it the bottle.", "Put it at the bottle.", "Push it on the bottle."], "explain": "put + 물건(it) + in + 장소 순서로 말합니다." },
+    { "q": "'Put it in'은 이어 말하면 어떻게 들릴까?", "options": ["푸리린", "풋 잇 인", "푸팃 인느", "푸트 이틴"], "explain": "t가 모음 사이에서 부드러운 'ㄹ' 소리가 되어 '푸리린'처럼 들립니다." },
+    { "q": "'누가 찾을까?'에 알맞은 말은?", "options": ["Who will find it?", "Who will finds it?", "Who does find it?", "Who will it find?"], "explain": "will 뒤에는 동사원형을 써서 Who will find it?이라고 합니다." },
+    { "q": "빈칸에 알맞은 말은? — It's full ___ air, so it floats.", "options": ["of", "with", "in", "by"], "explain": "'~로 가득 찬'은 full of로 말합니다." },
+    { "q": "빈칸에 알맞은 말은? — Now close it ___, so water can't get in.", "options": ["tight", "strong", "hard", "heavy"], "explain": "뚜껑을 '꽉' 닫는 것은 close it tight라고 합니다." },
+    { "q": "'Will they write back?'의 뜻은?", "options": ["답장을 써 줄까?", "뒤에다 쓸까?", "다시 돌아올까?", "거꾸로 쓸까?"], "explain": "write back은 '답장하다'라는 뜻입니다." },
+    { "q": "아이가 '산타 할아버지가 내 편지를 읽을까?'라고 물을 때 '혹시 모르지.'라고 답하려면?", "options": ["You never know.", "You don't know.", "You never mind.", "I never knew."], "explain": "가능성이 있다는 뜻으로 You never know.를 씁니다. You don't know.는 '넌 모르잖아'라는 다른 뜻이에요." },
+    { "q": "뚜껑을 닫은 빈 병이 물에 뜨는 이유는?", "options": ["안에 공기가 가득 차 있어서", "병이 물보다 차가워서", "편지가 병을 끌어 올려서", "파도가 병을 밀어 올려서"], "explain": "공기가 든 병은 같은 부피의 물보다 가벼워서 물에 뜹니다." },
+    { "q": "'Go ahead.'는 어떤 뜻으로 쓰였을까?", "options": ["그래, 해 봐.", "앞으로 걸어가.", "먼저 가 버려.", "머리 조심해."], "explain": "상대가 해도 되는지 물을 때 '그래, 해도 돼'라고 허락하는 말입니다." }
+  ]
+}

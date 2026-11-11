@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 64,
+  "topic": "planes",
+  "title_en": "Seaplane",
+  "title_ko": "수상 비행기",
+  "intro_ko": "수상 비행기 사진을 보며 알아맞히기 놀이를 하다가 목욕 시간에 착륙 놀이로 이어지는 장면입니다. 휴대폰으로 수상 비행기 사진을 보여 주고, 욕조나 대야에 장난감 비행기를 내려앉혀 물을 튀겨 보세요.",
+  "expressions": [
+    { "en": "It lands on water!", "ko": "물 위에 내려앉아!", "tip": "land는 '착륙하다'예요. lands on이 이어져 '랜존'처럼 들리고, water는 미국식으로 '워러'에 가깝습니다.", "who": "both" },
+    { "en": "Is it a boat or a plane?", "ko": "배야, 비행기야?", "tip": "A or B로 둘 중 어느 것인지 물어요. Is it a가 '이지러'처럼 이어지고, boat는 올리고 plane은 내려 말합니다.", "who": "kid" },
+    { "en": "It's both!", "ko": "둘 다야!", "tip": "A or B 질문에 '둘 다'라고 답할 때 써요. both의 th는 혀끝을 이 사이에 살짝 대고 냅니다.", "who": "both" },
+    { "en": "What a splash!", "ko": "물이 엄청 튀었네!", "tip": "What a + 명사!는 '정말 대단한 ~이네!'라는 감탄이에요(What a day!). What a가 '와러'로 이어집니다.", "who": "both" },
+    { "en": "Guess again.", "ko": "다시 맞혀 봐.", "tip": "아이의 추측이 틀렸을 때 '땡' 대신 부드럽게 쓰는 말이에요. 두 단어가 이어져 '게서겐'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Look at this picture. What do you think it is?", "ko": "이 사진 봐. 뭐인 것 같아?" },
+    { "who": "kid", "en": "Is it a boat?", "ko": "배야?" },
+    { "who": "parent", "en": "Guess again.", "ko": "다시 맞혀 봐." },
+    { "who": "kid", "en": "Is it a plane?", "ko": "비행기야?" },
+    { "who": "parent", "en": "Hmm, it has wings. But look at the bottom.", "ko": "음, 날개가 있지. 근데 아래쪽을 봐." },
+    { "who": "kid", "en": "Is it a boat or a plane?", "ko": "배야, 비행기야?", "practice": true },
+    { "who": "parent", "en": "It's both! It's called a seaplane.", "ko": "둘 다야! 수상 비행기라고 해." },
+    { "who": "kid", "en": "A seaplane? Where are the wheels?", "ko": "수상 비행기? 바퀴는 어디 있어?" },
+    { "who": "parent", "en": "This one has floats instead of wheels.", "ko": "이 비행기는 바퀴 대신 플로트가 있어." },
+    { "who": "kid", "en": "What are floats?", "ko": "플로트가 뭐야?" },
+    { "who": "parent", "en": "They're like two little boats under the plane.", "ko": "비행기 밑에 달린 작은 배 두 개 같은 거야." },
+    { "who": "kid", "en": "Why doesn't it sink?", "ko": "왜 안 가라앉아?", "practice": true },
+    { "who": "parent", "en": "The floats are full of air. They keep it up.", "ko": "플로트 안에 공기가 가득 차 있거든. 그래서 떠 있어." },
+    { "who": "kid", "en": "So where does it land?", "ko": "그럼 어디에 내려?" },
+    { "who": "parent", "en": "Watch this. Here it comes, down, down, down.", "ko": "잘 봐. 내려온다, 아래로, 아래로, 아래로." },
+    { "who": "kid", "en": "It lands on water!", "ko": "물 위에 내려앉아!", "practice": true },
+    { "who": "parent", "en": "Right! It can take off from water, too.", "ko": "맞아! 물에서 날아오를 수도 있어." },
+    { "who": "kid", "en": "Where does it go?", "ko": "어디로 가?" },
+    { "who": "parent", "en": "To lakes and little islands with no airport.", "ko": "공항이 없는 호수나 작은 섬으로 가." },
+    { "who": "kid", "en": "Can I land it in the tub?", "ko": "내가 욕조에 착륙시켜 봐도 돼?", "practice": true },
+    { "who": "parent", "en": "Sure. Ready for landing? Three, two, one!", "ko": "그럼. 착륙 준비됐어? 셋, 둘, 하나!" },
+    { "who": "kid", "en": "What a splash!", "ko": "물이 엄청 튀었어!", "practice": true },
+    { "who": "parent", "en": "Ha! You got me all wet!", "ko": "하하! 너 때문에 다 젖었잖아!" },
+    { "who": "kid", "en": "Again! Let's land again!", "ko": "또! 또 착륙하자!" }
+  ],
+  "talkMore": [
+    { "en": "Where do you want to fly in a seaplane?", "ko": "수상 비행기 타고 어디 가고 싶어?", "sample_en": "To a little island!", "sample_ko": "작은 섬으로!" },
+    { "en": "What else can float on water?", "ko": "또 뭐가 물에 뜰 수 있을까?", "sample_en": "A duck and a ball.", "sample_ko": "오리랑 공." },
+    { "en": "Do you like boats or planes better?", "ko": "배가 더 좋아, 비행기가 더 좋아?", "sample_en": "I like both!", "sample_ko": "둘 다 좋아!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one flies in the sky?", "prompt_ko": "하늘을 나는 건 어느 거야?", "options": [ { "e": "✈️", "en": "a plane" }, { "e": "🚌", "en": "a bus" }, { "e": "🚲", "en": "a bike" } ] },
+    { "prompt_en": "Where does a seaplane land?", "prompt_ko": "수상 비행기는 어디에 내려?", "options": [ { "e": "🌊", "en": "on water" }, { "e": "🌳", "en": "on a tree" }, { "e": "🏠", "en": "on a house" } ] },
+    { "prompt_en": "Is a seaplane a boat or a plane?", "prompt_ko": "수상 비행기는 배야, 비행기야?", "options": [ { "e": "👍", "en": "It's both!" }, { "e": "🚗", "en": "It's a car." }, { "e": "🐟", "en": "It's a fish." } ] },
+    { "prompt_en": "Which one is a boat?", "prompt_ko": "배는 어느 거야?", "options": [ { "e": "⛵", "en": "a boat" }, { "e": "🚂", "en": "a train" }, { "e": "🚁", "en": "a helicopter" } ] },
+    { "prompt_en": "My guess is wrong. What do you tell me?", "prompt_ko": "내가 틀리게 맞혔어. 나한테 뭐라고 해?", "options": [ { "e": "🤔", "en": "Guess again." }, { "e": "🌙", "en": "Good night." }, { "e": "🎂", "en": "Happy birthday!" } ] },
+    { "prompt_en": "Water flies everywhere! What do you say?", "prompt_ko": "물이 사방으로 튀었어! 뭐라고 해?", "options": [ { "e": "💦", "en": "What a splash!" }, { "e": "🤫", "en": "So quiet!" }, { "e": "❄️", "en": "It's snowing!" } ] },
+    { "prompt_en": "Which one has wings?", "prompt_ko": "날개가 있는 건 어느 거야?", "options": [ { "e": "🐦", "en": "a bird" }, { "e": "🐟", "en": "a fish" }, { "e": "🐍", "en": "a snake" } ] },
+    { "prompt_en": "Where can a seaplane take you?", "prompt_ko": "수상 비행기는 어디로 데려다줄 수 있어?", "options": [ { "e": "🏝️", "en": "a little island" }, { "e": "🌙", "en": "the moon" }, { "e": "🛏️", "en": "my bed" } ] },
+    { "prompt_en": "Which one floats on water?", "prompt_ko": "물에 뜨는 건 어느 거야?", "options": [ { "e": "🦆", "en": "a duck" }, { "e": "🔑", "en": "a key" }, { "e": "🔨", "en": "a hammer" } ] },
+    { "prompt_en": "What is in the bathtub?", "prompt_ko": "욕조 안에는 뭐가 있어?", "options": [ { "e": "💧", "en": "water" }, { "e": "🍚", "en": "rice" }, { "e": "📚", "en": "books" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Guess again.'의 뜻은?", "options": ["다시 맞혀 봐.", "정답이야.", "다시 말해 줘.", "또 해 줘."], "explain": "추측이 틀렸을 때 '다시 한번 맞혀 봐'라는 뜻으로 씁니다." },
+    { "q": "'물 위에 내려앉아!'를 바르게 말한 것은?", "options": ["It lands on water!", "It falls on water!", "It land on water!", "It's land on water!"], "explain": "착륙하다는 land이고, 주어가 It이므로 lands가 됩니다." },
+    { "q": "'It's both!'의 뜻은?", "options": ["둘 다야!", "둘 다 아니야!", "둘 중 하나야!", "둘이 똑같아!"], "explain": "both는 '둘 다'라는 뜻입니다." },
+    { "q": "'What a splash!'의 'What a …!'는 어떤 말일까?", "options": ["감탄하는 말", "물어보는 말", "시키는 말", "거절하는 말"], "explain": "What a + 명사!는 '정말 ~이네!'라는 감탄문입니다." },
+    { "q": "빈칸에 알맞은 말은? — This one has floats ___ of wheels.", "options": ["instead", "inside", "because", "outside"], "explain": "instead of는 '~ 대신에'라는 뜻입니다." },
+    { "q": "'What a'를 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["와러", "왓 에이", "왓타아", "와트 어"], "explain": "What의 t가 부드러워지고 a와 이어져 '와러'처럼 들립니다." },
+    { "q": "오늘 대본에서 수상 비행기가 가라앉지 않는 이유는?", "options": ["플로트 안에 공기가 차 있어서", "날개가 물을 밀어내서", "프로펠러가 계속 돌아서", "물이 얕아서"], "explain": "The floats are full of air.(플로트 안에 공기가 가득해서) 물에 뜹니다." },
+    { "q": "'You got me all wet!'의 뜻은?", "options": ["너 때문에 다 젖었잖아!", "네가 날 다 닦아 줬어!", "나 완전히 속았어!", "너 다 젖었구나!"], "explain": "get + 사람 + wet은 '~를 젖게 하다'로, 물이 튀어 내가 젖었다는 말입니다." },
+    { "q": "빈칸에 알맞은 말은? — Is it a boat ___ a plane?", "options": ["or", "and", "but", "so"], "explain": "둘 중 어느 것인지 물을 때는 or를 씁니다." },
+    { "q": "'Guess again'을 자연스럽게 이어 말하면?", "options": ["게서겐", "게스 어게인", "구에스 아가인", "게저게인"], "explain": "Guess의 s와 again의 a가 이어져 '게서겐'처럼 들립니다." }
+  ]
+}

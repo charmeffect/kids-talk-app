@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 99,
+  "topic": "planes",
+  "title_en": "Toy drone",
+  "title_ko": "장난감 드론",
+  "intro_ko": "거실에서 장난감 드론을 날려 보는 대화입니다. 드론이 없으면 종이비행기나 손을 드론 삼아 리모컨 누르는 시늉을 하며 해 보세요.",
+  "expressions": [
+    { "en": "Push the button.", "ko": "버튼을 눌러.", "tip": "기계나 장난감을 켤 때 쓰는 말이에요. button의 t는 세게 터뜨리지 않고, '벗' 하고 잠깐 멈췄다가 '은'을 붙여 '벗-은'처럼 말합니다.", "who": "both" },
+    { "en": "Make it go higher.", "ko": "더 높이 올려 줘.", "tip": "make it go는 '~하게 가도록 만들다'예요. higher 대신 faster, lower를 넣어 쓸 수 있고, Make it이 '메이킷'으로 이어집니다.", "who": "kid" },
+    { "en": "Bring it back.", "ko": "다시 가져와.", "tip": "멀리 간 것을 다시 이쪽으로 오게 하라는 말이에요. Bring it이 이어져 '브링잇 백'처럼 들립니다.", "who": "parent" },
+    { "en": "It crashed!", "ko": "부딪혔어! / 떨어졌어!", "tip": "드론이나 장난감 차가 어딘가에 쾅 부딪혔을 때 써요. '잇 크래쉬트'로 끝의 t 소리를 살짝 냅니다.", "who": "both" },
+    { "en": "My bad.", "ko": "내 잘못이야.", "tip": "작은 실수를 가볍게 인정하는 일상 표현이에요. 부모가 먼저 쓰면 아이도 잘못을 편하게 인정하는 법을 배워요.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Look what I've got. A little drone!", "ko": "이것 좀 봐. 작은 드론이야!" },
+    { "who": "kid", "en": "Wow! How does it fly?", "ko": "우와! 어떻게 날아?" },
+    { "who": "parent", "en": "It has four propellers. They spin and push air down.", "ko": "프로펠러가 네 개 있어. 빙글빙글 돌면서 공기를 아래로 밀어." },
+    { "who": "kid", "en": "Can I try it?", "ko": "내가 해 봐도 돼?", "practice": true },
+    { "who": "parent", "en": "Sure. Push the button.", "ko": "그럼. 버튼을 눌러." },
+    { "who": "kid", "en": "It's flying! Make it go higher!", "ko": "난다! 더 높이 올려 줘!", "practice": true },
+    { "who": "parent", "en": "Okay. Up, up, up!", "ko": "좋아. 위로, 위로, 위로!" },
+    { "who": "kid", "en": "It's so high!", "ko": "진짜 높다!" },
+    { "who": "parent", "en": "Now you try. Move this stick slowly.", "ko": "이제 네가 해 봐. 이 막대를 천천히 움직여." },
+    { "who": "kid", "en": "Like this? Whoa, it's going far!", "ko": "이렇게? 우와, 멀리 간다!" },
+    { "who": "parent", "en": "Bring it back. Pull the stick toward you.", "ko": "다시 가져와. 막대를 네 쪽으로 당겨." },
+    { "who": "kid", "en": "Come back, drone!", "ko": "돌아와, 드론아!" },
+    { "who": "parent", "en": "Watch out for the lamp!", "ko": "스탠드 조심해!" },
+    { "who": "kid", "en": "Oh no! It crashed!", "ko": "안 돼! 부딪혔어!", "practice": true },
+    { "who": "parent", "en": "My bad. I told you too late.", "ko": "내 잘못이야. 너무 늦게 말해 줬네." },
+    { "who": "kid", "en": "Is it broken?", "ko": "고장 났어?", "practice": true },
+    { "who": "parent", "en": "Let me check. No, it's fine.", "ko": "어디 보자. 아니, 멀쩡해." },
+    { "who": "kid", "en": "Phew! Why did it fall?", "ko": "휴! 왜 떨어졌어?" },
+    { "who": "parent", "en": "The propeller hit the lamp and stopped spinning.", "ko": "프로펠러가 스탠드에 부딪혀서 도는 걸 멈췄거든." },
+    { "who": "kid", "en": "Can we fly it again?", "ko": "또 날려도 돼?" },
+    { "who": "parent", "en": "Yes, but let's go outside. There's more room.", "ko": "응, 근데 밖으로 나가자. 거기가 더 넓어." },
+    { "who": "kid", "en": "Okay. I'll push the button!", "ko": "알았어. 버튼은 내가 누를래!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "Where do you want to fly the drone?", "ko": "드론을 어디에서 날리고 싶어?", "sample_en": "At the park!", "sample_ko": "공원에서!" },
+    { "en": "What else has propellers?", "ko": "프로펠러가 있는 게 또 뭐가 있을까?", "sample_en": "A helicopter!", "sample_ko": "헬리콥터!" },
+    { "en": "What do you say when you make a mistake?", "ko": "실수했을 때는 뭐라고 말해?", "sample_en": "My bad. I'm sorry.", "sample_ko": "내 잘못이야. 미안해." }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one can fly?", "prompt_ko": "날 수 있는 건 어느 거야?", "options": [ { "e": "🚁", "en": "a helicopter" }, { "e": "🚌", "en": "a bus" }, { "e": "🚤", "en": "a boat" } ] },
+    { "prompt_en": "You made a little mistake. What do you say?", "prompt_ko": "작은 실수를 했어. 뭐라고 해?", "options": [ { "e": "😅", "en": "My bad." }, { "e": "🎉", "en": "Hooray!" }, { "e": "😴", "en": "Good night." } ] },
+    { "prompt_en": "You want it to go up. What do you say?", "prompt_ko": "더 위로 올리고 싶어. 뭐라고 해?", "options": [ { "e": "⬆️", "en": "Make it go higher." }, { "e": "🛑", "en": "Stop it." }, { "e": "😴", "en": "I'm sleepy." } ] },
+    { "prompt_en": "The drone hits the lamp. What do you say?", "prompt_ko": "드론이 스탠드에 부딪혔어. 뭐라고 해?", "options": [ { "e": "💥", "en": "It crashed!" }, { "e": "😋", "en": "It's yummy!" }, { "e": "🌧️", "en": "It's raining!" } ] },
+    { "prompt_en": "Listen: 'Push the button.' What do you use?", "prompt_ko": "잘 들어 봐: 'Push the button.' 뭘로 눌러?", "options": [ { "e": "👆", "en": "my finger" }, { "e": "👂", "en": "my ear" }, { "e": "👃", "en": "my nose" } ] },
+    { "prompt_en": "Where is there more room to fly?", "prompt_ko": "날리기에 더 넓은 곳은 어디야?", "options": [ { "e": "🏞️", "en": "outside" }, { "e": "🛁", "en": "in the bathtub" }, { "e": "🛏️", "en": "under the bed" } ] },
+    { "prompt_en": "Which way is up?", "prompt_ko": "위쪽은 어느 거야?", "options": [ { "e": "⬆️", "en": "up" }, { "e": "⬇️", "en": "down" }, { "e": "⬅️", "en": "left" } ] },
+    { "prompt_en": "What did the drone hit?", "prompt_ko": "드론이 어디에 부딪혔지?", "options": [ { "e": "💡", "en": "the lamp" }, { "e": "🚪", "en": "the door" }, { "e": "📺", "en": "the TV" } ] },
+    { "prompt_en": "Your ball rolls far away. What does your friend say?", "prompt_ko": "공이 멀리 굴러갔어. 친구가 뭐라고 할까?", "options": [ { "e": "⚽", "en": "Bring it back." }, { "e": "🍽️", "en": "Let's eat." }, { "e": "🌙", "en": "Sweet dreams." } ] },
+    { "prompt_en": "Which one is an airplane?", "prompt_ko": "비행기는 어느 거야?", "options": [ { "e": "✈️", "en": "airplane" }, { "e": "🚜", "en": "tractor" }, { "e": "🛴", "en": "scooter" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'My bad.'는 어떤 뜻일까?", "options": ["내 잘못이야.", "기분이 안 좋아.", "내 거는 고장 났어.", "나는 못해."], "explain": "작은 실수를 가볍게 인정하고 사과하는 일상 표현입니다." },
+    { "q": "'더 높이 올려 줘'를 영어로 하면?", "options": ["Make it go higher.", "Make it going higher.", "Make it to go high.", "Do it go higher."], "explain": "make + 대상 + 동사원형 구조이므로 Make it go higher.가 됩니다." },
+    { "q": "빈칸에 알맞은 말은? — ___ it back. Pull the stick toward you.", "options": ["Bring", "Take", "Carry", "Send"], "explain": "말하는 사람 쪽으로 다시 오게 할 때는 bring back을 씁니다." },
+    { "q": "'It crashed!'의 뜻은?", "options": ["부딪혔어!", "날아갔어!", "착륙했어!", "사라졌어!"], "explain": "crash는 '쾅 부딪히다, 추락하다'라는 뜻입니다." },
+    { "q": "'My bad.'를 쓰기에 알맞지 않은 상황은?", "options": ["크게 다치게 해서 정중히 사과할 때", "아이 컵을 실수로 건드렸을 때", "약속 시간을 잠깐 착각했을 때", "아이 이름을 잘못 불렀을 때"], "explain": "My bad.는 가벼운 실수에만 쓰는 말이라 심각한 일에는 I'm so sorry.가 맞습니다." },
+    { "q": "빈칸에 알맞은 말은? — Watch ___ for the lamp!", "options": ["out", "up", "off", "on"], "explain": "'~을 조심해'는 Watch out for ~라고 합니다." },
+    { "q": "드론이 나는 원리를 아이에게 설명할 때 알맞은 말은?", "options": ["They spin and push air down.", "They spin and pull air up.", "They flap and push air down.", "They spin and make it light."], "explain": "프로펠러가 돌면서 공기를 아래로 밀어 그 반대 방향으로 떠오릅니다." },
+    { "q": "'버튼을 눌러'를 영어로 하면?", "options": ["Push the button.", "Pull the button.", "Push to the button.", "Pick the button."], "explain": "버튼을 누르는 것은 push(또는 press) the button이라고 합니다. pull은 '당기다'입니다." },
+    { "q": "'There's more room.'에서 room의 뜻은?", "options": ["공간, 자리", "방", "지붕", "시간"], "explain": "여기서 room은 '방'이 아니라 '공간, 여유 자리'라는 뜻입니다." },
+    { "q": "'어디 보자'라고 살펴볼 때 알맞은 말은?", "options": ["Let me check.", "Let me checking.", "Let I check.", "Let's me check."], "explain": "Let me + 동사원형이므로 Let me check.이 됩니다." }
+  ]
+}

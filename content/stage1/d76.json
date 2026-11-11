@@ -1,0 +1,69 @@
+{
+  "stage": 1,
+  "day": 76,
+  "topic": "daily",
+  "title_en": "Helping in the kitchen",
+  "title_ko": "부엌에서 도와주기",
+  "intro_ko": "아침에 팬케이크를 만들며 아이가 요리를 돕는 상황입니다. 빈 그릇과 숟가락을 놓고 달걀 깨기, 우유 붓기, 젓기를 몸짓으로 흉내 내며 해 보세요.",
+  "expressions": [
+    { "en": "Can I help?", "ko": "나도 도와줘도 돼?", "tip": "돕고 싶을 때 아이가 먼저 꺼내는 말이에요. Can I가 이어져 '캐나이 헬프'처럼 들립니다.", "who": "kid" },
+    { "en": "Crack the egg.", "ko": "달걀을 깨.", "tip": "달걀을 '톡' 깨는 것은 break보다 crack이 더 자연스러워요. egg가 모음으로 시작해서 the는 '디'로 읽어 '크랙 디 에그'가 됩니다.", "who": "parent" },
+    { "en": "Don't spill it.", "ko": "쏟지 마.", "tip": "우유나 물을 붓거나 옮길 때 쓰는 말이에요. spill it이 이어져 '스필릿'처럼 들립니다.", "who": "parent" },
+    { "en": "Stir it slowly.", "ko": "천천히 저어.", "tip": "숟가락이나 주걱으로 저을 때 쓰는 말이에요. Stir it은 '스터릿'처럼 이어서 말해요.", "who": "parent" },
+    { "en": "No big deal.", "ko": "별일 아니야. / 괜찮아.", "tip": "아이가 작은 실수를 했을 때 '괜찮아, 큰일 아니야'라고 안심시키는 말이에요. '노 빅딜'처럼 한 덩어리로 말합니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "I'm making pancakes for breakfast, buddy.", "ko": "아침으로 팬케이크 만들 거야." },
+    { "who": "kid", "en": "Pancakes! Can I help?", "ko": "팬케이크! 나도 도와줘도 돼?", "practice": true },
+    { "who": "parent", "en": "Sure! Wash your hands first.", "ko": "그럼! 먼저 손부터 씻자." },
+    { "who": "kid", "en": "All clean! What's first?", "ko": "다 씻었어! 뭐부터 해?" },
+    { "who": "parent", "en": "Crack the egg. Tap it on the bowl.", "ko": "달걀을 깨. 그릇에 톡톡 쳐 봐." },
+    { "who": "kid", "en": "Crack the egg. Like this?", "ko": "달걀을 깨. 이렇게?", "practice": true },
+    { "who": "parent", "en": "Yes, gently. Now open it with your thumbs.", "ko": "응, 살살. 이제 엄지로 벌려 봐." },
+    { "who": "kid", "en": "Oops! A piece of shell fell in.", "ko": "앗! 껍데기가 들어갔어." },
+    { "who": "parent", "en": "No big deal. I'll get it out with a spoon.", "ko": "괜찮아. 숟가락으로 꺼내면 돼." },
+    { "who": "kid", "en": "Can I pour the milk?", "ko": "우유 내가 부어도 돼?", "practice": true },
+    { "who": "parent", "en": "Okay. Use two hands. Don't spill it.", "ko": "그래. 두 손으로 잡고. 쏟지 마." },
+    { "who": "kid", "en": "I did it! No spills!", "ko": "해냈어! 하나도 안 쏟았어!", "practice": true },
+    { "who": "parent", "en": "Nice job. Now stir it slowly.", "ko": "잘했어. 이제 천천히 저어." },
+    { "who": "kid", "en": "Why slowly?", "ko": "왜 천천히 해?" },
+    { "who": "parent", "en": "If you stir too fast, it splashes everywhere.", "ko": "너무 빨리 저으면 사방으로 다 튀거든." },
+    { "who": "kid", "en": "Stir, stir, stir. Is it ready?", "ko": "젓고, 젓고, 젓고. 다 됐어?", "practice": true },
+    { "who": "parent", "en": "It looks perfect. I'll do the hot pan.", "ko": "아주 좋아. 뜨거운 팬은 내가 할게." },
+    { "who": "kid", "en": "Why can't I do it?", "ko": "나는 왜 하면 안 돼?" },
+    { "who": "parent", "en": "The pan is very hot. It can burn you.", "ko": "팬이 아주 뜨거워서 델 수 있어." },
+    { "who": "kid", "en": "Look! Bubbles are coming up!", "ko": "봐! 뽀글뽀글 올라와!" },
+    { "who": "parent", "en": "That means it's time to flip it.", "ko": "그건 이제 뒤집을 때라는 뜻이야." },
+    { "who": "kid", "en": "It smells so good!", "ko": "냄새 진짜 좋다!" },
+    { "who": "parent", "en": "Thanks for helping, sweetie. Let's eat!", "ko": "도와줘서 고마워. 이제 먹자!" }
+  ],
+  "talkMore": [
+    { "en": "What do you want to cook next time?", "ko": "다음에는 뭘 만들어 보고 싶어?", "sample_en": "Cookies!", "sample_ko": "쿠키!" },
+    { "en": "What do you want on your pancake?", "ko": "팬케이크 위에 뭘 올리고 싶어?", "sample_en": "Honey and bananas.", "sample_ko": "꿀이랑 바나나." },
+    { "en": "What was the hardest part?", "ko": "뭐가 제일 어려웠어?", "sample_en": "Cracking the egg.", "sample_ko": "달걀 깨는 거." }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is an egg?", "prompt_ko": "달걀은 어느 거야?", "options": [ { "e": "🥚", "en": "egg" }, { "e": "🍎", "en": "apple" }, { "e": "🥕", "en": "carrot" } ] },
+    { "prompt_en": "You want to help. What do you say?", "prompt_ko": "도와주고 싶어. 뭐라고 해?", "options": [ { "e": "🙋", "en": "Can I help?" }, { "e": "😴", "en": "Good night." }, { "e": "👋", "en": "Bye-bye." } ] },
+    { "prompt_en": "What do we stir with?", "prompt_ko": "뭐로 저을까?", "options": [ { "e": "🥄", "en": "a spoon" }, { "e": "🧦", "en": "a sock" }, { "e": "📕", "en": "a book" } ] },
+    { "prompt_en": "What do we do first before cooking?", "prompt_ko": "요리하기 전에 제일 먼저 뭘 해?", "options": [ { "e": "🧼", "en": "wash our hands" }, { "e": "⚽", "en": "play ball" }, { "e": "🛏️", "en": "go to bed" } ] },
+    { "prompt_en": "Which one is very hot?", "prompt_ko": "아주 뜨거운 건 어느 거야?", "options": [ { "e": "🍳", "en": "the pan" }, { "e": "🧊", "en": "ice" }, { "e": "🥛", "en": "milk" } ] },
+    { "prompt_en": "What are we making today?", "prompt_ko": "오늘 뭘 만들고 있지?", "options": [ { "e": "🥞", "en": "pancakes" }, { "e": "🍕", "en": "pizza" }, { "e": "🍦", "en": "ice cream" } ] },
+    { "prompt_en": "Listen: 'Don't spill it.' What should you do?", "prompt_ko": "'쏟지 마.' 어떻게 해야 할까?", "options": [ { "e": "🤲", "en": "use two hands" }, { "e": "🏃", "en": "run fast" }, { "e": "🙈", "en": "close your eyes" } ] },
+    { "prompt_en": "Which one do we pour?", "prompt_ko": "붓는 건 어느 거야?", "options": [ { "e": "🥛", "en": "milk" }, { "e": "🥄", "en": "a spoon" }, { "e": "🍽️", "en": "a plate" } ] },
+    { "prompt_en": "Oops, a little mistake! What can you say?", "prompt_ko": "앗, 작은 실수! 뭐라고 할 수 있어?", "options": [ { "e": "😊", "en": "No big deal." }, { "e": "😡", "en": "Go away!" }, { "e": "😴", "en": "I'm sleepy." } ] },
+    { "prompt_en": "Listen: 'Stir it slowly.' Which one is slow?", "prompt_ko": "'천천히 저어.' 느린 건 어느 거야?", "options": [ { "e": "🐢", "en": "a turtle" }, { "e": "🚀", "en": "a rocket" }, { "e": "🐆", "en": "a cheetah" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Can I help?'의 뜻은?", "options": ["나도 도와줘도 돼?", "나 좀 도와줄래?", "이거 먹어도 돼?", "지금 나가도 돼?"], "explain": "Can I ~?는 '내가 ~해도 돼?'이므로 Can I help?는 돕겠다고 나서는 말입니다." },
+    { "q": "반죽을 젓는 아이에게 '천천히 저어.'라고 할 때 알맞은 말은?", "options": ["Stir it slowly.", "Shake it slowly.", "Spin it slowly.", "Stir it slow down."], "explain": "숟가락으로 젓는 것은 stir, 흔드는 것은 shake입니다." },
+    { "q": "빈칸에 알맞은 말은? — ___ the egg. Tap it on the bowl.", "options": ["Crack", "Cut", "Tear", "Rip"], "explain": "달걀을 톡 쳐서 깨는 것은 crack the egg라고 합니다." },
+    { "q": "'Don't spill it.'은 어떤 상황에서 쓸까?", "options": ["우유를 따르거나 컵을 옮길 때", "뜨거운 팬을 만지려 할 때", "음식을 남기려 할 때", "너무 빨리 먹을 때"], "explain": "spill은 액체를 '쏟다, 흘리다'라는 뜻입니다." },
+    { "q": "'No big deal.'의 뜻은?", "options": ["별일 아니야, 괜찮아.", "큰일 났다.", "큰 거래는 안 해.", "그렇게 크지 않아."], "explain": "작은 실수나 사소한 일에 '대수롭지 않아'라고 안심시키는 표현입니다." },
+    { "q": "'Crack the egg.'에서 the는 어떻게 발음할까?", "options": ["'디' (모음 소리 앞이라서)", "'더' (항상 똑같이)", "'데'", "발음하지 않는다"], "explain": "egg처럼 모음 소리로 시작하는 말 앞에서 the는 '디'로 발음합니다." },
+    { "q": "'팬이 뜨거워서 델 수 있어.'라고 할 때 알맞은 말은?", "options": ["It can burn you.", "It can fire you.", "It can hot you.", "It can cook you."], "explain": "'데다, 화상을 입히다'는 burn입니다. fire you는 '해고하다'라는 뜻이에요." },
+    { "q": "빈칸에 알맞은 말은? — If you stir too fast, it ___ everywhere.", "options": ["splashes", "flashes", "crashes", "washes"], "explain": "액체가 튀는 것은 splash입니다." },
+    { "q": "아이가 물을 조금 흘리고 미안해할 때 가장 알맞은 말은?", "options": ["No big deal.", "Big deal!", "Good deal.", "It's a deal."], "explain": "No big deal.은 '괜찮아'이고, Big deal!은 '그게 뭐 대수라고'라는 비꼬는 말입니다." },
+    { "q": "'Stir it'을 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["스터릿", "스티어 잇", "스타 이트", "스트릿"], "explain": "stir의 r 소리가 it과 이어져 '스터릿'처럼 들립니다." }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 100,
+  "topic": "space",
+  "title_en": "Day 100 party on the space station",
+  "title_ko": "우주 정거장에서 100일 파티",
+  "intro_ko": "영어 대화 100일째를 우주 정거장에서 축하하는 상상 놀이입니다. 간식이나 장난감을 케이크 삼아 둥둥 떠다니는 시늉을 하고, 마지막엔 진짜로 하이파이브를 해 주세요.",
+  "expressions": [
+    { "en": "Can you count to one hundred?", "ko": "100까지 셀 수 있어?", "tip": "count to는 '~까지 세다'예요. Can you가 '캔유'보다 '캐뉴'처럼, count to는 '카운투'처럼 이어집니다.", "who": "parent" },
+    { "en": "I'm so proud of you.", "ko": "네가 정말 자랑스러워.", "tip": "아이가 무언가 해냈을 때 꼭 해 주세요. proud of you가 이어져 '프라우더뷰'처럼 들립니다.", "who": "both" },
+    { "en": "Let's celebrate!", "ko": "축하하자!", "tip": "생일, 100일처럼 기쁜 날에 쓰는 말이에요. celebrate는 '셀'을 강하게 '셀러브레잇'이라고 말합니다.", "who": "both" },
+    { "en": "Give me a high five!", "ko": "하이파이브!", "tip": "잘했을 때 손바닥을 마주치자는 말이에요. Give me a가 이어져 '기미어'처럼 들립니다.", "who": "both" },
+    { "en": "Time flies.", "ko": "시간 참 빠르다.", "tip": "'시간이 날아간다', 즉 세월이 빠르다는 뜻이에요. 벌써 100일이 됐을 때처럼 지난 시간을 돌아보며 씁니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Welcome to the space station! Today is day one hundred.", "ko": "우주 정거장에 온 걸 환영해! 오늘이 100일째야." },
+    { "who": "kid", "en": "One hundred days? Wow!", "ko": "100일? 우와!" },
+    { "who": "parent", "en": "Yes. Time flies. Let's celebrate!", "ko": "응. 시간 참 빠르다. 축하하자!" },
+    { "who": "kid", "en": "Let's celebrate! Is there cake?", "ko": "축하하자! 케이크 있어?", "practice": true },
+    { "who": "parent", "en": "There is. But in space, the cake floats.", "ko": "있지. 근데 우주에서는 케이크가 둥둥 떠." },
+    { "who": "kid", "en": "Why does it float?", "ko": "왜 떠?" },
+    { "who": "parent", "en": "Everything floats up here. We float, too.", "ko": "여기서는 뭐든지 떠다녀. 우리도 떠 있잖아." },
+    { "who": "kid", "en": "Catch the cake!", "ko": "케이크 잡아!", "practice": true },
+    { "who": "parent", "en": "Got it! Now, can you count to one hundred?", "ko": "잡았다! 자, 100까지 셀 수 있어?" },
+    { "who": "kid", "en": "By tens? Ten, twenty, thirty...", "ko": "10씩? 십, 이십, 삼십..." },
+    { "who": "parent", "en": "Keep going. You're doing great.", "ko": "계속해 봐. 잘하고 있어." },
+    { "who": "kid", "en": "Ninety, one hundred! I did it!", "ko": "구십, 백! 해냈어!", "practice": true },
+    { "who": "parent", "en": "You did it! Give me a high five!", "ko": "해냈네! 하이파이브!" },
+    { "who": "kid", "en": "High five!", "ko": "하이파이브!", "practice": true },
+    { "who": "parent", "en": "You spoke English for one hundred days.", "ko": "네가 100일 동안 영어로 말했어." },
+    { "who": "kid", "en": "Is that a lot?", "ko": "그거 많은 거야?" },
+    { "who": "parent", "en": "It's a lot. I'm so proud of you.", "ko": "아주 많지. 네가 정말 자랑스러워." },
+    { "who": "kid", "en": "I'm proud of you, too!", "ko": "나도 엄마(아빠)가 자랑스러워!", "practice": true },
+    { "who": "parent", "en": "Thank you, sweetie. Now look out the window.", "ko": "고마워. 이제 창밖을 봐." },
+    { "who": "kid", "en": "I see Earth! It's so blue!", "ko": "지구가 보여! 진짜 파랗다!" },
+    { "who": "parent", "en": "It's beautiful. Ready for one hundred more days?", "ko": "예쁘다. 100일 더 할 준비 됐어?" },
+    { "who": "kid", "en": "Yes! Let's go!", "ko": "응! 가자!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What was your favorite day so far?", "ko": "지금까지 어느 날이 제일 좋았어?", "sample_en": "The rocket launch!", "sample_ko": "로켓 발사한 날!" },
+    { "en": "What do you want to eat at our party?", "ko": "우리 파티에서 뭐 먹고 싶어?", "sample_en": "Cake and strawberries.", "sample_ko": "케이크랑 딸기." },
+    { "en": "What do you want to talk about next?", "ko": "다음엔 뭐에 대해 이야기하고 싶어?", "sample_en": "Big ships and planes!", "sample_ko": "큰 배랑 비행기!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a cake?", "prompt_ko": "케이크는 어느 거야?", "options": [ { "e": "🎂", "en": "cake" }, { "e": "🥕", "en": "carrot" }, { "e": "🧀", "en": "cheese" } ] },
+    { "prompt_en": "You did a great job. What do we do?", "prompt_ko": "정말 잘했어. 우리 뭘 할까?", "options": [ { "e": "🙌", "en": "a high five" }, { "e": "😭", "en": "cry" }, { "e": "🛌", "en": "go to sleep" } ] },
+    { "prompt_en": "Which number is one hundred?", "prompt_ko": "100은 어느 거야?", "options": [ { "e": "💯", "en": "one hundred" }, { "e": "🔟", "en": "ten" }, { "e": "1️⃣", "en": "one" } ] },
+    { "prompt_en": "It's a happy day. What do you say?", "prompt_ko": "기쁜 날이야. 뭐라고 해?", "options": [ { "e": "🎉", "en": "Let's celebrate!" }, { "e": "😠", "en": "I'm mad." }, { "e": "🤒", "en": "I'm sick." } ] },
+    { "prompt_en": "What does the cake do in space?", "prompt_ko": "우주에서 케이크는 어떻게 돼?", "options": [ { "e": "🎈", "en": "It floats." }, { "e": "🔥", "en": "It burns." }, { "e": "🏃", "en": "It runs." } ] },
+    { "prompt_en": "What do we see from the window?", "prompt_ko": "창밖으로 뭐가 보여?", "options": [ { "e": "🌍", "en": "Earth" }, { "e": "🏫", "en": "a school" }, { "e": "🐄", "en": "a cow" } ] },
+    { "prompt_en": "What color is Earth from space?", "prompt_ko": "우주에서 본 지구는 무슨 색이야?", "options": [ { "e": "🔵", "en": "blue" }, { "e": "🔴", "en": "red" }, { "e": "🟡", "en": "yellow" } ] },
+    { "prompt_en": "Someone says, 'I'm so proud of you.' How do you feel?", "prompt_ko": "'네가 정말 자랑스러워'라는 말을 들으면 기분이 어때?", "options": [ { "e": "😊", "en": "happy" }, { "e": "😨", "en": "scared" }, { "e": "😡", "en": "angry" } ] },
+    { "prompt_en": "Where is our party today?", "prompt_ko": "오늘 우리 파티는 어디에서 해?", "options": [ { "e": "🌌", "en": "in space" }, { "e": "🏖️", "en": "at the beach" }, { "e": "🏫", "en": "at school" } ] },
+    { "prompt_en": "Who lives on the space station?", "prompt_ko": "우주 정거장에는 누가 살아?", "options": [ { "e": "👩‍🚀", "en": "astronauts" }, { "e": "👨‍🍳", "en": "cooks" }, { "e": "👩‍🌾", "en": "farmers" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Time flies.'는 어떤 뜻일까?", "options": ["시간 참 빠르다.", "시간이 없어.", "지금 몇 시야?", "비행기 탈 시간이야."], "explain": "시간이 날아가듯 빨리 지나간다는 뜻으로, 지난 시간을 돌아볼 때 씁니다." },
+    { "q": "'네가 정말 자랑스러워'를 영어로 하면?", "options": ["I'm so proud of you.", "I'm so proud to you.", "I'm so pride of you.", "I'm so proud for you are."], "explain": "'~가 자랑스럽다'는 be proud of를 씁니다." },
+    { "q": "빈칸에 알맞은 말은? — Can you count ___ one hundred?", "options": ["to", "at", "on", "of"], "explain": "'~까지 세다'는 count to입니다." },
+    { "q": "'Let's celebrate!'의 뜻은?", "options": ["축하하자!", "정리하자!", "조용히 하자!", "출발하자!"], "explain": "celebrate는 기쁜 일을 '축하하다, 기념하다'라는 뜻입니다." },
+    { "q": "'하이파이브!' 하고 손을 내밀 때 알맞은 말은?", "options": ["Give me a high five!", "Give me a high hand!", "Do me a high five!", "Hit me a five high!"], "explain": "손바닥을 마주치자고 할 때는 Give me a high five!라고 합니다." },
+    { "q": "'proud of you'를 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["프라우더뷰", "프라우드 오브 유", "프라우도퓨", "프로드오뷰"], "explain": "proud의 d와 of, of의 v와 you가 이어져 '프라우더뷰'처럼 들립니다." },
+    { "q": "'Time flies.'가 가장 잘 어울리는 상황은?", "options": ["아이가 벌써 이만큼 컸다고 느낄 때", "아이가 약속 시간에 늦었을 때", "아이가 비행기를 보고 좋아할 때", "아이가 시계 보는 법을 물을 때"], "explain": "세월이 빠르다고 느낄 때 쓰는 말입니다." },
+    { "q": "빈칸에 알맞은 말은? — Keep ___. You're doing great.", "options": ["going", "go", "to go", "goes"], "explain": "keep + -ing는 '계속 ~하다'이므로 Keep going.이 됩니다." },
+    { "q": "'By tens?'는 어떤 뜻일까?", "options": ["10씩 (세라고)?", "10시까지?", "10개 옆에?", "10번 만에?"], "explain": "count by tens는 10, 20, 30처럼 '10씩 세다'라는 뜻입니다." },
+    { "q": "'100일 더 할 준비 됐어?'를 영어로 하면?", "options": ["Ready for one hundred more days?", "Ready to one hundred more days?", "Ready for more one hundred days?", "Ready of one hundred days more?"], "explain": "'~할 준비가 된'은 ready for + 명사이고, '100일 더'는 one hundred more days 순서입니다." }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 96,
+  "topic": "daily",
+  "title_en": "Oops, a spill",
+  "title_ko": "앗, 쏟았다",
+  "intro_ko": "식탁에서 아이가 우유를 쏟았을 때의 대화입니다. 빈 컵과 행주를 준비해서 쏟는 시늉을 하고, 아이가 직접 닦아 보게 하면 좋아요.",
+  "expressions": [
+    { "en": "Uh-oh!", "ko": "앗! / 이런!", "tip": "작은 실수나 문제가 생겼을 때 저절로 나오는 말이에요. '어-오'처럼 앞을 높게, 뒤를 낮게 말합니다.", "who": "both" },
+    { "en": "I spilled it.", "ko": "내가 쏟았어.", "tip": "물이나 우유를 쏟았을 때 쓰는 말이에요. spilled it이 이어져 '스필딧'처럼 들립니다.", "who": "kid" },
+    { "en": "It was an accident.", "ko": "일부러 그런 게 아니야.", "tip": "실수였다고 말할 때 써요. was an accident가 이어져 '워저낵시던트'처럼 들립니다.", "who": "both" },
+    { "en": "Wipe it up.", "ko": "닦아.", "tip": "쏟은 것을 닦아 내라고 할 때 써요. 세 단어가 이어져 '와이피럽'처럼 들립니다.", "who": "parent" },
+    { "en": "No worries.", "ko": "괜찮아, 걱정 마.", "tip": "아이가 실수하고 미안해할 때 '괜찮아'라고 안심시키는 말이에요. '노 워리즈'라고 가볍게 말합니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "kid", "en": "Uh-oh!", "ko": "앗!", "practice": true },
+    { "who": "parent", "en": "What happened, buddy?", "ko": "무슨 일이야?" },
+    { "who": "kid", "en": "I spilled it.", "ko": "내가 쏟았어.", "practice": true },
+    { "who": "parent", "en": "Oh, your milk. Are you okay?", "ko": "아, 우유구나. 괜찮아?" },
+    { "who": "kid", "en": "Yes. It was an accident.", "ko": "응. 일부러 그런 게 아니야.", "practice": true },
+    { "who": "parent", "en": "I know. No worries. It happens to everyone.", "ko": "알아. 괜찮아. 누구나 그럴 수 있어." },
+    { "who": "kid", "en": "Is my shirt wet?", "ko": "내 옷 젖었어?" },
+    { "who": "parent", "en": "Just a little. Let's clean up first.", "ko": "조금. 먼저 치우자." },
+    { "who": "kid", "en": "What do I use?", "ko": "뭐로 닦아?" },
+    { "who": "parent", "en": "Here's a towel. Wipe it up.", "ko": "여기 수건 있어. 닦아 보자." },
+    { "who": "kid", "en": "Like this?", "ko": "이렇게?" },
+    { "who": "parent", "en": "Yes, just like that. Get the edge, too.", "ko": "응, 바로 그렇게. 가장자리도 닦아." },
+    { "who": "kid", "en": "Why does the towel get wet?", "ko": "수건은 왜 젖어?" },
+    { "who": "parent", "en": "It soaks up the milk, like a sponge.", "ko": "스펀지처럼 우유를 빨아들이거든." },
+    { "who": "kid", "en": "Wow! The milk is gone!", "ko": "우와! 우유가 없어졌어!", "practice": true },
+    { "who": "parent", "en": "Nice job. Now the table is clean and dry.", "ko": "잘했어. 이제 식탁이 깨끗하고 보송보송하네." },
+    { "who": "kid", "en": "Can I have more milk?", "ko": "우유 더 마셔도 돼?", "practice": true },
+    { "who": "parent", "en": "Sure. Hold your cup with two hands this time.", "ko": "그럼. 이번엔 컵을 두 손으로 잡아." },
+    { "who": "kid", "en": "Okay. Two hands!", "ko": "알았어. 두 손!" },
+    { "who": "parent", "en": "Thanks for helping me clean up.", "ko": "치우는 거 도와줘서 고마워." },
+    { "who": "kid", "en": "I'm a good helper!", "ko": "난 잘 도와주는 아이야!", "practice": true },
+    { "who": "parent", "en": "You sure are.", "ko": "정말 그래." }
+  ],
+  "talkMore": [
+    { "en": "What else can you spill?", "ko": "또 뭘 쏟을 수 있을까?", "sample_en": "Water and juice.", "sample_ko": "물이랑 주스." },
+    { "en": "What do you say when you make a mistake?", "ko": "실수했을 때 뭐라고 말해?", "sample_en": "It was an accident.", "sample_ko": "일부러 그런 게 아니야." },
+    { "en": "How can you help clean up at home?", "ko": "집에서 어떻게 정리를 도울 수 있어?", "sample_en": "I can wipe the table.", "sample_ko": "식탁을 닦을 수 있어." }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is milk?", "prompt_ko": "우유는 어느 거야?", "options": [ { "e": "🥛", "en": "milk" }, { "e": "🍞", "en": "bread" }, { "e": "🍎", "en": "apple" } ] },
+    { "prompt_en": "You spill your milk. What do you say?", "prompt_ko": "우유를 쏟았어. 뭐라고 해?", "options": [ { "e": "😮", "en": "Uh-oh!" }, { "e": "🎉", "en": "Hooray!" }, { "e": "😴", "en": "Good night." } ] },
+    { "prompt_en": "What can you wipe the table with?", "prompt_ko": "식탁은 뭐로 닦을 수 있어?", "options": [ { "e": "🧽", "en": "a sponge" }, { "e": "🥄", "en": "a spoon" }, { "e": "🍌", "en": "a banana" } ] },
+    { "prompt_en": "You didn't mean to do it. What do you say?", "prompt_ko": "일부러 그런 게 아니야. 뭐라고 해?", "options": [ { "e": "😅", "en": "It was an accident." }, { "e": "😋", "en": "It's yummy." }, { "e": "👋", "en": "See you later." } ] },
+    { "prompt_en": "Which one is wet?", "prompt_ko": "젖어 있는 건 어느 거야?", "options": [ { "e": "🌧️", "en": "rain" }, { "e": "🔥", "en": "fire" }, { "e": "🌵", "en": "cactus" } ] },
+    { "prompt_en": "Listen: 'Wipe it up.' What do you do?", "prompt_ko": "잘 들어 봐: 'Wipe it up.' 뭘 해야 해?", "options": [ { "e": "🧽", "en": "clean the table" }, { "e": "🛏️", "en": "go to bed" }, { "e": "🏃", "en": "run away" } ] },
+    { "prompt_en": "Which one is a cup?", "prompt_ko": "컵은 어느 거야?", "options": [ { "e": "🥤", "en": "cup" }, { "e": "👟", "en": "shoe" }, { "e": "🎩", "en": "hat" } ] },
+    { "prompt_en": "How do you hold your cup?", "prompt_ko": "컵은 어떻게 잡아?", "options": [ { "e": "🙌", "en": "with two hands" }, { "e": "🦶", "en": "with my foot" }, { "e": "👃", "en": "with my nose" } ] },
+    { "prompt_en": "Your friend says, 'Sorry!' What do you say?", "prompt_ko": "친구가 '미안해!'라고 해. 뭐라고 해?", "options": [ { "e": "😊", "en": "No worries." }, { "e": "😡", "en": "Go away!" }, { "e": "🍕", "en": "Pizza, please." } ] },
+    { "prompt_en": "Which one is a shirt?", "prompt_ko": "셔츠는 어느 거야?", "options": [ { "e": "👕", "en": "shirt" }, { "e": "🧢", "en": "cap" }, { "e": "🧤", "en": "gloves" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'No worries.'의 뜻은?", "options": ["괜찮아, 걱정 마.", "걱정이 많아.", "조심해.", "큰일 났다."], "explain": "상대가 미안해하거나 실수했을 때 '괜찮아'라고 가볍게 받아 주는 말입니다." },
+    { "q": "'일부러 그런 게 아니야'를 영어로 하면?", "options": ["It was an accident.", "It was an incident.", "It was on purpose.", "It was an accent."], "explain": "accident는 '사고, 실수'라는 뜻으로, 고의가 아니었다고 말할 때 It was an accident.를 씁니다." },
+    { "q": "빈칸에 알맞은 말은? — Here's a towel. Wipe it ___.", "options": ["up", "on", "in", "at"], "explain": "쏟은 것을 깨끗이 닦아 내는 것은 wipe up입니다." },
+    { "q": "'Wipe it up'을 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["와이피럽", "와이프 잇 업", "와이프트업", "와이퍼업"], "explain": "wipe의 p가 it과 이어지고, it의 t는 부드러운 'ㄹ' 소리가 되어 up과 이어져 '와이피럽'처럼 들립니다." },
+    { "q": "'I spilled it.'의 뜻은?", "options": ["내가 쏟았어.", "내가 깨뜨렸어.", "내가 떨어뜨렸어.", "내가 다 마셨어."], "explain": "spill은 액체를 '쏟다, 엎지르다'라는 뜻입니다." },
+    { "q": "아이를 안심시키며 '누구나 그럴 수 있어'라고 할 때 알맞은 말은?", "options": ["It happens to everyone.", "It happens for everyone.", "It's happen to everyone.", "It happened everyone."], "explain": "'~에게 일어나다'는 happen to를 써서 It happens to everyone.이라고 합니다." },
+    { "q": "'Uh-oh!'는 언제 쓰는 말일까?", "options": ["작은 실수나 문제가 생겼을 때", "기쁜 소식을 들었을 때", "처음 만나 인사할 때", "고맙다고 말할 때"], "explain": "Uh-oh!는 뭔가 잘못됐을 때 '이런!' 하고 내는 소리입니다." },
+    { "q": "빈칸에 알맞은 말은? — It ___ up the milk, like a sponge.", "options": ["soaks", "drinks", "washes", "dries"], "explain": "soak up은 액체를 '빨아들이다, 흡수하다'라는 뜻입니다." },
+    { "q": "'No worries.'가 가장 잘 어울리는 상황은?", "options": ["아이가 실수하고 미안해할 때", "아이가 위험한 곳에 올라갈 때", "아이가 밥을 안 먹으려 할 때", "아이가 자기 싫다고 할 때"], "explain": "No worries.는 사과나 실수에 '괜찮아'라고 답하는 말입니다." },
+    { "q": "빈칸에 알맞은 말은? — Hold your cup ___ two hands this time.", "options": ["with", "by", "to", "at"], "explain": "'두 손으로'처럼 도구나 수단을 말할 때는 with two hands라고 합니다." }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 66,
+  "topic": "daily",
+  "title_en": "Brushing teeth",
+  "title_ko": "양치하기",
+  "intro_ko": "자기 전 욕실에서 양치하는 장면입니다. 실제로 칫솔을 들고 거울 앞에서 해 보고, 마지막에는 아이가 부모나 인형의 이를 닦아 주는 흉내를 내게 해 주세요.",
+  "expressions": [
+    { "en": "Time to brush your teeth.", "ko": "양치할 시간이야.", "tip": "'Time to + 동사'는 '~할 시간이야'라는 뜻으로 매일 쓰는 말이에요. to가 약해져 '타임터 브러슈어 티쓰'처럼 들립니다.", "who": "parent" },
+    { "en": "Open wide.", "ko": "입 크게 벌려 봐.", "tip": "양치할 때나 치과에서 '아~ 해 봐'라는 뜻으로 써요. 부모가 먼저 입을 크게 벌리며 말해 주세요.", "who": "both" },
+    { "en": "Spit it out.", "ko": "뱉어.", "tip": "치약 거품이나 먹으면 안 되는 것을 뱉으라고 할 때 써요. 세 단어가 이어져 '스피리라웃'처럼 들립니다.", "who": "parent" },
+    { "en": "Show me your teeth.", "ko": "이 좀 보여 줘.", "tip": "양치가 잘 됐는지 확인할 때 쓰는 말이에요. 아이가 '이~' 하고 보여 주면 됩니다. '쇼미유어 티쓰'로 이어 말해요.", "who": "parent" },
+    { "en": "Squeaky clean.", "ko": "뽀득뽀득 아주 깨끗해.", "tip": "깨끗이 닦아서 뽀득뽀득 소리가 날 정도라는 뜻이에요. 양치나 목욕, 설거지를 마쳤을 때 칭찬으로 씁니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Time to brush your teeth.", "ko": "양치할 시간이야." },
+    { "who": "kid", "en": "Five more minutes, please!", "ko": "5분만 더요, 네?" },
+    { "who": "parent", "en": "Nope. The germs in your mouth are waiting.", "ko": "안 돼. 입속 세균들이 기다리고 있어." },
+    { "who": "kid", "en": "Why do I have to brush?", "ko": "왜 꼭 닦아야 해?" },
+    { "who": "parent", "en": "Germs love the food stuck on your teeth.", "ko": "세균은 이에 낀 음식을 아주 좋아하거든." },
+    { "who": "kid", "en": "Eww! Get them out!", "ko": "으악! 다 쫓아내 줘!" },
+    { "who": "parent", "en": "Here's your toothbrush. Just a little toothpaste.", "ko": "칫솔 여기 있어. 치약은 조금만." },
+    { "who": "kid", "en": "Can I do it myself?", "ko": "내가 혼자 해도 돼?", "practice": true },
+    { "who": "parent", "en": "Sure. Open wide.", "ko": "그럼. 입 크게 벌려 봐." },
+    { "who": "kid", "en": "Ahhh! Like this?", "ko": "아~! 이렇게?" },
+    { "who": "parent", "en": "Perfect. Brush the back teeth, too.", "ko": "아주 좋아. 어금니도 닦아." },
+    { "who": "kid", "en": "Up and down, up and down!", "ko": "위아래, 위아래!", "practice": true },
+    { "who": "parent", "en": "Good. Now brush your tongue gently.", "ko": "잘하네. 이제 혀도 살살 닦아." },
+    { "who": "kid", "en": "It tickles!", "ko": "간지러워!" },
+    { "who": "parent", "en": "Okay, spit it out.", "ko": "자, 이제 뱉어." },
+    { "who": "kid", "en": "Why can't I swallow it?", "ko": "왜 삼키면 안 돼?" },
+    { "who": "parent", "en": "Toothpaste is for cleaning, not for eating.", "ko": "치약은 닦는 거지, 먹는 게 아니야." },
+    { "who": "kid", "en": "Okay. I spit it out!", "ko": "알았어. 뱉었어!", "practice": true },
+    { "who": "parent", "en": "Now rinse with water. Show me your teeth.", "ko": "이제 물로 헹궈. 이 좀 보여 줘." },
+    { "who": "kid", "en": "Look! Are they shiny?", "ko": "봐! 반짝반짝해?", "practice": true },
+    { "who": "parent", "en": "Wow! Squeaky clean.", "ko": "우와! 뽀득뽀득 깨끗하네." },
+    { "who": "kid", "en": "Squeaky clean!", "ko": "뽀득뽀득 깨끗해!", "practice": true },
+    { "who": "parent", "en": "Great job, buddy. The germs are all gone.", "ko": "정말 잘했어. 세균이 다 없어졌네." },
+    { "who": "kid", "en": "Now it's your turn! Open wide.", "ko": "이제 엄마(아빠) 차례! 입 크게 벌려.", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "When do we brush our teeth?", "ko": "이는 언제 닦지?", "sample_en": "After we eat!", "sample_ko": "밥 먹고 나서!" },
+    { "en": "What color is your toothbrush?", "ko": "네 칫솔은 무슨 색이야?", "sample_en": "It's blue.", "sample_ko": "파란색이야." },
+    { "en": "What food is bad for your teeth?", "ko": "이에 안 좋은 음식은 뭘까?", "sample_en": "Candy!", "sample_ko": "사탕!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "What do you brush your teeth with?", "prompt_ko": "이는 뭐로 닦아?", "options": [ { "e": "🪥", "en": "toothbrush" }, { "e": "🥄", "en": "spoon" }, { "e": "🖍️", "en": "crayon" } ] },
+    { "prompt_en": "Which one is a tooth?", "prompt_ko": "이는 어느 거야?", "options": [ { "e": "🦷", "en": "tooth" }, { "e": "👂", "en": "ear" }, { "e": "👃", "en": "nose" } ] },
+    { "prompt_en": "You are done brushing. What do you do with the toothpaste?", "prompt_ko": "양치를 다 했어. 치약은 어떻게 해?", "options": [ { "e": "💦", "en": "Spit it out." }, { "e": "😋", "en": "Eat it up." }, { "e": "🎁", "en": "Give it away." } ] },
+    { "prompt_en": "Listen: 'Open wide.' What do you open?", "prompt_ko": "잘 들어 봐: 'Open wide.' 뭘 벌려야 해?", "options": [ { "e": "👄", "en": "my mouth" }, { "e": "🚪", "en": "the door" }, { "e": "📕", "en": "a book" } ] },
+    { "prompt_en": "What do we do before bed?", "prompt_ko": "자기 전에 뭘 하지?", "options": [ { "e": "🦷", "en": "brush our teeth" }, { "e": "⚽", "en": "play soccer" }, { "e": "🚌", "en": "ride the bus" } ] },
+    { "prompt_en": "Which one is bad for your teeth?", "prompt_ko": "이에 안 좋은 건 어느 거야?", "options": [ { "e": "🍭", "en": "candy" }, { "e": "🥕", "en": "carrot" }, { "e": "💧", "en": "water" } ] },
+    { "prompt_en": "Listen: 'Show me your teeth.' What do you show?", "prompt_ko": "잘 들어 봐: 'Show me your teeth.' 뭘 보여 줘?", "options": [ { "e": "😁", "en": "my teeth" }, { "e": "👣", "en": "my feet" }, { "e": "✋", "en": "my hand" } ] },
+    { "prompt_en": "What do you rinse your mouth with?", "prompt_ko": "입은 뭐로 헹궈?", "options": [ { "e": "💧", "en": "water" }, { "e": "🧃", "en": "juice" }, { "e": "🍫", "en": "chocolate" } ] },
+    { "prompt_en": "Your teeth are very clean. What do we say?", "prompt_ko": "이가 아주 깨끗해. 뭐라고 하지?", "options": [ { "e": "✨", "en": "Squeaky clean!" }, { "e": "😢", "en": "I'm sad." }, { "e": "👋", "en": "Bye-bye." } ] },
+    { "prompt_en": "Listen: 'Time to brush your teeth.' Where do you go?", "prompt_ko": "잘 들어 봐: 'Time to brush your teeth.' 어디로 가?", "options": [ { "e": "🛁", "en": "the bathroom" }, { "e": "🏫", "en": "school" }, { "e": "🛒", "en": "the store" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Spit it out.'의 뜻은?", "options": ["뱉어.", "삼켜.", "헹궈.", "씹어."], "explain": "spit은 '뱉다'라는 뜻으로, 치약 거품을 뱉으라고 할 때 Spit it out.이라고 합니다." },
+    { "q": "양치할 때 '아~ 입 크게 벌려 봐'에 알맞은 말은?", "options": ["Open wide.", "Open big.", "Open large.", "Wide open it."], "explain": "입을 크게 벌리라고 할 때는 정해진 표현 Open wide.를 씁니다." },
+    { "q": "빈칸에 알맞은 말은? — Toothpaste is for cleaning, not for ___.", "options": ["eating", "eat", "eats", "ate"], "explain": "for 뒤에는 cleaning처럼 -ing 형태가 와서 not for eating이 됩니다." },
+    { "q": "'Squeaky clean.'은 어떤 뜻일까?", "options": ["뽀득뽀득 소리가 날 만큼 아주 깨끗해.", "삐걱거려서 시끄러워.", "대충 닦았어.", "조용하고 얌전해."], "explain": "squeaky는 뽀득거리는 소리로, 그 정도로 아주 깨끗하다는 칭찬입니다." },
+    { "q": "'Spit it out'을 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["스피리라웃", "스핏 잇 아웃", "스파이티 아웃", "스피틴 아웃"], "explain": "모음 사이의 t가 부드러운 ㄹ 소리로 바뀌어 '스피리라웃'처럼 이어집니다." },
+    { "q": "'양치할 시간이야'를 영어로 하면?", "options": ["Time to brush your teeth.", "Time for brush your teeth.", "Time brushing your teeth.", "Time to brush your tooths."], "explain": "'~할 시간이야'는 Time to + 동사원형이고, tooth의 복수는 teeth입니다." },
+    { "q": "'Show me your teeth.'의 뜻은?", "options": ["이 좀 보여 줘.", "이가 아프니?", "이 닦았니?", "이가 빠졌네."], "explain": "Show me ~는 '~을 보여 줘'라는 뜻입니다." },
+    { "q": "빈칸에 알맞은 말은? — Now ___ with water.", "options": ["rinse", "drink", "spill", "pour"], "explain": "물로 입을 헹구는 것은 rinse라고 합니다." },
+    { "q": "tooth(이 한 개)의 복수형은?", "options": ["teeth", "tooths", "teeths", "toothes"], "explain": "tooth는 불규칙 복수형 teeth를 씁니다." },
+    { "q": "'Squeaky clean!'을 쓰기에 가장 알맞은 상황은?", "options": ["목욕을 마치고 아주 깨끗해졌을 때", "방이 어질러져 있을 때", "문이 삐걱거릴 때", "아이가 조용히 놀고 있을 때"], "explain": "양치, 목욕, 설거지처럼 깨끗이 씻은 뒤 칭찬으로 쓰는 표현입니다." }
+  ]
+}

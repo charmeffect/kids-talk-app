@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 92,
+  "topic": "science",
+  "title_en": "Seeds inside fruit",
+  "title_ko": "과일 속의 씨앗",
+  "intro_ko": "사과와 키위를 잘라 속에 든 씨앗을 살펴보는 관찰 놀이입니다. 실제 과일을 반으로 잘라 씨를 같이 세어 보고, 종이컵에 흙을 담아 씨 하나를 심어 보면 더 좋아요.",
+  "expressions": [
+    { "en": "Cut it open.", "ko": "잘라서 열어 보자.", "tip": "속을 보려고 자를 때 쓰는 말이에요. Cut it이 이어져 '커릿'처럼 들려서 '커릿 오픈'이라고 말합니다.", "who": "parent" },
+    { "en": "Look inside.", "ko": "안을 봐.", "tip": "상자, 가방, 과일 등 속을 들여다보게 할 때 써요. '루킨사이드'처럼 이어 말합니다.", "who": "both" },
+    { "en": "So many seeds!", "ko": "씨가 정말 많다!", "tip": "셀 수 있는 것이 많을 때 so many를 써요. seeds 자리에 stars, cars 등을 넣어 응용해 보세요.", "who": "kid" },
+    { "en": "Let's plant one.", "ko": "하나 심어 보자.", "tip": "plant는 '식물'도 되고 '심다'도 돼요. plant의 t는 약하게 소리 나서 '플랜원'처럼 들립니다.", "who": "both" },
+    { "en": "Wait and see.", "ko": "기다려 보면 알아. / 두고 보자.", "tip": "결과를 지금은 알 수 없을 때 '기다리면서 지켜보자'라는 뜻으로 써요. and는 약하게 '은' 정도로만 소리 나서 '웨이런 씨'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Look, I have an apple and a kiwi.", "ko": "이것 봐, 사과랑 키위가 있어." },
+    { "who": "kid", "en": "Can we eat them?", "ko": "먹어도 돼?" },
+    { "who": "parent", "en": "Soon. First, I'll take the apple and cut it open.", "ko": "조금 있다가. 먼저 사과를 잘라서 열어 볼게." },
+    { "who": "kid", "en": "What's inside the apple?", "ko": "사과 안에 뭐가 있어?", "practice": true },
+    { "who": "parent", "en": "Look inside. What do you see?", "ko": "안을 봐. 뭐가 보여?" },
+    { "who": "kid", "en": "Little brown seeds!", "ko": "작은 갈색 씨!" },
+    { "who": "parent", "en": "Right. Let's count them.", "ko": "맞아. 같이 세어 보자." },
+    { "who": "kid", "en": "One, two, three, four, five!", "ko": "하나, 둘, 셋, 넷, 다섯!" },
+    { "who": "parent", "en": "Now the kiwi. Here, look inside.", "ko": "이번엔 키위. 자, 안을 봐." },
+    { "who": "kid", "en": "Wow! So many seeds!", "ko": "우와! 씨가 정말 많다!", "practice": true },
+    { "who": "parent", "en": "Yes! They're tiny and black.", "ko": "그렇지! 아주 작고 까맣네." },
+    { "who": "kid", "en": "Why do fruits have seeds?", "ko": "과일에는 왜 씨가 있어?", "practice": true },
+    { "who": "parent", "en": "A seed can grow into a new plant.", "ko": "씨앗이 자라서 새 식물이 되거든." },
+    { "who": "kid", "en": "A new apple tree?", "ko": "새 사과나무?" },
+    { "who": "parent", "en": "That's right. A baby plant is hiding inside each seed.", "ko": "맞아. 씨앗마다 그 안에 아기 식물이 숨어 있어." },
+    { "who": "kid", "en": "Let's plant one!", "ko": "하나 심어 보자!", "practice": true },
+    { "who": "parent", "en": "Good idea. Put it in the soil.", "ko": "좋은 생각이야. 흙 속에 넣어 봐." },
+    { "who": "kid", "en": "Does it need water?", "ko": "물도 줘야 해?", "practice": true },
+    { "who": "parent", "en": "Yes. Seeds need water to start growing.", "ko": "응. 씨앗은 물이 있어야 자라기 시작해." },
+    { "who": "kid", "en": "When will it grow?", "ko": "언제 자라?" },
+    { "who": "parent", "en": "It takes a long time. Wait and see.", "ko": "오래 걸려. 기다리면서 지켜보자." },
+    { "who": "kid", "en": "Grow, little seed, grow!", "ko": "자라라, 작은 씨앗아, 자라라!" }
+  ],
+  "talkMore": [
+    { "en": "Which fruit has a really big seed?", "ko": "씨가 아주 큰 과일은 뭘까?", "sample_en": "A peach!", "sample_ko": "복숭아!" },
+    { "en": "What does a seed need to grow?", "ko": "씨앗이 자라려면 뭐가 필요할까?", "sample_en": "Water and sun.", "sample_ko": "물이랑 햇빛." },
+    { "en": "What do you want to grow?", "ko": "너는 뭘 키워 보고 싶어?", "sample_en": "A watermelon!", "sample_ko": "수박!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is an apple?", "prompt_ko": "사과는 어느 거야?", "options": [ { "e": "🍎", "en": "apple" }, { "e": "🍌", "en": "banana" }, { "e": "🥕", "en": "carrot" } ] },
+    { "prompt_en": "What is hiding inside a seed?", "prompt_ko": "씨앗 안에는 뭐가 숨어 있지?", "options": [ { "e": "🌱", "en": "a baby plant" }, { "e": "🔑", "en": "a key" }, { "e": "🐟", "en": "a fish" } ] },
+    { "prompt_en": "Which fruit has so many tiny seeds?", "prompt_ko": "작은 씨가 아주 많은 과일은 뭐야?", "options": [ { "e": "🥝", "en": "kiwi" }, { "e": "🍑", "en": "peach" }, { "e": "🥑", "en": "avocado" } ] },
+    { "prompt_en": "What does a seed need to grow?", "prompt_ko": "씨앗이 자라려면 뭐가 필요해?", "options": [ { "e": "💧", "en": "water" }, { "e": "🍬", "en": "candy" }, { "e": "🧸", "en": "a toy" } ] },
+    { "prompt_en": "What can an apple seed grow into?", "prompt_ko": "사과 씨는 자라서 뭐가 될 수 있어?", "options": [ { "e": "🌳", "en": "a tree" }, { "e": "🚗", "en": "a car" }, { "e": "🐶", "en": "a dog" } ] },
+    { "prompt_en": "Where do we plant a seed?", "prompt_ko": "씨앗은 어디에 심지?", "options": [ { "e": "🪴", "en": "in the soil" }, { "e": "👟", "en": "in a shoe" }, { "e": "📦", "en": "in a box" } ] },
+    { "prompt_en": "You see lots and lots of seeds. What do you say?", "prompt_ko": "씨가 아주아주 많아. 뭐라고 해?", "options": [ { "e": "😮", "en": "So many seeds!" }, { "e": "😴", "en": "I'm sleepy." }, { "e": "👋", "en": "See you later." } ] },
+    { "prompt_en": "You want to know what's in the box. What do you do?", "prompt_ko": "상자 안에 뭐가 있는지 궁금해. 어떻게 해?", "options": [ { "e": "👀", "en": "Look inside." }, { "e": "🏃", "en": "Run away." }, { "e": "🛌", "en": "Go to bed." } ] },
+    { "prompt_en": "What color were the apple seeds?", "prompt_ko": "사과 씨는 무슨 색이었지?", "options": [ { "e": "🟤", "en": "brown" }, { "e": "🔵", "en": "blue" }, { "e": "🟣", "en": "purple" } ] },
+    { "prompt_en": "Which one is a little new plant?", "prompt_ko": "갓 나온 작은 새싹은 어느 거야?", "options": [ { "e": "🌱", "en": "a sprout" }, { "e": "🍂", "en": "old leaves" }, { "e": "🌵", "en": "a cactus" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Wait and see.'는 어떤 뜻일까?", "options": ["기다리면서 지켜보자.", "잠깐만 이것 좀 봐.", "기다리지 말고 봐.", "나중에 또 만나자."], "explain": "결과를 지금은 알 수 없으니 기다려 보자는 뜻의 표현입니다." },
+    { "q": "과일 속을 보려고 '잘라서 열어 보자'라고 할 때 알맞은 말은?", "options": ["Let's cut it open.", "Let's cut it off.", "Let's open it cut.", "Let's cut open."], "explain": "cut it open은 '잘라서 속이 보이게 열다'라는 뜻이고, it은 cut과 open 사이에 옵니다." },
+    { "q": "빈칸에 알맞은 말은? — So ___ seeds!", "options": ["many", "much", "lot", "very"], "explain": "seeds처럼 셀 수 있는 것이 많을 때는 so many를 씁니다." },
+    { "q": "'Let's plant one.'에서 plant의 뜻은?", "options": ["심다", "식물", "공장", "뽑다"], "explain": "여기서 plant는 동사로 '심다'라는 뜻입니다." },
+    { "q": "빈칸에 알맞은 말은? — A seed can grow ___ a new plant.", "options": ["into", "up", "onto", "for"], "explain": "grow into는 '자라서 ~이 되다'라는 뜻입니다." },
+    { "q": "'Cut it open.'을 쓰기에 가장 알맞은 상황은?", "options": ["수박 속이 익었는지 잘라서 볼 때", "종이를 가위로 작게 오릴 때", "과자 봉지를 손으로 뜯을 때", "문을 활짝 열 때"], "explain": "cut ~ open은 칼로 잘라 속이 보이게 여는 것을 말합니다." },
+    { "q": "'Wait and see.'가 가장 잘 어울리는 상황은?", "options": ["아이가 '씨앗이 정말 나무가 돼?'라고 물을 때", "아이가 길을 건너려고 할 때", "아이가 밥을 다 먹었을 때", "아이가 넘어져 울 때"], "explain": "지금은 답을 알 수 없고 시간이 지나야 알 수 있는 일에 Wait and see.를 씁니다." },
+    { "q": "'오래 걸려'를 자연스럽게 말하면?", "options": ["It takes a long time.", "It spends a long time.", "It is a long time to take.", "It makes a long time."], "explain": "시간이 걸린다고 할 때는 take를 씁니다: It takes a long time." },
+    { "q": "'Look inside.'의 뜻은?", "options": ["안을 봐.", "밖을 봐.", "안으로 들어가.", "뒤를 봐."], "explain": "inside는 '안쪽'이므로 Look inside.는 '안을 들여다봐'라는 뜻입니다." },
+    { "q": "빈칸에 알맞은 말은? — Seeds need water to start ___.", "options": ["growing", "grown", "grew", "grows"], "explain": "start 뒤에는 growing(또는 to grow)이 와서 '자라기 시작하다'가 됩니다." }
+  ]
+}

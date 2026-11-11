@@ -1,0 +1,69 @@
+{
+  "stage": 1,
+  "day": 80,
+  "topic": "space",
+  "title_en": "Gravity",
+  "title_ko": "중력",
+  "intro_ko": "거실에서 높이 뛰어 보고 공을 떨어뜨리며 중력을 알아보는 대화입니다. 말랑한 공을 준비해서 직접 뛰고, 떨어뜨리고, 위로 던져 보며 해 보세요.",
+  "expressions": [
+    { "en": "Jump as high as you can.", "ko": "최대한 높이 뛰어 봐.", "tip": "as ~ as you can은 '할 수 있는 만큼 ~하게'예요. Run as fast as you can처럼 바꿔 쓸 수 있어요. '하이애즈 유캔'처럼 이어집니다.", "who": "parent" },
+    { "en": "Why do I come down?", "ko": "나는 왜 내려와?", "tip": "아이의 '왜?' 질문을 영어로 하게 도와주세요. Why do I가 이어져 '와이두아이'처럼 들립니다.", "who": "kid" },
+    { "en": "Gravity pulls you down.", "ko": "중력이 너를 아래로 끌어당겨.", "tip": "gravity는 '그래버티'처럼 첫소리를 세게 말해요. pulls you는 이어져 '풀쥬'처럼 들립니다.", "who": "parent" },
+    { "en": "Everything falls down.", "ko": "모든 것은 아래로 떨어져.", "tip": "everything은 하나로 취급해서 fall이 아니라 falls를 써요. '폴즈다운'처럼 이어 말합니다.", "who": "both" },
+    { "en": "What goes up must come down.", "ko": "올라간 것은 반드시 내려온다.", "tip": "공을 던지거나 풍선이 내려올 때 쓰기 좋은 속담이에요. must의 t는 거의 들리지 않아 '머스 컴다운'처럼 말합니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Let's try something. Jump as high as you can.", "ko": "우리 뭐 하나 해 보자. 최대한 높이 뛰어 봐." },
+    { "who": "kid", "en": "Watch me! One, two, three!", "ko": "잘 봐! 하나, 둘, 셋!" },
+    { "who": "parent", "en": "Wow, that was high! But you came right back down.", "ko": "우와, 높다! 그런데 바로 다시 내려왔네." },
+    { "who": "kid", "en": "Why do I come down?", "ko": "나는 왜 내려와?", "practice": true },
+    { "who": "parent", "en": "Gravity pulls you down.", "ko": "중력이 너를 아래로 끌어당기거든." },
+    { "who": "kid", "en": "Gravity? What's that?", "ko": "중력? 그게 뭐야?", "practice": true },
+    { "who": "parent", "en": "The Earth pulls everything toward the ground. That pull is gravity.", "ko": "지구는 모든 걸 땅 쪽으로 끌어당겨. 그 당기는 힘이 중력이야." },
+    { "who": "kid", "en": "But I can't see it.", "ko": "근데 안 보이는데." },
+    { "who": "parent", "en": "Nobody can see it. But you can feel it.", "ko": "아무도 볼 수는 없어. 하지만 느낄 수는 있지." },
+    { "who": "kid", "en": "Can I drop this ball?", "ko": "이 공 떨어뜨려 봐도 돼?" },
+    { "who": "parent", "en": "Sure. Let go and watch.", "ko": "그럼. 손을 놓고 잘 봐." },
+    { "who": "kid", "en": "It fell down!", "ko": "아래로 떨어졌어!", "practice": true },
+    { "who": "parent", "en": "Yes. Everything falls down. A ball, a spoon, even rain.", "ko": "응. 모든 것은 아래로 떨어져. 공도, 숟가락도, 비도." },
+    { "who": "kid", "en": "What if I throw it up?", "ko": "위로 던지면 어떻게 돼?" },
+    { "who": "parent", "en": "Try it. What goes up must come down.", "ko": "해 봐. 올라간 것은 반드시 내려온단다." },
+    { "who": "kid", "en": "It came down again!", "ko": "또 내려왔어!", "practice": true },
+    { "who": "parent", "en": "See? Gravity never takes a break.", "ko": "봤지? 중력은 쉬는 법이 없어." },
+    { "who": "kid", "en": "Is there gravity on the moon?", "ko": "달에도 중력이 있어?" },
+    { "who": "parent", "en": "Yes, but it's weaker. You can jump much higher there.", "ko": "응, 그런데 더 약해. 거기서는 훨씬 높이 뛸 수 있어." },
+    { "who": "kid", "en": "I want to jump on the moon!", "ko": "나 달에서 뛰어 보고 싶어!", "practice": true },
+    { "who": "parent", "en": "Me too. For now, let's jump right here.", "ko": "나도. 지금은 여기서 뛰자." },
+    { "who": "kid", "en": "Okay! Jump with me!", "ko": "좋아! 나랑 같이 뛰어!" },
+    { "who": "parent", "en": "Ready? One, two, three, jump!", "ko": "준비됐어? 하나, 둘, 셋, 점프!" }
+  ],
+  "talkMore": [
+    { "en": "What would you do on the moon?", "ko": "달에 가면 뭘 하고 싶어?", "sample_en": "Jump really high!", "sample_ko": "엄청 높이 뛸 거야!" },
+    { "en": "What happens when you drop a cup?", "ko": "컵을 떨어뜨리면 어떻게 될까?", "sample_en": "It falls down.", "sample_ko": "아래로 떨어져." },
+    { "en": "What can you throw up high?", "ko": "뭘 높이 던질 수 있어?", "sample_en": "A ball!", "sample_ko": "공!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "You drop a ball. Which way does it go?", "prompt_ko": "공을 떨어뜨렸어. 어느 쪽으로 가?", "options": [ { "e": "⬇️", "en": "down" }, { "e": "⬆️", "en": "up" }, { "e": "➡️", "en": "to the side" } ] },
+    { "prompt_en": "What pulls everything down?", "prompt_ko": "모든 걸 아래로 끌어당기는 건 뭐야?", "options": [ { "e": "🌍", "en": "the Earth" }, { "e": "🎈", "en": "a balloon" }, { "e": "🐱", "en": "a cat" } ] },
+    { "prompt_en": "Where can you jump much higher?", "prompt_ko": "어디에서 훨씬 더 높이 뛸 수 있어?", "options": [ { "e": "🌙", "en": "on the moon" }, { "e": "🏫", "en": "at school" }, { "e": "🛒", "en": "at the store" } ] },
+    { "prompt_en": "Which animal jumps high?", "prompt_ko": "높이 뛰는 동물은 누구야?", "options": [ { "e": "🐸", "en": "a frog" }, { "e": "🐢", "en": "a turtle" }, { "e": "🐌", "en": "a snail" } ] },
+    { "prompt_en": "You throw a ball up. What happens?", "prompt_ko": "공을 위로 던졌어. 어떻게 돼?", "options": [ { "e": "⬇️", "en": "It comes down." }, { "e": "🌙", "en": "It reaches the moon." }, { "e": "😴", "en": "It falls asleep." } ] },
+    { "prompt_en": "Which one falls from the sky?", "prompt_ko": "하늘에서 떨어지는 건 어느 거야?", "options": [ { "e": "🌧️", "en": "rain" }, { "e": "🏠", "en": "a house" }, { "e": "🚌", "en": "a bus" } ] },
+    { "prompt_en": "Which one is a ball?", "prompt_ko": "공은 어느 거야?", "options": [ { "e": "⚽", "en": "ball" }, { "e": "🥄", "en": "spoon" }, { "e": "📕", "en": "book" } ] },
+    { "prompt_en": "Listen: 'Jump as high as you can.' What do you do?", "prompt_ko": "'최대한 높이 뛰어 봐.' 어떻게 해?", "options": [ { "e": "⬆️", "en": "jump up" }, { "e": "🛌", "en": "lie down" }, { "e": "🙈", "en": "close my eyes" } ] },
+    { "prompt_en": "Which one is the Earth?", "prompt_ko": "지구는 어느 거야?", "options": [ { "e": "🌍", "en": "the Earth" }, { "e": "🌙", "en": "the moon" }, { "e": "☀️", "en": "the sun" } ] },
+    { "prompt_en": "Which one falls down from a tree?", "prompt_ko": "나무에서 아래로 떨어지는 건 어느 거야?", "options": [ { "e": "🍎", "en": "an apple" }, { "e": "☁️", "en": "a cloud" }, { "e": "⭐", "en": "a star" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Gravity pulls you down.'의 뜻은?", "options": ["중력이 너를 아래로 끌어당겨.", "중력이 너를 위로 밀어 올려.", "중력 때문에 넘어졌어.", "중력이 너를 똑바로 세워 줘."], "explain": "pull은 '당기다', pull down은 '아래로 끌어당기다'입니다." },
+    { "q": "'pulls you'를 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["풀쥬", "풀스 유", "풀리쥬", "푸쉬유"], "explain": "pulls의 z 소리와 you가 만나 '쥬'처럼 이어집니다." },
+    { "q": "'최대한 높이 뛰어 봐.'로 알맞은 말은?", "options": ["Jump as high as you can.", "Jump so high than you can.", "Jump the highest as you can.", "Jump high as can you."], "explain": "'할 수 있는 만큼 ~하게'는 as ~ as you can으로 말합니다." },
+    { "q": "'What goes up must come down.'의 뜻은?", "options": ["올라간 것은 반드시 내려온다.", "일찍 일어나면 일찍 잔다.", "위아래를 잘 살펴라.", "올라가려면 먼저 내려가야 한다."], "explain": "위로 올라간 것은 결국 내려오게 되어 있다는 뜻의 속담입니다." },
+    { "q": "빈칸에 알맞은 말은? — Nobody can see it. But you can ___ it.", "options": ["feel", "fill", "fall", "fell"], "explain": "'느끼다'는 feel입니다. fill(채우다)과 소리가 비슷하니 길게 '피일'로 발음하세요." },
+    { "q": "달의 중력에 대한 설명으로 알맞은 것은?", "options": ["지구보다 약해서 더 높이 뛸 수 있다", "전혀 없어서 계속 떠다닌다", "지구보다 강해서 뛸 수 없다", "지구와 똑같다"], "explain": "달의 중력은 지구의 약 6분의 1이라 훨씬 높이 뛸 수 있습니다." },
+    { "q": "'나는 왜 내려와?'로 알맞은 말은?", "options": ["Why do I come down?", "Why I come down?", "Why am I come down?", "Why does I come down?"], "explain": "I가 주어인 일반동사 의문문은 Why do I ~?로 만듭니다." },
+    { "q": "'Everything falls down.'에서 fall이 아니라 falls인 이유는?", "options": ["everything은 단수로 취급해서", "과거의 일이라서", "여러 개를 말해서", "명령하는 말이라서"], "explain": "everything, everyone은 뜻은 '모두'지만 문법상 단수라 동사에 -s가 붙습니다." },
+    { "q": "'What goes up must come down.'을 쓰기에 가장 알맞은 상황은?", "options": ["아이가 던진 공이 다시 떨어질 때", "계단을 올라갈 때", "아침에 일어날 때", "물건값이 비쌀 때"], "explain": "위로 던진 공이나 풍선이 다시 내려오는 것을 볼 때 쓰기 좋습니다." },
+    { "q": "빈칸에 알맞은 말은? — Sure. Let ___ and watch.", "options": ["go", "out", "off", "down"], "explain": "let go는 '쥐고 있던 것을 놓다'라는 뜻입니다." }
+  ]
+}

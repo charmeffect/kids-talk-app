@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 63,
+  "topic": "ships",
+  "title_en": "Tugboat",
+  "title_ko": "예인선",
+  "intro_ko": "작은 장난감 배로 예인선 놀이를 하는 장면입니다. 큰 상자나 빨래 바구니를 '큰 배'로 정하고, 둘이 함께 힘껏 밀어 부두(벽이나 소파)까지 옮겨 보세요.",
+  "expressions": [
+    { "en": "It's small but strong.", "ko": "작지만 힘이 세.", "tip": "A but B로 반대되는 두 가지를 이어 말해요(It's old but fast). but은 약하게 '벗'으로 말하고 strong에 힘을 줍니다.", "who": "both" },
+    { "en": "Push harder!", "ko": "더 세게 밀어!", "tip": "harder는 '더 세게'라는 뜻이에요. Pull harder!, Try harder!처럼 바꿔 쓸 수 있어요.", "who": "kid" },
+    { "en": "It's pulling the big ship.", "ko": "큰 배를 끌고 있어.", "tip": "pull(끌다)과 push(밀다)를 몸짓과 함께 알려 주세요. pulling the는 '풀링더'로 가볍게 이어집니다.", "who": "both" },
+    { "en": "Can you help me?", "ko": "나 좀 도와줄래?", "tip": "도움을 부탁하는 가장 기본적인 말이에요. Can you가 '캐뉴'로 이어지고, help의 p는 터뜨리지 않고 가볍게 삼키듯 말합니다.", "who": "both" },
+    { "en": "Give me a hand.", "ko": "좀 도와줘.", "tip": "'손 하나 빌려줘', 즉 도와 달라는 뜻의 표현이에요. 물건을 옮기거나 정리할 때 자주 씁니다. Give me a가 '김미어'로 이어져요.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Look at this little boat. It's a tugboat.", "ko": "이 작은 배 좀 봐. 예인선이야." },
+    { "who": "kid", "en": "What's a tugboat?", "ko": "예인선이 뭐야?" },
+    { "who": "parent", "en": "It helps big ships. It's small but strong.", "ko": "큰 배들을 도와주는 배야. 작지만 힘이 세." },
+    { "who": "kid", "en": "How does it help?", "ko": "어떻게 도와줘?" },
+    { "who": "parent", "en": "Big ships can't turn well in the harbor.", "ko": "큰 배는 항구 안에서 방향을 잘 못 바꾸거든." },
+    { "who": "kid", "en": "Why not?", "ko": "왜 못 해?" },
+    { "who": "parent", "en": "They're too long and heavy. So tugboats push and pull them.", "ko": "너무 길고 무거워서. 그래서 예인선이 밀고 끌어 줘." },
+    { "who": "kid", "en": "Look! It's pulling the big ship.", "ko": "봐! 큰 배를 끌고 있어.", "practice": true },
+    { "who": "parent", "en": "Yes! It's pulling with a thick rope.", "ko": "맞아! 굵은 밧줄로 끌고 있네." },
+    { "who": "kid", "en": "Now it's pushing!", "ko": "이제는 밀고 있어!" },
+    { "who": "parent", "en": "This box is our big ship. Can you help me?", "ko": "이 상자가 우리 큰 배야. 나 좀 도와줄래?" },
+    { "who": "kid", "en": "Sure! What do I do?", "ko": "그럼! 내가 뭐 하면 돼?", "practice": true },
+    { "who": "parent", "en": "Give me a hand. Let's push it to the dock.", "ko": "좀 도와줘. 부두까지 같이 밀자." },
+    { "who": "kid", "en": "Push harder!", "ko": "더 세게 밀어!", "practice": true },
+    { "who": "parent", "en": "I'm pushing! It's so heavy!", "ko": "밀고 있어! 엄청 무겁다!" },
+    { "who": "kid", "en": "One, two, three, push!", "ko": "하나, 둘, 셋, 밀어!", "practice": true },
+    { "who": "parent", "en": "It's moving! We're doing it!", "ko": "움직인다! 우리가 해내고 있어!" },
+    { "who": "kid", "en": "We're tugboats!", "ko": "우리는 예인선이야!" },
+    { "who": "parent", "en": "We made it. The big ship is safe at the dock.", "ko": "해냈다. 큰 배가 부두에 무사히 도착했어." },
+    { "who": "kid", "en": "I'm small but strong!", "ko": "나는 작지만 힘이 세!", "practice": true },
+    { "who": "parent", "en": "You sure are. Thanks for your help, buddy.", "ko": "정말 그렇네. 도와줘서 고마워." },
+    { "who": "kid", "en": "Toot, toot! Next ship, please!", "ko": "뿌뿌! 다음 배 오세요!" }
+  ],
+  "talkMore": [
+    { "en": "What else is small but strong?", "ko": "또 작지만 힘센 건 뭐가 있을까?", "sample_en": "An ant!", "sample_ko": "개미!" },
+    { "en": "Who do you help at school?", "ko": "유치원에서 누구를 도와줘?", "sample_en": "I help my friends.", "sample_ko": "친구들을 도와줘." },
+    { "en": "What do you want to push next?", "ko": "다음엔 뭘 밀어 보고 싶어?", "sample_en": "The big chair!", "sample_ko": "큰 의자!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one goes on the water?", "prompt_ko": "물 위로 다니는 건 어느 거야?", "options": [ { "e": "🚢", "en": "a ship" }, { "e": "🚗", "en": "a car" }, { "e": "🚲", "en": "a bike" } ] },
+    { "prompt_en": "The tugboat is small but…?", "prompt_ko": "예인선은 작지만… 어때?", "options": [ { "e": "💪", "en": "strong" }, { "e": "😴", "en": "sleepy" }, { "e": "😢", "en": "sad" } ] },
+    { "prompt_en": "You need help. What do you say?", "prompt_ko": "도움이 필요해. 뭐라고 해?", "options": [ { "e": "🙋", "en": "Can you help me?" }, { "e": "🌙", "en": "Good night." }, { "e": "🍕", "en": "I like pizza." } ] },
+    { "prompt_en": "Which one is heavy?", "prompt_ko": "무거운 건 어느 거야?", "options": [ { "e": "🚢", "en": "a big ship" }, { "e": "🎈", "en": "a balloon" }, { "e": "🍃", "en": "a leaf" } ] },
+    { "prompt_en": "The box is not moving. What do you say?", "prompt_ko": "상자가 안 움직여. 뭐라고 해?", "options": [ { "e": "💪", "en": "Push harder!" }, { "e": "🤫", "en": "Be quiet." }, { "e": "👋", "en": "Bye-bye." } ] },
+    { "prompt_en": "One, two, … What comes next?", "prompt_ko": "하나, 둘, … 다음은 뭐야?", "options": [ { "e": "3️⃣", "en": "three" }, { "e": "7️⃣", "en": "seven" }, { "e": "🔟", "en": "ten" } ] },
+    { "prompt_en": "What sound does the tugboat make?", "prompt_ko": "예인선은 어떤 소리를 내?", "options": [ { "e": "🚢", "en": "Toot, toot!" }, { "e": "🐶", "en": "Woof, woof!" }, { "e": "🐱", "en": "Meow!" } ] },
+    { "prompt_en": "Someone helps you. What do you say?", "prompt_ko": "누가 도와줬어. 뭐라고 해?", "options": [ { "e": "😊", "en": "Thank you!" }, { "e": "😠", "en": "Go away!" }, { "e": "😴", "en": "I'm sleepy." } ] },
+    { "prompt_en": "Which one is small?", "prompt_ko": "작은 건 어느 거야?", "options": [ { "e": "🐭", "en": "a mouse" }, { "e": "🐘", "en": "an elephant" }, { "e": "🐳", "en": "a whale" } ] },
+    { "prompt_en": "Listen: 'Give me a hand.' What do you do?", "prompt_ko": "'Give me a hand.'를 들으면 뭘 해?", "options": [ { "e": "🤝", "en": "help" }, { "e": "🏃", "en": "run away" }, { "e": "🛌", "en": "go to bed" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'It's small but strong.'의 뜻은?", "options": ["작지만 힘이 세.", "작아서 약해.", "작고 귀여워.", "크고 힘이 세."], "explain": "but은 '하지만'으로, small(작은)과 strong(힘센)을 대비해 말합니다." },
+    { "q": "'Give me a hand.'는 어떤 뜻일까?", "options": ["좀 도와줘.", "손 들어 봐.", "손 씻고 와.", "손 놓지 마."], "explain": "give someone a hand는 '손을 빌려주다', 즉 '도와주다'라는 표현입니다." },
+    { "q": "'더 세게 밀어!'를 자연스러운 영어로 하면?", "options": ["Push harder!", "Push more hard!", "Push hardly!", "Push more strong!"], "explain": "hard의 비교급은 harder이며, hardly는 '거의 ~않다'라는 전혀 다른 뜻입니다." },
+    { "q": "밧줄로 끌고 있을 때 빈칸에 알맞은 말은? — It's ___ the big ship.", "options": ["pulling", "pushing", "picking", "pouring"], "explain": "끄는 것은 pull, 미는 것은 push입니다." },
+    { "q": "'Give me a'를 빠르게 이어 말하면 어떻게 들릴까?", "options": ["김미어", "기브 미 에이", "깁메아", "기미아이"], "explain": "Give의 v가 약해지고 me a가 이어져 '김미어'처럼 들립니다." },
+    { "q": "오늘 대본에서 큰 배에 예인선이 필요한 이유는?", "options": ["항구에서 방향을 바꾸기 어려워서", "큰 배에는 엔진이 없어서", "큰 배는 물에 잘 못 떠서", "큰 배는 밤에 못 다녀서"], "explain": "큰 배는 길고 무거워 좁은 항구에서 잘 돌지 못하므로 예인선이 밀고 끌어 줍니다." },
+    { "q": "'우리가 해냈어!'에 해당하는 말은?", "options": ["We made it.", "We made that.", "We did made it.", "We make it done."], "explain": "make it은 '해내다, 무사히 도착하다'라는 뜻으로 We made it.이라고 합니다." },
+    { "q": "'Can you help me?'에 흔쾌히 답하는 말은?", "options": ["Sure!", "Sure not.", "I help.", "Yes, I can't."], "explain": "부탁을 기꺼이 들어줄 때는 Sure!라고 답합니다." },
+    { "q": "빈칸에 알맞은 말은? — Thanks ___ your help, buddy.", "options": ["for", "to", "of", "about"], "explain": "고마운 이유는 for로 말합니다: Thanks for your help." },
+    { "q": "아이가 'I'm small but strong!'이라고 할 때 'You sure are.'의 뜻은?", "options": ["정말 그렇네.", "확실해?", "조심해.", "안심해."], "explain": "You sure are.는 상대의 말에 '정말 그래'라고 맞장구치는 말입니다." }
+  ]
+}

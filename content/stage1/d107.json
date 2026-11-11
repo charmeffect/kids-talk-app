@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 107,
+  "topic": "science",
+  "title_en": "Static balloon",
+  "title_ko": "정전기 풍선",
+  "intro_ko": "풍선을 머리카락에 문질러 정전기를 만들어 보는 과학 놀이입니다. 풍선 하나와 잘게 찢은 휴지 조각을 준비하고, 건조한 날에 하면 더 잘 돼요.",
+  "expressions": [
+    { "en": "Rub it on your hair.", "ko": "머리카락에 문질러 봐.", "tip": "rub은 '문지르다'예요. 로션이나 비누를 바를 때도 Rub it on your hands처럼 쓸 수 있어요. Rub it on이 이어져 '러비론'처럼 들립니다.", "who": "parent" },
+    { "en": "My hair is standing up!", "ko": "머리카락이 서 있어!", "tip": "stand up은 사람이 일어설 때뿐 아니라 머리카락이 삐죽 설 때도 써요. standing up은 끊지 말고 '스탠딩업'으로 이어 말해요.", "who": "kid" },
+    { "en": "It tickles!", "ko": "간지러워!", "tip": "무언가가 살에 닿아 간질간질할 때 하는 말이에요. 누가 간지럼을 태울 때는 'That tickles!'라고도 합니다.", "who": "kid" },
+    { "en": "It's sticking to the wall.", "ko": "벽에 붙어 있어.", "tip": "stick to는 '~에 달라붙다'예요. 스티커나 자석이 붙을 때도 같은 표현을 씁니다. to는 약하게 '투'가 아니라 '터'에 가깝게 발음해요.", "who": "both" },
+    { "en": "Like magic.", "ko": "마법처럼. / 마법 같네.", "tip": "신기하게 잘 될 때 덧붙이는 말이에요. 'It works like magic.'처럼 문장 끝에 붙여도 됩니다. Like의 k는 약하게 내서 '라익 매직'처럼 말해요.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Look, I have a balloon. Want to try something?", "ko": "봐, 풍선이 있어. 재미있는 거 해 볼래?" },
+    { "who": "kid", "en": "Yes! What is it?", "ko": "응! 뭔데?" },
+    { "who": "parent", "en": "Take the balloon. Rub it on your hair.", "ko": "풍선을 잡아. 머리카락에 문질러 봐." },
+    { "who": "kid", "en": "Like this?", "ko": "이렇게?" },
+    { "who": "parent", "en": "Yes, rub it fast. Now lift it up slowly.", "ko": "응, 빠르게 문질러. 이제 천천히 들어 올려 봐." },
+    { "who": "kid", "en": "My hair is standing up!", "ko": "머리카락이 서 있어!", "practice": true },
+    { "who": "parent", "en": "Ha! Go look in the mirror.", "ko": "하하! 거울 한번 봐." },
+    { "who": "kid", "en": "It tickles!", "ko": "간지러워!", "practice": true },
+    { "who": "parent", "en": "Now let's put the balloon on the wall.", "ko": "이제 풍선을 벽에 대 보자." },
+    { "who": "kid", "en": "Will it fall down?", "ko": "떨어질까?" },
+    { "who": "parent", "en": "Let's see. I'm letting go.", "ko": "어디 보자. 손 뗀다." },
+    { "who": "kid", "en": "Whoa! It's sticking to the wall.", "ko": "우와! 벽에 붙어 있어.", "practice": true },
+    { "who": "parent", "en": "No tape, no glue. Like magic.", "ko": "테이프도 없고 풀도 없는데. 마법 같네." },
+    { "who": "kid", "en": "Is it magic?", "ko": "진짜 마법이야?" },
+    { "who": "parent", "en": "No, it's science. It's called static electricity.", "ko": "아니, 과학이야. 정전기라고 해." },
+    { "who": "kid", "en": "What's static electricity?", "ko": "정전기가 뭐야?" },
+    { "who": "parent", "en": "Rubbing gives the balloon a charge. It pulls light things.", "ko": "문지르면 풍선에 전기가 생겨. 그게 가벼운 걸 끌어당겨." },
+    { "who": "kid", "en": "Can it pick up paper?", "ko": "종이도 들어 올릴 수 있어?" },
+    { "who": "parent", "en": "Good question. Let's tear some tiny pieces.", "ko": "좋은 질문이야. 종이를 아주 작게 찢어 보자." },
+    { "who": "kid", "en": "Your turn! Rub it on your hair.", "ko": "이번엔 엄마(아빠) 차례! 머리카락에 문질러 봐.", "practice": true },
+    { "who": "parent", "en": "Okay. Is my hair standing up, too?", "ko": "알았어. 내 머리카락도 서 있어?" },
+    { "who": "kid", "en": "Yes! You look funny!", "ko": "응! 웃기게 생겼어!" },
+    { "who": "parent", "en": "Look! The paper is jumping up to the balloon.", "ko": "봐! 종이가 풍선으로 폴짝 뛰어올라." },
+    { "who": "kid", "en": "Let's do it again!", "ko": "또 해 보자!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What else can the balloon stick to?", "ko": "풍선이 또 어디에 붙을 수 있을까?", "sample_en": "Maybe the door!", "sample_ko": "문에 붙을 것 같아!" },
+    { "en": "How did your hair feel?", "ko": "머리카락 느낌이 어땠어?", "sample_en": "It tickled a lot.", "sample_ko": "엄청 간지러웠어." },
+    { "en": "What do you want to pick up with the balloon?", "ko": "풍선으로 뭘 들어 올려 보고 싶어?", "sample_en": "A feather!", "sample_ko": "깃털!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a balloon?", "prompt_ko": "풍선은 어느 거야?", "options": [ { "e": "🎈", "en": "balloon" }, { "e": "⚽", "en": "ball" }, { "e": "🍎", "en": "apple" } ] },
+    { "prompt_en": "Where did we rub the balloon?", "prompt_ko": "풍선을 어디에 문질렀지?", "options": [ { "e": "💇", "en": "on my hair" }, { "e": "🦶", "en": "on my foot" }, { "e": "🍽️", "en": "on a plate" } ] },
+    { "prompt_en": "A feather touches your nose. What do you say?", "prompt_ko": "깃털이 코에 닿았어. 뭐라고 해?", "options": [ { "e": "🤭", "en": "It tickles!" }, { "e": "🥶", "en": "It's cold!" }, { "e": "😴", "en": "I'm sleepy." } ] },
+    { "prompt_en": "Where did the balloon stick?", "prompt_ko": "풍선이 어디에 붙었지?", "options": [ { "e": "🧱", "en": "the wall" }, { "e": "🌊", "en": "the sea" }, { "e": "☁️", "en": "a cloud" } ] },
+    { "prompt_en": "What jumped up to the balloon?", "prompt_ko": "풍선으로 뭐가 폴짝 뛰어올랐지?", "options": [ { "e": "📄", "en": "paper" }, { "e": "🪑", "en": "a chair" }, { "e": "🚗", "en": "a car" } ] },
+    { "prompt_en": "Which one is very light?", "prompt_ko": "아주 가벼운 건 어느 거야?", "options": [ { "e": "🪶", "en": "a feather" }, { "e": "🐘", "en": "an elephant" }, { "e": "🚌", "en": "a bus" } ] },
+    { "prompt_en": "Listen: 'Let's do it again!' What do you want?", "prompt_ko": "잘 들어 봐: 'Let's do it again!' 뭘 하고 싶다는 말이야?", "options": [ { "e": "🔁", "en": "one more time" }, { "e": "🛑", "en": "to stop" }, { "e": "🛏️", "en": "to sleep" } ] },
+    { "prompt_en": "Where can you see your funny hair?", "prompt_ko": "웃긴 머리 모양은 어디에서 볼 수 있어?", "options": [ { "e": "🪞", "en": "in the mirror" }, { "e": "📦", "en": "in a box" }, { "e": "🥣", "en": "in a bowl" } ] },
+    { "prompt_en": "Is the sticking balloon magic? What is it?", "prompt_ko": "풍선이 붙는 건 마법일까? 뭘까?", "options": [ { "e": "🔬", "en": "science" }, { "e": "🍰", "en": "cake" }, { "e": "🎵", "en": "music" } ] },
+    { "prompt_en": "Your hair is standing up. It looks funny! What do you do?", "prompt_ko": "머리카락이 삐죽 섰어. 웃기게 생겼어! 어떻게 해?", "options": [ { "e": "😂", "en": "laugh" }, { "e": "😢", "en": "cry" }, { "e": "😴", "en": "go to sleep" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'It's sticking to the wall.'의 뜻은?", "options": ["벽에 붙어 있어.", "벽에 부딪혔어.", "벽에서 떨어졌어.", "벽을 찌르고 있어."], "explain": "stick to는 '~에 달라붙다'라는 뜻입니다." },
+    { "q": "'머리카락에 문질러 봐.'를 영어로 하면?", "options": ["Rub it on your hair.", "Wash it on your hair.", "Rub it to your hairs.", "Scratch it in your hair."], "explain": "'문지르다'는 rub, 표면에 대고 문지르므로 전치사는 on을 씁니다. hair는 보통 복수형으로 쓰지 않아요." },
+    { "q": "빈칸에 알맞은 말은? — My hair is standing ___!", "options": ["up", "on", "out", "over"], "explain": "머리카락이 위로 삐죽 서는 것은 stand up으로 표현합니다." },
+    { "q": "'It tickles!'는 어떤 상황에서 쓸까?", "options": ["무언가 살에 닿아 간질간질할 때", "무언가에 찔려 따가울 때", "끈적끈적한 것이 묻었을 때", "너무 뜨거울 때"], "explain": "tickle은 '간지럽다, 간지럼을 태우다'라는 뜻입니다." },
+    { "q": "'Like magic.'을 쓰기에 알맞은 상황은?", "options": ["얼룩이 한 번에 싹 지워졌을 때", "마술사가 되고 싶다고 말할 때", "마법 이야기책을 좋아한다고 말할 때", "일이 잘 안 풀릴 때"], "explain": "무언가가 신기할 만큼 잘 될 때 '마법처럼'이라는 뜻으로 덧붙이는 말입니다." },
+    { "q": "'Rub it on'을 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["러비론", "러브 이트 온", "루빗온", "러빗 톤"], "explain": "b와 it이 이어지고 t가 모음 사이에서 부드러운 ㄹ 소리가 되어 '러비론'처럼 들립니다." },
+    { "q": "'정전기'를 영어로 하면?", "options": ["static electricity", "stop electricity", "quiet electricity", "stick electricity"], "explain": "정전기는 static electricity이며, 일상에서는 줄여서 static이라고도 합니다." },
+    { "q": "빈칸에 알맞은 말은? — Let's see. I'm letting ___.", "options": ["go", "off", "it", "down"], "explain": "let go는 '잡고 있던 것을 놓다'라는 뜻입니다." },
+    { "q": "아이의 질문을 칭찬하며 '좋은 질문이야.'라고 할 때 알맞은 말은?", "options": ["Good question.", "Good asking.", "Nice to question.", "Well question."], "explain": "질문을 칭찬할 때는 간단히 Good question.이라고 합니다." },
+    { "q": "'It pulls light things.'에서 light의 뜻은?", "options": ["가벼운", "밝은", "빛", "불을 켜다"], "explain": "여기서 light는 '가벼운'이라는 뜻으로, 정전기가 가벼운 물건을 끌어당긴다는 말입니다." }
+  ]
+}

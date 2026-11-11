@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 102,
+  "topic": "science",
+  "title_en": "Tadpoles and frogs",
+  "title_ko": "올챙이와 개구리",
+  "intro_ko": "연못가에서 올챙이를 발견한 상황입니다. 올챙이와 개구리 사진이나 그림책을 펴 놓고, 꼬리와 다리를 손가락으로 짚어 가며 읽어 보세요.",
+  "expressions": [
+    { "en": "It's a baby frog.", "ko": "아기 개구리야.", "tip": "'baby + 동물'로 새끼 동물을 쉽게 말할 수 있어요(baby bird, baby whale). It's a가 이어져 '잇처'처럼 들립니다.", "who": "parent" },
+    { "en": "It has a tail.", "ko": "꼬리가 있어.", "tip": "동물의 생김새를 말할 때 'It has ~'를 써요. has a가 이어져 '해저 테일'처럼 들립니다.", "who": "both" },
+    { "en": "Where are its legs?", "ko": "다리는 어디 있어?", "tip": "its는 '그것의'라는 뜻이에요. it's(it is)와 소리는 같지만 뜻이 다릅니다.", "who": "kid" },
+    { "en": "It's changing!", "ko": "변하고 있어!", "tip": "모양이나 색이 달라지는 것을 볼 때 쓰는 말이에요. 나뭇잎 색, 하늘 색, 신호등이 바뀔 때도 쓸 수 있어요.", "who": "both" },
+    { "en": "Little by little.", "ko": "조금씩 조금씩.", "tip": "천천히 조금씩 달라지거나 나아질 때 쓰는 표현이에요. little은 미국식으로 '리를'처럼 들려서 '리를 바이 리를'이 됩니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Look in the pond. Do you see something swimming?", "ko": "연못 안을 봐. 뭔가 헤엄치는 거 보여?" },
+    { "who": "kid", "en": "What's that? A tiny fish?", "ko": "저게 뭐야? 작은 물고기?" },
+    { "who": "parent", "en": "No, it's a tadpole. It's a baby frog.", "ko": "아니, 올챙이야. 아기 개구리지." },
+    { "who": "kid", "en": "A baby frog? It's so small!", "ko": "아기 개구리? 정말 작다!", "practice": true },
+    { "who": "parent", "en": "Yes. Look closely. It has a tail.", "ko": "응. 잘 봐. 꼬리가 있어." },
+    { "who": "kid", "en": "It has a tail! Where are its legs?", "ko": "꼬리가 있네! 다리는 어디 있어?", "practice": true },
+    { "who": "parent", "en": "It doesn't have legs yet. They grow later.", "ko": "아직 다리가 없어. 나중에 자라." },
+    { "who": "kid", "en": "When?", "ko": "언제?" },
+    { "who": "parent", "en": "In a few weeks. The back legs come first.", "ko": "몇 주 지나면. 뒷다리가 먼저 나와." },
+    { "who": "kid", "en": "And then?", "ko": "그다음엔?" },
+    { "who": "parent", "en": "Then the front legs grow. The tail gets shorter.", "ko": "그다음엔 앞다리가 자라. 꼬리는 점점 짧아지고." },
+    { "who": "kid", "en": "Where does the tail go?", "ko": "꼬리는 어디로 가?" },
+    { "who": "parent", "en": "Its body uses it up, little by little.", "ko": "몸이 꼬리를 조금씩 조금씩 써서 없어지는 거야." },
+    { "who": "kid", "en": "Wow. It's changing!", "ko": "우와. 변하고 있구나!", "practice": true },
+    { "who": "parent", "en": "That's right. One day it'll hop out of the water.", "ko": "맞아. 언젠가는 물 밖으로 폴짝 뛰어나올 거야." },
+    { "who": "kid", "en": "Can it breathe in the water?", "ko": "물속에서 숨 쉴 수 있어?" },
+    { "who": "parent", "en": "Yes. A tadpole breathes underwater, like a fish.", "ko": "응. 올챙이는 물고기처럼 물속에서 숨을 쉬어." },
+    { "who": "kid", "en": "And a frog?", "ko": "개구리는?" },
+    { "who": "parent", "en": "A grown-up frog breathes air, like us.", "ko": "다 자란 개구리는 우리처럼 공기로 숨을 쉬어." },
+    { "who": "kid", "en": "Can we take it home?", "ko": "집에 데려가도 돼?" },
+    { "who": "parent", "en": "Let's leave it here. This pond is its home.", "ko": "여기 두자. 이 연못이 올챙이네 집이야." },
+    { "who": "kid", "en": "Okay. Bye, baby frog!", "ko": "알았어. 안녕, 아기 개구리!", "practice": true },
+    { "who": "parent", "en": "Let's come back next week and check.", "ko": "다음 주에 다시 와서 보자." },
+    { "who": "kid", "en": "Will it have legs?", "ko": "그땐 다리가 있을까?", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What other animals change when they grow up?", "ko": "자라면서 모습이 변하는 동물이 또 뭐가 있을까?", "sample_en": "A butterfly!", "sample_ko": "나비!" },
+    { "en": "What can a frog do that a tadpole can't?", "ko": "올챙이는 못 하는데 개구리는 할 수 있는 게 뭘까?", "sample_en": "It can jump!", "sample_ko": "점프할 수 있어!" },
+    { "en": "How are you changing as you grow?", "ko": "너는 자라면서 뭐가 달라지고 있어?", "sample_en": "I'm getting taller.", "sample_ko": "키가 크고 있어." }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a frog?", "prompt_ko": "개구리는 어느 거야?", "options": [ { "e": "🐸", "en": "frog" }, { "e": "🐟", "en": "fish" }, { "e": "🐦", "en": "bird" } ] },
+    { "prompt_en": "Where does a tadpole live?", "prompt_ko": "올챙이는 어디에 살아?", "options": [ { "e": "💧", "en": "in the water" }, { "e": "🌳", "en": "in a tree" }, { "e": "☁️", "en": "in the clouds" } ] },
+    { "prompt_en": "Which one can hop?", "prompt_ko": "폴짝폴짝 뛸 수 있는 건 누구야?", "options": [ { "e": "🐸", "en": "a frog" }, { "e": "🐌", "en": "a snail" }, { "e": "🐟", "en": "a fish" } ] },
+    { "prompt_en": "The tadpole is growing legs. What do you say?", "prompt_ko": "올챙이한테 다리가 생기고 있어. 뭐라고 해?", "options": [ { "e": "😲", "en": "It's changing!" }, { "e": "😴", "en": "I'm sleepy." }, { "e": "🍦", "en": "Ice cream, please." } ] },
+    { "prompt_en": "What does a tadpole grow?", "prompt_ko": "올챙이한테 뭐가 자라?", "options": [ { "e": "🦵", "en": "legs" }, { "e": "🎩", "en": "a hat" }, { "e": "👓", "en": "glasses" } ] },
+    { "prompt_en": "What does a tadpole turn into?", "prompt_ko": "올챙이는 자라서 뭐가 돼?", "options": [ { "e": "🐸", "en": "a frog" }, { "e": "🐶", "en": "a dog" }, { "e": "🦋", "en": "a butterfly" } ] },
+    { "prompt_en": "You can't see the tadpole's legs. What do you ask?", "prompt_ko": "올챙이 다리가 안 보여. 뭐라고 물어봐?", "options": [ { "e": "🤔", "en": "Where are its legs?" }, { "e": "🍌", "en": "Is it a banana?" }, { "e": "⏰", "en": "What time is it?" } ] },
+    { "prompt_en": "It has a tail. Which one has a tail?", "prompt_ko": "꼬리가 있어. 꼬리가 있는 건 어느 거야?", "options": [ { "e": "🐒", "en": "a monkey" }, { "e": "🍎", "en": "an apple" }, { "e": "⚽", "en": "a ball" } ] },
+    { "prompt_en": "A tadpole swims like a…", "prompt_ko": "올챙이는 누구처럼 헤엄쳐?", "options": [ { "e": "🐟", "en": "fish" }, { "e": "🐘", "en": "elephant" }, { "e": "🐔", "en": "chicken" } ] },
+    { "prompt_en": "You leave the pond. What do you say?", "prompt_ko": "연못을 떠날 때 뭐라고 해?", "options": [ { "e": "👋", "en": "Bye, baby frog!" }, { "e": "😋", "en": "Yummy!" }, { "e": "🎂", "en": "Happy birthday!" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Little by little.'의 뜻은?", "options": ["조금씩 조금씩.", "아주 작게.", "하나도 없이.", "조금만 더."], "explain": "천천히, 조금씩 변하거나 나아지는 것을 말하는 표현입니다." },
+    { "q": "'올챙이'는 영어로?", "options": ["tadpole", "toad", "puppy", "minnow"], "explain": "올챙이는 tadpole이고, 아이에게는 baby frog라고 풀어 말해도 됩니다." },
+    { "q": "'다리는 어디 있어?'에 알맞은 말은?", "options": ["Where are its legs?", "Where is its legs?", "Where are it legs?", "Where its legs are?"], "explain": "legs가 여러 개이므로 are를 쓰고, '그것의'는 its입니다." },
+    { "q": "'It has a tail.'에서 'has a'는 이어 말하면 어떻게 들릴까?", "options": ["해저", "해스 에이", "하즈 아", "해써"], "explain": "has의 s는 z 소리라서 a와 이어지면 '해저'처럼 들립니다." },
+    { "q": "빈칸에 알맞은 말은? — It doesn't have legs ___.", "options": ["yet", "already", "still", "ever"], "explain": "'아직 ~ 않다'는 부정문 끝에 yet을 씁니다." },
+    { "q": "빈칸에 알맞은 말은? — The tail gets ___.", "options": ["shorter", "short more", "more short", "shortest"], "explain": "'점점 짧아진다'는 get + 비교급으로 gets shorter라고 합니다." },
+    { "q": "올챙이에게 먼저 생기는 다리는?", "options": ["뒷다리 (back legs)", "앞다리 (front legs)", "네 다리가 동시에", "다리는 생기지 않는다"], "explain": "올챙이는 뒷다리가 먼저 나오고 그다음 앞다리가 나옵니다." },
+    { "q": "'It's changing!'을 쓰기에 알맞은 상황은?", "options": ["신호등이 초록불로 바뀌는 중일 때", "장난감을 잃어버렸을 때", "음식이 너무 뜨거울 때", "친구가 넘어졌을 때"], "explain": "모양이나 색이 달라지는 것을 볼 때 It's changing!이라고 합니다." },
+    { "q": "아이가 조금씩 실력이 늘 때 해 줄 말로 알맞은 것은?", "options": ["You're getting better, little by little.", "You're getting better, little and little.", "You're getting better, a little by little.", "You're getting better, little to little."], "explain": "'조금씩'은 little by little로 굳어진 표현입니다." },
+    { "q": "'Let's leave it here.'의 뜻은?", "options": ["여기에 그대로 두자.", "여기서 떠나자.", "여기에 살자.", "여기서 잡자."], "explain": "leave + 물건 + here는 '~을 여기에 두다'라는 뜻입니다." }
+  ]
+}

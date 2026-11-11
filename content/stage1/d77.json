@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 77,
+  "topic": "science",
+  "title_en": "Echo",
+  "title_ko": "메아리",
+  "intro_ko": "산에 올라 맞은편 산을 향해 소리치며 메아리를 듣는 상황입니다. 집에서는 아이가 외친 말을 부모가 잠시 뒤 작은 소리로 따라 해 메아리 역할을 해 주세요.",
+  "expressions": [
+    { "en": "Shout hello!", "ko": "'안녕' 하고 크게 외쳐 봐!", "tip": "shout는 '크게 외치다'예요. 뒤에 외칠 말을 그대로 붙이면 됩니다(Shout your name!). shout의 t는 약하게 '샤웃 헬로우'처럼 말해요.", "who": "parent" },
+    { "en": "I heard it!", "ko": "들렸어!", "tip": "방금 소리가 들렸을 때 쓰는 말이에요. heard it이 이어져 '허딧'처럼 들립니다.", "who": "kid" },
+    { "en": "It came back!", "ko": "다시 돌아왔어!", "tip": "갔던 것이 되돌아왔을 때 쓰는 말이에요. 공, 부메랑, 메아리에 모두 쓸 수 있어요. '잇 케임백'처럼 말합니다.", "who": "kid" },
+    { "en": "Say it quietly.", "ko": "작게 말해 봐.", "tip": "작은 목소리로 말하게 할 때 써요. 반대는 Say it loudly입니다. Say it은 '세이잇'처럼 이어집니다.", "who": "parent" },
+    { "en": "Listen up.", "ko": "자, 잘 들어 봐.", "tip": "중요한 말을 하기 전에 주의를 모으는 말이에요. listen의 t는 소리가 나지 않아 '리스넙'처럼 이어집니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Listen up, buddy. This mountain can talk back.", "ko": "자, 잘 들어 봐. 이 산은 대답을 할 줄 알아." },
+    { "who": "kid", "en": "Really? Mountains can't talk!", "ko": "진짜? 산은 말 못 하잖아!" },
+    { "who": "parent", "en": "Try it. Shout hello!", "ko": "한번 해 봐. '안녕' 하고 크게 외쳐 봐!" },
+    { "who": "kid", "en": "Hello!", "ko": "안녕!", "practice": true },
+    { "who": "parent", "en": "Shh. Now wait and listen.", "ko": "쉿. 이제 기다리면서 들어 봐." },
+    { "who": "kid", "en": "I heard it! It said hello!", "ko": "들렸어! '안녕'이라고 했어!", "practice": true },
+    { "who": "parent", "en": "That's an echo. It's your own voice.", "ko": "그게 메아리야. 네 목소리란다." },
+    { "who": "kid", "en": "My voice? How?", "ko": "내 목소리? 어떻게?" },
+    { "who": "parent", "en": "Your sound hit the mountain. Then it bounced back like a ball.", "ko": "네 소리가 산에 부딪혔다가 공처럼 튕겨서 돌아온 거야." },
+    { "who": "kid", "en": "It came back!", "ko": "다시 돌아왔어!", "practice": true },
+    { "who": "parent", "en": "Right! Now say it quietly.", "ko": "맞아! 이번에는 작게 말해 봐." },
+    { "who": "kid", "en": "Hello.", "ko": "(작게) 안녕." },
+    { "who": "parent", "en": "Did you hear an echo this time?", "ko": "이번에도 메아리가 들렸어?" },
+    { "who": "kid", "en": "No. Why not?", "ko": "아니. 왜 안 들려?" },
+    { "who": "parent", "en": "A quiet sound makes a quiet echo. It's too soft to hear.", "ko": "작은 소리는 메아리도 작아. 너무 작아서 안 들리는 거야." },
+    { "who": "kid", "en": "Can I shout my name?", "ko": "내 이름 외쳐 봐도 돼?", "practice": true },
+    { "who": "parent", "en": "Sure. Make it loud!", "ko": "그럼. 크게 해 봐!" },
+    { "who": "kid", "en": "Does it work at home?", "ko": "집에서도 돼?" },
+    { "who": "parent", "en": "Not in your room. The walls are too close.", "ko": "네 방에서는 안 돼. 벽이 너무 가까워서 그래." },
+    { "who": "kid", "en": "Let's shout one more time!", "ko": "한 번만 더 외치자!", "practice": true },
+    { "who": "parent", "en": "Okay. One, two, three!", "ko": "좋아. 하나, 둘, 셋!" },
+    { "who": "kid", "en": "Goodbye, echo!", "ko": "잘 있어, 메아리야!" }
+  ],
+  "talkMore": [
+    { "en": "What do you want to shout to the mountain?", "ko": "산에 대고 뭐라고 외치고 싶어?", "sample_en": "I love rockets!", "sample_ko": "난 로켓이 좋아!" },
+    { "en": "Where else can we hear an echo?", "ko": "또 어디에서 메아리를 들을 수 있을까?", "sample_en": "In a tunnel!", "sample_ko": "터널에서!" },
+    { "en": "What is the loudest sound you know?", "ko": "네가 아는 제일 큰 소리는 뭐야?", "sample_en": "A rocket launch!", "sample_ko": "로켓 발사 소리!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a mountain?", "prompt_ko": "산은 어느 거야?", "options": [ { "e": "⛰️", "en": "mountain" }, { "e": "🏠", "en": "house" }, { "e": "🚗", "en": "car" } ] },
+    { "prompt_en": "What do you hear with?", "prompt_ko": "소리는 뭐로 들어?", "options": [ { "e": "👂", "en": "my ears" }, { "e": "👃", "en": "my nose" }, { "e": "🦶", "en": "my feet" } ] },
+    { "prompt_en": "You shout hello at the mountain. What comes back?", "prompt_ko": "산에 '안녕' 하고 외쳤어. 뭐가 돌아와?", "options": [ { "e": "👋", "en": "Hello!" }, { "e": "🍌", "en": "a banana" }, { "e": "🐶", "en": "a dog" } ] },
+    { "prompt_en": "Listen: 'Say it quietly.' Which one is quiet?", "prompt_ko": "'작게 말해 봐.' 조용한 건 어느 거야?", "options": [ { "e": "🤫", "en": "a whisper" }, { "e": "📢", "en": "a shout" }, { "e": "🥁", "en": "a drum" } ] },
+    { "prompt_en": "Which one is loud?", "prompt_ko": "소리가 큰 건 어느 거야?", "options": [ { "e": "🥁", "en": "a drum" }, { "e": "🦋", "en": "a butterfly" }, { "e": "🐌", "en": "a snail" } ] },
+    { "prompt_en": "You hear the echo. What do you say?", "prompt_ko": "메아리가 들렸어. 뭐라고 해?", "options": [ { "e": "😃", "en": "I heard it!" }, { "e": "😴", "en": "Good night." }, { "e": "🍎", "en": "An apple." } ] },
+    { "prompt_en": "The sound bounces back. Like what?", "prompt_ko": "소리가 튕겨서 돌아와. 뭐처럼?", "options": [ { "e": "⚽", "en": "a ball" }, { "e": "🥄", "en": "a spoon" }, { "e": "🧦", "en": "a sock" } ] },
+    { "prompt_en": "Someone says, 'Listen up!' What do you do?", "prompt_ko": "'잘 들어 봐!'라고 하면 어떻게 해?", "options": [ { "e": "👂", "en": "listen" }, { "e": "🏃", "en": "run away" }, { "e": "😴", "en": "sleep" } ] },
+    { "prompt_en": "Where can we hear an echo?", "prompt_ko": "메아리는 어디에서 들을 수 있어?", "options": [ { "e": "⛰️", "en": "in the mountains" }, { "e": "🛏️", "en": "in bed" }, { "e": "🛋️", "en": "on the sofa" } ] },
+    { "prompt_en": "Whose voice is the echo?", "prompt_ko": "메아리는 누구 목소리야?", "options": [ { "e": "🙋", "en": "my voice" }, { "e": "🐻", "en": "a bear" }, { "e": "👻", "en": "a ghost" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Listen up.'의 뜻은?", "options": ["자, 잘 들어 봐.", "위를 올려다봐.", "소리를 키워 줘.", "일어나서 들어."], "explain": "Listen up은 중요한 말을 하기 전에 주의를 모으는 표현입니다." },
+    { "q": "'Listen up'을 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["리스넙", "리스튼 업", "리스텐 업", "리쓴 유프"], "explain": "listen의 t는 소리가 나지 않고 n이 up과 이어져 '리스넙'이 됩니다." },
+    { "q": "메아리가 들렸을 때 '들렸어!'라고 하는 알맞은 말은?", "options": ["I heard it!", "I listened it!", "I hear it yesterday!", "I was heard it!"], "explain": "저절로 귀에 들린 것은 hear를 쓰고, 방금 일어난 일이라 과거형 heard입니다." },
+    { "q": "빈칸에 알맞은 말은? — Your sound hit the mountain. Then it ___ back like a ball.", "options": ["bounced", "threw", "kicked", "played"], "explain": "bounce back은 '튕겨서 되돌아오다'라는 뜻입니다." },
+    { "q": "'It came back!'의 뜻은?", "options": ["다시 돌아왔어!", "뒤로 넘어졌어!", "등 뒤에 있어!", "멀리 가 버렸어!"], "explain": "come back은 '되돌아오다'이고 came은 come의 과거형입니다." },
+    { "q": "'작게 말해 봐.'로 알맞은 말은?", "options": ["Say it quietly.", "Say it quiet down.", "Tell it silent.", "Speak it small."], "explain": "'작은 소리로'는 quietly로 표현합니다." },
+    { "q": "메아리가 생기는 이유로 알맞은 것은?", "options": ["소리가 산이나 단단한 벽에 부딪혀 되돌아와서", "산이 새로운 소리를 만들어 내서", "바람이 다른 사람의 소리를 실어 와서", "소리가 하늘에서 내려와서"], "explain": "메아리는 내가 낸 소리가 멀리 있는 단단한 면에 반사되어 돌아오는 것입니다." },
+    { "q": "빈칸에 알맞은 말은? — A quiet sound makes a quiet echo. It's too ___ to hear.", "options": ["soft", "loud", "hard", "heavy"], "explain": "소리가 '작다, 약하다'는 soft로 표현합니다." },
+    { "q": "'Shout hello!'의 shout과 뜻이 가장 비슷한 말은?", "options": ["yell", "whisper", "hum", "mumble"], "explain": "shout과 yell은 둘 다 '크게 소리치다'입니다. whisper는 '속삭이다'예요." },
+    { "q": "'Listen up.'은 어떤 상황에서 쓰면 좋을까?", "options": ["중요한 말을 하기 전에 아이의 주의를 모을 때", "음악 소리를 키워 달라고 할 때", "아침에 아이를 깨울 때", "조용히 하라고 혼낼 때"], "explain": "놀이 규칙이나 약속처럼 꼭 들어야 할 말을 시작할 때 쓰는 표현입니다." }
+  ]
+}

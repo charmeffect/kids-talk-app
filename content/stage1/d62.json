@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 62,
+  "topic": "science",
+  "title_en": "Day and night",
+  "title_ko": "낮과 밤",
+  "intro_ko": "해 질 무렵 창밖을 보며 낮과 밤이 왜 생기는지 이야기합니다. 불을 끄고 공(지구)에 손전등(해)을 비춘 뒤 공을 천천히 돌려 밝은 쪽과 어두운 쪽을 보여 주세요.",
+  "expressions": [
+    { "en": "Where did the sun go?", "ko": "해가 어디 갔어?", "tip": "보이던 것이 사라졌을 때 'Where did … go?'로 물어요. did the가 빠르게 이어져 '웨얼 디더 썬 고'처럼 들립니다.", "who": "kid" },
+    { "en": "It's getting dark.", "ko": "점점 어두워지네.", "tip": "It's getting + 상태는 '점점 ~해진다'는 뜻이에요(It's getting cold). getting의 tt가 부드러워져 '게링'처럼 들립니다.", "who": "both" },
+    { "en": "The Earth is spinning.", "ko": "지구가 돌고 있어.", "tip": "spin은 팽이처럼 제자리에서 도는 거예요. Earth는 모음 소리로 시작해서 The를 '디'로 읽고, Earth is는 끊지 않고 이어 말합니다.", "who": "parent" },
+    { "en": "Is it morning there?", "ko": "거긴 아침이야?", "tip": "먼 곳의 시간을 물을 때 써요. morning 대신 night, lunchtime을 넣어 보세요. Is it이 이어져 '이짓'처럼 들립니다.", "who": "kid" },
+    { "en": "Believe it or not.", "ko": "믿기 어렵겠지만. / 믿거나 말거나.", "tip": "놀라운 사실을 말하기 전후에 붙이는 표현이에요. 한 덩어리로 이어져 '빌리비러낫'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Look outside. It's getting dark.", "ko": "밖에 봐. 점점 어두워지네." },
+    { "who": "kid", "en": "Where did the sun go?", "ko": "해가 어디 갔어?", "practice": true },
+    { "who": "parent", "en": "The sun didn't go anywhere. We turned away from it.", "ko": "해는 아무 데도 안 갔어. 우리가 해를 등지고 돌아선 거야." },
+    { "who": "kid", "en": "We turned? How?", "ko": "우리가 돌았다고? 어떻게?" },
+    { "who": "parent", "en": "The Earth is spinning. It spins like a top.", "ko": "지구가 돌고 있거든. 팽이처럼 돌아." },
+    { "who": "kid", "en": "But I can't feel it!", "ko": "근데 난 안 느껴지는데!" },
+    { "who": "parent", "en": "Right. It spins so smoothly that we can't feel it.", "ko": "맞아. 아주 부드럽게 돌아서 우리는 못 느껴." },
+    { "who": "kid", "en": "Is it spinning right now?", "ko": "지금도 돌고 있어?" },
+    { "who": "parent", "en": "Yes, all the time. Believe it or not, it never stops.", "ko": "응, 항상. 믿기 어렵겠지만 절대 안 멈춰." },
+    { "who": "kid", "en": "Wow! It never stops?", "ko": "우와! 절대 안 멈춰?" },
+    { "who": "parent", "en": "Let's try it. This ball is Earth. The flashlight is the sun.", "ko": "한번 해 보자. 이 공이 지구야. 손전등은 해고." },
+    { "who": "kid", "en": "Can I spin it?", "ko": "내가 돌려 봐도 돼?", "practice": true },
+    { "who": "parent", "en": "Sure. See? This side is bright. It's daytime here.", "ko": "그럼. 보이지? 이쪽은 밝아. 여기는 낮이야." },
+    { "who": "kid", "en": "And this side is dark!", "ko": "그리고 이쪽은 어두워!", "practice": true },
+    { "who": "parent", "en": "Yes, it's night there. We live right here.", "ko": "응, 거기는 밤이야. 우리는 바로 여기 살아." },
+    { "who": "kid", "en": "What about America?", "ko": "미국은?" },
+    { "who": "parent", "en": "America is on the other side of the Earth.", "ko": "미국은 지구 반대쪽에 있어." },
+    { "who": "kid", "en": "Is it morning there?", "ko": "거긴 아침이야?", "practice": true },
+    { "who": "parent", "en": "Yes! A new day is just starting there.", "ko": "응! 거기는 이제 막 새 하루가 시작되고 있어." },
+    { "who": "kid", "en": "That's so funny!", "ko": "진짜 웃기다!" },
+    { "who": "parent", "en": "When we spin back to the sun, it's morning again.", "ko": "우리가 다시 해 쪽으로 돌아오면 또 아침이 되는 거야." },
+    { "who": "kid", "en": "Good night, Sun! See you tomorrow!", "ko": "잘 자, 해님! 내일 봐!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What do you like to do in the daytime?", "ko": "낮에는 뭐 하는 게 좋아?", "sample_en": "I like to play outside.", "sample_ko": "밖에서 노는 게 좋아." },
+    { "en": "What can you see in the sky at night?", "ko": "밤하늘에는 뭐가 보여?", "sample_en": "The moon and stars.", "sample_ko": "달이랑 별." },
+    { "en": "Why does it get dark at night?", "ko": "밤에는 왜 어두워질까?", "sample_en": "Because the Earth is spinning.", "sample_ko": "지구가 도니까." }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one makes the day bright?", "prompt_ko": "낮을 환하게 해 주는 건 어느 거야?", "options": [ { "e": "☀️", "en": "the sun" }, { "e": "🧦", "en": "a sock" }, { "e": "🍪", "en": "a cookie" } ] },
+    { "prompt_en": "The sun is gone. What do you ask?", "prompt_ko": "해가 안 보여. 뭐라고 물어봐?", "options": [ { "e": "🤔", "en": "Where did the sun go?" }, { "e": "😋", "en": "What's for lunch?" }, { "e": "🧸", "en": "Where's my bear?" } ] },
+    { "prompt_en": "What is spinning all the time?", "prompt_ko": "항상 돌고 있는 건 뭐야?", "options": [ { "e": "🌍", "en": "the Earth" }, { "e": "🛏️", "en": "my bed" }, { "e": "🏠", "en": "my house" } ] },
+    { "prompt_en": "Which one was our sun today?", "prompt_ko": "오늘 우리가 해로 쓴 건 어느 거야?", "options": [ { "e": "🔦", "en": "flashlight" }, { "e": "🥄", "en": "spoon" }, { "e": "👟", "en": "shoe" } ] },
+    { "prompt_en": "What do we do at night?", "prompt_ko": "밤에는 뭘 해?", "options": [ { "e": "😴", "en": "sleep" }, { "e": "🏫", "en": "go to school" }, { "e": "🏊", "en": "swim" } ] },
+    { "prompt_en": "Which one is round like the Earth?", "prompt_ko": "지구처럼 둥근 건 어느 거야?", "options": [ { "e": "⚽", "en": "a ball" }, { "e": "📦", "en": "a box" }, { "e": "📕", "en": "a book" } ] },
+    { "prompt_en": "The sky is turning black. What do you say?", "prompt_ko": "하늘이 까매지고 있어. 뭐라고 해?", "options": [ { "e": "🌆", "en": "It's getting dark." }, { "e": "🥵", "en": "It's too hot." }, { "e": "😋", "en": "It's yummy." } ] },
+    { "prompt_en": "You wonder about a faraway place. What do you ask?", "prompt_ko": "먼 나라가 궁금해. 뭐라고 물어봐?", "options": [ { "e": "🌅", "en": "Is it morning there?" }, { "e": "🍎", "en": "Is it an apple?" }, { "e": "🐶", "en": "Is it a dog?" } ] },
+    { "prompt_en": "The sun comes up. What time is it?", "prompt_ko": "해가 떠올라. 지금은 언제야?", "options": [ { "e": "🌅", "en": "morning" }, { "e": "🌙", "en": "night" }, { "e": "🛌", "en": "bedtime" } ] },
+    { "prompt_en": "Which one do we see at night?", "prompt_ko": "밤에 보이는 건 어느 거야?", "options": [ { "e": "🌙", "en": "the moon" }, { "e": "☀️", "en": "the sun" }, { "e": "🌈", "en": "a rainbow" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'It's getting dark.'의 뜻은?", "options": ["점점 어두워지네.", "이미 깜깜해.", "불 좀 꺼 줘.", "어두운 게 무서워."], "explain": "It's getting + 형용사는 '점점 ~해지고 있다'는 뜻입니다." },
+    { "q": "'해가 어디 갔어?'를 바르게 말한 것은?", "options": ["Where did the sun go?", "Where did the sun went?", "Where the sun did go?", "Where does the sun gone?"], "explain": "did 뒤에는 동사원형 go를 써서 Where did the sun go?라고 합니다." },
+    { "q": "오늘 대본에서 낮과 밤이 생기는 이유는?", "options": ["지구가 스스로 돌기 때문에", "해가 지구 주위를 돌아서", "해가 밤에 꺼져서", "달이 해를 가려서"], "explain": "지구가 팽이처럼 돌아서(The Earth is spinning) 해를 향한 쪽은 낮, 반대쪽은 밤이 됩니다." },
+    { "q": "'Believe it or not'은 언제 쓰는 말일까?", "options": ["믿기 어려운 사실을 말할 때", "거짓말을 꾸짖을 때", "약속을 할 때", "부탁을 거절할 때"], "explain": "'믿기 어렵겠지만 사실이야'라는 뜻으로 놀라운 사실 앞뒤에 붙입니다." },
+    { "q": "빈칸에 알맞은 말은? — The Earth is ___. It spins like a top.", "options": ["spinning", "spin", "spun", "spins"], "explain": "지금 돌고 있는 중이므로 is spinning(진행형)을 씁니다." },
+    { "q": "'getting'은 미국식으로 어떻게 들릴까?", "options": ["게링", "게팅그", "겟팅", "제팅"], "explain": "모음 사이의 tt가 부드러운 'ㄹ' 소리로 바뀌어 '게링'처럼 들립니다." },
+    { "q": "빈칸에 알맞은 말은? — It spins so smoothly that we can't ___ it.", "options": ["feel", "feeling", "felt", "feels"], "explain": "can't 뒤에는 동사원형이 오므로 can't feel it이 됩니다." },
+    { "q": "'Is it morning there?'의 뜻은?", "options": ["거긴 아침이야?", "여긴 아침이야?", "아침에 거기 가?", "아침은 거기서 먹어?"], "explain": "there는 '거기'로, 먼 곳이 지금 아침인지 묻는 말입니다." },
+    { "q": "'It never stops.'의 뜻은?", "options": ["절대 안 멈춰.", "아직 안 멈췄어.", "가끔 멈춰.", "멈추면 안 돼."], "explain": "never는 '절대 ~않다'로, It never stops.는 '절대 멈추지 않아'입니다." },
+    { "q": "'Believe it or not'을 자연스럽게 이어 말하면?", "options": ["빌리비러낫", "빌리브 잇 오어 낫", "빌리빗 올 놋", "비리브 이토낫"], "explain": "Believe it or가 이어지고 t가 부드러워져 '빌리비러낫'처럼 들립니다." }
+  ]
+}

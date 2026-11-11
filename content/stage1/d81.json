@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 81,
+  "topic": "daily",
+  "title_en": "Blanket fort",
+  "title_ko": "이불 요새 만들기",
+  "intro_ko": "비 오는 날 거실에서 이불과 의자로 요새(아지트)를 만드는 대화입니다. 의자 두 개에 이불을 걸쳐 놓고 실제로 안에 들어가서 읽으면 훨씬 재미있어요.",
+  "expressions": [
+    { "en": "Let's build a fort.", "ko": "요새(아지트) 만들자.", "tip": "이불이나 상자로 아지트를 만들자고 할 때 써요. build a가 이어져 '빌더'처럼 들립니다.", "who": "both" },
+    { "en": "Come inside.", "ko": "안으로 들어와.", "tip": "집이나 텐트 안으로 들어오라고 할 때 쓰는 말이에요. Come in보다 '안쪽으로'라는 느낌이 강하고, '커민사이드'처럼 이어집니다.", "who": "both" },
+    { "en": "It's cozy in here.", "ko": "여기 안은 아늑해.", "tip": "cozy는 따뜻하고 포근해서 기분 좋은 느낌이에요. in here는 '이 안에'라는 뜻으로, 안에 들어가 있을 때 씁니다.", "who": "both" },
+    { "en": "Don't knock it down.", "ko": "무너뜨리지 마.", "tip": "쌓아 놓은 블록이나 요새를 쳐서 쓰러뜨리지 말라는 말이에요. knock it이 이어져 '나킷 다운'처럼 들립니다.", "who": "both" },
+    { "en": "Make yourself at home.", "ko": "편하게 있어. / 네 집처럼 편히 쉬어.", "tip": "손님이 왔을 때 '편하게 계세요'라는 뜻으로 쓰는 표현이에요. Make yourself가 '메이큐어셀프'로 이어집니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "It's raining outside. Let's build a fort.", "ko": "밖에 비 온다. 우리 요새 만들자." },
+    { "who": "kid", "en": "A fort? With what?", "ko": "요새? 뭐로 만들어?" },
+    { "who": "parent", "en": "With blankets and chairs. Can you grab the pillows?", "ko": "이불이랑 의자로. 베개 좀 가져올래?" },
+    { "who": "kid", "en": "Here are the pillows!", "ko": "베개 여기 있어!" },
+    { "who": "parent", "en": "Thanks. Hold this corner for me.", "ko": "고마워. 이쪽 끝 좀 잡아 줘." },
+    { "who": "kid", "en": "Like this?", "ko": "이렇게?" },
+    { "who": "parent", "en": "Just like that. Now we have a roof.", "ko": "바로 그렇게. 이제 지붕이 생겼네." },
+    { "who": "kid", "en": "Can I go in now?", "ko": "이제 들어가도 돼?" },
+    { "who": "parent", "en": "Go slowly. Don't knock it down.", "ko": "천천히 들어가. 무너뜨리지 마." },
+    { "who": "kid", "en": "I'm in! Come inside!", "ko": "들어왔어! 안으로 들어와!", "practice": true },
+    { "who": "parent", "en": "Knock, knock. Is anybody home?", "ko": "똑똑. 누구 계세요?" },
+    { "who": "kid", "en": "Yes! Who is it?", "ko": "네! 누구세요?", "practice": true },
+    { "who": "parent", "en": "It's me. Wow, I love your fort.", "ko": "나야. 우와, 요새 정말 멋지다." },
+    { "who": "kid", "en": "It's cozy in here.", "ko": "여기 안은 아늑해.", "practice": true },
+    { "who": "parent", "en": "It really is. It's so warm.", "ko": "정말 그러네. 아주 따뜻해." },
+    { "who": "kid", "en": "Why is it so warm?", "ko": "왜 이렇게 따뜻해?" },
+    { "who": "parent", "en": "The blankets keep our warm air inside.", "ko": "이불이 우리의 따뜻한 공기를 안에 가둬 주거든." },
+    { "who": "kid", "en": "This is my teddy bear's house, too.", "ko": "여기는 내 곰 인형 집이기도 해." },
+    { "who": "parent", "en": "Hello, Teddy. Make yourself at home.", "ko": "안녕, 곰돌아. 편하게 있어." },
+    { "who": "kid", "en": "Can we read a book here?", "ko": "여기서 책 읽어도 돼?", "practice": true },
+    { "who": "parent", "en": "Good idea. I'll get the flashlight.", "ko": "좋은 생각이야. 손전등 가져올게." },
+    { "who": "kid", "en": "Hurry! Don't knock it down!", "ko": "빨리 와! 무너뜨리지 마!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What do you want to do in the fort?", "ko": "요새 안에서 뭐 하고 싶어?", "sample_en": "Eat snacks!", "sample_ko": "간식 먹을래!" },
+    { "en": "Who do you want to invite to your fort?", "ko": "요새에 누구를 초대하고 싶어?", "sample_en": "My teddy bear.", "sample_ko": "내 곰 인형." },
+    { "en": "What should we name our fort?", "ko": "우리 요새 이름을 뭐라고 지을까?", "sample_en": "The Rocket Fort!", "sample_ko": "로켓 요새!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "What did we use to build the fort?", "prompt_ko": "요새는 뭐로 만들었지?", "options": [ { "e": "🪑", "en": "chairs" }, { "e": "🍌", "en": "bananas" }, { "e": "🚗", "en": "cars" } ] },
+    { "prompt_en": "Your friend is at the door. What do you say?", "prompt_ko": "친구가 문 앞에 있어. 뭐라고 해?", "options": [ { "e": "🚪", "en": "Come inside." }, { "e": "😴", "en": "Good night." }, { "e": "🍎", "en": "An apple." } ] },
+    { "prompt_en": "It's dark in the fort. What do we need?", "prompt_ko": "요새 안이 어두워. 뭐가 필요해?", "options": [ { "e": "🔦", "en": "a flashlight" }, { "e": "🥄", "en": "a spoon" }, { "e": "👟", "en": "a shoe" } ] },
+    { "prompt_en": "Listen: 'It's cozy in here.' How do you feel?", "prompt_ko": "잘 들어 봐: 'It's cozy in here.' 어떤 기분일까?", "options": [ { "e": "😊", "en": "warm and happy" }, { "e": "😡", "en": "angry" }, { "e": "😨", "en": "scared" } ] },
+    { "prompt_en": "Your friend built a tall tower. What do you say to others?", "prompt_ko": "친구가 높은 탑을 쌓았어. 다른 친구들한테 뭐라고 해?", "options": [ { "e": "✋", "en": "Don't knock it down." }, { "e": "👋", "en": "Bye-bye." }, { "e": "😋", "en": "I'm hungry." } ] },
+    { "prompt_en": "Why did we play inside today?", "prompt_ko": "오늘 왜 집 안에서 놀았지?", "options": [ { "e": "🌧️", "en": "It's raining." }, { "e": "☀️", "en": "It's sunny." }, { "e": "🌙", "en": "It's night." } ] },
+    { "prompt_en": "Who lives in the fort, too?", "prompt_ko": "요새에 또 누가 살아?", "options": [ { "e": "🧸", "en": "teddy bear" }, { "e": "🐘", "en": "elephant" }, { "e": "🐟", "en": "fish" } ] },
+    { "prompt_en": "Someone knocks on the door. What do you ask?", "prompt_ko": "누가 문을 두드려. 뭐라고 물어봐?", "options": [ { "e": "🤔", "en": "Who is it?" }, { "e": "🎂", "en": "Happy birthday!" }, { "e": "😢", "en": "I'm sad." } ] },
+    { "prompt_en": "What do we want to do in the fort?", "prompt_ko": "요새 안에서 뭘 하고 싶다고 했지?", "options": [ { "e": "📖", "en": "read a book" }, { "e": "🏊", "en": "swim" }, { "e": "🚲", "en": "ride a bike" } ] },
+    { "prompt_en": "Which one keeps you warm?", "prompt_ko": "어느 것이 따뜻하게 해 줄까?", "options": [ { "e": "🧣", "en": "a scarf" }, { "e": "🧊", "en": "ice" }, { "e": "🍦", "en": "ice cream" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'It's cozy in here.'의 뜻은?", "options": ["여기 안은 아늑해.", "여기 안은 너무 좁아.", "여기 안은 지저분해.", "여기 안은 시끄러워."], "explain": "cozy는 따뜻하고 포근해서 기분 좋은 상태를 말합니다." },
+    { "q": "'Make yourself at home.'은 언제 쓰는 말일까?", "options": ["손님에게 편하게 있으라고 할 때", "집을 직접 지으라고 할 때", "집에 빨리 가라고 할 때", "집을 치우라고 할 때"], "explain": "'네 집처럼 편히 있어'라는 뜻으로 손님을 맞이할 때 쓰는 표현입니다." },
+    { "q": "아이가 쌓은 블록을 동생이 건드리려 할 때 '무너뜨리지 마'는?", "options": ["Don't knock it down.", "Don't knock it out.", "Don't fall it down.", "Don't break down it."], "explain": "쳐서 쓰러뜨리는 것은 knock down이고, it은 가운데에 넣어 knock it down이라고 합니다." },
+    { "q": "빈칸에 알맞은 말은? — Let's ___ a fort.", "options": ["build", "do", "cook", "draw"], "explain": "요새나 집을 '짓다, 만들다'는 build를 씁니다." },
+    { "q": "'knock it down'을 자연스럽게 이어 말하면?", "options": ["나킷 다운", "크노크 잇 다운", "노크 이트 다운", "나크 아이트 다운"], "explain": "knock의 k는 소리가 나지 않고 it과 이어져 '나킷 다운'처럼 들립니다." },
+    { "q": "빈칸에 알맞은 말은? — Knock, knock. Is ___ home?", "options": ["anybody", "nobody", "everything", "anything"], "explain": "'누구 있어요?'는 Is anybody home?이라고 합니다." },
+    { "q": "'이쪽 끝 좀 잡아 줘'라고 할 때 알맞은 말은?", "options": ["Hold this corner for me.", "Catch this corner to me.", "Take this corner of me.", "Hang this corner at me."], "explain": "움직이지 않게 잡고 있는 것은 hold이고, '나 대신'은 for me입니다." },
+    { "q": "문 두드리는 소리에 '누구세요?'라고 묻는 자연스러운 말은?", "options": ["Who is it?", "Who are you?", "Who is that person?", "Who do you?"], "explain": "문 밖의 사람이 누구인지 물을 때는 Who is it?을 씁니다. Who are you?는 무례하게 들릴 수 있어요." },
+    { "q": "'Come inside.'와 뜻이 가장 가까운 말은?", "options": ["Come in.", "Come on.", "Come back.", "Come over there."], "explain": "Come inside와 Come in은 둘 다 '안으로 들어와'라는 뜻입니다." },
+    { "q": "빈칸에 알맞은 말은? — The blankets ___ our warm air inside.", "options": ["keep", "stay", "put on", "look"], "explain": "'keep + 대상 + inside'는 '~을 안에 그대로 두다'라는 뜻입니다." }
+  ]
+}

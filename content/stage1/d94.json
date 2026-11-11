@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 94,
+  "topic": "planes",
+  "title_en": "Finding our seats",
+  "title_ko": "우리 자리 찾기",
+  "intro_ko": "비행기에 타서 탑승권을 보고 자리를 찾아 앉는 놀이입니다. 의자 두세 개를 나란히 놓고 종이에 좌석 번호를 적어 탑승권을 만든 뒤, 통로를 걸어 자리를 찾아가 보세요.",
+  "expressions": [
+    { "en": "Where's our seat?", "ko": "우리 자리는 어디야?", "tip": "비행기, 기차, 영화관에서 자리를 찾을 때 써요. Where's our가 이어져 '웨어자워'처럼 들립니다.", "who": "both" },
+    { "en": "It's by the window.", "ko": "창가에 있어.", "tip": "by는 '~ 바로 옆에'라는 뜻이에요. 창가 자리는 window seat, 통로 자리는 aisle seat(아일 싯)이라고 합니다.", "who": "parent" },
+    { "en": "Excuse me.", "ko": "실례합니다. / 잠깐 지나갈게요.", "tip": "지나가야 하거나 모르는 사람에게 말을 걸 때 써요. '익스큐즈미'로 한 번에 이어 말합니다.", "who": "both" },
+    { "en": "Sit down, please.", "ko": "앉아 주세요.", "tip": "please를 붙이면 부드러운 부탁이 돼요. Sit의 t는 거의 들리지 않아 '싯다운'처럼 말합니다.", "who": "both" },
+    { "en": "Scoot over.", "ko": "옆으로 좀 가 줘.", "tip": "앉은 채로 옆으로 조금 옮겨 자리를 내 달라는 편한 말이에요. t가 부드러워져 '스쿠로버'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "We're on the plane! Here are our tickets.", "ko": "비행기에 탔다! 여기 우리 표야." },
+    { "who": "kid", "en": "Where's our seat?", "ko": "우리 자리는 어디야?", "practice": true },
+    { "who": "parent", "en": "Let's see. Row twelve. Keep walking.", "ko": "어디 보자. 12번 줄이네. 계속 걸어가." },
+    { "who": "kid", "en": "Ten, eleven, twelve! Here!", "ko": "십, 십일, 십이! 여기다!" },
+    { "who": "parent", "en": "Good job. That's our row.", "ko": "잘했어. 거기가 우리 줄이야." },
+    { "who": "kid", "en": "Which seat is mine?", "ko": "어느 자리가 내 거야?", "practice": true },
+    { "who": "parent", "en": "It's by the window.", "ko": "창가 자리야." },
+    { "who": "kid", "en": "Yay! I can see the wing!", "ko": "야호! 날개가 보여!" },
+    { "who": "parent", "en": "Oh, someone is in the way. Say, 'Excuse me.'", "ko": "어, 누가 길을 막고 있네. '실례합니다' 해 봐." },
+    { "who": "kid", "en": "Excuse me.", "ko": "실례합니다.", "practice": true },
+    { "who": "parent", "en": "Nice manners. Now sit down, please.", "ko": "예의 바르네. 이제 앉으세요." },
+    { "who": "kid", "en": "Where will you sit?", "ko": "엄마(아빠)는 어디 앉아?" },
+    { "who": "parent", "en": "Right next to you. Scoot over a little.", "ko": "바로 네 옆에. 옆으로 조금만 가 줘." },
+    { "who": "kid", "en": "Okay. Is this good?", "ko": "알았어. 이 정도면 돼?" },
+    { "who": "parent", "en": "Perfect. Where does your backpack go?", "ko": "딱 좋아. 가방은 어디에 두지?" },
+    { "who": "kid", "en": "Under the seat!", "ko": "의자 밑에!", "practice": true },
+    { "who": "parent", "en": "Right. Now buckle up.", "ko": "맞아. 이제 안전벨트 매자." },
+    { "who": "kid", "en": "Click! When do we take off?", "ko": "찰칵! 언제 출발해?" },
+    { "who": "parent", "en": "Soon. Everyone has to sit down first.", "ko": "곧. 먼저 모두 자리에 앉아야 해." },
+    { "who": "kid", "en": "Sit down, please, everybody!", "ko": "여러분, 모두 앉아 주세요!", "practice": true },
+    { "who": "parent", "en": "Ha! You sound like a flight attendant.", "ko": "하하! 꼭 승무원 같네." },
+    { "who": "kid", "en": "Look! We're moving!", "ko": "봐! 움직인다!" }
+  ],
+  "talkMore": [
+    { "en": "Do you like the window seat? Why?", "ko": "창가 자리가 좋아? 왜?", "sample_en": "Yes! I can see clouds.", "sample_ko": "응! 구름이 보이잖아." },
+    { "en": "What can you see from the plane window?", "ko": "비행기 창문으로 뭐가 보일까?", "sample_en": "The wing and the sky.", "sample_ko": "날개랑 하늘." },
+    { "en": "What do you want to do on the plane?", "ko": "비행기에서 뭐 하고 싶어?", "sample_en": "Eat a snack!", "sample_ko": "간식 먹을래!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a seat?", "prompt_ko": "자리(의자)는 어느 거야?", "options": [ { "e": "💺", "en": "seat" }, { "e": "🛏️", "en": "bed" }, { "e": "🚪", "en": "door" } ] },
+    { "prompt_en": "You need to get by someone. What do you say?", "prompt_ko": "누가 길을 막고 있어. 지나가려면 뭐라고 해?", "options": [ { "e": "🙂", "en": "Excuse me." }, { "e": "😴", "en": "Good night." }, { "e": "😋", "en": "It's yummy." } ] },
+    { "prompt_en": "Where is our seat?", "prompt_ko": "우리 자리는 어디에 있지?", "options": [ { "e": "🪟", "en": "by the window" }, { "e": "🌳", "en": "in a tree" }, { "e": "🛁", "en": "in the bath" } ] },
+    { "prompt_en": "What do we need to get on the plane?", "prompt_ko": "비행기에 타려면 뭐가 필요해?", "options": [ { "e": "🎫", "en": "a ticket" }, { "e": "🥄", "en": "a spoon" }, { "e": "🧦", "en": "a sock" } ] },
+    { "prompt_en": "Where does the backpack go?", "prompt_ko": "가방은 어디에 두지?", "options": [ { "e": "💺", "en": "under the seat" }, { "e": "☁️", "en": "on a cloud" }, { "e": "🧢", "en": "on my head" } ] },
+    { "prompt_en": "Which one is a backpack?", "prompt_ko": "배낭은 어느 거야?", "options": [ { "e": "🎒", "en": "backpack" }, { "e": "👟", "en": "shoe" }, { "e": "☂️", "en": "umbrella" } ] },
+    { "prompt_en": "You want everyone to sit. What do you say?", "prompt_ko": "모두 앉으라고 하고 싶어. 뭐라고 해?", "options": [ { "e": "💺", "en": "Sit down, please." }, { "e": "🏃", "en": "Run fast!" }, { "e": "👋", "en": "Bye-bye." } ] },
+    { "prompt_en": "Which one flies in the sky?", "prompt_ko": "하늘을 나는 건 어느 거야?", "options": [ { "e": "✈️", "en": "airplane" }, { "e": "🚢", "en": "ship" }, { "e": "🚜", "en": "tractor" } ] },
+    { "prompt_en": "The plane is up in the sky. What is outside the window?", "prompt_ko": "비행기가 하늘에 떠 있어. 창밖에 뭐가 있을까?", "options": [ { "e": "☁️", "en": "clouds" }, { "e": "🐠", "en": "fish" }, { "e": "🦖", "en": "a dinosaur" } ] },
+    { "prompt_en": "What do we do before the plane takes off?", "prompt_ko": "비행기가 뜨기 전에 뭘 해야 해?", "options": [ { "e": "💺", "en": "sit and buckle up" }, { "e": "💃", "en": "dance" }, { "e": "⚽", "en": "play soccer" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Scoot over.'는 어떤 뜻일까?", "options": ["옆으로 좀 가 줘.", "빨리 뛰어가.", "스쿠터를 타.", "저리 치워."], "explain": "앉은 자리에서 옆으로 조금 옮겨 공간을 내 달라는 편한 표현입니다." },
+    { "q": "'창가에 있어'를 영어로 하면?", "options": ["It's by the window.", "It's in the window.", "It's to the window.", "It's with the window."], "explain": "'~ 바로 옆에'는 by를 써서 by the window라고 합니다." },
+    { "q": "빈칸에 알맞은 말은? — Oh, someone is ___ the way.", "options": ["in", "on", "at", "by"], "explain": "in the way는 '길을 막고 있는'이라는 뜻입니다. on the way는 '가는 중'입니다." },
+    { "q": "비행기에서 '통로 자리'는 영어로 무엇일까?", "options": ["aisle seat", "road seat", "hall seat", "way seat"], "explain": "통로 자리는 aisle seat이고 aisle은 s가 소리 나지 않아 '아일'이라고 읽습니다." },
+    { "q": "'Scoot over.'를 쓰기에 가장 알맞은 상황은?", "options": ["소파에 앉으려는데 아이가 가운데 앉아 있을 때", "아이가 너무 느리게 걸을 때", "아이가 장난감을 어질러 놓았을 때", "아이가 큰 소리로 떠들 때"], "explain": "앉아 있는 사람에게 옆으로 조금 비켜 달라고 할 때 쓰는 말입니다." },
+    { "q": "'Scoot over'를 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["스쿠로버", "스쿠트 오버", "스콧 오버", "스쿠토우버"], "explain": "모음 사이의 t가 부드러운 'ㄹ' 소리로 바뀌어 '스쿠로버'처럼 들립니다." },
+    { "q": "'Excuse me.'를 쓰기에 알맞지 않은 상황은?", "options": ["선물을 받고 고마울 때", "사람들 사이를 지나가야 할 때", "모르는 사람에게 길을 물을 때", "승무원을 부를 때"], "explain": "고마울 때는 Thank you.를 씁니다. Excuse me.는 지나가거나 말을 걸 때 씁니다." },
+    { "q": "빈칸에 알맞은 말은? — Right next ___ you.", "options": ["to", "at", "of", "with"], "explain": "'~ 바로 옆에'는 next to입니다." },
+    { "q": "'You sound like a flight attendant.'의 뜻은?", "options": ["꼭 승무원처럼 말하네.", "승무원 소리가 들려.", "승무원이 너를 좋아해.", "승무원한테 물어봐."], "explain": "sound like는 '말하는 것이 ~ 같다'라는 뜻입니다." },
+    { "q": "'우리 자리는 어디야?'를 영어로 하면?", "options": ["Where's our seat?", "Where our seat is?", "Where's we seat?", "What's our seat?"], "explain": "'우리의'는 our이고, 장소를 물으므로 Where's our seat?이 됩니다." }
+  ]
+}

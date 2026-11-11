@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 72,
+  "topic": "science",
+  "title_en": "Wind",
+  "title_ko": "바람",
+  "intro_ko": "바람 부는 날 연을 날리러 나간 상황입니다. 집에서는 부채나 선풍기로 바람을 만들어 얼굴에 느껴 보게 하고, 모자를 날리는 시늉을 해 보세요.",
+  "expressions": [
+    { "en": "It's so windy!", "ko": "바람이 엄청 불어!", "tip": "바람이 많이 부는 날 쓰는 말이에요. so를 길게 힘주어 말하면 느낌이 살아납니다.", "who": "both" },
+    { "en": "Where does the wind come from?", "ko": "바람은 어디서 와?", "tip": "어디서 오는지 궁금할 때 'Where does … come from?'으로 물어요. come from은 '컴프럼'으로 이어집니다.", "who": "kid" },
+    { "en": "I can feel it.", "ko": "느껴져.", "tip": "눈에 안 보여도 피부로 느껴질 때 써요. feel it은 이어서 '필릿'처럼 들립니다.", "who": "kid" },
+    { "en": "My hat blew away!", "ko": "내 모자가 날아갔어!", "tip": "blew는 blow(불다)의 과거형이에요. blew away는 이어서 '블루어웨이'처럼 말합니다.", "who": "kid" },
+    { "en": "Hold on to your hat.", "ko": "모자 꽉 잡아. / 놀랄 준비 해.", "tip": "바람 불 때 모자를 잡으라는 말이지만, 깜짝 놀랄 일이 생기기 전에 '각오해!'라는 뜻으로도 써요. Hold on to는 '홀돈투'로 이어집니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Let's go fly your kite, buddy.", "ko": "우리 연 날리러 가자." },
+    { "who": "kid", "en": "Whoa! It's so windy!", "ko": "우와! 바람이 엄청 불어!", "practice": true },
+    { "who": "parent", "en": "It sure is. Hold on to your hat.", "ko": "정말 그러네. 모자 꽉 잡아." },
+    { "who": "kid", "en": "Too late! My hat blew away!", "ko": "늦었어! 내 모자가 날아갔어!", "practice": true },
+    { "who": "parent", "en": "Quick, catch it! It's by the bench.", "ko": "얼른 잡아! 벤치 옆에 있어." },
+    { "who": "kid", "en": "Got it! Bad wind!", "ko": "잡았다! 나쁜 바람!" },
+    { "who": "parent", "en": "Ha! Good catch. Hold it tight this time.", "ko": "하하! 잘 잡았어. 이번엔 꽉 잡고 있어." },
+    { "who": "kid", "en": "Where does the wind come from?", "ko": "바람은 어디서 와?", "practice": true },
+    { "who": "parent", "en": "Good question. Wind is air that's moving.", "ko": "좋은 질문이야. 바람은 움직이는 공기야." },
+    { "who": "kid", "en": "But I can't see air.", "ko": "근데 공기는 안 보이는데." },
+    { "who": "parent", "en": "Right, but you can feel it on your face.", "ko": "맞아, 그래도 얼굴로 느낄 수 있지." },
+    { "who": "kid", "en": "I can feel it. It tickles!", "ko": "느껴져. 간지러워!", "practice": true },
+    { "who": "parent", "en": "The sun warms the air, and warm air goes up.", "ko": "해가 공기를 데우면 따뜻한 공기는 위로 올라가." },
+    { "who": "kid", "en": "Then what happens?", "ko": "그다음엔 어떻게 돼?" },
+    { "who": "parent", "en": "Cooler air rushes in to take its place. That's wind.", "ko": "그 자리로 시원한 공기가 밀려 들어와. 그게 바람이야." },
+    { "who": "kid", "en": "So the sun makes the wind?", "ko": "그럼 해가 바람을 만드는 거야?" },
+    { "who": "parent", "en": "Pretty much! You got it.", "ko": "거의 맞아! 잘 이해했네." },
+    { "who": "kid", "en": "Look! The leaves are dancing.", "ko": "봐! 나뭇잎이 춤춰." },
+    { "who": "parent", "en": "The wind is pushing them. It'll push your kite, too.", "ko": "바람이 밀고 있는 거야. 네 연도 밀어 줄 거야." },
+    { "who": "kid", "en": "Can I fly it now?", "ko": "이제 날려도 돼?" },
+    { "who": "parent", "en": "Yes! Run and let out the string.", "ko": "그럼! 달리면서 줄을 풀어 봐." },
+    { "who": "kid", "en": "It's going up! So high!", "ko": "올라간다! 엄청 높아!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What can the wind move?", "ko": "바람은 뭘 움직일 수 있을까?", "sample_en": "Leaves and my kite!", "sample_ko": "나뭇잎이랑 내 연!" },
+    { "en": "How can we make wind at home?", "ko": "집에서 바람을 어떻게 만들 수 있을까?", "sample_en": "With a fan!", "sample_ko": "선풍기로!" },
+    { "en": "What do you like to do on a windy day?", "ko": "바람 부는 날엔 뭐 하는 게 좋아?", "sample_en": "Fly a kite!", "sample_ko": "연 날리기!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one flies in the wind?", "prompt_ko": "바람을 타고 나는 건 어느 거야?", "options": [ { "e": "🪁", "en": "a kite" }, { "e": "🧱", "en": "a brick" }, { "e": "🏠", "en": "a house" } ] },
+    { "prompt_en": "What blew away in the wind?", "prompt_ko": "바람에 뭐가 날아갔지?", "options": [ { "e": "🧢", "en": "my hat" }, { "e": "👟", "en": "my shoes" }, { "e": "📚", "en": "my books" } ] },
+    { "prompt_en": "What is wind?", "prompt_ko": "바람은 뭘까?", "options": [ { "e": "💨", "en": "moving air" }, { "e": "💧", "en": "falling water" }, { "e": "🔥", "en": "hot fire" } ] },
+    { "prompt_en": "The wind is very strong. What do you say?", "prompt_ko": "바람이 아주 세게 불어. 뭐라고 해?", "options": [ { "e": "🌬️", "en": "It's so windy!" }, { "e": "☀️", "en": "It's so hot!" }, { "e": "🌙", "en": "Good night!" } ] },
+    { "prompt_en": "What warms the air?", "prompt_ko": "공기를 따뜻하게 데우는 건 뭐야?", "options": [ { "e": "☀️", "en": "the sun" }, { "e": "🧊", "en": "ice" }, { "e": "⛄", "en": "a snowman" } ] },
+    { "prompt_en": "The wind touches your face. What do you say?", "prompt_ko": "바람이 얼굴에 닿아. 뭐라고 해?", "options": [ { "e": "😊", "en": "I can feel it." }, { "e": "😋", "en": "I can eat it." }, { "e": "📖", "en": "I can read it." } ] },
+    { "prompt_en": "Which one needs wind to go?", "prompt_ko": "바람이 있어야 가는 건 어느 거야?", "options": [ { "e": "⛵", "en": "a sailboat" }, { "e": "🚲", "en": "a bike" }, { "e": "🚌", "en": "a bus" } ] },
+    { "prompt_en": "What is dancing in the wind?", "prompt_ko": "바람에 춤추는 건 뭐야?", "options": [ { "e": "🍂", "en": "leaves" }, { "e": "🏢", "en": "buildings" }, { "e": "🚂", "en": "trains" } ] },
+    { "prompt_en": "Your hat is flying away! What do you do?", "prompt_ko": "모자가 날아가! 어떻게 해?", "options": [ { "e": "🏃", "en": "Catch it!" }, { "e": "😴", "en": "Go to sleep." }, { "e": "🍽️", "en": "Eat lunch." } ] },
+    { "prompt_en": "Listen: 'Hold on to your hat.' What do you hold?", "prompt_ko": "잘 들어 봐: 'Hold on to your hat.' 뭘 잡아야 해?", "options": [ { "e": "🧢", "en": "your hat" }, { "e": "🥄", "en": "your spoon" }, { "e": "🧦", "en": "your socks" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Hold on to your hat.'을 비유적으로 쓰면 어떤 뜻일까?", "options": ["놀랄 준비 해.", "모자를 벗어.", "조용히 해.", "천천히 가."], "explain": "깜짝 놀랄 일이나 신나는 일이 곧 시작될 때 '각오해'라는 뜻으로 씁니다." },
+    { "q": "'바람은 어디서 와?'를 영어로 바르게 말하면?", "options": ["Where does the wind come from?", "Where is the wind come from?", "Where the wind comes from?", "Where does the wind comes from?"], "explain": "does 뒤에는 동사 원형 come을 써서 Where does … come from?이라고 묻습니다." },
+    { "q": "빈칸에 알맞은 말은? — My hat ___ away!", "options": ["blew", "blowed", "blown", "blewed"], "explain": "blow의 과거형은 blew입니다." },
+    { "q": "'Hold on to'를 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["홀돈투", "홀드 온 투", "호울드 언트", "홀튼"], "explain": "Hold의 d가 on과 이어져 '홀돈투'처럼 들립니다." },
+    { "q": "'I can feel it.'의 뜻은?", "options": ["느껴져.", "채울 수 있어.", "기분이 좋아.", "만질 수 없어."], "explain": "feel은 '(피부나 몸으로) 느끼다'라는 뜻입니다." },
+    { "q": "빈칸에 알맞은 말은? — Wind is air that's ___.", "options": ["moving", "move", "moved", "moves"], "explain": "that's(that is) 뒤이므로 moving을 써서 '움직이고 있는 공기'가 됩니다." },
+    { "q": "'Good catch.'는 대본에서 어떤 뜻일까?", "options": ["잘 잡았어.", "잘 던졌어.", "잘 숨었어.", "조심해."], "explain": "날아가는 것을 잘 잡았을 때 칭찬하는 말입니다." },
+    { "q": "'바람이 엄청 불어!'를 영어로 말하면?", "options": ["It's so windy!", "It's so wind!", "It's so winding!", "It's many wind!"], "explain": "wind의 형용사 windy를 써서 It's so windy!라고 합니다." },
+    { "q": "빈칸에 알맞은 말은? — Cooler air rushes in to take its ___.", "options": ["place", "seat", "room", "turn"], "explain": "take its place는 '그 자리를 대신 채우다'라는 뜻입니다." },
+    { "q": "'Pretty much!'의 뜻은?", "options": ["거의 맞아!", "아주 예뻐!", "너무 많아!", "전혀 아니야!"], "explain": "Pretty much는 '거의 그런 셈이야'라고 맞장구칠 때 씁니다." }
+  ]
+}

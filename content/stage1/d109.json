@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 109,
+  "topic": "planes",
+  "title_en": "Picking up our bags",
+  "title_ko": "공항에서 짐 찾기",
+  "intro_ko": "비행기에서 내려 수하물 찾는 곳에서 우리 가방을 기다리는 장면입니다. 식탁 둘레에 가방과 인형 여러 개를 놓고 천천히 돌리면서 '우리 가방'을 찾는 놀이로 해 보세요.",
+  "expressions": [
+    { "en": "Where's our bag?", "ko": "우리 가방 어디 있어?", "tip": "물건을 찾을 때 쓰는 Where's …?에 our(우리의)를 붙였어요. Where's our가 이어져 '웨어자워'처럼 들립니다.", "who": "kid" },
+    { "en": "Is that ours?", "ko": "저거 우리 거야?", "tip": "ours는 '우리 것'이에요. mine(내 것), yours(네 것)와 함께 알려 주세요. '아워즈'로 발음합니다.", "who": "both" },
+    { "en": "That's not ours.", "ko": "그건 우리 게 아니야.", "tip": "남의 물건을 만지려 할 때도 쓸 수 있는 말이에요. not을 조금 힘주어 말하면 뜻이 분명해집니다.", "who": "both" },
+    { "en": "There it is!", "ko": "저기 있다!", "tip": "찾던 것을 발견했을 때 외치는 말이에요. 물건을 건네줄 때 쓰는 Here it is(여기 있어)와 구별해요. 이어서 '데어리리즈'처럼 들립니다.", "who": "both" },
+    { "en": "At last!", "ko": "드디어!", "tip": "오래 기다린 일이 마침내 이루어졌을 때 쓰는 말로 Finally!와 같은 뜻이에요. 붙여서 '앳래스트'처럼 말하고 last에 힘을 줍니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "We're off the plane. Now let's get our bag.", "ko": "비행기에서 내렸네. 이제 우리 가방 찾으러 가자." },
+    { "who": "kid", "en": "Where's our bag?", "ko": "우리 가방 어디 있어?", "practice": true },
+    { "who": "parent", "en": "It's coming out on that big belt.", "ko": "저기 큰 벨트 위로 나올 거야." },
+    { "who": "kid", "en": "Why is it going around?", "ko": "왜 빙글빙글 돌아?" },
+    { "who": "parent", "en": "So everyone can find their bags.", "ko": "모두가 자기 가방을 찾을 수 있게." },
+    { "who": "kid", "en": "How did our bag get here?", "ko": "우리 가방은 어떻게 여기 왔어?" },
+    { "who": "parent", "en": "It rode in the bottom of the plane.", "ko": "비행기 아래쪽 짐칸에 타고 왔지." },
+    { "who": "kid", "en": "Is that ours?", "ko": "저거 우리 거야?", "practice": true },
+    { "who": "parent", "en": "No. That's not ours. Ours is blue.", "ko": "아니. 그건 우리 게 아니야. 우리 건 파란색이야." },
+    { "who": "kid", "en": "That one is blue!", "ko": "저거 파란색이야!" },
+    { "who": "parent", "en": "Good eyes, but ours has a red tag.", "ko": "잘 봤네, 그런데 우리 건 빨간 이름표가 달려 있어." },
+    { "who": "kid", "en": "That's not ours. I'm tired.", "ko": "저건 우리 게 아니네. 힘들어.", "practice": true },
+    { "who": "parent", "en": "I know. Just a little longer, buddy.", "ko": "알아. 조금만 더 기다리자." },
+    { "who": "kid", "en": "There it is! A red tag!", "ko": "저기 있다! 빨간 이름표!", "practice": true },
+    { "who": "parent", "en": "Yes, that's our bag. At last!", "ko": "맞아, 우리 가방이야. 드디어!" },
+    { "who": "kid", "en": "Can I grab it?", "ko": "내가 잡아도 돼?" },
+    { "who": "parent", "en": "It's heavy. Let's pull it off together.", "ko": "무거워. 같이 끌어 내리자." },
+    { "who": "kid", "en": "One, two, three, pull!", "ko": "하나, 둘, 셋, 당겨!" },
+    { "who": "parent", "en": "Got it! Thanks for your help.", "ko": "됐다! 도와줘서 고마워." },
+    { "who": "kid", "en": "Can I pull the bag?", "ko": "내가 가방 끌어도 돼?", "practice": true },
+    { "who": "parent", "en": "Sure. Hold the handle and roll it.", "ko": "그럼. 손잡이를 잡고 굴려 봐." },
+    { "who": "kid", "en": "Where are we going now?", "ko": "이제 어디 가?" },
+    { "who": "parent", "en": "Outside. Let's go find a taxi.", "ko": "밖으로. 택시 타러 가자." },
+    { "who": "kid", "en": "Let's go!", "ko": "가자!" }
+  ],
+  "talkMore": [
+    { "en": "What color is our bag?", "ko": "우리 가방은 무슨 색이야?", "sample_en": "It's blue.", "sample_ko": "파란색이야." },
+    { "en": "What did you pack in your bag?", "ko": "네 가방에는 뭘 챙겼어?", "sample_en": "My toys and pajamas.", "sample_ko": "장난감이랑 잠옷." },
+    { "en": "Where do you want to fly next?", "ko": "다음에는 비행기 타고 어디 가고 싶어?", "sample_en": "To the beach!", "sample_ko": "바닷가!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a travel bag?", "prompt_ko": "여행 가방은 어느 거야?", "options": [ { "e": "🧳", "en": "a suitcase" }, { "e": "🪣", "en": "a bucket" }, { "e": "🎩", "en": "a hat" } ] },
+    { "prompt_en": "You can't find your bag. What do you say?", "prompt_ko": "가방이 안 보여. 뭐라고 해?", "options": [ { "e": "🤔", "en": "Where's our bag?" }, { "e": "😋", "en": "I'm hungry." }, { "e": "🙏", "en": "Thank you." } ] },
+    { "prompt_en": "You find your bag! What do you say?", "prompt_ko": "가방을 찾았어! 뭐라고 해?", "options": [ { "e": "🤩", "en": "There it is!" }, { "e": "😢", "en": "I'm sad." }, { "e": "🤫", "en": "Be quiet." } ] },
+    { "prompt_en": "What color is the tag on our bag?", "prompt_ko": "우리 가방 이름표는 무슨 색이었지?", "options": [ { "e": "🔴", "en": "red" }, { "e": "🟢", "en": "green" }, { "e": "🟡", "en": "yellow" } ] },
+    { "prompt_en": "How did our bag get here?", "prompt_ko": "우리 가방은 뭘 타고 여기 왔지?", "options": [ { "e": "✈️", "en": "on the plane" }, { "e": "🚲", "en": "on a bike" }, { "e": "🐴", "en": "on a horse" } ] },
+    { "prompt_en": "This bag is not our bag. What do you say?", "prompt_ko": "이 가방은 우리 가방이 아니야. 뭐라고 해?", "options": [ { "e": "🙅", "en": "That's not ours." }, { "e": "🙆", "en": "That's ours." }, { "e": "😴", "en": "I'm sleepy." } ] },
+    { "prompt_en": "The bag is big and full. How does it feel?", "prompt_ko": "가방이 크고 꽉 찼어. 들면 어때?", "options": [ { "e": "🏋️", "en": "heavy" }, { "e": "🪶", "en": "very light" }, { "e": "🧊", "en": "icy" } ] },
+    { "prompt_en": "What will we ride from the airport?", "prompt_ko": "공항에서 뭘 타고 갈까?", "options": [ { "e": "🚕", "en": "a taxi" }, { "e": "🚀", "en": "a rocket" }, { "e": "🛶", "en": "a canoe" } ] },
+    { "prompt_en": "Listen: 'Let's pull it off together.' What do we do?", "prompt_ko": "잘 들어 봐: 'Let's pull it off together.' 어떻게 해?", "options": [ { "e": "🧑‍🤝‍🧑", "en": "pull together" }, { "e": "🏃", "en": "run away" }, { "e": "🛌", "en": "lie down" } ] },
+    { "prompt_en": "Where do planes land?", "prompt_ko": "비행기는 어디에 내려?", "options": [ { "e": "🛬", "en": "at the airport" }, { "e": "🏫", "en": "at school" }, { "e": "🏠", "en": "on our house" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'At last!'와 뜻이 가장 가까운 말은?", "options": ["Finally!", "At least!", "The last one!", "Lastly!"], "explain": "At last!는 오래 기다린 끝에 '드디어!'라는 뜻으로 Finally!와 같습니다. At least(적어도)와 헷갈리지 마세요." },
+    { "q": "'저거 우리 거야?'를 영어로 하면?", "options": ["Is that ours?", "Is that our?", "Is that us?", "Is that we?"], "explain": "'우리 것'은 ours입니다. our는 뒤에 명사가 와야 해요(our bag)." },
+    { "q": "찾던 가방을 발견했을 때 외치는 말은?", "options": ["There it is!", "Here you are!", "There you go!", "It is there?"], "explain": "찾던 것이 눈에 띄었을 때는 There it is!라고 합니다." },
+    { "q": "'There it is'를 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["데어리리즈", "데어 이트 이즈", "데어잇티즈", "데리즈"], "explain": "There의 r과 it이 이어지고, t가 부드러운 ㄹ 소리가 되어 '데어리리즈'처럼 들립니다." },
+    { "q": "빈칸에 알맞은 말은? — That's not ours. ___ is blue.", "options": ["Ours", "Our", "Us", "We"], "explain": "'우리 것은 파란색이야'이므로 주어 자리에 Ours를 씁니다." },
+    { "q": "'Just a little longer.'의 뜻은?", "options": ["조금만 더 기다리자.", "조금 더 길어.", "조금밖에 안 남았어.", "훨씬 더 오래 걸려."], "explain": "기다림에 지친 아이를 달랠 때 '조금만 더'라는 뜻으로 씁니다." },
+    { "q": "'Good eyes!'는 어떤 뜻의 칭찬일까?", "options": ["잘 찾았네! / 눈썰미 좋네!", "눈이 예쁘네!", "눈을 크게 떠!", "잘 자!"], "explain": "무언가를 잘 발견했을 때 '눈썰미가 좋다'고 칭찬하는 말입니다." },
+    { "q": "빈칸에 알맞은 말은? — Thanks ___ your help.", "options": ["for", "to", "of", "with"], "explain": "'~해 줘서 고마워'는 Thanks for …로 말합니다." },
+    { "q": "'At last!'를 쓰기에 알맞은 상황은?", "options": ["한 시간 기다린 버스가 드디어 왔을 때", "버스가 방금 떠나 버렸을 때", "마지막 과자를 먹었을 때", "줄의 맨 끝에 섰을 때"], "explain": "오래 기다리던 일이 마침내 이루어졌을 때 쓰는 표현입니다." },
+    { "q": "'It rode in the bottom of the plane.'에서 rode는 어떤 동사의 과거형일까?", "options": ["ride", "road", "read", "row"], "explain": "rode는 ride(타다)의 과거형으로, 가방이 비행기 짐칸에 타고 왔다는 뜻입니다." }
+  ]
+}

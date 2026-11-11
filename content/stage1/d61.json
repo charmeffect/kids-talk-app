@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 61,
+  "topic": "daily",
+  "title_en": "Good morning",
+  "title_ko": "좋은 아침",
+  "intro_ko": "아침에 아이를 깨우는 장면입니다. 실제로 커튼을 열고, 아이와 함께 팔을 쭉 뻗어 기지개를 켜면서 말해 보세요.",
+  "expressions": [
+    { "en": "Good morning!", "ko": "좋은 아침! / 잘 잤니?", "tip": "아침에 처음 만났을 때 하는 인사예요. Good의 d는 터뜨리지 않고 삼키듯 말해요. '구드 모닝'이 아니라 '굿모닝'처럼 한 번에 이어집니다.", "who": "both" },
+    { "en": "I'm still sleepy.", "ko": "아직 졸려.", "tip": "still은 '아직도'라는 뜻이에요. 아이가 일어나기 싫어할 때 이 말로 표현하게 해 주세요.", "who": "kid" },
+    { "en": "Did you sleep well?", "ko": "잘 잤어?", "tip": "아침 인사 다음에 이어 묻기 좋은 말이에요. Did you가 이어져 '디쥬 슬립 웰'처럼 들립니다.", "who": "parent" },
+    { "en": "Five more minutes!", "ko": "5분만 더!", "tip": "조금만 더 자거나 놀고 싶을 때 쓰는 말이에요. 숫자를 바꿔 'Two more minutes!'처럼 말할 수 있어요.", "who": "kid" },
+    { "en": "Rise and shine!", "ko": "일어날 시간이야! / 아침이야, 일어나!", "tip": "아침에 밝은 목소리로 깨울 때 쓰는 표현이에요. '해처럼 떠올라 빛나라'는 느낌입니다. and가 약해져 '라이즌 샤인'처럼 들려요.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Rise and shine! Good morning, sweetie!", "ko": "일어날 시간이야! 좋은 아침, 우리 아기!" },
+    { "who": "kid", "en": "Good morning!", "ko": "좋은 아침!", "practice": true },
+    { "who": "parent", "en": "Did you sleep well?", "ko": "잘 잤어?" },
+    { "who": "kid", "en": "Yes. But I'm still sleepy.", "ko": "응. 근데 아직 졸려.", "practice": true },
+    { "who": "parent", "en": "Let's open the curtains. Look, the sun is up!", "ko": "커튼 열자. 봐, 해가 떴어!" },
+    { "who": "kid", "en": "It's too bright!", "ko": "너무 눈부셔!" },
+    { "who": "parent", "en": "Time to get up, buddy.", "ko": "이제 일어날 시간이야." },
+    { "who": "kid", "en": "Five more minutes!", "ko": "5분만 더!", "practice": true },
+    { "who": "parent", "en": "Okay, five more minutes. Then we get up.", "ko": "알았어, 5분만 더. 그다음엔 일어나는 거야." },
+    { "who": "kid", "en": "Why do we get up early?", "ko": "왜 일찍 일어나야 해?" },
+    { "who": "parent", "en": "Because school starts soon. We can't be late.", "ko": "곧 유치원이 시작하니까. 늦으면 안 되잖아." },
+    { "who": "kid", "en": "Is it time now?", "ko": "이제 시간 됐어?" },
+    { "who": "parent", "en": "Yes, time's up. Give me a big stretch!", "ko": "응, 시간 다 됐어. 기지개 쭉 켜 봐!" },
+    { "who": "kid", "en": "Stretch! I'm tall like a rocket!", "ko": "쭈욱! 나 로켓처럼 길어!" },
+    { "who": "parent", "en": "Did you have a dream last night?", "ko": "어젯밤에 꿈 꿨어?" },
+    { "who": "kid", "en": "Yes! I flew a spaceship!", "ko": "응! 내가 우주선을 조종했어!", "practice": true },
+    { "who": "parent", "en": "Wow! Where did you go?", "ko": "우와! 어디로 갔어?" },
+    { "who": "kid", "en": "To the stars!", "ko": "별까지!" },
+    { "who": "parent", "en": "That sounds amazing. Are you hungry?", "ko": "정말 멋지다. 배고파?" },
+    { "who": "kid", "en": "Yes! What's for breakfast?", "ko": "응! 아침 뭐야?", "practice": true },
+    { "who": "parent", "en": "Eggs and toast. Let's wash your face first.", "ko": "달걀이랑 토스트. 먼저 세수부터 하자." },
+    { "who": "kid", "en": "Okay! I'm awake now!", "ko": "좋아! 나 이제 잠 다 깼어!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What did you dream about?", "ko": "무슨 꿈 꿨어?", "sample_en": "A big spaceship!", "sample_ko": "커다란 우주선!" },
+    { "en": "What do you want for breakfast?", "ko": "아침으로 뭐 먹고 싶어?", "sample_en": "Eggs and milk.", "sample_ko": "달걀이랑 우유." },
+    { "en": "What do you do first in the morning?", "ko": "아침에 제일 먼저 뭐 해?", "sample_en": "I wash my face.", "sample_ko": "세수해." }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "It's morning. What do you say?", "prompt_ko": "아침이야. 뭐라고 인사해?", "options": [ { "e": "🌞", "en": "Good morning!" }, { "e": "🌙", "en": "Good night." }, { "e": "👋", "en": "Bye-bye." } ] },
+    { "prompt_en": "What makes the morning bright?", "prompt_ko": "아침을 환하게 해 주는 건 뭐야?", "options": [ { "e": "☀️", "en": "the sun" }, { "e": "🧦", "en": "a sock" }, { "e": "🥄", "en": "a spoon" } ] },
+    { "prompt_en": "You want to sleep more. What do you say?", "prompt_ko": "더 자고 싶어. 뭐라고 해?", "options": [ { "e": "😴", "en": "I'm still sleepy." }, { "e": "😋", "en": "I'm hungry." }, { "e": "🥶", "en": "I'm cold." } ] },
+    { "prompt_en": "Where do you sleep?", "prompt_ko": "어디에서 자?", "options": [ { "e": "🛏️", "en": "bed" }, { "e": "🚗", "en": "car" }, { "e": "🛁", "en": "bathtub" } ] },
+    { "prompt_en": "You want a little more time. What do you say?", "prompt_ko": "시간이 조금만 더 필요해. 뭐라고 해?", "options": [ { "e": "🖐️", "en": "Five more minutes!" }, { "e": "🎁", "en": "This is for you." }, { "e": "🚀", "en": "Blast off!" } ] },
+    { "prompt_en": "Which one can we eat for breakfast?", "prompt_ko": "아침으로 먹을 수 있는 건 어느 거야?", "options": [ { "e": "🍳", "en": "eggs" }, { "e": "👟", "en": "shoes" }, { "e": "📚", "en": "books" } ] },
+    { "prompt_en": "Someone asks, 'Did you sleep well?' What do you say?", "prompt_ko": "'잘 잤어?'라고 물으면 뭐라고 해?", "options": [ { "e": "😊", "en": "Yes, I did!" }, { "e": "🚌", "en": "A bus." }, { "e": "🍌", "en": "A banana." } ] },
+    { "prompt_en": "What do you wash in the morning?", "prompt_ko": "아침에 뭘 씻어?", "options": [ { "e": "😀", "en": "my face" }, { "e": "🚲", "en": "my bike" }, { "e": "🎒", "en": "my bag" } ] },
+    { "prompt_en": "Ring, ring! Which one wakes you up?", "prompt_ko": "따르릉! 잠을 깨워 주는 건 어느 거야?", "options": [ { "e": "⏰", "en": "alarm clock" }, { "e": "🧸", "en": "teddy bear" }, { "e": "🍪", "en": "cookie" } ] },
+    { "prompt_en": "Listen: 'Rise and shine!' When do you hear it?", "prompt_ko": "'Rise and shine!'은 언제 듣는 말이야?", "options": [ { "e": "🌅", "en": "in the morning" }, { "e": "🌙", "en": "at night" }, { "e": "🍽️", "en": "at dinner" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Did you sleep well?'의 뜻은?", "options": ["잘 잤어?", "일찍 잤어?", "잠이 안 와?", "더 잘래?"], "explain": "sleep well은 '잘 자다'이므로 Did you sleep well?은 '잘 잤어?'입니다." },
+    { "q": "'Rise and shine!'은 언제 쓰는 말일까?", "options": ["아침에 아이를 깨울 때", "밤에 재울 때", "밥 먹기 전에", "헤어질 때"], "explain": "'일어나서 빛나라'는 뜻으로, 아침에 밝게 깨울 때 쓰는 표현입니다." },
+    { "q": "'아직 졸려.'를 자연스러운 영어로 하면?", "options": ["I'm still sleepy.", "I'm yet sleepy.", "I'm already sleepy.", "I still sleepy."], "explain": "'아직도'는 still을 be동사 뒤에 써서 I'm still sleepy.라고 합니다." },
+    { "q": "빈칸에 알맞은 말은? — Five ___ minutes!", "options": ["more", "much", "many", "most"], "explain": "'~만 더'는 숫자 + more를 써서 Five more minutes!라고 합니다." },
+    { "q": "'Did you'를 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["디쥬", "디드 유", "딧츄우", "디유"], "explain": "Did의 d와 you가 만나 '쥬' 소리가 나서 '디쥬'처럼 들립니다." },
+    { "q": "빈칸에 알맞은 말은? — Time to get ___, buddy.", "options": ["up", "on", "in", "off"], "explain": "잠자리에서 일어나는 것은 get up입니다." },
+    { "q": "'기지개 쭉 켜 봐!'에 해당하는 오늘 대본의 표현은?", "options": ["Give me a big stretch!", "Give me a big pull!", "Make a long body!", "Do a big wake!"], "explain": "stretch는 '몸을 쭉 펴기'로, Give me a big stretch!라고 합니다." },
+    { "q": "'Time's up.'의 뜻은?", "options": ["시간 다 됐어.", "시간이 일러.", "시간이 남았어.", "위를 봐."], "explain": "약속한 시간이 끝났을 때 Time's up.이라고 합니다." },
+    { "q": "'Rise and shine'을 자연스럽게 이어 말하면?", "options": ["라이즌 샤인", "라이스 앤드 샤인", "리즈 앤 신", "라이전드 샤이니"], "explain": "and가 약해져 '은'처럼 들리므로 '라이즌 샤인'이 됩니다." },
+    { "q": "'아침 뭐야?'라고 메뉴를 물을 때 알맞은 말은?", "options": ["What's for breakfast?", "What's of breakfast?", "What does breakfast?", "What's breakfast for?"], "explain": "식사 메뉴는 What's for breakfast/lunch/dinner?로 묻습니다." }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "day": 75,
+  "topic": "space",
+  "title_en": "Spacesuit",
+  "title_ko": "우주복",
+  "intro_ko": "우주 유영을 나가기 전에 우주복을 입는 놀이입니다. 큰 점퍼와 장갑, 자전거 헬멧을 우주복 삼아 하나씩 입혀 주고 가방을 산소통처럼 메게 해 보세요.",
+  "expressions": [
+    { "en": "Put on your helmet.", "ko": "헬멧 써.", "tip": "옷, 신발, 모자를 입고 쓰는 동작은 모두 put on으로 말해요. Put on your는 이어서 '푸론유어'처럼 들립니다.", "who": "parent" },
+    { "en": "Can you breathe?", "ko": "숨 쉴 수 있어?", "tip": "breathe(숨 쉬다)는 '브리드'로 길게, 끝소리는 혀를 이 사이에 두고 울려요. 명사 breath(브레스)와 구별하세요.", "who": "parent" },
+    { "en": "There's no air in space.", "ko": "우주에는 공기가 없어.", "tip": "'~이 없다'는 There's no …로 말해요. air와 in이 이어져 '에어린 스페이스'처럼 들립니다.", "who": "parent" },
+    { "en": "It keeps me safe.", "ko": "나를 안전하게 지켜 줘.", "tip": "헬멧, 안전벨트처럼 나를 보호해 주는 것에 대해 말할 때 써요. keeps me는 '킵스미'로 붙여 말합니다.", "who": "kid" },
+    { "en": "Suit up.", "ko": "장비를 갖춰 입어.", "tip": "우주복, 운동복, 보호 장비처럼 특별한 옷을 챙겨 입으라는 뜻이에요. 두 단어가 이어져 '수럽'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Astronaut, it's time for a spacewalk. Suit up!", "ko": "우주비행사님, 우주 유영 시간이에요. 우주복을 입으세요!" },
+    { "who": "kid", "en": "Yes! Where's my spacesuit?", "ko": "네! 내 우주복 어디 있어?" },
+    { "who": "parent", "en": "Right here. Legs first, then arms.", "ko": "여기 있어. 다리 먼저, 그다음에 팔." },
+    { "who": "kid", "en": "It's so big and puffy!", "ko": "엄청 크고 빵빵해!" },
+    { "who": "parent", "en": "It has to be. Now put on your helmet.", "ko": "그래야 하거든. 이제 헬멧 써." },
+    { "who": "kid", "en": "Click! My helmet is on.", "ko": "딸깍! 헬멧 썼어.", "practice": true },
+    { "who": "parent", "en": "Can you breathe?", "ko": "숨 쉴 수 있어?" },
+    { "who": "kid", "en": "Yes! I can breathe.", "ko": "응! 숨 쉴 수 있어.", "practice": true },
+    { "who": "parent", "en": "Good. Your suit has air in a tank on your back.", "ko": "좋아. 우주복 등에 있는 통에 공기가 들어 있어." },
+    { "who": "kid", "en": "Why do I need a tank?", "ko": "통이 왜 필요해?" },
+    { "who": "parent", "en": "There's no air in space.", "ko": "우주에는 공기가 없거든." },
+    { "who": "kid", "en": "No air? Not even a little?", "ko": "공기가 없어? 조금도?" },
+    { "who": "parent", "en": "Almost none. It's very hot in the sun and very cold in the shade.", "ko": "거의 없어. 그리고 햇빛을 받는 곳은 아주 뜨겁고 그늘은 아주 추워." },
+    { "who": "kid", "en": "Wow. So my suit helps me?", "ko": "우와. 그래서 우주복이 나를 도와주는 거야?" },
+    { "who": "parent", "en": "Yes. What does your suit do for you?", "ko": "맞아. 우주복이 너한테 뭘 해 주지?" },
+    { "who": "kid", "en": "It keeps me safe.", "ko": "나를 안전하게 지켜 줘.", "practice": true },
+    { "who": "parent", "en": "That's right. Are your gloves on tight?", "ko": "맞았어. 장갑은 꽉 꼈니?" },
+    { "who": "kid", "en": "Yes! Open the door, please!", "ko": "응! 문 열어 주세요!", "practice": true },
+    { "who": "parent", "en": "Opening the door. Clip your rope on first.", "ko": "문 엽니다. 먼저 줄부터 걸어." },
+    { "who": "kid", "en": "I'm floating! Look at Earth!", "ko": "나 떠 있어! 지구 좀 봐!" },
+    { "who": "parent", "en": "It's beautiful. Wave to everyone back home!", "ko": "정말 아름답다. 지구에 있는 사람들한테 손 흔들어 줘!" },
+    { "who": "kid", "en": "Hello, Earth! Can you see me?", "ko": "안녕, 지구야! 나 보여?", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "Why do astronauts wear spacesuits?", "ko": "우주비행사는 왜 우주복을 입을까?", "sample_en": "There's no air.", "sample_ko": "공기가 없으니까." },
+    { "en": "What would you do on a spacewalk?", "ko": "우주 유영을 나가면 뭐 하고 싶어?", "sample_en": "Fix the spaceship!", "sample_ko": "우주선 고치기!" },
+    { "en": "What keeps you safe on a bike?", "ko": "자전거 탈 때는 뭐가 너를 지켜 줘?", "sample_en": "My helmet!", "sample_ko": "내 헬멧!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Who wears a spacesuit?", "prompt_ko": "우주복은 누가 입어?", "options": [ { "e": "👩‍🚀", "en": "an astronaut" }, { "e": "👨‍🍳", "en": "a cook" }, { "e": "👩‍🌾", "en": "a farmer" } ] },
+    { "prompt_en": "What goes on your head in space?", "prompt_ko": "우주에서는 머리에 뭘 써?", "options": [ { "e": "⛑️", "en": "a helmet" }, { "e": "🧦", "en": "a sock" }, { "e": "🍳", "en": "a pan" } ] },
+    { "prompt_en": "What is in the tank on your back?", "prompt_ko": "등에 멘 통에는 뭐가 들어 있어?", "options": [ { "e": "💨", "en": "air" }, { "e": "🥛", "en": "milk" }, { "e": "🍿", "en": "popcorn" } ] },
+    { "prompt_en": "Listen: 'Can you breathe?' What do you breathe with?", "prompt_ko": "잘 들어 봐: 'Can you breathe?' 어디로 숨을 쉬어?", "options": [ { "e": "👃", "en": "your nose" }, { "e": "🦶", "en": "your foot" }, { "e": "👂", "en": "your ear" } ] },
+    { "prompt_en": "Why do you wear a spacesuit?", "prompt_ko": "우주복은 왜 입어?", "options": [ { "e": "🛡️", "en": "It keeps me safe." }, { "e": "🍭", "en": "It tastes good." }, { "e": "😴", "en": "It makes me sleepy." } ] },
+    { "prompt_en": "What goes on your hands?", "prompt_ko": "손에는 뭘 껴?", "options": [ { "e": "🧤", "en": "gloves" }, { "e": "👟", "en": "shoes" }, { "e": "🧢", "en": "a cap" } ] },
+    { "prompt_en": "It's time for a spacewalk. What do you say?", "prompt_ko": "우주 유영 시간이야. 뭐라고 해?", "options": [ { "e": "🚀", "en": "Suit up!" }, { "e": "🛏️", "en": "Go to bed!" }, { "e": "🍽️", "en": "Let's eat!" } ] },
+    { "prompt_en": "What do you see from space?", "prompt_ko": "우주에서 뭐가 보여?", "options": [ { "e": "🌍", "en": "Earth" }, { "e": "🏫", "en": "a school" }, { "e": "🚌", "en": "a bus" } ] },
+    { "prompt_en": "You wave to Earth. What do you say?", "prompt_ko": "지구에 손을 흔들어. 뭐라고 해?", "options": [ { "e": "👋", "en": "Hello, Earth!" }, { "e": "🍕", "en": "Pizza, please!" }, { "e": "🤧", "en": "Achoo!" } ] },
+    { "prompt_en": "Which one goes to space?", "prompt_ko": "우주로 가는 건 어느 거야?", "options": [ { "e": "🚀", "en": "a rocket" }, { "e": "🚜", "en": "a tractor" }, { "e": "⛵", "en": "a sailboat" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Suit up.'의 뜻은?", "options": ["장비를 갖춰 입어.", "정장을 벗어.", "너한테 잘 어울려.", "자리에서 일어나."], "explain": "우주복, 유니폼, 보호 장비 같은 특별한 옷을 챙겨 입으라는 뜻입니다." },
+    { "q": "'헬멧 써.'를 영어로 바르게 말하면?", "options": ["Put on your helmet.", "Wear on your helmet.", "Put your helmet.", "Take on your helmet."], "explain": "입거나 쓰는 동작은 put on으로 말합니다." },
+    { "q": "'Can you breathe?'에서 breathe의 발음에 가장 가까운 것은?", "options": ["브리드 (길게, 끝을 울려서)", "브레스", "브레드", "브리트"], "explain": "동사 breathe는 '브리드', 명사 breath는 '브레스'로 발음이 다릅니다." },
+    { "q": "빈칸에 알맞은 말은? — There's no air ___ space.", "options": ["in", "on", "at", "to"], "explain": "'우주에(서)'는 in space라고 합니다." },
+    { "q": "'It keeps me safe.'의 뜻은?", "options": ["나를 안전하게 지켜 줘.", "나를 금고에 넣어 줘.", "나를 계속 기다리게 해.", "내가 잘 보관하고 있어."], "explain": "keep + 사람 + safe는 '~를 안전하게 지켜 주다'라는 뜻입니다." },
+    { "q": "'Put on your'를 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["푸론유어", "풋 온 유어", "푸트 언 요", "푼유어"], "explain": "Put의 t가 부드러운 'ㄹ' 소리로 on과 이어져 '푸론유어'처럼 들립니다." },
+    { "q": "빈칸에 알맞은 말은? — Are your gloves on ___?", "options": ["tight", "hard", "strong", "heavy"], "explain": "on tight는 '꽉 끼게 착용한'이라는 뜻입니다." },
+    { "q": "'Suit up!'을 쓰기에 가장 알맞은 상황은?", "options": ["축구 경기 전에 유니폼과 보호대를 챙겨 입을 때", "잠자기 전에 불을 끌 때", "밥을 다 먹고 그릇을 치울 때", "책을 읽어 달라고 할 때"], "explain": "운동이나 임무를 위해 필요한 옷과 장비를 갖춰 입을 때 씁니다." },
+    { "q": "'숨 쉴 수 있어?'를 영어로 바르게 쓰면?", "options": ["Can you breathe?", "Can you breath?", "Do you can breathe?", "Can you breathing?"], "explain": "'숨 쉬다'라는 동사는 끝에 e가 붙은 breathe입니다." },
+    { "q": "'Almost none.'의 뜻은?", "options": ["거의 없어.", "거의 다 있어.", "아무도 몰라.", "하나만 있어."], "explain": "almost none은 '거의 하나도 없다'라는 뜻입니다." }
+  ]
+}

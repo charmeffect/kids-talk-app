@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 84,
+  "topic": "planes",
+  "title_en": "Packing for a trip",
+  "title_ko": "여행 짐 싸기",
+  "intro_ko": "내일 비행기를 타기 전에 아이와 함께 여행 가방을 싸는 대화입니다. 작은 가방이나 상자를 꺼내 놓고 옷과 장난감을 실제로 넣어 보며 읽어 보세요.",
+  "expressions": [
+    { "en": "Don't forget your ….", "ko": "네 … 잊지 마.", "tip": "챙겨야 할 물건을 알려 줄 때 써요. hat, water bottle 등 무엇이든 넣을 수 있고, forget your는 '포게츄어'처럼 이어집니다.", "who": "both" },
+    { "en": "Did you pack everything?", "ko": "다 챙겼어?", "tip": "pack은 가방에 짐을 '싸다, 챙기다'예요. Did you는 빠르게 '디쥬'로 이어집니다.", "who": "parent" },
+    { "en": "It won't fit.", "ko": "안 들어가.", "tip": "가방이나 상자에 물건이 들어가지 않을 때 써요. won't는 want(원트)와 달리 '워운트'로 읽습니다.", "who": "both" },
+    { "en": "Close the suitcase.", "ko": "여행 가방 닫아.", "tip": "suitcase는 '숫케이스'라고 읽어요. 여기서 close는 '닫다'라서 '클로우즈'로 읽습니다.", "who": "parent" },
+    { "en": "Good to go.", "ko": "준비 끝. / 출발해도 돼.", "tip": "모든 준비가 끝났을 때 'We're good to go.'처럼 써요. to는 약하게 '굿 터 고우'처럼 말합니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "We're flying tomorrow. Let's pack your suitcase.", "ko": "우리 내일 비행기 타. 가방 싸자." },
+    { "who": "kid", "en": "Yay! What do I need?", "ko": "야호! 뭐가 필요해?", "practice": true },
+    { "who": "parent", "en": "Clothes, pajamas and socks. Don't forget your toothbrush.", "ko": "옷, 잠옷, 양말. 칫솔도 잊지 마." },
+    { "who": "kid", "en": "Got it. Can I bring my dinosaur?", "ko": "알았어. 공룡 가져가도 돼?" },
+    { "who": "parent", "en": "Sure. But pick just one toy.", "ko": "그럼. 근데 장난감은 딱 하나만 골라." },
+    { "who": "kid", "en": "Just one? Why?", "ko": "하나만? 왜?" },
+    { "who": "parent", "en": "The suitcase is small. We can't take everything.", "ko": "가방이 작잖아. 다 가져갈 수는 없어." },
+    { "who": "kid", "en": "Then I want my big spaceship.", "ko": "그럼 큰 우주선 가져갈래." },
+    { "who": "parent", "en": "Let's try. Hmm, it won't fit.", "ko": "한번 넣어 보자. 음, 안 들어가네." },
+    { "who": "kid", "en": "It won't fit? Push harder!", "ko": "안 들어가? 더 세게 밀어 봐!", "practice": true },
+    { "who": "parent", "en": "It's too big, buddy. How about the small one?", "ko": "너무 커. 작은 건 어때?" },
+    { "who": "kid", "en": "Okay. Look, the small one fits!", "ko": "알았어. 봐, 작은 건 들어가!" },
+    { "who": "parent", "en": "Nice. Did you pack everything?", "ko": "좋아. 다 챙겼어?" },
+    { "who": "kid", "en": "Wait! My swimsuit!", "ko": "잠깐! 내 수영복!" },
+    { "who": "parent", "en": "Good thinking. Put it on top.", "ko": "잘 생각했어. 맨 위에 올려." },
+    { "who": "kid", "en": "Don't forget your sunglasses!", "ko": "엄마(아빠)도 선글라스 잊지 마!", "practice": true },
+    { "who": "parent", "en": "Oh, thanks! I almost forgot.", "ko": "아, 고마워! 깜빡할 뻔했네." },
+    { "who": "kid", "en": "Can I close it?", "ko": "내가 닫아도 돼?", "practice": true },
+    { "who": "parent", "en": "Go ahead. Close the suitcase.", "ko": "그래. 가방 닫아." },
+    { "who": "kid", "en": "It's stuck. Help me!", "ko": "안 닫혀. 도와줘!" },
+    { "who": "parent", "en": "Sit on it. One, two, three... zip!", "ko": "위에 앉아 봐. 하나, 둘, 셋... 지익!" },
+    { "who": "kid", "en": "We did it! Are we ready?", "ko": "됐다! 우리 준비 끝났어?", "practice": true },
+    { "who": "parent", "en": "Yes, we're good to go.", "ko": "응, 준비 끝이야." },
+    { "who": "kid", "en": "Airplane, here we come!", "ko": "비행기야, 우리가 간다!" }
+  ],
+  "talkMore": [
+    { "en": "What do you want to pack for a trip?", "ko": "여행 갈 때 뭘 챙기고 싶어?", "sample_en": "My toy plane!", "sample_ko": "내 장난감 비행기!" },
+    { "en": "Where do you want to fly to?", "ko": "비행기 타고 어디 가고 싶어?", "sample_en": "To the beach!", "sample_ko": "바닷가에!" },
+    { "en": "What do we need at the beach?", "ko": "바닷가에서는 뭐가 필요할까?", "sample_en": "A swimsuit and a hat.", "sample_ko": "수영복이랑 모자." }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Where do we put our clothes for a trip?", "prompt_ko": "여행 갈 때 옷은 어디에 넣어?", "options": [ { "e": "🧳", "en": "a suitcase" }, { "e": "🍳", "en": "a pan" }, { "e": "🛁", "en": "a bathtub" } ] },
+    { "prompt_en": "The toy is too big for the bag. What do you say?", "prompt_ko": "장난감이 가방보다 너무 커. 뭐라고 해?", "options": [ { "e": "😮", "en": "It won't fit." }, { "e": "😋", "en": "It's yummy." }, { "e": "😴", "en": "Good night." } ] },
+    { "prompt_en": "Which one fits in a suitcase?", "prompt_ko": "여행 가방에 들어가는 건 어느 거야?", "options": [ { "e": "👕", "en": "a T-shirt" }, { "e": "🐘", "en": "an elephant" }, { "e": "🏠", "en": "a house" } ] },
+    { "prompt_en": "What do you wear to swim?", "prompt_ko": "수영할 때는 뭘 입어?", "options": [ { "e": "🩱", "en": "a swimsuit" }, { "e": "🧥", "en": "a coat" }, { "e": "🧣", "en": "a scarf" } ] },
+    { "prompt_en": "How are we going on the trip?", "prompt_ko": "우리는 뭘 타고 여행 가?", "options": [ { "e": "✈️", "en": "by airplane" }, { "e": "🚜", "en": "by tractor" }, { "e": "🛴", "en": "by scooter" } ] },
+    { "prompt_en": "Listen: 'Don't forget your sunglasses!' Which one is it?", "prompt_ko": "잘 들어 봐: 'Don't forget your sunglasses!' 어느 거야?", "options": [ { "e": "🕶️", "en": "sunglasses" }, { "e": "🧦", "en": "socks" }, { "e": "🎩", "en": "a hat" } ] },
+    { "prompt_en": "What do you wear on your feet?", "prompt_ko": "발에는 뭘 신어?", "options": [ { "e": "🧦", "en": "socks" }, { "e": "🧢", "en": "a cap" }, { "e": "👓", "en": "glasses" } ] },
+    { "prompt_en": "Everything is ready. What do you say?", "prompt_ko": "준비가 다 됐어. 뭐라고 해?", "options": [ { "e": "👍", "en": "We're good to go." }, { "e": "😢", "en": "I'm sorry." }, { "e": "🤫", "en": "Be quiet." } ] },
+    { "prompt_en": "How many toys can you bring?", "prompt_ko": "장난감은 몇 개 가져갈 수 있어?", "options": [ { "e": "1️⃣", "en": "one" }, { "e": "5️⃣", "en": "five" }, { "e": "🔟", "en": "ten" } ] },
+    { "prompt_en": "What do you brush with a toothbrush?", "prompt_ko": "칫솔로는 뭘 닦아?", "options": [ { "e": "🦷", "en": "your teeth" }, { "e": "👟", "en": "your shoes" }, { "e": "🚗", "en": "the car" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'It won't fit.'의 뜻은?", "options": ["안 들어가.", "마음에 안 들어.", "원하지 않아.", "고장 났어."], "explain": "fit은 크기가 맞아 들어가는 것이고, won't fit은 '안 들어간다'는 뜻입니다." },
+    { "q": "'We're good to go.'는 어떤 뜻일까?", "options": ["준비 다 됐어.", "가는 게 좋겠어.", "우리는 착해서 가도 돼.", "잘 다녀와."], "explain": "good to go는 준비가 끝나서 출발해도 된다는 뜻입니다." },
+    { "q": "'다 챙겼어?'라고 물을 때 알맞은 말은?", "options": ["Did you pack everything?", "Did you packed everything?", "Do you packing everything?", "Did you pick everything?"], "explain": "Did 뒤에는 동사 원형 pack을 씁니다. pick(고르다)과 헷갈리지 마세요." },
+    { "q": "빈칸에 알맞은 말은? — Don't ___ your toothbrush.", "options": ["forget", "forgot", "forgetting", "remember"], "explain": "Don't 뒤에는 동사 원형을 써서 Don't forget your…라고 합니다." },
+    { "q": "'won't'의 알맞은 발음은?", "options": ["워운트", "원트", "웬트", "윈트"], "explain": "won't는 '워운트'로, want(원트)와 구별해서 읽어야 합니다." },
+    { "q": "'Close the suitcase.'에서 close의 발음은?", "options": ["클로우즈", "클로우스", "클로제", "클로스"], "explain": "'닫다'라는 동사 close는 끝이 z 소리인 '클로우즈'입니다." },
+    { "q": "빈칸에 알맞은 말은? — Oh, thanks! I ___ forgot.", "options": ["almost", "most", "all", "always"], "explain": "I almost forgot.은 '깜빡할 뻔했어'라는 뜻입니다." },
+    { "q": "'작은 건 어때?'라고 제안할 때 알맞은 말은?", "options": ["How about the small one?", "How is the small one?", "What about do the small one?", "How do the small one?"], "explain": "제안할 때는 How about …?을 씁니다." },
+    { "q": "아이가 '내가 닫아도 돼?'라고 물을 때 '그래, 해 봐'라는 대답은?", "options": ["Go ahead.", "Go away.", "Go back.", "Go on foot."], "explain": "Go ahead.는 '그렇게 해'라고 허락하는 말입니다." },
+    { "q": "'Good to go.'를 쓰기에 알맞은 상황은?", "options": ["신발까지 다 신고 나갈 준비가 끝났을 때", "아이가 심부름을 잘했을 때", "가기 싫다고 할 때", "길을 잃었을 때"], "explain": "모든 준비가 끝나 바로 출발할 수 있을 때 쓰는 표현입니다." }
+  ]
+}

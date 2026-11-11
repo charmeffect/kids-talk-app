@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 108,
+  "topic": "ships",
+  "title_en": "Scuba diver",
+  "title_ko": "스쿠버 다이버",
+  "intro_ko": "거실 바닥을 바다라고 하고 소파(배)에서 뛰어내려 바닷속을 탐험하는 다이버 놀이입니다. 물안경을 쓰고, 배낭을 공기통처럼 메고 팔다리로 헤엄치는 흉내를 내 보세요.",
+  "expressions": [
+    { "en": "Put on your mask.", "ko": "마스크(물안경)를 써.", "tip": "put on은 옷, 신발, 모자, 안경 등을 '입다/신다/쓰다'에 모두 써요. Put on이 이어지고 t가 부드러워져 '푸론'처럼 들립니다.", "who": "parent" },
+    { "en": "Jump in!", "ko": "뛰어들어!", "tip": "물이나 수영장에 뛰어들 때, 또는 놀이에 '어서 들어와!' 할 때 써요. '점핀'처럼 붙여 말합니다.", "who": "both" },
+    { "en": "Follow me.", "ko": "나를 따라와.", "tip": "길을 안내하거나 놀이에서 앞장설 때 쓰는 말이에요. 아이가 대장이 되어 말하게 해 보세요.", "who": "both" },
+    { "en": "Look at all the fish!", "ko": "저 물고기들 좀 봐!", "tip": "Look at all the …는 '~이 엄청 많네!' 하고 감탄할 때 써요. fish는 여러 마리여도 보통 fish라고 합니다. Look at all이 이어져 '루캐롤'처럼 들려요.", "who": "kid" },
+    { "en": "Dive right in.", "ko": "바로 뛰어들자. / 망설이지 말고 바로 시작하자.", "tip": "물에 뛰어들 때뿐 아니라 새로운 일을 망설임 없이 바로 시작할 때도 쓰는 표현이에요. right in이 이어져 '라이린'처럼 들립니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Let's be scuba divers today. Are you ready?", "ko": "오늘은 스쿠버 다이버가 되어 보자. 준비됐어?" },
+    { "who": "kid", "en": "Yes! What do we need?", "ko": "응! 뭐가 필요해?" },
+    { "who": "parent", "en": "First, put on your mask.", "ko": "먼저 마스크를 써." },
+    { "who": "kid", "en": "Why do we need a mask?", "ko": "마스크는 왜 필요해?" },
+    { "who": "parent", "en": "So we can see under the water.", "ko": "물속에서도 잘 볼 수 있게." },
+    { "who": "kid", "en": "How do we breathe?", "ko": "숨은 어떻게 쉬어?" },
+    { "who": "parent", "en": "We have air tanks on our backs.", "ko": "등에 공기통을 메고 있잖아." },
+    { "who": "kid", "en": "Okay. I'm ready!", "ko": "알았어. 준비됐어!", "practice": true },
+    { "who": "parent", "en": "Then let's dive right in. One, two, three!", "ko": "그럼 바로 뛰어들자. 하나, 둘, 셋!" },
+    { "who": "kid", "en": "Jump in!", "ko": "뛰어들어!", "practice": true },
+    { "who": "parent", "en": "Splash! The water feels nice and cool.", "ko": "풍덩! 물이 시원하고 좋다." },
+    { "who": "kid", "en": "Follow me.", "ko": "나를 따라와.", "practice": true },
+    { "who": "parent", "en": "Okay, I'm right behind you. Kick your feet.", "ko": "알았어, 바로 뒤에 있어. 발차기해." },
+    { "who": "kid", "en": "Look at all the fish!", "ko": "저 물고기들 좀 봐!", "practice": true },
+    { "who": "parent", "en": "Wow, so many colors! What's that big one?", "ko": "우와, 색깔이 정말 많다! 저 큰 건 뭐지?" },
+    { "who": "kid", "en": "It's a sea turtle!", "ko": "바다거북이야!", "practice": true },
+    { "who": "parent", "en": "It's swimming so slowly. Don't touch it, okay?", "ko": "정말 천천히 헤엄치네. 만지지는 마, 알았지?" },
+    { "who": "kid", "en": "Why not?", "ko": "왜 안 돼?" },
+    { "who": "parent", "en": "We just look. The sea is its home.", "ko": "우리는 보기만 하는 거야. 바다는 거북이의 집이니까." },
+    { "who": "kid", "en": "My air is low!", "ko": "공기가 얼마 안 남았어!" },
+    { "who": "parent", "en": "Then it's time to go up. Swim up slowly.", "ko": "그럼 올라갈 시간이야. 천천히 헤엄쳐 올라가." },
+    { "who": "kid", "en": "Why slowly?", "ko": "왜 천천히?" },
+    { "who": "parent", "en": "Divers always come up slowly. It's safer.", "ko": "다이버는 항상 천천히 올라와. 그게 더 안전하거든." },
+    { "who": "kid", "en": "We made it! Let's dive again!", "ko": "다 올라왔다! 또 잠수하자!" }
+  ],
+  "talkMore": [
+    { "en": "What do you want to see under the sea?", "ko": "바닷속에서 뭘 보고 싶어?", "sample_en": "A big whale!", "sample_ko": "커다란 고래!" },
+    { "en": "What does a diver need?", "ko": "다이버한테는 뭐가 필요해?", "sample_en": "A mask and air.", "sample_ko": "마스크랑 공기." },
+    { "en": "What would you do if you saw a shark?", "ko": "상어를 보면 어떻게 할 거야?", "sample_en": "I'd swim away slowly.", "sample_ko": "천천히 헤엄쳐서 피할 거야." }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "What does a diver put on to see under the water?", "prompt_ko": "다이버는 물속을 보려고 뭘 써?", "options": [ { "e": "🤿", "en": "a mask" }, { "e": "🧤", "en": "gloves" }, { "e": "👑", "en": "a crown" } ] },
+    { "prompt_en": "Which one is a sea turtle?", "prompt_ko": "바다거북은 어느 거야?", "options": [ { "e": "🐢", "en": "turtle" }, { "e": "🐰", "en": "rabbit" }, { "e": "🐦", "en": "bird" } ] },
+    { "prompt_en": "You want your friend to come with you. What do you say?", "prompt_ko": "친구가 같이 따라오면 좋겠어. 뭐라고 해?", "options": [ { "e": "👉", "en": "Follow me." }, { "e": "✋", "en": "Go away." }, { "e": "😴", "en": "Good night." } ] },
+    { "prompt_en": "Which one lives in the sea?", "prompt_ko": "바다에 사는 건 어느 거야?", "options": [ { "e": "🐠", "en": "a fish" }, { "e": "🐄", "en": "a cow" }, { "e": "🐔", "en": "a chicken" } ] },
+    { "prompt_en": "Listen: 'Jump in!' Where do you jump?", "prompt_ko": "잘 들어 봐: 'Jump in!' 어디로 뛰어들어?", "options": [ { "e": "🌊", "en": "into the water" }, { "e": "🌳", "en": "up a tree" }, { "e": "🛏️", "en": "under the bed" } ] },
+    { "prompt_en": "What is in the diver's tank?", "prompt_ko": "다이버의 통 안에는 뭐가 들어 있어?", "options": [ { "e": "💨", "en": "air" }, { "e": "🥛", "en": "milk" }, { "e": "🍬", "en": "candy" } ] },
+    { "prompt_en": "You see so many fish! What do you say?", "prompt_ko": "물고기가 엄청 많아! 뭐라고 해?", "options": [ { "e": "🐟", "en": "Look at the fish!" }, { "e": "🚗", "en": "Look at the car!" }, { "e": "🌙", "en": "Look at the moon!" } ] },
+    { "prompt_en": "How do divers come up?", "prompt_ko": "다이버는 어떻게 올라와?", "options": [ { "e": "🐌", "en": "slowly" }, { "e": "🚀", "en": "super fast" }, { "e": "🙃", "en": "upside down" } ] },
+    { "prompt_en": "Which one has big teeth and a fin?", "prompt_ko": "큰 이빨과 지느러미가 있는 건 어느 거야?", "options": [ { "e": "🦈", "en": "a shark" }, { "e": "🐙", "en": "an octopus" }, { "e": "🦀", "en": "a crab" } ] },
+    { "prompt_en": "We see a sea turtle. What do we do?", "prompt_ko": "바다거북을 만났어. 어떻게 해야 해?", "options": [ { "e": "👀", "en": "just look" }, { "e": "🤏", "en": "pinch it" }, { "e": "🎣", "en": "catch it" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Dive right in.'을 일상에서 비유적으로 쓰면 어떤 뜻일까?", "options": ["망설이지 말고 바로 시작하자.", "조심해서 천천히 하자.", "깊이 생각해 보자.", "오른쪽으로 들어가자."], "explain": "새로운 일을 주저 없이 바로 시작한다는 뜻이며, 여기서 right는 '바로'라는 강조입니다." },
+    { "q": "'마스크를 써.'를 영어로 하면?", "options": ["Put on your mask.", "Wear on your mask.", "Put your mask in.", "Take on your mask."], "explain": "몸에 걸치는 동작은 put on으로 표현합니다. 벗을 때는 take off예요." },
+    { "q": "빈칸에 알맞은 말은? — Look at all the ___! (물고기가 여러 마리)", "options": ["fish", "fishs", "a fish", "fishing"], "explain": "fish는 여러 마리여도 보통 그대로 fish라고 합니다." },
+    { "q": "'Put on'을 자연스럽게 이어 말하면 어떻게 들릴까?", "options": ["푸론", "풋 온", "푸톤", "풋튼"], "explain": "모음 사이의 t가 부드러운 ㄹ 소리로 바뀌어 '푸론'처럼 들립니다." },
+    { "q": "'I'm right behind you.'의 뜻은?", "options": ["바로 뒤에 있어.", "네 오른쪽에 있어.", "네가 옳아.", "나는 한참 뒤처졌어."], "explain": "여기서 right는 '오른쪽'이 아니라 '바로'라는 뜻입니다." },
+    { "q": "빈칸에 알맞은 말은? — We have air tanks ___ our backs.", "options": ["on", "in", "at", "to"], "explain": "등에 메고 있는 것은 on our backs라고 합니다." },
+    { "q": "수영장에서 아이에게 '뛰어들어!'라고 할 때 알맞은 말은?", "options": ["Jump in!", "Jump on!", "Jump up!", "Jump at!"], "explain": "물 '안으로' 뛰어드는 것이므로 in을 씁니다." },
+    { "q": "'We made it!'은 어떤 뜻일까?", "options": ["해냈다! / 무사히 도착했다!", "우리가 만들었어!", "우리가 망쳤어!", "우리 거야!"], "explain": "make it은 '(목표한 곳에) 무사히 도착하다, 해내다'라는 뜻입니다." },
+    { "q": "다음 중 'Dive right in.'을 쓰기에 가장 알맞은 상황은?", "options": ["새 퍼즐 상자를 열고 바로 시작하자고 할 때", "수영장에서 뛰지 말라고 할 때", "물이 너무 깊다고 경고할 때", "잠자리에 들 시간이라고 할 때"], "explain": "무언가를 신나게 곧바로 시작하자고 할 때 쓰는 표현입니다." },
+    { "q": "아이가 'Why not?'이라고 했을 때의 뜻은? (만지지 말라는 말을 들은 뒤)", "options": ["왜 안 돼?", "좋아, 그러자!", "왜 아무도 없어?", "아니, 싫어."], "explain": "금지하는 말 뒤의 Why not?은 '왜 안 돼?'라는 뜻입니다. 제안 뒤에 쓰면 '좋지!'라는 뜻이 돼요." }
+  ]
+}

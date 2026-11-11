@@ -1,0 +1,69 @@
+{
+  "stage": 1,
+  "day": 82,
+  "topic": "science",
+  "title_en": "Seasons",
+  "title_ko": "계절",
+  "intro_ko": "창밖으로 떨어지는 나뭇잎을 보며 사계절 이야기를 나누는 대화입니다. 계절 그림책이나 달력을 펴 놓고 봄·여름·가을·겨울을 손가락으로 짚어 가며 읽어 보세요.",
+  "expressions": [
+    { "en": "What season is it?", "ko": "지금 무슨 계절이야?", "tip": "지금이 어느 계절인지 묻는 말이에요. season is it이 이어져 '시즈니짓'처럼 들립니다.", "who": "parent" },
+    { "en": "The leaves are falling.", "ko": "나뭇잎이 떨어지고 있어.", "tip": "leaves는 leaf(잎)의 복수형으로 '리브즈'라고 읽어요. 가을 풍경을 말할 때 쓰기 좋습니다.", "who": "both" },
+    { "en": "It's getting colder.", "ko": "점점 추워지고 있어.", "tip": "'It's getting + 비교급'은 '점점 ~해진다'는 뜻이에요. getting은 미국식으로 '게링'처럼 들립니다.", "who": "both" },
+    { "en": "I like summer best.", "ko": "나는 여름이 제일 좋아.", "tip": "'I like … best'는 가장 좋아하는 것을 말할 때 써요. summer 자리에 winter, pizza 등 무엇이든 넣을 수 있어요.", "who": "kid" },
+    { "en": "Before you know it.", "ko": "눈 깜짝할 사이에. / 금방.", "tip": "'네가 알아채기도 전에', 즉 '금방'이라는 뜻이에요. 아이가 기다리기 힘들어할 때 'It'll be here before you know it.'처럼 씁니다.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Look out the window. The leaves are falling.", "ko": "창밖 좀 봐. 나뭇잎이 떨어지고 있어." },
+    { "who": "kid", "en": "Why are they falling?", "ko": "왜 떨어져?" },
+    { "who": "parent", "en": "The trees are getting ready for winter.", "ko": "나무들이 겨울 준비를 하는 거야." },
+    { "who": "kid", "en": "The leaves are falling. So many!", "ko": "나뭇잎이 떨어지고 있어. 진짜 많아!", "practice": true },
+    { "who": "parent", "en": "So, what season is it?", "ko": "그럼 지금은 무슨 계절일까?" },
+    { "who": "kid", "en": "It's fall!", "ko": "가을이야!", "practice": true },
+    { "who": "parent", "en": "That's right. And it's getting colder every day.", "ko": "맞아. 그리고 매일 점점 추워지고 있어." },
+    { "who": "kid", "en": "It's getting colder. Brr!", "ko": "점점 추워지고 있어. 으, 추워!", "practice": true },
+    { "who": "parent", "en": "What comes after fall?", "ko": "가을 다음은 뭐지?" },
+    { "who": "kid", "en": "Winter! Will it snow?", "ko": "겨울! 눈 올까?" },
+    { "who": "parent", "en": "I hope so. Then we can make a snowman.", "ko": "왔으면 좋겠다. 그럼 눈사람 만들 수 있잖아." },
+    { "who": "kid", "en": "And after winter?", "ko": "겨울 다음에는?" },
+    { "who": "parent", "en": "Spring. The flowers come back in spring.", "ko": "봄이야. 봄에는 꽃들이 다시 피어." },
+    { "who": "kid", "en": "And then summer!", "ko": "그다음은 여름!" },
+    { "who": "parent", "en": "Yes. Spring, summer, fall and winter. Four seasons.", "ko": "그래. 봄, 여름, 가을, 겨울. 사계절이야." },
+    { "who": "kid", "en": "I like summer best.", "ko": "나는 여름이 제일 좋아.", "practice": true },
+    { "who": "parent", "en": "Why do you like summer?", "ko": "여름이 왜 좋아?" },
+    { "who": "kid", "en": "I can swim every day!", "ko": "매일 수영할 수 있잖아!", "practice": true },
+    { "who": "kid", "en": "Why is summer so hot?", "ko": "여름은 왜 그렇게 더워?" },
+    { "who": "parent", "en": "We get more sunlight in summer. The days are longer, too.", "ko": "여름에는 햇빛을 더 많이 받거든. 낮도 더 길고." },
+    { "who": "kid", "en": "When is summer coming?", "ko": "여름은 언제 와?" },
+    { "who": "parent", "en": "Not for a while. But it'll be here before you know it.", "ko": "아직 멀었어. 그래도 눈 깜짝할 사이에 올 거야." },
+    { "who": "kid", "en": "I can't wait!", "ko": "빨리 왔으면 좋겠다!" }
+  ],
+  "talkMore": [
+    { "en": "Which season do you like best?", "ko": "어느 계절이 제일 좋아?", "sample_en": "I like winter best.", "sample_ko": "나는 겨울이 제일 좋아." },
+    { "en": "What do you wear in winter?", "ko": "겨울에는 뭘 입어?", "sample_en": "A coat and gloves.", "sample_ko": "코트랑 장갑." },
+    { "en": "What can we do in the fall?", "ko": "가을에는 뭘 할 수 있을까?", "sample_en": "Pick up leaves!", "sample_ko": "나뭇잎 줍기!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "In which season do the leaves fall?", "prompt_ko": "나뭇잎은 어느 계절에 떨어져?", "options": [ { "e": "🍂", "en": "fall" }, { "e": "🌸", "en": "spring" }, { "e": "🏖️", "en": "summer" } ] },
+    { "prompt_en": "Which season has snow?", "prompt_ko": "눈이 오는 계절은?", "options": [ { "e": "⛄", "en": "winter" }, { "e": "🌻", "en": "summer" }, { "e": "🌷", "en": "spring" } ] },
+    { "prompt_en": "You love summer the most. What do you say?", "prompt_ko": "여름이 제일 좋아. 뭐라고 해?", "options": [ { "e": "😎", "en": "I like summer best." }, { "e": "😴", "en": "I'm sleepy." }, { "e": "🙅", "en": "No, thank you." } ] },
+    { "prompt_en": "What comes after winter?", "prompt_ko": "겨울 다음에는 뭐가 와?", "options": [ { "e": "🌸", "en": "spring" }, { "e": "🍂", "en": "fall" }, { "e": "🌙", "en": "night" } ] },
+    { "prompt_en": "Listen: 'It's getting colder.' What do you put on?", "prompt_ko": "잘 들어 봐: 'It's getting colder.' 뭘 입어야 할까?", "options": [ { "e": "🧥", "en": "a coat" }, { "e": "🩳", "en": "shorts" }, { "e": "🕶️", "en": "sunglasses" } ] },
+    { "prompt_en": "How many seasons are there?", "prompt_ko": "계절은 몇 개야?", "options": [ { "e": "4️⃣", "en": "four" }, { "e": "2️⃣", "en": "two" }, { "e": "9️⃣", "en": "nine" } ] },
+    { "prompt_en": "What can you make with snow?", "prompt_ko": "눈으로 뭘 만들 수 있어?", "options": [ { "e": "⛄", "en": "a snowman" }, { "e": "🍕", "en": "a pizza" }, { "e": "🚀", "en": "a rocket" } ] },
+    { "prompt_en": "What comes back in spring?", "prompt_ko": "봄에는 뭐가 다시 와?", "options": [ { "e": "🌷", "en": "flowers" }, { "e": "❄️", "en": "snow" }, { "e": "🎃", "en": "pumpkins" } ] },
+    { "prompt_en": "What is falling from the trees?", "prompt_ko": "나무에서 뭐가 떨어지고 있어?", "options": [ { "e": "🍁", "en": "leaves" }, { "e": "🐟", "en": "fish" }, { "e": "🧦", "en": "socks" } ] },
+    { "prompt_en": "What makes summer hot?", "prompt_ko": "여름은 뭐 때문에 더울까?", "options": [ { "e": "☀️", "en": "more sunlight" }, { "e": "🌙", "en": "the moon" }, { "e": "🌬️", "en": "cold wind" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'It's getting colder.'의 뜻은?", "options": ["점점 추워지고 있어.", "감기에 걸렸어.", "아주 추웠어.", "차가운 걸 가져올게."], "explain": "'It's getting + 비교급'은 '점점 더 ~해지다'라는 뜻입니다." },
+    { "q": "'Before you know it.'은 어떤 뜻일까?", "options": ["눈 깜짝할 사이에", "네가 알기 전에는 안 돼", "미리 알아 둬야 해", "아무도 모르게"], "explain": "'알아채기도 전에', 즉 '금방'이라는 뜻의 표현입니다." },
+    { "q": "'지금 무슨 계절이야?'라고 묻는 자연스러운 말은?", "options": ["What season is it?", "What season it is?", "How season is it?", "Which is season?"], "explain": "What time is it?처럼 What season is it?의 어순으로 묻습니다." },
+    { "q": "빈칸에 알맞은 말은? — I like summer ___.", "options": ["best", "good", "well", "most of"], "explain": "'가장 좋아하다'는 like … best라고 말합니다." },
+    { "q": "빈칸에 알맞은 말은? — The leaves ___ falling.", "options": ["are", "is", "be", "does"], "explain": "leaves는 복수이므로 are를 씁니다." },
+    { "q": "미국에서 '가을'을 뜻하는 일상적인 단어는?", "options": ["fall", "drop", "down", "leaf"], "explain": "미국에서는 가을을 autumn보다 fall이라고 더 자주 말합니다." },
+    { "q": "'getting'을 미국식으로 자연스럽게 말하면 어떻게 들릴까?", "options": ["게링", "게트팅", "겟팅그", "지팅"], "explain": "모음 사이의 t가 부드러워져 '게링'처럼 들립니다." },
+    { "q": "아이가 '여름 언제 와?' 하고 조를 때 알맞은 대답은?", "options": ["It'll be here before you know it.", "It'll be here before you see.", "It was here before you know.", "It's here after you know it."], "explain": "'금방 올 거야'는 It'll be here before you know it.이라고 합니다." },
+    { "q": "'I can't wait!'은 어떤 뜻일까?", "options": ["빨리 그날이 왔으면 좋겠어!", "나는 기다릴 시간이 없어.", "기다리면 안 돼.", "기다리기 싫어서 안 할래."], "explain": "너무 기대돼서 기다리기 힘들다는 뜻의 신나는 표현입니다." },
+    { "q": "빈칸에 알맞은 말은? — The trees are getting ___ for winter.", "options": ["ready", "already", "read", "really"], "explain": "get ready for는 '~을 준비하다'라는 뜻입니다." }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "stage": 1,
+  "day": 105,
+  "topic": "space",
+  "title_en": "Why the moon looks different",
+  "title_ko": "달 모양이 달라 보여요",
+  "intro_ko": "창가에서 반달을 보며 이야기하는 상황입니다. 방을 어둡게 하고 공에 손전등을 비춰 보세요. 옆에서 비추면 반달, 아이 등 뒤쪽에서 비추면 보름달처럼 보입니다.",
+  "expressions": [
+    { "en": "The moon looks different.", "ko": "달이 달라 보여.", "tip": "평소와 달라 보일 때 '~ looks different'를 써요. 머리를 자른 사람에게 'You look different.'라고도 합니다.", "who": "kid" },
+    { "en": "Where's the other half?", "ko": "나머지 반쪽은 어디 있어?", "tip": "the other half는 '나머지 반쪽'이에요. half의 l은 소리 나지 않아 '해프'라고 말합니다.", "who": "kid" },
+    { "en": "It's still there.", "ko": "아직 거기 있어.", "tip": "안 보여도 없어진 게 아니라고 말할 때 써요. still을 조금 힘주어 말하면 '여전히'라는 느낌이 살아납니다.", "who": "both" },
+    { "en": "It's a full moon!", "ko": "보름달이다!", "tip": "보름달은 full moon, 반달은 half moon이에요. It's a가 이어져 '잇처 풀 문'처럼 들립니다.", "who": "both" },
+    { "en": "Once in a blue moon.", "ko": "아주 가끔. / 어쩌다 한 번.", "tip": "아주 드물게 일어나는 일을 말하는 표현이에요. 달이 정말 파랗다는 뜻은 아닙니다. Once in a가 이어져 '원씨너'처럼 들려요.", "who": "parent" }
+  ],
+  "script": [
+    { "who": "parent", "en": "Come to the window. Look at the moon tonight.", "ko": "창가로 와 봐. 오늘 밤 달을 봐." },
+    { "who": "kid", "en": "The moon looks different.", "ko": "달이 달라 보여.", "practice": true },
+    { "who": "parent", "en": "You're right. It's not round tonight.", "ko": "맞아. 오늘은 동그랗지 않네." },
+    { "who": "kid", "en": "Where's the other half?", "ko": "나머지 반쪽은 어디 있어?", "practice": true },
+    { "who": "parent", "en": "It's still there. We just can't see it.", "ko": "아직 거기 있어. 우리 눈에 안 보일 뿐이야." },
+    { "who": "kid", "en": "It's still there? Is it hiding?", "ko": "아직 있어? 숨은 거야?", "practice": true },
+    { "who": "parent", "en": "No. The sun lights up one side of the moon.", "ko": "아니. 해가 달의 한쪽 면을 비추고 있어." },
+    { "who": "kid", "en": "Only one side?", "ko": "한쪽만?" },
+    { "who": "parent", "en": "Yes. Tonight we see just half of the bright side.", "ko": "응. 오늘 밤엔 그 밝은 쪽의 반만 보이는 거야." },
+    { "who": "kid", "en": "Did someone take a bite?", "ko": "누가 한 입 먹은 거야?" },
+    { "who": "parent", "en": "Ha! Nobody did. The moon is always a whole ball.", "ko": "하하! 아무도 안 먹었어. 달은 언제나 온전한 공 모양이야." },
+    { "who": "kid", "en": "Really? Show me!", "ko": "진짜? 보여 줘!" },
+    { "who": "parent", "en": "Okay. This ball is the moon. My flashlight is the sun.", "ko": "좋아. 이 공이 달이고, 내 손전등이 해야." },
+    { "who": "kid", "en": "I see a half moon!", "ko": "반달이 보여!" },
+    { "who": "parent", "en": "Now I'll move the light. What do you see?", "ko": "이제 불빛을 옮겨 볼게. 뭐가 보여?" },
+    { "who": "kid", "en": "It's a full moon!", "ko": "보름달이다!", "practice": true },
+    { "who": "parent", "en": "See? The ball didn't change. We just see more of the bright side.", "ko": "봤지? 공은 그대로야. 밝은 쪽이 더 많이 보이는 거야." },
+    { "who": "kid", "en": "When is the real full moon?", "ko": "진짜 보름달은 언제 떠?" },
+    { "who": "parent", "en": "In about a week. Let's look every night.", "ko": "일주일쯤 뒤에. 매일 밤 같이 보자." },
+    { "who": "kid", "en": "Can we stay up late?", "ko": "늦게까지 안 자도 돼?" },
+    { "who": "parent", "en": "Just tonight. We do this once in a blue moon.", "ko": "오늘만이야. 이런 건 어쩌다 한 번 하는 거야." },
+    { "who": "kid", "en": "What's a blue moon?", "ko": "블루문이 뭐야?" },
+    { "who": "parent", "en": "It means 'almost never.' The moon isn't really blue.", "ko": "'거의 없는 일'이라는 뜻이야. 달이 진짜 파란 건 아니야." },
+    { "who": "kid", "en": "Okay. Good night, moon!", "ko": "알았어. 달님, 잘 자!", "practice": true }
+  ],
+  "talkMore": [
+    { "en": "What does the moon look like tonight?", "ko": "오늘 밤 달은 뭐처럼 생겼어?", "sample_en": "Like a banana!", "sample_ko": "바나나 같아!" },
+    { "en": "What would you do on the moon?", "ko": "달에 가면 뭘 하고 싶어?", "sample_en": "Jump really high!", "sample_ko": "엄청 높이 뛸 거야!" },
+    { "en": "Which do you like better, a full moon or a half moon?", "ko": "보름달이랑 반달 중에 뭐가 더 좋아?", "sample_en": "A full moon!", "sample_ko": "보름달!" }
+  ],
+  "kidQuiz": [
+    { "prompt_en": "Which one is a full moon?", "prompt_ko": "보름달은 어느 거야?", "options": [ { "e": "🌕", "en": "full moon" }, { "e": "🌓", "en": "half moon" }, { "e": "⭐", "en": "star" } ] },
+    { "prompt_en": "Which one is a half moon?", "prompt_ko": "반달은 어느 거야?", "options": [ { "e": "🌓", "en": "half moon" }, { "e": "🌕", "en": "full moon" }, { "e": "☀️", "en": "sun" } ] },
+    { "prompt_en": "What lights up the moon?", "prompt_ko": "달을 비추는 건 뭐야?", "options": [ { "e": "☀️", "en": "the sun" }, { "e": "🕯️", "en": "a candle" }, { "e": "💡", "en": "a lamp" } ] },
+    { "prompt_en": "What shape is the moon, really?", "prompt_ko": "달은 진짜로 어떤 모양이야?", "options": [ { "e": "⚽", "en": "a ball" }, { "e": "📦", "en": "a box" }, { "e": "🍌", "en": "a banana" } ] },
+    { "prompt_en": "The moon is round and bright. What do you say?", "prompt_ko": "달이 동그랗고 환해. 뭐라고 해?", "options": [ { "e": "🌕", "en": "It's a full moon!" }, { "e": "🌧️", "en": "It's raining!" }, { "e": "🍳", "en": "It's breakfast!" } ] },
+    { "prompt_en": "The moon is not round tonight. What do you say?", "prompt_ko": "오늘은 달이 동그랗지 않아. 뭐라고 해?", "options": [ { "e": "🤔", "en": "The moon looks different." }, { "e": "🐶", "en": "I see a dog." }, { "e": "😋", "en": "I'm hungry." } ] },
+    { "prompt_en": "In our game, what was the sun?", "prompt_ko": "놀이에서 해 역할은 뭐였지?", "options": [ { "e": "🔦", "en": "the flashlight" }, { "e": "🥄", "en": "a spoon" }, { "e": "🧦", "en": "a sock" } ] },
+    { "prompt_en": "When did we look at the moon?", "prompt_ko": "우리는 언제 달을 봤지?", "options": [ { "e": "🌃", "en": "at night" }, { "e": "🍽️", "en": "at lunch" }, { "e": "🏫", "en": "at school" } ] },
+    { "prompt_en": "You see only half of the moon. What do you ask?", "prompt_ko": "달이 반쪽만 보여. 뭐라고 물어봐?", "options": [ { "e": "🌓", "en": "Where's the other half?" }, { "e": "🚗", "en": "Where's my car?" }, { "e": "🎒", "en": "Where's my bag?" } ] },
+    { "prompt_en": "You go to bed. What do you say to the moon?", "prompt_ko": "자러 갈 때 달님한테 뭐라고 해?", "options": [ { "e": "🌙", "en": "Good night, moon!" }, { "e": "🌞", "en": "Good morning!" }, { "e": "🍴", "en": "Let's eat!" } ] }
+  ],
+  "parentQuiz": [
+    { "q": "'Once in a blue moon.'의 뜻은?", "options": ["아주 가끔, 어쩌다 한 번.", "달이 파랗게 뜨는 밤에.", "한 달에 한 번씩.", "옛날 옛적에."], "explain": "아주 드물게 일어나는 일을 말할 때 쓰는 관용 표현입니다." },
+    { "q": "달의 모양이 날마다 다르게 보이는 이유는?", "options": ["햇빛을 받는 면이 보이는 정도가 달라져서", "달이 실제로 커졌다 작아졌다 해서", "구름이 달의 일부를 가려서", "달이 스스로 내는 빛이 약해져서"], "explain": "달은 늘 공 모양이고 반쪽이 햇빛을 받는데, 지구에서 그 밝은 면이 보이는 양이 달라집니다." },
+    { "q": "'나머지 반쪽은 어디 있어?'에 알맞은 말은?", "options": ["Where's the other half?", "Where's another half?", "Where's the half other?", "Where's other the half?"], "explain": "둘 중 나머지 하나는 the other를 써서 the other half라고 합니다." },
+    { "q": "'half'의 발음으로 알맞은 것은?", "options": ["해프", "할프", "헬프", "하을프"], "explain": "half의 l은 소리 나지 않아 '해프'라고 발음합니다." },
+    { "q": "'It's still there.'의 뜻은?", "options": ["아직 거기 있어.", "거기 가만히 있어.", "이제 거기 없어.", "벌써 거기 갔어."], "explain": "여기서 still은 '아직, 여전히'라는 뜻입니다." },
+    { "q": "빈칸에 알맞은 말은? — The sun ___ up one side of the moon.", "options": ["lights", "turns", "fires", "sees"], "explain": "light up은 '~을 환하게 비추다'라는 뜻입니다." },
+    { "q": "빈칸에 알맞은 말은? — Can we stay ___ late?", "options": ["up", "on", "out of", "over"], "explain": "stay up late는 '늦게까지 안 자고 깨어 있다'라는 뜻입니다." },
+    { "q": "'우리는 외식을 아주 가끔 해.'에 알맞은 말은?", "options": ["We eat out once in a blue moon.", "We eat out once a blue moon.", "We eat out one in a blue moon.", "We eat out once in blue moons."], "explain": "once in a blue moon을 통째로 문장 끝에 붙여 씁니다." },
+    { "q": "'The moon looks different.'의 뜻은?", "options": ["달이 달라 보여.", "달이 다른 곳을 봐.", "달이 어려워 보여.", "달이 멀리 보여."], "explain": "look + 형용사는 '~해 보이다'라는 뜻입니다." },
+    { "q": "'보름달'은 영어로?", "options": ["full moon", "whole moon", "round moon", "big moon"], "explain": "보름달은 full moon, 반달은 half moon이라고 합니다." }
+  ]
+}
